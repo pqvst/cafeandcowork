@@ -322,7 +322,20 @@
     "type": "Cafe",
     "area": "Akasaka",
     "google_maps": "https://goo.gl/maps/U3oYJAQVDuFPvQAA6",
-    "coordinates": "35.6728203,139.7371559"
+    "coordinates": "35.6728203,139.7371559",
+    "wifi": 4,
+    "power": 3,
+    "seats": 3,
+    "comfort": 3,
+    "quiet": 3,
+    "food": 3,
+    "drinks": 3,
+    "price": 3,
+    "view": 3,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   },
   {
     "name": "Tenoha Bondolfi Boncaffe",
