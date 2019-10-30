@@ -837,5 +837,28 @@
     "area": "Shibuya",
     "google_maps": "https://goo.gl/maps/Be6fuXtFpxQGJsW27",
     "coordinates": "35.6667081,139.7042399"
+  },
+  {
+    "name": "STATION WORK Shinjuku Station New South Exit",
+    "type": "Booth",
+    "area": "Shinjuku",
+    "google_maps": "https://goo.gl/maps/XYJFr8uPpEPDpsKL6",
+    "coordinates": "35.6887949,139.700285",
+    "wifi": 5,
+    "power": 5,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 0,
+    "food": 0,
+    "price": 2,
+    "view": 0,
+    "toilets": 0,
+    "hours": "07:00-21:30",
+    "music": false,
+    "smoking": false,
+    "time_limit": true,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
