@@ -836,7 +836,18 @@
     "type": "Cafe",
     "area": "Shibuya",
     "google_maps": "https://goo.gl/maps/Be6fuXtFpxQGJsW27",
-    "coordinates": "35.6667081,139.7042399"
+    "coordinates": "35.6667081,139.7042399",
+    "wifi": 3,
+    "power": 5,
+    "seats": 2,
+    "comfort": 3,
+    "quiet": 3,
+    "view": 3,
+    "music": false,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   },
   {
     "name": "STATION WORK Shinjuku Station New South Exit",
