@@ -20,14 +20,15 @@
     "hours": "10-18",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6333455,139.7144"
   },
   {
     "name": "Yahoo LODGE",
     "type": "Coworking Space",
     "location": "Nagatacho",
     "google_maps": "https://goo.gl/maps/CDe9RscasXtXpzCr5",
-    "station": ["Y16", "Z04", "N07", "G05", "M13"],
+    "station": "Y16,Z04,N07,G05,M13",
     "wifi": 5,
     "power": 5,
     "seats": 4,
@@ -43,14 +44,15 @@
     "hours": "9-21",
     "time_limit": false,
     "standing_tables": true,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6797349,139.7348855"
   },
   {
     "name": "Nagatacho GRID",
     "type": "Coworking Space",
     "location": "Nagatacho",
     "google_maps": "https://goo.gl/maps/GXyVpZFemXFZdGri8",
-    "station": ["Y16", "Z04", "N07", "G05", "M13"],
+    "station": "Y16,Z04,N07,G05,M13",
     "wifi": 5,
     "power": 4,
     "seats": 3,
@@ -66,7 +68,8 @@
     "hours": "9-23",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.679827,139.7374163"
   },
   {
     "name": "the SNACK",
@@ -88,14 +91,15 @@
     "time_limit": true,
     "standing_tables": false,
     "outdoor_seating": false,
-    "closed": true
+    "closed": true,
+    "coordinates": "35.670171,139.7595863"
   },
   {
     "name": "FREEMAN Cafe",
     "type": "Cafe",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/Hhos4c1nFVopSonu9",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 3,
     "power": 4,
     "seats": 4,
@@ -111,14 +115,15 @@
     "hours": "10-23",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6615348,139.7005439"
   },
   {
     "name": "FabCafe",
     "type": "Cafe",
     "location": "Shibuya",
     "google_maps": "https://g.page/fabcafetokyo?share",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 5,
     "power": 5,
     "seats": 5,
@@ -134,14 +139,15 @@
     "hours": "10-22",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.656063,139.6933023"
   },
   {
     "name": "TRUNK Hotel",
     "type": "Lobby",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/vXirRuykPmE2Zpte8",
-    "station": ["JY20", "G01", "Z01", "F16", "C03", "F15", "JY19"],
+    "station": "JY20,G01,Z01,F16,C03,F15,JY19",
     "wifi": 5,
     "power": 5,
     "seats": 4,
@@ -157,14 +163,15 @@
     "hours": "00-00",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6642386,139.701675"
   },
   {
     "name": "Caffice",
     "type": "Cafe",
     "location": "Shinjuku",
     "google_maps": "https://g.page/Caffice?share",
-    "station": ["JY17", "M08"],
+    "station": "JY17,M08",
     "wifi": 5,
     "power": 5,
     "seats": 4,
@@ -180,14 +187,15 @@
     "hours": "10-23",
     "time_limit": true,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.688716,139.7008353"
   },
   {
     "name": "X-mobile Cafe",
     "type": "Cafe",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/3QmKTnCNAWQqPXXZ8",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 5,
     "power": 5,
     "seats": 5,
@@ -203,14 +211,15 @@
     "hours": "10-21",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6571126,139.7021567"
   },
   {
     "name": "DEAN & DELUCA CAFÉ Shibuya Stream",
     "type": "Cafe",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/atKy8wQDm5KNXDuDA",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 2,
     "power": 2,
     "seats": 3,
@@ -231,14 +240,15 @@
       "Counter seats have power.",
       "Busy during peak hours.",
       "Toilets outside venue."
-    ]
+    ],
+    "coordinates": "35.6569688,139.7028353"
   },
   {
-    "name": "Starbucks Coffee @Shibuya Stream",
+    "name": "STARBUCKS COFFEE @Shibuya Stream",
     "type": "Cafe",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/2uKpYHMWBLT5EFhp9",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 5,
     "power": 2,
     "seats": 3,
@@ -258,14 +268,15 @@
     "notes": [
       "Busy during peak hours.",
       "Toilets outside venue."
-    ]
+    ],
+    "coordinates": "35.6571126,139.7027039"
   },
   {
     "name": "DAZN CIRCLE",
     "type": "Event Space",
     "location": "Shibuya",
     "google_maps": "https://goo.gl/maps/yyuiNDSzHZmSDZCN9",
-    "station": ["JY20", "G01", "Z01", "F16"],
+    "station": "JY20,G01,Z01,F16",
     "wifi": 4,
     "power": 3,
     "seats": 4,
@@ -281,7 +292,8 @@
     "hours": "9-23",
     "time_limit": false,
     "standing_tables": true,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6617891,139.6934701"
   },
   {
     "name": "Mercedes DOWNSTAIRS COFFEE",
@@ -302,26 +314,30 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6660072,139.725989"
   },
   {
     "name": "Unir Akasaka",
     "type": "Cafe",
-    "location": "Shibuya",
-    "google_maps": "https://goo.gl/maps/U3oYJAQVDuFPvQAA6"
+    "location": "Akasaka",
+    "google_maps": "https://goo.gl/maps/U3oYJAQVDuFPvQAA6",
+    "coordinates": "35.6728203,139.7371559"
   },
   {
     "name": "Tenoha Bondolfi Boncaffe",
     "type": "Cafe",
     "location": "Daikanyama",
     "google_maps": "https://goo.gl/maps/nkG7jcrstSK7vKVG9",
-    "closed": true
+    "closed": true,
+    "coordinates": "35.6484141,139.6934863"
   },
   {
     "name": "WGT weekend garage tokyo",
     "type": "Cafe",
     "location": "Shibuya",
-    "google_maps": "https://goo.gl/maps/TTWfuy6LeD5kpAjf8"
+    "google_maps": "https://goo.gl/maps/TTWfuy6LeD5kpAjf8",
+    "coordinates": "35.652762,139.7036763"
   },
   {
     "name": "Cafe Mame-Hico Koen-dori shop",
@@ -341,7 +357,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6617645,139.6931459"
   },
   {
     "name": "Island vintage coffee",
@@ -361,7 +378,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6664913,139.7071731"
   },
   {
     "name": "Hands Cafe Shibuya",
@@ -381,7 +399,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6620796,139.6958014"
   },
   {
     "name": "Living Room Cafe by eplus",
@@ -401,7 +420,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.659527,139.696124"
   },
   {
     "name": "STARBUCKS COFFEE Shibuya Modi Shop",
@@ -418,13 +438,15 @@
     "price": 4,
     "view": 0,
     "toilets": 1,
+    "music": true,
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6614498,139.6983341"
   },
   {
-    "name": "Starbucks Meguro Central Square",
+    "name": "STARBUCKS COFFEE Meguro Central Square",
     "type": "Cafe",
     "location": "Meguro",
     "google_maps": "https://goo.gl/maps/EPcnnm64PTSMred17",
@@ -438,10 +460,12 @@
     "price": 4,
     "view": 3,
     "toilets": 2,
+    "music": true,
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.633888,139.7158331"
   },
   {
     "name": "Commune 2nd",
@@ -462,7 +486,8 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
-    "closed": true
+    "closed": true,
+    "coordinates": "35.6656371,139.7111321"
   },
   {
     "name": "Shin-Marunouchi Terrace",
@@ -483,7 +508,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6798374,139.7643729"
   },
   {
     "name": "Marunouchi Reading Style",
@@ -504,7 +530,8 @@
     "smoking": false,
     "time_limit": true,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6798374,139.7643729"
   },
   {
     "name": "hotel koe tokyo",
@@ -523,7 +550,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6615444,139.6965152"
   },
   {
     "name": "STARBUCKS COFFEE Shibuya cocoti store",
@@ -544,7 +572,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6614311,139.6991223"
   },
   {
     "name": "Fuglen Tokyo",
@@ -563,7 +592,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6666375,139.6902517"
   },
   {
     "name": "Beasty Coffee [cafe laboratory]",
@@ -583,7 +613,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6656412,139.6906573"
   },
   {
     "name": "STARBUCKS COFFEE Shibuya Mark City",
@@ -604,7 +635,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6582842,139.6988702"
   },
   {
     "name": "café 1886 at Bosch",
@@ -623,7 +655,8 @@
     "hours": "08:30-20:00",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.657922,139.703672"
   },
   {
     "name": "The Deck Coffee & Pie",
@@ -643,10 +676,11 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6701253,139.7050667"
   },
   {
-    "name": "Cafe Bingsu",
+    "name": "Cafe de Bingsu",
     "type": "Cafe",
     "location": "Shin Okubo",
     "google_maps": "https://g.page/cafedebingsu?share",
@@ -663,7 +697,8 @@
     "hours": "10:00-23:30",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.701413,139.7002823"
   },
   {
     "name": "café du riche",
@@ -683,13 +718,15 @@
     "hours": "09:00-23:00",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6894898,139.6958184"
   },
   {
     "name": "10° Cafe",
     "type": "Cafe",
     "location": "Takadanobaba",
-    "google_maps": "https://g.page/10docafe?share"
+    "google_maps": "https://g.page/10docafe?share",
+    "coordinates": "35.7147514,139.7033088"
   },
   {
     "name": "Ebisu Container Cafe",
@@ -710,7 +747,8 @@
     "hours": "09-21",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.6464405,139.7076684"
   },
   {
     "name": "EBISU FOOD HALL",
@@ -732,7 +770,8 @@
     "hours": "08-00",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "coordinates": "35.646447,139.7061138"
   },
   {
     "name": "STARBUCKS COFFEE Ebisu Union BLDG. Shop",
@@ -745,6 +784,7 @@
     "comfort": 3,
     "drinks": 4,
     "food": 3,
+    "quiet": 4,
     "price": 4,
     "view": 1,
     "toilets": 3,
@@ -752,7 +792,8 @@
     "smoking": false,
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6465146,139.7076175"
   },
   {
     "name": "Time Out",
@@ -773,18 +814,28 @@
     "hours": "11:30-23:30",
     "time_limit": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "coordinates": "35.6477366,139.7096713"
   },
   {
     "name": "WIRED CAFE",
     "type": "Cafe",
     "location": "Gotanda",
-    "google_maps": "https://goo.gl/maps/9BvgShstSMQAB8aj6"
+    "google_maps": "https://goo.gl/maps/9BvgShstSMQAB8aj6",
+    "coordinates": "35.6261275,139.7228793"
   },
   {
     "name": "STARBUCKS COFFEE Tokyo Midtown Shop",
     "type": "Cafe",
     "location": "Roppongi",
-    "google_maps": "https://goo.gl/maps/GiVJh5Xa78eVkDEm7"
+    "google_maps": "https://goo.gl/maps/GiVJh5Xa78eVkDEm7",
+    "coordinates": "35.6647621,139.7281753"
+  },
+  {
+    "name": "Niko and ... TOKYO",
+    "type": "Cafe",
+    "location": "Shibuya",
+    "google_maps": "https://goo.gl/maps/Be6fuXtFpxQGJsW27",
+    "coordinates": "35.6667081,139.7042399"
   }
 ]
