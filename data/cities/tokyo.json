@@ -682,7 +682,7 @@
   {
     "name": "Cafe de Bingsu",
     "type": "Cafe",
-    "area": "Shin Okubo",
+    "area": "Shin-Okubo",
     "google_maps": "https://g.page/cafedebingsu?share",
     "wifi": 5,
     "power": 3,
@@ -703,7 +703,7 @@
   {
     "name": "café du riche",
     "type": "Cafe",
-    "area": "Shin Okubo",
+    "area": "Shin-Okubo",
     "google_maps": "https://goo.gl/maps/F8gJupUBkUcw4GSD9",
     "wifi": 5,
     "power": 4,
