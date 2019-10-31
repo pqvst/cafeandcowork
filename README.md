@@ -1,4 +1,4 @@
-# Best Places to Work
+# Places to Work
 Create one JSON file per city.
 
 ## Tips
