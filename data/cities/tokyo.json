@@ -912,7 +912,7 @@
     "type": "Cafe",
     "area": "Bunkyo",
     "google_maps": "https://goo.gl/maps/RZvBGg1VAJARdcfY6",
-    "coordinates": "35.7076784,139.7473918",
+    "coordinates": "35.702937,139.754720",
     "wifi": 5,
     "wifi_speed": 45,
     "power": 2,
@@ -979,6 +979,7 @@
     "hours": "08:00-22:00",
     "music": true,
     "smoking": false,
+    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   }
