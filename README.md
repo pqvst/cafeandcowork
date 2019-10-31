@@ -12,15 +12,15 @@ Create one JSON file per city.
 - `area`: general area name
 - `google_maps`: google maps short link
 - `coordinates`: location `<lat>,<lng>` (decimal)
-- `station`: list station IDs (see below)
+- `station`: list station names/ids, comma separated (see below)
 - `wifi`: how is the wifi speed, quality, and stability? (`0` = no wifi, `5` = best)
 - `power`: how many power outlets are there? (`0` = no power outlets, `5` = best)
-- `seats`: how easy is it to find a seat?
-- `comfort`: how comfortable are the seating options?
-- `quiet`: how quiet is the space?
+- `seats`: how easy is it to find a seat? (`1` = very busy/difficult to get a seat, `5` = very easy to get a seat)
+- `comfort`: how comfortable are the seating options? (`1` = very uncomfortable, `5` = very comfortable/ergonomic)
+- `quiet`: how quiet is the space? (`1` = very noisy, `5` = very quiet)
 - `food`: how is the food quality and selection? (`0` = no food, `5` = best)
 - `drinks`: how is the drink quality and selection? (`0` = no drinks, `5` = best)
-- `price`: how are the prices?
+- `price`: how are the prices? (`1` = very expensive, `5` = very cheap/free)
 - `view`: how is the view? (`0` = no view/windows, `5` = best)
 - `toilets`: how is the toilet? (`0` = no toilets available, `5` = best)
 - `music`: is there music playing? (`true` or `false`)
@@ -45,7 +45,7 @@ tokyo.json:
     "area": "Meguro",
     "google_maps": "https://goo.gl/maps/h2FiX7CnMEs5TZ5b6",
     "coordinates": "35.6333455,139.7144",
-    "station": "JY22",
+    "station": "JY22,G01",
     "wifi": 5,
     "power": 5,
     "seats": 5,
