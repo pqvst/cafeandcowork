@@ -20,9 +20,9 @@
 
     <div class="wrap">
       <div id="app">
-          
+
         <header>
-          <h1><i class="fa fa-wifi"></i> Work in <b>{{page.title}}</b></h1> 
+          <h1><i class="fa fa-wifi"></i> Work in <b>{{page.title}}</b></h1>
           {% raw %}
           <a class="github" v-bind:href="url" target="_blank">Contribute on GitHub <i class="fa fa-github"></i></a>
           {% endraw %}
@@ -35,6 +35,7 @@
           <a href="/london">London 🇬🇧</a>
           <a href="/san-francisco">San Francisco 🇺🇸</a>
           <a href="/hanoi">Hanoi 🇻🇳</a>
+          <a href="/paris">Paris 🇫🇷</a>
         </nav>
 
         <div class="map">
@@ -106,11 +107,11 @@
           </table>
         </div>
       </div>
-      
+
       <script type="text/x-template" id="flag-template">
         <span v-bind:class="color">{{text}}</span>
       </script>
-      
+
       <script type="text/x-template" id="attribute-template">
         <span v-bind:class="color">
           <template v-if="value != null">
@@ -123,11 +124,11 @@
           </template>
         </span>
       </script>
-      
+
       <footer>
-        Copyright &copy; 2019  
+        Copyright &copy; 2019
       </footer>
-      
+
     </div>
     {% endraw %}
 
