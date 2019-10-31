@@ -1,0 +1,20 @@
+encoding: UTF-8
+
+title: Places to Work
+description: A collaborative collection of places to work in various cities
+repo: https://github.com/pqvst/places-to-work
+
+exclude:
+  - .git/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - scripts/node_modules
+
+collections:
+  cities:
+    output: true
+
+plugins: 
+  - jekyll-redirect-from
