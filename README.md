@@ -1,5 +1,5 @@
 # Places to Work
-Create one JSON file per city.
+One [JSON file](data/cities) per city. Pull requests welcome!
 
 ## Tips
 - Before adding a new place, make sure to search to check that it doesn't already exist
