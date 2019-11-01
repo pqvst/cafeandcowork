@@ -14,6 +14,7 @@ Create one JSON file per city.
 - `coordinates`: location `<lat>,<lng>` (decimal)
 - `station`: list station names/ids, comma separated (see below)
 - `wifi`: how is the wifi speed, quality, and stability? (`0` = no wifi, `5` = best)
+- `speed`: wifi download speed (Mbps) e.g. using fast.com
 - `power`: how many power outlets are there? (`0` = no power outlets, `5` = best)
 - `seats`: how easy is it to find a seat? (`1` = very busy/difficult to get a seat, `5` = very easy to get a seat)
 - `comfort`: how comfortable are the seating options? (`1` = very uncomfortable, `5` = very comfortable/ergonomic)
