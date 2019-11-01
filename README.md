@@ -89,3 +89,7 @@ tokyo.json:
   }
 ]
 ```
+
+## Local Dev Environment
+1. Install [Jekyll](https://jekyllrb.com/docs/installation/macos/)
+2. Run `bash serve.sh`
