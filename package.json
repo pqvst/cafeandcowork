@@ -1,14 +1,14 @@
 {
-  "name": "script",
-  "version": "1.0.0",
+  "name": "places-to-work",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^6.10.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }

@@ -10,7 +10,11 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
-  - scripts/node_modules
+  - node_modules
+  - scripts
+  - package-lock.json
+  - package.json
+  - serve.sh
 
 collections:
   cities:
