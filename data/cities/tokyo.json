@@ -235,7 +235,7 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
-    "notes": [
+    "tips": [
       "WiFi can be bad if you sit far in.",
       "Counter seats have power.",
       "Busy during peak hours.",
@@ -265,7 +265,7 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
-    "notes": [
+    "tips": [
       "Busy during peak hours.",
       "Toilets outside venue."
     ],

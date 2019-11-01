@@ -30,8 +30,7 @@ Create one JSON file per city.
 - `time_limit`: is there are time limit? (`true` or `false`)
 - `standing_tables`: are standing tables available? (`true` or `false`)
 - `outdoor_seating`: is outdoor seating available? (`true` or `false`)
-- `website`:
-- `notes`: 
+- `tips`: array of tips/suggestions/advice
 - `closed`: place has permanently closed (`true` or `false`)
 
 ## Example
