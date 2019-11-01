@@ -1,7 +1,8 @@
 encoding: UTF-8
 
 title: Places to Work
-description: A collaborative collection of places to work in various cities
+description: Find places to work. Open and collaborative.
+url: https://work.pqvst.com
 repo: https://github.com/pqvst/places-to-work
 
 exclude:
