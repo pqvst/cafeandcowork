@@ -160,11 +160,14 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "hours": "00:00-00:00",
+    "hours": "09:00-00:00",
     "time_limit": false,
-    "standing_tables": false,
+    "standing_tables": true,
     "outdoor_seating": true,
-    "coordinates": "35.6642386,139.701675"
+    "coordinates": "35.6642386,139.701675",
+    "tips": [
+      "Standing tables are outside only",
+    ]
   },
   {
     "name": "Caffice",
@@ -236,10 +239,10 @@
     "standing_tables": false,
     "outdoor_seating": true,
     "tips": [
-      "WiFi can be bad if you sit far in.",
-      "Counter seats have power.",
-      "Busy during peak hours.",
-      "Toilets outside venue."
+      "WiFi can be bad if you sit far in",
+      "Counter seats have power",
+      "Busy during peak hours",
+      "Toilets outside venue"
     ],
     "coordinates": "35.6569688,139.7028353"
   },
@@ -266,8 +269,8 @@
     "standing_tables": false,
     "outdoor_seating": true,
     "tips": [
-      "Busy during peak hours.",
-      "Toilets outside venue."
+      "Busy during peak hours",
+      "Toilets outside venue"
     ],
     "coordinates": "35.6571126,139.7027039"
   },
