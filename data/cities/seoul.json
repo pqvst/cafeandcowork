@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Bean Brothers",
+    "type": "Cafe",
+    "area": "Gangnam",
+    "google_maps": "https://goo.gl/maps/vtA3ecdtbgwXAoJG8",
+    "coordinates": "37.499369,127.0287172",
+    "station": "Gangnam",
+    "wifi": 5,
+    "speed": 210,
+    "power": 4,
+    "seats": 4,
+    "comfort": 5,
+    "quiet": 4,
+    "drinks": 4,
+    "view": 4,
+    "music": true,
+    "smoking": false,
+    "hours": "10:30-22:30",
+    "time_limit": false,
+    "standing_tables": true,
+    "outdoor_seating": false
+  },
+  {
+    "name": "Seoul Startup Hub",
+    "type": "Coworking Space",
+    "area": "Gongdeok",
+    "google_maps": "https://goo.gl/maps/8fLv7Pi1GXQR24PQ8",
+    "coordinates": "37.5468267,126.9478771",
+    "station": "Gongdeok",
+    "hours": "09:00-21:00"
+  }
+]
