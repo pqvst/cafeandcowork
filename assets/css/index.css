@@ -22,6 +22,7 @@ a:hover {
 
 .scroll-wrapper {
   overflow-x: auto;
+  padding-bottom: 10px;
 }
 
 /* ==========================================================================
