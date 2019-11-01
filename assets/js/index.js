@@ -147,7 +147,7 @@
           const [lat, lng] = e.coordinates.split(',');
 
           const popup = new mapboxgl.Popup({ offset: 25 })
-            .setHTML(`<a href="${e.google_maps}">${e.name} (${e.type})</a>`);
+            .setHTML(`<a target="_blank" href="${e.google_maps}">${e.name} (${e.type})</a>`);
 
           const marker = new mapboxgl.Marker()
             .setLngLat([lng, lat])
