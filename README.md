@@ -22,7 +22,17 @@ Want to add a new city?
 
 ## Attributes
 - `name`: name of the place
-- `type`: type of space (`cafe`, `coworking space`, `lobby`, `bar`, `event space`, `public space`, `library`)
+- `type`: type of space:
+  - `Cafe`: 
+  - `Bar`: 
+  - `Restaurant`: 
+  - `Library`: 
+  - `Lobby`: Hotel lobby
+  - `Coworking Space`: A dedicated coworking space (free or paid)
+  - `Public Space`: Any open public space
+  - `Event Space`: 
+  - `Lounge`: Hotel, airport, or other type of lounge
+  - `Booth`: A work pod/booth
 - `area`: general area name
 - `google_maps`: google maps short link
 - `coordinates`: location `<lat>,<lng>` (decimal)
