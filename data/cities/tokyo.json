@@ -985,5 +985,29 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
+  },
+  {
+    "name": "Tully's Coffee",
+    "type": "Cafe",
+    "area": "Meguro",
+    "google_maps": "https://goo.gl/maps/LPnQheavgQCVHi7S6",
+    "coordinates": "35.6334791,139.7156609",
+    "wifi": 5,
+    "speed": 38,
+    "power": 0,
+    "seats": 3,
+    "comfort": 3,
+    "quiet": 2,
+    "drinks": 3,
+    "food": 3,
+    "price": 4,
+    "view": 4,
+    "toilets": 0,
+    "hours": "",
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
