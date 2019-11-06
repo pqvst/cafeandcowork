@@ -1009,5 +1009,47 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
+  },
+  {
+    "name": "EMIT CAFE",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/KgNinKeQDyMTRshs7",
+    "coordinates": "35.6641746,139.6992681",
+    "wifi": 1,
+    "power": 1,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 4,
+    "price": 3,
+    "view": 3,
+    "toilets": 5,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
+  },
+  {
+    "name": "Laugh Out 渋谷",
+    "type": "Coworking Space",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/TR1MfD7dDXqJS7s28",
+    "coordinates": "35.6641746,139.6992681"
+  },
+  {
+    "name": "Kenyan",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/cgTAACYLaCLevDeH9",
+    "coordinates": "35.663816,139.6988222"
+  },
+  {
+    "name": "Jinnan Cafe",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/MHfBPscYNLQX4pdd9",
+    "coordinates": "35.663816,139.6988222"
   }
 ]
