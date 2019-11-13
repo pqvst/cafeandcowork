@@ -22,5 +22,29 @@
     "standing_tables": true,
     "outdoor_seating": true,
     "coordinates": "48.838470,2.381130"
-  }
+  },
+  {
+    "name": "Nuage Café",
+    "type": "Coworking Space",
+    "area": "Quartier Latin",
+    "google_maps": "https://goo.gl/maps/WYYRJ7LX997bToh27",
+    "station": "Maubert - Mutualité",
+    "wifi": 4,
+    "power": 3,
+    "seats": 4,
+    "comfort": 5,
+    "quiet": 4,
+    "drinks": 5,
+    "food": 0,
+    "price": 3,
+    "view": 4,
+    "toilets": 5,
+    "music": true,
+    "smoking": false,
+    "hours": "08:30-17:00",
+    "time_limit": false,
+    "standing_tables": true,
+    "outdoor_seating": false,
+    "coordinates": "48.849183,2.347514"
+  }  
 ]
