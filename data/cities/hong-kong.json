@@ -195,5 +195,12 @@
     "type": "Coworking Space",
     "google_maps": "https://g.page/ooosh-coworking-kowloon?share",
     "coordinates": "22.339141,114.151289"
+  },
+  {
+    "name": "Barista Jam",
+    "area": "Sheung Wan",
+    "type": "Cafe",
+    "google_maps": "https://g.page/BaristaJam?share",
+    "coordinates": "22.285609,114.150514"
   }
 ]
