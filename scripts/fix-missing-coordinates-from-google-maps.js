@@ -1,4 +1,5 @@
 const request = require('request-promise');
+const path = require('path');
 const fs = require('fs');
 
 const city = process.argv[2];
@@ -6,7 +7,7 @@ if (!city) {
   process.exit();
 }
 
-const file = `../data/cities/${city}.json`;
+const file = path.join(__dirname, `../data/cities/${city}.json`);
 
 async function main() {
   const list = JSON.parse(fs.readFileSync(file, 'utf8'));
