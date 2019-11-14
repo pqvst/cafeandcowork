@@ -222,7 +222,7 @@
     "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false,
-    "notes": [
+    "tips": [
       "WiFi usage is limited to 30 minutes per day per device"
     ]
   }
