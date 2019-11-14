@@ -202,5 +202,28 @@
     "type": "Cafe",
     "google_maps": "https://g.page/BaristaJam?share",
     "coordinates": "22.285609,114.150514"
+  },
+  {
+    "name": "Brew Bros Coffee",
+    "area": "Sheung Wan",
+    "type": "Cafe",
+    "google_maps": "https://goo.gl/maps/KesbA4akQGk8WD888",
+    "coordinates": "22.284665, 114.151027",
+    "wifi": 1,
+    "power": 4,
+    "seats": 3,
+    "comfort": 3,
+    "quiet": 3,
+    "drinks": 4,
+    "price": 3,
+    "view": 3,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": true,
+    "outdoor_seating": false,
+    "notes": [
+      "WiFi usage is limited to 30 minutes per day per device"
+    ]
   }
 ]
