@@ -32,8 +32,21 @@
     "area": "Sheung Wan",
     "type": "Cafe",
     "google_maps": "https://goo.gl/maps/es4yTD5xVvbBbfX27",
-    "seats": 1,
-    "coordinates": "22.285491,114.1500433"
+    "coordinates": "22.285491,114.1500433",
+    "wifi": 3,
+    "power": 0,
+    "seats": 3,
+    "comfort": 3,
+    "quiet": 2,
+    "drinks": 5,
+    "food": 5,
+    "price": 3,
+    "view": 3,
+    "smoking": false,
+    "time_limit": false,
+    "music": true,
+    "standing_tables": false,
+    "outdoor_seating": false
   },
   {
     "name": "Kaffine",
