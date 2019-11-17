@@ -250,5 +250,44 @@
     "tips": [
       "WiFi usage is limited to 30 minutes per day per device"
     ]
+  },
+  {
+    "name": "Elephant Grounds Causeway Bay",
+    "area": "Causeway Bay",
+    "type": "Cafe",
+    "google_maps": "https://goo.gl/maps/yLfkJyxzzBws36vc8",
+    "coordinates": "22.281818,114.18298",
+    "wifi": 5,
+    "power": 3,
+    "seats": 3,
+    "comfort": 3,
+    "quiet": 2,
+    "drinks": 5,
+    "food": 5,
+    "price": 3,
+    "view": 2,
+    "music": true,
+    "smoking": false,
+    "standing_tables": true,
+    "outdoor_seating": true
+  },
+  {
+    "name": "Cafe Gen 現",
+    "area": "North Point",
+    "type": "Cafe",
+    "google_maps": "https://goo.gl/maps/HVGLRLaEy2MTVLg49",
+    "coordinates": "22.2910992,114.1988764",
+    "wifi": 4,
+    "power": 0,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 3,
+    "drinks": 5,
+    "price": 5,
+    "view": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": true
   }
 ]
