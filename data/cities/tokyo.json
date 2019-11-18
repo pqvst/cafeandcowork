@@ -1051,5 +1051,16 @@
     "area": "Shibuya",
     "google_maps": "https://goo.gl/maps/MHfBPscYNLQX4pdd9",
     "coordinates": "35.663816,139.6988222"
+  },
+ {
+    "name": "LIFULL HUB",
+    "type": "Coworking Space",
+    "area": "Hanzoumon",
+    "google_maps": "https://goo.gl/maps/6aUqBsbiPeGdxzRy5",
+    "station": "Z05",
+    "hours": "10:00-19:00",
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "coordinates": "35.6842379,139.7431379"
   }
 ]
