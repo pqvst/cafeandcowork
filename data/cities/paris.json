@@ -46,5 +46,27 @@
     "standing_tables": true,
     "outdoor_seating": false,
     "coordinates": "48.849183,2.347514"
+  },
+  {
+    "name": "Starbucks",
+    "area": "Gaillon",
+    "type": "Cafe",
+    "google_maps": "https://goo.gl/maps/xTdXfarE66Z7bpPYA",
+    "coordinates": "48.870430,2.331010",
+    "wifi": 5,
+    "power": 4,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 1,
+    "price": 4,
+    "drinks": 5,
+    "food": 3,
+    "view": 5,
+    "toilets": 4,
+    "music": false,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }  
 ]
