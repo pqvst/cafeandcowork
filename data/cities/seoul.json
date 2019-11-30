@@ -92,6 +92,7 @@
     "food": 3,
     "view": 5,
     "price": 3,
+    "toilets": 4,
     "music": true,
     "smoking": false,
     "time_limit": false,
