@@ -75,5 +75,27 @@
     "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false
+  },
+  {
+    "name": "Tea Collective",
+    "type": "Cafe",
+    "area": "Samseong",
+    "google_maps": "https://goo.gl/maps/VB1ZagXMhMvbYM2w7",
+    "coordinates": "37.5119572,127.0466297",
+    "station": "Samseong",
+    "wifi": 4,
+    "power": 3,
+    "seats": 3,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 5,
+    "food": 3,
+    "view": 5,
+    "price": 3,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": true,
+    "outdoor_seating": true
   }
 ]
