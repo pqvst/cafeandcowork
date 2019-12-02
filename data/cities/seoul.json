@@ -99,5 +99,28 @@
     "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": true
+  },
+  {
+    "name": "Starfield Library",
+    "type": "Library",
+    "area": "Samseong",
+    "google_maps": "https://goo.gl/maps/R7cjhiMQSd8RHaTr6",
+    "coordinates": "37.509962,127.060276",
+    "station": "Samseong",
+    "wifi": 4,
+    "power": 3,
+    "seats": 2,
+    "comfort": 3,
+    "quiet": 2,
+    "drinks": 0,
+    "food": 0,
+    "view": 5,
+    "price": 5,
+    "toilets": 2,
+    "music": false,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
