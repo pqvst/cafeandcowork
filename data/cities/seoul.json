@@ -15,6 +15,7 @@
     "drinks": 4,
     "view": 4,
     "price": 4,
+    "toilets": 3,
     "music": true,
     "smoking": false,
     "hours": "10:30-22:30",
