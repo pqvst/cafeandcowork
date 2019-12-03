@@ -145,5 +145,27 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
+  },
+  {
+    "name": "Debunk",
+    "type": "Cafe",
+    "area": "Hapjeong",
+    "google_maps": "https://goo.gl/maps/5aeMEfSfFEtHRW6s5",
+    "coordinates": "37.547918,126.915080",
+    "station": "Hapjeong",
+    "wifi": 4,
+    "speed": 67,
+    "power": 3,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 5,
+    "view": 5,
+    "price": 2,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
