@@ -207,5 +207,27 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
+  },
+  {
+    "name": "Common Lounge",
+    "type": "Cafe",
+    "area": "Apgujeong",
+    "google_maps": "https://goo.gl/maps/tf6We2z5s1cT9XG77",
+    "coordinates": "37.527803,127.038839",
+    "station": "Apgujeongrodeo",
+    "wifi": 3,
+    "speed": 15,
+    "power": 5,
+    "seats": 4,
+    "comfort": 4,
+    "quiet": 3,
+    "drinks": 3,
+    "view": 3,
+    "price": 3,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
