@@ -230,5 +230,27 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
+  },
+  {
+    "name": "CONNECT TO (Toyota Motors Korea)",
+    "type": "Cafe",
+    "area": "Jamsil",
+    "google_maps": "https://goo.gl/maps/khqVtzai39z9X7bj6",
+    "coordinates": "37.514146,127.105117",
+    "station": "Jamsil",
+    "wifi": 5,
+    "speed": 140,
+    "power": 4,
+    "seats": 4,
+    "comfort": 3,
+    "quiet": 3,
+    "drinks": 4,
+    "view": 4,
+    "price": 2,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
