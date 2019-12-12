@@ -275,5 +275,29 @@
     "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
+  },
+  {
+    "name": "CEO SUITE",
+    "type": "Coworking Space",
+    "area": "Samseong",
+    "google_maps": "https://goo.gl/maps/Km2D2CkPxMkt8nwW9",
+    "coordinates": "37.509291,127.060769",
+    "station": "Samseong",
+    "wifi": 2,
+    "speed": 6,
+    "power": 5,
+    "seats": 3,
+    "comfort": 5,
+    "quiet": 4,
+    "drinks": 3,
+    "food": 0,
+    "view": 3,
+    "price": 1,
+    "toilets": 5,
+    "music": true,
+    "smoking": false,
+    "time_limit": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
