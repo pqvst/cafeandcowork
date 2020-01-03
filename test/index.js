@@ -31,7 +31,7 @@ const schema = {
       wifi: { type: 'integer', minimum: 0, maximum: 5 },
       speed: { type: 'integer' },
       power: { type: 'number', minimum: 0, maximum: 5 },
-      seats: { type: 'number', minimum: 0, maximum: 5 },
+      vacancy: { type: 'number', minimum: 0, maximum: 5 },
       comfort: { type: 'number', minimum: 1, maximum: 5 },
       quiet: { type: 'number', minimum: 1, maximum: 5 },
       drinks: { type: 'number', minimum: 0, maximum: 5 },

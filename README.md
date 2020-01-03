@@ -40,7 +40,7 @@ Want to add a new city?
 - `wifi`: how is the wifi speed, quality, and stability? (`0` = no wifi, `5` = very good wifi)
 - `speed`: wifi download speed (Mbps) e.g. using fast.com
 - `power`: how many power outlets are there? (`0` = no power outlets, `5` = best)
-- `seats`: how easy is it to find a seat? (`1` = very busy/difficult to get a seat, `5` = very easy to get a seat)
+- `vacancy`: how easy is it to find a seat? (`1` = very busy/difficult to get a seat, `5` = very easy to get a seat)
 - `comfort`: how comfortable are the seating options? (`1` = very uncomfortable, `5` = very comfortable/ergonomic)
 - `quiet`: how quiet is the space? (`1` = very noisy, `5` = very quiet)
 - `food`: how is the food quality and selection? (`0` = no food, `5` = best)
@@ -71,7 +71,7 @@ tokyo.json:
     "station": "JY22,G01",
     "wifi": 5,
     "power": 5,
-    "seats": 5,
+    "vacancy": 5,
     "comfort": 5,
     "quiet": 5,
     "drinks": 5,
