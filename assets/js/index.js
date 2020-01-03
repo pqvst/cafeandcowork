@@ -171,7 +171,7 @@
           places.forEach((e) => {
             e._line = findIndexOf(lines, line => line.includes(e.name)) + 1;
             e._url = this.url + `#L${e._line}`;
-            e._score = avg([e.wifi, e.power, e.seats, e.comfort, e.quiet, e.drinks, e.food, e.price, e.view, e.toilets]);
+            e._score = avg([e.wifi, e.power, e.vacancy, e.comfort, e.quiet, e.drinks, e.food, e.price, e.view, e.toilets]);
           });
           this.places = places;
         });
