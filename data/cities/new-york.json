@@ -17,7 +17,6 @@
     "toilets": 2,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -37,7 +36,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false
   },
@@ -59,7 +57,6 @@
     "toilets": 1,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -80,7 +77,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "tips": [
@@ -103,7 +99,6 @@
     "view": 4,
     "toilets": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -122,7 +117,6 @@
     "drinks": 4,
     "view": 5,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -141,7 +135,6 @@
     "view": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -169,7 +162,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -190,7 +182,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -211,7 +202,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -233,7 +223,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -254,7 +243,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -276,7 +264,6 @@
     "toilets": 5,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -298,7 +285,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -334,7 +320,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -356,7 +341,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -378,7 +362,6 @@
     "toilets": 5,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false
   },
@@ -399,7 +382,6 @@
     "view": 4,
     "toilets": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   }

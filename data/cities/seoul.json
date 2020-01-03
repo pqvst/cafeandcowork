@@ -19,7 +19,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:30-22:30",
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false
   },
@@ -44,7 +43,6 @@
     "toilets": 5,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -67,7 +65,6 @@
     "toilets": 0,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -90,7 +87,6 @@
     "toilets": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false
   },
@@ -113,7 +109,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": true
   },
@@ -136,7 +131,6 @@
     "toilets": 3,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -159,7 +153,6 @@
     "toilets": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -182,7 +175,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -205,7 +197,6 @@
     "price": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -228,7 +219,6 @@
     "price": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -250,7 +240,6 @@
     "price": 2,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -272,7 +261,6 @@
     "price": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -296,7 +284,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -318,7 +305,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -341,7 +327,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   }
