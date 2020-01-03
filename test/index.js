@@ -42,7 +42,6 @@ const schema = {
       music: { type: 'boolean' },
       smoking: { type: 'boolean' },
       hours: { type: 'string' },
-      time_limit: { type: 'boolean' },
       standing_tables: { type: 'boolean' },
       outdoor_seating: { type: 'boolean' },
       closed: { type: 'boolean' },

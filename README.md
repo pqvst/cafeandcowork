@@ -51,7 +51,6 @@ Want to add a new city?
 - `music`: is there music playing? (`true` or `false`)
 - `smoking`: is smoking allowed in the primary space? (`true` or `false`)
 - `hours`: what are the primary opening hours? (e.g. `09-22`)
-- `time_limit`: is there are time limit? (`true` or `false`)
 - `standing_tables`: are standing tables available? (`true` or `false`)
 - `outdoor_seating`: is outdoor seating available? (`true` or `false`)
 - `tips`: array of tips/suggestions/advice
@@ -83,7 +82,6 @@ tokyo.json:
     "music": true,
     "smoking": true,
     "hours": "10:00-18:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   }

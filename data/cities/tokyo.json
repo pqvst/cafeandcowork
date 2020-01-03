@@ -18,7 +18,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:00-18:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6333455,139.7144"
@@ -42,7 +41,6 @@
     "music": false,
     "smoking": false,
     "hours": "09:00-21:00",
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false,
     "coordinates": "35.6797349,139.7348855"
@@ -66,7 +64,6 @@
     "music": false,
     "smoking": false,
     "hours": "09:00-23:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.679827,139.7374163"
@@ -88,7 +85,6 @@
     "toilets": 3,
     "music": false,
     "smoking": false,
-    "time_limit": true,
     "standing_tables": false,
     "outdoor_seating": false,
     "closed": true,
@@ -113,7 +109,6 @@
     "music": true,
     "smoking": true,
     "hours": "10:00-23:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6615348,139.7005439"
@@ -137,7 +132,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:00-22:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.656063,139.6933023"
@@ -161,7 +155,6 @@
     "music": true,
     "smoking": false,
     "hours": "09:00-00:00",
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": true,
     "coordinates": "35.6642386,139.701675",
@@ -188,7 +181,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:00-23:00",
-    "time_limit": true,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.688716,139.7008353"
@@ -212,7 +204,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:00-21:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6571126,139.7021567"
@@ -235,7 +226,6 @@
     "music": true,
     "smoking": false,
     "hours": "07:00-22:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "tips": [
@@ -265,7 +255,6 @@
     "music": true,
     "smoking": false,
     "hours": "07:00-22:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "tips": [
@@ -293,7 +282,6 @@
     "music": true,
     "smoking": false,
     "hours": "09:00-23:00",
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": true,
     "coordinates": "35.6617891,139.6934701"
@@ -315,7 +303,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6660072,139.725989"
@@ -336,7 +323,6 @@
     "price": 3,
     "view": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -371,7 +357,6 @@
     "view": 2,
     "toilets": 4,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6617645,139.6931459"
@@ -392,7 +377,6 @@
     "view": 4,
     "toilets": 4,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6664913,139.7071731"
@@ -413,7 +397,6 @@
     "view": 3,
     "toilets": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6620796,139.6958014"
@@ -434,7 +417,6 @@
     "view": 0,
     "toilets": 5,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.659527,139.696124"
@@ -456,7 +438,6 @@
     "toilets": 1,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6614498,139.6983341"
@@ -478,7 +459,6 @@
     "toilets": 2,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.633888,139.7158331"
@@ -499,7 +479,6 @@
     "price": 2,
     "toilets": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "closed": true,
@@ -522,7 +501,6 @@
     "toilets": 4,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.6798374,139.7643729"
@@ -544,7 +522,6 @@
     "toilets": 3,
     "music": false,
     "smoking": false,
-    "time_limit": true,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6798374,139.7643729"
@@ -564,7 +541,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6615444,139.6965152"
@@ -586,7 +562,6 @@
     "toilets": 2,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6614311,139.6991223"
@@ -606,7 +581,6 @@
     "toilets": 4,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6666375,139.6902517"
@@ -627,7 +601,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6656412,139.6906573"
@@ -649,7 +622,6 @@
     "toilets": 0,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6582842,139.6988702"
@@ -669,7 +641,6 @@
     "music": true,
     "smoking": false,
     "hours": "08:30-20:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.657922,139.703672"
@@ -690,7 +661,6 @@
     "toilets": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.6701253,139.7050667"
@@ -711,7 +681,6 @@
     "music": true,
     "smoking": false,
     "hours": "10:00-23:30",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.701413,139.7002823"
@@ -732,7 +701,6 @@
     "music": true,
     "smoking": false,
     "hours": "09:00-23:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.6894898,139.6958184"
@@ -761,7 +729,6 @@
     "music": true,
     "smoking": false,
     "hours": "09:00-21:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.6464405,139.7076684"
@@ -784,7 +751,6 @@
     "music": false,
     "smoking": false,
     "hours": "08:00-00:00",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true,
     "coordinates": "35.646447,139.7061138"
@@ -806,7 +772,6 @@
     "toilets": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6465146,139.7076175"
@@ -828,7 +793,6 @@
     "music": true,
     "smoking": true,
     "hours": "11:30-23:30",
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6477366,139.7096713"
@@ -861,7 +825,6 @@
     "view": 3,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -884,7 +847,6 @@
     "hours": "07:00-21:30",
     "music": false,
     "smoking": false,
-    "time_limit": true,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -906,7 +868,6 @@
     "hours": "11:30-17:00,18:00-23:00",
     "music": true,
     "smoking": true,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -930,7 +891,6 @@
     "hours": "07:00:22:30",
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -982,7 +942,6 @@
     "hours": "08:00-22:00",
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -1006,7 +965,6 @@
     "hours": "",
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },
@@ -1027,7 +985,6 @@
     "toilets": 5,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false
   },

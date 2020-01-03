@@ -15,7 +15,6 @@
     "view": 4,
     "toilets": 3,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -43,7 +42,6 @@
     "price": 3,
     "view": 3,
     "smoking": false,
-    "time_limit": false,
     "music": true,
     "standing_tables": false,
     "outdoor_seating": false
@@ -62,7 +60,6 @@
     "price": 3,
     "view": 4,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": true
   },
@@ -111,7 +108,6 @@
     "toilets": 2,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "22.2838258,114.1495696"
@@ -153,7 +149,6 @@
     "toilets": 5,
     "music": false,
     "smoking": false,
-    "time_limit": true,
     "outdoor_seating": true,
     "coordinates": "22.2823812,114.1553187"
   },
@@ -173,7 +168,6 @@
     "toilets": 3,
     "music": false,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "22.2853559,114.1507886"
@@ -244,7 +238,6 @@
     "toilets": 3,
     "music": true,
     "smoking": false,
-    "time_limit": false,
     "standing_tables": true,
     "outdoor_seating": false,
     "tips": [
