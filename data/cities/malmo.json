@@ -63,6 +63,7 @@
     "type": "Coworking Space",
     "area": "Dockan",
     "google_maps": "https://g.page/mincmalmo?share",
+    "coordinates": "55.611232,12.994241",
     "wifi": 3,
     "power": 4,
     "vacancy": 4,
