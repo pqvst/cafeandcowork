@@ -10,6 +10,6 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.5"
   }
 }
