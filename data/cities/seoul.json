@@ -329,5 +329,27 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": true
+  },
+  {
+    "name": "New Origin",
+    "type": "Cafe",
+    "area": "Gwanghwamun",
+    "google_maps": "https://goo.gl/maps/7rweHABfGEg1WZzw7",
+    "coordinates": "37.569958,126.975380",
+    "wifi": 3,
+    "speed": 15,
+    "power": 2,
+    "vacancy": 3,
+    "comfort": 2,
+    "quiet": 3,
+    "drinks": 5,
+    "food": 5,
+    "view": 5,
+    "price": 3,
+    "toilets": 4,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   }
 ]
