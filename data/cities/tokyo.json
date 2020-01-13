@@ -1019,5 +1019,40 @@
     "standing_tables": false,
     "outdoor_seating": false,
     "coordinates": "35.6842379,139.7431379"
+  },
+  {
+    "name": "GARDEN HOUSE CRAFTS",
+    "type": "Cafe",
+    "area": "Daikanyama",
+    "google_maps": "https://goo.gl/maps/k3JdVUysJMcfzZmJ7",
+    "coordinates": "35.651224,139.705716"
+  },
+  {
+    "name": "STARBUCKS COFFEE Shibuya Scramble Square",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/9XZFHTBZPEUw48ri9",
+    "coordinates": "35.6582996,139.7019449"
+  },
+  {
+    "name": "GG Shibuya Mobile esports cafe＆bar",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/RT6Xs22gsKrVcsubA",
+    "coordinates": "35.662084,139.6967035"
+  },
+  {
+    "name": "Tully's Coffee Tokyu Plaza Fukuras",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/gmCGHSftAF1ghefT9",
+    "coordinates": "35.6577777,139.697995"
+  },
+  {
+    "name": "STARBUCKS COFFEE Shibuya Fukuras",
+    "type": "Cafe",
+    "area": "Shibuya",
+    "google_maps": "https://goo.gl/maps/Z7KixLzvFQJkQqAg7",
+    "coordinates": "35.657796,139.6980025"
   }
 ]
