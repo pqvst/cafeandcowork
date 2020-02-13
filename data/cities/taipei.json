@@ -2,6 +2,7 @@
   {
     "name": "Homey's Cafe",
     "type": "Cafe",
+    "area": "Daan",
     "google_maps": "https://goo.gl/maps/bRPrSSe7o3Pu2c9W9",
     "coordinates": "25.040522, 121.546595",
     "station": "Zhongxiao Dunhua",
@@ -26,6 +27,7 @@
   {
     "name": "OROMO CAFE",
     "type": "Cafe",
+    "area": "Xinyi",
     "google_maps": "https://goo.gl/maps/V6dvsdfGy1zQgcXf7",
     "coordinates": "25.031663, 121.559608",
     "station": "Taipei 101/World Trade Center",
@@ -48,6 +50,7 @@
   {
     "name": "Woolloomooloo",
     "type": "Cafe",
+    "area": "Xinyi",
     "google_maps": "https://goo.gl/maps/WySt1GzJgVojuzgY8",
     "coordinates": "25.033266, 121.558136",
     "station": "Taipei 101/World Trade Center",
