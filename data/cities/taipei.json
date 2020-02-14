@@ -69,7 +69,7 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": true,
-    "cash_only": true,
+    "cash_only": false,
     "tips": [
       "Large work tables on second floor",
       "Hard wooden chairs, not very comfortable",
