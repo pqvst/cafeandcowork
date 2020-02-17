@@ -105,7 +105,7 @@
     "type": "Cafe",
     "area": "Songshan",
     "google_maps": "https://goo.gl/maps/iWbiYjFj6PMQCSw36",
-    "coordinates": "25.0504741,121.5760514",
+    "coordinates": "25.049100, 121.578814",
     "station": "Songshan",
     "wifi": 1,
     "speed": 4,
@@ -128,5 +128,29 @@
       "Some power outlets along the wall seats",
       "Public restrooms are very far away"
     ]
+  },
+  {
+    "name": "coffeeya",
+    "type": "Cafe",
+    "area": "Songshan",
+    "google_maps": "https://goo.gl/maps/p2Ewb8mRp1NuYayF6",
+    "coordinates": "25.049994, 121.578769",
+    "station": "Songshan",
+    "wifi": 1,
+    "speed": 4,
+    "power": 1,
+    "vacancy": 3,
+    "comfort": 3,
+    "quiet": 3,
+    "drinks": 3,
+    "food": 4,
+    "view": 4,
+    "price": 4,
+    "toilets": 4,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "cash_only": true
   }
 ]
