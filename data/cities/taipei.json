@@ -75,5 +75,58 @@
       "Hard wooden chairs, not very comfortable",
       "Lunch deal available"
     ]
+  },
+  {
+    "name": "Out Of Office",
+    "type": "Cafe",
+    "area": "Xinyi",
+    "google_maps": "",
+    "coordinates": "",
+    "station": "Taipei 101/World Trade Center",
+    "wifi": 4,
+    "speed": 25,
+    "power": 5,
+    "vacancy": 5,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 5,
+    "food": 5,
+    "view": 3,
+    "price": 4,
+    "toilets": 4,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "cash_only": false
+  },
+  {
+    "name": "Starbucks",
+    "type": "Cafe",
+    "area": "Songshan",
+    "google_maps": "https://goo.gl/maps/iWbiYjFj6PMQCSw36",
+    "coordinates": "25.0504741,121.5760514",
+    "station": "Songshan",
+    "wifi": 2,
+    "speed": 4,
+    "power": 3,
+    "vacancy": 3,
+    "comfort": 2,
+    "quiet": 3,
+    "drinks": 4,
+    "food": 3,
+    "view": 3,
+    "price": 4,
+    "toilets": 1,
+    "music": true,
+    "smoking": false,
+    "standing_tables": true,
+    "outdoor_seating": false,
+    "cash_only": false,
+    "tips": [
+      "Not crowded during weekday mornings",
+      "Some power outlets along the wall seats",
+      "Public restrooms are very far away"
+    ]
   }
 ]
