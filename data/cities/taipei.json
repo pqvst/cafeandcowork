@@ -194,6 +194,7 @@
     "comfort": 1,
     "quiet": 2,
     "drinks": 4,
+    "food": 0,
     "view": 2,
     "price": 5,
     "toilets": 3,
