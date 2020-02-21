@@ -343,5 +343,33 @@
     "smoking": false,
     "standing_tables": true,
     "outdoor_seating": false
+  },
+  {
+    "name": "巢 nido",
+    "type": "Cafe",
+    "area": "Xinyi",
+    "google_maps": "https://goo.gl/maps/kej72vwaYWpEFLBg7",
+    "coordinates": "25.041229, 121.569166",
+    "station": "Taipei City Hall",
+    "wifi": 5,
+    "speed": 20,
+    "power": 5,
+    "vacancy": 5,
+    "comfort": 4,
+    "quiet": 5,
+    "drinks": 5,
+    "food": 5,
+    "view": 4,
+    "price": 3,
+    "toilets": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": true,
+    "outdoor_seating": false,
+    "tips": [
+      "No 183, ring the buzzer, second floor",
+      "No loud talking",
+      "Power outlets by the wall and under the counter"
+    ]
   }
 ]
