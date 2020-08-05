@@ -505,7 +505,22 @@
     "google_maps": "https://goo.gl/maps/KiKtcynd7MQspXjZ9",
     "coordinates": "25.058528, 121.545725",
     "area": "Nanjing Fuxing",
-    "station": "Nanjing Fuxing"
+    "station": "Nanjing Fuxing",
+    "wifi": 5,
+    "speed": 55,
+    "power": 3,
+    "vacancy": 4,
+    "comfort": 3,
+    "quiet": 4,
+    "drinks": 4,
+    "food": 4,
+    "view": 5,
+    "price": 4,
+    "toilets": 4,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false
   },
   {
     "name": "FabCafe",
