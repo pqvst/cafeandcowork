@@ -13,7 +13,8 @@ const types = [
   'Public Space',
   'Event Space',
   'Lounge',
-  'Booth'
+  'Booth',
+  'Bookstore'
 ];
 
 const schema = {
