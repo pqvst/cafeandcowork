@@ -860,7 +860,6 @@
     "vacancy": 5,
     "comfort": 4,
     "price": 4,
-    "time_limit": false,
     "seats": 3,
     "wifi": 4,
     "speed": 5,
