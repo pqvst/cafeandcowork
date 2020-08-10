@@ -33,6 +33,7 @@ Want to add a new city?
   - `Event Space`: 
   - `Lounge`: Hotel, airport, or other type of lounge
   - `Booth`: A work pod/booth
+  - `Bookstore`: Bookstore
 - `area`: general area name
 - `google_maps`: google maps short link
 - `coordinates`: location `<lat>,<lng>` (decimal)
@@ -55,6 +56,7 @@ Want to add a new city?
 - `outdoor_seating`: is outdoor seating available? (`true` or `false`)
 - `tips`: array of tips/suggestions/advice
 - `closed`: place has permanently closed (`true` or `false`)
+- `animals`: are animals present in the café? (`true` or `false`)
 
 ## Example
 
