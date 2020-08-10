@@ -860,8 +860,10 @@
     "vacancy": 5,
     "comfort": 4,
     "price": 4,
+    "time_limit": false,
+    "seats": 3,
     "tips": [
-      "High table",
+      "Counter seats one are not great for work since that table it's quite low",
       "Power outlets on all the tables",
       "The cat is an attention-seeking cat , it will come to see you often"
     ]
