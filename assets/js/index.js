@@ -29,6 +29,12 @@
     return n == 0 ? 0 : t / n;
   }
 
+  function colorRamp(value) {
+    if (value >= 4) return '#418395';
+    if (value >= 3) return '#2ecc71';
+    if (value >= 2) return '#f39c12';
+    return '#e67e22';
+  }
 
   //----------------------------------------------------------------------
   // Attribute Component
@@ -142,14 +148,14 @@
         this.markers = [];
 
         const bounds = new mapboxgl.LngLatBounds;
-        for (let e of this.list) {
+        const list = _(this.list).filter(e => e._score > 0).orderBy('_score', 'asc').value();
+        for (let e of list) {
           if (!e.coordinates) continue;
           const [lat, lng] = e.coordinates.split(',');
 
-          const popup = new mapboxgl.Popup({ offset: 25 })
-            .setHTML(`<a target="_blank" href="${e.google_maps}">${e.name} (${e.type})</a>`);
+          const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(this.makePopup(e));
 
-          const marker = new mapboxgl.Marker()
+          const marker = new mapboxgl.Marker({ color: colorRamp(e._score), scale: 0.5 })
             .setLngLat([lng, lat])
             .setPopup(popup)
             .addTo(this.map);
@@ -158,9 +164,20 @@
         }
         this.map.fitBounds(bounds, { padding: 50, linear: true, maxZoom: 17 });
       },
+
+      makePopup(place) {
+        return `
+          <div>
+            <b><a target="_blank" href="${place.google_maps}">${place.name}</a></b>
+          </div>
+          <div>${this.formatScore(place._score)} (${place.type})</div>
+        `;
+      },
+
       formatScore(n) {
         return n.toFixed(1);
-      }
+      },
+
     },
 
     created() {
@@ -181,7 +198,9 @@
     mounted() {
       this.map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: COORDINATES ? COORDINATES.split(',').map(Number).reverse() : undefined,
+        zoom: 10
       });
       this.map.on('load', () => this.updateMap());
     }
