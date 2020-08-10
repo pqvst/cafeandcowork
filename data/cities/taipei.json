@@ -856,7 +856,7 @@
     "google_maps": "https://g.page/Milkbarbybka?share",
     "smoking": false,
     "animals": true,
-    "outdoor_seating": false,
+    "outdoor_seating": true,
     "vacancy": 5,
     "comfort": 4,
     "price": 4,
