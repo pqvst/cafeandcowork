@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
     <link href="/assets/css/index.css" rel="stylesheet">
 
@@ -37,125 +38,6 @@
 
   </head>
   <body>
-    <script type="text/javascript">
-      var MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
-      var DATA_URL = '{{page.data}}';
-      var REPO_URL = '{{site.repo}}';
-    </script>
-
-    <div class="wrap">
-      <div id="app">
-
-        <header>
-          <h1><i class="fa fa-wifi"></i> Work in <b>{{page.title}}</b></h1>
-          {% raw %}
-          <a class="github" v-bind:href="url" target="_blank">Contribute on GitHub <i class="fa fa-github"></i></a>
-          {% endraw %}
-        </header>
-
-        {% raw %}
-        <nav>
-          <a href="/tokyo">Tokyo 🇯🇵</a>
-          <a href="/new-york">New York 🇺🇸</a>
-          <a href="/seoul">Seoul 🇰🇷</a>
-          <a href="/hong-kong">Hong Kong 🇭🇰</a>
-          <a href="/taipei">Taipei 🇹🇼</a>
-        </nav>
-
-        <div class="map">
-          <div id="map"></div>
-        </div>
-
-        <div class="search">
-          <input type="text" placeholder="Search by name, type, or area..." v-model="filter" autofocus />
-        </div>
-
-        <div class="scroll-wrapper">
-          <table>
-            <thead>
-              <tr>
-                <th v-on:click="sort('_score')">Score</th>
-                <th v-on:click="sort('name')">Name</th>
-                <th v-on:click="sort('type')">Type</th>
-                <th v-on:click="sort('area')">Area</th>
-                <th v-on:click="sort('wifi')">WiFi</th>
-                <th v-on:click="sort('power')">Power</th>
-                <th v-on:click="sort('vacancy')">Vacancy</th>
-                <th v-on:click="sort('comfort')">Comfort</th>
-                <th v-on:click="sort('quiet')">Quiet</th>
-                <th v-on:click="sort('drinks')">Drinks</th>
-                <th v-on:click="sort('food')">Food</th>
-                <th v-on:click="sort('price')">Price</th>
-                <th v-on:click="sort('view')">View</th>
-                <th v-on:click="sort('toilets')">Toilets</th>
-                <th v-on:click="sort('music')">Music</th>
-                <th v-on:click="sort('smoking')">Smoking</th>
-                <th v-on:click="sort('standing_tables')">Standing Tables</th>
-                <th v-on:click="sort('outdoor_seating')">Outdoor Seating</th>
-                <th v-on:click="sort('cash_only')">Cash Only</th>
-                <th v-on:click="sort('animals')">Animals</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-if="list.length == 0">
-                <td class="empty" colspan="999">No places found ¯\_(ツ)_/¯</td>
-              </tr>
-              <tr v-for="e in list" v-bind:class="{ closed: e.closed }">
-                <td>{{formatScore(e._score)}}</td>
-                <td class="truncate">
-                    <a v-bind:href="e.google_maps" target="_blank" v-bind:title="e.name">{{e.name}}</a>
-                    <a class="edit" v-bind:href="e._url" target="_blank">
-                      <i class="fa fa-pencil"></i>
-                    </a>
-                </td>
-                <td>{{e.type}}</td>
-                <td>{{e.area}}</td>
-                <td><attribute v-bind:place="e" name="wifi" /></td>
-                <td><attribute v-bind:place="e" name="power" /></td>
-                <td><attribute v-bind:place="e" name="vacancy" /></td>
-                <td><attribute v-bind:place="e" name="comfort" /></td>
-                <td><attribute v-bind:place="e" name="quiet" /></td>
-                <td><attribute v-bind:place="e" name="drinks" /></td>
-                <td><attribute v-bind:place="e" name="food" /></td>
-                <td><attribute v-bind:place="e" name="price" /></td>
-                <td><attribute v-bind:place="e" name="view" /></td>
-                <td><attribute v-bind:place="e" name="toilets" /></td>
-                <td><attribute v-bind:place="e" name="music" /></td>
-                <td><attribute v-bind:place="e" name="smoking" /></td>
-                <td><attribute v-bind:place="e" name="standing_tables" /></td>
-                <td><attribute v-bind:place="e" name="outdoor_seating" /></td>
-                <td><attribute v-bind:place="e" name="cash_only" /></td>
-                <td><attribute v-bind:place="e" name="animals" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <script type="text/x-template" id="flag-template">
-        <span v-bind:class="color">{{text}}</span>
-      </script>
-
-      <script type="text/x-template" id="attribute-template">
-        <span v-bind:class="color">
-          <template v-if="value != null">
-            {{text}}
-          </template>
-          <template v-else>
-            <a v-bind:href="place._url" title="Add missing data" target="_blank">
-              <i class="fa fa-question-circle-o"></i>
-            </a>
-          </template>
-        </span>
-      </script>
-
-      <footer>
-        Copyright &copy; 2019
-      </footer>
-
-    </div>
-    {% endraw %}
-
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+    {{content}}
 	</body>
 </html>

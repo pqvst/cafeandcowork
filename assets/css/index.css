@@ -25,6 +25,10 @@ a:hover {
   padding-bottom: 10px;
 }
 
+[v-cloak] {
+  display: none;  
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -53,6 +57,7 @@ nav {
   border: solid 1px #ccc;
   margin-bottom: 20px;
   border-radius: 4px;
+  overflow: auto;
 }
 
 nav > a {
@@ -61,6 +66,7 @@ nav > a {
   flex-grow: 1;
   padding: 10px;
   text-align: center;
+  white-space: nowrap;
 }
 
 nav > a:hover {
