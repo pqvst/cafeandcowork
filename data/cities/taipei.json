@@ -233,7 +233,8 @@
     "standing_tables": true,
     "outdoor_seating": true,
     "cash_only": false,
-    "tips": []
+    "tips": [],
+    "closed": true
   },
   {
     "name": "Starbucks",
@@ -275,7 +276,8 @@
     "comfort": 3,
     "price": 5,
     "drinks": 4,
-    "toilets": 3
+    "toilets": 3,
+    "animals": true
   },
   {
     "name": "YABOO",
@@ -319,7 +321,9 @@
     "music": false,
     "smoking": false,
     "standing_tables": true,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": false,
+    "closed": true
   },
   {
     "name": "JustCo",
@@ -342,7 +346,8 @@
     "music": false,
     "smoking": false,
     "standing_tables": true,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": true
   },
   {
     "name": "巢 nido",
@@ -366,6 +371,7 @@
     "smoking": false,
     "standing_tables": true,
     "outdoor_seating": false,
+    "cash_only": true,
     "tips": [
       "No 183, ring the buzzer, second floor",
       "No loud talking",
@@ -541,7 +547,8 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": false,
-    "coordinates": "25.044135, 121.529089"
+    "coordinates": "25.044135, 121.529089",
+    "cash_only": false
   },
   {
     "name": "vojago",
@@ -623,7 +630,8 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": true
+    "outdoor_seating": true,
+    "cash_only": false
   },
   {
     "name": "Triangle Garden Cafe",
@@ -643,7 +651,8 @@
     "toilets": 3,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": true
   },
   {
     "name": "Jiyinn",
@@ -666,7 +675,8 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": true
   },
   {
     "name": "Louisa Coffee (New Taipei City Library)",
@@ -689,7 +699,8 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": false
   },
   {
     "name": "New Taipei City Main Library",
@@ -712,7 +723,8 @@
     "music": false,
     "smoking": false,
     "standing_tables": true,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": false
   },
   {
     "name": "miss K",
@@ -734,7 +746,8 @@
     "music": true,
     "smoking": false,
     "standing_tables": true,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": true
   },
   {
     "name": "Cafe Costumice",
@@ -757,6 +770,7 @@
     "smoking": true,
     "standing_tables": false,
     "outdoor_seating": true,
+    "cash_only": false,
     "tips": [
       "Gets busy/loud around 15:00 on a weekday"
     ]
@@ -783,6 +797,7 @@
     "smoking": false,
     "standing_tables": true,
     "outdoor_seating": false,
+    "cash_only": false,
     "tips": [
       "Arrive early to get a good seat",
       "Louisa coffee inside sells drinks and food"
@@ -808,6 +823,37 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "cash_only": false
+  },
+  {
+    "name": "Eslite Café Xinyi Store",
+    "type": "Cafe",
+    "area": "Xinyi",
+    "station": "Taipei City Hall",
+    "coordinates": "25.039519, 121.565419",
+    "google_maps": "https://goo.gl/maps/GV8ByxzACipGuAJa8",
+    "wifi": 0,
+    "power": 1,
+    "vacancy": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 3,
+    "view": 4,
+    "price": 2,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "cash_only": false
+  },
+  {
+    "name": "Milk Bar by BKA",
+    "type": "Cafe",
+    "area": "Songshan",
+    "station": "Nanjing Fuxing",
+    "coordinates": "25.052553, 121.545712",
+    "google_maps": "https://g.page/Milkbarbybka?share",
+    "animals": true
   }
 ]
