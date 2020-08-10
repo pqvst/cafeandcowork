@@ -854,6 +854,21 @@
     "station": "Nanjing Fuxing",
     "coordinates": "25.052553, 121.545712",
     "google_maps": "https://g.page/Milkbarbybka?share",
-    "animals": true
+    "smoking": false,
+    "animals": true,
+    "outdoor_seating": true,
+    "vacancy": 5,
+    "price": 4,
+    "wifi": 4,
+    "speed": 5,
+    "music": true,
+    "hours": "09-21",
+    "comfort": 4,
+    "power": 5,
+    "tips": [
+      "Counter seats one are not great for work since that table it's quite low",
+      "Power outlets on all the tables",
+      "The cat is an attention-seeking cat , it will come to see you often"
+    ]
   }
 ]
