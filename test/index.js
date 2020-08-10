@@ -47,7 +47,8 @@ const schema = {
       outdoor_seating: { type: 'boolean' },
       cash_only: { type: 'boolean' },
       closed: { type: 'boolean' },
-      tips: { type: 'array', items: { type: 'string' } }
+      tips: { type: 'array', items: { type: 'string' } },
+      animals: { type: 'boolean' }
     },
     required: ['name', 'type', 'area', 'coordinates']
   }

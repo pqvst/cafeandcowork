@@ -93,6 +93,7 @@
                 <th v-on:click="sort('standing_tables')">Standing Tables</th>
                 <th v-on:click="sort('outdoor_seating')">Outdoor Seating</th>
                 <th v-on:click="sort('cash_only')">Cash Only</th>
+                <th v-on:click="sort('animals')">Animals</th>
               </tr>
             </thead>
             <tbody>
@@ -124,6 +125,7 @@
                 <td><attribute v-bind:place="e" name="standing_tables" /></td>
                 <td><attribute v-bind:place="e" name="outdoor_seating" /></td>
                 <td><attribute v-bind:place="e" name="cash_only" /></td>
+                <td><attribute v-bind:place="e" name="animals" /></td>
               </tr>
             </tbody>
           </table>
