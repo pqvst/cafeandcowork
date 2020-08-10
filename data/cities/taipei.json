@@ -841,6 +841,7 @@
     "drinks": 3,
     "view": 4,
     "price": 2,
+    "toilets": 4,
     "music": true,
     "smoking": false,
     "standing_tables": false,
@@ -870,9 +871,31 @@
     "drinks": 4,
     "standing_tables": false,
     "tips": [
-      "Counter seats one are not great for work since that table it's quite low",
+      "Counter seats are not great for work since that table is quite low",
       "Power outlets on all the tables",
-      "The cat is an attention-seeking cat , it will come to see you often"
+      "The cat is an attention-seeking cat, it will come to see you often"
     ]
+  },
+  {
+    "name": "Lost and Found it Cafe/Lounge",
+    "type": "Cafe",
+    "area": "Dunhua",
+    "station": "Dunhua",
+    "coordinates": "",
+    "google_maps": "https://g.page/lostandfoundit1?share",
+    "wifi": 5,
+    "speed": 350,
+    "power": 3,
+    "vacancy": 4,
+    "comfort": 3,
+    "quiet": 3,
+    "drinks": 3,
+    "view": 4,
+    "price": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "cash_only": true
   }
 ]
