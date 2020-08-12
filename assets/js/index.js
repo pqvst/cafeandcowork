@@ -171,6 +171,7 @@
             <b><a target="_blank" href="${place.google_maps}">${place.name}</a></b>
           </div>
           <div>${this.formatScore(place._score)} (${place.type})</div>
+          ${place.tips ? place.tips.map(tip => `<div>${tip}</div>`).join('\n') : ''}
         `;
       },
 
