@@ -9,8 +9,8 @@
     "wifi": 5,
     "speed": 210,
     "power": 5,
-    "vacancy": 5,
-    "comfort": 5,
+    "vacancy": 3,
+    "comfort": 4,
     "quiet": 4,
     "drinks": 4,
     "food": 5,
@@ -22,7 +22,10 @@
     "standing_tables": true,
     "outdoor_seating": true,
     "cash_only": true,
-    "tips": []
+    "tips": [
+      "Arrive early to get a good seat",
+      "Smoking is allowed outside"
+    ]
   },
   {
     "name": "OROMO CAFE",
@@ -88,17 +91,20 @@
     "power": 5,
     "vacancy": 5,
     "comfort": 4,
-    "quiet": 4,
+    "quiet": 3,
     "drinks": 5,
     "food": 5,
     "view": 3,
-    "price": 4,
+    "price": 1,
     "toilets": 4,
     "music": true,
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": false,
-    "cash_only": false
+    "cash_only": false,
+    "tips": [
+      "Time limit and minimum spend is enforced"
+    ]
   },
   {
     "name": "Starbucks",
@@ -359,7 +365,7 @@
     "wifi": 5,
     "speed": 20,
     "power": 5,
-    "vacancy": 5,
+    "vacancy": 4,
     "comfort": 4,
     "quiet": 5,
     "drinks": 5,
@@ -374,7 +380,7 @@
     "cash_only": true,
     "tips": [
       "No 183, ring the buzzer, second floor",
-      "No loud talking",
+      "Silent cafe. No talking allowed",
       "Power outlets by the wall and under the counter"
     ]
   },
@@ -676,7 +682,10 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": false,
-    "cash_only": true
+    "cash_only": true,
+    "tips": [
+      "Silent cafe. No talking allowed"
+    ]
   },
   {
     "name": "Louisa Coffee (New Taipei City Library)",
@@ -896,6 +905,29 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": false,
+    "cash_only": true
+  },
+  {
+    "name": "Arthere Cafe (上樓看看)",
+    "type": "Cafe",
+    "area": "Xinyi",
+    "station": "Taipei City Hall",
+    "coordinates": "25.041513, 121.568973",
+    "google_maps": "https://goo.gl/maps/SjLL4cgdwDKk8Aat9",
+    "wifi": 4,
+    "speed": 65,
+    "power": 4,
+    "vacancy": 4,
+    "comfort": 3,
+    "quiet": 3,
+    "drinks": 4,
+    "view": 3,
+    "price": 3,
+    "toilets": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": true,
     "cash_only": true
   }
 ]
