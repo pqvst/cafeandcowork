@@ -1006,5 +1006,30 @@
       "Take the elevator up to the 11th floor",
       "WiFi is a little unstable (disconnects and reconnects from time to time)"
     ]
+  },
+  {
+    "name": "Congrats Café",
+    "type": "Cafe",
+    "area": "Daan",
+    "station": "Xinyi Anhe",
+    "coordinates": "25.032855, 121.550578",
+    "google_maps": "https://goo.gl/maps/jd3Hh63LwzWMxuzS7",
+    "wifi": 5,
+    "speed": 410,
+    "power": 5,
+    "vacancy": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 4,
+    "view": 4,
+    "price": 3,
+    "toilets": 4,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "tips": [
+      "Upstairs area has lots of power outlets"
+    ]
   }
 ]
