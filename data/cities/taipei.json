@@ -1032,5 +1032,33 @@
       "Upstairs area has lots of power outlets",
       "There's a smoking room, but I didn't notice any smoke smell"
     ]
+  },
+  {
+    "name": "Starbucks",
+    "type": "Cafe",
+    "area": "Xinyi",
+    "station": "Taipei City Hall",
+    "coordinates": "25.039594, 121.567639",
+    "google_maps": "https://goo.gl/maps/DwujSHseLpGLDfj39",
+    "wifi": 0,
+    "power": 0,
+    "vacancy": 3,
+    "comfort": 2,
+    "quiet": 2,
+    "drinks": 4,
+    "food": 3,
+    "view": 1,
+    "price": 3,
+    "toilets": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "cash_only": false,
+    "animals": false,
+    "tips": [
+      "No power, no wifi, and work table is awkward to sit at",
+      "In the basement of Bellavita (no natural light)"
+    ]
   }
 ]
