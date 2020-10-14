@@ -518,8 +518,8 @@
     "coordinates": "25.058528, 121.545725",
     "area": "Songshan",
     "station": "Zhongshan Junior High School",
-    "wifi": 5,
-    "speed": 55,
+    "wifi": 2,
+    "speed": 10,
     "power": 3,
     "vacancy": 5,
     "comfort": 4,
@@ -1059,6 +1059,33 @@
     "tips": [
       "No power, no wifi, and work table is awkward to sit at",
       "In the basement of Bellavita (no natural light)"
+    ]
+  },
+  {
+    "name": "OROMO CAFE (Shilin)",
+    "type": "Cafe",
+    "area": "Shilin",
+    "station": "Shilin",
+    "coordinates": "25.094447, 121.525698",
+    "google_maps": "https://goo.gl/maps/94piSysKkgrCCQ197",
+    "wifi": 5,
+    "power": 5,
+    "vacancy": 4,
+    "comfort": 4,
+    "quiet": 4,
+    "drinks": 4,
+    "view": 3,
+    "price": 3,
+    "toilets": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": true,
+    "outdoor_seating": true,
+    "animals": false,
+    "tips": [
+      "Every empty on a weekday morning",
+      "More expensive than the Xinyi location",
+      "No large work table"
     ]
   }
 ]
