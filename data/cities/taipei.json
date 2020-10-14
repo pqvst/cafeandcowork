@@ -1087,5 +1087,26 @@
       "More expensive than the Xinyi location",
       "No large work table"
     ]
+  },
+  {
+    "name": "RUFOUS COFFEE ROASTERS 2",
+    "type": "Cafe",
+    "area": "Daan",
+    "station": "Liuzhangli",
+    "coordinates": "25.022200, 121.549854",
+    "google_maps": "https://goo.gl/maps/eph4sSFqRAviDwyY6",
+    "wifi": 5,
+    "power": 0,
+    "vacancy": 4,
+    "comfort": 3,
+    "quiet": 5,
+    "drinks": 3,
+    "view": 5,
+    "price": 3,
+    "music": true,
+    "smoking": false,
+    "standing_tables": false,
+    "outdoor_seating": false,
+    "animals": false
   }
 ]
