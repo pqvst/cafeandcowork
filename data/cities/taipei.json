@@ -378,6 +378,7 @@
     "standing_tables": true,
     "outdoor_seating": false,
     "cash_only": true,
+    "animals": false,
     "tips": [
       "No 183, ring the buzzer, second floor",
       "Silent cafe. No talking allowed",
@@ -1136,6 +1137,8 @@
     "type": "Cafe",
     "area": "Songshan",
     "station": "Nanjing Fuxing",
+    "coordinates": "25.053514, 121.541979",
+    "google_maps": "https://g.page/LIBRARY134?share",
     "speed": 80,
     "wifi": 5,
     "power": 5,
