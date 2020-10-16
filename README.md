@@ -1,4 +1,4 @@
-# Places to Work
+# Cafe & Cowork
 Find places to work. Open and collaborative. Pull requests welcome!
 
 ## Updating a city

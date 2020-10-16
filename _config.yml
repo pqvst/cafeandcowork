@@ -1,9 +1,9 @@
 encoding: UTF-8
 
-title: Places to Work
+title: Cafe & Cowork
 description: Find places to work. Open and collaborative.
-url: https://work.pqvst.com
-repo: https://github.com/pqvst/places-to-work
+url: https://cafeandcowork.com
+repo: https://github.com/pqvst/cafeandcowork
 
 exclude:
   - .git/
