@@ -48,7 +48,9 @@ const schema = {
       cash_only: { type: 'boolean' },
       closed: { type: 'boolean' },
       tips: { type: 'array', items: { type: 'string' } },
-      animals: { type: 'boolean' }
+      animals: { type: 'boolean' },
+      opens: { type: 'string' },
+      closes: { type: 'string' },
     },
     required: ['name', 'type', 'area', 'coordinates']
   }
