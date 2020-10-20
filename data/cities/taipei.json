@@ -22,13 +22,15 @@
     "standing_tables": true,
     "outdoor_seating": true,
     "cash_only": true,
+    "opens": "12:00",
+    "closes": "00:00",
     "tips": [
       "Arrive early to get a good seat",
       "Smoking is allowed outside"
     ]
   },
   {
-    "name": "OROMO CAFE",
+    "name": "OROMO CAFE (Xinyi)",
     "type": "Cafe",
     "area": "Xinyi",
     "google_maps": "https://goo.gl/maps/V6dvsdfGy1zQgcXf7",
@@ -48,7 +50,9 @@
     "smoking": false,
     "standing_tables": false,
     "outdoor_seating": true,
-    "cash_only": true
+    "cash_only": true,
+    "opens": "7:30-8:00",
+    "closes": "9:30"
   },
   {
     "name": "Woolloomooloo",
@@ -379,6 +383,8 @@
     "outdoor_seating": false,
     "cash_only": true,
     "animals": false,
+    "opens": "14:03",
+    "closes": "00:00",
     "tips": [
       "No 183, ring the buzzer, second floor",
       "Silent cafe. No talking allowed",
@@ -533,7 +539,9 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "opens": "8:00-9:00",
+    "closes": "20:00"
   },
   {
     "name": "FabCafe",
@@ -1130,7 +1138,9 @@
     "music": true,
     "smoking": false,
     "standing_tables": false,
-    "outdoor_seating": false
+    "outdoor_seating": false,
+    "opens": "8:00-9:00",
+    "closes": "17:00"
   },
   {
     "name": "Library134",
@@ -1155,7 +1165,9 @@
     "standing_tables": false,
     "outdoor_seating": false,
     "cash_only": false,
-    "animals": false
+    "animals": false,
+    "opens": "10:00",
+    "closes": "18:00"
   },
   {
     "name": "Procaffeinating Cafe",
