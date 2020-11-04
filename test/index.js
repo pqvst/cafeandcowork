@@ -1,7 +1,8 @@
-const fs = require('fs');
-const path = require('path');
 const Ajv = require('ajv');
 const ajv = new Ajv();
+
+const data = require('../data');
+const cities = data.load();
 
 const types = [
   'Cafe',
@@ -18,52 +19,60 @@ const types = [
 ];
 
 const schema = {
-  type: 'array',
-  items: {
-    type: 'object',
-    additionalProperties: false,
-    properties: {
-      name: { type: 'string' },
-      type: { type: 'string', enum: types },
-      area: { type: 'string' },
-      coordinates: { type: 'string' },
-      google_maps: { type: 'string' },
-      station: { type: 'string' },
-      wifi: { type: 'integer', minimum: 0, maximum: 5 },
-      speed: { type: 'integer' },
-      power: { type: 'number', minimum: 0, maximum: 5 },
-      vacancy: { type: 'number', minimum: 0, maximum: 5 },
-      comfort: { type: 'number', minimum: 1, maximum: 5 },
-      quiet: { type: 'number', minimum: 1, maximum: 5 },
-      drinks: { type: 'number', minimum: 0, maximum: 5 },
-      food: { type: 'number', minimum: 0, maximum: 5 },
-      price: { type: 'number', minimum: 1, maximum: 5 },
-      view: { type: 'number', minimum: 0, maximum: 5 },
-      toilets: { type: 'number', minimum: 0, maximum: 5 },
-      music: { type: 'boolean' },
-      smoking: { type: 'boolean' },
-      hours: { type: 'string' },
-      standing_tables: { type: 'boolean' },
-      outdoor_seating: { type: 'boolean' },
-      cash_only: { type: 'boolean' },
-      closed: { type: 'boolean' },
-      tips: { type: 'array', items: { type: 'string' } },
-      animals: { type: 'boolean' },
-      opens: { type: 'string' },
-      closes: { type: 'string' },
-    },
-    required: ['name', 'type', 'area', 'coordinates']
-  }
+  type: 'object',
+  additionalProperties: false,
+  properties: {
+    name: { type: 'string' },
+    type: { type: 'string', enum: types },
+    area: { type: ['string', 'null'] },
+    address: { type: ['string', 'null'] },
+    coordinates: { type: 'string' },
+    google_maps: { type: 'string' },
+    station: { type: ['string', 'null'] },
+    wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
+    speed: { type: ['integer', 'null'] },
+    power: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    vacancy: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    comfort: { type: ['number', 'null'], minimum: 1, maximum: 5 },
+    quiet: { type: ['number', 'null'], minimum: 1, maximum: 5 },
+    drinks: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    food: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    price: { type: ['number', 'null'], minimum: 1, maximum: 5 },
+    view: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    toilets: { type: ['number', 'null'], minimum: 0, maximum: 5 },
+    music: { type: ['boolean', 'null'] },
+    smoking: { type: ['boolean', 'null'] },
+    hours: { type: ['string', 'null'] },
+    standing_tables: { type: ['boolean', 'null'] },
+    outdoor_seating: { type: ['boolean', 'null'] },
+    cash_only: { type: ['boolean', 'null'] },
+    closed: { type: ['boolean', 'null'] },
+    tips: { type: 'array', items: { type: 'string' } },
+    animals: { type: ['boolean', 'null'] },
+    opens: { type: ['string', 'null'] },
+    closes: { type: ['string', 'null'] },
+    facebook: { type: ['string', 'null'] },
+    instagram: { type: ['string', 'null'] },
+    website: { type: ['string', 'null'] },
+    telephone: { type: ['string', 'null'] },
+    content: { type: 'string' },
+    id: { type: 'string' },
+    url: { type: 'string' },
+    city: { type: 'object' },
+    file: { type: 'string' },
+    score: { type: 'number' },
+  },
+  required: ['name', 'type', 'area', 'coordinates']
 };
 
-const cities = fs.readdirSync(path.join(__dirname, '../data/cities'));
-for (let city of cities) {
-  console.log('checking:', city);
-  const valid = ajv.validate(schema, require(path.join(__dirname, '../data/cities/', city)));
-  if (!valid) {
-    console.error(ajv.errors);
-    process.exit(-1);
-  } else {
-    console.log('ok!')
+for (const city of cities) {
+  for (const place of city.places) {
+    const valid = ajv.validate(schema, place);
+    if (!valid) {
+      //console.log(ajv.errors);
+      console.log(city.name, place.name);
+      ajv.errors.forEach(e => console.error(`x ${e.dataPath} ${e.keyword} ${e.message}`));
+      process.exit(-1);
+    }
   }
 }

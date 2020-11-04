@@ -1,0 +1,106 @@
+extends layout
+
+block body
+  include helpers
+
+  .city
+    header
+      h1
+        a(href="/")
+          img(src="/coffeecup.png")
+        a(href="/") Cafe and Cowork
+        a(href=url): b= name
+
+    nav
+      each city in cities
+        a(href=city.url)= city.name
+
+    .map
+      #map
+
+    .search
+      input(type="text" placeholder="Search by name, type, or area..." v-model="filter" autofocus)
+
+    .scroll-wrapper
+      table
+        thead
+          tr
+            th Score
+            th Name
+            th WiFi
+            th Power
+            th Vacancy
+            th Comfort
+            th Quiet
+            th Drinks
+            th Food
+            th Price
+            th View
+            th Toilets
+            th Music
+            th Smoking
+            th(title="Standing Tables") Standing
+            th(title="Outdoor Seating") Outdoor
+            th Cash Only
+            th Animals
+            th Opens
+            th Closes
+        tbody
+          if places.length == 0
+            tr
+              td(class="empty" colspan="999") No places found ¯\_(ツ)_/¯
+          each e in places
+            tr(class={ closed: e.closed } data-coordinates=e.coordinates data-score=e.score)
+              td: +score(e)
+              td.truncate
+                a(href=e.url title=e.name)= e.name
+              //-td= e.type
+              //-td= e.area
+              td: +attribute(e.wifi)
+              td: +attribute(e.power)
+              td: +attribute(e.vacancy)
+              td: +attribute(e.comfort)
+              td: +attribute(e.quiet)
+              td: +attribute(e.drinks)
+              td: +attribute(e.food)
+              td: +attribute(e.price)
+              td: +attribute(e.view)
+              td: +attribute(e.toilets)
+              td: +attribute(e.music)
+              td: +attribute(e.smoking)
+              td: +attribute(e.standing_tables)
+              td: +attribute(e.outdoor_seating)
+              td: +attribute(e.cash_only)
+              td: +attribute(e.animals)
+              td= e.opens
+              td= e.closes
+
+  script.
+    var MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
+    var REPO_URL = '';
+    var DATA_URL = '';
+    var COORDINATES = '#{coordinates}';
+
+    function sort(th) {
+      const table = th.closest('table');
+      const tbody = table.querySelector('tbody');
+      Array.from(tbody.querySelectorAll('tr'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => tbody.appendChild(tr) );
+    }
+
+    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+    // do the work...
+    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+      sort(th);
+    })));
+
+    sort(document.querySelector('th'));
+    sort(document.querySelector('th'));
+    
+  script(src="/index.js")

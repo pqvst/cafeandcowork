@@ -1,0 +1,29 @@
+extends layout
+
+block body
+  include helpers
+
+  .index
+    header
+      h1
+        a(href="/")
+          img(src="/coffeecup.png")
+        a(href="/") Cafe and Cowork
+    
+    .cities
+      each city in cities
+        if city.places.length
+          .city
+            h2
+              a(href=city.url)
+                span= city.name
+                span.info= city.places.length
+            .list
+              each place in city.places.slice(0, 10)
+                a(href=place.url)
+                  .name
+                    span= place.name
+                    span.info(class=getValueColor(place.score)) #{place.score}★
+                  .details.info
+                    span #{place.type} in #{place.area} 
+            a.more(href=city.url) Explore more

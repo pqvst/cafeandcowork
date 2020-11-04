@@ -1,4 +1,3 @@
 _site
+__jekyll
 node_modules
-Gemfile.lock
-.jekyll-metadata

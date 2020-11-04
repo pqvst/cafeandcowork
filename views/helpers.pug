@@ -1,0 +1,34 @@
+-
+  
+  function formatScore(n) {
+    return n.toFixed(1);
+  }
+
+  function getValueText(value) {
+    if (value === true) return 'Yes';
+    if (value === false) return 'No';
+    return value + ' ★';
+  }
+
+  function getValueColor(value) {
+    if (value === true) return 'blue';
+    if (value === false) return 'orange';
+    if (value >= 5) return 'blue';
+    if (value >= 4) return 'green';
+    if (value >= 3) return 'yellow';
+    if (value >= 2) return 'orange';
+    if (value >= 1) return 'red';
+    if (value >= 0) return 'grey';
+    return 'grey';
+  }
+
+mixin attribute(value)
+  span(class=getValueColor(value))
+    if value != Null
+      span= getValueText(value)
+    else
+      a(href="#" title="Add missing data" target="_blank")
+        i.fa.fa-question-circle-o
+  
+mixin score(place)
+  span= formatScore(place.score)

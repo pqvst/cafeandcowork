@@ -3,14 +3,20 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "bundle exec jekyll serve",
+    "start": "nodemon app.js",
     "test": "node test"
   },
-  "author": "",
+  "author": "pqvst",
   "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.12.6",
+    "nodemon": "^2.0.6"
+  },
   "dependencies": {
-    "ajv": "^6.10.2",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "express": "^4.17.1",
+    "marked": "^1.2.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0",
+    "yaml": "^1.10.0"
   }
 }

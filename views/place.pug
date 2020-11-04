@@ -1,0 +1,121 @@
+extends layout
+
+block body
+  include helpers
+
+  header
+    h1
+      a(href="/")
+        img(src="/coffeecup.png")
+      a(href=city.url)= city.name
+      a(href=url): b= name
+
+  .place
+    //-.photos
+      .photo
+        i.fa.fa-photo
+      .photo
+        i.fa.fa-photo
+      .photo
+        i.fa.fa-photo
+
+    .buttons
+      a.button.maps(href=google_maps target="_blank"): i.fa.fa-map
+      if facebook
+        a.button.facebook(href=facebook): i.fa.fa-facebook
+      if instagram
+        a.button.instagram(href=instagram): i.fa.fa-instagram
+      if website
+        a.button.external(href=website): i.fa.fa-external-link
+      if telephone
+        a.button.phone(href=`tel:${telephone}`): i.fa.fa-phone
+      a.button(href=`${github}/tree/master/${file}` target="_blank") Edit
+
+    p #{type} in #{area}
+
+    .content!= content
+    
+    .map
+      #map
+
+    script.
+      (function () {
+        var [lat, lng] = '#{coordinates}'.split(',').map(Number);
+        mapboxgl.accessToken = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [lng, lat],
+          zoom: 14
+        });
+        map.on('load', function() {
+          const marker = new mapboxgl.Marker({ scale: 0.5 })
+            .setLngLat([lng, lat])
+            .addTo(map);
+        });
+      })();
+      
+
+    .attributes
+      table
+        tbody
+          tr
+            td 🚇 Station
+            td #{station}
+          tr
+            td ⏰ Hours
+            td #{opens} - #{closes}
+          tr
+            td ⭐️ Overall
+            td: +score(locals)
+          tr
+            td 💻 WiFi
+            td
+              +attribute(wifi)
+              if speed
+                span (#{speed} Mb/s)
+          tr
+            td 🔌 Power
+            td: +attribute(power)
+          tr
+            td 🪑 Vacancy
+            td: +attribute(vacancy)
+          tr
+            td 🛋 Comfort
+            td: +attribute(comfort)
+          tr
+            td 🗣 Quiet
+            td: +attribute(quiet)
+          tr
+            td ☕️ Drinks
+            td: +attribute(drinks)
+          tr
+            td 🍔 Food
+            td: +attribute(food)
+          tr
+            td 💰 Price
+            td: +attribute(price)
+          tr
+            td 🌄 View
+            td: +attribute(view)
+          tr
+            td 🚽 Toilets
+            td: +attribute(toilets)
+          tr
+            td 🔊 Music
+            td: +attribute(music)
+          tr
+            td 🚬 Smoking
+            td: +attribute(smoking)
+          tr
+            td 🧍‍♂️ Standing Tables
+            td: +attribute(standing_tables)
+          tr
+            td 🌳 Outdoor Seating
+            td: +attribute(outdoor_seating)
+          tr
+            td 💵 Cash Only
+            td: +attribute(cash_only)
+          tr
+            td 🐶 Animals
+            td: +attribute(animals)
