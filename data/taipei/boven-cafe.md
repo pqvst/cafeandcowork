@@ -8,7 +8,6 @@ address:
 station: Zhongxiao Fuxing
 opens: "10:30"
 closes: "18:00"
-closed: 
 wifi: 3
 speed: 
 power: 2

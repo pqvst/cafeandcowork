@@ -8,7 +8,6 @@ address:
 station: Jamsil
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 140
 power: 4

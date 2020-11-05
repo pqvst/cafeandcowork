@@ -8,7 +8,6 @@ address:
 station: Apgujeongrodeo
 opens: ""
 closes: ""
-closed: 
 wifi: 3
 speed: 15
 power: 5

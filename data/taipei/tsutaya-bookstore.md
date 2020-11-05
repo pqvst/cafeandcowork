@@ -8,7 +8,6 @@ address:
 station: Nangang
 opens: "08:30-11:00"
 closes: "21:30-22:00"
-closed: 
 wifi: 4
 speed: 50
 power: 5

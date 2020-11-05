@@ -8,7 +8,6 @@ address:
 station: Zhongshan Junior High School
 opens: "12:00"
 closes: "17:30-20:00"
-closed: 
 wifi: 
 speed: 
 power: 

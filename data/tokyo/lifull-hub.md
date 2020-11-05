@@ -8,7 +8,6 @@ address:
 station: Z05
 opens: ""
 closes: ""
-closed: 
 wifi: 
 speed: 
 power: 

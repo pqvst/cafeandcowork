@@ -8,7 +8,6 @@ address:
 station: Dunhua
 opens: "12:00"
 closes: "19:00-21:00"
-closed: 
 wifi: 5
 speed: 350
 power: 3

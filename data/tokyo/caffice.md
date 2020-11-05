@@ -8,7 +8,6 @@ address:
 station: JY17,M08
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 
 power: 5

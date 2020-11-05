@@ -8,7 +8,6 @@ address:
 station: Taipei City Hall
 opens: "09:30"
 closes: "17:30"
-closed: 
 wifi: 3
 speed: 30
 power: 5

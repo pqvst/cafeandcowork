@@ -8,7 +8,6 @@ address:
 station: JY22
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 
 power: 5

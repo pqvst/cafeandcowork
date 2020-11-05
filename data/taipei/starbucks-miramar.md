@@ -8,7 +8,6 @@ address:
 station: Jiannan Rd
 opens: "08:30"
 closes: "23:00"
-closed: 
 wifi: 1
 speed: 2
 power: 2

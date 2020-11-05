@@ -8,7 +8,6 @@ address:
 station: Dongdaemun History & Culture Park
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 40
 power: 0

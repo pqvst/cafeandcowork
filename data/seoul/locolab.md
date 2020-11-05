@@ -8,7 +8,6 @@ address:
 station: 
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 70
 power: 2

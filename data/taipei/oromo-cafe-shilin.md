@@ -8,7 +8,6 @@ address:
 station: Shilin
 opens: "07:30-08:00"
 closes: "21:30"
-closed: 
 wifi: 5
 speed: 
 power: 5

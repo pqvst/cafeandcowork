@@ -8,7 +8,6 @@ address:
 station: Maubert - Mutualité
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 
 power: 3

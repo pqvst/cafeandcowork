@@ -8,7 +8,6 @@ address:
 station: Samseong
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 
 power: 3

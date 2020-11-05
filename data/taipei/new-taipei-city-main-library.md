@@ -8,7 +8,6 @@ address:
 station: Far Eastern Hospital
 opens: "08:30"
 closes: "17:00-21:00"
-closed: 
 wifi: 2
 speed: 5
 power: 4

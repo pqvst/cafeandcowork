@@ -8,7 +8,6 @@ address:
 station: Taipower Building
 opens: "12:00-13:00"
 closes: "23:00"
-closed: 
 wifi: 5
 speed: 50
 power: 4

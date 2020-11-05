@@ -8,7 +8,6 @@ address:
 station: Songshan
 opens: "07:00"
 closes: "22:00"
-closed: 
 wifi: 3
 speed: 5
 power: 5

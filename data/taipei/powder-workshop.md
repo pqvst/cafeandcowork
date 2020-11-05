@@ -8,7 +8,6 @@ address:
 station: Dongmen
 opens: "09:00"
 closes: "18:00"
-closed: 
 wifi: 4
 speed: 30
 power: 4

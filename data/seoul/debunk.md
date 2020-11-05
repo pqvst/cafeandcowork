@@ -8,7 +8,6 @@ address:
 station: Hapjeong
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 67
 power: 3

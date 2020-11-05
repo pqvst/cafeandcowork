@@ -8,7 +8,6 @@ address:
 station: Daan
 opens: "11:30"
 closes: "23:00"
-closed: 
 wifi: 3
 speed: 
 power: 4

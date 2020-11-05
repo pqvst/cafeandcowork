@@ -8,7 +8,6 @@ address:
 station: Nanjing Fuxing
 opens: "10:00"
 closes: "18:00"
-closed: 
 wifi: 5
 speed: 80
 power: 5

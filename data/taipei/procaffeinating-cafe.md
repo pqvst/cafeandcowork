@@ -8,7 +8,6 @@ address:
 station: Nangang Software Park Station
 opens: "08:00"
 closes: "18:00"
-closed: 
 wifi: 4
 speed: 40
 power: 4

@@ -8,7 +8,6 @@ address:
 station: Zhongxiao Xinsheng
 opens: "11:00"
 closes: "18:00"
-closed: 
 wifi: 2
 speed: 20
 power: 3

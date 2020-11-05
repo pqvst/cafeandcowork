@@ -8,7 +8,6 @@ address:
 station: Nangang Expo
 opens: "08:00-09:00"
 closes: "21:00"
-closed: 
 wifi: 3
 speed: 5
 power: 5

@@ -8,7 +8,6 @@ address:
 station: Taipei 101/World Trade Center
 opens: "07:30"
 closes: "00:00"
-closed: 
 wifi: 5
 speed: 65
 power: 1

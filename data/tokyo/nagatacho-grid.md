@@ -8,7 +8,6 @@ address:
 station: Y16,Z04,N07,G05,M13
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 
 power: 4

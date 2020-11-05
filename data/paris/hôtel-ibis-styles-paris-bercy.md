@@ -8,7 +8,6 @@ address:
 station: Bercy
 opens: ""
 closes: ""
-closed: 
 wifi: 4
 speed: 
 power: 4

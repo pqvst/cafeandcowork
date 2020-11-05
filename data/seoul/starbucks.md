@@ -8,7 +8,6 @@ address:
 station: Seoulleung
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 320
 power: 3

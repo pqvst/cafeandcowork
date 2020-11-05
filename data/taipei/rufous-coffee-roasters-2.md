@@ -8,7 +8,6 @@ address:
 station: Liuzhangli
 opens: "11:00"
 closes: "18:30"
-closed: 
 wifi: 5
 speed: 
 power: 0

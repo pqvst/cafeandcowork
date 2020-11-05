@@ -8,7 +8,6 @@ address:
 station: Gangnam
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 210
 power: 5

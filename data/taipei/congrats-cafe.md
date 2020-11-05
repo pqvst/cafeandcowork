@@ -8,7 +8,6 @@ address:
 station: Xinyi Anhe
 opens: "08:00-13:00"
 closes: "22:00-00:00"
-closed: 
 wifi: 5
 speed: 410
 power: 5

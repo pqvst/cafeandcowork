@@ -8,7 +8,6 @@ address:
 station: Taipei Arena
 opens: "10:00-12:00"
 closes: "21:00"
-closed: 
 wifi: 3
 speed: 
 power: 2

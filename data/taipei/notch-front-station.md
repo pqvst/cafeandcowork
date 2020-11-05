@@ -8,7 +8,6 @@ address:
 station: Taipei Main Station
 opens: "08:00"
 closes: "21:00"
-closed: 
 wifi: 2
 speed: 
 power: 3

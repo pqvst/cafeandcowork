@@ -8,7 +8,6 @@ address:
 station: Zhongxiao Dunhua
 opens: "12:00"
 closes: "00:00"
-closed: 
 wifi: 5
 speed: 210
 power: 5

@@ -8,7 +8,6 @@ address:
 station: Gongdeok
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 120
 power: 5

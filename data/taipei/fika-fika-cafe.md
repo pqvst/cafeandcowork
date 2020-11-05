@@ -8,7 +8,6 @@ address:
 station: Songjiang Nanjing
 opens: "08:00-10:30"
 closes: "21:00"
-closed: 
 wifi: 5
 speed: 90
 power: 2

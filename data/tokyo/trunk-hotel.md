@@ -8,7 +8,6 @@ address:
 station: JY20,G01,Z01,F16,C03,F15,JY19
 opens: ""
 closes: ""
-closed: 
 wifi: 5
 speed: 
 power: 5
