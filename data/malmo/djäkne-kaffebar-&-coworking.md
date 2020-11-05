@@ -1,7 +1,7 @@
 ---
 name: Djäkne Kaffebar & Coworking
 type: Cafe
-area: Centralen
+area: 
 google_maps: https://goo.gl/maps/EXWW9JneqXTZAbx76
 coordinates: 55.605767,13.002156
 address: 

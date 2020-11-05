@@ -8,7 +8,6 @@ address:
 station: Yongchun
 opens: ""
 closes: ""
-closed: false
 wifi: 5
 speed: 50
 power: 3
