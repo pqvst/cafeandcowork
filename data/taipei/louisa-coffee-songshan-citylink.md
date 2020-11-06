@@ -1,5 +1,5 @@
 ---
-name: Louisa Coffee
+name: Louisa Coffee (Songshan CITYLINK)
 type: Cafe
 area: Songshan
 google_maps: https://goo.gl/maps/Y8Fyjbcygc6jXxEH8

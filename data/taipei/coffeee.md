@@ -12,7 +12,7 @@ closes: "21:00"
 wifi: 3
 speed: 10
 power: 4
-vacancy: 4
+vacancy: 5
 comfort: 3
 quiet: 3
 drinks: 4
@@ -27,4 +27,4 @@ facebook: https://www.facebook.com/drinkCoffeee/
 telephone: "+886229582272"
 ---
 
-A decent to place to get some work down in Banqiao, New Taipei City. A short walk from Fuzhong MRT station on the blue line. Lots of tables, plenty of power outlets along the walls, and decent WiFi. The interior is quite basic and lacking natural light, but works. Minimum spend per person is 100 NTD.
+A decent to place to get some work down in Banqiao, New Taipei City. A short walk from Fuzhong MRT station on the blue line. Lots of tables, plenty of power outlets along the walls, and decent WiFi. The interior is quite basic and lacking natural light, but works. Minimum spend per person is 100 NTD on weekdays and 130 NTD on weekends.

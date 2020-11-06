@@ -29,6 +29,7 @@ facebook:
 instagram: 
 telephone: 
 website: 
+closed: true
 tips:
   - Silent cafe. No talking allowed
 ---
