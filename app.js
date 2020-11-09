@@ -35,7 +35,7 @@ for (const city of cities) {
     res.render('city', city);
   });
   for (const place of city.places) {
-    app.get(`/${city.id}/${place.id}/`, (req, res) => {
+    app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
       res.render('place', place);
     });
   }
