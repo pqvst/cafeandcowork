@@ -7,7 +7,7 @@ const port = 3000;
 
 app.set('views', 'views');
 app.set('view engine', 'pug');
-app.set('strict routing', true);
+//app.set('strict routing', true);
 
 app.use(express.static('public'))
 app.use(morgan('dev'));
@@ -20,13 +20,14 @@ app.locals.site = {
   instagram: 'https://instagram.com/cafeandcowork',
 };
 
-app.use((req, res, next) => {
-  if (req.path.slice(req.path.length-1) !== '/') {
-    res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
-  } else {
-    next();
-  }
-});
+// app.use((req, res, next) => {
+//   if (req.path.slice(req.path.length-1) !== '/') {
+//     res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
+//   } else {
+//     next();
+//   }
+//   next();
+// });
 
 const { cities, recent, top } = data.load();
 
