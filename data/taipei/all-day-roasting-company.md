@@ -8,25 +8,25 @@ address: 105, Taiwan, Taipei City, Songshan District, Yanshou Street, 329號1樓
 station: Nanjing Sanmin
 opens: "11:00"
 closes: "22:00"
-wifi: 
+wifi: 4
 speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
-cash_only: 
-animals: 
-facebook: 
+power: 4
+vacancy: 4
+comfort: 3
+quiet: 3
+food: 4
+drinks: 4
+price: 3
+view: 4
+toilets: 3
+music: true
+smoking: false
+standing_tables: true
+outdoor_seating: false
+cash_only: false
+animals: false
+facebook: "https://www.facebook.com/alldayroastingcompany/"
 instagram: 
-telephone: 
+telephone: "+886287874468"
 website: 
 ---
