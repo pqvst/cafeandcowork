@@ -33,6 +33,7 @@
       center: COORDINATES ? COORDINATES.split(',').map(Number).reverse() : undefined,
       zoom: 10
     });
+    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }));
     map.on('load', () => updateMap());
   }
 
