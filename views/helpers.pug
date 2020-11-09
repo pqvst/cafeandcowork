@@ -48,7 +48,7 @@ mixin attribute(value, expanded)
     if value != Null
       span= getValueText(value)
     else
-      a(href="#" title="Add missing data" target="_blank")
+      a(href=site.github title="Add missing data" target="_blank")
         i.fa.fa-question-circle-o
         if expanded
           span Add missing data
