@@ -63,6 +63,7 @@ const schema = {
     file: { type: 'string' },
     score: { type: 'number' },
     title: { type: 'string' },
+    markdown: { type: 'string' },
   },
   required: ['name', 'type', 'area', 'coordinates']
 };
