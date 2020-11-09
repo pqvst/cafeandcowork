@@ -6,7 +6,7 @@ area: Banqiao
 google_maps: https://goo.gl/maps/9F173WzUxCsjtxSF7
 coordinates: 25.008351, 121.467699
 address: No. 10, Lane 129, Minzu Road, Banqiao District, New Taipei City, Taiwan 220
-station: Banqiao
+station: Banqiao (BL07, Y16)
 opens: "11:00"
 closes: "21:00"
 wifi: 3

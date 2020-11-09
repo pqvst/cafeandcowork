@@ -2,10 +2,10 @@
 date: 2020-11-04
 name: Powder Workshop
 type: Cafe
-area: Dongmen
+area: Daan
 google_maps: https://goo.gl/maps/6ei1YiU6YmbZgUo3A
 coordinates: 25.033934, 121.525719
-address: 
+address: No. 25號, Lane 86, Section 2, Xinyi Road, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
 opens: "09:00"
 closes: "18:00"
@@ -26,10 +26,11 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/powderworkshop/
 instagram: 
-telephone: 
+telephone: "+886223435853"
 website: 
 tips:
   - Seating time limit is two hours
 ---
+
