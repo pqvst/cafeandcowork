@@ -48,7 +48,7 @@ function load() {
     const city = Object.assign(cityData, {
       title: cityData.name,
       id: cityId,
-      url: `/${cityId}/`,
+      url: `/${cityId}`,
       places: [],
     });
 
@@ -58,7 +58,7 @@ function load() {
         const name = path.basename(placeFile, '.md');
         city.places.push(Object.assign(placeData, {
           id: name,
-          url: `/${cityId}/${name}/`,
+          url: `/${cityId}/${name}`,
           city: city,
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
