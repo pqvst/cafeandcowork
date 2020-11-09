@@ -38,6 +38,8 @@ block body
             th(title="Outdoor Seating") Outdoor
             th Cash Only
             th Animals
+            th Type
+            th Area
             th Opens
             th Closes
         tbody
@@ -49,8 +51,6 @@ block body
               td: +score(e)
               td.truncate
                 a(href=e.url title=e.name)= e.name
-              //-td= e.type
-              //-td= e.area
               td: +attribute(e.wifi)
               td: +attribute(e.power)
               td: +attribute(e.vacancy)
@@ -67,6 +67,8 @@ block body
               td: +attribute(e.outdoor_seating)
               td: +attribute(e.cash_only)
               td: +attribute(e.animals)
+              td= e.type
+              td= e.area
               td= e.opens
               td= e.closes
 
