@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
 const marked = require('marked');
+const _ = require('lodash');
 
 function avg(arr) {
   let n = 0;
@@ -33,8 +34,14 @@ function parseFile(filename) {
   return Object.assign({ content }, data);
 }
 
+function filter(filename) {
+  return !filename.startsWith('.');
+}
+
 function load() {
-  const cities = fs.readdirSync('data/').map(cityId => {
+  const t1 = Date.now();
+
+  const cities = fs.readdirSync('data/').filter(filter).map(cityId => {
 
     const cityData = parseFile(`data/${cityId}/index.md`);
 
@@ -44,7 +51,7 @@ function load() {
       places: [],
     });
 
-    for (const placeFile of fs.readdirSync(`data/${cityId}/`)) {
+    for (const placeFile of fs.readdirSync(`data/${cityId}/`).filter(filter)) {
       if (placeFile != 'index.md') {
         const placeData = parseFile(`data/${cityId}/${placeFile}`);
         const name = path.basename(placeFile, '.md');
@@ -54,6 +61,7 @@ function load() {
           city: city,
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
+          title: placeData.name,
         }));
       }
     }
@@ -65,7 +73,23 @@ function load() {
   
   cities.sort((a, b) => b.places.length - a.places.length);
 
-  return cities;
+  const recent = _([])
+    .concat(...cities.map(e => e.places))
+    .filter(e => !!e.date)
+    .orderBy('date', 'desc')
+    .take(10)
+    .value();
+
+  const top = _([])
+    .concat(...cities.map(e => e.places))
+    .orderBy('score', 'desc')
+    .take(10)
+    .value();
+
+  const t2 = Date.now();
+  console.log(`Loaded ${cities.length} cities in ${t2 - t1} ms`);
+
+  return { cities, recent, top };
 }
 
 module.exports = { load };
