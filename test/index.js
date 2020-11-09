@@ -2,7 +2,7 @@ const Ajv = require('ajv');
 const ajv = new Ajv();
 
 const data = require('../data');
-const cities = data.load();
+const { cities } = data.load();
 
 const types = [
   'Cafe',
@@ -22,6 +22,7 @@ const schema = {
   type: 'object',
   additionalProperties: false,
   properties: {
+    date: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
@@ -61,6 +62,7 @@ const schema = {
     city: { type: 'object' },
     file: { type: 'string' },
     score: { type: 'number' },
+    title: { type: 'string' },
   },
   required: ['name', 'type', 'area', 'coordinates']
 };
@@ -69,9 +71,8 @@ for (const city of cities) {
   for (const place of city.places) {
     const valid = ajv.validate(schema, place);
     if (!valid) {
-      //console.log(ajv.errors);
       console.log(city.name, place.name);
-      ajv.errors.forEach(e => console.error(`x ${e.dataPath} ${e.keyword} ${e.message}`));
+      console.log(ajv.errors);
       process.exit(-1);
     }
   }
