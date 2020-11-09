@@ -1,4 +1,5 @@
 ---
+date: 2020-11-09
 name: Truffles Living
 type: Cafe
 area: Daan
@@ -18,7 +19,7 @@ food:
 drinks: 3
 price: 4
 view: 5
-toilets: 3
+toilets: 5
 music: true
 smoking: false
 standing_tables: false
