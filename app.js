@@ -9,7 +9,7 @@ app.set('views', 'views');
 app.set('view engine', 'pug');
 //app.set('strict routing', true);
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.locals.site = {
