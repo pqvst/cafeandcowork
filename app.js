@@ -12,10 +12,13 @@ app.set('strict routing', true);
 app.use(express.static('public'))
 app.use(morgan('dev'));
 
-app.locals.title = 'Cafe and Cowork';
-app.locals.description = 'Find Places to Work From';
-app.locals.url = 'https://cafeandcowork.com';
-app.locals.github = 'https://github.com/pqvst/cafeandcowork';
+app.locals.site = {
+  title: 'Cafe and Cowork',
+  description: 'Find Places to Work From',
+  url: 'https://cafeandcowork.com',
+  github: 'https://github.com/pqvst/cafeandcowork',
+  instagram: 'https://instagram.com/cafeandcowork',
+};
 
 app.use((req, res, next) => {
   if (req.path.slice(req.path.length-1) !== '/') {
@@ -25,9 +28,12 @@ app.use((req, res, next) => {
   }
 });
 
-const cities = data.load();
+const { cities, recent, top } = data.load();
 
 app.locals.cities = cities;
+app.locals.recent = recent;
+app.locals.top = top;
+
 app.locals.places = [];
 
 for (const city of cities) {
