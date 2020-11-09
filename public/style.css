@@ -141,6 +141,11 @@ footer .fa {
   height: 300px;
 }
 
+.mapboxgl-popup-content {
+  padding: 15px;
+  line-height: 1.4;
+}
+
 
 
 /* ========== Search ========== */

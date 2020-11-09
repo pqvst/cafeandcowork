@@ -47,7 +47,7 @@ block body
             tr
               td(class="empty" colspan="999") No places found ¯\_(ツ)_/¯
           each e in places
-            tr(class={ closed: e.closed } data-coordinates=e.coordinates data-score=e.score)
+            tr(class={ closed: e.closed } data-coordinates=e.coordinates data-score=e.score data-name=e.name data-url=e.url)
               td: +score(e)
               td.truncate
                 a(href=e.url title=e.name)= e.name
@@ -72,32 +72,16 @@ block body
               td= e.opens
               td= e.closes
 
+  -
+    const markers = places.map(e => {
+      return {
+        name: e.name,
+        url: e.url,
+        score: e.score,
+        coordinates: e.coordinates,
+      };
+    });
+
   script.
-    var MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
-    var REPO_URL = '';
-    var DATA_URL = '';
-    var COORDINATES = '#{coordinates}';
-
-    function sort(th) {
-      const table = th.closest('table');
-      const tbody = table.querySelector('tbody');
-      Array.from(tbody.querySelectorAll('tr'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-        .forEach(tr => tbody.appendChild(tr) );
-    }
-
-    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
-
-    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-    // do the work...
-    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-      sort(th);
-    })));
-
-    sort(document.querySelector('th'));
-    sort(document.querySelector('th'));
-    
-  script(src="/index.js")
+    CafeAndCowork.Table(document.querySelector('table'), document.querySelector('input'));
+    CafeAndCowork.City('#{coordinates}', !{JSON.stringify(markers)});
