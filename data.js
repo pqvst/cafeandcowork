@@ -29,9 +29,9 @@ function parseFile(filename) {
   const file = fs.readFileSync(filename, 'utf8');
   const split = file.split('---');
   const data = yaml.parse(split[1]);
-  const markdown = split.slice(2).join('---');
+  const markdown = split.slice(2).join('---').trim();
   const content = marked(markdown);
-  return Object.assign({ content }, data);
+  return Object.assign({ content, markdown }, data);
 }
 
 function filter(filename) {
