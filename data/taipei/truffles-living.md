@@ -8,7 +8,7 @@ address: No. 66號, Wenchang Street, Da’an District, Taipei City, Taiwan 106
 station: Xinyi Anhe
 opens: "11:00"
 closes: "22:00"
-wifi: 2
+wifi: 1
 speed: 3
 power: 2
 vacancy: 5
@@ -22,7 +22,7 @@ toilets: 3
 music: true
 smoking: false
 standing_tables: false
-outdoor_seating: false
+outdoor_seating: true
 cash_only: 
 animals: 
 facebook: https://www.facebook.com/TrufflesLiving/

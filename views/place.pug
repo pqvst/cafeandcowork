@@ -112,20 +112,10 @@ block body
       #map
 
   script.
-    (function () {
-      var [lat, lng] = '#{coordinates}'.split(',').map(Number);
-      mapboxgl.accessToken = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [lng, lat],
-        zoom: 14
-      });
-      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }));
-      map.on('load', function() {
-        const marker = new mapboxgl.Marker({ scale: 0.5 })
-          .setLngLat([lng, lat])
-          .addTo(map);
-      });
-    })();
+    CafeAndCowork.Place({
+      url: '#{url}',
+      score: '#{score}',
+      name: '#{name}',
+      coordinates: '#{coordinates}'
+    });
     
