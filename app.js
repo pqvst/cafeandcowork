@@ -51,6 +51,11 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/feed.xml', (req, res) => {
+  res.type('application/xml');
+  res.render('feed', { recent, pretty: true });
+});
+
 app.listen(port);
 
 process.on('SIGTERM', () => {
