@@ -1,4 +1,25 @@
 -
+
+  function formatAgo(date) {
+    date = new Date(date);
+    const today = new Date();
+    const days = Math.floor((today - date) / (1000 * 60 * 60 * 24));
+    const weeks = Math.floor(days / 7);
+    const months = Math.floor(days / 30);
+    if (days <= 0) return 'Today';
+    if (days == 1) return 'Yesterday';
+    if (days <= 7) return `${days} days ago`;
+    if (days <= 30) return `${weeks} weeks ago`;
+  }
+
+  const monthNames = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+  ];
+
+  function formatDate(date) {
+    date = new Date(date);
+    return monthNames[date.getMonth()] + ' ' + date.getDate() + ', ' + (1900 + date.getYear());
+  }
   
   function formatScore(n) {
     return n.toFixed(1);
@@ -22,13 +43,15 @@
     return 'grey';
   }
 
-mixin attribute(value)
+mixin attribute(value, expanded)
   span(class=getValueColor(value))
     if value != Null
       span= getValueText(value)
     else
       a(href="#" title="Add missing data" target="_blank")
         i.fa.fa-question-circle-o
+        if expanded
+          span Add missing data
   
 mixin score(place)
   span= formatScore(place.score)

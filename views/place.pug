@@ -3,119 +3,129 @@ extends layout
 block body
   include helpers
 
-  header
-    h1
-      a(href="/")
-        img(src="/coffeecup.png")
-      a(href=city.url)= city.name
-      a(href=url): b= name
-
   .place
-    //-.photos
-      .photo
-        i.fa.fa-photo
-      .photo
-        i.fa.fa-photo
-      .photo
-        i.fa.fa-photo
+    include header
 
-    .buttons
-      a.button.maps(href=google_maps target="_blank"): i.fa.fa-map
-      if facebook
-        a.button.facebook(href=facebook): i.fa.fa-facebook
-      if instagram
-        a.button.instagram(href=instagram): i.fa.fa-instagram
-      if website
-        a.button.external(href=website): i.fa.fa-external-link
-      if telephone
-        a.button.phone(href=`tel:${telephone}`): i.fa.fa-phone
-      a.button(href=`${github}/tree/master/${file}` target="_blank") Edit
-
-    p #{type} in #{area}
+    h2
+      span= name
+      span.info 
+      if closed
+        span.closed Permanently closed
+      
+    .info
+      a.city(href=city.url) #{city.name}
+      span · #{type} in #{area}
+      if date
+        span.updated · Updated #{formatDate(date)}
 
     .content!= content
-    
+
+    .buttons
+      a.button.maps(href=google_maps target="_blank")
+        i.fa.fa-map
+        span Google Maps
+      if facebook
+        a.button.facebook(href=facebook target="_blank")
+          i.fa.fa-facebook
+          span Facebook
+      if instagram
+        a.button.instagram(href=instagram target="_blank")
+          i.fa.fa-instagram
+          span Instagram
+      if website
+        a.button.website(href=website target="_blank")
+          i.fa.fa-external-link
+          span Website
+      if telephone
+        a.button.telephone(href=`tel:${telephone}`)
+          i.fa.fa-phone
+          span Call
+      //-a.button(href=`${github}/tree/master/${file}` target="_blank")
+        i.fa.fa-pencil
+        span Edit
+
+    .attributes
+      dl
+        dt #[span.icon 🚇] Station
+        dd #{station}
+        dt #[span.icon ⏰] Hours
+        dd #{opens} to #{closes}
+        dt #[span.icon ⭐️] Overall
+        dd: +score(locals)
+        dt #[span.icon 💻] WiFi
+        dd
+          +attribute(wifi, true)
+          if speed
+            span.speed (#{speed} Mb/s)
+        dt #[span.icon 🔌] Power
+        dd: +attribute(power, true)
+        dt #[span.icon 🪑] Vacancy
+        dd: +attribute(vacancy, true)
+        dt #[span.icon 🛋] Comfort
+        dd: +attribute(comfort, true)
+        dt #[span.icon 🗣] Quiet
+        dd: +attribute(quiet, true)
+        dt #[span.icon ☕️] Drinks
+        dd: +attribute(drinks, true)
+        dt #[span.icon 🍔] Food
+        dd: +attribute(food, true)
+        dt #[span.icon 💰] Price
+        dd: +attribute(price, true)
+        dt #[span.icon 🌄] View
+        dd: +attribute(view, true)
+        dt #[span.icon 🚽] Toilets
+        dd: +attribute(toilets, true)
+        dt #[span.icon 🔊] Music
+        dd: +attribute(music, true)
+        dt #[span.icon 🚬] Smoking
+        dd: +attribute(smoking, true)
+        dt #[span.icon 🧍‍♂️] Standing Tables
+        dd: +attribute(standing_tables, true)
+        dt #[span.icon 🌳] Outdoor Seating
+        dd: +attribute(outdoor_seating, true)
+        dt #[span.icon 💵] Cash Only
+        dd: +attribute(cash_only, true)
+        dt #[span.icon 🐶] Animals
+        dd: +attribute(animals, true)
+      dl
+        dt Type
+        dd #{type}
+        dt Area
+        dd #{area}
+        if address
+          dt Address
+          dd: a(href=google_maps)= address
+        if facebook
+          dt Facebook
+          dd: a(href=facebook)= facebook
+        if instagram
+          dt Instagram
+          dd: a(href=instagram)= instagram
+        if website
+          dt Website
+          dd: a(href=website)= website
+        if telephone
+          dt Telephone
+          dd: a(href=`tel:${telephone}`)= telephone
+
     .map
       #map
 
-    script.
-      (function () {
-        var [lat, lng] = '#{coordinates}'.split(',').map(Number);
-        mapboxgl.accessToken = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
-        var map = new mapboxgl.Map({
-          container: 'map',
-          style: 'mapbox://styles/mapbox/streets-v11',
-          center: [lng, lat],
-          zoom: 14
-        });
-        map.on('load', function() {
-          const marker = new mapboxgl.Marker({ scale: 0.5 })
-            .setLngLat([lng, lat])
-            .addTo(map);
-        });
-      })();
-      
-
-    .attributes
-      table
-        tbody
-          tr
-            td 🚇 Station
-            td #{station}
-          tr
-            td ⏰ Hours
-            td #{opens} - #{closes}
-          tr
-            td ⭐️ Overall
-            td: +score(locals)
-          tr
-            td 💻 WiFi
-            td
-              +attribute(wifi)
-              if speed
-                span (#{speed} Mb/s)
-          tr
-            td 🔌 Power
-            td: +attribute(power)
-          tr
-            td 🪑 Vacancy
-            td: +attribute(vacancy)
-          tr
-            td 🛋 Comfort
-            td: +attribute(comfort)
-          tr
-            td 🗣 Quiet
-            td: +attribute(quiet)
-          tr
-            td ☕️ Drinks
-            td: +attribute(drinks)
-          tr
-            td 🍔 Food
-            td: +attribute(food)
-          tr
-            td 💰 Price
-            td: +attribute(price)
-          tr
-            td 🌄 View
-            td: +attribute(view)
-          tr
-            td 🚽 Toilets
-            td: +attribute(toilets)
-          tr
-            td 🔊 Music
-            td: +attribute(music)
-          tr
-            td 🚬 Smoking
-            td: +attribute(smoking)
-          tr
-            td 🧍‍♂️ Standing Tables
-            td: +attribute(standing_tables)
-          tr
-            td 🌳 Outdoor Seating
-            td: +attribute(outdoor_seating)
-          tr
-            td 💵 Cash Only
-            td: +attribute(cash_only)
-          tr
-            td 🐶 Animals
-            td: +attribute(animals)
+  script.
+    (function () {
+      var [lat, lng] = '#{coordinates}'.split(',').map(Number);
+      mapboxgl.accessToken = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [lng, lat],
+        zoom: 14
+      });
+      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }));
+      map.on('load', function() {
+        const marker = new mapboxgl.Marker({ scale: 0.5 })
+          .setLngLat([lng, lat])
+          .addTo(map);
+      });
+    })();
+    

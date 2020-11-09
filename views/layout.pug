@@ -1,12 +1,15 @@
 doctype html
 html
   head
-    title #{title} – #{description}
-    meta(name="description" content=description)
+    if title
+      title #{title} – #{site.title}
+    else
+      title #{site.title} – #{site.description}
+    meta(name="description" content=site.description)
     meta(name="author" content="pqvst")
 
     //- TODO: Fix responsive css...
-    //- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     meta(charset="utf-8")
     meta(property="og:logo" content=`${url}/assets/img/logo.png`)
@@ -26,7 +29,6 @@ html
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous")
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css")
-    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css")
     link(rel="stylesheet" href="/style.css")
 
     script(src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js')
@@ -37,21 +39,21 @@ html
     script window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-151353350-1');
 
     block head
-  body
-    aside
-      a(href="/")
-        img(src="/coffeecup.png")
-        h1 Cafe and Cowork
-        
+  body  
     main
       block body
 
     footer
-      a(href="#") Copyright &copy; #{1900+(new Date).getYear()}
-      a(href="https://pqvst.com") Built by pqvst
-      a(href="https://instagram.com/cafeandcowork")
+      a(href=site.url) Copyright &copy; #{1900+(new Date).getYear()}
+      a(href="https://pqvst.com" target="_blank")
+        i.fa.fa-code
+        span Built by pqvst
+      a(href=site.instagram target="_blank")
         i.fa.fa-instagram
         span cafeandcowork
+      a(href=site.github target="_blank")
+        i.fa.fa-github
+        span pqvst/cafeandcowork
 
-    a.forkme(href=github target="_blank")
+    //-a.forkme(href=github target="_blank")
       img(src="/forkme.png")

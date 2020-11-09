@@ -1,7 +1,5 @@
 
-/* ==========================================================================
-  Base
-  ========================================================================== */
+/* ========== Base ========== */
   
 html, body {
   height: 100%;
@@ -47,36 +45,9 @@ main {
   padding: 30px 30px 0 30px;
 }
 
-aside {
-  position: fixed;
-  border-right: solid 1px #eee;
-  background: #fafafa;
-  width: 150px;
-  height: 100%;
-  padding: 40px 30px;
-  box-sizing: border-box;
-  text-align: center;
-  display: none;
-}
 
-aside a {
-  text-decoration: none;
-}
 
-aside img {
-  max-width: 100%;
-}
-
-aside h1 {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 1em;
-  color: #888;
-}
-
-/* ==========================================================================
-    Header
-    ========================================================================== */
+/* ========== Header ========== */
 
 header {
   margin-top: -10px;
@@ -91,6 +62,14 @@ header h1 {
 
 header a {
   text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header a.brand:hover {
+  border-bottom: solid 2px black;
 }
 
 header a+a {
@@ -109,41 +88,51 @@ header img {
   margin-right: 15px;
 }
 
-/* ==========================================================================
-    Navigation
-    ========================================================================== */
-
-nav {
-  display: flex;
-  overflow: auto;
-  margin: -5px;
-  margin-bottom: 10px;
+header a.icon {
+  margin-left: 15px;
+  opacity: 0.1;
 }
 
-nav > a {
-  display: block;
-  flex-basis: 0;
-  flex-grow: 1;
-  padding: 10px;
+header a.icon:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  header h1 {
+    font-size: 2em;
+  }
+  header img {
+    height: 40px;
+    margin-right: 5px;
+    top: 8px;
+  }
+}
+
+/* ========== Footer ========== */
+
+footer {
+  margin-top: 30px;
   text-align: center;
-  white-space: nowrap;
-  text-decoration: none;
-  background: #eee;
-  margin: 5px;
-  border-radius: 6px;
+  padding: 20px 10px;
+  font-size: 0.8em;
 }
 
-nav > a:hover {
-  background: #eee;
+footer a {
+  display: inline-block;
   text-decoration: none;
+  margin: 3px 10px;
 }
 
-/* ==========================================================================
-    Map
-    ========================================================================== */
+footer .fa {
+  margin-right: 4px;
+}
+
+
+
+/* ========== Map ========== */
 
 .map {
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -152,9 +141,9 @@ nav > a:hover {
   height: 300px;
 }
 
-/* ==========================================================================
-    Search
-    ========================================================================== */
+
+
+/* ========== Search ========== */
 
 .search {
   margin-bottom: 20px;
@@ -172,9 +161,9 @@ nav > a:hover {
   outline: none;
 }
 
-/* ==========================================================================
-    Table
-    ========================================================================== */
+
+
+/* ========== Table ========== */
 
 table {
   border-collapse: collapse;
@@ -221,14 +210,14 @@ tr:hover .edit {
   visibility: visible;
 }
 
-.closed {
+tr.closed {
   text-decoration: line-through;
-  opacity: 0.2;
+  color: rgba(0,0,0,0.3);
 }
 
-/* ==========================================================================
-    Colors
-    ========================================================================== */
+
+
+/* ========== Colors ========== */
 
 .blue {
   color: #3498db;
@@ -254,183 +243,34 @@ tr:hover .edit {
   color: #ccc;
 }
 
-.rating-star {
-  margin-left: 3px;
+.info {
+  font-weight: 300;
+  color: rgba(0,0,0,0.4);
 }
 
-/* ==========================================================================
-    Footer
-    ========================================================================== */
 
-footer {
-  margin-top: 30px;
-  text-align: center;
-  padding: 20px 10px;
-  font-size: 0.8em;
-}
-
-footer a {
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-footer .fa {
-  margin-right: 3px;
-}
-
-/* ==========================================================================
-    Place
-    ========================================================================== */
-
-/* ==========================================================================
-    Place
-    ========================================================================== */
-
-.wrap img {
-  height: 70px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.box {
-  border: solid 1px #ddd;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 30px;
-  border-radius: 10px;
-}
-
-.box h1 {
-  margin-top: 0;
-}
-
-.place {
-  max-width: 600px;
-}
-
-.place h2 {
-  margin: 0;
-}
-
-.city h2 {
-  margin-top: 0;
-}
-
-.photos {
-  margin: 20px 0;
-  margin-right: -30px;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.photo {
-  border-radius: 10px;
-  line-height: 200px;
-  font-size: 3em;
-  text-align: center;
-  color: rgba(0,0,0,0.1);
-  width: 300px;
-  background: #FAF0DC;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.forkme {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0.7;
-}
-
-.forkme:hover {
-  opacity: 1;
-}
-
-.forkme img {
-  transform: rotate(90deg);
-  height: 100px;
-}
-
-.attributes table {
-  width: 100%;
-  border: solid 1px #eee;
-}
-
-/* ========== Buttons ========== */
-
-.buttons {
-  margin-bottom: 20px;
-}
-
-a.button {
-  padding: 10px 18px;
-  display: inline-block;
-  border-radius: 6px;
-  text-decoration: none;
-  background: #fafafa;
-  color: #eee;
-}
-
-a.button[href] {
-  background: #f0f0f0;
-  color: black;
-}
-
-a.button:hover {
-  opacity: 0.9;
-}
-
-a.button.primary {
-  background: #FAF0DC;
-}
-
-a.button.maps[href] {
-  background: #4285f4;
-  color: white;
-}
-
-a.button.facebook[href] {
-  background: #3b5998;
-  color: white;
-}
-
-a.button.instagram[href] {
-  background: #c13584;
-  color: white;
-}
-
-a.button.twitter[href] {
-  background: #1da1f2;
-  color: white;
-}
-
-a.button + a.button {
-  margin-left: 10px;
-}
 
 /* ========== Index ========== */
 
-.index .cities {
+.index .columns {
   display: flex;
   margin: -20px;
   flex-wrap: wrap;
 }
 
-.index .city {
+.index .column {
   width: 100%;
-  padding: 20px;
+  padding: 0 20px 30px 20px;
 }
 
 @media screen and (min-width: 700px) {
-  .index .city {
+  .index .column {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 1400px) {
-  .index .city {
+@media screen and (min-width: 1200px) {
+  .index .column {
     width: 33%;
   }
 }
@@ -447,8 +287,6 @@ a.button + a.button {
 
 .index h2 .info {
   margin-left: 10px;
-  font-weight: 300;
-  color: rgba(0,0,0,0.5);
 }
 
 .index .list a {
@@ -457,22 +295,26 @@ a.button + a.button {
   padding: 10px 0;
 }
 
-.index .list a+a {
-  /*border-top: solid 1px #eee;*/
+.index .list a:hover .name {
+  text-decoration: underline;
 }
 
-.index .list a .info {
-  font-weight: 300;
-}
-
-.index .name .info {
+.index .score {
   margin-left: 5px;
+}
+
+.index .star {
+  margin-left: 3px;
 }
 
 .index .details {
   margin-top: 3px;
   font-size: 0.8em;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.4);
+}
+
+.index .fa-angle-right {
+  margin-left: 10px;
 }
 
 .index a.more {
@@ -481,7 +323,171 @@ a.button + a.button {
   text-decoration: underline;
 }
 
-.content strong {
+
+
+/* ========== City ========== */
+
+.city h2 {
+  margin: 0 0 30px 0;
+}
+
+.city h2 a {
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(0,0,0,0.4);
+  padding: 8px 0;
+  display: inline-block;
+}
+
+.city h2 a.active {
   font-weight: 600;
-  line-height: 1.4;
+  color: black;
+  border-bottom: solid 2px black;
+}
+
+.city h2 a:hover {
+  border-bottom: solid 2px rgba(0,0,0,0.4);
+}
+
+.city h2 a+a {
+  margin-left: 20px;
+}
+
+
+
+/* ========== Place ========== */
+
+.place {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.place h2 {
+  padding: 8px 0;
+  margin: 0 0 20px 0;
+  border-bottom: solid 2px black;
+}
+
+.place .info {
+  font-weight: 300;
+  color: rgba(0,0,0,0.5);
+}
+
+.place .city {
+  margin-right: 5px;
+}
+
+.place .closed {
+  margin-left: 10px;
+}
+
+.place .updated {
+  margin-left: 5px;
+}
+
+.place dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.place dt {
+  background: #fafafa;
+  font-weight: 600;
+  flex-basis: 33%;
+  margin: 0;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px;
+}
+
+.place dd {
+  flex-basis: 67%;
+  margin: 0;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px;
+}
+
+.place dl a {
+  text-decoration: none;
+}
+
+.place dl a i.fa+span {
+  margin-left: 5px;
+}
+
+.place span.icon {
+  display: inline-block;
+  width: 20px;
+}
+
+.place span.speed {
+  margin-left: 5px;
+}
+
+.place .content {
+  line-height: 1.6;
+}
+
+.place .content strong {
+  font-weight: 600;
+}
+
+
+/* ========== Buttons ========== */
+
+.buttons {
+  margin: 20px 0 0 0;
+}
+
+a.button {
+  padding: 10px 18px;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #eee;
+  color: #444;
+  font-weight: 400;
+  margin: 0 10px 10px 0;
+}
+
+a.button i.fa+span {
+  margin-left: 8px;
+}
+
+a.button:hover {
+  opacity: 0.9;
+}
+
+a.button.primary {
+  background: #FAF0DC;
+}
+
+a.button.maps {
+  background: #4285f4;
+  color: white;
+}
+
+a.button.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+a.button.instagram {
+  background: #c13584;
+  color: white;
+}
+
+a.button.telephone {
+  background: #9b59b6;
+  color: white;
+}
+
+a.button.website {
+  background: #2ecc71;
+  color: white;
 }

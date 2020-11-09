@@ -3,27 +3,42 @@ extends layout
 block body
   include helpers
 
+  mixin list(places, city)
+    .list
+      each place in places
+        +item(place, city)
+
+  mixin item(place, city)
+    a(href=place.url)
+      .primary
+        span.name= place.name
+        span.score(class=getValueColor(place.score))
+          span #{place.score}
+          span.star ★
+      .details
+        if city
+          span #{place.type} in #{place.city.name}
+        else
+          span #{place.type} in #{place.area}
+
   .index
-    header
-      h1
-        a(href="/")
-          img(src="/coffeecup.png")
-        a(href="/") Cafe and Cowork
-    
-    .cities
+    include header
+    .columns
       each city in cities
         if city.places.length
-          .city
+          .column
             h2
               a(href=city.url)
                 span= city.name
-                span.info= city.places.length
-            .list
-              each place in city.places.slice(0, 10)
-                a(href=place.url)
-                  .name
-                    span= place.name
-                    span.info(class=getValueColor(place.score)) #{place.score}★
-                  .details.info
-                    span #{place.type} in #{place.area} 
+                span.info
+                  span #{city.places.length} places
+                  i.fa.fa-angle-right
+            +list(city.places.slice(0, 10))
             a.more(href=city.url) Explore more
+      .column
+        h2 Recently Added
+        +list(recent, true)
+      .column
+        h2 Top Rated
+        +list(top, true)
+      

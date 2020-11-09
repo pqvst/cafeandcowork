@@ -4,16 +4,11 @@ block body
   include helpers
 
   .city
-    header
-      h1
-        a(href="/")
-          img(src="/coffeecup.png")
-        a(href="/") Cafe and Cowork
-        a(href=url): b= name
+    include header
 
-    nav
+    h2
       each city in cities
-        a(href=city.url)= city.name
+        a(class={ active: city.name == name } href=city.url)= city.name
 
     .map
       #map
