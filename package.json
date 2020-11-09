@@ -19,5 +19,8 @@
     "morgan": "^1.10.0",
     "pug": "^3.0.0",
     "yaml": "^1.10.0"
+  },
+  "nodemonConfig": {
+    "ext": "js,md,json"
   }
 }
