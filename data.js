@@ -46,6 +46,7 @@ function load() {
     const cityData = parseFile(`data/${cityId}/index.md`);
 
     const city = Object.assign(cityData, {
+      title: cityData.name,
       id: cityId,
       url: `/${cityId}/`,
       places: [],
