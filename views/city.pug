@@ -10,6 +10,9 @@ block body
       each city in cities
         a(class={ active: city.name == name } href=city.url)= city.name
 
+    script.
+      document.querySelector('h2 a.active').scrollIntoView();
+
     .map
       #map
 

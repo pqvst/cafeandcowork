@@ -334,6 +334,8 @@ tr.closed {
 
 .city h2 {
   margin: 0 0 20px 0;
+  white-space: nowrap;
+  overflow: auto;
 }
 
 .city h2 a {
