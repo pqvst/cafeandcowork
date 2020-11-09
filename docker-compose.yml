@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    environment:
+      - VIRTUAL_HOST=cafeandcowork.com
+    logging:
+      options:
+        max-file: "10"
+        max-size: "10m"
+    restart: always
+ 
+networks:
+  default:
+    external:
+      name: router_default
