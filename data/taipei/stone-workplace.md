@@ -26,7 +26,7 @@ outdoor_seating: false
 cash_only: false
 animals: false
 facebook: https://www.facebook.com/stoneworkplace
-instagram: 
+instagram: https://www.instagram.com/stoneworkplace/
 telephone: "+886237621355"
 website: https://www.stoneworkplace.com/
 ---

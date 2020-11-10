@@ -26,7 +26,7 @@ outdoor_seating: false
 cash_only: true
 animals: false
 facebook: https://www.facebook.com/SWELL-CO-CAFE-1008869809231731/
-instagram: 
+instagram: https://www.instagram.com/swellcocafe/
 telephone: "+886227003003"
 website: 
 ---
