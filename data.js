@@ -22,7 +22,7 @@ function getScore(place) {
   if (place.standing_tables) score += 0.1;
   if (place.outdoor_seating) score += 0.1;
   if (place.cash_only) score -= 0.1;
-  return Number(Math.min(score, 5).toFixed(1));
+  return Math.min(score, 5);
 }
 
 function parseFile(filename) {
