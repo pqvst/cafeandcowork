@@ -423,6 +423,10 @@ tr.closed {
   text-decoration: none;
 }
 
+.place dl a:hover {
+  text-decoration: underline;
+}
+
 .place dl a i.fa+span {
   margin-left: 5px;
 }
