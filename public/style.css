@@ -405,7 +405,7 @@ tr.closed {
 .place dt {
   background: #fafafa;
   font-weight: 600;
-  flex-basis: 33%;
+  width: 40%;
   margin: 0;
   border-right: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
@@ -413,7 +413,7 @@ tr.closed {
 }
 
 .place dd {
-  flex-basis: 67%;
+  width: 60%;
   margin: 0;
   border-bottom: 1px solid #ebebeb;
   padding: 10px;
