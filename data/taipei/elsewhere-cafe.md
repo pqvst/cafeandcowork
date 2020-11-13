@@ -8,25 +8,25 @@ address: 1-3, Lane 119, Section 1, Luosifu Road, Zhongzheng District, Taipei Cit
 station: Chiang Kai-Shek Memorial Hall Station
 opens: "07:30"
 closes: "22:00"
-wifi: 
+wifi: 4
 speed: 60
-power: 
-vacancy: 
-comfort: 
-quiet: 
+power: 3
+vacancy: 2 
+comfort: 3
+quiet: 3
 food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
+drinks: 4
+price: 3
+view: 4
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: true
 cash_only: 
 animals: 
 facebook: http://www.facebook.com/elsewherecafe
-instagram: 
+instagram: https://www.instagram.com/elsewherecafe/
 telephone: "+886233932018"
 website: 
 ---

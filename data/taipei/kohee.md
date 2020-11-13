@@ -8,25 +8,25 @@ address: No. 162, Section 3, Roosevelt Rd, Zhongzheng District, Taipei City, Tai
 station: Taipower Building Station
 opens: "09:00"
 closes: "18:00"
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
-cash_only: 
-animals: 
+wifi: 5
+speed: 230
+power: 2
+vacancy: 4
+comfort: 3
+quiet: 4
+food: 3
+drinks: 3
+price: 3
+view: 4
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: false
+cash_only: false
+animals: false
 facebook: https://www.facebook.com/kohee.com.tw/
-instagram: 
+instagram: https://www.instagram.com/kohee_cafe/
 telephone: "+886223650717"
 website: https://kohee.com.tw/
 ---
