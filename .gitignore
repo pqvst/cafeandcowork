@@ -1,3 +1,4 @@
 _site
 __jekyll
 node_modules
+deploy.sh
