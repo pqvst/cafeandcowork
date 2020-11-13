@@ -1,5 +1,5 @@
 const { Octokit } = require('@octokit/rest');
-const token = '0276c329725bc9fb121099966f507eec0b589726';
+const token = process.env.GITHUB_TOKEN;
 const octokit = new Octokit({ auth: token });
 const YAML = require('yaml');
 
