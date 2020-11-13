@@ -8,7 +8,11 @@
   }
 
   function makePopup(place) {
-    const html = `<div><b><a target="_blank" href="${place.url}">${place.name} (${place.score})</a></b></div>`;
+    const html = `
+      <div>
+        <b><a target="_blank" href="${place.url}">${place.name} (${place.score.toFixed(1)})</a></b>
+      </div>
+    `;
     return new mapboxgl.Popup({ offset: 25 }).setHTML(html);
   }
 
