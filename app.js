@@ -1,6 +1,10 @@
 const express = require('express');
 const morgan = require('morgan');
+const bodyParser = require('body-parser');
+const rateLimit = require("express-rate-limit");
+
 const data = require('./data');
+const submit = require('./submit');
 
 const app = express();
 const port = 3000;
@@ -9,6 +13,7 @@ app.set('views', 'views');
 app.set('view engine', 'pug');
 //app.set('strict routing', true);
 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('public'));
 app.use(morgan('dev'));
 
@@ -50,6 +55,27 @@ for (const city of cities) {
 
 app.get('/', (req, res) => {
   res.render('index');
+});
+
+const submissionLimiter = rateLimit({
+  keyGenerator: () => 'all',
+  windowMs: 5 * 60 * 1000, // 5 minutes
+  max: 10, // limit to 5 submissions per 5 minutes
+});
+
+app.get('/submit', (req, res) => {
+  res.render('submit', { title: 'Submit' });
+});
+
+app.post('/submit', submissionLimiter, async (req, res) => {
+  const place = submit.parse(req.body);
+  try {
+    const url = await submit.submit(place);
+    res.render('submit', { issue_link: url });
+  } catch (err) {
+    console.log(err);
+    res.render('submit', Object.assign(place, { error: true }));
+  }
 });
 
 app.get('/feed.xml', (req, res) => {

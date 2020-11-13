@@ -455,6 +455,7 @@ tr.closed {
   margin: 20px 0 0 0;
 }
 
+button,
 a.button {
   padding: 8px 14px;
   display: inline-block;
@@ -464,18 +465,21 @@ a.button {
   color: #444;
   font-weight: 400;
   margin: 0 10px 10px 0;
+  border: none;
 }
 
-a.button i.fa+span {
-  margin-left: 8px;
-}
-
+button:hover,
 a.button:hover {
   opacity: 0.9;
 }
 
+button.primary,
 a.button.primary {
   background: #FAF0DC;
+}
+
+a.button i.fa+span {
+  margin-left: 8px;
 }
 
 a.button.maps {
@@ -501,4 +505,95 @@ a.button.telephone {
 a.button.website {
   background: #2ecc71;
   color: white;
+}
+
+
+
+/* ========== Submit ========== */
+
+.submit {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.submit h2 {
+  padding: 8px 0;
+  margin: 0 0 20px 0;
+  border-bottom: solid 2px black;
+}
+
+.submit form {
+  margin-top: 30px;
+}
+
+.submit .banner {
+  border-radius: 4px;
+  background: #DFF2BF;
+  color: #4F8A10;
+  padding: 10px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.submit .banner.failure {
+  background-color: #FFBABA;
+  color: #D8000C;
+}
+
+
+
+/* ========== Form ========== */
+
+form h3 {
+  margin-top: 30px;
+}
+
+form label {
+  display: block;
+  font-weight: 500;
+}
+
+form .rows {
+  border: solid 1px #eee;
+  border-radius: 4px;
+}
+
+form .row {
+  display: flex;
+  align-items: center;
+}
+
+form .row + .row {
+  border-top: solid 1px #eee;
+}
+
+form .form-label {
+  flex-basis: 40%;
+  padding: 20px;
+  background: #fafafa;
+  border-right: solid 1px #eee;
+}
+
+form .form-field {
+  padding: 20px;
+  flex-basis: 60%;
+}
+
+form .form-field select,
+form .form-field input,
+form .form-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+form input.touched,
+form select.touched {
+  background: #fff9e3;
+}
+
+form .info {
+  margin-top: 5px;
 }

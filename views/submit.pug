@@ -1,0 +1,195 @@
+extends layout
+
+block body
+  include helpers
+
+  - var types = ['Cafe', 'Bar', 'Restaurant', 'Lobby', 'Library', 'Coworking Space', 'Public Space', 'Event Space', 'Lounge', 'Booth', 'Bookstore'];
+
+  mixin rate(name, optional)
+    .rating
+      select(name=name)
+        option
+        if optional
+          option(value="0" selected=locals[name]=="0") 0 - Not available
+        option(value="1" selected=locals[name]=="1") 1 - Awful
+        option(value="2" selected=locals[name]=="2") 2 - Poor
+        option(value="3" selected=locals[name]=="3") 3 - Average
+        option(value="4" selected=locals[name]=="4") 4 - Good
+        option(value="5" selected=locals[name]=="5") 5 - Excellent
+  
+  mixin boolean(name)
+    select(name=name)
+      option
+      option(value="false" selected=locals[name]==false) No
+      option(value="true" selected=locals[name]==true) Yes
+
+  .submit
+    include header
+
+    if issue_link
+      .banner.success Thank you! You can view your submission #[a(href=issue_link target="_blank") here]
+    if error
+      .banner.failure Hmm, looks like something went wrong...
+
+    h2 Submit Suggestions
+    p Use the form below or create a #[a(href=`${site.github}/issues` target="_blank") GitHub issue] to submit a new place or suggest changes to an existing place. All submissions will be reviewed before being published. Pending submissions can be viewed on #[a(href=`${site.github}/issues` target="_blank") GitHub].
+
+    p
+      em Please try to fill in as much information as possible. If you are unsure about anything then leave it blank. Enter information in English if possible.
+
+    form(method="post" action="/submit")
+      .rows
+        .row
+          .form-label
+            label City
+            .info Which city is this place in?
+          .form-field
+            input(required type="text" name="city" value=city&&city.name)
+
+        .row
+          .form-label
+            label Name
+            .info What is the name of this place? Please provide it in English.
+          .form-field
+            input(required type="text" name="name" value=name)
+
+        .row
+          .form-label
+            label Google Maps Link
+            .info Provide a Google maps link to the place you want to submit.
+          .form-field
+            input(required type="text" name="google_maps" value=google_maps)
+        .row
+          .form-label
+            label WiFi
+            .info Is there WiFi? Is the WiFi fast, reliable, and stable?
+          .form-field
+            +rate("wifi", true)
+
+        .row
+          .form-label
+            label Speed (Mbps)
+            .info Run a #[a(href="https://speed.cloudflare.com/" target="_blank") speed test] and enter the download speed.
+          .form-field
+            input(type="text" name="speed" value=speed)
+
+        .row
+          .form-label
+            label Power Outlets
+            .info How many of the seats have access to power outlets?
+          .form-field
+            +rate("power", true)
+
+        .row
+          .form-label
+            label Vacancy
+            .info How easy is it to get a seat? Is it usually empty or always very crowded?
+          .form-field
+            +rate("vacancy")
+
+        .row
+          .form-label
+            label Comfort
+            .info How comfortable is the environment, temperature, seats, etc.
+          .form-field
+            +rate("comfort")
+
+        .row
+          .form-label
+            label Quiet
+            .info How quiet is the space? Is it completely silent or very noisy?
+          .form-field
+            +rate("quiet")
+
+        .row
+          .form-label
+            label Food
+            .info Is food served? If so, how's the selection and quality?
+          .form-field
+            +rate("food", true)
+
+        .row
+          .form-label
+            label Drinks
+            .info Are drinks served? If so, how's the selection and quality?
+          .form-field
+            +rate("drinks", true)
+
+        .row
+          .form-label
+            label Price
+            .info How are the prices? Is it free or good value for money?
+          .form-field
+            +rate("price")
+
+        .row
+          .form-label
+            label View
+            .info How's the ambiance, atmosphere, view?
+          .form-field
+            +rate("view")
+
+        .row
+          .form-label
+            label Toilets
+            .info Are toilets available? If so, are they clean, near by, enough of them?
+          .form-field
+            +rate("toilets", true)
+
+        .row
+          .form-label
+            label Music
+            .info Is there music playing in the background?
+          .form-field
+            +boolean("music")
+
+        .row
+          .form-label
+            label Smoking
+            .info Are you allowed to smoke in the primary seating area?
+          .form-field
+            +boolean("smoking")
+
+        .row
+          .form-label
+            label Standing Tables
+            .info Are there any tables where you can stand up and work?
+          .form-field
+            +boolean("standing_tables")
+
+        .row
+          .form-label
+            label Outdoor Seating
+            .info Is there any seating outside?
+          .form-field
+            +boolean("outdoor_seating")
+
+        .row
+          .form-label
+            label Cash Only
+            .info Is this place cash only?
+          .form-field
+            +boolean("cash_only")
+          
+        .row
+          .form-label
+            label Animals
+            .info Are there animals in the cafe or are you allowed to bring pets?
+          .form-field
+            +boolean("animals")
+
+      .buttons
+        button.primary(type="submit") Submit
+
+  script.
+    document.querySelectorAll('input, select, textarea').forEach(function (el) {
+      el._initialValue = el.value;
+      el.addEventListener('input', function(ev) {
+        if (el._initialValue != el.value) {
+          el.classList.add('touched');
+        } else {
+          el.classList.remove('touched');
+        }
+      });
+    });
+
