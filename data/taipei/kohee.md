@@ -11,11 +11,11 @@ opens: "09:00"
 closes: "18:00"
 wifi: 5
 speed: 230
-power: 2
+power: 3
 vacancy: 4
 comfort: 3
 quiet: 4
-food: 3
+food: 2
 drinks: 3
 price: 3
 view: 4
