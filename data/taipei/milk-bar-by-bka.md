@@ -13,25 +13,27 @@ wifi: 2
 speed: 4
 power: 5
 vacancy: 5
-comfort: 4
+comfort: 3
 quiet: 3
 food: 
 drinks: 4
 price: 4
-view: 
+view: 3
 toilets: 5
 music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
-cash_only: 
+cash_only: false 
 animals: true
-facebook: 
-instagram: 
-telephone: 
+facebook: https://www.facebook.com/milkbarbybka
+instagram: https://www.instagram.com/milkbarbybka/
+telephone: "+886227133118"
 website: 
 tips:
   - Counter seats are not great for work since that table is quite low
   - Power outlets on all the tables
   - The cat is an attention-seeking cat, it will come to see you often
 ---
+
+A cool looking cafe, but some things could be better. There are lots of power outlets, but the WiFi is a little slow. The counter seats are a little too low, the large worktables are a little too high, and the chairs are quite uncomfortable. Also note that the cafe regularly rents out the space for private events. Be sure to check their facebook before you decide to go.
