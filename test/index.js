@@ -22,7 +22,8 @@ const schema = {
   type: 'object',
   additionalProperties: false,
   properties: {
-    date: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
+    added: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
+    updated: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
