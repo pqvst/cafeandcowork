@@ -5,6 +5,7 @@ services:
     build: .
     environment:
       - VIRTUAL_HOST=cafeandcowork.com
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
     logging:
       options:
         max-file: "10"
