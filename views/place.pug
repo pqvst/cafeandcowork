@@ -111,11 +111,7 @@ block body
     .map
       #map
 
+  - const place = { url, score, name, coordinates };
+
   script.
-    CafeAndCowork.Place({
-      url: '#{url}',
-      score: '#{score}',
-      name: '#{name}',
-      coordinates: '#{coordinates}'
-    });
-    
+    CafeAndCowork.Place(!{JSON.stringify(place)});
