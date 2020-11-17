@@ -10,4 +10,4 @@ rss(version='2.0')
         title= item.title
         description= item.markdown
         link #{site.url}#{item.url}
-        pubDate= new Date(item.date).toISOString()
+        pubDate= formatRssDate(item.added)

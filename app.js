@@ -36,6 +36,8 @@ app.locals.site = {
 
 const { cities, recent, top } = data.load();
 
+Object.assign(app.locals, require('./helpers'));
+
 app.locals.cities = cities;
 app.locals.recent = recent;
 app.locals.top = top;

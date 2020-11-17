@@ -1,0 +1,13 @@
+
+mixin attribute(value, expanded)
+  span(class=getValueColor(value))
+    if value != Null
+      span= getValueText(value)
+    else
+      a(href=site.github title="Add missing data" target="_blank")
+        i.fa.fa-question-circle-o
+        if expanded
+          span Add missing data
+  
+mixin score(place)
+  span= formatScore(place.score)
