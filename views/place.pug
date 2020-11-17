@@ -15,8 +15,8 @@ block body
     .info
       a.city(href=city.url) #{city.name}
       span · #{type} in #{area}
-      if date
-        span.updated · Updated #{formatDate(date)}
+      if updated || added
+        span.updated · Updated #{formatDate(updated || added)}
 
     .content!= content
 

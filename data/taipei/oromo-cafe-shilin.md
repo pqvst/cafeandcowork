@@ -1,5 +1,5 @@
 ---
-date: 2020-10-13
+added: 2020-10-13
 name: OROMO CAFE (Shilin)
 type: Cafe
 area: Shilin

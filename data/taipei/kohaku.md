@@ -1,5 +1,5 @@
 ---
-date: 2020-11-12
+added: 2020-11-12
 name: KOHAKU
 type: Cafe
 area: Xinyi

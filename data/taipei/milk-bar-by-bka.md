@@ -1,5 +1,6 @@
 ---
-date: 2020-10-19
+added: 2020-10-19
+updated: 2020-11-17
 name: Milk Bar by BKA
 type: Cafe
 area: Songshan

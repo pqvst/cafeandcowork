@@ -1,5 +1,5 @@
 ---
-date: 2020-10-05
+added: 2020-10-05
 name: RUFOUS COFFEE ROASTERS 2
 type: Cafe
 area: Daan

@@ -76,8 +76,8 @@ function load() {
 
   const recent = _([])
     .concat(...cities.map(e => e.places))
-    .filter(e => !!e.date)
-    .orderBy('date', 'desc')
+    .filter(e => !!e.added)
+    .orderBy('added', 'desc')
     .take(10)
     .value();
 

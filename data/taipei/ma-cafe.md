@@ -1,5 +1,5 @@
 ---
-date: 2020-11-11
+added: 2020-11-11
 name: MA Cafe
 type: Cafe
 area: Daan
