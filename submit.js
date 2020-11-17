@@ -1,8 +1,9 @@
 const { Octokit } = require('@octokit/rest');
-const token = process.env.GITHUB_TOKEN;
-const octokit = new Octokit({ auth: token });
-const YAML = require('yaml');
 
+const GITHUB_REPO = 'pqvst/cafeandcowork-test';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
+const YAML = require('yaml');
 YAML.scalarOptions.null.nullStr = '';
 
 const strFields = ['name', 'type', 'area', 'google_maps', 'coordinates', 'address', 'station', 'opens', 'closes', 'facebook', 'instagram', 'telephone', 'website'];
@@ -40,9 +41,11 @@ async function submit(place) {
   const date = (new Date).toISOString().slice(0, 10);
   const body = Object.assign({ date }, place);
   body.city = place.city.name;
+  const [owner, repo] = GITHUB_REPO.split('/');
+  const octokit = new Octokit({ auth: GITHUB_TOKEN });
   const issue = await octokit.issues.create({
-    owner: 'pqvst',
-    repo: 'cafeandcowork-test',
+    owner,
+    repo,
     title: `${body.name}, ${body.city}`,
     body: getYaml(body),
     labels: ['pending']
