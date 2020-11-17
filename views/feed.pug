@@ -1,13 +1,22 @@
 doctype xml
-rss(version='2.0')
-  channel
-    title= site.title
-    description= site.description
-    link= site.url
-
-    each item in recent
-      item
-        title= item.title
-        description= item.markdown
-        link #{site.url}#{item.url}
-        pubDate= formatRssDate(item.added)
+feed(xmlns="http://www.w3.org/2005/Atom")
+  //- required
+  id #{site.url}/feed.xml
+  title= site.title
+  updated= (new Date(recent[0].added)).toISOString()
+  //- optional
+  subtitle= site.description
+  link(type="text/html" href=site.url rel="alternative")
+  each item in recent
+    entry
+      //- required
+      id #{site.url}#{item.url}
+      title= item.title
+      updated= (new Date(item.added)).toISOString()
+      //- optional
+      published= (new Date(item.added)).toISOString()
+      if item.markdown
+        summary #{item.type} in #{item.area}, #{item.city.name}. #{item.markdown}
+      else
+        summary #{item.type} in #{item.area}, #{item.city.name}.
+      link(rel="alternative" type="text/html" href=`${site.url}${item.url}`)
