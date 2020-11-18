@@ -1,95 +1,89 @@
-# Cafe & Cowork
+# Cafe and Cowork
 Find places to work. Open and collaborative. Pull requests welcome!
 
-## Updating a city
-Want to add/update places in a city?
+## Adding or updating cities and places
+Want to add or update places?
 1. [Fork the repo](fork)
-2. Edit the JSON file (`data/cities/<name>.json`)
-3. Submit a pull request
-4. Recommended: validate JSON using `npm test`
+2. Add/edit files under `data/<city>/<place>.md`
+3. Recommended: validate using `yarn test`
+4. Submit a pull request
 
-## Adding a new city
-Want to add a new city?
-1. Create a JSON file listing places (`data/cities/<name>.json`) 
-2. Create an HTML file with basic metadata (`_cities/<city>.html`)
-3. Add the city to the nav bar in `_layout/default.html` (not automatic yet...)
-4. Recommended: validate JSON using `npm test`
+## Template
+You can use this `.md` file template for new places:
 
-## Tips
-- Before adding a new place, make sure to search to check that it doesn't already exist
-- If any information is incorrect or the ratings seem off, feel free to create a pull request
-- For chains that serve the exact same food/drinks (e.g. Starbucks), consider using the same ratings as the other places for consistency.
-
-## Attributes
-- `name`: name of the place
-- `type`: type of space:
-  - `Cafe`: 
-  - `Bar`: 
-  - `Restaurant`: 
-  - `Library`: 
-  - `Lobby`: Hotel lobby
-  - `Coworking Space`: A dedicated coworking space (free or paid)
-  - `Public Space`: Any open public space
-  - `Event Space`: 
-  - `Lounge`: Hotel, airport, or other type of lounge
-  - `Booth`: A work pod/booth
-  - `Bookstore`: Bookstore
-- `area`: general area name
-- `google_maps`: google maps short link
-- `coordinates`: location `<lat>,<lng>` (decimal)
-- `station`: list station names/ids, comma separated (see below)
-- `wifi`: how is the wifi speed, quality, and stability? (`0` = no wifi, `5` = very good wifi)
-- `speed`: wifi download speed (Mbps) e.g. using fast.com
-- `power`: how many power outlets are there? (`0` = no power outlets, `5` = best)
-- `vacancy`: how easy is it to find a seat? (`1` = very busy/difficult to get a seat, `5` = very easy to get a seat)
-- `comfort`: how comfortable are the seating options? (`1` = very uncomfortable, `5` = very comfortable/ergonomic)
-- `quiet`: how quiet is the space? (`1` = very noisy, `5` = very quiet)
-- `food`: how is the food quality and selection? (`0` = no food, `5` = best)
-- `drinks`: how is the drink quality and selection? (`0` = no drinks, `5` = best)
-- `price`: how are the prices? (`1` = very expensive, `5` = very cheap/free)
-- `view`: how is the view? (`0` = no view/windows, `5` = best)
-- `toilets`: how is the toilet? (`0` = no toilets available, `5` = best)
-- `music`: is there music playing? (`true` or `false`)
-- `smoking`: is smoking allowed in the primary space? (`true` or `false`)
-- `hours`: what are the primary opening hours? (e.g. `09-22`)
-- `standing_tables`: are standing tables available? (`true` or `false`)
-- `outdoor_seating`: is outdoor seating available? (`true` or `false`)
-- `tips`: array of tips/suggestions/advice
-- `closed`: place has permanently closed (`true` or `false`)
-- `animals`: are animals present in the café? (`true` or `false`)
-
-## Example
-
-tokyo.json:
-
-```json
-[
-  {
-    "name": "AWS Loft Tokyo",
-    "type": "Coworking Space",
-    "area": "Meguro",
-    "google_maps": "https://goo.gl/maps/h2FiX7CnMEs5TZ5b6",
-    "coordinates": "35.6333455,139.7144",
-    "station": "JY22,G01",
-    "wifi": 5,
-    "power": 5,
-    "vacancy": 5,
-    "comfort": 5,
-    "quiet": 5,
-    "drinks": 5,
-    "food": 5,
-    "price": 5,
-    "view": 5,
-    "toilets": 5,
-    "music": true,
-    "smoking": true,
-    "hours": "10:00-18:00",
-    "standing_tables": false,
-    "outdoor_seating": false
-  }
-]
 ```
+---
+added: 2020-10-19
+name: Milk Bar by BKA
+type: Cafe
+area: Songshan
+google_maps: https://g.page/Milkbarbybka?share
+coordinates: 25.052553, 121.545712
+address: No. 6-1號, Lane 269, Section 3, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105
+station: Nanjing Fuxing
+opens: "09:00-10:00"
+closes: "18:00-21:00"
+wifi: 2
+speed: 4
+power: 5
+vacancy: 5
+comfort: 3
+quiet: 3
+food: 4
+drinks: 4
+price: 4
+view: 3
+toilets: 5
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: true
+cash_only: false 
+animals: true
+facebook: https://www.facebook.com/milkbarbybka
+instagram: https://www.instagram.com/milkbarbybka/
+telephone: "+886227133118"
+website: 
+---
+
+```
+## Attributes
+Name|Description
+--|--
+`name`|What is the name of this place? Please provide it in English.
+type|Type of space `Cafe`, `Bar`, `Restaurant`, `Library`, `Lobby`, `Coworking Space`, `Public Space`, `Event Space`, `Lounge`, `Booth`, ```Bookstore`
+`area`|General area/district/region
+`google_maps`|Provide a Google maps link to the place you want to submit.
+`coordinates`|Coordinates `<lat>,<lng>` (decimal)
+`address`|Address
+`opens`|Open hours
+`closes`|Close hours
+`station`|List station names (comma separated)
+`wifi`|Is there WiFi? Is the WiFi fast, reliable, and stable? `0-5`
+`speed`|Run a [speedtest](https://fast.com) (mbps)
+`power`|How many of the seats have access to power outlets? `0-5`
+`vacancy`|How easy is it to get a seat? Is it usually empty or always very `crowded`? `1-5`
+`comfort`|How comfortable is the environment, temperature, seats, etc. `1-5`
+`quiet`|How quiet is the space? Is it completely silent or very noisy? `1-5`
+`food`|Is food served? If so, how's the selection and quality? `0-5`
+`drinks`|Are drinks served? If so, how's the selection and quality? `0-5`
+`price`|How are the prices? Is it free or good value for money? `1-5`
+`view`|How's the ambiance, atmosphere, vibe, view? `1-5`
+`toilets`|Are toilets available? If so, are they clean, near by, enough of `them`? `0-5`
+`music`|Is there music playing in the background? `true` or `false`
+`smoking`|Are you allowed to smoke in the primary seating area? `true` or `false`
+`standing_tables`|Are there any tables where you can stand up and work? `true` or `false`
+`outdoor_seating`|Is there any seating outside? `true` or `false`
+`cash_only`|Is this place cash only? `true` or `false`
+`animals`|Are there animals in the cafe or are you allowed to bring pets? `true` or `false`
+`facebook`|Link to facebook page
+`instagram`|Link to instagram account
+`telephone`|Telephone number
+`website`|Link to website
+`closed`|Permanently closed? `true` or `false`
 
 ## Local Dev Environment
-1. Install [Jekyll](https://jekyllrb.com/docs/installation/macos/)
-2. Run `bash serve.sh`
+1. Install [nodejs](https://nodejs.org/en/)
+2. Install deps `npm install`
+3. Run `npm start`
+4. Open [localhost:3000](http://localhost:3000)
