@@ -6,7 +6,7 @@ type: Cafe
 area: Songshan
 google_maps: https://g.page/Milkbarbybka?share
 coordinates: 25.052553, 121.545712
-address: 
+address: No. 6-1號, Lane 269, Section 3, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
 opens: "09:00-10:00"
 closes: "18:00-21:00"
