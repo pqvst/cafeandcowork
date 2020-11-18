@@ -9,7 +9,7 @@ address: No. 11號, Lane 240, Guangfu South Road, Da’an District, Taipei City,
 station: Sun Yat-Sen Memorial Hall
 opens: "07:00"
 closes: "22:00"
-wifi: 3
+wifi: 1
 speed: 10
 power: 5
 vacancy: 3
