@@ -1,6 +1,6 @@
 const { Octokit } = require('@octokit/rest');
 
-const GITHUB_REPO = 'pqvst/cafeandcowork-test';
+const GITHUB_REPO = 'pqvst/cafeandcowork';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 const YAML = require('yaml');
