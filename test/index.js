@@ -65,6 +65,7 @@ const schema = {
     score: { type: 'number' },
     title: { type: 'string' },
     markdown: { type: 'string' },
+    images: { type: ['array', 'null'] }
   },
   required: ['name', 'type', 'area', 'coordinates']
 };
