@@ -7,8 +7,14 @@ google_maps: https://goo.gl/maps/Ps2EEZ8mzbs8PiYCA
 coordinates: 25.062099, 121.614792
 address: 
 station: Nangang Software Park Station
-opens: "08:00"
-closes: "18:00"
+hours:
+  mon: 8-18
+  tue: 8-18
+  wed: 8-18
+  thu: 8-18
+  fri: 8-18
+  sat: 10-18
+  sun: 10-18
 wifi: 4
 speed: 40
 power: 4
@@ -32,4 +38,9 @@ telephone: 02-2788-8183
 website: 
 tips:
   - Power outlets available under the counter
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - menu.jpg
+  - tea.jpg
 ---

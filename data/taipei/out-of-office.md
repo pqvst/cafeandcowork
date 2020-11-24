@@ -4,10 +4,9 @@ type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/ccpyD3h4TXmyEy49A
 coordinates: 25.041360, 121.565595
-address: 
+address: B1, No. 17-3號, Section 5, Zhongxiao East Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei City Hall
-opens: "10:00"
-closes: "21:00"
+hours: 10-21
 wifi: 4
 speed: 25
 power: 5
@@ -25,10 +24,13 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: 
-facebook: 
-instagram: 
-telephone: 
+facebook: https://www.facebook.com/Out-of-office-%E4%B8%8D%E5%9C%A8%E8%BE%A6%E5%85%AC%E5%AE%A4-973450186152894/
+instagram: https://www.instagram.com/outofofficecafehome/
+telephone: "+886227600045"
 website: 
 tips:
   - Time limit and minimum spend is enforced
+images:
+  - seating1.jpg
+  - seating2.jpg
 ---

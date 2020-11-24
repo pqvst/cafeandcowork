@@ -5,10 +5,15 @@ type: Cafe
 area: Songshan
 google_maps: https://g.page/Yolospug?share
 coordinates: 25.053713, 121.548092
-address: 
+address: No. 11號, Alley 7, Lane 120, Dunhua North Road, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
-opens: "08:00-09:00"
-closes: "17:00"
+hours:
+  mon: 8-17
+  tue: 8-17
+  wed: 8-17
+  thu: 8-17
+  fri: 8-17
+  sun: 9-17
 wifi: 5
 speed: 50
 power: 5
@@ -28,6 +33,11 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+886287124775"
+website: https://yolos-cafe-sainpug.business.site/
+images:
+  - outside.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - menu.jpg
 ---

@@ -1,13 +1,20 @@
 ---
+updated: 2020-10-27
 name: vojago
 type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/JpttnvaZt8XLuBRz6
 coordinates: 25.042425, 121.568372
-address: 
+address: 11064, Taiwan, Taipei City, Xinyi District, Alley 158, Lane 30, Yongji Road, 9號1樓
 station: Taipei City Hall
-opens: "12:00"
-closes: "21:00-22:00"
+hours:
+  mon: 12-21
+  tue: 12-21
+  wed: 12-21
+  thu: 12-21
+  fri: 12-22
+  sat: 12-22
+  sun: 12-21
 wifi: 4
 speed: 
 power: 3
@@ -25,8 +32,14 @@ standing_tables: true
 outdoor_seating: true
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/vojago.coffee
 instagram: 
-telephone: 
+telephone: "+886227680518"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - rules.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---

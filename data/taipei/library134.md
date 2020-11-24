@@ -5,10 +5,9 @@ type: Cafe
 area: Songshan
 google_maps: https://g.page/LIBRARY134?share
 coordinates: 25.053514, 121.541979
-address: 
+address: No. 134號, Liaoning Street, Zhongshan District, Taipei City, Taiwan 10491
 station: Nanjing Fuxing
-opens: "10:00"
-closes: "18:00"
+hours: 10-18
 wifi: 5
 speed: 80
 power: 5
@@ -26,8 +25,14 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
-facebook: 
+facebook: https://www.facebook.com/LIBRARY134/
 instagram: 
-telephone: 
+telephone: "+886227122055"
 website: 
+images:
+  - entrance.jpg
+  - stairs.jpg
+  - inside1.jpg
+  - inside2.jpg
+  - tea.jpg
 ---

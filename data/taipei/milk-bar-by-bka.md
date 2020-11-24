@@ -8,8 +8,14 @@ google_maps: https://g.page/Milkbarbybka?share
 coordinates: 25.052553, 121.545712
 address: No. 6-1號, Lane 269, Section 3, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
-opens: "09:00-10:00"
-closes: "18:00-21:00"
+hours:
+  mon: 9-21
+  tue: 9-21
+  wed: 9-21
+  thu: 9-21
+  fri: 9-21
+  sat: 10-18
+  sun: 10-18
 wifi: 2
 speed: 4
 power: 5
@@ -35,6 +41,16 @@ tips:
   - Counter seats are not great for work since that table is quite low
   - Power outlets on all the tables
   - The cat is an attention-seeking cat, it will come to see you often
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - logo.jpg
+  - outside.jpg
+  - tea.jpg
+  - menu.jpg
+  - milk.jpg
+  - rules.jpg
 ---
 
 A cool looking cafe, but some things could be better. There are lots of power outlets, but the WiFi is a little slow. The counter seats are a little too low, the large worktables are a little too high, and the chairs are quite uncomfortable. Also note that the cafe regularly rents out the space for private events. Be sure to check their facebook before you decide to go.

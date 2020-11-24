@@ -7,8 +7,13 @@ google_maps: https://goo.gl/maps/6ei1YiU6YmbZgUo3A
 coordinates: 25.033934, 121.525719
 address: No. 25號, Lane 86, Section 2, Xinyi Road, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
-opens: "09:00"
-closes: "18:00"
+hours:
+  mon: 9-18
+  wed: 9-18
+  thu: 9-18
+  fri: 9-18
+  sat: 9-18
+  sun: 9-18
 wifi: 4
 speed: 30
 power: 4
@@ -32,6 +37,11 @@ telephone: "+886223435853"
 website: 
 tips:
   - Seating time limit is two hours
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - drink.jpg
+  - menu.jpg
 ---
 
 A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday.

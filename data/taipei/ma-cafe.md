@@ -7,8 +7,13 @@ google_maps: https://goo.gl/maps/x3LEU7curB6wQXk6A
 coordinates: 25.032628, 121.549556
 address: No. 1號, Lane 11, Section 2, Dunhua South Road, Da’an District, Taipei City, Taiwan 106
 station: Xinyi Anhe (R04)
-opens: "11:00-13:00"
-closes: "19:00-21:00"
+hours:
+  mon: 11-19
+  tue: 11-19
+  wed: 11-19
+  thu: 11-19
+  fri: 11-19
+  sat: 13-21
 wifi: 3
 speed: 45
 power: 3
@@ -30,4 +35,8 @@ facebook: https://www.facebook.com/macafe5555/
 instagram: 
 telephone: "+886227015555"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - menu1.jpg
 ---
