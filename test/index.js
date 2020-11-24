@@ -44,7 +44,7 @@ const schema = {
     toilets: { type: ['number', 'null'], minimum: 0, maximum: 5 },
     music: { type: ['boolean', 'null'] },
     smoking: { type: ['boolean', 'null'] },
-    hours: { type: ['string', 'null'] },
+    hours: { type: ['object', 'null'] },
     standing_tables: { type: ['boolean', 'null'] },
     outdoor_seating: { type: ['boolean', 'null'] },
     cash_only: { type: ['boolean', 'null'] },
