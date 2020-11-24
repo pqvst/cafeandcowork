@@ -371,7 +371,7 @@ tr.closed {
 
 .place h2 {
   padding: 8px 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   border-bottom: solid 2px black;
 }
 
@@ -447,6 +447,24 @@ tr.closed {
 .place .content strong {
   font-weight: 600;
 }
+
+.place .images {
+  margin-top: 20px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.place .images img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.place .images img+img {
+  margin-left: 10px;
+}
+
 
 
 /* ========== Buttons ========== */

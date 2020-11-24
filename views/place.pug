@@ -18,6 +18,11 @@ block body
       if updated || added
         span.updated · Updated #{formatDate(updated || added)}
 
+    if images
+      .images
+        each image of images
+          img(src=`${url}/${image}` data-action="zoom")
+
     .content!= content
 
     .buttons
