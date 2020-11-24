@@ -41,3 +41,19 @@ exports.getValueColor = function (value) {
   if (value >= 0) return 'grey';
   return 'grey';
 }
+
+function formatTime(time) {
+  let [hour, min] = time.split(':');
+  if (min == null) min = 0;
+  min = Number(min);
+  hour = Number(hour);
+  if (hour < 10) hour = '0' + hour;
+  if (min < 10) min = '0' + min;
+  return [hour, min].join(':');
+}
+
+exports.formatHours = function(hours) {
+  if (!hours) return 'Closed';
+  const times = hours.split('-');
+  return times.map(formatTime).join(' - ');
+}

@@ -11,3 +11,15 @@ mixin attribute(value, expanded)
   
 mixin score(place)
   span= formatScore(place.score)
+
+mixin hours(hours)
+  if typeof hours == 'string'
+    div Every day: #{formatHours(hours)}
+  else
+    div Mon: #{formatHours(hours.mon)}
+    div Tue: #{formatHours(hours.tue)}
+    div Wed: #{formatHours(hours.wed)}
+    div Thu: #{formatHours(hours.thu)}
+    div Fri: #{formatHours(hours.fri)}
+    div Sat: #{formatHours(hours.sat)}
+    div Sun: #{formatHours(hours.sun)}
