@@ -51,21 +51,6 @@ block body
 
     .attributes
       dl
-        dt #[span.icon 🚇] Station
-        dd #{station}
-        if opens && closes
-          dt #[span.icon ⏰] Hours
-          dd #{opens} to #{closes}
-        if hours
-          dt #[span.icon ⏰] Hours
-          dd
-            div Mon: #{hours.mon || 'Closed'}
-            div Tue: #{hours.tue || 'Closed'}
-            div Wed: #{hours.wed || 'Closed'}
-            div Thu: #{hours.thu || 'Closed'}
-            div Fri: #{hours.fri || 'Closed'}
-            div Sat: #{hours.sat || 'Closed'}
-            div Sun: #{hours.sun || 'Closed'}
         dt #[span.icon ⭐️] Overall
         dd: +score(locals)
         dt #[span.icon 💻] WiFi
@@ -103,6 +88,15 @@ block body
         dd: +attribute(cash_only, true)
         dt #[span.icon 🐶] Animals
         dd: +attribute(animals, true)
+        if station
+          dt #[span.icon 🚇] Station
+          dd #{station}
+        if opens && closes
+          dt #[span.icon ⏰] Hours
+          dd #{opens} to #{closes}
+        if hours
+          dt #[span.icon ⏰] Hours
+          dd: +hours(hours)
       dl
         dt Type
         dd #{type}
