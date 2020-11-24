@@ -62,7 +62,7 @@ app.get('/', (req, res) => {
 const submissionLimiter = rateLimit({
   keyGenerator: () => 'all',
   windowMs: 5 * 60 * 1000, // 5 minutes
-  max: 10, // limit to 5 submissions per 5 minutes
+  max: 10, // limit to 10 submissions per 5 minutes
 });
 
 app.get('/submit', (req, res) => {

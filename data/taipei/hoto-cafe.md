@@ -39,3 +39,13 @@ website:
 
 A cozy cafe with nice interior. Quiet in the morning and around lunch on a weekday, but it got quite busy/noisy later during the afternoon between 2pm and 4pm. The WiFi was very fast at first but got quite slow as it filled up. There are lots of power outlets in the first room. The outdoor seats also have a power outlet. However, the second room is lacking power along the right wall seats. The menu is pretty small but has a decent selection of coffee, tea, and non-caffeine drinks. Some food is served, but mostly cakes. There's a 2 hour time limit on weekends. One complaint would be that there is very little separation (sound isolation...) between the toilet and the seating area.
 
+
+images:
+- menu.jpg
+- rules.jpg
+- seating1.jpg
+- seating2.jpg
+- seating3.jpg
+- seating4.jpg
+- seating5.jpg
+- tea.jpg
