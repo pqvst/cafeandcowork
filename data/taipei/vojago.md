@@ -44,4 +44,4 @@ images:
   - menu2.jpg
 ---
 
-A great cafe to work from on a weekday. Very calm and cozy interior. Relaxing music. Friendly staff. The tea selection is small compared to the coffee selection, but the oolong black tea is really good. There's lots of seating inside, as well as an outdoor area with shade and fans. Good WiFi and power outlets at some seats. My only complaint would be that it would be nice if all the seats had cushions. Starts to get busy around 3pm but usually doesn't get very crowded.
+A great cafe to work from on a weekday. Very calm and cozy interior. Relaxing music. Friendly staff. The tea selection is small compared to the coffee selection, but the oolong black tea is really good. There's lots of seating inside, as well as an outdoor area with shade and fans. Good WiFi and power outlets at some seats. My only complaint would be that it would be nice if all the seats had cushions. Starts to get busy around 3pm but usually doesn't get very crowded. There is a large nice outdoor seating area (smoking allowed).
