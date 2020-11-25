@@ -4,10 +4,15 @@ type: Cafe
 area: Songshan
 google_maps: https://goo.gl/maps/avukbNoFLZHqCbmH9
 coordinates: 25.049641, 121.580980
-address: 
+address: 號 No, No. 7, Section 7, Civic Blvd, Nangang District, Taipei City, Taiwan 115
 station: Songshan
-opens: "08:00"
-closes: "17:00"
+hours:
+  mon: 8-17
+  tue: 8-17
+  wed: 8-17
+  thu: 8-17
+  fri: 8-17
+  sat: 8-17
 wifi: 5
 speed: 100
 power: 4
@@ -25,9 +30,9 @@ standing_tables: false
 outdoor_seating: true
 cash_only: true
 animals: 
-facebook: 
+facebook: https://facebook.com/Co77ee-954789644564148/
 instagram: 
-telephone: 
+telephone: "+886227826677"
 website: 
 tips:
   - Opens early, very empty/quiet in the morning

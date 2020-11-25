@@ -7,7 +7,13 @@ google_maps: https://g.page/kohakucafetp?share
 coordinates: 25.039114, 121.583368
 address: 110, Taiwan, Taipei City, Xinyi District, 中坡里
 station: Houshanpi (BL20)
-hours: 8:30-19
+hours:
+  tue: 8:30-19
+  wed: 8:30-19
+  thu: 8:30-19
+  fri: 8:30-19
+  sat: 8:30-19
+  sun: 8:30-19
 wifi: 4
 speed: 30
 power: 4

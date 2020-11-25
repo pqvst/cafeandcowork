@@ -7,8 +7,7 @@ google_maps: https://g.page/DreamersCoffeeRoastersFuxing?share
 coordinates: 25.042762, 121.544741
 address: No. 7號, Lane 135, Section 1, Fuxing South Road, Da’an District, Taipei City, Taiwan 10666
 station: Zhongxiao Fuxing
-opens: "07:00"
-closes: "22:00"
+hours: 7-22
 wifi: 1
 speed: 1
 power: 5

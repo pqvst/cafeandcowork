@@ -1,13 +1,19 @@
 ---
 name: Fika Fika Cafe
 type: Cafe
-area: Songjiang
+area: Zhongshan
 google_maps: https://goo.gl/maps/EJFwTb9JKTB28PsK7
 coordinates: 25.050488, 121.535262
-address: 
+address: No. 33號, Yitong Street, Zhongshan District, Taipei City, Taiwan 104
 station: Songjiang Nanjing
-opens: "08:00-10:30"
-closes: "21:00"
+hours:
+  mon: 10:30-21
+  tue: 8-21
+  wed: 8-21
+  thu: 8-21
+  fri: 8-21
+  sat: 8-21
+  sun: 8-21
 wifi: 5
 speed: 90
 power: 2
@@ -25,8 +31,8 @@ standing_tables: true
 outdoor_seating: true
 cash_only: 
 animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+facebook: https://www.facebook.com/FikaFikaCafe/
+instagram: https://www.instagram.com/fikafikacafe/
+telephone: "+886225070633"
+website: https://www.fikafikacafe.com/
 ---

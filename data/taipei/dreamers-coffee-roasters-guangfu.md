@@ -7,8 +7,7 @@ google_maps: https://g.page/DreamersCoffeeRoastersGuangfu?share
 coordinates: 25.040481, 121.556874
 address: No. 11號, Lane 240, Guangfu South Road, Da’an District, Taipei City, Taiwan 106
 station: Sun Yat-Sen Memorial Hall
-opens: "07:00"
-closes: "22:00"
+hours: 7-22
 wifi: 1
 speed: 10
 power: 5

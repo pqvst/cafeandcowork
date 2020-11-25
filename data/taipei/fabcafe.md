@@ -1,13 +1,12 @@
 ---
 name: FabCafe
 type: Cafe
-area: Zhongxiao Xinsheng
+area: Zhongzheng
 google_maps: https://goo.gl/maps/YRLDGLHKq21d59R8A
 coordinates: 25.044135, 121.529089
-address: 
+address: 100, Taiwan, Taipei City, Zhongzheng District, 八德路一段1號中三館一樓
 station: Zhongxiao Xinsheng
-opens: "10:00"
-closes: "19:00"
+hours: 10-19
 wifi: 3
 speed: 
 power: 3
@@ -25,8 +24,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+facebook: https://www.facebook.com/FabcafeTaipei/
+instagram: https://www.instagram.com/fabcafe_taipei/
+telephone: "+886233224749"
+website: http://fabcafe.com/taipei/
 ---

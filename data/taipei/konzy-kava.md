@@ -1,13 +1,18 @@
 ---
 name: KONZY KAVA
 type: Cafe
-area: Songshan
+area: Zhongshan
 google_maps: https://g.page/konzy-kava?share
 coordinates: 25.055162, 121.543545
 address: 
 station: Zhongshan Junior High School
-opens: "12:00"
-closes: "17:30-20:00"
+hours:
+  tue: 12-20
+  wed: 12-20
+  thu: 12-20
+  fri: 12-20
+  sat: 12-20
+  sun: 12-17:30
 wifi: 
 speed: 
 power: 
@@ -25,8 +30,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/KONZY-KAVA-111546416856016/
 instagram: 
-telephone: 
+telephone: "+886908048456"
 website: 
 ---
