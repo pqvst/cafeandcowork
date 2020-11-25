@@ -39,6 +39,7 @@ const { cities, recent, top } = data.load();
 
 Object.assign(app.locals, require('./helpers'));
 
+app.locals.DEBUG = process.env.NODE_ENV !== 'production';
 app.locals.v = Date.now();
 app.locals.cities = cities;
 app.locals.recent = recent;
