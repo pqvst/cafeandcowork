@@ -6,6 +6,7 @@ services:
     environment:
       - VIRTUAL_HOST=cafeandcowork.com
       - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - NODE_ENV=production
     logging:
       options:
         max-file: "10"
