@@ -7,6 +7,8 @@ services:
       - VIRTUAL_HOST=cafeandcowork.com
       - GITHUB_TOKEN=${GITHUB_TOKEN}
       - NODE_ENV=production
+    volumes:
+      - ./images:/usr/src/app/images
     logging:
       options:
         max-file: "10"
