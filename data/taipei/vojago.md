@@ -1,5 +1,5 @@
 ---
-updated: 2020-10-27
+updated: 2020-11-25
 name: vojago
 type: Cafe
 area: Xinyi
@@ -16,12 +16,12 @@ hours:
   sat: 12-22
   sun: 12-21
 wifi: 4
-speed: 
+speed: 15
 power: 3
 vacancy: 4
 comfort: 3
 quiet: 4
-food: 
+food: 4
 drinks: 4
 price: 4
 view: 4
@@ -33,7 +33,7 @@ outdoor_seating: true
 cash_only: 
 animals: 
 facebook: https://www.facebook.com/vojago.coffee
-instagram: 
+instagram: https://www.instagram.com/vojago.coffee/
 telephone: "+886227680518"
 website: 
 images:
@@ -43,3 +43,5 @@ images:
   - menu1.jpg
   - menu2.jpg
 ---
+
+A great cafe to work from on a weekday. Very calm and cozy interior. Relaxing music. Friendly staff. The tea selection is small compared to the coffee selection, but the oolong black tea is really good. There's lots of seating inside, as well as an outdoor area with shade and fans. Good WiFi and power outlets at some seats. My only complaint would be that it would be nice if all the seats had cushions. Starts to get busy around 3pm but usually doesn't get very crowded.
