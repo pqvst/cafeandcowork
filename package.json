@@ -4,13 +4,16 @@
   "description": "",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "node test"
+    "test": "node test",
+    "resize": "node scripts/resize.js"
   },
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
     "ajv": "^6.12.6",
-    "nodemon": "^2.0.6"
+    "glob": "^7.1.6",
+    "nodemon": "^2.0.6",
+    "sharp": "^0.26.3"
   },
   "dependencies": {
     "@octokit/rest": "^18.0.9",
