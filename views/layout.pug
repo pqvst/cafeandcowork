@@ -16,7 +16,10 @@ html
     meta(property="og:site_name" content=site.title)
     meta(property="og:type" content="website")
     meta(property="og:url" content=site.url)
-    meta(property="og:title" content=site.title)
+    if title
+      meta(property="og:title" content=`${title} – ${site.title}`)
+    else
+      meta(property="og:title" content=site.title)
     meta(property="og:description" content=site.description)
     meta(property="og:image" content=`${site.url}/scene.png`)
 
