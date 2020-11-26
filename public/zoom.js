@@ -167,8 +167,8 @@
 
 			var maxScaleFactor = originalFullImageWidth / targetImage.width
 
-			var viewportHeight = window.innerHeight - OFFSET
-			var viewportWidth  = window.innerWidth - OFFSET
+			var viewportHeight = document.body.clientHeight - OFFSET
+			var viewportWidth  = document.body.clientWidth - OFFSET
 
 			var imageAspectRatio    = originalFullImageWidth / originalFullImageHeight
 			var viewportAspectRatio = viewportWidth / viewportHeight
@@ -188,8 +188,8 @@
 			var imageOffset = offset(targetImage)
 			var scrollTop   = window.pageYOffset
 
-			var viewportY = scrollTop + (window.innerHeight / 2)
-			var viewportX = (window.innerWidth / 2)
+			var viewportY = scrollTop + (document.body.clientHeight / 2)
+			var viewportX = (document.body.clientWidth / 2)
 
 			var imageCenterY = imageOffset.top + (targetImage.height / 2)
 			var imageCenterX = imageOffset.left + (targetImage.width / 2)
