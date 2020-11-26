@@ -23,4 +23,3 @@ glob('images/**/*.jpg', async (err, files) => {
     }
   }
 });
-
