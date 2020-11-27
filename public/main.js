@@ -38,6 +38,12 @@
         .setPopup(makePopup(place))
         .addTo(map);
     });
+    map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy: true
+      },
+      trackUserLocation: true
+    }));
   };
 
   window.CafeAndCowork.City = function (coordinates, places) {
@@ -63,6 +69,12 @@
       }
       map.fitBounds(bounds, { padding: 50, linear: true, maxZoom: 17 });
     });
+    map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy: true
+      },
+      trackUserLocation: true
+    }));
   };
 
   window.CafeAndCowork.Table = function (table, input) {
