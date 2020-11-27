@@ -146,6 +146,9 @@ footer .fa {
   line-height: 1.4;
 }
 
+.mapboxgl-ctrl-group > button {
+  margin: 0 !important;
+}
 
 
 /* ========== Search ========== */
