@@ -1,13 +1,20 @@
 ---
+added: 2020-07-31
 name: New Taipei City Main Library
 type: Library
-area: Far Eastern Hospital
+area: Banqiao
 google_maps: https://goo.gl/maps/Mrmpn2ot9ecc5B9e8
 coordinates: 25.001400, 121.455063
-address: 
+address: No. 139號, Guixing Road, Banqiao District, New Taipei City, Taiwan 220
 station: Far Eastern Hospital
-opens: "08:30"
-closes: "17:00-21:00"
+hours:
+  mon: 8:30-17
+  tue: 8:30-21
+  wed: 8:30-21
+  thu: 8:30-21
+  fri: 8:30-21
+  sat: 8:30-21
+  sun: 8:30-17
 wifi: 2
 speed: 5
 power: 4
@@ -27,6 +34,6 @@ cash_only: false
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+886229537868"
+website: http://www.library.ntpc.gov.tw/
 ---

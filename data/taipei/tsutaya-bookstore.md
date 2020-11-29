@@ -4,10 +4,16 @@ type: Bookstore
 area: Nangang
 google_maps: https://goo.gl/maps/Az5ZVUGu81wStN4y7
 coordinates: 25.052982, 121.606917
-address: 
+address: 115, Taiwan, Taipei City, Nangang District, Section 7, Zhongxiao East Road, 369號2F
 station: Nangang
-opens: "08:30-11:00"
-closes: "21:30-22:00"
+hours:
+  mon: 11-21:30
+  tue: 11-21:30
+  wed: 11-21:30
+  thu: 11-21:30
+  fri: 11-22
+  sat: 8:30-22
+  sun: 8:30-21:30
 wifi: 4
 speed: 50
 power: 5
@@ -27,8 +33,8 @@ cash_only: false
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+886227862869"
+website: http://www.citylink.tw/?p=8998
 tips:
   - Arrive early to get a good seat
   - Louisa coffee inside sells drinks and food

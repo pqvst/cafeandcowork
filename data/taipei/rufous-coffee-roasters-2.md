@@ -5,10 +5,15 @@ type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/eph4sSFqRAviDwyY6
 coordinates: 25.022200, 121.549854
-address: 
+address: No. 266號, Section 2, Keelung Rd, Da’an District, Taipei City, Taiwan 106
 station: Liuzhangli
-opens: "11:00"
-closes: "18:30"
+hours:
+  mon: 11-18:30
+  tue: 11-18:30
+  wed: 11-18:30
+  fri: 11-18:30
+  sat: 11-18:30
+  sun: 11-18:30
 wifi: 5
 speed: 
 power: 0
@@ -27,7 +32,7 @@ outdoor_seating: false
 cash_only: 
 animals: false
 facebook: 
-instagram: 
-telephone: 
+instagram: https://www.instagram.com/rufous_coffee_2/
+telephone: "+886227366881"
 website: 
 ---

@@ -1,13 +1,13 @@
 ---
+added: 2020-07-08
 name: Notch Front Station
 type: Cafe
-area: Taipei Main Station
+area: Zhongzheng
 google_maps: https://goo.gl/maps/qm7kBq6QqdTR27qb6
 coordinates: 25.044572, 121.516430
-address: 
+address: No. 6號, Xinyang Street, Zhongzheng District, Taipei City, Taiwan 100
 station: Taipei Main Station
-opens: "08:00"
-closes: "21:00"
+hours: 8-21
 wifi: 2
 speed: 
 power: 3
@@ -25,8 +25,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/NOTCHfrontstation/
 instagram: 
-telephone: 
+telephone: "+886223613223"
 website: 
 ---

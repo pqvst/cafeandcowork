@@ -1,13 +1,20 @@
 ---
+added: 2020-02-21
 name: Starbucks Songshan
 type: Cafe
 area: Songshan
 google_maps: https://goo.gl/maps/iWbiYjFj6PMQCSw36
 coordinates: 25.049100, 121.578814
-address: 
+address: No. 11號, Songshan Rd, Xinyi District, Taipei City, Taiwan 110
 station: Songshan
-opens: "07:00-08:00"
-closes: "22:00"
+hours:
+  mon: 7-22
+  tue: 7-22
+  wed: 7-22
+  thu: 7-22
+  fri: 7-22
+  sat: 8-22
+  sun: 8-22
 wifi: 1
 speed: 4
 power: 3

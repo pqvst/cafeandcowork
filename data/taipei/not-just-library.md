@@ -1,13 +1,18 @@
 ---
+added: 2020-08-19
 name: Not Just Library
 type: Library
 area: Xinyi
-google_maps: https://goo.gl/maps/g4Ssh9TbmdecoYWi9
+google_maps: https://g.page/NotJustLibrary?share
 coordinates: 25.043762, 121.559894
-address: 
+address: No. 133號, Guangfu South Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei City Hall
-opens: "09:30"
-closes: "17:30"
+hours:
+  tue: 10-18
+  wed: 10-18
+  thu: 10-18
+  fri: 10-18
+  sat: 10-18
 wifi: 3
 speed: 30
 power: 5
@@ -25,9 +30,9 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/TDCDesignLibrary/
 instagram: 
-telephone: 
+telephone: "+886227458199#322"
 website: 
 tips:
   - Inside the Taiwan Design Museum building

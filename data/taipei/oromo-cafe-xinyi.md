@@ -1,13 +1,20 @@
 ---
+updated: 2020-11-11
 name: OROMO CAFE (Xinyi)
 type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/V6dvsdfGy1zQgcXf7
 coordinates: 25.031663, 121.559608
-address: 
+address: No. 15, Wuxing Street, Xinyi District, Taipei City, Taiwan 110
 station: Taipei 101/World Trade Center
-opens: "07:30-08:00"
-closes: "9:30"
+hours:
+  mon: 7:30-21:30
+  tue: 7:30-21:30
+  wed: 7:30-21:30
+  thu: 7:30-21:30
+  fri: 7:30-21:30
+  sat: 8-21:30
+  sun: 8-21:30
 wifi: 3
 speed: 
 power: 5
@@ -25,8 +32,8 @@ standing_tables: false
 outdoor_seating: true
 cash_only: true
 animals: 
-facebook: 
+facebook: https://facebook.com/oromocafe1
 instagram: 
-telephone: 
+telephone: "+886223453008"
 website: 
 ---

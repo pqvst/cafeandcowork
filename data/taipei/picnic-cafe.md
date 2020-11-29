@@ -1,13 +1,20 @@
 ---
+added: 2020-02-17
 name: picnic café
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/2XUAaGZRpTRgCdad7
 coordinates: 25.020417, 121.533069
-address: 
+address: No. 75, Wenzhou Street, Da’an District, Taipei City, Taiwan 106
 station: Taipower Building
-opens: "12:00-13:00"
-closes: "23:00"
+hours:
+  mon: 13-23
+  tue: 13-23
+  wed: 13-23
+  thu: 13-23
+  fri: 13-23
+  sat: 12-23
+  sun: 12-23
 wifi: 5
 speed: 50
 power: 4
@@ -25,9 +32,9 @@ standing_tables: true
 outdoor_seating: true
 cash_only: true
 animals: 
-facebook: 
+facebook: http://www.facebook.com/pages/PICNIC-CAFE-ye-can-ka-fei/121084864580055?ref=ts
 instagram: 
-telephone: 
+telephone: "+886223687798"
 website: 
 tips:
   - Arrive early to get a seat. Fills up quickly in the afternoon

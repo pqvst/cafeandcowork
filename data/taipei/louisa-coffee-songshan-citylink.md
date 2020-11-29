@@ -1,13 +1,13 @@
 ---
+added: 2020-02-25
 name: Louisa Coffee (Songshan CITYLINK)
 type: Cafe
 area: Songshan
 google_maps: https://goo.gl/maps/Y8Fyjbcygc6jXxEH8
 coordinates: 25.049621, 121.579136
-address: 
+address: No. 131號, Section 6, Civic Blvd, Songshan District, Taipei City, Taiwan 105
 station: Songshan
-opens: "07:00"
-closes: "22:00"
+hours: 7-22
 wifi: 3
 speed: 5
 power: 5
@@ -27,6 +27,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+886227471613"
+website: http://www.louisacoffee.com.tw/
 ---

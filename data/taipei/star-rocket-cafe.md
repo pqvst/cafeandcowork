@@ -1,13 +1,18 @@
 ---
+added: 2020-08-25
 name: Star Rocket Café
 type: Cafe
 area: Zhongzheng
 google_maps: https://goo.gl/maps/bfjdv9bgiMShdKVeA
 coordinates: 25.045478, 121.531057
-address: 
+address: 100, Taiwan, Taipei City, Zhongzheng District, Section 3, Civic Blvd, 2號11樓
 station: Zhongxiao Xinsheng
-opens: "11:00"
-closes: "18:00"
+hours:
+  mon: 11-18
+  tue: 11-18
+  wed: 11-18
+  thu: 11-18
+  fri: 11-18
 wifi: 2
 speed: 20
 power: 3
@@ -25,10 +30,10 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://facebook.com/starrocket.io/
 instagram: 
-telephone: 
-website: 
+telephone: "+886277019728"
+website:
 tips:
   - Take the elevator up to the 11th floor
   - WiFi is a little unstable (disconnects and reconnects from time to time)

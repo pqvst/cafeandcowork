@@ -1,13 +1,20 @@
 ---
+updated: 2020-08-04
 name: Woolloomooloo
 type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/WySt1GzJgVojuzgY8
 coordinates: 25.033266, 121.558136
-address: 
+address: No. 379號, Section 4, Xinyi Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei 101/World Trade Center
-opens: "07:30"
-closes: "00:00"
+hours:
+  mon: 7:30-0
+  tue: 7:30-0
+  wed: 7:30-0
+  thu: 7:30-0
+  fri: 7:30-1
+  sat: 7:30-1
+  sun: 7:30-0
 wifi: 5
 speed: 65
 power: 1
@@ -25,10 +32,10 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+facebook: https://www.facebook.com/woolloomoolooTaipei/
+instagram: https://www.instagram.com/woolloomooloo.xinyi/
+telephone: "+886287890128"
+website: http://woolloomooloo.tw/
 tips:
   - Large work tables on second floor
   - Hard wooden chairs, not very comfortable

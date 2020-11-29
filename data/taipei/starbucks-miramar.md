@@ -1,13 +1,13 @@
 ---
+added: 2020-07-28
 name: Starbucks Miramar
 type: Cafe
-area: Jiannan Rd
+area: Zhongshan
 google_maps: https://goo.gl/maps/fGTc3G9eG1JH6nPP8
 coordinates: 25.083612, 121.556707
-address: 
+address: 104, Taiwan, Taipei City, Zhongshan District, Jingye 3rd Road, 20號1樓
 station: Jiannan Rd
-opens: "08:30"
-closes: "23:00"
+hours: 8:30-23
 wifi: 1
 speed: 2
 power: 2
@@ -27,6 +27,6 @@ cash_only: false
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+886221753190"
+website: http://www.starbucks.com.tw/
 ---
