@@ -2,7 +2,7 @@
 added: 2020-01-17
 name: Bean Brothers
 type: Cafe
-area: Gangnam
+area: Gangnam-gu
 google_maps: https://goo.gl/maps/vtA3ecdtbgwXAoJG8
 coordinates: 37.499369,127.0287172
 address: South Korea, Seoul, Gangnam-gu, Yeoksam-dong, Gangnam-daero 94-gil, 14 3층

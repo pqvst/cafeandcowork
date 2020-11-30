@@ -1,7 +1,7 @@
 ---
 name: around day
 type: Cafe
-area: Seongdong
+area: Seongdong-gu
 google_maps: https://goo.gl/maps/LeLRTTeWwwxEpKmw7
 coordinates: 37.546858297202554, 127.04125486914084
 address: 24-1 Seoulsup 2(i)-gil, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea
