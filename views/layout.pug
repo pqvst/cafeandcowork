@@ -12,6 +12,7 @@ html
 
     meta(charset="utf-8")
     meta(property="og:logo" content=`${site.url}/logo.png`)
+    meta(property="og:image" content=`${site.url}/logo.png`)
     meta(property="og:site_name" content=site.title)
     meta(property="og:type" content="website")
     meta(property="og:url" content=site.url)
@@ -20,7 +21,6 @@ html
     else
       meta(property="og:title" content=site.title)
     meta(property="og:description" content=site.description)
-    //-meta(property="og:image" content=`${site.url}/share.png`)
 
     link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
