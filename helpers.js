@@ -60,8 +60,61 @@ exports.formatUrl = function(url) {
     .replace(/\/$/, '');
 }
 
+function getTimes(span) {
+  if (!span) return null;
+  const times = span.split('-');
+  return times.map(formatTime);
+}
+
+const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+
+function getHours(hours) {
+  if (hours) {
+    const res = [];
+    if (typeof hours === 'string') {
+      for (const day of days) {
+        res.push(getTimes(hours));
+      }
+    } else {
+      for (const day of days) {
+        res.push(getTimes(hours[day]));
+      }
+    }
+    return res;
+  } else {
+    return null;
+  }
+}
+
 exports.formatHours = function(hours) {
   if (!hours) return 'Closed';
   const times = hours.split('-');
   return times.map(formatTime).join(' - ');
+}
+
+exports.formatOpens = function(hours) {
+  return getHours(hours);
+}
+
+exports.getOpeningTime = function(hours) {
+  hours = getHours(hours);
+  const dow = (new Date).getDay();
+  if (hours && hours[dow]) {
+    return hours[dow][0];
+  }
+}
+
+exports.getClosingTime = function(hours) {
+  hours = getHours(hours);
+  const dow = (new Date).getDay();
+  if (hours && hours[dow]) {
+    return hours[dow][1];
+  }
+}
+
+exports.isOpenToday = function(hours) {
+
+  hours = getHours(hours);
+  const dow = (new Date).getDay();
+  return !hours || hours[dow];
 }
