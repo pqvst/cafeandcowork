@@ -11,6 +11,8 @@ block body
       span.info 
       if closed
         span.closed Permanently Closed
+      if !isOpenToday(hours)
+        span.closed-today Closed Today
       
     .info
       a.city(href=city.url) #{city.name}

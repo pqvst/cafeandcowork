@@ -392,6 +392,12 @@ tr.closed {
   color: red;
 }
 
+.place .closed-today {
+  margin-left: 10px;
+  font-weight: 300 !important;
+  color: red;
+}
+
 .place .updated {
   margin-left: 5px;
 }
