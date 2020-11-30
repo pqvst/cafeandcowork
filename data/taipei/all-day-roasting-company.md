@@ -38,4 +38,4 @@ images:
   - food.jpg
 ---
 
-A large modern cafe with lots of seating space. The first area is open and airy, with lots of natural light. Further inside there are individual tables and two large worktables as well. The location might not be the most convenient, but good WiFi and lots of power outlets makes this a great spot to work from. However, the chairs aren't the most comfortable and it got a little noisy in the afternoon. Many types of coffee and good tea selection. The sandwiches are worth trying, but the portion was perhaps slightly too small. Great service and friendly staff.
+A large modern cafe with lots of seating space. The front area is open and airy, with plenty of natural light. Further inside there are small tables, and two large worktables as well. A large selection of food and drink, good WiFi, and plenty of power outlets makes this a great spot to work from. The sandwiches are worth trying, but the portion was perhaps slightly too small. The chairs aren't the most comfortable and it got a little noisy in the afternoon. Great service and friendly staff.
