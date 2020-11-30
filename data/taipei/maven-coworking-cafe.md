@@ -1,0 +1,38 @@
+---
+added: 2020-11-30
+name: Maven Coworking Cafe
+type: Cafe
+area: Zhongshan
+google_maps: https://goo.gl/maps/KXYQjwW7fCE4P2a28
+coordinates: 25.07941033987216, 121.54605766859156
+address: No.3, Lane 518, Beian Road, Zhongshan District, Taipei City, Taiwan 10491
+station: Dazhi (BR14)
+hours:
+  mon: 9-18
+  tue: 9-18
+  wed: 9-18
+  thu: 9-18
+  fri: 9-18
+  sat: 9-16:30
+wifi: 5
+speed: 100
+power: 5
+vacancy: 4
+comfort: 5
+quiet: 3
+food: 
+drinks: 4
+price: 3
+view: 4
+toilets: 4
+music: true
+smoking: false
+standing_tables: true
+outdoor_seating: false
+cash_only: 
+animals: 
+facebook: https://www.facebook.com/mavencoffeeco
+instagram: https://www.instagram.com/maven_cafe/
+telephone: "+886225333142"
+website: http://www.mavencoffee.co/
+---
