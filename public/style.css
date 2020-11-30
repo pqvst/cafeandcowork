@@ -620,3 +620,28 @@ form select.touched {
 form .info {
   margin-top: 5px;
 }
+
+
+
+/* ========== Error ========== */
+
+.error {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.error h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.error p {
+  margin-bottom: 0;
+}
+
+.error-message {
+  margin-top: 40px;
+  background: #eee;
+  border-radius: 10px;
+  padding: 30px;
+}
