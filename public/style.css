@@ -389,6 +389,7 @@ tr.closed {
 
 .place .closed {
   margin-left: 10px;
+  color: red;
 }
 
 .place .updated {
