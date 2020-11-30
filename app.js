@@ -13,8 +13,10 @@ app.set('views', 'views');
 app.set('view engine', 'pug');
 //app.set('strict routing', true);
 
-app.use(express.static('public', { maxAge: '1y' }));
-app.use(express.static('images', { maxAge: '1y' }));
+const DEBUG = process.env.NODE_ENV !== 'production';
+
+app.use(express.static('public', { maxAge: DEBUG ? 0 : '1y' }));
+app.use(express.static('images', { maxAge: DEBUG ? 0 : '1y' }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 
@@ -39,7 +41,7 @@ const { cities, recent, top } = data.load();
 
 Object.assign(app.locals, require('./helpers'));
 
-app.locals.DEBUG = process.env.NODE_ENV !== 'production';
+app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
 app.locals.cities = cities;
 app.locals.recent = recent;
