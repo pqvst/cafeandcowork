@@ -52,6 +52,14 @@ function formatTime(time) {
   return [hour, min].join(':');
 }
 
+exports.formatUrl = function(url) {
+  return url
+    .replace('https://', '')
+    .replace('http://', '')
+    .replace('www.', '')
+    .replace(/\/$/, '');
+}
+
 exports.formatHours = function(hours) {
   if (!hours) return 'Closed';
   const times = hours.split('-');

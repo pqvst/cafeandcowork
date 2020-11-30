@@ -107,13 +107,13 @@ block body
           dd: a(href=google_maps)= address
         if facebook
           dt Facebook
-          dd: a(href=facebook)= decodeURI(facebook)
+          dd: a(href=facebook)= formatUrl(facebook)
         if instagram
           dt Instagram
-          dd: a(href=instagram)= decodeURI(instagram)
+          dd: a(href=instagram)= formatUrl(instagram)
         if website
           dt Website
-          dd: a(href=website)= decodeURI(website)
+          dd: a(href=website)= formatUrl(website)
         if telephone
           dt Telephone
           dd: a(href=`tel:${telephone}`)= telephone
