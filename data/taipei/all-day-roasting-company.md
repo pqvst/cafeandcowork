@@ -25,8 +25,8 @@ standing_tables: true
 outdoor_seating: false
 cash_only: false
 animals: false
-facebook: "https://www.facebook.com/alldayroastingcompany/"
-instagram: 
+facebook: https://www.facebook.com/alldayroastingcompany/
+instagram: https://www.instagram.com/allday_roastingcompany/
 telephone: "+886287874468"
 website: 
 images:
