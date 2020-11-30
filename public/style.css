@@ -90,11 +90,6 @@ header img {
 
 header a.icon {
   margin-left: 15px;
-  opacity: 0.1;
-}
-
-header a.icon:hover {
-  opacity: 1;
 }
 
 @media screen and (max-width: 700px) {
