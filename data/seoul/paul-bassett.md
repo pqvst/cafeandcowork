@@ -1,13 +1,19 @@
 ---
 name: Paul Bassett
 type: Cafe
-area: Samseong
+area: Gangnam-gu
 google_maps: https://goo.gl/maps/zzjscCEQGttw263A9
 coordinates: 37.507702,127.058247
-address: 
+address: 509 Teheran-ro, Samseong 1(il)-dong, Gangnam-gu, Seoul, South Korea
 station: Samseong
-opens: ""
-closes: ""
+hours:
+  mon: 7:30-21
+  tue: 7:30-21
+  wed: 7:30-21
+  thu: 7:30-21
+  fri: 7:30-21
+  sat: 7:30-21
+  sun: 10-20
 wifi: 3
 speed: 15
 power: 0
@@ -23,10 +29,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+82220517474"
+website: http://www.baristapaulbassett.co.kr/
 ---

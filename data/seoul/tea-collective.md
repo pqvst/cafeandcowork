@@ -1,13 +1,19 @@
 ---
+added: 2019-11-30
 name: Tea Collective
 type: Cafe
-area: Samseong
+area: Gangnam-gu
 google_maps: https://goo.gl/maps/VB1ZagXMhMvbYM2w7
 coordinates: 37.5119572,127.0466297
-address: 
+address: 449 Bongeunsa-ro, Samseong 2(i)-dong, Gangnam-gu, Seoul, South Korea
 station: Samseong
-opens: ""
-closes: ""
+hours:
+  tue: 10:30-20
+  wed: 10:30-20
+  thu: 10:30-20
+  fri: 10:30-20
+  sat: 10:30-20
+  sun: 11-22
 wifi: 4
 speed: 
 power: 3
@@ -23,10 +29,10 @@ music: true
 smoking: false
 standing_tables: true
 outdoor_seating: true
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
-instagram: 
-telephone: 
-website: 
+instagram: https://www.instagram.com/tea_collective/
+telephone: "+82269188255"
+website: http://www.tea-collective.com/cafe
 ---

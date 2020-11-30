@@ -1,13 +1,13 @@
 ---
+added: 2020-01-17
 name: Bean Brothers
 type: Cafe
 area: Gangnam
 google_maps: https://goo.gl/maps/vtA3ecdtbgwXAoJG8
 coordinates: 37.499369,127.0287172
-address: 
+address: South Korea, Seoul, Gangnam-gu, Yeoksam-dong, Gangnam-daero 94-gil, 14 3층
 station: Gangnam
-opens: ""
-closes: ""
+hours: 12-21
 wifi: 5
 speed: 210
 power: 5
@@ -23,10 +23,10 @@ music: true
 smoking: false
 standing_tables: true
 outdoor_seating: false
-cash_only: 
-animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+cash_only: false
+animals: false
+facebook: https://www.facebook.com/thebeanbros
+instagram: https://www.instagram.com/bean_brothers
+telephone: "+8225688192"
+website: http://www.beanbrothers.co.kr/
 ---

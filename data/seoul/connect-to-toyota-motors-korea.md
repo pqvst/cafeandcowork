@@ -1,13 +1,12 @@
 ---
-name: CONNECT TO (Toyota Motors Korea)
+added: 2019-12-09
+name: CONNECT TO (Lexus Korea)
 type: Cafe
-area: Jamsil
+area: Songpa-gu
 google_maps: https://goo.gl/maps/khqVtzai39z9X7bj6
 coordinates: 37.514146,127.105117
-address: 
+address: Jamsil 6(yuk)-dong, Songpa-gu Seoul South Korea
 station: Jamsil
-opens: ""
-closes: ""
 wifi: 4
 speed: 140
 power: 4
@@ -23,10 +22,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: http://www.connect2.co.kr/
 ---

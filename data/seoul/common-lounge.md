@@ -1,13 +1,18 @@
 ---
 name: Common Lounge
 type: Cafe
-area: Apgujeong
+area: Gangnam-gu
 google_maps: https://goo.gl/maps/tf6We2z5s1cT9XG77
 coordinates: 37.527803,127.038839
-address: 
+address: 338 Apgujeong-ro, Apgujeong-dong, Gangnam-gu, Seoul, South Korea
 station: Apgujeongrodeo
-opens: ""
-closes: ""
+hours:
+  mon: 10-18
+  tue: 10-18
+  wed: 10-18
+  thu: 10-18
+  fri: 10-18
+  sat: 10-18
 wifi: 3
 speed: 15
 power: 5
@@ -23,10 +28,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
-instagram: 
+instagram: https://www.instagram.com/commonlounge_/
 telephone: 
 website: 
 ---
