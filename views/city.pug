@@ -72,8 +72,11 @@ block body
               td: +attribute(e.animals)
               td= e.type
               td= e.area
-              td= e.opens
-              td= e.closes
+              if isOpenToday(e.hours)
+                td= getOpeningTime(e.hours)
+                td= getClosingTime(e.hours)
+              else
+                td(colspan=2) Closed Today
 
   -
     const markers = places.map(e => {
