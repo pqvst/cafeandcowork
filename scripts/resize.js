@@ -3,7 +3,7 @@ const glob = require('glob');
 const fs = require('fs');
 
 const MAX_SIZE = 1200;
-const DRY_RUN = true;
+const DRY_RUN = false;
 
 glob('images/**/*.jpg', async (err, files) => {
   for (const file of files) {
