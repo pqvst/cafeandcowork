@@ -45,8 +45,6 @@ images:
   - tea.jpg
   - menu1.jpg
   - menu2.jpg
-  - menu3.jpg
-  - menu4.jpg
 ---
 
 A great place to work near Dazhi north of the river. The cafe feels very modern with a clean and minimal interior. The second floor is called the "coworking space" and has more seating and large worktables. Both floors are suitable for working and there is no extra fee to use the coworking space (minimum order 1 drink). The first floor was quite busy, even in the morning, but there were many seats available upstairs. Both floors have very comfortable seats, lots of power outlets, and fast WiFi. Good drink selection and some light food and snacks are available as well.
