@@ -2,7 +2,7 @@
 name: Cafe de Bingsu
 type: Cafe
 area: Shin-Okubo
-google_maps: https://g.page/cafedebingsu?share
+google_maps: https://g.page/Byuruzan?share
 coordinates: 35.701413,139.7002823
 address: 
 station: 

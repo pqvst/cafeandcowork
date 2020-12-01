@@ -4,10 +4,9 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/APuxX8sEMCjCaApn7
 coordinates: 35.6614311,139.6991223
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 1 Chome−23−17 ｃｏｃｏｔｉ 2F
+station: Shibuya
+hours: 7-22:30
 wifi: 5
 speed: 
 power: 0
@@ -23,10 +22,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81368050352"
+website: https://www.starbucks.co.jp/store/search/detail.php?id=1728
 ---

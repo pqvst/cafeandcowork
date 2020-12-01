@@ -4,10 +4,9 @@ type: Cafe
 area: Bunkyo
 google_maps: https://goo.gl/maps/RZvBGg1VAJARdcfY6
 coordinates: 35.702937,139.754720
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒112-0004 Tokyo, Bunkyo City, Koraku, 1 Chome−3−61 東京ドームシティ ミーツポート １階
+station: Suidobashi
+hours: 7-10:30
 wifi: 5
 speed: 45
 power: 2
@@ -23,10 +22,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81358409275"
+website: http://www.starbucks.co.jp/store/search/detail.php?id=770
 ---

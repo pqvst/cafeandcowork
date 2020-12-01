@@ -1,13 +1,12 @@
 ---
 name: Beasty Coffee [cafe laboratory]
 type: Cafe
-area: Yoyogi
+area: Shibuya
 google_maps: https://goo.gl/maps/rFk1ohrBd4fxL9KA7
 coordinates: 35.6656412,139.6906573
-address: 
-station: 
-opens: ""
-closes: ""
+address: 1 Chome-19-3 Tomigaya, Shibuya City, Tokyo 151-0063, Japan
+station: Shibuya
+hours: 9-20
 wifi: 5
 speed: 
 power: 5
@@ -25,8 +24,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+facebook: https://www.facebook.com/BeastyCoffee
+instagram: https://www.instagram.com/beastycoffee/?hl=ja
+telephone: "+81368048101"
+website: http://beastycoffee.com/
 ---

@@ -1,13 +1,12 @@
 ---
 name: STARBUCKS COFFEE Meguro Central Square
 type: Cafe
-area: Meguro
+area: Shinagawa
 google_maps: https://goo.gl/maps/EPcnnm64PTSMred17
 coordinates: 35.633888,139.7158331
-address: 
-station: 
-opens: ""
-closes: ""
+address: 3 Chome-1-1 Kamiosaki, Shinagawa City, Tokyo 141-0021, Japan
+station: Meguro
+hours: 7-22
 wifi: 5
 speed: 
 power: 2
@@ -23,10 +22,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81354477107"
+website: http://www.starbucks.co.jp/store/search/detail.php?id=1502
 ---

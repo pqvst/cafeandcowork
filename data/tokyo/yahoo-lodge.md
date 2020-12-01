@@ -1,13 +1,12 @@
 ---
 name: Yahoo LODGE
 type: Coworking Space
-area: Nagatacho
+area: Chiyoda
 google_maps: https://goo.gl/maps/CDe9RscasXtXpzCr5
 coordinates: 35.6797349,139.7348855
-address: 
-station: Y16,Z04,N07,G05,M13
-opens: ""
-closes: ""
+address: Japan, 〒102-0094 Tokyo, Chiyoda City, Kioicho, 1−2 17F
+station: Nagatacho, Akasaka-Mitsuke
+hours: 9-21
 wifi: 5
 speed: 
 power: 5
@@ -23,10 +22,10 @@ music: false
 smoking: false
 standing_tables: true
 outdoor_seating: false
-cash_only: 
-animals: 
-facebook: 
+cash_only: true
+animals: false
+facebook: https://www.facebook.com/yahoojplodge/
 instagram: 
 telephone: 
-website: 
+website: https://lodge.yahoo.co.jp/
 ---

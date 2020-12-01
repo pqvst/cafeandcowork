@@ -1,13 +1,12 @@
 ---
 name: STARBUCKS COFFEE Tokyo Midtown Shop
 type: Cafe
-area: Roppongi
+area: Minato
 google_maps: https://goo.gl/maps/GiVJh5Xa78eVkDEm7
 coordinates: 35.6647621,139.7281753
-address: 
-station: 
-opens: ""
-closes: ""
+address: 東京ミッドタウン, B13, 9 Chome-7-2 Akasaka, Minato City, Tokyo 107-0052, Japan
+station: Roppongi
+hours: 7-22:30
 wifi: 
 speed: 
 power: 
@@ -23,10 +22,10 @@ music:
 smoking: 
 standing_tables: 
 outdoor_seating: 
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81354136531"
+website: http://www.starbucks.co.jp/store/search/detail.php?id=1472
 ---

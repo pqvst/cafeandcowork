@@ -1,13 +1,12 @@
 ---
-name: FREEMAN Cafe
+name: Freeman Cafe
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Hhos4c1nFVopSonu9
 coordinates: 35.6615348,139.7005439
-address: 
-station: JY20,G01,Z01,F16
-opens: ""
-closes: ""
+address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 1 Chome−16−14 メトロプラザ 2Ｆ
+station: Shibuya
+hours: 10-23
 wifi: 3
 speed: 
 power: 4
@@ -26,9 +25,9 @@ outdoor_seating: false
 cash_only: 
 animals: 
 facebook: 
-instagram: 
-telephone: 
-website: 
+instagram: https://www.instagram.com/freemancafe_official/ 
+telephone: "+81357669111"
+website: https://www.create-restaurants.co.jp/shop/index.php?controller=FrontCrShop&action=shop_show&id=577&lang=ja
 ---
 
 One of my favorite spots (and the first spot I found) in Tokyo. It’s not “perfect” but I still really like it, and the staff is always super firendly. It’s a cool café close to Shibuya and Harajuku.

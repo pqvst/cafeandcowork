@@ -4,10 +4,15 @@ type: Cafe
 area: Shibuya
 google_maps: https://g.page/fabcafetokyo?share
 coordinates: 35.656063,139.6933023
-address: 
-station: JY20,G01,Z01,F16
-opens: ""
-closes: ""
+address: Japan, 〒150-0043 Tokyo, Shibuya City, Dogenzaka, 1 Chome−22−7 道玄坂ピア 1F
+station: Shibuya (JY20,G01,Z01,F16)
+hours:
+  mon: 8:30-20
+  tue: 8:30-20
+  wed: 8:30-14
+  thu: 8:30-20
+  sat: 10-20
+  sun: 10-20
 wifi: 5
 speed: 
 power: 5
@@ -23,10 +28,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+cash_only: false
+animals: false
+facebook: https://www.facebook.com/fabcafe.global/
+instagram: https://www.instagram.com/fabcafe.global/
+telephone: "+81364169190"
+website: https://fabcafe.com/jp/tokyo/
 ---

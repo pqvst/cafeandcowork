@@ -1,13 +1,17 @@
 ---
 name: AWS Loft Tokyo
 type: Coworking Space
-area: Meguro
+area: Shinagawa
 google_maps: https://goo.gl/maps/h2FiX7CnMEs5TZ5b6
 coordinates: 35.6333455,139.7144
-address: 
-station: JY22
-opens: ""
-closes: ""
+address: Japan, 〒141-0021 Tokyo, Shinagawa City, Kamiosaki, 3 Chome−1−1 アマゾン新目黒オフィス（目黒セントラルスクエア）17F
+station: Meguro (JY22)
+hours:
+  mon: 10-18
+  tue: 10-18
+  wed: 10-18
+  thu: 10-18
+  fri: 10-18
 wifi: 5
 speed: 
 power: 5
@@ -23,10 +27,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: true
+animals: false
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: https://awsloft.tokyo/
 ---

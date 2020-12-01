@@ -4,10 +4,9 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Dz26hDdBFRQDvWGBA
 coordinates: 35.659527,139.696124
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒150-0043 Tokyo, Shibuya City, Dogenzaka, 2 Chome−29−5 渋谷プライム 5階
+station: Shibuya
+hours: 11:30-22
 wifi: 4
 speed: 
 power: 3
@@ -27,6 +26,8 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81364525424"
+website: http://livingroomcafe.jp/
 ---
+
+Note that laptop use is only allowed until 17:00.

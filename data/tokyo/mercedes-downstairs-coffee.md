@@ -1,13 +1,12 @@
 ---
 name: Mercedes DOWNSTAIRS COFFEE
 type: Cafe
-area: Roppongi
+area: Minato
 google_maps: https://goo.gl/maps/fqKJErvKqGHydunt6
 coordinates: 35.6660072,139.725989
-address: 
-station: 
-opens: ""
-closes: ""
+address: 7 Chome-3-10 Roppongi, Minato City, Tokyo 106-0032, Japan
+station: Nogizaka, Roppongi
+hours: 7-23
 wifi: 4
 speed: 
 power: 4
@@ -27,6 +26,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81334238772"
+website: https://www.transit-web.com/content/shops/downstairs-coffee/downstairs/
 ---

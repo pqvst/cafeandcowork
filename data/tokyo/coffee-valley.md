@@ -4,8 +4,8 @@ type: Cafe
 area: Ikebukuro
 google_maps: https://goo.gl/maps/rXSTYSA8DXwgJZBd6
 coordinates: 35.7276852,139.7108832
-address: 
-station: 
+address: 5 Chome-31 Jingumae, Shibuya City, Tokyo 150-0001, Japan
+station: Shibuya, Harajuku
 opens: ""
 closes: ""
 wifi: 
