@@ -1,0 +1,32 @@
+---
+added: YYYY-MM-DD
+name: 
+type: Cafe
+area: 
+google_maps: 
+coordinates: 
+address: 
+station: 
+hours: 
+wifi: 
+speed: 
+power: 
+vacancy: 
+comfort: 
+quiet: 
+food: 
+drinks: 
+price: 
+view: 
+toilets: 
+music: 
+smoking: 
+standing_tables: 
+outdoor_seating: 
+cash_only: 
+animals: 
+facebook: 
+instagram: 
+telephone: 
+website: 
+---
