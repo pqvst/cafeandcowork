@@ -35,4 +35,16 @@ facebook: https://www.facebook.com/mavencoffeeco
 instagram: https://www.instagram.com/maven_cafe/
 telephone: "+886225333142"
 website: http://www.mavencoffee.co/
+images:
+  - outside.jpg
+  - downstairs.jpg
+  - seat.jpg
+  - coworking.jpg
+  - upstairs.jpg
+  - upstairs2.jpg
+  - tea.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
 ---
