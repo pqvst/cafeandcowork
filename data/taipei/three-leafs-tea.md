@@ -14,8 +14,8 @@ power: 3
 vacancy: 4
 comfort: 3
 quiet: 3
-food: 4
-drinks: 4
+food: 3
+drinks: 3
 price: 3
 view: 3
 toilets: 5
@@ -29,4 +29,13 @@ facebook: https://www.facebook.com/3leafstea/
 instagram: https://www.instagram.com/3leafstea/
 telephone: "+886227035851"
 website: http://www.3leafstea.com/
+images:
+  - outside.jpg
+  - seating.jpg
+  - worktable.jpg
+  - table.jpg
+  - menu.jpg
+  - interior.jpg
 ---
+
+A combined tea shop and cafe. The interior feels bright and modern. It's a good place for large groups since there are 3 large worktables, as well as some smaller tables. It was quite busy just around lunch time, but got much quieter later in the afternoon. Very fast WiFi and most tables have power outlets. The chairs are not the most comfortable though. The menu is small, but the selection for both food and drinks is still quite good. Good tea, and the pasta is definitely worth trying (but the portion is perhaps little small).
