@@ -22,7 +22,7 @@ vacancy: 3
 comfort: 4
 quiet: 3
 food: 
-drinks: 4
+drinks: 3
 price: 5
 view: 4
 toilets: 2
@@ -36,6 +36,16 @@ facebook: https://facebook.com/oromocafe1
 instagram: 
 telephone: "+886223453008"
 website: 
+images:
+  - outside.jpg
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - seating5.jpg
+  - menu.jpg
+  - tea.jpg
 ---
 
-The first of three OROMO CAFE locations in Taipei, this one is located near Taipei 101. It's a popular retro-style cafe, ideal for working and studying with comfortable seats. The cafe is filled with old retro decorations, giving it a very interesting vibe. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. Every seat has access to power. The WiFi isn't the best though (usually quite slow and can stop working, so it's good to have a backup hotspot). Plenty of seats, and usually not very crowded in the morning. However, it can get quite busy in the afternoon. When it's crowded it can feel a little cramped. The restroom is very dark.
+The first of three OROMO CAFE locations in Taipei, this one is located near Taipei 101. It's a popular retro-style cafe, ideal for working and studying with comfortable seats. The cafe is filled with old retro decorations, giving it a very interesting vibe. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. Every seat has access to power. The WiFi isn't the best though (usually quite slow and can stop working, so it's good to have a backup hotspot). Decent drinks selection, and very cheap! Plenty of seats, and usually not very crowded in the morning. However, it can get quite busy in the afternoon. When it's crowded it can feel a little cramped. The restroom is very dark.
