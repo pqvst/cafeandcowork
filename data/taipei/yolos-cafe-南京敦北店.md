@@ -21,7 +21,7 @@ vacancy: 4
 comfort: 4
 quiet: 3
 food: 
-drinks: 4
+drinks: 3
 price: 5
 view: 3
 toilets: 4
@@ -31,8 +31,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/sainpug
+instagram: https://www.instagram.com/yolos_ngdb/
 telephone: "+886287124775"
 website: https://yolos-cafe-sainpug.business.site/
 images:
@@ -41,3 +41,5 @@ images:
   - seating2.jpg
   - menu.jpg
 ---
+
+Probably one of the cheapest cafes I've found in Taipei. A black tea was only 35 NT$. Even so, the interior was nice, clean, modern. Good wifi and power at every seat. It's probably not the type of place I'd sit for an extended period of time, but definitely a great spot to get some work done in the morning. Towards lunch time it got quite busy. They serve breakfast food as well, which seemed very tasty (although I haven't tried it). There is a restroom behind the "secret" door.
