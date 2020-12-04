@@ -1,0 +1,40 @@
+---
+added: 2020-12-04
+name: nest
+type: Cafe
+area: Daan
+google_maps: https://goo.gl/maps/qDfGLb57QN2sriAi8
+coordinates: 25.03026806466598, 121.531368137597
+address: No. 38, Lane 198, Section 2, Xinyi Road, Da’an District, Taipei City, Taiwan 106
+station: Dongmen
+hours: 12-21
+wifi: 3
+speed: 40
+power: 3
+vacancy: 3
+comfort: 3
+quiet: 3
+food: 5
+drinks: 5
+price: 3
+view: 5
+toilets: 4
+music: true
+smoking: false
+standing_tables: true
+outdoor_seating: true
+cash_only: 
+animals: 
+facebook: https://www.facebook.com/nest.taipei
+instagram: 
+telephone: "+886223569895"
+website: 
+images:
+  - sign.jpg
+  - outside.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - menu.jpg
+  - tea.jpg
+  - food.jpg
+---
