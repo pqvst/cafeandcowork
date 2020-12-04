@@ -48,4 +48,4 @@ images:
   - tea.jpg
 ---
 
-The first of three OROMO CAFE locations in Taipei, this one is located near Taipei 101. It's a popular retro-style cafe, ideal for working and studying with comfortable seats. The cafe is filled with old retro decorations, giving it a very interesting vibe. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. Every seat has access to power. The WiFi isn't the best though (usually quite slow and can stop working, so it's good to have a backup hotspot). Decent drinks selection, and very cheap! Plenty of seats, and usually not very crowded in the morning. However, it can get quite busy in the afternoon. When it's crowded it can feel a little cramped. The restroom is very dark.
+A popular retro-style cafe near Taipei 101. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. It's ideal for studying or working for a long time since the seating is very comfortable and there is power every where. The WiFi is however not the best and can be quite slow at times. Drink selection is decent (tea could be better), and it's very cheap (55 NT$ for a tea).
