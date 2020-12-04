@@ -44,4 +44,4 @@ images:
   - food.jpg
 ---
 
-There are many cafes in the area, and this is another great option. The interior has several different areas, all of which are decorated very thoughtfully. There's even a small covered outdoor seating area. Comfortable seating everywhere (even cushions are provided!). The drinks selection is large, with many good options, and there's some food as well. The beef pie was really quite tasty, but the portion size is a little small. It was very quiet in the morning but got a little busier around lunch time.
+There are many cafes near Yongkang St, and this is another great option. The interior has several different areas, all of which are decorated very thoughtfully. There's even a small covered outdoor seating area. Comfortable seating everywhere (even cushions are provided!). The drinks selection is large, with many good options, and there's some food as well. The beef pie was really quite tasty, but the portion size is a little small. It was very quiet in the morning but got a little busier around lunch time.
