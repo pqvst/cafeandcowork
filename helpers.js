@@ -53,7 +53,7 @@ function formatTime(time) {
 }
 
 exports.formatUrl = function(url) {
-  return url
+  return decodeURI(url)
     .replace('https://', '')
     .replace('http://', '')
     .replace('www.', '')
