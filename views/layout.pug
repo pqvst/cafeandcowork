@@ -1,26 +1,23 @@
 doctype html
 html
   head
-    if title
-      title #{title} – #{site.title}
-    else
-      title #{site.title} – #{site.description}
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    title #{title ? `${title} – ${site.title}` : `${site.title} – ${site.description}`}
     meta(name="description" content=site.description)
     meta(name="author" content="pqvst")
 
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-
-    meta(charset="utf-8")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content=title ? `${title} – ${site.title}` : site.title)
+    meta(property="og:description" content=site.description)
     meta(property="og:logo" content=`${site.url}/logo.png`)
     meta(property="og:image" content=`${site.url}/share.png`)
-    meta(property="og:site_name" content=site.title)
-    meta(property="og:type" content="website")
-    meta(property="og:url" content=site.url)
-    if title
-      meta(property="og:title" content=`${title} – ${site.title}`)
-    else
-      meta(property="og:title" content=site.title)
-    meta(property="og:description" content=site.description)
+
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:title" content=title ? `${title} – ${site.title}` : site.title)
+    meta(name="twitter:description" content="Find Places to Work From")
+    meta(name="twitter:image" content=`${site.url}/share.png`)
 
     link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
