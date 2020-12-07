@@ -8,6 +8,7 @@ html
     meta(name="description" content=site.description)
     meta(name="author" content="pqvst")
 
+    meta(property="og:url" content=`${site.url}${url}`)
     meta(property="og:type" content="website")
     meta(property="og:title" content=title ? `${title} – ${site.title}` : site.title)
     meta(property="og:description" content=site.description)
@@ -40,7 +41,7 @@ html
       script window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-151353350-1');
     
     block head
-  body  
+  body
     main
       block body
 
