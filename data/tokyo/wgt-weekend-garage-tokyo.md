@@ -4,10 +4,14 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/TTWfuy6LeD5kpAjf8
 coordinates: 35.652762,139.7036763
-address: 
-station: 
-opens: ""
-closes: ""
+address: Grava Daikanyama, 1-1 Daikanyamacho, Shibuya City, Tokyo 150-0034, Japan
+station: Shibuya
+hours:
+  mon: 11-30-21
+  tue: 11-30-21
+  fri: 11-30-21
+  sat: 11-30-21
+  sun: 11-30-21
 wifi: 
 speed: 
 power: 
@@ -27,6 +31,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81354285751"
+website: http://weekendgaragetokyo.jp/
 ---

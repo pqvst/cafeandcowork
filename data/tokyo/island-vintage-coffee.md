@@ -1,13 +1,12 @@
 ---
 name: Island vintage coffee
 type: Cafe
-area: Harajuku
+area: Shibuya
 google_maps: https://goo.gl/maps/9CWnCjWGDXjK57Re8
 coordinates: 35.6664913,139.7071731
-address: 
-station: 
-opens: ""
-closes: ""
+address: 6 Chome-1-10 Jingumae, 渋谷区 Shibuya City, Tokyo 150-0001, Japan
+station: Harajuku
+hours: 9-21
 wifi: 3
 speed: 
 power: 3
@@ -23,10 +22,10 @@ music:
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81364341202"
+website: http://www.islandvintagecoffee.co.jp/
 ---

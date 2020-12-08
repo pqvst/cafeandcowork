@@ -1,13 +1,11 @@
 ---
 name: Unir Akasaka
 type: Cafe
-area: Akasaka
+area: Minato
 google_maps: https://goo.gl/maps/U3oYJAQVDuFPvQAA6
 coordinates: 35.6728203,139.7371559
-address: 
+address: 2 Chome-14-14 Akasaka, Minato City, Tokyo 107-0052, Japan
 station: 
-opens: ""
-closes: ""
 wifi: 4
 speed: 
 power: 3
@@ -29,4 +27,5 @@ facebook:
 instagram: 
 telephone: 
 website: 
+closed: true
 ---

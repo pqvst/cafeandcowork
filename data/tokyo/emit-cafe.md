@@ -4,10 +4,9 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/KgNinKeQDyMTRshs7
 coordinates: 35.6641746,139.6992681
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒150-0041 Tokyo, Shibuya City, Jinnan, 1 Chome−8−11 HOTEL EMIT SHIBUYA 2階
+station: Shibuya
+closed: true
 wifi: 1
 speed: 
 power: 1
@@ -28,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: https://www.hotelemit-shibuya.jp/cafe/
 ---

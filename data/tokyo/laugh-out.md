@@ -1,13 +1,12 @@
 ---
-name: Laugh Out 渋谷
+name: Laugh Out
 type: Coworking Space
 area: Shibuya
 google_maps: https://goo.gl/maps/TR1MfD7dDXqJS7s28
 coordinates: 35.6641746,139.6992681
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒150-0041 Tokyo, Shibuya City, Jinnan, 1 Chome−7−7 渋谷公園通りNnビル 渋谷公園通り
+station: Shibuya
+hours: 0-0
 wifi: 
 speed: 
 power: 
@@ -28,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: http://laugh-out.com/
 ---

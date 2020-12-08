@@ -4,10 +4,9 @@ type: Booth
 area: Shinjuku
 google_maps: https://goo.gl/maps/XYJFr8uPpEPDpsKL6
 coordinates: 35.6887949,139.700285
-address: 
-station: 
-opens: ""
-closes: ""
+address: JR Shinjuku Station, 3 Chome-３８-1 Shinjuku, Shinjuku City, Tokyo 151-0051, Japan
+station: Shinjuku
+hours: 10-21:30
 wifi: 5
 speed: 
 power: 5
@@ -23,10 +22,10 @@ music: false
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81364128296"
+website: http://www.stationwork.jp/
 ---

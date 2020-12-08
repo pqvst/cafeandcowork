@@ -4,10 +4,9 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Be6fuXtFpxQGJsW27
 coordinates: 35.6667081,139.7042399
-address: 
-station: 
-opens: ""
-closes: ""
+address: 6 Chome-12-20 Jingumae, Shibuya City, Tokyo 150-0001, Japan
+station: Harajuku
+hours: 11-20
 wifi: 3
 speed: 
 power: 5
@@ -23,10 +22,10 @@ music: false
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81357783304"
+website: https://www.nikoand.jp/tokyo/
 ---

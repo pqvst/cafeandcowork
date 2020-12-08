@@ -4,10 +4,9 @@ type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/SFeFYW8TUU1WRbvq8
 coordinates: 35.6620796,139.6958014
-address: 
-station: 
-opens: ""
-closes: ""
+address: Japan, 〒150-0042 Tokyo, Shibuya City, Udagawacho, 12−18 東急ハンズ渋谷店 7F
+station: Shibuya
+hours: 10-18
 wifi: 3
 speed: 
 power: 2
@@ -23,10 +22,10 @@ music:
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+81354895111"
+website: http://www.handscafe.jp/
 ---

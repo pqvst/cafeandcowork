@@ -4,10 +4,9 @@ type: Event Space
 area: Shibuya
 google_maps: https://goo.gl/maps/yyuiNDSzHZmSDZCN9
 coordinates: 35.6617891,139.6934701
-address: 
-station: JY20,G01,Z01,F16
-opens: ""
-closes: ""
+address: オクシブビル1階 １丁目-５-3, 5 Shoto, Shibuya City, Tokyo 150-0046, Japan
+station: Shibuya
+closed: true
 wifi: 4
 speed: 
 power: 3
@@ -28,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: https://dazncircle.com/
 ---

@@ -1,13 +1,11 @@
 ---
 name: the SNACK
 type: Coworking Space
-area: Ginza
+area: Chuo
 google_maps: https://goo.gl/maps/HqfpKbZheKFVdzHu9
 coordinates: 35.670171,139.7595863
-address: 
-station: 
-opens: ""
-closes: ""
+address: 7 Chome-5-4 Ginza, Chuo City, Tokyo 104-0061, Japan
+station: Ginza
 closed: true
 wifi: 5
 speed: 
@@ -29,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: https://the-snack.jp/
 ---

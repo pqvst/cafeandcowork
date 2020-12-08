@@ -1,13 +1,11 @@
 ---
 name: Tenoha Bondolfi Boncaffe
 type: Cafe
-area: Daikanyama
+area: Shibuya
 google_maps: https://goo.gl/maps/nkG7jcrstSK7vKVG9
 coordinates: 35.6484141,139.6934863
-address: 
-station: 
-opens: ""
-closes: ""
+address: 20-23 Daikanyamacho, Shibuya City, Tokyo 150-0034, Japan
+station: Daikanyama
 closed: true
 wifi: 
 speed: 
@@ -29,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: http://www.bondolfi-boncaffe.jp/
 ---
