@@ -33,7 +33,7 @@ outdoor_seating: true
 cash_only: true
 animals: false
 facebook: https://facebook.com/oromocafe1
-instagram: 
+instagram: https://www.instagram.com/oromocafe2010/
 telephone: "+886223453008"
 website: 
 images:
@@ -48,4 +48,4 @@ images:
   - tea.jpg
 ---
 
-A popular retro-style cafe near Taipei 101. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. It's ideal for studying or working for a long time since the seating is very comfortable and there is power every where. The WiFi is however not the best and can be quite slow at times. Drink selection is decent (tea could be better), and it's very cheap (55 NT$ for a tea).
+A popular retro-style cafe near Taipei 101. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. It's ideal for studying or working for a long time since the seating is very comfortable and there is power everywhere. The WiFi is however not the best and can be quite slow at times. Drink selection is decent (tea could be better), and it's very cheap (55 NT$ for a tea).
