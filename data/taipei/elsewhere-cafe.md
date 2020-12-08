@@ -8,7 +8,6 @@ coordinates: 25.030471, 121.520569
 address: 1-3, Lane 119, Section 1, Luosifu Road, Zhongzheng District, Taipei City, Taiwan 100
 station: Chiang Kai-Shek Memorial Hall Station
 hours:
-  tue: 7:30-22
   wed: 7:30-22
   thu: 7:30-22
   fri: 7:30-22
