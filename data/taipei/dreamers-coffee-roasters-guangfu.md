@@ -1,5 +1,6 @@
 ---
 added: 2020-11-18
+updated: 2020-12-08
 name: Dreamers Coffee Roasters (Guangfu)
 type: Cafe
 area: Daan
@@ -8,8 +9,8 @@ coordinates: 25.040481, 121.556874
 address: No. 11號, Lane 240, Guangfu South Road, Da’an District, Taipei City, Taiwan 106
 station: Sun Yat-Sen Memorial Hall
 hours: 7-22
-wifi: 1
-speed: 10
+wifi: 4
+speed: 30
 power: 5
 vacancy: 3
 comfort: 3
