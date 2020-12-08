@@ -11,9 +11,9 @@ hours: 12-21
 wifi: 3
 speed: 40
 power: 3
-vacancy: 3
+vacancy: 2
 comfort: 3
-quiet: 3
+quiet: 4
 food: 5
 drinks: 5
 price: 3
@@ -38,3 +38,5 @@ images:
   - tea.jpg
   - food.jpg
 ---
+
+A good cafe if you're looking to work/study and also have some lunch. Good food and drink selection. I tried the Japanese curry rice, which was really tasty. The atmosphere feels very relaxing and personal and there's soft music playing in the background. The cafe is small and it filled up in the afternoon, so arrive early if you want a good seat.
