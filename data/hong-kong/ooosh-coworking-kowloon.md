@@ -4,10 +4,14 @@ type: Coworking Space
 area: Sha Wan
 google_maps: https://g.page/ooosh-coworking-kowloon?share
 coordinates: 22.339141,114.151289
-address: 
-station: 
-opens: ""
-closes: ""
+address: Unit 803, 8/F, Lai Cheong Factory Building,, 479 Castle Peak Road, Cheung Sha Wan, Hong Kong
+station: Lai Chi Kok
+hours:
+  mon: 9:30-19
+  tue: 9:30-19
+  wed: 9:30-19
+  thu: 9:30-19
+  fri: 9:30-19
 wifi: 
 speed: 
 power: 
@@ -27,6 +31,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+85227858588"
+website: https://www.ooo.sh/
 ---

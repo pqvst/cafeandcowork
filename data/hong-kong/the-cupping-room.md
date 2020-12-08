@@ -4,10 +4,16 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/es4yTD5xVvbBbfX27
 coordinates: 22.285491,114.1500433
-address: 
-station: 
-opens: ""
-closes: ""
+address: 299 Queen's Road Central, Central, Hong Kong
+station: Sheung Wan
+hours:
+  mon: 8-17
+  tue: 8-17
+  wed: 8-17
+  thu: 8-17
+  fri: 8-17
+  sat: 8-18
+  sun: 8-18
 wifi: 3
 speed: 
 power: 0
@@ -27,6 +33,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+85227993398"
+website: http://www.cuppingroom.hk/
 ---

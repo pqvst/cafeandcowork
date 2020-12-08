@@ -4,10 +4,9 @@ type: Cafe
 area: Central
 google_maps: https://goo.gl/maps/KpjoX1U1TML97c867
 coordinates: 22.286234,114.157693
-address: 
+address: 1050, IFC Mall, 1 Harbour View St, Central, Hong Kong
 station: 
-opens: ""
-closes: ""
+hours: 8-21
 wifi: 
 speed: 
 power: 
@@ -28,5 +27,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: https://arabica.hk/locations/arabica-hong-kong-ifc
 ---

@@ -4,10 +4,9 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/KesbA4akQGk8WD888
 coordinates: 22.284665, 114.151027
-address: 
-station: 
-opens: ""
-closes: ""
+address: 33 Hillier St, Sheung Wan, Hong Kong
+station: Sheung Wan
+hours: 8-18
 wifi: 1
 speed: 
 power: 4
@@ -25,10 +24,10 @@ standing_tables: true
 outdoor_seating: false
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/brewbroscoffee
 instagram: 
-telephone: 
-website: 
+telephone: "+85225720238"
+website:
 tips:
   - WiFi usage is limited to 30 minutes per day per device
 ---

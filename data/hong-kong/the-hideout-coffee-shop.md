@@ -4,10 +4,9 @@ type: Cafe
 area: Sai Ying Pun
 google_maps: https://goo.gl/maps/6oT24CqAcpZENzcr8
 coordinates: 22.2863125,114.1431207
-address: 
-station: 
-opens: ""
-closes: ""
+address: 63 Third St, Sai Ying Pun, Hong Kong
+station: Sai Ying Pun
+closed: true
 wifi: 
 speed: 
 power: 
@@ -25,8 +24,8 @@ standing_tables:
 outdoor_seating: 
 cash_only: 
 animals: 
-facebook: 
+facebook: https://www.facebook.com/thehideoutcoffeehousehk
 instagram: 
-telephone: 
+telephone: "+85228581012"
 website: 
 ---

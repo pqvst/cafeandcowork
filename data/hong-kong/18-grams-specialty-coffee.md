@@ -4,10 +4,9 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/3MJ8qUQBtjWcXk8j8
 coordinates: 22.285212,114.1507627
-address: 
+address: 1-3 Mercer St, Sheung Wan, Hong Kong
 station: 
-opens: ""
-closes: ""
+closed: true
 wifi: 
 speed: 
 power: 

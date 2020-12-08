@@ -4,10 +4,16 @@ type: Cafe
 area: North Point
 google_maps: https://goo.gl/maps/HVGLRLaEy2MTVLg49
 coordinates: 22.2910992,114.1988764
-address: 
-station: 
-opens: ""
-closes: ""
+address: Tung Fat Building, 31A G/F block B, Kam Ping St, Shu Kuk St, North Point, Hong Kong
+station: North Point
+hours:
+  mon: 7:30-19
+  tue: 7:30-19
+  wed: 7:30-19
+  thu: 7:30-19
+  fri: 7:30-19
+  sat: 9-19
+  sun: 9-19
 wifi: 4
 speed: 
 power: 0
@@ -26,7 +32,7 @@ outdoor_seating: true
 cash_only: 
 animals: 
 facebook: 
-instagram: 
-telephone: 
+instagram: https://www.instagram.com/cafe_gen/
+telephone: "+85228826189"
 website: 
 ---

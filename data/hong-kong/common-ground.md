@@ -4,10 +4,9 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/qMiFJDjExWfFqfH6A
 coordinates: 22.2838258,114.1495696
-address: 
-station: 
-opens: ""
-closes: ""
+address: 19 Shing Wong St, Central, Hong Kong
+station: Sheung Wan
+hours: 9-18
 wifi: 
 speed: 
 power: 
@@ -27,6 +26,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
+telephone: "+85228188318"
 website: 
 ---

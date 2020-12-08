@@ -4,10 +4,16 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://g.page/BaristaJam?share
 coordinates: 22.285609,114.150514
-address: 
-station: 
-opens: ""
-closes: ""
+address: G/F, 97 Jervois St, Sheung Wan, Hong Kong
+station: Sheung Wan
+hours:
+  mon: 10-18
+  tue: 8-18
+  wed: 8-18
+  thu: 8-18
+  fri: 8-18
+  sat: 10-18
+  sun: 11-18
 wifi: 
 speed: 
 power: 
@@ -27,6 +33,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+85228542211"
+website: http://www.baristajam.com.hk/
 ---

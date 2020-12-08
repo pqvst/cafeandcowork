@@ -4,10 +4,9 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/aLWYYnfqWg7pCfmL9
 coordinates: 22.2838258,114.1495696
-address: 
-station: 
-opens: ""
-closes: ""
+address: 111 Caine Rd, Mid-Levels, Hong Kong
+station: Sheung Wan
+hours: 8-18
 wifi: 5
 speed: 
 power: 4
@@ -27,6 +26,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+85225171868"
+website: https://www.filterslane.com/
 ---

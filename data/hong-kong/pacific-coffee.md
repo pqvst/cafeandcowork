@@ -4,10 +4,16 @@ type: Cafe
 area: Sheung Wan
 google_maps: https://goo.gl/maps/BKo4yfoKpWJQNfe98
 coordinates: 22.285491,114.1500433
-address: 
-station: 
-opens: ""
-closes: ""
+address: G/F, The L.Plaza, 367-375 Queen's Road Central, Sheung Wan, Hong Kong
+station: Sheung Wan
+hours:
+  mon: 7:30-21
+  tue: 7:30-21
+  wed: 7:30-21
+  thu: 7:30-21
+  fri: 7:30-21
+  sat: 7:30-21
+  sun: 8-21
 wifi: 
 speed: 
 power: 
@@ -27,6 +33,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+85228383321"
+website: https://www.pacificcoffee.com/
 ---
