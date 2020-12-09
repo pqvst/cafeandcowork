@@ -39,4 +39,4 @@ images:
   - food.jpg
 ---
 
-A good cafe if you're looking to work/study and also have some lunch. Good food and drink selection. I tried the Japanese curry rice, which was really tasty. The atmosphere feels very relaxing and personal and there's soft music playing in the background. The cafe is small and it filled up in the afternoon, so arrive early if you want a good seat.
+A good cafe if you're looking to work/study and also have some lunch. The atmosphere feels very relaxing and homey with soft music playing in the background. There's a good choice of both drinks and food. I tried the Japanese curry rice, which was really tasty. The cafe is small and it filled up in the afternoon, so it's good to arrive early!
