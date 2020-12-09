@@ -38,4 +38,4 @@ images:
   - interior.jpg
 ---
 
-A combined tea shop and cafe that feels bright and modern. It's a good place for large groups since there are 3 large worktables, as well as some smaller tables. The menu is small, but the selection for both food and drinks is still quite good. Good tea, and the pasta is definitely worth trying (but the portion is perhaps little small). The WiFi is fast, and most of the tables have access to power outlets, but the chairs are not the most comfortable though. 
+A combined tea shop and cafe that feels bright and modern. It's a good place for large groups since there are 3 large worktables (as well as some smaller tables). The WiFi is fast, and most of the tables have access to power outlets, but the chairs are not the most comfortable though. The menu is small, but the selection for both food and drinks is still quite good.
