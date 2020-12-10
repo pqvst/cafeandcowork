@@ -42,7 +42,7 @@ app.locals.recent = recent;
 app.locals.top = top;
 
 function redirectWithTrailingSlash(req, res) {
-  res.redirect(req.path + '/' + req.url.slice(req.path.length));
+  res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
 for (const city of cities) {
