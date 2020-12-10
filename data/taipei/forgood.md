@@ -1,4 +1,5 @@
 ---
+added: 2020-12-10
 name: Forgood Cafe
 type: Cafe
 area: Daan
@@ -13,23 +14,23 @@ hours:
   fri: 12-22
   sat: 12-22
   sun: 12-22
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
+wifi: 5
+speed: 190
+power: 2
+vacancy: 3
+comfort: 3
+quiet: 3
 food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
+drinks: 5
+price: 3
+view: 4
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: false
 cash_only: 
-animals: 
+animals: false
 facebook: https://www.facebook.com/forgoodcafe
 instagram: https://www.instagram.com/forgoodcafe/
 telephone: "+886233938659"
