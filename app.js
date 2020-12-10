@@ -15,8 +15,11 @@ app.set('strict routing', true);
 
 const DEBUG = process.env.NODE_ENV !== 'production';
 
-app.use(express.static('public', { maxAge: DEBUG ? 0 : '1y' }));
-app.use(express.static('images', { maxAge: DEBUG ? 0 : '1y' }));
+// Disable redirect, otherwise the middleware auto creates redirects for directories
+// E.g. /taipei -> /taipei/ which conflicts with the city urls!
+app.use(express.static('public', { redirect: false, maxAge: DEBUG ? 0 : '1y' }));
+app.use(express.static('images', { redirect: false, maxAge: DEBUG ? 0 : '1y' }));
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 
@@ -28,29 +31,27 @@ app.locals.site = {
   instagram: 'https://instagram.com/cafeandcowork',
 };
 
-const { cities, recent, top } = data.load();
+app.locals.DEBUG = DEBUG;
+app.locals.v = Date.now();
 
 Object.assign(app.locals, require('./helpers'));
 
-app.locals.DEBUG = DEBUG;
-app.locals.v = Date.now();
+const { cities, recent, top } = data.load();
 app.locals.cities = cities;
 app.locals.recent = recent;
 app.locals.top = top;
 
-app.locals.places = [];
+function redirectWithTrailingSlash(req, res) {
+  res.redirect(req.path + '/' + req.url.slice(req.path.length));
+}
 
 for (const city of cities) {
-  app.get(`/${city.id}`, (req, res) => {
-    res.redirect(req.path + '/');
-  });
+  app.get(`/${city.id}`, redirectWithTrailingSlash);
   app.get(`/${city.id}/`, (req, res) => {
     res.render('city', city);
   });
   for (const place of city.places) {
-    app.get(`/${city.id}/${encodeURI(place.id)}`, (req, res) => {
-      res.redirect(req.path + '/');
-    });
+    app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
       res.render('place', place);
     });
