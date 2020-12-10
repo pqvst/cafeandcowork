@@ -5,13 +5,15 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "node test",
-    "resize": "node scripts/resize.js"
+    "resize": "node scripts/resize.js",
+    "links": "linkinator http://localhost:3000"
   },
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
     "ajv": "^6.12.6",
     "glob": "^7.1.6",
+    "linkinator": "^2.8.0",
     "nodemon": "^2.0.6",
     "sharp": "^0.26.3"
   },
