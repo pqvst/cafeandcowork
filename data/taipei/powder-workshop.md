@@ -44,4 +44,4 @@ images:
   - menu.jpg
 ---
 
-A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday.
+A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday. Beware, if you speak too loud you may get told off!
