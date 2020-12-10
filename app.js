@@ -11,7 +11,7 @@ const port = 3000;
 
 app.set('views', 'views');
 app.set('view engine', 'pug');
-//app.set('strict routing', true);
+app.set('strict routing', true);
 
 const DEBUG = process.env.NODE_ENV !== 'production';
 
@@ -28,15 +28,6 @@ app.locals.site = {
   instagram: 'https://instagram.com/cafeandcowork',
 };
 
-// app.use((req, res, next) => {
-//   if (req.path.slice(req.path.length-1) !== '/') {
-//     res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
-//   } else {
-//     next();
-//   }
-//   next();
-// });
-
 const { cities, recent, top } = data.load();
 
 Object.assign(app.locals, require('./helpers'));
@@ -50,10 +41,16 @@ app.locals.top = top;
 app.locals.places = [];
 
 for (const city of cities) {
+  app.get(`/${city.id}`, (req, res) => {
+    res.redirect(req.path + '/');
+  });
   app.get(`/${city.id}/`, (req, res) => {
     res.render('city', city);
   });
   for (const place of city.places) {
+    app.get(`/${city.id}/${encodeURI(place.id)}`, (req, res) => {
+      res.redirect(req.path + '/');
+    });
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
       res.render('place', place);
     });
@@ -70,11 +67,11 @@ const submissionLimiter = rateLimit({
   max: 10, // limit to 10 submissions per 5 minutes
 });
 
-app.get('/submit', (req, res) => {
+app.get('/submit/', (req, res) => {
   res.render('submit', { title: 'Submit' });
 });
 
-app.post('/submit', submissionLimiter, async (req, res) => {
+app.post('/submit/', submissionLimiter, async (req, res) => {
   const place = submit.parse(req.body);
   try {
     const url = await submit.submit(place);
