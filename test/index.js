@@ -32,7 +32,7 @@ const schema = {
     google_maps: { type: 'string' },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
-    speed: { type: ['integer', 'null'] },
+    speed: { type: ['number', 'null'] },
     power: { type: ['number', 'null'], minimum: 0, maximum: 5 },
     vacancy: { type: ['number', 'null'], minimum: 0, maximum: 5 },
     comfort: { type: ['number', 'null'], minimum: 1, maximum: 5 },
@@ -65,7 +65,8 @@ const schema = {
     score: { type: 'number' },
     title: { type: 'string' },
     markdown: { type: 'string' },
-    images: { type: ['array', 'null'] }
+    images: { type: ['array', 'null'] },
+    description: { type: 'string' }
   },
   required: ['name', 'type', 'area', 'coordinates']
 };
