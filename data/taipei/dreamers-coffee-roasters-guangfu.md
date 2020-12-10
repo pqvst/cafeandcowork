@@ -30,4 +30,9 @@ facebook: https://www.facebook.com/DreamersCoffeeRoasters/
 instagram: https://www.instagram.com/dreamerscoffee_tw/
 telephone: "+886227781238"
 website: 
+images:
+  - outside.jpg
+  - seating.jpg
+  - power.jpg
+  - tea.jpg
 ---
