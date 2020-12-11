@@ -28,4 +28,11 @@ facebook:
 instagram: 
 telephone: 
 website: https://grid.tokyo.jp/
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
 ---
+
+The free basement area is quite nice with some decent seating options. It was pretty much empty when we arrived. Really fast wifi. Be sure to check the event calendar though as the space might be booked.

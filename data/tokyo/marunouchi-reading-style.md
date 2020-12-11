@@ -35,4 +35,11 @@ facebook: https://www.facebook.com/marunouchiRS/
 instagram: https://www.instagram.com/marunouchi_readingstyle/
 telephone: "+81362560830"
 website: http://www.readingstyle.co.jp/
+images:
+  - entrance.jpg
+  - seating.jpg
+  - sign.jpg
+  - view.jpg
 ---
+
+A nice cozy cafe that's ideal for working. The drinks are pretty pricey though (500-600 yen for a tea/coffee). There are signs saying that you can only stay for 90 minutes, but I'm not sure how strict the rule is if it's not very crowded.

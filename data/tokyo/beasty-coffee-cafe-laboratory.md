@@ -29,3 +29,5 @@ instagram: https://www.instagram.com/beastycoffee/?hl=ja
 telephone: "+81368048101"
 website: http://beastycoffee.com/
 ---
+
+Nice new coffee shop. The coffee selection seems very good. Unfortunately they didn't have any tea, but the original lemonade was really good. Nice cozy atmosphere, fast WiFi, power outlets, friendly staff. It got quite busy in the afternoon around 2pm. Morning seems quieter.

@@ -30,4 +30,4 @@ telephone: "+81364525424"
 website: http://livingroomcafe.jp/
 ---
 
-Note that laptop use is only allowed until 17:00.
+A great work spot in Shibuya. Go towards the entrance of the Uniqlo store in the same building and take the elevator up on the right side. Laptops are allowed until 5pm. I usually ask for the counter seating. Very comfy. Good WiFi. Power outlets. Drinks are kind of pricey though.

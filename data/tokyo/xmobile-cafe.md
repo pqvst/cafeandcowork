@@ -34,3 +34,5 @@ instagram:
 telephone: "+81368038223"
 website: http://xmobile-cafe-shibuya.com/
 ---
+
+It's a cafe and a phone repair shop? I walked by many times and it always looked nice from the outside but never busy. I went there one day to work and it was surprisingly good. Very fast WiFi and lots power outlets. The drink menu is a bit limited but ok. The restroom was very clean and the toilet even plays music for you!

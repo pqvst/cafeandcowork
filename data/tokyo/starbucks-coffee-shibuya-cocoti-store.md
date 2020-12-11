@@ -29,3 +29,5 @@ instagram:
 telephone: "+81368050352"
 website: https://www.starbucks.co.jp/store/search/detail.php?id=1728
 ---
+
+A nice new Starbucks addition to Shibuya. Very spacious and high ceilings. Make sure you take the escalator to the 2F (not direct to 3F). There seem to not be any power outlets (at least not at the big work tables). Also, the restrooms are in the department store area (it looks like you need a code).

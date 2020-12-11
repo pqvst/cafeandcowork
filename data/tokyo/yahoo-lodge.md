@@ -29,3 +29,5 @@ instagram:
 telephone: 
 website: https://lodge.yahoo.co.jp/
 ---
+
+One of my regular co-working space destinations when I need to get some “real” work done. It’s owned and operated by Yahoo! Japan, and located at the top of their building (18F). So you get some nice views of Tokyo as well!

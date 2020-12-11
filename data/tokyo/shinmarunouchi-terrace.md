@@ -28,4 +28,10 @@ facebook:
 instagram: 
 telephone: 
 website: 
+images:
+  - seating.jpg
+  - view1.jpg
+  - view2.jpg
 ---
+
+A very nice outdoor terrace on the 7th floor. There are lots of restaurants inside, and lots of seating outside. Seems like a nice place to hang out with friends and get some food and drinks. It was quite peaceful. If you want to sit and work then make sure you bring a wifi hotspot.

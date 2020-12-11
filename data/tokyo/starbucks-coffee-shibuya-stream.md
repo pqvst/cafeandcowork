@@ -32,3 +32,5 @@ tips:
   - Busy during peak hours
   - Toilets outside venue
 ---
+
+A good workable Starbucks in Shibuya. It's located on the restaurant floor of Shibuya Stream. There are two floors with seating. The upstairs area has two large work tables and many small tables. The wifi is solid but there are no power outlets. Even during weekdays it doesn't get too busy. Note that there are no restrooms inside the cafe, so you have to walk a little bit to reach them.

@@ -29,3 +29,5 @@ instagram: https://www.instagram.com/caffice/
 telephone: "+81333561567"
 website: http://caffice.jp/
 ---
+
+I enjoy spending some time here to get some work done. Food/drink is expensive, so I recommend grabbing lunch here (which offers a food and drink combo). Comfortable seats, super fast WiFi, and lots of power outlets. They even have Ethernet ports!

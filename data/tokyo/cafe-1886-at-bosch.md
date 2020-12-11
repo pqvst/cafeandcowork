@@ -36,3 +36,5 @@ instagram: https://www.instagram.com/cafe1886_at_bosch/
 telephone: "+81364273207"
 website: http://www.bosch-cafe.jp/index.html
 ---
+
+Nice atmosphere, ok drink selection, comfortable seats, plenty of power outlets. However the wifi is very spotty and slow. If the wifi was better this would be a great place to sit and get some work done.
