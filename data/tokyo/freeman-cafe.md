@@ -30,14 +30,4 @@ telephone: "+81357669111"
 website: https://www.create-restaurants.co.jp/shop/index.php?controller=FrontCrShop&action=shop_show&id=577&lang=ja
 ---
 
-One of my favorite spots (and the first spot I found) in Tokyo. It’s not “perfect” but I still really like it, and the staff is always super firendly. It’s a cool café close to Shibuya and Harajuku.
-
-**Food & Drinks**: Interesting drinks and a nice variety of cooked food. Their tuna rice dish is really good. Pasta and pizza is also good!
-
-**Power Outlets**: Available by most seats. Ask for power outlets when you arrive and they’ll help you. (“konsento no seki kudasai”)
-
-**WiFi**: It’s “ok”. Speed is fine, but it can be a bit flaky at peak hours. I wouldn’t go here for downloading huge files.
-
-**Note that smoking is allowed**. There’s a small non-smoking area, but I normally sit in the smoking area, and it usually isn’t a problem (especially earlier during the day).
-
-**Pro Tip**: Arrive in the morning so you can grab a nice counter seat looking out over the street :)
+One of my favorite spots (and the first spot I found) in Tokyo. It’s not “perfect” but I still really like it, and the staff is always super friendly. It’s a cool cafe close to Shibuya and Harajuku. Interesting drinks and a nice variety of cooked food. Their tuna rice dish is really good. Pasta and pizza is also good! Available by most seats. Ask for power outlets when you arrive and they’ll help you. It’s “ok”. Speed is fine, but it can be a bit flaky at peak hours. I wouldn’t go here for downloading huge files. There’s a small non-smoking area, but I normally sit in the smoking area, and it usually isn’t a problem (especially earlier during the day).
