@@ -13,9 +13,9 @@ wifi: 4
 speed: 30
 power: 5
 vacancy: 3
-comfort: 3
-quiet: 2
-food: 4
+comfort: 4
+quiet: 3
+food: 5
 drinks: 3
 price: 4
 view: 4

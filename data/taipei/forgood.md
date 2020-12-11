@@ -29,7 +29,7 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
+cash_only: false
 animals: false
 facebook: https://www.facebook.com/forgoodcafe
 instagram: https://www.instagram.com/forgoodcafe/
