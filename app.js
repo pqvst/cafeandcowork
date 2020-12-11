@@ -68,6 +68,7 @@ const submissionLimiter = rateLimit({
   max: 10, // limit to 10 submissions per 5 minutes
 });
 
+app.get('/submit', redirectWithTrailingSlash);
 app.get('/submit/', (req, res) => {
   res.render('submit', { title: 'Submit' });
 });
