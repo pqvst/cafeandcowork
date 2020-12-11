@@ -38,6 +38,36 @@ function filter(filename) {
   return !filename.startsWith('.');
 }
 
+function getPlaceDescription(place) {
+  const { type, city, area, power, wifi, speed, markdown } = place;
+  
+  let text;
+  if (area) {
+    text = `${type} in ${area}, ${city.name}.`
+  } else {
+    text = `${type} in ${city.name}.`
+  }
+  if (power && wifi && speed) {
+    text += ` ${speed} Mb/s WiFi and power outlets available.`
+  } else if (power && wifi) {
+    text += ` WiFi and power outlets available.`
+  } else if (power) {
+    text += ` Power outlets available.`
+  } else if (wifi && speed) {
+    text += ` ${speed} Mb/s WiFi available.`
+  } else if (wifi) {
+    text += ` WiFi available.`;
+  } 
+  if (markdown) {
+    text += ` ${markdown}`;
+  }
+  return text;
+}
+
+function getCityDescription(city) {
+  return `Explore cafes and coworking spaces in ${city.name}, ${city.country}. Find the best places with power outlets and fast WiFi to work or study from.`;
+}
+
 function load() {
   const t1 = Date.now();
 
@@ -56,17 +86,20 @@ function load() {
       if (placeFile != 'index.md') {
         const placeData = parseFile(`data/${cityId}/${placeFile}`);
         const name = path.basename(placeFile, '.md');
-        city.places.push(Object.assign(placeData, {
+        const place = Object.assign(placeData, {
           id: name,
           url: `/${cityId}/${name}/`,
           city: city,
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
           title: placeData.name,
-        }));
+        });
+        place.description = getPlaceDescription(place);
+        city.places.push(place);
       }
     }
 
+    city.description = getCityDescription(city);
     city.places.sort((a, b) => b.score - a.score);
 
     return city;
