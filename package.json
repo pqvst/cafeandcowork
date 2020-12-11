@@ -6,7 +6,7 @@
     "start": "nodemon app.js",
     "test": "node test",
     "resize": "node scripts/resize.js",
-    "links": "linkinator http://localhost:3000"
+    "links": "linkinator http://localhost:3000 --recurse --skip '^(?!http://localhost)'"
   },
   "author": "pqvst",
   "license": "ISC",
