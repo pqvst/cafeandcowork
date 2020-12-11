@@ -23,7 +23,7 @@ block body
     if images
       .images
         each image of images
-          img(src=`${url}/${image}` data-action="zoom")
+          img(src=`${url}${image}` data-action="zoom")
 
     .content!= content
 
