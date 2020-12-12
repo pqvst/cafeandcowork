@@ -36,3 +36,5 @@ images:
   - power.jpg
   - tea.jpg
 ---
+
+There are several Dreamers Coffee locations in Taipei, but this is my favorite. They open at 7 every day, so it's a great place to get an early start to your day. Big windows all around let in a lot of natural light. The large worktable (with power outlets) is great to work from. There are also power outlets by all the smaller tables. The WiFi works for basic browsing, but it's not super fast. Cheap drinks, but tea selection is slightly lacking in my opinion.
