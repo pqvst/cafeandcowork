@@ -41,4 +41,4 @@ images:
   - cat.jpg
 ---
 
-A quiet and cozy cafe close to Yongkang Street. Relaxed atmosphere good for working or studying. There are counter-style seats, small tables, and a large worktable (which I think can be reserved). The outdoor seating large looks like a nice option when the weather is nice. There are two cats that may come up and say hi to you (you can find their names in the menu). The restroom facilities are quite basic.
+A quiet and cozy cafe close to Yongkang Street. Relaxed atmosphere good for working or studying. There are counter seats, small tables, and a large worktable (which I think can be reserved). The outdoor seating large looks like a nice option when the weather is nice. There are two cats that may come up and say hi to you (you can find their names in the menu). The restroom facilities are quite basic.

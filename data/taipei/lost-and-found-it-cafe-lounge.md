@@ -43,4 +43,4 @@ images:
   - menu.jpg
 ---
 
-A great cafe near Zhongxiao Dunhua. Take the entrance up to the second floor. The interior is bright and modern. I particularly like the counter-style seats by the windows. The WiFi is extremely fast (350 Mb/s) and there are power outlets by some seats. The menu is not really to my taste, but there are some "ok" drink options. Good to arrive early since it tends to fill up in the afternoon.
+A great cafe near Zhongxiao Dunhua. Take the entrance up to the second floor. The interior is bright and modern. I particularly like the counter seats by the windows. The WiFi is extremely fast (350 Mb/s) and there are power outlets by some seats. The menu is not really to my taste, but there are some "ok" drink options. Good to arrive early since it tends to fill up in the afternoon.
