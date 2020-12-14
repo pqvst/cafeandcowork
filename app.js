@@ -25,7 +25,8 @@ app.use(morgan('dev'));
 
 app.locals.site = {
   title: 'Cafe and Cowork',
-  description: 'Find Places to Work From',
+  summary: 'Find Places to Work From',
+  description: 'A curated collection of cafes and coworking spaces around the world. Find the best places with power outlets and fast WiFi to work or study from.',
   url: 'https://cafeandcowork.com',
   github: 'https://github.com/pqvst/cafeandcowork',
   instagram: 'https://instagram.com/cafeandcowork',

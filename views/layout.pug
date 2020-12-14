@@ -5,7 +5,7 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
     - const shareImage = `${site.url}/share.png`;
-    - const metaTitle = title ? `${title} – ${site.title}` : `${site.title} – ${site.description}`;
+    - const metaTitle = title ? `${title} – ${site.title}` : `${site.title} – ${site.summary}`;
     - const metaDescription = description || site.description;
 
     //- Google tags
@@ -15,9 +15,10 @@ html
 
     //- Social media tags
     meta(property="og:type" content="website")
-    meta(property="og:url" content=`${site.url}${url}`)
+    if url
+      meta(property="og:url" content=`${site.url}${url}`)
     meta(property="og:title" content=metaTitle)
-    meta(property="og:description" content=text)
+    meta(property="og:description" content=metaDescription)
     meta(property="og:logo" content=`${site.url}/logo.png`)
     if images && images.length > 0
       meta(property="og:image" content=`${site.url}${url}${images[0]}`)
