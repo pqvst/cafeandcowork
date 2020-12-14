@@ -20,3 +20,6 @@ feed(xmlns="http://www.w3.org/2005/Atom")
       else
         summary #{item.type} in #{item.area}, #{item.city.name}.
       link(rel="alternative" type="text/html" href=`${site.url}${item.url}`)
+      if item.images && item.images.length > 0
+        logo #{site.url}#{item.url}#{item.images[0]}
+        icon #{site.url}#{item.url}#{item.images[0]}
