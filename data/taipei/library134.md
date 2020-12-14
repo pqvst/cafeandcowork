@@ -26,7 +26,7 @@ outdoor_seating: false
 cash_only: false
 animals: false
 facebook: https://www.facebook.com/LIBRARY134/
-instagram: 
+instagram: https://www.instagram.com/library134_2018/
 telephone: "+886227122055"
 website: 
 images:
@@ -36,3 +36,5 @@ images:
   - inside2.jpg
   - tea.jpg
 ---
+
+A great workable cafe near Nanjing Fuxing station. The interior is quite unique, with large glass walls and filled with bookshelves. The counter seats on the second floor are good. Lots of power outlets, comfortable seats, and fast WiFi. The drinks selection is good, but a little pricey.
