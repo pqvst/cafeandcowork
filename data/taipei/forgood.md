@@ -35,4 +35,13 @@ facebook: https://www.facebook.com/forgoodcafe
 instagram: https://www.instagram.com/forgoodcafe/
 telephone: "+886233938659"
 website: 
+images:
+  - seating1.jpg
+  - entrance.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - outside.jpg
 ---
+
+A modern cafe, with fast WiFi and a very large and interesting drink selection. Only some seats have access to the power though. The large worktable did not have any power outlets. Also, the music selection was a little strange, and not really to my liking (electronic ambient music).
