@@ -35,6 +35,13 @@ facebook: https://facebook.com/glogcafe
 instagram: https://www.instagram.com/g_log_cafe/
 telephone: "+886227710737"
 website: 
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
-A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary.
+A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary. Still, it's a good option if you need a place in the area!
