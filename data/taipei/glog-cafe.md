@@ -17,14 +17,14 @@ hours:
 wifi: 4
 speed: 40
 power: 4
-vacancy: 4
+vacancy: 5
 comfort: 4
 quiet: 4
 food: 
-drinks: 4
+drinks: 3
 price: 3
-view: 3
-toilets: 
+view: 2
+toilets: 3
 music: true
 smoking: false
 standing_tables: false
@@ -36,3 +36,5 @@ instagram: https://www.instagram.com/g_log_cafe/
 telephone: "+886227710737"
 website: 
 ---
+
+A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary.
