@@ -1,5 +1,18 @@
 extends layout
 
+block head
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "#{name}",
+        "item": "#{site.url}#{url}"
+      }]
+    }
+
 block body
   include mixins
 
