@@ -41,7 +41,6 @@ block body
             th(title="Outdoor Seating") Outdoor
             th Cash Only
             th Animals
-            th Type
             th Area
             th Opens
             th Closes
@@ -70,7 +69,6 @@ block body
               td: +attribute(e.outdoor_seating)
               td: +attribute(e.cash_only)
               td: +attribute(e.animals)
-              td= e.type
               td= e.area
               if isOpenToday(e.hours)
                 td= getOpeningTime(e.hours)
