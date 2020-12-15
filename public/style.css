@@ -216,6 +216,36 @@ th {
 td {
   white-space: nowrap;
   border-bottom: solid 1px #eee;
+  cursor: default;
+}
+
+td {
+  position: relative;
+}
+
+td[data-tip]:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+  z-index: 10;
+  padding: 3px 6px;
+  font-size: 0.8em;
+  transform: translateX(-50%);
+}
+
+td[data-tip]:hover::before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #444 transparent;
 }
 
 td.empty {
