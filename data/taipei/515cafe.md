@@ -3,10 +3,10 @@ added: 2020-12-11
 name: 515 Cafe&books
 type: Cafe
 area: Daan
-google_maps: https://goo.gl/maps/xjtCjMSjpmAuTH3v8
+google_maps: https://goo.gl/maps/YUCUUGisEaZqznGF8
 coordinates: 25.028862092968478, 121.53134643912153
 address: No. 22, Lane 75, Yongkang Street, Da’an District, Taipei City, Taiwan 106
-station: Zhongxiao Xinsheng
+station: Dongmen
 hours: 11:30-23
 wifi: 4
 speed: 85
@@ -26,7 +26,7 @@ outdoor_seating: true
 cash_only: 
 animals: true
 facebook: https://www.facebook.com/515-cafebooks-954340867956641/
-instagram: https://www.instagram.com/g_log_cafe/
+instagram: https://www.instagram.com/515cafebooks/
 telephone: "+886223944606"
 website: 
 images:
