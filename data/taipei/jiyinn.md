@@ -1,7 +1,7 @@
 ---
 name: Jiyinn
 type: Cafe
-area: Yongchun
+area: Xinyi
 google_maps: https://goo.gl/maps/r5qcutVskVqGLTx67
 coordinates: 25.040265, 121.578348
 address: 
