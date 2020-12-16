@@ -42,4 +42,4 @@ images:
   - menu3.jpg
 ---
 
-A quiet cafe near Yongchun station. The interior feels intimate and personal, and the owners seem to put a lot of care into drink selection and menu design (which is available in both English and Chinese). There are several small tables, one larger table, and counter seats facing the window. There are power outlets everywhere (great for study and work), and the WiFi is good. The biggest "drawback" is that I spend to much time looking at the cute cats!
+A quiet cafe near Yongchun station. The interior feels intimate and personal, and the owners seem to put a lot of care into drink selection and menu design (which is available in both English and Chinese). There are several small tables, one larger table, and counter seats facing the window. There are power outlets everywhere (great for study and work), and the WiFi is good. The only "drawback" is that I spend too much time looking at the cute cats!
