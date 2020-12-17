@@ -35,8 +35,6 @@ block body
     .info
       a.city(href=city.url) #{city.name}
       span · #{type} in #{area}
-      if updated || added
-        span.updated · Updated #{formatDate(updated || added)}
 
     if images
       .images
@@ -137,7 +135,9 @@ block body
         if telephone
           dt Telephone
           dd: a(href=`tel:${telephone}`)= telephone
-
+        if updated || added
+          dt Updated
+          dd #{formatDate(updated || added)}
     .map
       #map
 
