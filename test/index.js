@@ -28,7 +28,7 @@ const schema = {
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
     address: { type: ['string', 'null'] },
-    coordinates: { type: 'string' },
+    coordinates: { type: ['string', 'array'] },
     google_maps: { type: 'string' },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
