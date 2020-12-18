@@ -2,6 +2,7 @@
 
   function colorRamp(value) {
     if (value >= 4) return '#418395';
+    if (value >= 3.5) return '#59ae9f';
     if (value >= 3) return '#2ecc71';
     if (value >= 2) return '#f39c12';
     if (value == 0) return '#aaaaaa';
