@@ -38,3 +38,5 @@ images:
   - cat.jpeg
   - food.jpeg
 ---
+
+Except for the slightly inconvenient location in Daan, Light Bar Cafe is a nice, small cafe with a sense of community. The first floor has only counter seats and is not very spacious, but the open kitchen gives a welcoming feeling. Take the stairs to reach the comfortable second floor seating area. There is a sofa area, suitable for relaxing, counter seats, and small tables. Power outlets can be found at every seat, and there's WiFi. There are also great food options, the Danish toast is definitely worth trying. One minor “shortcoming” might be that the atmosphere is too relaxing and you might get distracted from your work or studies. It is easy to fill up after 10:30, so come early!
