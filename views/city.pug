@@ -62,7 +62,7 @@ block body
             tr
               td(class="empty" colspan="999") No places found ¯\_(ツ)_/¯
           each e in places
-            tr(class={ closed: e.closed } data-coordinates=e.coordinates data-score=e.score data-name=e.name data-url=e.url)
+            tr(class={ closed: e.closed } data-url=e.url)
               td: +score(e)
               td.truncate
                 a(href=e.url title=e.name)= e.name
@@ -96,9 +96,14 @@ block body
         url: e.url,
         score: e.score,
         coordinates: e.coordinates,
+        filter: `${e.name} ${e.type} ${e.area} ${e.station}`
       };
     });
 
   script.
-    CafeAndCowork.Table(document.querySelector('table'), document.querySelector('input'));
-    CafeAndCowork.City('#{coordinates}', !{JSON.stringify(markers)});
+    CafeAndCowork.City({
+      coordinates: !{JSON.stringify(coordinates)},
+      places: !{JSON.stringify(markers)},
+      table: document.querySelector('table'),
+      input: document.querySelector('input')
+    });

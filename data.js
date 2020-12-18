@@ -68,6 +68,15 @@ function getCityDescription(city) {
   return `Explore cafes and coworking spaces in ${city.name}, ${city.country}. Find the best places with power outlets and fast WiFi to work or study from.`;
 }
 
+function parseCoordinates(coords) {
+  if (coords) {
+    const [lat, lng] = coords.split(',').map(e => Number(e.trim()));
+    return [lng, lat];
+  } else {
+    return undefined;
+  }
+}
+
 function load() {
   const t1 = Date.now();
 
@@ -80,6 +89,7 @@ function load() {
       id: cityId,
       url: `/${cityId}/`,
       places: [],
+      coordinates: parseCoordinates(cityData.coordinates),
     });
 
     for (const placeFile of fs.readdirSync(`data/${cityId}/`).filter(filter)) {
@@ -93,6 +103,7 @@ function load() {
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
           title: placeData.name,
+          coordinates: parseCoordinates(placeData.coordinates),
         });
         place.description = getPlaceDescription(place);
         city.places.push(place);
