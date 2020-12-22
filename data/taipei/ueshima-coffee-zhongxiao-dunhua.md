@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 2020-12-22
 name: Ueshima Coffee Zhongxiao Dunhua
 type: Cafe
 area: Daan
