@@ -41,4 +41,4 @@ images:
   - menu2.jpg
 ---
 
-An interesting cafe with three different seating areas, each with it's own style. There's a large outdoor seating area as well. I'm not quite sure if this is a bar, restaurant, cafe, or maybe all three! The "lounge" room looks really cool, but it's not very suitable for working. The staff is friendly, there's good WiFi, and power outlets at some seats. It was almost empty during the late afternoon on a weekday, perhaps because the prices are quite high (200+ for a small drink) compared to some other cafes nearby.
+An interesting cafe with three different seating areas, each with its own style. There's a large outdoor seating area as well. I'm not quite sure if this is a bar, restaurant, cafe, or maybe all three! The "lounge" room looks really cool, but it's not very suitable for working. The staff is friendly, there's good WiFi, and power outlets at some seats. It was almost empty during the late afternoon on a weekday, perhaps because the prices are quite high (200+ for a small drink) compared to some other cafes nearby.
