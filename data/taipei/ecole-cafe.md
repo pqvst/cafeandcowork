@@ -21,10 +21,10 @@ power: 3
 vacancy: 4
 comfort: 3
 quiet: 3
-food: 4
-drinks: 4
+food: 5
+drinks: 5
 price: 4
-view: 4
+view: 5
 toilets: 4
 music: true
 smoking: false
