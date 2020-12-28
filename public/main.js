@@ -111,21 +111,53 @@
   function makeSortableTable(table) {
     // Inspired by: https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
 
-    table.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-      sort(th);
-    })));
+    table.querySelectorAll('th').forEach(th => {
+      const name = th.innerText;
+      if (name == 'Name' || name == 'Area' || name == 'Opens') {
+        th.asc = false;
+      } else {
+        th.asc = true;
+      }
+      th.addEventListener('click', (() => {
+        sort(th);
+      }));
+    });
 
-    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+    const getCellValue = (tr, idx, name, asc) => {
+      const text = tr.children[idx] ? tr.children[idx].innerText || tr.children[idx].textContent || '' : '';
+      if (name == 'Opens' || name == 'Closes') {
+        if (text == 'Closed Today' || text == '') {
+          return asc ? Number.MAX_VALUE : Number.MIN_VALUE;
+        }
+        let number = Number(text.replace(':', ''));
+        if (number < 600) {
+          number += 2400;
+        }
+        return number;
+      }
+      return text;
+    };
 
-    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+    const compareValues = (v1, v2) => {
+      console.log(v1, v2);
+      return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
+    };
+
+    const comparer = (idx, name, asc) => {
+      return (a, b) => {
+        const closed1 = a.classList.contains('closed');
+        const closed2 = b.classList.contains('closed');
+        if (closed1 && !closed2) return 1;
+        if (closed2 && !closed1) return -1;
+        return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
+      };
+    };
 
     function sort(th) {
-      const table = th.closest('table');
+      th.asc = !th.asc;
       const tbody = table.querySelector('tbody');
       Array.from(tbody.querySelectorAll('tr'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), th.innerText, th.asc))
         .forEach(tr => tbody.appendChild(tr) );
     }
   }
