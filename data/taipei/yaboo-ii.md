@@ -47,3 +47,5 @@ images:
 ---
 
 There are two YABOO cafes near Yongkang St. This is the second one and the vibe is quite different from the first. The interior is brighter and more relaxing, good for study or work. It was very quiet on a weekday afternoon, with only a couple of people in the cafe. Comfortable chairs, decent WiFi, and some power outlets.
+
+Note that the back room WiFi and cell reception is very poor, so don't sit there if you need internet.
