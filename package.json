@@ -11,15 +11,15 @@
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
-    "ajv": "^6.12.6",
+    "ajv": "^7.0.2",
     "glob": "^7.1.6",
     "linkinator": "^2.8.0",
     "nodemon": "^2.0.6",
-    "sharp": "^0.26.3"
+    "sharp": "^0.27.0"
   },
   "dependencies": {
     "@octokit/rest": "^18.0.9",
-    "dateformat": "^3.0.3",
+    "dateformat": "^4.4.1",
     "express": "^4.17.1",
     "express-rate-limit": "^5.1.3",
     "got": "^11.8.0",
