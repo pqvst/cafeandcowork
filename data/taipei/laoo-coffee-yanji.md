@@ -42,3 +42,5 @@ images:
   - menu.jpg
   - tea.jpg
 ---
+
+A small coffee shop with plenty of seating options and lots of natural light. It's not really the type of place I'd stay at for a longer period of time, especially since the seats are hard and there are no power outlets. But it has cheap drinks, friendly staff, and good WiFi, so it's definitely a decent option for a short work session if you're in the area.
