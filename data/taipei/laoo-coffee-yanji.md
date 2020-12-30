@@ -24,7 +24,7 @@ quiet: 3
 food:
 drinks: 3
 price: 5
-view: 4
+view: 3
 toilets: 2
 music: true
 smoking: false
