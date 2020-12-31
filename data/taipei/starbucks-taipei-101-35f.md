@@ -38,9 +38,9 @@ instagram:
 telephone: "+886281010701"
 website: http://www.starbucks.com.tw/
 images:
+  - seating.jpg
   - entrance.jpg
   - view1.jpg
-  - seating.jpg
   - view2.jpg
 ---
 
