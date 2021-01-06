@@ -11,9 +11,9 @@
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
-    "ajv": "^7.0.2",
+    "ajv": "^7.0.3",
     "glob": "^7.1.6",
-    "linkinator": "^2.8.0",
+    "linkinator": "^2.13.0",
     "nodemon": "^2.0.6",
     "sharp": "^0.27.0"
   },
