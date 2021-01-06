@@ -33,12 +33,15 @@ exports.getValueText = function (value) {
 exports.getValueColor = function (value) {
   if (value === true) return 'blue';
   if (value === false) return 'orange';
-  if (value >= 5) return 'blue';
-  if (value >= 4) return 'green';
-  if (value >= 3) return 'yellow';
-  if (value >= 2) return 'orange';
-  if (value >= 1) return 'red';
-  if (value >= 0) return 'grey';
+  if (value != null) {
+    value = value.toFixed(1);
+    if (value >= 5) return 'blue';
+    if (value >= 4) return 'green';
+    if (value >= 3) return 'yellow';
+    if (value >= 2) return 'orange';
+    if (value >= 1) return 'red';
+    if (value >= 0) return 'grey';
+  }
   return 'grey';
 }
 
