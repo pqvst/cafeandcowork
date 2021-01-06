@@ -28,7 +28,7 @@ animals: false
 facebook: https://www.facebook.com/gingincc
 instagram: https://www.instagram.com/gingin_coffee/
 telephone: "+886223940089"
-website: https://gingin-coffee-company.business.site/?utm_source=gmb&utm_medium=referral
+website: https://gingin-coffee-company.business.site/
 images:
   - outside.jpg
   - seating1.jpg
