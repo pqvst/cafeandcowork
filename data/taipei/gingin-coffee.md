@@ -41,4 +41,4 @@ images:
   - drinks.jpg
 ---
 
-The unique interior style and extensive menu is definitely the highlight here. The food options sound really good and the drinks menu has a little bit of everything (tea, coffee, sodas, cocktails). There are a couple of large worktables, some smaller tables, and a lot of counter seating (good if you want to work standing up). There are some drawbacks for working though. The seats are not particularly comfortable though (hard wooden chairs). Some power outlets scattered around, but there was no WiFi (not sure if that's permanent or just a temporary issue).
+The unique interior style and extensive menu is definitely the highlight here. The food options sound really good and the drinks menu has a little bit of everything (tea, coffee, sodas, cocktails). There are a couple of large worktables, some smaller tables, and a lot of counter seating (good if you want to work standing up). There are some drawbacks for working though. The seats are not particularly comfortable though (hard wooden chairs). Some power outlets scattered around, but there was no WiFi unfortunately.
