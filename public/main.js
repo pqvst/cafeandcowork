@@ -139,7 +139,6 @@
     };
 
     const compareValues = (v1, v2) => {
-      console.log(v1, v2);
       return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
     };
 
