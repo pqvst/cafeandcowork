@@ -66,7 +66,7 @@ block body
               td: +score(e)
               td.truncate
                 a(href=e.url title=e.name)= e.name
-              td(data-tip="WiFi"): +attribute(e.wifi)
+              td(data-tip=e.speed ? `${e.speed} Mb/s` : "WiFi"): +attribute(e.wifi)
               td(data-tip="Power"): +attribute(e.power)
               td(data-tip="Vacancy"): +attribute(e.vacancy)
               td(data-tip="Comfort"): +attribute(e.comfort)
