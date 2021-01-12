@@ -40,12 +40,16 @@ tips:
   - Upstairs area has lots of power outlets
   - There's a smoking room, but I didn't notice any smoke smell
 images:
-  - outside1.jpg
-  - outside2.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
   - interior.jpg
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
+  - outside1.jpg
+  - outside2.jpg
 ---
 
 A relaxing cafe ideal study or work. The first floor is quite narrow and dark. However, head up to the second floor instead, which feels bright and spacious. Plenty of power outlets and the WiFi is extremely fast (300+ Mb/s). There's a large workable, several small table, and a small sofa area. Some of the seats are however not very comfortable (especially the bench seating by the large worktable). Also, there's a smoking room on the 2nd floor and you may notice the smell if someone is using it (normally not a problem though).

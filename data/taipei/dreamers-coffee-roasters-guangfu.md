@@ -34,6 +34,8 @@ images:
   - outside.jpg
   - seating.jpg
   - power.jpg
+  - interior.jpg
+  - menu.jpg
   - tea.jpg
 ---
 
