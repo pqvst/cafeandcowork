@@ -1,7 +1,7 @@
 ---
 name: Fika Fika Cafe A13
 type: Cafe
-area: Zhongshan
+area: Xinyi
 google_maps: https://goo.gl/maps/iDBw84rZZhHfnLej6
 coordinates: 25.036846, 121.567666
 address: 58號B3, Songren Road, Xinyi District, Taipei City, Taiwan 110
