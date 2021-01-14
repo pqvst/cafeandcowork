@@ -43,6 +43,9 @@ block body
 
     .content!= content
 
+    if author
+      .author Submitted by: #[a.author(href=author target="_blank")= formatUrl(author)]
+
     .buttons
       a.button.maps(href=google_maps target="_blank")
         i.fa.fa-map
