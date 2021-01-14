@@ -66,7 +66,8 @@ const schema = {
     title: { type: 'string' },
     markdown: { type: 'string' },
     images: { type: ['array', 'null'] },
-    description: { type: 'string' }
+    description: { type: 'string' },
+    author: { type: 'string' }
   },
   required: ['name', 'type', 'area', 'coordinates']
 };
