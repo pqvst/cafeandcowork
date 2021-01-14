@@ -1,4 +1,5 @@
 ---
+added: 2021-01-13
 name: Fika Fika Cafe A13
 type: Cafe
 area: Xinyi
@@ -23,7 +24,7 @@ quiet: 3
 food: 4
 drinks: 5
 price: 2
-view: 1
+view: 2
 toilets: 2
 music: true
 smoking: false
@@ -35,4 +36,12 @@ facebook: https://www.facebook.com/FikaFikaCafe/
 instagram: https://www.instagram.com/fikafikacafe/
 telephone: "+886287890633"
 website: https://www.fikafikacafe.com/
+images:
+  - interior.jpg
+  - honey_latte.jpg
+  - cappuccino.jpg
 ---
+
+A nice café to work if you need to be in the att4fun area. Especially the specialty coffee and desserts (soft serve ice cream and waffles!!) are great.
+
+The top area is reserved for working, while the lower area is meant for more casual coffee drinking. This also means that plugs are only available at the top area (available for every other seat with USB and normal outlets). WiFi is pretty average, as you use the public A13 Guest wifi, view and toilet are rated low, as there is only the public toilet available and the "view" is simply the mall - which is great for people watching, but not much more.
