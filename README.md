@@ -6,7 +6,8 @@ Want to add or update places?
 1. [Fork the repo](fork)
 2. Add/edit files under `data/<city>/<place>.md`
 3. Recommended: validate using `yarn test`
-4. Submit a pull request
+4. If necessary: resize images using `yarn run resize` or `npm run resize`
+5. Submit a pull request
 
 ## Template
 You can use this `.md` file template for new places:
@@ -44,7 +45,11 @@ facebook: https://www.facebook.com/milkbarbybka
 instagram: https://www.instagram.com/milkbarbybka/
 telephone: "+886227133118"
 website: 
+images: 
+	- imagename.jpg [stored in /images/milk-bar-by-bka]
 ---
+
+Lorem Ipsum - short description
 
 ```
 ## Attributes
