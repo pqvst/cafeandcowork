@@ -3,3 +3,4 @@ __jekyll
 node_modules
 deploy.sh
 .env
+.DS_Store
