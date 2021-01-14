@@ -1,6 +1,6 @@
 ---
 added: 2020-07-08
-name: Notch Front Station
+name: NOTCH Front Station
 type: Cafe
 area: Zhongzheng
 google_maps: https://goo.gl/maps/qm7kBq6QqdTR27qb6
