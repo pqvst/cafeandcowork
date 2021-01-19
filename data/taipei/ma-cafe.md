@@ -6,7 +6,7 @@ area: Daan
 google_maps: https://goo.gl/maps/x3LEU7curB6wQXk6A
 coordinates: 25.032628, 121.549556
 address: No. 1號, Lane 11, Section 2, Dunhua South Road, Da’an District, Taipei City, Taiwan 106
-station: Xinyi Anhe (R04)
+station: Xinyi Anhe
 hours:
   mon: 11-19
   tue: 11-19

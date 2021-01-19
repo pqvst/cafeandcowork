@@ -6,7 +6,7 @@ area: Zhongzheng
 google_maps: https://goo.gl/maps/qm7kBq6QqdTR27qb6
 coordinates: 25.044572, 121.516430
 address: No. 6號, Xinyang Street, Zhongzheng District, Taipei City, Taiwan 100
-station: Taipei Main Station
+station: Taipei Main
 hours: 8-21
 wifi: 2
 speed: 

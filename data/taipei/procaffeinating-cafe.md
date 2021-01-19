@@ -6,7 +6,7 @@ area: Nangang
 google_maps: https://goo.gl/maps/Ps2EEZ8mzbs8PiYCA
 coordinates: 25.062099, 121.614792
 address: No. 33號, Lane 255, Jingmao 2nd Rd, Nangang District, Taipei City, Taiwan 115
-station: Nangang Software Park Station
+station: Nangang Software Park
 hours:
   mon: 8-18
   tue: 8-18

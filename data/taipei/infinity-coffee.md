@@ -6,7 +6,7 @@ area: Nangang
 google_maps: https://goo.gl/maps/gxgjMnZ7wponduKq8
 coordinates: 25.050978, 121.594798
 address: 115台北市南港區忠孝東路六段481號一樓
-station: Kunyang (BL21)
+station: Kunyang
 hours:
   mon: 9-20
   tue: 9-20

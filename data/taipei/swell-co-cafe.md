@@ -5,7 +5,7 @@ area: Daan
 google_maps: https://goo.gl/maps/nbAsMHe9UVQP3kf59
 coordinates: 25.035586, 121.548157
 address: No. 23, Siwei Road, Da’an District, Taipei City, Taiwan 106
-station: Daan (R05, BR09), Zhongxiao Fuxing (BL15, BR10)
+station: Daan, Zhongxiao Fuxing
 hours:
   mon: 11-20
   tue: 11-20

@@ -5,7 +5,7 @@ area: Shibuya
 google_maps: https://g.page/fabcafetokyo?share
 coordinates: 35.656063,139.6933023
 address: Japan, 〒150-0043 Tokyo, Shibuya City, Dogenzaka, 1 Chome−22−7 道玄坂ピア 1F
-station: Shibuya (JY20,G01,Z01,F16)
+station: Shibuya
 hours:
   mon: 8:30-20
   tue: 8:30-20

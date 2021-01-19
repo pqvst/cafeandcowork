@@ -5,7 +5,7 @@ area: Shinjuku
 google_maps: https://g.page/Caffice?share
 coordinates: 35.688716,139.7008353
 address: Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 4 Chome−2−23 新四ｃｕｒｕｍｕビル 2F
-station: Shinjuku (JY17,M08)
+station: Shinjuku
 hours: 10-23
 wifi: 5
 speed: 

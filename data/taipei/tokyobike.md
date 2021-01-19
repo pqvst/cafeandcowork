@@ -5,7 +5,7 @@ area: Songshan
 google_maps: https://goo.gl/maps/KiKtcynd7MQspXjZ9
 coordinates: 25.058528, 121.545725
 address: 105, Taiwan, Taipei City, Songshan District, Alley 6, Lane 113, Section 3, Minsheng East Road, 7號1樓
-station: Zhongshan Junior High School (BR12)
+station: Zhongshan Junior High School
 hours:
   mon: 8-20
   tue: 8-20

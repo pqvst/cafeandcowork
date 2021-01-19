@@ -6,7 +6,7 @@ area: Datong
 google_maps: https://goo.gl/maps/LbntcCLYHJRKWcHf9
 coordinates: 25.053111, 121.516055
 address: 103, Taiwan, Taipei City, Datong District, Taiyuan Road, 131號2樓
-station: Taipei Main Station
+station: Taipei Main
 hours:
   mon: 10-18
   tue: 10-18

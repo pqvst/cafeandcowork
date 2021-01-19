@@ -6,7 +6,7 @@ area: Zhongzheng
 google_maps: https://goo.gl/maps/v9BzhHtwRGjEPHq47
 coordinates: 25.04533593539151, 121.51332808488371
 address: No. 35號, Section 1, Chongqing South Road, Zhongzheng District, Taipei City, Taiwan 100
-station: Taipei Main Station
+station: Taipei Main
 hours:
   mon: 7:30-20:30
   tue: 7:30-20:30

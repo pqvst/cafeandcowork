@@ -6,7 +6,7 @@ area: Zhongzheng
 google_maps: https://goo.gl/maps/AbNrKXCRWsk8NyCs5
 coordinates: 25.019912, 121.528696
 address: No. 162, Section 3, Roosevelt Rd, Zhongzheng District, Taipei City, Taiwan 100
-station: Taipower Building Station
+station: Taipower Building
 hours:
   tue: 9-18
   wed: 9-18

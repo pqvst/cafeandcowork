@@ -5,7 +5,7 @@ area: Xinyi
 google_maps: https://g.page/stoneworkplace?share
 coordinates: 25.043046, 121.565816
 address: 110, Taiwan, Taipei City, Xinyi District, Section 1, Keelung Rd, 141號2樓
-station: Taipei City Hall (BL18)
+station: Taipei City Hall
 hours:
   mon: 9-18
   tue: 9-18

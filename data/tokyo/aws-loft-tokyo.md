@@ -5,7 +5,7 @@ area: Shinagawa
 google_maps: https://goo.gl/maps/h2FiX7CnMEs5TZ5b6
 coordinates: 35.6333455,139.7144
 address: Japan, 〒141-0021 Tokyo, Shinagawa City, Kamiosaki, 3 Chome−1−1 アマゾン新目黒オフィス（目黒セントラルスクエア）17F
-station: Meguro (JY22)
+station: Meguro
 hours:
   mon: 10-18
   tue: 10-18

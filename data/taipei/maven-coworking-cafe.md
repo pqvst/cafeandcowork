@@ -6,7 +6,7 @@ area: Zhongshan
 google_maps: https://goo.gl/maps/KXYQjwW7fCE4P2a28
 coordinates: 25.07941033987216, 121.54605766859156
 address: No.3, Lane 518, Beian Road, Zhongshan District, Taipei City, Taiwan 10491
-station: Dazhi (BR14)
+station: Dazhi
 hours:
   mon: 9-18
   tue: 9-18
