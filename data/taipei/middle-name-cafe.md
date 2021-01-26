@@ -43,3 +43,5 @@ images:
 ---
 
 Bright, modern cafe near Zhongshan with both counter, bar, and table seats available. Very fast wifi (160 Mb/s) and plenty of power outlets near the seats. The coldbrew coffee is quite strong as well. Came on a Tuesday and although quite full at times, there was always seating available. 
+
+Submitted by: instagram.com/matthiasrossini
