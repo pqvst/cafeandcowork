@@ -1,5 +1,5 @@
 ---
-updated: 2021-01-26
+added: 2021-01-26
 name: Middle Name Cafe
 type: Cafe
 area: Zhongshan
@@ -36,6 +36,7 @@ facebook:
 instagram: https://www.instagram.com/middlenamecoffee/
 telephone: "+886225566116"
 website: https://www.middlenamecoffee.com/
+author: https://www.instagram.com/matthiasrossini/
 images:
   - coffee.jpg
   - interior1.jpg
@@ -43,5 +44,3 @@ images:
 ---
 
 Bright, modern cafe near Zhongshan with both counter, bar, and table seats available. Very fast wifi (160 Mb/s) and plenty of power outlets near the seats. The coldbrew coffee is quite strong as well. Came on a Tuesday and although quite full at times, there was always seating available. 
-
-Submitted by: instagram.com/matthiasrossini
