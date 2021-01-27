@@ -35,6 +35,7 @@ exports.formatAgo = function (date) {
   if (days == 1) return 'Yesterday';
   if (days <= 7) return `${days} days ago`;
   if (days <= 30) return `${weeks} weeks ago`;
+  return `${months} months ago`;
 }
 
 exports.formatDate = function (date) {
