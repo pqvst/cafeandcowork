@@ -42,4 +42,4 @@ images:
   - waffle.jpg
 ---
 
-Stayreal is a Taiwanese clothes brand, and across from their shop near Zhongxiao Dunhua they also operate this cafe. On a weekday afternoon the first floor was quite full, however, the basement floor has empty, great for getting some work done. Even though there are no windows downstairs, the interior feels very bright and clean. The seats are comfortable, the WiFi is good, and there are power outlets along the wall. It is not necessary to order a drink, so if you just want to have a snack I would recommend trying the bubble waffles!
+Stayreal is a Taiwanese clothes brand, and across from their shop near Zhongxiao Dunhua they also operate this cafe. On a weekday afternoon the first floor was quite full, however, the basement floor was empty, great for getting some work done. Even though there are no windows downstairs, the interior feels very bright and clean. The seats are comfortable, the WiFi is good, and there are power outlets along the wall. It is not necessary to order a drink, so if you just want to have a snack I would recommend trying the bubble waffles!
