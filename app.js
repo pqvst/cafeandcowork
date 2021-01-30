@@ -36,7 +36,7 @@ app.locals.site = {
 app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
 
-Object.assign(app.locals, require('./helpers'));
+Object.assign(app.locals, require('./view-helpers'));
 Object.assign(app.locals, data.load());
 
 function redirectWithTrailingSlash(req, res) {
