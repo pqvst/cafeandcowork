@@ -10,8 +10,11 @@ function parseFile(filename) {
   const split = file.split('---');
   const data = yaml.parse(split[1]);
   const markdown = split.slice(2).join('---').trim();
-  const content = marked(markdown);
-  return Object.assign({ content, markdown }, data);
+  if (markdown) {
+    data.markdown = markdown;
+    data.content = marked(markdown);
+  }
+  return data;
 }
 
 function filterValidFiles(filename) {
