@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const rateLimit = require("express-rate-limit");
+const _ = require('lodash');
 
 const data = require('./data');
 const submit = require('./submit');
@@ -42,15 +43,15 @@ function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
-for (const city of cities) {
+for (const city of app.locals.cities) {
   app.get(`/${city.id}`, redirectWithTrailingSlash);
   app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', city);
+    res.render('city', { city });
   });
   for (const place of city.places) {
     app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', place);
+      res.render('place', { city, place });
     });
   }
 }
@@ -95,3 +96,4 @@ app.listen(port);
 process.on('SIGTERM', () => {
   process.exit();
 });
+

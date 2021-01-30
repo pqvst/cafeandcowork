@@ -20,8 +20,9 @@ block body
     include header
 
     h2
+      - const currentCityName = city.name
       each city in cities
-        a(class={ active: city.name == name } href=city.url)= city.name
+        a(class={ active: city.name == currentCityName } href=city.url)= city.name
 
     script.
       document.querySelector('h2 a.active').scrollIntoView();
@@ -58,14 +59,17 @@ block body
             th Opens
             th Closes
         tbody
-          if places.length == 0
+          if city.places.length == 0
             tr
               td(class="empty" colspan="999") No places found ¯\_(ツ)_/¯
-          each e in places
-            tr(class={ closed: e.closed } data-url=e.url)
+          each e in city.places
+            - const isClosed = isClosedNow(city, e);
+            tr(data-url=e.url class={ closed: isClosed, permanentlyClosed: e.closed })
               td: +score(e)
               td.truncate
                 a(href=e.url title=e.name)= e.name
+                if isClosed
+                  span.closed (Closed)
               td(data-tip=e.speed ? `${e.speed} Mb/s` : "WiFi"): +attribute(e.wifi)
               td(data-tip="Power"): +attribute(e.power)
               td(data-tip="Vacancy"): +attribute(e.vacancy)
@@ -82,27 +86,32 @@ block body
               td(data-tip="Outdoor Seating"): +attribute(e.outdoor_seating)
               td(data-tip="Cash Only"): +attribute(e.cash_only)
               td(data-tip="Animals"): +attribute(e.animals)
-              td(data-tip="Area")= e.area
-              if isOpenToday(e.hours)
-                td(data-tip="Opens")= getOpeningTime(e.hours)
-                td(data-tip="Closes")= getClosingTime(e.hours)
-              else
+              td(data-tip="Area")
+                if e.areaUrl
+                  a(href=e.areaUrl)= e.area
+                else
+                  span= e.area
+              if isClosedToday(city, e)
                 td(colspan=2) Closed Today
+              else
+                td(data-tip="Opens")= getOpeningTime(city, e)
+                td(data-tip="Closes")= getClosingTime(city, e)
 
   -
-    const markers = places.map(e => {
+    const markers = city.places.map(e => {
       return {
         name: e.name,
         url: e.url,
         score: e.score,
         coordinates: e.coordinates,
-        filter: `${e.name} ${e.type} ${e.area} ${e.station}`
+        filter: `${e.name} ${e.type} ${e.area} ${e.station} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
+        hours: e.hours,
       };
     });
 
   script.
     CafeAndCowork.City({
-      coordinates: !{JSON.stringify(coordinates)},
+      coordinates: !{JSON.stringify(city.coordinates)},
       places: !{JSON.stringify(markers)},
       table: document.querySelector('table'),
       input: document.querySelector('input')

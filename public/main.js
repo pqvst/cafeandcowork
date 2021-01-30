@@ -55,7 +55,7 @@
         .addTo(map);
     });
   };
-    
+  
   let tid;
 
   function updateMarkers(places, map, markers, filter) {
@@ -144,10 +144,6 @@
 
     const comparer = (idx, name, asc) => {
       return (a, b) => {
-        const closed1 = a.classList.contains('closed');
-        const closed2 = b.classList.contains('closed');
-        if (closed1 && !closed2) return 1;
-        if (closed2 && !closed1) return -1;
         return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
       };
     };

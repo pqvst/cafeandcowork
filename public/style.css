@@ -267,10 +267,17 @@ tr:hover .edit {
 }
 
 tr.closed {
-  text-decoration: line-through;
-  color: rgba(0,0,0,0.3);
+  opacity: 0.5;
+  color: rgba(0,0,0,0.5);
 }
 
+tr.permanentlyClosed {
+  display: none;
+}
+
+tr span.closed {
+  margin-left: 5px;
+}
 
 
 /* ========== Colors ========== */
