@@ -1,9 +1,9 @@
+const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
 const marked = require('marked');
-const _ = require('lodash');
-const { getScore } = require('./helpers');
+const { getHours, getScore } = require('./data-helpers');
 
 function parseFile(filename) {
   const file = fs.readFileSync(filename, 'utf8');
@@ -14,7 +14,7 @@ function parseFile(filename) {
   return Object.assign({ content, markdown }, data);
 }
 
-function filter(filename) {
+function filterValidFiles(filename) {
   return !filename.startsWith('.');
 }
 
@@ -57,64 +57,155 @@ function parseCoordinates(coords) {
   }
 }
 
-function load() {
-  const t1 = Date.now();
+function getUrlFriendlyName(name) {
+  return name.toLowerCase()
+    .split(' / ').join('-')
+    .split(' - ').join('-')
+    .split(' & ').join('-')
+    .split('/').join('-')
+    .split(' ').join('-');
+}
 
-  const cities = fs.readdirSync('data/').filter(filter).map(cityId => {
-
-    const cityData = parseFile(`data/${cityId}/index.md`);
-
-    const city = Object.assign(cityData, {
-      title: cityData.name,
-      id: cityId,
-      url: `/${cityId}/`,
-      places: [],
-      coordinates: parseCoordinates(cityData.coordinates),
-    });
-
-    for (const placeFile of fs.readdirSync(`data/${cityId}/`).filter(filter)) {
+function getPlaces() {
+  const places = [];
+  const cityDirs = fs.readdirSync('data/').filter(filterValidFiles);
+  for (const cityId of cityDirs) {
+    const placeFiles = fs.readdirSync(`data/${cityId}/`).filter(filterValidFiles);
+    for (const placeFile of placeFiles) {
       if (placeFile != 'index.md') {
         const placeData = parseFile(`data/${cityId}/${placeFile}`);
         const name = path.basename(placeFile, '.md');
         const place = Object.assign(placeData, {
           id: name,
           url: `/${cityId}/${name}/`,
-          city: city,
-          file: `${cityId}/${placeFile}`,
-          score: getScore(placeData),
           title: placeData.name,
           coordinates: parseCoordinates(placeData.coordinates),
+          city: cityId,
+          file: `${cityId}/${placeFile}`,
+          score: getScore(placeData),
+          hours: getHours(placeData.hours),
         });
+        if (place.images) {
+          place.images = place.images.map(image => `${place.url}${image}`);
+        }
         place.description = getPlaceDescription(place);
-        city.places.push(place);
+        places.push(place);
       }
     }
+  }
+  return _(places)
+    .orderBy('score', 'desc')
+    .value();
+}
 
-    city.description = getCityDescription(city);
-    city.places.sort((a, b) => b.score - a.score);
+function getCities(places) {
+  const cities = {};
+  for (const place of places) {
+    const cityData = parseFile(`data/${place.city}/index.md`);
+    const id = place.city;
+    if (!cities[place.city]) {
+      const city = Object.assign(cityData, {
+        id,
+        url: `/${id}/`,
+        title: cityData.name,
+        coordinates: parseCoordinates(cityData.coordinates),
+        places: [],
+      });
+      city.description = getCityDescription(city);
+      cities[place.city] = city;
+    }
+    place.cityUrl = `/${id}/`;
+    cities[place.city].places.push(place);
+  }
+  return _(cities)
+    .values()
+    .orderBy(e => e.places.length, 'desc')
+    .value();
+}
 
-    return city;
-  });
-  
-  cities.sort((a, b) => b.places.length - a.places.length);
+function getAreas(places) {
+  const areas = {};
+  for (const place of places) {
+    if (place.area && place.content && place.images && place.score >= 3 && !place.closed) {
+      if (!areas[place.area]) {
+        const id = getUrlFriendlyName(place.area);
+        areas[place.area] = {
+          id,
+          name: place.area,
+          url: `/${place.city}/area/${id}/`,
+          title: `${place.area} Area`,
+          city: place.city,
+          places: [],
+        };
+      }
+      areas[place.area].places.push(place);
+    }
+  }
+  for (const place of places) {
+    if (areas[place.area]) {
+      place.areaUrl = areas[place.area].url;
+    }
+  }
+  return _(areas)
+    .values()
+    .orderBy('name')
+    .value();
+}
 
-  const recent = _([])
-    .concat(...cities.map(e => e.places))
+function getStations(places) {
+  const stations = {};
+  for (const place of places) {
+    if (place.station && place.content && place.images && place.score >= 3 && !place.closed) {
+      for (const station of place.station.split(',').map(e => e.trim())) {
+        if (!stations[station]) {
+          const id = getUrlFriendlyName(station);
+          stations[station] = {
+            id,
+            name: station,
+            url: `/${place.city}/station/${id}/`,
+            title: `${station} Station`,
+            city: place.city,
+            places: [],
+          }
+        }
+        stations[station].places.push(place);
+      }
+    }
+  }
+  for (const place of places) {
+    if (stations[place.station]) {
+      place.stationUrl = stations[place.station].url;
+    }
+  }
+  return _(stations)
+    .values()
+    .orderBy('name')
+    .value();
+}
+
+function load() {
+  const t1 = Date.now();
+
+  const places = getPlaces();
+  const cities = getCities(places);
+  const areas = []; //getAreas(places);
+  const stations = []; //getStations(places);
+
+  const recent = _(places)
     .filter(e => !!e.added)
     .orderBy('added', 'desc')
     .take(10)
     .value();
 
-  const top = _([])
-    .concat(...cities.map(e => e.places))
+  const top = _(places)
     .orderBy('score', 'desc')
     .take(10)
     .value();
 
   const t2 = Date.now();
-  console.log(`Loaded ${cities.length} cities in ${t2 - t1} ms`);
+  console.log(`Loaded ${cities.length} cities, ${places.length} places, ${areas.length} areas, ${stations.length} stations in ${t2 - t1} ms`);
 
-  return { cities, recent, top };
+  return { cities, places, areas, stations, recent, top };
 }
 
 module.exports = { load };

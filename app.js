@@ -36,11 +36,7 @@ app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
 
 Object.assign(app.locals, require('./helpers'));
-
-const { cities, recent, top } = data.load();
-app.locals.cities = cities;
-app.locals.recent = recent;
-app.locals.top = top;
+Object.assign(app.locals, data.load());
 
 function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
