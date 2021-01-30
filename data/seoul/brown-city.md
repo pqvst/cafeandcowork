@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/4kyqvzBPE4SdCUaK9
 coordinates: 37.54890438062504, 126.92036929521423
 address: 412-4 Hapjeong-dong, Mapo-gu, Seoul, South Korea
 station: Sangsu
-hours: 10-11
+hours: 10-23
 wifi: 4
 speed: 40
 power: 3

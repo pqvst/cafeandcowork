@@ -1,7 +1,6 @@
 ---
-layout: city
+id: new-york
 name: New York
-city: new-york
 country: USA
 coordinates: 40.712776,-74.005974
 timezone: America/New_York

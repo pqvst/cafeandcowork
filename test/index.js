@@ -2,7 +2,37 @@ const Ajv = require('ajv').default;
 const ajv = new Ajv();
 
 const data = require('../data');
-const { places } = data.load();
+const { cities, places } = data.load();
+
+const citySchema = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places'],
+  properties: {
+    id: { type: 'string' },
+    name: { type: 'string' },
+    country: { type: 'string' },
+    timezone: { type: 'string' },
+    
+    // processed properties
+    coordinates: { type: 'array', items: { type: 'number' } },
+
+    // generated properties
+    url: { type: 'string' },
+    title: { type: 'string' },
+    description: { type: 'string' },
+    places: { type: 'array' },
+  }
+}
+
+for (const city of cities) {
+  const valid = ajv.validate(citySchema, city);
+  if (!valid) {
+    console.log(city.name);
+    console.log(ajv.errors);
+    process.exit(-1);
+  }
+}
 
 const types = [
   'Cafe',

@@ -1,7 +1,6 @@
 ---
-layout: city
+id: malmo
 name: Malmö
-city: malmo
 country: Sweden
 coordinates: 55.60587,13.00073
 timezone: Europe/Stockholm
