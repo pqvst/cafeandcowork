@@ -20,8 +20,8 @@ html
     meta(property="og:title" content=metaTitle)
     meta(property="og:description" content=metaDescription)
     meta(property="og:logo" content=`${site.url}/logo.png`)
-    if images && images.length > 0
-      meta(property="og:image" content=`${site.url}${url}${images[0]}`)
+    if place && place.images && place.images.length > 0
+      meta(property="og:image" content=`${site.url}${place.images[0]}`)
     else
       meta(property="og:image" content=shareImage)
 

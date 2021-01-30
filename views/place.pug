@@ -44,10 +44,10 @@ block body
       else
         span #{place.type} in #[a(href=place.cityUrl)= city.name]
 
-    if images
+    if place.images
       .images
-        each image of images
-          img(src=`${url}${image}` data-action="zoom")
+        each image of place.images
+          img(src=image data-action="zoom")
 
     .content!= place.content
 
