@@ -45,5 +45,3 @@ images:
   - menu.jpg
   - tea.jpg
 ---
-
-2F wifi not working, but can still access 1F wifi
