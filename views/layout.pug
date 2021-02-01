@@ -4,9 +4,9 @@ html
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    - const shareImage = `${site.url}/share.png`;
     - const metaTitle = title ? `${title} – ${site.title}` : `${site.title} – ${site.summary}`;
     - const metaDescription = description || site.description;
+    - const metaImage = image ? `${site.url}${image}` : `${site.url}/share.png`;
 
     //- Google tags
     title= metaTitle
@@ -20,16 +20,13 @@ html
     meta(property="og:title" content=metaTitle)
     meta(property="og:description" content=metaDescription)
     meta(property="og:logo" content=`${site.url}/logo.png`)
-    if place && place.images && place.images.length > 0
-      meta(property="og:image" content=`${site.url}${place.images[0]}`)
-    else
-      meta(property="og:image" content=shareImage)
+    meta(property="og:image" content=metaImage)
 
     //- Twitter tags
     meta(name="twitter:card" content="summary_large_image")
     meta(name="twitter:title" content=metaTitle)
     meta(name="twitter:description" content=metaDescription)
-    meta(name="twitter:image" content=shareImage)
+    meta(name="twitter:image" content=metaImage)
 
     link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")

@@ -46,12 +46,24 @@ function redirectWithTrailingSlash(req, res) {
 for (const city of app.locals.cities) {
   app.get(`/${city.id}`, redirectWithTrailingSlash);
   app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', { city });
+    res.render('city', {
+      title: city.title,
+      description: city.description,
+      url: city.url,
+      city
+    });
   });
   for (const place of city.places) {
     app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', { city, place });
+      res.render('place', {
+        title: place.title,
+        description: place.description,
+        url: place.url,
+        image: place.images && place.images.length > 0 ? place.images[0] : null,
+        city,
+        place
+      });
     });
   }
 }
