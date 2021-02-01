@@ -36,13 +36,12 @@ block body
       
     .info
       if place.area
-        a.city(href=place.cityUrl) #{city.name}
         if place.areaUrl
-          span · #{place.type} in #[a(href=place.areaUrl) #{place.area}]
+          span #{place.type} in #[a(href=place.areaUrl) #{place.area}], #[a.city(href=place.cityUrl)= city.name]
         else
-          span · #{place.type} in #{place.area}
+          span #{place.type} in #{place.area}, #[a.city(href=place.cityUrl)= city.name]
       else
-        span #{place.type} in #[a(href=place.cityUrl)= city.name]
+        span #{place.type} in #[a.city(href=place.cityUrl)= city.name]
 
     if place.images
       .images
