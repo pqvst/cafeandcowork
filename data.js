@@ -22,13 +22,13 @@ function filterValidFiles(filename) {
 }
 
 function getPlaceDescription(place) {
-  const { type, city, area, power, wifi, speed, markdown } = place;
+  const { type, cityName, area, power, wifi, speed, markdown } = place;
   
   let text;
   if (area) {
-    text = `${type} in ${area}, ${city.name}.`
+    text = `${type} in ${area}, ${cityName}.`
   } else {
-    text = `${type} in ${city.name}.`
+    text = `${type} in ${cityName}.`
   }
   if (power && wifi && speed) {
     text += ` ${speed} Mb/s WiFi and power outlets available.`
@@ -91,7 +91,6 @@ function getPlaces() {
         if (place.images) {
           place.images = place.images.map(image => `${place.url}${image}`);
         }
-        place.description = getPlaceDescription(place);
         places.push(place);
       }
     }
@@ -119,6 +118,7 @@ function getCities(places) {
     }
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;
+    place.description = getPlaceDescription(place);
     cities[place.city].places.push(place);
   }
   return _(cities)
