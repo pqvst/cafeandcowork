@@ -96,7 +96,7 @@ app.post('/submit/', submissionLimiter, async (req, res) => {
 
 app.get('/feed.xml', (req, res) => {
   res.type('application/xml');
-  res.render('feed', { recent, pretty: true });
+  res.render('feed', { recent: app.locals.recent, pretty: true });
 });
 
 app.use((req, res) => {

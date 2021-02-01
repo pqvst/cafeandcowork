@@ -118,6 +118,7 @@ function getCities(places) {
       cities[place.city] = city;
     }
     place.cityUrl = `/${id}/`;
+    place.cityName = cityData.name;
     cities[place.city].places.push(place);
   }
   return _(cities)

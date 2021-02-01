@@ -104,6 +104,7 @@ const placeSchema = {
     description: { type: 'string' },
     city: { type: 'string' },
     cityUrl: { type: 'string' },
+    cityName: { type: 'string' },
     file: { type: 'string' },
     score: { type: 'number' },
 
