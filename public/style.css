@@ -529,6 +529,9 @@ tr span.closed {
   margin-left: 10px;
 }
 
+.place .author {
+  margin-top: 5px;
+}
 
 
 /* ========== Buttons ========== */
