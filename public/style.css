@@ -433,6 +433,10 @@ tr span.closed {
   border-bottom: solid 2px black;
 }
 
+.place h2 a {
+  text-decoration: none;
+}
+
 .place .info {
   font-weight: 300;
   color: rgba(0,0,0,0.5);
