@@ -267,10 +267,17 @@ tr:hover .edit {
 }
 
 tr.closed {
-  text-decoration: line-through;
-  color: rgba(0,0,0,0.3);
+  opacity: 0.5;
+  color: rgba(0,0,0,0.5);
 }
 
+tr.permanentlyClosed {
+  display: none;
+}
+
+tr span.closed {
+  margin-left: 5px;
+}
 
 
 /* ========== Colors ========== */
@@ -438,12 +445,7 @@ tr.closed {
 .place .closed {
   margin-left: 10px;
   color: red;
-}
-
-.place .closed-today {
-  margin-left: 10px;
-  font-weight: 300 !important;
-  color: red;
+  font-weight: 400;
 }
 
 .place .updated {

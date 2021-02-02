@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const rateLimit = require("express-rate-limit");
+const _ = require('lodash');
 
 const data = require('./data');
 const submit = require('./submit');
@@ -35,26 +36,34 @@ app.locals.site = {
 app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
 
-Object.assign(app.locals, require('./helpers'));
-
-const { cities, recent, top } = data.load();
-app.locals.cities = cities;
-app.locals.recent = recent;
-app.locals.top = top;
+Object.assign(app.locals, require('./view-helpers'));
+Object.assign(app.locals, data.load());
 
 function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
-for (const city of cities) {
+for (const city of app.locals.cities) {
   app.get(`/${city.id}`, redirectWithTrailingSlash);
   app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', city);
+    res.render('city', {
+      title: city.title,
+      description: city.description,
+      url: city.url,
+      city
+    });
   });
   for (const place of city.places) {
     app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', place);
+      res.render('place', {
+        title: place.title,
+        description: place.description,
+        url: place.url,
+        image: place.images && place.images.length > 0 ? place.images[0] : null,
+        city,
+        place
+      });
     });
   }
 }
@@ -87,7 +96,7 @@ app.post('/submit/', submissionLimiter, async (req, res) => {
 
 app.get('/feed.xml', (req, res) => {
   res.type('application/xml');
-  res.render('feed', { recent, pretty: true });
+  res.render('feed', { recent: app.locals.recent, pretty: true });
 });
 
 app.use((req, res) => {
@@ -99,3 +108,4 @@ app.listen(port);
 process.on('SIGTERM', () => {
   process.exit();
 });
+

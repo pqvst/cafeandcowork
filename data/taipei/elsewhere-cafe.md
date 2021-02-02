@@ -1,5 +1,6 @@
 ---
 added: 2020-11-13
+updated: 2021-01-29
 name: elsewhere cafe
 type: Cafe
 area: Zhongzheng
@@ -14,12 +15,12 @@ hours:
   sat: 7:30-22
   sun: 7:30-22
 wifi: 4
-speed: 60
+speed: 45
 power: 3
-vacancy: 2 
+vacancy: 4
 comfort: 3
 quiet: 3
-food: 
+food: 4
 drinks: 4
 price: 3
 view: 4

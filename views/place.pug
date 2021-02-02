@@ -1,23 +1,5 @@
 extends layout
 
-block head
-  script(type="application/ld+json").
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "#{city.name}",
-        "item": "#{site.url}#{city.url}"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "#{name}",
-        "item": "#{site.url}#{url}"
-      }]
-    }
-
 block body
   include mixins
 
@@ -25,45 +7,52 @@ block body
     include header
 
     h2
-      span= name
-      span.info 
-      if closed
+      a(href=place.url)
+        span= place.name
+      if place.closed
         span.closed Permanently Closed
-      if !isOpenToday(hours)
-        span.closed-today Closed Today
+      else if isClosedToday(city, place)
+        span.closed Closed Today
+      else if isClosedNow(city, place)
+        span.closed Closed Now
       
     .info
-      a.city(href=city.url) #{city.name}
-      span · #{type} in #{area}
+      if place.area
+        if place.areaUrl
+          span #{place.type} in #[a(href=place.areaUrl) #{place.area}], #[a.city(href=place.cityUrl)= city.name]
+        else
+          span #{place.type} in #{place.area}, #[a.city(href=place.cityUrl)= city.name]
+      else
+        span #{place.type} in #[a.city(href=place.cityUrl)= city.name]
 
-    if images
+    if place.images
       .images
-        each image of images
-          img(src=`${url}${image}` data-action="zoom")
+        each image of place.images
+          img(src=image data-action="zoom")
 
-    .content!= content
+    .content!= place.content
 
-    if author
-      .author Submitted by: #[a.author(href=author target="_blank")= formatUrl(author)]
+    if place.author
+      .author Submitted by: #[a.author(href=place.author target="_blank")= formatUrl(place.author)]
 
     .buttons
-      a.button.maps(href=google_maps target="_blank")
+      a.button.maps(href=place.google_maps target="_blank")
         i.fa.fa-map
         span Google Maps
-      if facebook
-        a.button.facebook(href=facebook target="_blank")
+      if place.facebook
+        a.button.facebook(href=place.facebook target="_blank")
           i.fa.fa-facebook
           span Facebook
-      if instagram
-        a.button.instagram(href=instagram target="_blank")
+      if place.instagram
+        a.button.instagram(href=place.instagram target="_blank")
           i.fa.fa-instagram
           span Instagram
-      if website
-        a.button.website(href=website target="_blank")
+      if place.website
+        a.button.website(href=place.website target="_blank")
           i.fa.fa-external-link
           span Website
-      if telephone
-        a.button.telephone(href=`tel:${telephone}`)
+      if place.telephone
+        a.button.telephone(href=`tel:${place.telephone}`)
           i.fa.fa-phone
           span Call
       //-a.button(href=`${github}/tree/master/${file}` target="_blank")
@@ -73,77 +62,82 @@ block body
     .attributes
       dl
         dt #[span.icon ⭐️] Overall
-        dd: +score(locals)
+        dd: +score(place)
         dt #[span.icon 💻] WiFi
         dd
-          +attribute(wifi, true)
+          +attribute(place.wifi, true)
           if speed
             span.speed (#{speed} Mb/s)
         dt #[span.icon 🔌] Power
-        dd: +attribute(power, true)
+        dd: +attribute(place.power, true)
         dt #[span.icon 🪑] Vacancy
-        dd: +attribute(vacancy, true)
+        dd: +attribute(place.vacancy, true)
         dt #[span.icon 🛋] Comfort
-        dd: +attribute(comfort, true)
+        dd: +attribute(place.comfort, true)
         dt #[span.icon 🗣] Quiet
-        dd: +attribute(quiet, true)
+        dd: +attribute(place.quiet, true)
         dt #[span.icon ☕️] Drinks
-        dd: +attribute(drinks, true)
+        dd: +attribute(place.drinks, true)
         dt #[span.icon 🍔] Food
-        dd: +attribute(food, true)
+        dd: +attribute(place.food, true)
         dt #[span.icon 💰] Price
-        dd: +attribute(price, true)
+        dd: +attribute(place.price, true)
         dt #[span.icon 🌄] View
-        dd: +attribute(view, true)
+        dd: +attribute(place.view, true)
         dt #[span.icon 🚽] Toilets
-        dd: +attribute(toilets, true)
+        dd: +attribute(place.toilets, true)
         dt #[span.icon 🔊] Music
-        dd: +attribute(music, true)
+        dd: +attribute(place.music, true)
         dt #[span.icon 🚬] Smoking
-        dd: +attribute(smoking, true)
+        dd: +attribute(place.smoking, true)
         dt #[span.icon 🧍‍♂️] Standing Tables
-        dd: +attribute(standing_tables, true)
+        dd: +attribute(place.standing_tables, true)
         dt #[span.icon 🌳] Outdoor Seating
-        dd: +attribute(outdoor_seating, true)
+        dd: +attribute(place.outdoor_seating, true)
         dt #[span.icon 💵] Cash Only
-        dd: +attribute(cash_only, true)
+        dd: +attribute(place.cash_only, true)
         dt #[span.icon 🐶] Animals
-        dd: +attribute(animals, true)
-        if station
+        dd: +attribute(place.animals, true)
+        if place.station
           dt #[span.icon 🚇] Station
-          dd #{station}
-        if opens && closes
+          if place.stationUrl
+            dd: a(href=place.stationUrl)= place.station
+          else
+            dd= place.station
+        if place.opens && place.closes
           dt #[span.icon ⏰] Hours
-          dd #{opens} to #{closes}
-        if hours
+          dd #{place.opens} to #{place.closes}
+        if place.hours
           dt #[span.icon ⏰] Hours
-          dd: +hours(hours)
+          dd: +hours(place.hours)
       dl
         dt Type
-        dd #{type}
+        dd #{place.type}
         dt Area
-        dd #{area}
-        if address
+        if place.areaUrl
+          dd: a(href=place.areaUrl)= place.area
+        else
+          dd= place.area
+        if place.address
           dt Address
-          dd: a(href=google_maps)= address
-        if facebook
+          dd: a(href=place.google_maps)= place.address
+        if place.facebook
           dt Facebook
-          dd: a(href=facebook)= formatUrl(facebook)
-        if instagram
+          dd: a(href=place.facebook)= formatUrl(place.facebook)
+        if place.instagram
           dt Instagram
-          dd: a(href=instagram)= formatUrl(instagram)
-        if website
+          dd: a(href=place.instagram)= formatUrl(place.instagram)
+        if place.website
           dt Website
-          dd: a(href=website)= formatUrl(website)
-        if telephone
+          dd: a(href=place.website)= formatUrl(place.website)
+        if place.telephone
           dt Telephone
-          dd: a(href=`tel:${telephone}`)= telephone
-        if updated || added
+          dd: a(href=`tel:${place.telephone}`)= place.telephone
+        if place.updated || place.added
           dt Updated
-          dd #{formatDate(updated || added)}
+          dd #{formatDate(place.updated || place.added)}
     .map
       #map
 
-  - const place = { url, score, name, coordinates };
   script.
     CafeAndCowork.Place(!{JSON.stringify(place)});

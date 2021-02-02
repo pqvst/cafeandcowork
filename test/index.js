@@ -2,7 +2,37 @@ const Ajv = require('ajv').default;
 const ajv = new Ajv();
 
 const data = require('../data');
-const { cities } = data.load();
+const { cities, places } = data.load();
+
+const citySchema = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places'],
+  properties: {
+    id: { type: 'string' },
+    name: { type: 'string' },
+    country: { type: 'string' },
+    timezone: { type: 'string' },
+    
+    // processed properties
+    coordinates: { type: 'array', items: { type: 'number' } },
+
+    // generated properties
+    url: { type: 'string' },
+    title: { type: 'string' },
+    description: { type: 'string' },
+    places: { type: 'array' },
+  }
+}
+
+for (const city of cities) {
+  const valid = ajv.validate(citySchema, city);
+  if (!valid) {
+    console.log(city.name);
+    console.log(ajv.errors);
+    process.exit(-1);
+  }
+}
 
 const types = [
   'Cafe',
@@ -18,18 +48,21 @@ const types = [
   'Bookstore'
 ];
 
-const schema = {
+const placeSchema = {
   type: 'object',
   additionalProperties: false,
+  required: ['name', 'type', 'area', 'coordinates'],
   properties: {
+
+    // raw data properties
+    author: { type: ['string', 'null'] },
     added: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     updated: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
-    address: { type: ['string', 'null'] },
-    coordinates: { type: ['string', 'array'] },
     google_maps: { type: 'string' },
+    address: { type: ['string', 'null'] },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
     speed: { type: ['number', 'null'] },
@@ -44,41 +77,48 @@ const schema = {
     toilets: { type: ['number', 'null'], minimum: 0, maximum: 5 },
     music: { type: ['boolean', 'null'] },
     smoking: { type: ['boolean', 'null'] },
-    hours: { type: ['object', 'string', 'null'] },
     standing_tables: { type: ['boolean', 'null'] },
     outdoor_seating: { type: ['boolean', 'null'] },
     cash_only: { type: ['boolean', 'null'] },
+    animals: { type: ['boolean', 'null'] },
     closed: { type: ['boolean', 'null'] },
     tips: { type: 'array', items: { type: 'string' } },
-    animals: { type: ['boolean', 'null'] },
-    opens: { type: ['string', 'null'] },
-    closes: { type: ['string', 'null'] },
     facebook: { type: ['string', 'null'] },
     instagram: { type: ['string', 'null'] },
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
-    content: { type: 'string' },
+
+    // legacy data properties
+    opens: { type: ['string', 'null'] },
+    closes: { type: ['string', 'null'] },
+
+    // processed data properties
+    coordinates: { type: 'array', items: { type: 'number' } },
+    hours: { type: ['array', 'null'], items: { type: ['array', 'null'] } },
+    images: { type: ['array', 'null'], items: { type: 'string' } },
+
+    // generated properties
     id: { type: 'string' },
     url: { type: 'string' },
-    city: { type: 'object' },
+    title: { type: 'string' },
+    description: { type: 'string' },
+    city: { type: 'string' },
+    cityUrl: { type: 'string' },
+    cityName: { type: 'string' },
     file: { type: 'string' },
     score: { type: 'number' },
-    title: { type: 'string' },
-    markdown: { type: 'string' },
-    images: { type: ['array', 'null'] },
-    description: { type: 'string' },
-    author: { type: 'string' }
-  },
-  required: ['name', 'type', 'area', 'coordinates']
-};
 
-for (const city of cities) {
-  for (const place of city.places) {
-    const valid = ajv.validate(schema, place);
-    if (!valid) {
-      console.log(city.name, place.name);
-      console.log(ajv.errors);
-      process.exit(-1);
-    }
+    // content properties
+    content: { type: 'string' },
+    markdown: { type: 'string' },
+  }
+}
+
+for (const place of places) {
+  const valid = ajv.validate(placeSchema, place);
+  if (!valid) {
+    console.log(place.name);
+    console.log(ajv.errors);
+    process.exit(-1);
   }
 }

@@ -16,10 +16,10 @@ feed(xmlns="http://www.w3.org/2005/Atom")
       //- optional
       published= (new Date(item.added)).toISOString()
       if item.markdown
-        summary #{item.type} in #{item.area}, #{item.city.name}. #{item.markdown}
+        summary #{item.type} in #{item.area}, #{item.cityName}. #{item.markdown}
       else
-        summary #{item.type} in #{item.area}, #{item.city.name}.
+        summary #{item.type} in #{item.area}, #{item.cityName}.
       link(rel="alternative" type="text/html" href=`${site.url}${item.url}`)
       if item.images && item.images.length > 0
-        logo #{site.url}#{item.url}#{item.images[0]}
-        icon #{site.url}#{item.url}#{item.images[0]}
+        logo #{site.url}#{item.images[0]}
+        icon #{site.url}#{item.images[0]}
