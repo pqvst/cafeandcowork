@@ -4,10 +4,8 @@ type: Cafe
 area: Midtown
 google_maps: https://goo.gl/maps/KAmZx8SBxEE7y84y6
 coordinates: 40.7417909,-73.9888615
-address: 
-station: 
-opens: ""
-closes: ""
+address: 21 E 27th St, New York, NY 10016, United States
+station: 28 St
 wifi: 0
 speed: 
 power: 0
@@ -27,6 +25,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+12126861444"
+website: http://www.birchcoffee.com/
 ---

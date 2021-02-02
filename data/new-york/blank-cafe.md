@@ -4,10 +4,8 @@ type: Cafe
 area: Williamsburg
 google_maps: https://goo.gl/maps/p6it7dtBXFA3oJUk9
 coordinates: 40.7113886,-73.9643546
-address: 
-station: 
-opens: ""
-closes: ""
+address: 25 Broadway, Brooklyn, NY 11249, United States
+station: Marcy Av
 wifi: 1
 speed: 
 power: 3
@@ -28,5 +26,5 @@ animals:
 facebook: 
 instagram: 
 telephone: 
-website: 
+website: http://www.blankbrooklyn.com/
 ---
