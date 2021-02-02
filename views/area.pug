@@ -1,0 +1,23 @@
+extends layout
+
+block body
+  include mixins
+
+  .place.area
+    include header
+
+    h2 #{area.title}, #[a(href=city.url) #{city.name}] 
+    p A curated list of the best cafes, coworking spaces, and other places to work or study from in/near #{area.title}. Explore more places in #[a(href=city.url) #{city.name}]. If you have any other suggestions, let me know!
+    
+    each place in area.places
+      br
+      h3
+        a(href=place.url) #{place.name} #{formatScore(place.score)}
+      if place.images
+        .images
+          each image of place.images
+            img(src=image data-action="zoom")
+      p!= truncate(place.content)
+      a(href=place.url) Read more
+  
+    a.cta(href=city.url) Explore more places in #{city.name}

@@ -192,8 +192,8 @@ function load() {
 
   const places = getPlaces();
   const cities = getCities(places);
-  const areas = []; //getAreas(places);
-  const stations = []; //getStations(places);
+  const areas = getAreas(places);
+  const stations = getStations(places);
 
   const recent = _(places)
     .filter(e => !!e.added)

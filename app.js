@@ -54,6 +54,8 @@ for (const city of app.locals.cities) {
     });
   });
   for (const place of city.places) {
+    const area = app.locals.areas.find(area => area.city == place.city && area.name == place.area);
+    const station = app.locals.stations.find(station => city.id == station.city && station.name == place.station);
     app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
     app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
       res.render('place', {
@@ -62,10 +64,26 @@ for (const city of app.locals.cities) {
         url: place.url,
         image: place.images && place.images.length > 0 ? place.images[0] : null,
         city,
-        place
+        place,
+        area,
+        station,
       });
     });
   }
+}
+
+for (const area of app.locals.areas) {
+  app.get(area.url, (req, res) => {
+    const city = app.locals.cities.find(e => e.id == area.city);
+    res.render('area', { area, city });
+  });
+}
+
+for (const station of app.locals.stations) {
+  app.get(station.url, (req, res) => {
+    const city = app.locals.cities.find(e => e.id == station.city);
+    res.render('area', { area: station, city });
+  });
 }
 
 app.get('/', (req, res) => {
@@ -108,4 +126,3 @@ app.listen(port);
 process.on('SIGTERM', () => {
   process.exit();
 });
-

@@ -419,6 +419,18 @@ tr span.closed {
 }
 
 
+/* ========== Area ========== */
+
+.area {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.area p {
+  margin-bottom: 5px;
+}
+
+
 
 /* ========== Place ========== */
 
@@ -433,13 +445,17 @@ tr span.closed {
   border-bottom: solid 2px black;
 }
 
+.place h2 a {
+  text-decoration: none;
+}
+
+.place h3 a {
+  text-decoration: none;
+}
+
 .place .info {
   font-weight: 300;
   color: rgba(0,0,0,0.5);
-}
-
-.place .city {
-  margin-right: 5px;
 }
 
 .place .closed {
@@ -699,4 +715,21 @@ form .info {
   background: #eee;
   border-radius: 10px;
   padding: 30px;
+}
+
+
+/* ========== Area ========== */
+
+.cta {
+  padding: 30px;
+  border: solid 2px black;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  margin: 50px 0 30px 0;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background: #fafafa;
 }
