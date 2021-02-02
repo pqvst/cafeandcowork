@@ -42,6 +42,7 @@ block body
             th(title="Outdoor Seating") Outdoor
             th Cash Only
             th Animals
+            th LFM
             th Area
             th Opens
             th Closes
@@ -73,6 +74,7 @@ block body
               td(data-tip="Outdoor Seating"): +attribute(e.outdoor_seating)
               td(data-tip="Cash Only"): +attribute(e.cash_only)
               td(data-tip="Animals"): +attribute(e.animals)
+              td(data-tip="Lactose-Free Milk"): +attribute(e.lactose_free_milk)
               td(data-tip="Area")
                 if e.areaUrl
                   a(href=e.areaUrl)= e.area
