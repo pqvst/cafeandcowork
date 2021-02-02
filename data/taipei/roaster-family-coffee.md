@@ -1,6 +1,6 @@
 ---
 added: 2021-02-02
-name: Roasters Family Coffee
+name: Roaster Family Coffee
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/VkvR8o3EBEP58qnS6
