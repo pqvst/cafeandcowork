@@ -29,6 +29,17 @@ facebook: https://www.facebook.com/sunnycafe1005
 instagram: 
 telephone: "+886223145333"
 website: 
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
+  - menu5.jpg
 ---
 
 A great work-friendly cafe near Beimen station. The interior feels bright and clean, and the piano converted to a work table is definitely a unique feature. The cafe is quite large with lots of seating options, and on a weekday it wasn't very busy in the morning and early afternoon. The menu is large with lots of drinks, breakfast, brunch, and other food options. The WiFi was fast, but the main drawback would be that most tables did not have access to power.
