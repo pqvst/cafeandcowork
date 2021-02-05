@@ -37,3 +37,5 @@ images:
   - menu2.jpg
   - drinks.jpg
 ---
+
+A small cafe with an extensive coffee selection, as well as some tea and food. The seating area is small, so if you arrive at a busy time you probably won't get a seat. Morning and late afternoon seem to be less busy. The interior is nice, with chessboard styled tables, and stained glass windows. Friendly staff, comfortable chairs, there are power outlets along the wall, and the WiFi was quite fast and stable. Definitely a comfortable place to work for a couple of hours, but not really suitable for extended stays.
