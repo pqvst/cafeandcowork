@@ -81,6 +81,7 @@ const placeSchema = {
     outdoor_seating: { type: ['boolean', 'null'] },
     cash_only: { type: ['boolean', 'null'] },
     animals: { type: ['boolean', 'null'] },
+    lactose_free_milk: { type: ['boolean', 'null'] },
     closed: { type: ['boolean', 'null'] },
     tips: { type: 'array', items: { type: 'string' } },
     facebook: { type: ['string', 'null'] },

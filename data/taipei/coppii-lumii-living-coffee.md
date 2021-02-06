@@ -31,6 +31,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: 
+lactose_free_milk: true
 facebook: https://www.facebook.com/CoppiiLumiiJM/
 instagram: https://www.instagram.com/coppiilumii/
 telephone: "+886227891816"

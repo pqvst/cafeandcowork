@@ -25,6 +25,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/DreamersCoffeeRoasters/
 instagram: https://www.instagram.com/dreamerscoffee_tw/ 
 telephone: "+886227528229"

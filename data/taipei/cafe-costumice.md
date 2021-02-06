@@ -31,6 +31,7 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: 
+lactose_free_milk: true
 facebook: 
 instagram: https://www.instagram.com/costumice/
 telephone: "+886227118086"

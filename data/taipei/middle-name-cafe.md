@@ -32,6 +32,7 @@ standing_tables: true
 outdoor_seating: true
 cash_only: false
 animals: 
+lactose_free_milk: true
 facebook: 
 instagram: https://www.instagram.com/middlenamecoffee/
 telephone: "+886225566116"
