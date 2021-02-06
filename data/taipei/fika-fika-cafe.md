@@ -31,6 +31,7 @@ standing_tables: true
 outdoor_seating: true
 cash_only: 
 animals: 
+lactose_free_milk: true
 facebook: https://www.facebook.com/FikaFikaCafe/
 instagram: https://www.instagram.com/fikafikacafe/
 telephone: "+886225070633"
