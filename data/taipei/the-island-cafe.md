@@ -25,6 +25,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: true
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/theisland33/
 instagram: https://www.instagram.com/theisland33/
 telephone: "+886225314594"

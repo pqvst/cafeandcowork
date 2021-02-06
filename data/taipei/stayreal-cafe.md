@@ -25,6 +25,7 @@ standing_tables: false
 outdoor_seating: true
 cash_only: 
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/StayRealCafe/
 instagram: https://www.instagram.com/stayrealcafe/
 telephone: "+886227318011"

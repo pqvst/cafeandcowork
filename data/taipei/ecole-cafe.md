@@ -32,6 +32,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: 
+lactose_free_milk: true
 facebook: https://www.facebook.com/ecolecafe.cafetrouve/
 instagram: https://www.instagram.com/ecole_cafe/
 telephone: "+886223222725"
