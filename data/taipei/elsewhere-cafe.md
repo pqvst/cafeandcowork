@@ -35,4 +35,14 @@ facebook: http://www.facebook.com/elsewherecafe
 instagram: https://www.instagram.com/elsewherecafe/
 telephone: "+886233932018"
 website: 
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - outside.jpg
+  - inside.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - tea.jpg
 ---

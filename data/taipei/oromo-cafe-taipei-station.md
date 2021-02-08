@@ -35,4 +35,7 @@ images:
   - seating2.jpg
   - seating3.jpg
   - interior.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
 ---
