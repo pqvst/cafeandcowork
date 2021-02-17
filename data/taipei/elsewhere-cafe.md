@@ -46,3 +46,5 @@ images:
   - menu2.jpg
   - tea.jpg
 ---
+
+A very cozy and trendy cafe near Chiang Kai-Shek memorial hall. They open early (7:30) so it's a great spot to get an early start to your day. There's an extensive selection of drinks and desserts. If you're a group then you'll want to arrive early to get the large worktable. For solo-working I like the counter-style seats along the wall, although the table space might be a little small if you have a larger laptop. There's power but you may need to unplug a lamp. The cafe usually gets quite busy, and the staff may impose a 3 hour time limit.
