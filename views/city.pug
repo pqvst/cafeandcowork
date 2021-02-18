@@ -95,6 +95,7 @@ block body
         coordinates: e.coordinates,
         filter: `${e.name} ${e.type} ${e.area} ${e.station} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
         hours: e.hours,
+        closed: e.closed,
       };
     });
 

@@ -63,12 +63,14 @@
     let count = 0;
     const arr = Array.from(places).reverse();
     for (const place of arr) {
-      if (!filter || place.filter.toLowerCase().includes(filter)) {
-        bounds.extend(place.coordinates);
-        markers[place.url].addTo(map);
-        count++;
-      } else {
-        markers[place.url].remove();
+      if (!place.closed) {
+        if (!filter || place.filter.toLowerCase().includes(filter)) {
+          bounds.extend(place.coordinates);
+          markers[place.url].addTo(map);
+          count++;
+        } else {
+          markers[place.url].remove();
+        }
       }
     }
     if (count) {
