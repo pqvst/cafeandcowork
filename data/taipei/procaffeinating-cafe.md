@@ -16,12 +16,12 @@ hours:
   sat: 10-18
   sun: 10-18
 wifi: 4
-speed: 40
+speed: 23
 power: 4
 vacancy: 5
 comfort: 4
 quiet: 4
-food: 
+food: 4
 drinks: 4
 price: 3
 view: 5
