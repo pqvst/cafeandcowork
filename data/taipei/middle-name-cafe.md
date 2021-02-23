@@ -1,6 +1,6 @@
 ---
 added: 2021-01-26
-name: Middle Name Cafe
+name: MIDDLE NAME coffee & space
 type: Cafe
 area: Zhongshan
 google_maps: https://goo.gl/maps/fPijhJjyA1uYseWr8
