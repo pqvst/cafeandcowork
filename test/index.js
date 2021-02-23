@@ -7,12 +7,13 @@ const { cities, places } = data.load();
 const citySchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places'],
+  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places', 'flag'],
   properties: {
     id: { type: 'string' },
     name: { type: 'string' },
     country: { type: 'string' },
     timezone: { type: 'string' },
+    flag: { type: 'string' },
     
     // processed properties
     coordinates: { type: 'array', items: { type: 'number' } },
