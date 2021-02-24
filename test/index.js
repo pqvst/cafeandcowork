@@ -56,7 +56,7 @@ const placeSchema = {
   properties: {
 
     // raw data properties
-    author: { type: ['string', 'null'] },
+    contributors: { type: ['array', 'null'], items: { type: 'string' } },
     added: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     updated: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },

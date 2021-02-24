@@ -1,5 +1,6 @@
 ---
-author: https://www.instagram.com/huey/
+contributors:
+  - https://www.instagram.com/huey/
 added: 2021-01-15
 name: Sarutahiko Coffee
 type: Cafe

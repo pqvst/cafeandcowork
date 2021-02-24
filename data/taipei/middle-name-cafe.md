@@ -37,7 +37,8 @@ facebook:
 instagram: https://www.instagram.com/middlenamecoffee/
 telephone: "+886225566116"
 website: https://www.middlenamecoffee.com/
-author: https://www.instagram.com/matthiasrossini/
+contributors:
+  - https://www.instagram.com/matthiasrossini/
 images:
   - coffee.jpg
   - interior1.jpg

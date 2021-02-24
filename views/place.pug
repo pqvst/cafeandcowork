@@ -32,9 +32,6 @@ block body
 
     .content!= place.content
 
-    if place.author
-      .author Submitted by: #[a.author(href=place.author target="_blank")= formatUrl(place.author)]
-
     .buttons
       a.button.maps(href=place.google_maps target="_blank")
         i.fa.fa-map
@@ -138,6 +135,13 @@ block body
         if place.updated || place.added
           dt Updated
           dd #{formatDate(place.updated || place.added)}
+        if place.contributors && place.contributors.length > 0
+          dt Contributors
+          dd
+            each contributor in place.contributors
+              div
+                a(href=contributor target="_blank")= formatUrl(contributor)
+
     .map
       #map
 
