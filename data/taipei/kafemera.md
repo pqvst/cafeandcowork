@@ -48,4 +48,4 @@ images:
   - food-and-drink.jpg
 ---
 
-Not very busy during the morning on a weekday. Large interior, although the big room feels a little dark and lacks natural light. Good drink selection, including oatly as an option. There's also a small selection of snacks, the banana and hazelnut toast was really tasty, and perfect if you need a small snack. Some power outlets and the WiFi is decent.
+A great place if you’re looking for a quiet spot on a weekday. Large interior, although the big room feels a little dark and lacks natural light. Good drink selection, including oatly as an option. There's also a small selection of snacks, the banana and hazelnut toast was really tasty, and perfect if you need a small snack. Some power outlets are available, and the WiFi is decent.
