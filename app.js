@@ -2,7 +2,12 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const rateLimit = require("express-rate-limit");
-const _ = require('lodash');
+const { I18n } = require('i18n');
+
+const i18n = new I18n({
+  locales: ['en', 'zh-tw'],
+  directory: 'locales',
+});
 
 const data = require('./data');
 const submit = require('./submit');
@@ -43,34 +48,58 @@ function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
-for (const city of app.locals.cities) {
-  app.get(`/${city.id}`, redirectWithTrailingSlash);
-  app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', {
-      title: city.title,
-      description: city.description,
-      url: city.url,
-      city
+app.use(i18n.init);
+
+for (const locale of i18n.getLocales()) {
+  const prefix = locale == 'en' ? '' : `/${locale}`;
+
+  app.use(`${prefix}/`, (req, res, next) => {
+    req.setLocale(locale);
+
+    res.locals.prefix = prefix;
+
+    res.locals.site = Object.assign({}, app.locals.site, {
+      title: req.__(app.locals.title),
+      summary: req.__(app.locals.summary),
+      description: req.__(app.locals.description),
     });
+    
+    next();
   });
-  for (const place of city.places) {
-    app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
-    app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', {
-        title: place.title,
-        description: place.description,
-        url: place.url,
-        image: place.images && place.images.length > 0 ? place.images[0] : null,
-        city,
-        place
+
+  if (prefix) {
+    app.get(`${prefix}`, redirectWithTrailingSlash);
+  }
+  app.get(`${prefix}/`, (req, res) => {
+    res.render('index', { url: '/' });
+  });
+
+  for (const city of app.locals.cities) {
+    app.get(`${prefix}/${city.id}`, redirectWithTrailingSlash);
+    app.get(`${prefix}/${city.id}/`, (req, res) => {
+      res.render('city', {
+        title: city.title,
+        description: city.description,
+        url: city.url,
+        city
       });
     });
-  }
-}
+    for (const place of city.places) {
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
+        res.render('place', {
+          title: place.title,
+          description: place.description,
+          url: place.url,
+          image: place.images && place.images.length > 0 ? place.images[0] : null,
+          city,
+          place
+        });
+      });
+    }
+  }  
 
-app.get('/', (req, res) => {
-  res.render('index');
-});
+}
 
 const submissionLimiter = rateLimit({
   keyGenerator: () => 'all',
