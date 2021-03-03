@@ -84,7 +84,7 @@ block body
                   else
                     span= __(e.area)
               if isClosedToday(city, e)
-                td(colspan=2) Closed Today
+                td(colspan=2)= __("Closed Today")
               else
                 td(data-tip=__("Opens"))= getOpeningTime(city, e)
                 td(data-tip=__("Closes"))= getClosingTime(city, e)
