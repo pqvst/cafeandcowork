@@ -39,6 +39,11 @@ images:
   - menu2.jpg
   - tea.jpg
   - food.jpg
----
+review:
+  en: |
+    A great cafe if you're looking for a place to have a proper brunch while also getting some work done. The interior feels modern and open with large windows all around letting in natural light. Two tables near the back wall have power outlets. The WiFi was a little slow, but it worked. The staff was very friendly and attentive.
+  zh-tw: |
+    這是一個想慵懶打發一天時會想來的地方，可以睡個懶覺再慢慢晃進來享用豐盛的早午餐，並悠哉的看看信、打理一下行程。Miracle Cafe的設計很時尚且有大面玻璃透進陽光，我可以在這裡發呆一整個下午，看看外頭來來去去的年輕人吸收一下活力。
 
-A great cafe if you're looking for a place to have a proper brunch while also getting some work done. The interior feels modern and open with large windows all around letting in natural light. Two tables near the back wall have power outlets. The WiFi was a little slow, but it worked. The staff was very friendly and attentive.
+    比較靠近內側的座位有插座（不太容易佔到這兩桌），WiFi有點慢但不差，店員非常親切貼心。
+---

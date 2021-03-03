@@ -51,6 +51,9 @@ images:
   - menu.jpg
   - milk.jpg
   - rules.jpg
+review:
+  en: |
+    A cool looking cafe, but some things could be better. There are lots of power outlets, but the WiFi is a little slow. The counter seats are a little too low, the large worktables are a little too high, and the chairs are quite uncomfortable. Also note that the cafe regularly rents out the space for private events. Be sure to check their facebook before you decide to go.
+  zh-tw: |
+    看起來非常體面的咖啡店，但也許還有進步空間。Milk Bar有很多插座，不過網路有點慢。吧台邊的椅子有點太低，而大工作桌的椅子則偏高，椅子坐起來不是很舒適。除此之外，這裡時常被私人活動包場，來之前記得看一下臉書公告。
 ---
-
-A cool looking cafe, but some things could be better. There are lots of power outlets, but the WiFi is a little slow. The counter seats are a little too low, the large worktables are a little too high, and the chairs are quite uncomfortable. Also note that the cafe regularly rents out the space for private events. Be sure to check their facebook before you decide to go.

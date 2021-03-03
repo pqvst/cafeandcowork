@@ -34,6 +34,9 @@ images:
   - counter.jpg
   - upstairs.jpg
   - restroom.jpg
+review:
+  en: |
+    Great atmosphere/vibe. Lots of plants and nice decorations. Peaceful music. Friendly staff. The first floor seating area has one large worktable and a couple of smaller tables. The second floor is quite large and has a lot more seats. Not very busy on a weekday. WiFi was stable but a little slow.
+  zh-tw: |
+    稼咖啡的室內室外妝點的綠色植物和清新的音樂讓人一進門就感到放鬆，一樓有張大工作桌和幾個散座，二樓空間大了些，平日白天並不時常擁擠。店員十分親切，WiFi連線穩定但稍嫌緩慢。
 ---
-
-Great atmosphere/vibe. Lots of plants and nice decorations. Peaceful music. Friendly staff. The first floor seating area has one large worktable and a couple of smaller tables. The second floor is quite large and has a lot more seats. Not very busy on a weekday. WiFi was stable but a little slow.

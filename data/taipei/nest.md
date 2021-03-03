@@ -37,6 +37,9 @@ images:
   - menu.jpg
   - tea.jpg
   - food.jpg
+review:
+  en: |
+    A good cafe if you're looking to work/study and also have some lunch. The atmosphere feels very relaxing and homey with soft music playing in the background. There's a good choice of both drinks and food. I tried the Japanese curry rice, which was really tasty. The cafe is small and it filled up in the afternoon, so it's good to arrive early!
+  zh-tw: |
+    如果你在找一個可以吃午餐又能工作、讀書一下的場所，這裡很適合你。背景播送的輕音樂讓室內的氣氛安逸舒適。食物和飲品都很不錯，我點了日式咖喱，非常好吃。這家咖啡廳不大，下午也容易爆滿，建議提早來。
 ---
-
-A good cafe if you're looking to work/study and also have some lunch. The atmosphere feels very relaxing and homey with soft music playing in the background. There's a good choice of both drinks and food. I tried the Japanese curry rice, which was really tasty. The cafe is small and it filled up in the afternoon, so it's good to arrive early!

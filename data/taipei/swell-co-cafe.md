@@ -42,6 +42,9 @@ images:
   - menu2.jpg
   - power.jpg
   - food.jpg
+review:
+  en: |
+    One of my favorite cafes in Daan. Nice interior and great atmosphere. The food and drinks are really good, but definitely on the expensive side. Great WiFi and plenty of power outlets (although they encourage donations for using the power outlets, which is a little weird). Mornings are very quiet, but it usually gets pretty busy and noisy starting around lunch time and towards the afternoon.
+  zh-tw: |
+    在大安附近眾多的咖啡廳中，SWELL是我們最愛的其中一家，漂亮的空間總是讓人心情大好，連同餐飲都是這麼的優秀（反映在價格上：Ｐ），WiFi充電座都不讓人擔心，只是會鼓勵你捐獻一點小錢來用充電座，有點可愛。早上通常很安靜，從中午開始一直到晚上時間會一路熱鬧到閉店，除了工作也適合和朋友小聚。
 ---
-
-One of my favorite cafes in Daan. Nice interior and great atmosphere. The food and drinks are really good, but definitely on the expensive side. Great WiFi and plenty of power outlets (although they encourage donations for using the power outlets, which is a little weird). Mornings are very quiet, but it usually gets pretty busy and noisy starting around lunch time and towards the afternoon.

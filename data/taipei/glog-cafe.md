@@ -42,6 +42,11 @@ images:
   - seating3.jpg
   - menu1.jpg
   - menu2.jpg
----
+review:
+  en: |
+    A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary. Still, it's a good option if you need a place in the area!
+  zh-tw: |
+    滿好的一家工作讀書用咖啡廳，非常舒服、安靜，一些位置有插座，也有WiFi，實用風格特別強烈，相較之下這裡配備基本，沒有太多Vibe，飲料選擇也比較普通。不過當然了，這會是臨時需要在附近找家咖啡廳工作時的好選擇！
 
-A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary. Still, it's a good option if you need a place in the area!
+    （更多咖啡廳資訊，請點選個人頁面的Cafe & Cowork連結）
+---

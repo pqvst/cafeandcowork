@@ -37,6 +37,11 @@ images:
   - interior1.jpeg
   - cat.jpeg
   - food.jpeg
----
+review:
+  en: |
+    除了座落在寸土寸金的大安區這個有點違和的設定以外，「來吧」是一間充分有社區感的一家小店，一樓只有吧檯座位，整體空間不太寬敞，但開放式廚房帶來強烈的親切感。順著玄關前的階梯可以來到舒服的二樓空間，這裡有一張沙發座，適合閒坐打發，也有吧台和小桌。可以想像坐在吧台為工作絞盡腦汁時，偶爾抬頭看看外頭動靜的愜意。每個座位都能找到插座，WiFi也很理想。更不得了的是這裡有很棒的餐點選擇，丹麥吐司值得一試。如果硬要說缺點，可能是這裡的風格實在太週末了，極容易讓人分心呢。過十點半很容易客滿，建議提早來。
 
-A nice, small cafe with a sense of community. The first floor has only counter seats and is not very spacious, but the open kitchen gives a welcoming feeling. Take the stairs to reach the comfortable second floor seating area. There is a sofa area, suitable for relaxing, counter seats, and small tables. Power outlets can be found at every seat, and there's WiFi. There are also great food options, the Danish toast is definitely worth trying. One minor “shortcoming” might be that the atmosphere is too relaxing and you might get distracted from your work or studies. It is easy to fill up after 10:30, so come early!
+    （更多資訊，請參考個人資訊上的Cafe & Cowork連結）
+  zh-tw: |
+    A nice, small cafe with a sense of community. The first floor has only counter seats and is not very spacious, but the open kitchen gives a welcoming feeling. Take the stairs to reach the comfortable second floor seating area. There is a sofa area, suitable for relaxing, counter seats, and small tables. Power outlets can be found at every seat, and there's WiFi. There are also great food options, the Danish toast is definitely worth trying. One minor “shortcoming” might be that the atmosphere is too relaxing and you might get distracted from your work or studies. It is easy to fill up after 10:30, so come early!
+---
