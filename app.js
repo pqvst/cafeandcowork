@@ -40,6 +40,7 @@ app.locals.site = {
 
 app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
+app.locals.marked = require('marked');
 
 Object.assign(app.locals, require('./view-helpers'));
 Object.assign(app.locals, data.load());

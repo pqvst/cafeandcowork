@@ -2,7 +2,6 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
-const marked = require('marked');
 const { getHours, getScore } = require('./data-helpers');
 
 function parseFile(filename) {
@@ -12,7 +11,7 @@ function parseFile(filename) {
   const markdown = split.slice(2).join('---').trim();
   if (markdown) {
     data.markdown = markdown;
-    data.content = marked(markdown);
+    data.content = markdown;
   }
   return data;
 }

@@ -27,7 +27,11 @@ block body
         each image of place.images
           img(src=image data-action="zoom")
 
-    .content!= place.content
+    if place.review
+      if place.review[locale]
+        .content!= marked(place.review[locale])
+    else if locale == 'en'
+      .content!= marked(place.content)
 
     .buttons
       a.button.maps(href=place.google_maps target="_blank")
