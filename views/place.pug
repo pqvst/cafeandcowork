@@ -18,9 +18,9 @@ block body
       
     .info
       if place.area
-        a(href=city.url)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(place.area), city: __(city.name) })
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(place.area), city: __(city.name) })
       else
-        a(href=city.url)= __('{{type}} in {{area}}', { type: __(place.type), area: __(city.name) })
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}', { type: __(place.type), area: __(city.name) })
 
     if place.images
       .images
