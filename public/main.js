@@ -110,12 +110,17 @@
     });
   };
 
+  const COL_NAME = 1;
+  const COL_AREA = 19;
+  const COL_OPENS = 20;
+  const COL_CLOSES = 21;
+
   function makeSortableTable(table) {
     // Inspired by: https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
 
-    table.querySelectorAll('th').forEach(th => {
+    table.querySelectorAll('th').forEach((th, idx) => {
       const name = th.innerText;
-      if (name == 'Name' || name == 'Area' || name == 'Opens') {
+      if (idx == COL_NAME || idx == COL_AREA || name == COL_OPENS) {
         th.asc = false;
       } else {
         th.asc = true;
@@ -127,8 +132,9 @@
 
     const getCellValue = (tr, idx, name, asc) => {
       const text = tr.children[idx] ? tr.children[idx].innerText || tr.children[idx].textContent || '' : '';
-      if (name == 'Opens' || name == 'Closes') {
-        if (text == 'Closed Today' || text == '') {
+      const closed = tr.classList.contains('closed');
+      if (idx == COL_OPENS || idx == COL_CLOSES) {
+        if (closed || text == '') {
           return asc ? Number.MAX_VALUE : Number.MIN_VALUE;
         }
         let number = Number(text.replace(':', ''));
