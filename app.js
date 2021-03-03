@@ -60,9 +60,9 @@ for (const locale of i18n.getLocales()) {
     res.locals.prefix = prefix;
 
     res.locals.site = Object.assign({}, app.locals.site, {
-      title: req.__(app.locals.title),
-      summary: req.__(app.locals.summary),
-      description: req.__(app.locals.description),
+      title: res.__(app.locals.site.title),
+      summary: res.__(app.locals.site.summary),
+      description: res.__(app.locals.site.description),
     });
     
     next();
