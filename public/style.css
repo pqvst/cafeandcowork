@@ -29,6 +29,10 @@ h1, h2, h3, h4 {
   min-height: 100%;
 }
 
+.flag {
+  margin-right: 7px;
+}
+
 a {
   color: inherit;
 }
@@ -447,7 +451,8 @@ tr span.closed {
   color: rgba(0,0,0,0.5);
 }
 
-.place .city {
+.place .info span,
+.place .info a {
   margin-right: 5px;
 }
 

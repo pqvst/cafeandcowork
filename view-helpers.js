@@ -8,9 +8,7 @@ exports.formatScore = function (n) {
   return n.toFixed(1);
 }
 
-exports.getValueText = function (value) {
-  if (value === true) return 'Yes';
-  if (value === false) return 'No';
+exports.getStarRating = function (value) {
   return value + ' ★';
 }
 
@@ -61,7 +59,7 @@ function formatTime(time) {
 }
 
 exports.formatHours = function(hours) {
-  if (!hours) return 'Closed';
+  if (!hours) return null;
   return hours.map(formatTime).join(' - ');
 }
 

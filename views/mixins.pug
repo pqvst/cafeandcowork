@@ -1,22 +1,27 @@
 
 mixin attribute(value, expanded)
   span(class=getValueColor(value))
-    if value != Null
-      span= getValueText(value)
+    if value != null
+      if value === true
+        span= __('Yes')
+      else if value === false
+        span= __('No')
+      else
+        span= getStarRating(value)
     else
       a(href=site.github title="Add missing data" target="_blank")
         i.fa.fa-question-circle-o
         if expanded
-          span Add missing data
+          span= __('Add missing data')
   
 mixin score(place)
   span= formatScore(place.score)
 
 mixin hours(hours)
-  div Mon: #{formatHours(hours[0])}
-  div Tue: #{formatHours(hours[1])}
-  div Wed: #{formatHours(hours[2])}
-  div Thu: #{formatHours(hours[3])}
-  div Fri: #{formatHours(hours[4])}
-  div Sat: #{formatHours(hours[5])}
-  div Sun: #{formatHours(hours[6])}
+  div #{__('Mon:')} #{formatHours(hours[0]) || __('Closed')}
+  div #{__('Tue:')} #{formatHours(hours[1]) || __('Closed')}
+  div #{__('Wed:')} #{formatHours(hours[2]) || __('Closed')}
+  div #{__('Thu:')} #{formatHours(hours[3]) || __('Closed')}
+  div #{__('Fri:')} #{formatHours(hours[4]) || __('Closed')}
+  div #{__('Sat:')} #{formatHours(hours[5]) || __('Closed')}
+  div #{__('Sun:')} #{formatHours(hours[6]) || __('Closed')}
