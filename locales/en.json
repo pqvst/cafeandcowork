@@ -201,5 +201,8 @@
 	"Nassau Avenue": "Nassau Avenue",
 	"28 St": "28 St",
 	"{{type}} in {{area}}": "{{type}} in {{area}}",
-	"{{type}} in {{area}}, {{city}}": "{{type}} in {{area}}, {{city}}"
+	"{{type}} in {{area}}, {{city}}": "{{type}} in {{area}}, {{city}}",
+	"Taiwan": "Taiwan",
+	"Kinmen": "Kinmen",
+	"Shanwai Bus Station": "Shanwai Bus Station"
 }

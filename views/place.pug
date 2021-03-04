@@ -135,7 +135,7 @@ block body
           dt= __('Updated')
           dd #{formatDate(place.updated || place.added)}
         if place.contributors && place.contributors.length > 0
-          dt Contributors
+          dt= __('Contributors')
           dd
             each contributor in place.contributors
               div
