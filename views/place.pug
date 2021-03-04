@@ -30,7 +30,7 @@ block body
     if place.review
       if place.review[locale]
         .content!= marked(place.review[locale])
-    else if locale == 'en'
+    else if place.content && locale == 'en'
       .content!= marked(place.content)
 
     .buttons
