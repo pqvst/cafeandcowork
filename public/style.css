@@ -15,13 +15,13 @@ body, input, textarea, select {
   font-weight: 300;
 }
 
-body.zh-tw .place dt,
-body.zh-tw th {
-  font-weight: 500;
-}
-
 h1, h2, h3, h4 {
   font-weight: 600;
+}
+
+body.zh-tw .place dt,
+body.zh-tw th, h2 {
+  font-weight: 500;
 }
 
 .wrap {
