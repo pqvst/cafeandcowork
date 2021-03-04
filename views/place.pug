@@ -7,7 +7,7 @@ block body
     include header
 
     h2
-      a(href=place.url)
+      a(href=`${prefix}${place.url}`)
         span= place.name
       if place.closed
         span.closed= __('Permanently Closed')
