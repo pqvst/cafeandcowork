@@ -56,6 +56,6 @@ You already know the disadvantages, it's small and it's hard not to fill up such
 
 The coffee and desserts are excellent, good Wifi, and a few sockets (that's the lucky seat :))
 
-"An outsider will probably know that Kinmen is also known as *Woo island (浯島)* and while staying on this small island, they once drank an unforgettable coffee." - Woo Life
+"An outsider will probably know that Kinmen is also known as *Woo Island (浯島)* and while staying on this small island, they once drank an unforgettable coffee." - Woo Life
 
 This is indeed the case.
