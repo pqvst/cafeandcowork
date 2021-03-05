@@ -15,7 +15,7 @@ power: 5
 vacancy: 3
 comfort: 4
 quiet: 3
-food: 5
+food: 4
 drinks: 3
 price: 4
 view: 4
