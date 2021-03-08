@@ -92,6 +92,32 @@ function getAdjustedTime(m) {
   return (hour * 100) + min;
 }
 
+exports.isOpeningSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      console.log(time, place.hours[dow][0])
+      return time < place.hours[dow][0];
+    }
+  }
+  return false;
+}
+
+exports.isClosingSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      const closingIn = place.hours[dow][1] - time;
+      return closingIn > 0 && closingIn <= 100;
+    }
+  }
+  return false;
+}
+
 exports.isClosedToday = function(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);

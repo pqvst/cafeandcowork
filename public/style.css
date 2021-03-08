@@ -452,6 +452,12 @@ tr span.closed {
   font-weight: 400;
 }
 
+.place .hours-warning {
+  margin-left: 10px;
+  color: #f39c12;
+  font-weight: 400;
+}
+
 .place .updated {
   margin-left: 5px;
 }

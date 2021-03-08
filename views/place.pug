@@ -13,6 +13,10 @@ block body
         span.closed Permanently Closed
       else if isClosedToday(city, place)
         span.closed(data-nosnippet) Closed Today
+      else if isOpeningSoon(city, place)
+        span.hours-warning(data-nosnippet) Opens at #{getOpeningTime(city, place)}
+      else if isClosingSoon(city, place)
+        span.hours-warning(data-nosnippet) Closing Soon (#{getClosingTime(city, place)})
       else if isClosedNow(city, place)
         span.closed(data-nosnippet) Closed Now
       
