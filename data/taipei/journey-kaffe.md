@@ -42,4 +42,4 @@ images:
 
 Not only is this a very work-friendly place, but the food is also fantastic, with many great choices and large portions. If you're looking for a place where you can sit and work all day without going somewhere else to get food, then this is definitely your place! It can get pretty busy though, so arrive before or after the weekday lunch rush to make sure you get a good seat.
 
-The interior is very large with seating available on two floors. The large workable in the middle is quite comfortable. There are power outlets at nearly every seat (even in the floor under the large worktable). However, the WiFi was extremely slow, so you'll probably need to a mobile hotspot if you need reliable internet.
+The interior is very large with seating available on two floors. The large workable in the middle is quite comfortable. There are power outlets at nearly every seat (even in the floor under the large work table). However, the WiFi was extremely slow, so you'll probably need to use a mobile hotspot if you need reliable internet.
