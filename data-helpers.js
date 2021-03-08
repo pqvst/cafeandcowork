@@ -20,17 +20,17 @@ exports.getScore = function(place) {
   return Math.min(score, 5);
 }
 
-const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
 exports.getHours = function(hours) {
   if (hours) {
     const res = [];
     if (typeof hours === 'string') {
-      for (const day of days) {
+      for (const day of DAYS) {
         res.push(getTimes(hours));
       }
     } else {
-      for (const day of days) {
+      for (const day of DAYS) {
         res.push(getTimes(hours[day]));
       }
     }

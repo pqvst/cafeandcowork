@@ -73,10 +73,7 @@ exports.formatHours = function(hours) {
 
 // Get current day of week, adjusted for late hours (until 5am)
 function getAdjustedDay(m) {
-  let dow = m.day();
-  if (dow < 0) {
-    dow = 6;
-  }
+  const dow = m.day();
   const hour = m.hour();
   if (hour < 5) {
     return (dow == 0) ? 6 : dow - 1;
