@@ -64,12 +64,14 @@
     const arr = Array.from(places).reverse();
     for (const place of arr) {
       if (!place.closed) {
-        if (!filter || place.filter.toLowerCase().includes(filter)) {
-          bounds.extend(place.coordinates);
-          markers[place.url].addTo(map);
-          count++;
-        } else {
-          markers[place.url].remove();
+        if (markers[place.url]) {
+          if (!filter || place.filter.toLowerCase().includes(filter)) {
+            bounds.extend(place.coordinates);
+            markers[place.url].addTo(map);
+            count++;
+          } else {
+            markers[place.url].remove();
+          }
         }
       }
     }
