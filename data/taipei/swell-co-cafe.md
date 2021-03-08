@@ -14,8 +14,8 @@ hours:
   fri: 11-20
   sat: 10:30-20:30
   sun: 10:30-20
-wifi: 5
-speed: 65
+wifi: 3
+speed: 8
 power: 3
 vacancy: 3
 comfort: 3
@@ -44,4 +44,4 @@ images:
   - food.jpg
 ---
 
-One of my favorite cafes in Daan. Nice interior and great atmosphere. The food and drinks are really good, but definitely on the expensive side. Great WiFi and plenty of power outlets (although they encourage donations for using the power outlets, which is a little weird). Mornings are very quiet, but it usually gets pretty busy and noisy starting around lunch time and towards the afternoon.
+One of my favorite cafes in Daan. Nice interior and great atmosphere. The food and drinks are really good, but definitely on the expensive side. The WiFi used to be very fast, but seems to have gotten slower recently. Plenty of power outlets (although they encourage donations for using the power outlets, which is a little weird). Mornings are very quiet, but it usually gets pretty busy and noisy starting around lunch time and towards the afternoon.
