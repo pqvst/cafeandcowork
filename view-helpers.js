@@ -108,7 +108,7 @@ exports.isClosedNow = function(city, place) {
   const time = getAdjustedTime(m);
   if (place.hours) {
     if (place.hours[dow]) {
-      return time < place.hours[dow][0] || time > place.hours[dow][1];
+      return time < place.hours[dow][0] || time >= place.hours[dow][1];
     } else {
       return true;
     }
