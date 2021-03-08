@@ -12,9 +12,9 @@ block body
       if place.closed
         span.closed Permanently Closed
       else if isClosedToday(city, place)
-        span.closed Closed Today
+        span.closed(data-nosnippet) Closed Today
       else if isClosedNow(city, place)
-        span.closed Closed Now
+        span.closed(data-nosnippet) Closed Now
       
     .info
       if place.area
