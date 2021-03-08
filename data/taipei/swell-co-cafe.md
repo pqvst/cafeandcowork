@@ -31,6 +31,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: true
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/SWELL-CO-CAFE-1008869809231731/
 instagram: https://www.instagram.com/swellcocafe/
 telephone: "+886227003003"
