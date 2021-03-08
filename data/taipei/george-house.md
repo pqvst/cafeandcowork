@@ -1,0 +1,47 @@
+---
+added: 2021-03-04
+name: GEORGE HOUSE
+type: Cafe
+area: Daan
+google_maps: https://goo.gl/maps/wvprsuFrMzmiqe1f9
+coordinates: 25.028942496024765, 121.53003604520855
+address: No. 3號, Lane 75, Yongkang Street, Da’an District, Taipei City, 106
+station: Dongmen
+hours:
+  tue: 13:30-22
+  wed: 13:30-22
+  thu: 13:30-22
+  fri: 13:30-22
+  sat: 13:30-22
+  sun: 13:30-22
+wifi: 3
+speed: 10
+power: 4
+vacancy: 4
+comfort: 3
+quiet: 4
+food: 0
+drinks: 4
+price: 3
+view: 3
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: true
+cash_only: 
+animals: false
+lactose_free_milk: 
+facebook: https://www.facebook.com/georgehousecoffee/
+instagram: 
+telephone: "+886223920801"
+website: http://www.georgehousefinecoffee.com/
+images:
+  - outside.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - menu1.jpg
+  - menu2.jpg
+---
+
+A quiet coffee shop near Yongkang Street. This cafe definitely focuses on coffee and their selection is very large. Even so, they also have a good selection of tea. The interior is quite simple, but feels modern and clean, and the seats are comfortable. If you need power you should get one of the tables by the walls.
