@@ -7,6 +7,13 @@ const { I18n } = require('i18n');
 const i18n = new I18n({
   locales: ['en', 'zh-tw'],
   directory: 'locales',
+  missingKeyFn: function (locale, value) {
+    if (value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
+      return value.split(':').slice(1).join(':').slice(1);
+    } else {
+      return value;
+    }
+  },
 });
 
 const data = require('./data');
@@ -75,22 +82,26 @@ for (const locale of i18n.getLocales()) {
     res.render('index', { url: '/' });
   });
 
-  for (const city of app.locals.cities) {
+  for (const city of app.locals.cities) {    
+    const cityDescription = data.getCityDescription(i18n, locale, city);
+
     app.get(`${prefix}/${city.id}`, redirectWithTrailingSlash);
     app.get(`${prefix}/${city.id}/`, (req, res) => {
       res.render('city', {
-        title: city.title,
-        description: city.description,
+        title: city.name,
+        description: cityDescription,
         url: city.url,
         city
       });
     });
     for (const place of city.places) {
+      const placeDescription = data.getPlaceDescription(i18n, locale, place);
+
       app.get(`${prefix}/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
       app.get(`${prefix}/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
         res.render('place', {
-          title: place.title,
-          description: place.description,
+          title: place.name,
+          description: placeDescription,
           url: place.url,
           image: place.images && place.images.length > 0 ? place.images[0] : null,
           city,

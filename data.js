@@ -20,34 +20,52 @@ function filterValidFiles(filename) {
   return !filename.startsWith('.');
 }
 
-function getPlaceDescription(place) {
-  const { type, cityName, area, power, wifi, speed, markdown } = place;
+function getPlaceDescription(i18n, locale, place) {
+  const { __ } = i18n;
+  const { power, wifi, speed } = place;
   
+  const type = __({ locale, phrase: place.type });
+  const city = __({ locale, phrase: `City: ${place.cityName}` });
+  const area = place.area ? __({ locale, phrase: `Area: ${place.area }` }) : null;
+
   let text;
   if (area) {
-    text = `${type} in ${area}, ${cityName}.`
+    text = __({ locale, phrase: '{{type}} in {{area}}, {{city}}.' }, { type, area, city })
   } else {
-    text = `${type} in ${cityName}.`
+    text = __({ locale, phrase: '{{type}} in {{area}}.' }, { type, area: city });
   }
+
   if (power && wifi && speed) {
-    text += ` ${speed} Mb/s WiFi and power outlets available.`
+    text += __({ locale, phrase: ' {{speed}} Mb/s WiFi and power outlets available.' }, { speed });
   } else if (power && wifi) {
-    text += ` WiFi and power outlets available.`
+    text += __({ locale, phrase: ' WiFi and power outlets available.' });
   } else if (power) {
-    text += ` Power outlets available.`
+    text += __({ locale, phrase: ' Power outlets available.' });
   } else if (wifi && speed) {
-    text += ` ${speed} Mb/s WiFi available.`
+    text += __({ locale, phrase: ' {{speed}} Mb/s WiFi available.' });
   } else if (wifi) {
-    text += ` WiFi available.`;
-  } 
-  if (markdown) {
-    text += ` ${markdown}`;
+    text += __({ locale, phrase: ' WiFi available.' });
   }
+
+  let review;
+  if (place.review && place.review[locale]) {
+    review = place.review[locale];
+  } else if (place.markdown && locale == 'en') {
+    review = place.markdown;
+  }
+
+  if (review) {
+    text += ` ${review}`;
+  }
+
   return text;
 }
 
-function getCityDescription(city) {
-  return `Explore cafes and coworking spaces in ${city.name}, ${city.country}. Find the best places with power outlets and fast WiFi to work or study from.`;
+function getCityDescription(i18n, locale, city) {
+  return i18n.__({
+    locale,
+    phrase: `Explore cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.`,
+  }, { city: city.name, country: city.country });
 }
 
 function parseCoordinates(coords) {
@@ -80,7 +98,6 @@ function getPlaces() {
         const place = Object.assign(placeData, {
           id: name,
           url: `/${cityId}/${name}/`,
-          title: placeData.name,
           coordinates: parseCoordinates(placeData.coordinates),
           city: cityId,
           file: `${cityId}/${placeFile}`,
@@ -108,16 +125,13 @@ function getCities(places) {
       const city = Object.assign(cityData, {
         id,
         url: `/${id}/`,
-        title: cityData.name,
         coordinates: parseCoordinates(cityData.coordinates),
         places: [],
       });
-      city.description = getCityDescription(city);
       cities[place.city] = city;
     }
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;
-    place.description = getPlaceDescription(place);
     cities[place.city].places.push(place);
   }
   return _(cities)
@@ -211,4 +225,4 @@ function load() {
   return { cities, places, areas, stations, recent, top };
 }
 
-module.exports = { load };
+module.exports = { load, getCityDescription, getPlaceDescription };

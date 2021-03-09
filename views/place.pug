@@ -22,9 +22,9 @@ block body
 
     .info
       if place.area
-        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(place.area), city: __(city.name) })
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(`Area: ${place.area}`), city: __(`City: ${city.name}`) })
       else
-        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}', { type: __(place.type), area: __(city.name) })
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${city.name}`) })
 
     if place.images
       .images
@@ -102,9 +102,9 @@ block body
         if place.station
           dt #[span.icon 🚇] #{__('Station')}
           if place.stationUrl
-            dd: a(href=place.stationUrl)= __(place.station)
+            dd: a(href=place.stationUrl)= __(`Station: ${place.station}`)
           else
-            dd= __(place.station)
+            dd= __(`Station: ${place.station}`)
         if place.opens && place.closes
           dt #[span.icon ⏰] #{__('Hours')}
           dd #{place.opens} to #{place.closes}
@@ -117,12 +117,12 @@ block body
         if place.area
           dt= __('Area')
           if place.areaUrl
-            dd: a(href=place.areaUrl)= place.area
+            dd: a(href=place.areaUrl)= __(`Area: ${place.area}`)
           else
-            dd= __(place.area)
+            dd= __(`Area: ${place.area}`)
         if place.address
           dt= __('Address')
-          dd: a(href=place.google_maps)= place.address
+          dd: a(href=place.google_maps)= place.address[locale] || place.address
         if place.facebook
           dt= __('Facebook')
           dd: a(href=place.facebook)= formatUrl(place.facebook)

@@ -17,9 +17,9 @@ block body
           span.star ★
       .details
         if city || !place.area
-          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(place.cityName) })
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${place.cityName}`) })
         else
-          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(place.area) })
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`Area: ${place.area}`) })
         
   .index
     include header
@@ -30,7 +30,7 @@ block body
             h2
               a(href=`${prefix}${city.url}`)
                 span.flag= city.flag
-                span= __(city.name)
+                span= __(`City: ${city.name}`)
                 span.info
                   span= __('{{count}} places', { count: city.places.length })
                   i.fa.fa-angle-right

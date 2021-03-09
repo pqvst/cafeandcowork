@@ -11,7 +11,7 @@ block body
       each city in cities
         a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
           span.flag= city.flag
-          span= __(city.name)
+          span= __(`City: ${city.name}`)
 
     script.
       document.querySelector('h2 a.active').scrollIntoView();
@@ -80,9 +80,9 @@ block body
               td(data-tip=__("Area"))
                 if e.area
                   if e.areaUrl
-                    a(href=e.areaUrl)= __(e.area)
+                    a(href=e.areaUrl)= __(`Area: ${e.area}`)
                   else
-                    span= __(e.area)
+                    span= __(`Area: ${e.area}`)
               if isClosedToday(city, e)
                 td(colspan=2)= __("Closed Today")
               else
@@ -96,7 +96,7 @@ block body
         url: e.url,
         score: e.score,
         coordinates: e.coordinates,
-        filter: `${e.name} ${e.type} ${__(e.type)} ${e.area} ${e.area ? __(e.area) : ''} ${e.station} ${e.station ? __(e.station) : ''} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
+        filter: `${e.name} ${e.type} ${__(e.type)} ${e.area} ${e.area ? __(`Area: ${e.area}`) : ''} ${e.station} ${e.station ? __(`Station: ${e.station}`) : ''} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
         hours: e.hours,
         closed: e.closed,
       };
