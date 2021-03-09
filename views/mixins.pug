@@ -17,11 +17,20 @@ mixin attribute(value, expanded)
 mixin score(place)
   span= formatScore(place.score)
 
-mixin hours(hours)
-  div #{__('Mon:')} #{formatHours(hours[1]) || __('Closed')}
-  div #{__('Tue:')} #{formatHours(hours[2]) || __('Closed')}
-  div #{__('Wed:')} #{formatHours(hours[3]) || __('Closed')}
-  div #{__('Thu:')} #{formatHours(hours[4]) || __('Closed')}
-  div #{__('Fri:')} #{formatHours(hours[5]) || __('Closed')}
-  div #{__('Sat:')} #{formatHours(hours[6]) || __('Closed')}
-  div #{__('Sun:')} #{formatHours(hours[0]) || __('Closed')}
+mixin times(city, place, dow)
+  if place.hours[dow]
+    if isOpen24Hours(city, place, dow)
+      span= __('Open 24 Hours')
+    else
+      span= formatHours(place.hours[dow])
+  else
+    span= __('Closed')
+
+mixin hours(city, place)
+  div #{__('Mon:')} #[+times(city, place, 1)]
+  div #{__('Tue:')} #[+times(city, place, 2)]
+  div #{__('Wed:')} #[+times(city, place, 3)]
+  div #{__('Thu:')} #[+times(city, place, 4)]
+  div #{__('Fri:')} #[+times(city, place, 5)]
+  div #{__('Sat:')} #[+times(city, place, 6)]
+  div #{__('Sun:')} #[+times(city, place, 0)]

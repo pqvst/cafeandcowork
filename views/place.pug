@@ -11,14 +11,15 @@ block body
         span= place.name
       if place.closed
         span.closed= __('Permanently Closed')
-      else if isClosedToday(city, place)
-        span.closed(data-nosnippet)= __('Closed Today')
-      else if isOpeningSoon(city, place)
-        span.hours-warning(data-nosnippet)= __('Opens at {{time}}', { time: getOpeningTime(city, place) })
-      else if isClosingSoon(city, place)
-        span.hours-warning(data-nosnippet)= __('Closing soon ({{time}})', { time: getClosingTime(city, place) })
-      else if isClosedNow(city, place)
-        span.closed(data-nosnippet)= __('Closed Now')
+      else if !isOpen24Hours(city, place)
+        if isClosedToday(city, place)
+          span.closed(data-nosnippet)= __('Closed Today')
+        else if isOpeningSoon(city, place)
+          span.hours-warning(data-nosnippet)= __('Opens at {{time}}', { time: getOpeningTime(city, place) })
+        else if isClosingSoon(city, place)
+          span.hours-warning(data-nosnippet)= __('Closing soon ({{time}})', { time: getClosingTime(city, place) })
+        else if isClosedNow(city, place)
+          span.closed(data-nosnippet)= __('Closed Now')
 
     .info
       if place.area
@@ -110,7 +111,7 @@ block body
           dd #{place.opens} to #{place.closes}
         if place.hours
           dt #[span.icon ⏰] #{__('Hours')}
-          dd: +hours(place.hours)
+          dd: +hours(city, place)
       dl
         dt= __('Type')
         dd= __(place.type)

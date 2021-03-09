@@ -96,7 +96,6 @@ exports.isOpeningSoon = function(city, place) {
   const time = getAdjustedTime(m);
   if (place.hours) {
     if (place.hours[dow]) {
-      console.log(time, place.hours[dow][0])
       return time < place.hours[dow][0];
     }
   }
@@ -154,5 +153,17 @@ exports.getClosingTime = function(city, place) {
   const dow = getAdjustedDay(m);
   if (place.hours && place.hours[dow]) {
     return formatTime(place.hours[dow][1]);
+  }
+}
+
+exports.isOpen24Hours = function(city, place, dow) {
+  const m = moment.tz(city.timezone);
+  if (dow == null) {
+    dow = getAdjustedDay(m);
+  }
+  if (place.hours && place.hours[dow]) {
+    return place.hours[dow][0] == 0 && place.hours[dow][1] == 2400;
+  } else {
+    return false;
   }
 }
