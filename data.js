@@ -62,10 +62,20 @@ function getPlaceDescription(i18n, locale, place) {
 }
 
 function getCityDescription(i18n, locale, city) {
-  return i18n.__({
-    locale,
-    phrase: `Explore cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.`,
-  }, { city: city.name, country: city.country });
+  const { __ } = i18n;
+  const name = __({ locale, phrase: `City: ${city.name}` });
+  const country = __({ locale, phrase: `Country: ${city.country}` });
+  if (name == country) {
+    return __({
+      locale,
+      phrase: 'Explore cafes and coworking spaces in {{name}}. Find the best places with power outlets and fast WiFi to work or study from.',
+    }, { name });
+  } else {
+    return __({
+      locale,
+      phrase: 'Explore cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.',
+    }, { name, country });
+  }
 }
 
 function parseCoordinates(coords) {

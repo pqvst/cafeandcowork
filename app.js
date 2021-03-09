@@ -8,7 +8,7 @@ const i18n = new I18n({
   locales: ['en', 'zh-tw'],
   directory: 'locales',
   missingKeyFn: function (locale, value) {
-    if (value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
+    if (value.startsWith('Country:') || value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
       return value.split(':').slice(1).join(':').slice(1);
     } else {
       return value;
@@ -88,7 +88,7 @@ for (const locale of i18n.getLocales()) {
     app.get(`${prefix}/${city.id}`, redirectWithTrailingSlash);
     app.get(`${prefix}/${city.id}/`, (req, res) => {
       res.render('city', {
-        title: city.name,
+        title: res.__(`City: ${city.name}`),
         description: cityDescription,
         url: city.url,
         city
