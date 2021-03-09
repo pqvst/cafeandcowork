@@ -80,7 +80,9 @@ block body
                   a(href=e.areaUrl)= e.area
                 else
                   span= e.area
-              if isClosedToday(city, e)
+              if isOpen24Hours(city, e)
+                td(colspan=2) Open 24 Hours
+              else if isClosedToday(city, e)
                 td(colspan=2) Closed Today
               else
                 td(data-tip="Opens")= getOpeningTime(city, e)
