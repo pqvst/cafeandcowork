@@ -12,10 +12,14 @@ block body
       if place.closed
         span.closed= __('Permanently Closed')
       else if isClosedToday(city, place)
-        span.closed= __('Closed Today')
+        span.closed(data-nosnippet)= __('Closed Today')
+      else if isOpeningSoon(city, place)
+        span.hours-warning(data-nosnippet)= __('Opens at {{time}}', { time: getOpeningTime(city, place) })
+      else if isClosingSoon(city, place)
+        span.hours-warning(data-nosnippet)= __('Closing soon ({{time}})', { time: getClosingTime(city, place) })
       else if isClosedNow(city, place)
-        span.closed= __('Closed Now')
-      
+        span.closed(data-nosnippet)= __('Closed Now')
+
     .info
       if place.area
         a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(place.area), city: __(city.name) })

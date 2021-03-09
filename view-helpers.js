@@ -71,10 +71,7 @@ exports.formatHours = function(hours) {
 
 // Get current day of week, adjusted for late hours (until 5am)
 function getAdjustedDay(m) {
-  let dow = m.day();
-  if (dow < 0) {
-    dow = 6;
-  }
+  const dow = m.day();
   const hour = m.hour();
   if (hour < 5) {
     return (dow == 0) ? 6 : dow - 1;
@@ -93,6 +90,32 @@ function getAdjustedTime(m) {
   return (hour * 100) + min;
 }
 
+exports.isOpeningSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      console.log(time, place.hours[dow][0])
+      return time < place.hours[dow][0];
+    }
+  }
+  return false;
+}
+
+exports.isClosingSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      const closingIn = place.hours[dow][1] - time;
+      return closingIn > 0 && closingIn <= 100;
+    }
+  }
+  return false;
+}
+
 exports.isClosedToday = function(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
@@ -109,7 +132,7 @@ exports.isClosedNow = function(city, place) {
   const time = getAdjustedTime(m);
   if (place.hours) {
     if (place.hours[dow]) {
-      return time < place.hours[dow][0] || time > place.hours[dow][1];
+      return time < place.hours[dow][0] || time >= place.hours[dow][1];
     } else {
       return true;
     }

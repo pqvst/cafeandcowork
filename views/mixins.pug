@@ -18,10 +18,10 @@ mixin score(place)
   span= formatScore(place.score)
 
 mixin hours(hours)
-  div #{__('Mon:')} #{formatHours(hours[0]) || __('Closed')}
-  div #{__('Tue:')} #{formatHours(hours[1]) || __('Closed')}
-  div #{__('Wed:')} #{formatHours(hours[2]) || __('Closed')}
-  div #{__('Thu:')} #{formatHours(hours[3]) || __('Closed')}
-  div #{__('Fri:')} #{formatHours(hours[4]) || __('Closed')}
-  div #{__('Sat:')} #{formatHours(hours[5]) || __('Closed')}
-  div #{__('Sun:')} #{formatHours(hours[6]) || __('Closed')}
+  div #{__('Mon:')} #{formatHours(hours[1]) || __('Closed')}
+  div #{__('Tue:')} #{formatHours(hours[2]) || __('Closed')}
+  div #{__('Wed:')} #{formatHours(hours[3]) || __('Closed')}
+  div #{__('Thu:')} #{formatHours(hours[4]) || __('Closed')}
+  div #{__('Fri:')} #{formatHours(hours[5]) || __('Closed')}
+  div #{__('Sat:')} #{formatHours(hours[6]) || __('Closed')}
+  div #{__('Sun:')} #{formatHours(hours[0]) || __('Closed')}
