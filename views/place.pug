@@ -38,23 +38,23 @@ block body
     .content!= place.content
 
     .buttons
-      a.button.maps(href=place.google_maps target="_blank")
+      a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
         i.fa.fa-map
         span Google Maps
       if place.facebook
-        a.button.facebook(href=place.facebook target="_blank")
+        a.button.facebook(href=place.facebook target="_blank").umami--click--place-button-facebook
           i.fa.fa-facebook
           span Facebook
       if place.instagram
-        a.button.instagram(href=place.instagram target="_blank")
+        a.button.instagram(href=place.instagram target="_blank").umami--click--place-button-instagram
           i.fa.fa-instagram
           span Instagram
       if place.website
-        a.button.website(href=place.website target="_blank")
+        a.button.website(href=place.website target="_blank").umami--click--place-button-website
           i.fa.fa-external-link
           span Website
       if place.telephone
-        a.button.telephone(href=`tel:${place.telephone}`)
+        a.button.telephone(href=`tel:${place.telephone}`).umami--click--place-button-telephone
           i.fa.fa-phone
           span Call
       //-a.button(href=`${github}/tree/master/${file}` target="_blank")
@@ -124,19 +124,19 @@ block body
           dd= place.area
         if place.address
           dt Address
-          dd: a(href=place.google_maps)= place.address
+          dd: a(href=place.google_maps).umami--click--place-link-address= place.address
         if place.facebook
           dt Facebook
-          dd: a(href=place.facebook)= formatUrl(place.facebook)
+          dd: a(href=place.facebook).umami--click--place-link-facebook= formatUrl(place.facebook)
         if place.instagram
           dt Instagram
-          dd: a(href=place.instagram)= formatUrl(place.instagram)
+          dd: a(href=place.instagram).umami--click--place-link-instagram= formatUrl(place.instagram)
         if place.website
           dt Website
-          dd: a(href=place.website)= formatUrl(place.website)
+          dd: a(href=place.website).umami--click--place-link-website= formatUrl(place.website)
         if place.telephone
           dt Telephone
-          dd: a(href=`tel:${place.telephone}`)= place.telephone
+          dd: a(href=`tel:${place.telephone}`).umami--click--place-link-telephone= place.telephone
         if place.updated || place.added
           dt Updated
           dd #{formatDate(place.updated || place.added)}
@@ -145,7 +145,7 @@ block body
           dd
             each contributor in place.contributors
               div
-                a(href=contributor target="_blank")= formatUrl(contributor)
+                a(href=contributor target="_blank").umami--click--place-link-contributor= formatUrl(contributor)
 
     .map
       #map
