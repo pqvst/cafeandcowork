@@ -5,9 +5,7 @@ type: Cafe
 area: Taichung
 google_maps: https://g.page/heynutscafe?share
 coordinates: 24.155294284314838, 120.65687372721702
-address:
-  en: No. 15號, Jingcheng 6th Street, West District, Taichung City, 403
-  zh-tw: 403台中市西區精誠六街15號
+address: No. 15號, Jingcheng 6th Street, West District, Taichung City, 403
 station: 
 hours: 9-21
 wifi: 1
