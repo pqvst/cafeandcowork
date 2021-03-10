@@ -68,8 +68,8 @@ block body
         dt #[span.icon 💻] WiFi
         dd
           +attribute(place.wifi, true)
-          if speed
-            span.speed (#{speed} Mb/s)
+          if place.speed
+            span.speed (#{place.speed} Mb/s)
         dt #[span.icon 🔌] Power
         dd: +attribute(place.power, true)
         dt #[span.icon 🪑] Vacancy
