@@ -24,7 +24,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: 
-animals: 
+animals: true
 lactose_free_milk: 
 facebook: https://www.facebook.com/heynutscafe/
 instagram: https://www.instagram.com/heynutscafe/
