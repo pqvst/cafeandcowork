@@ -78,7 +78,7 @@
     if (count) {
       clearTimeout(tid);
       tid = setTimeout(() => {
-        map.fitBounds(bounds, { padding: 50, linear: true, maxZoom: 17 });
+        map.fitBounds(bounds, { padding: 100, linear: true, maxZoom: 17 });
       }, filter ? 150 : 0);
     }
   }
