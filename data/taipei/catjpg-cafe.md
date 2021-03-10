@@ -32,6 +32,7 @@ standing_tables: false
 outdoor_seating: 
 cash_only: 
 animals: true
+lactose_free_milk: true
 facebook: https://www.facebook.com/cat.jpg.cafe
 instagram: https://www.instagram.com/cat.jpgcafe/
 telephone: "+886233652865"
