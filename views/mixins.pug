@@ -1,7 +1,7 @@
 
 mixin attribute(value, expanded)
   span(class=getValueColor(value))
-    if value != Null
+    if value != null
       span= getValueText(value)
     else
       a(href=site.github title="Add missing data" target="_blank")
