@@ -6,7 +6,7 @@ area: Zhongzheng
 google_maps: https://goo.gl/maps/BicUr3pWaCHcqEHZ7
 coordinates: 25.046387531262866, 121.50983104930066
 address: No. 23, Section 1, Zhonghua Road, Zhongzheng District, Taipei City, Taiwan 100
-station: Bimen
+station: Beimen
 hours: 8:30-20
 wifi: 3
 speed: 20
