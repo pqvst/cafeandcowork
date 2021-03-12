@@ -31,10 +31,16 @@ smoking: false
 standing_tables: true
 outdoor_seating: true
 cash_only: 
-animals: false
+animals: true
 lactose_free_milk: 
 facebook: https://www.facebook.com/jytcafe
 instagram: https://www.instagram.com/jytcafe/
 telephone: "+886423260793"
 website: https://www.jyt.cafe/
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - menu.jpg
 ---

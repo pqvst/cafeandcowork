@@ -30,6 +30,18 @@ facebook: https://www.facebook.com/mojocoffee2003
 instagram: https://www.instagram.com/mojocoffee.2003/
 telephone: "+886423289448"
 website: https://www.mojocoffee.com.tw/
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - interior.jpg
+  - cup.jpg
+  - power.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
 ---
 
-Jazz music
+A popular cafe for working and having meetings. Soft background jazz music.

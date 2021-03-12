@@ -37,4 +37,12 @@ facebook: https://www.facebook.com/zellercoffee/
 instagram: https://www.instagram.com/zeller_coffee/
 telephone: "+886423207989"
 website: 
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - interior.jpg
 ---
