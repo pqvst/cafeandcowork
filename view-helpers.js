@@ -167,3 +167,17 @@ exports.isOpen24Hours = function(city, place, dow) {
     return false;
   }
 }
+
+exports.isSameHoursEveryDay = function (place) {
+  if (place.hours) {
+    for (let dow = 0; dow < 7; dow++) {
+      if (place.hours[dow] == null || place.hours[0] == null) {
+        return false;
+      }
+      if (place.hours[dow].join('') != place.hours[0].join('')) {
+        return false;
+      }
+    }
+  }
+  return true;
+}

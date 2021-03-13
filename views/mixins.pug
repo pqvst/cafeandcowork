@@ -27,10 +27,13 @@ mixin times(city, place, dow)
     span= __('Closed')
 
 mixin hours(city, place)
-  div #{__('Mon:')} #[+times(city, place, 1)]
-  div #{__('Tue:')} #[+times(city, place, 2)]
-  div #{__('Wed:')} #[+times(city, place, 3)]
-  div #{__('Thu:')} #[+times(city, place, 4)]
-  div #{__('Fri:')} #[+times(city, place, 5)]
-  div #{__('Sat:')} #[+times(city, place, 6)]
-  div #{__('Sun:')} #[+times(city, place, 0)]
+  if isSameHoursEveryDay(place)
+    +times(city, place, 1)
+  else
+    div #{__('Mon:')} #[+times(city, place, 1)]
+    div #{__('Tue:')} #[+times(city, place, 2)]
+    div #{__('Wed:')} #[+times(city, place, 3)]
+    div #{__('Thu:')} #[+times(city, place, 4)]
+    div #{__('Fri:')} #[+times(city, place, 5)]
+    div #{__('Sat:')} #[+times(city, place, 6)]
+    div #{__('Sun:')} #[+times(city, place, 0)]
