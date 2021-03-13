@@ -40,7 +40,7 @@ images:
   - seating3.jpg
   - booth.jpg
   - meeting.jpg
-reviews:
+review:
   en: |
     A fairly new co-working space close to Taipei City Hall. The interior is nice and well designed with plenty of natural light. There are several large worktables for flex members. As a flex member you pay a very reasonable price per day that you visit, rather than a fixed monthly fee. Day passes are sold in batches of 10. Tea/coffee is included. Great WiFi and plenty of power outlets. There's also a meeting room, phone booth, and several other seating areas for relaxing and taking phone calls. All the staff members are extremely friendly!
   zh-tw: |
