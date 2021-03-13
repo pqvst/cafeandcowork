@@ -40,7 +40,7 @@ app.locals.site = {
   title: 'Cafe and Cowork',
   summary: 'Find Places to Work From',
   description: 'A curated collection of cafes and coworking spaces around the world. Find the best places with power outlets and fast WiFi to work or study from.',
-  url: 'https://cafeandcowork.com',
+  url: DEBUG ? 'http://localhost:3000' : 'https://cafeandcowork.com',
   github: 'https://github.com/pqvst/cafeandcowork',
   instagram: 'https://instagram.com/cafeandcowork',
 };
