@@ -46,6 +46,9 @@ images:
   - menu1.jpg
   - menu2.jpg
   - tea.jpg
+review:
+  en: |
+    A great cafe that specializes in Turkish tea, coffee, and desserts. The interior is nicely decorated and the food/drinks were really good (it's definitely worth visiting to try the food!). However, it is a little pricey compared to other cafes in the area. The WiFi was fast and stable, but I didn't see very many power outlets. At least one of the individual seats near the back entrance has access to power.
+  zh-tw: |
+    一家擅長土耳其茶、咖啡，以及甜點的小店，室內陳設充滿獨特的嬉皮風格，看起來在配色和選材上下了不少功夫。食物飲料都非常棒（覺得值得沖著餐點前來），當然價位在這區域也比較高些。Wifi很快且穩定，不過我沒看到太多插座，不過至少後面邊的一處可以充電。
 ---
-
-A great cafe that specializes in Turkish tea, coffee, and desserts. The interior is nicely decorated and the food/drinks were really good (it's definitely worth visiting to try the food!). However, it is a little pricey compared to other cafes in the area. The WiFi was fast and stable, but I didn't see very many power outlets. At least one of the individual seats near the back entrance has access to power.

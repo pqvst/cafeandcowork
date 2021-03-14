@@ -46,6 +46,11 @@ images:
   - menu1.jpg
   - menu2.jpg
   - food-and-drink.jpg
----
+review:
+  en: |
+    A great place if you’re looking for a quiet spot on a weekday. Large interior, although the big room feels a little dark and lacks natural light. Good drink selection, including oatly as an option. There's also a small selection of snacks, the banana and hazelnut toast was really tasty, and perfect if you need a small snack. Some power outlets are available, and the WiFi is decent.
+  zh-tw: |
+    這是一家平日往往很安靜的咖啡店，室內比室外看到的大得多，踏進主空間給人一種走進一般公寓餐廳的感覺，映入眼簾的是一張大桌，搭配著北歐風格的光源，給人溫暖，或者說——「宜家宜居」的感覺。飲品選項很不錯，也有燕麥奶可選，另外也有一些簡單的小點，香蕉榛果巧克力好吃！
 
-A great place if you’re looking for a quiet spot on a weekday. Large interior, although the big room feels a little dark and lacks natural light. Good drink selection, including oatly as an option. There's also a small selection of snacks, the banana and hazelnut toast was really tasty, and perfect if you need a small snack. Some power outlets are available, and the WiFi is decent.
+    有一些插座，WiFi也很理想。
+---

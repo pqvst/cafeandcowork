@@ -37,6 +37,9 @@ images:
   - menu3.jpg
   - tea.jpg
   - food.jpg
+review:
+  en: |
+    A great little cafe near Yongchun MRT that is open late (until 23:30). It was surprisingly busy late on a weekday, almost full with people studying, working, or chatting. Nice modern interior and very comfortable chairs. There are some power outlets along the walls, the WiFi worked but was a little slow. Good drinks selection, with plenty of non-caffeine options for late night work, and the desserts/waffles looked very good.
+  zh-tw: |
+    一家在永春附近開到非常晚的咖啡店（到十一點半），令人驚訝即使在平日晚上也很熱鬧，很多人在這裡工作、讀書、聊天。裝潢很簡約漂亮，椅子很舒適，沿著牆邊有不少插座，有WiFi不過稍嫌慢。餐點選擇不少，特別是有不少適合晚上工作的無咖啡因飲料，甜點和鬆餅看起來都不錯。
 ---
-
-A great little cafe near Yongchun MRT that is open late (until 23:30). It was surprisingly busy late on a weekday, almost full with people studying, working, or chatting. Nice modern interior and very comfortable chairs. There are some power outlets along the walls, the WiFi worked but was a little slow. Good drinks selection, with plenty of non-caffeine options for late night work, and the desserts/waffles looked very good.

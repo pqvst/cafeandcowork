@@ -40,6 +40,9 @@ images:
   - menu1.jpg
   - menu2.jpg
   - tea.jpg
+review:
+  en: |
+    This bicycle shop (also known as "CDP" Cycle Dummies Pitstop) features a great workable cafe area with lots of natural light, good cheap drinks, and some simple food options. The WiFi can be slow and unstable at times, but it usually works. There are power outlets by most seats, but not at the large worktable. It opens early and doesn't get too crowded on weekdays.
+  zh-tw: |
+    這家單車店意外有著格外舒適的工作空間，室內透著提振精神的自然光。飲料經濟實惠，同時也有簡單的餐點選擇。WiFi偶爾不穩定不過大部分的時間都不錯，除了大工作桌以外，大部分的座位都有充電座。營業時間開得早開得好，平日並不是太擁擠。
 ---
-
-This bicycle shop (also known as "CDP" Cycle Dummies Pitstop) features a great workable cafe area with lots of natural light, good cheap drinks, and some simple food options. The WiFi can be slow and unstable at times, but it usually works. There are power outlets by most seats, but not at the large worktable. It opens early and doesn't get too crowded on weekdays.

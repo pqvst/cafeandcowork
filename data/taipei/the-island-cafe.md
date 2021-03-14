@@ -39,6 +39,9 @@ images:
   - menu2.jpg
   - menu3.jpg
   - tea.jpg
+review:
+  en: |
+    A very nice looking cafe located in an old traditional building which looks really nice from the outside. The interior feels quite cozy, with both counter seats and tables. It was very quiet in the morning but got quite busy around lunch. Most seats seem to have access to power and the WiFi was quite fast. They have an extensive drinks and food menu.
+  zh-tw: |
+    強烈日本風格的外觀非常引人注目，我很喜歡植物亂中有序的樣子，室內也非常舒適，有吧台和一般座位。早上很安靜，到了中午會開始繁忙起來。大部分的座位都能找到插座，WiFi也很快。菜單很豐富。
 ---
-
-A very nice looking cafe located in an old traditional building which looks really nice from the outside. The interior feels quite cozy, with both counter seats and tables. It was very quiet in the morning but got quite busy around lunch. Most seats seem to have access to power and the WiFi was quite fast. They have an extensive drinks and food menu.

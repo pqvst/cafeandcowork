@@ -39,6 +39,11 @@ images:
   - sign.jpg
   - menu1.jpg
   - menu2.jpg
----
+review:
+  en: |
+    An interesting cafe with three different seating areas, each with its own style. There's a large outdoor seating area as well. I'm not quite sure if this is a bar, restaurant, cafe, or maybe all three! The "lounge" room looks really cool, but it's not very suitable for working. The staff is friendly, there's good WiFi, and power outlets at some seats. It was almost empty during the late afternoon on a weekday, perhaps because the prices are quite high (200+ for a small drink) compared to some other cafes nearby.
+  zh-tw: |
+    這是一家很有趣的咖啡店，三個不同空間各自表述，同時還有一個很寬敞的戶外空間。我不太確定這裡到底是Bar、餐廳，還是咖啡店，也許都算吧？其中的「Lounge」空間實在太帥了，儘管不太適合用來工作。
 
-An interesting cafe with three different seating areas, each with its own style. There's a large outdoor seating area as well. I'm not quite sure if this is a bar, restaurant, cafe, or maybe all three! The "lounge" room looks really cool, but it's not very suitable for working. The staff is friendly, there's good WiFi, and power outlets at some seats. It was almost empty during the late afternoon on a weekday, perhaps because the prices are quite high (200+ for a small drink) compared to some other cafes nearby.
+    店員都很親切，WiFi也很好，部分座位有插座，傍晚通常很空，我猜是因為價位比周邊幾處高的關係，但值得一試（200+ for 小杯飲品）
+---

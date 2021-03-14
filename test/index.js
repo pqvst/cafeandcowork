@@ -7,7 +7,7 @@ const { cities, places } = data.load();
 const citySchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places', 'flag'],
+  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'places', 'flag'],
   properties: {
     id: { type: 'string' },
     name: { type: 'string' },
@@ -20,8 +20,6 @@ const citySchema = {
 
     // generated properties
     url: { type: 'string' },
-    title: { type: 'string' },
-    description: { type: 'string' },
     places: { type: 'array' },
   }
 }
@@ -63,7 +61,7 @@ const placeSchema = {
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
     google_maps: { type: 'string' },
-    address: { type: ['string', 'null'] },
+    address: { type: ['object', 'string', 'null'] },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
     speed: { type: ['number', 'null'] },
@@ -89,6 +87,7 @@ const placeSchema = {
     instagram: { type: ['string', 'null'] },
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
+    content: { type: 'string' },
 
     // legacy data properties
     opens: { type: ['string', 'null'] },
@@ -102,17 +101,12 @@ const placeSchema = {
     // generated properties
     id: { type: 'string' },
     url: { type: 'string' },
-    title: { type: 'string' },
-    description: { type: 'string' },
     city: { type: 'string' },
     cityUrl: { type: 'string' },
     cityName: { type: 'string' },
     file: { type: 'string' },
     score: { type: 'number' },
-
-    // content properties
-    content: { type: 'string' },
-    markdown: { type: 'string' },
+    review: { type: ['object', 'string'] },
   }
 }
 

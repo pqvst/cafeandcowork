@@ -40,6 +40,14 @@ exports.getHours = function(hours) {
   }
 }
 
+exports.getReview = function(place) {
+  if (place.content) {
+    return { en: place.review };
+  } else {
+    return place.review || {};
+  }
+}
+
 function getTimes(span) {
   if (!span) return null;
   const times = span.split('-');

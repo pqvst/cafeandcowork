@@ -8,9 +8,7 @@ exports.formatScore = function (n) {
   return n.toFixed(1);
 }
 
-exports.getValueText = function (value) {
-  if (value === true) return 'Yes';
-  if (value === false) return 'No';
+exports.getStarRating = function (value) {
   return value + ' ★';
 }
 
@@ -61,6 +59,7 @@ function formatTime(time) {
 }
 
 exports.formatHours = function(hours) {
+  if (!hours) return null;
   return hours.map(formatTime).join(' - ');
 }
 
@@ -167,4 +166,18 @@ exports.isOpen24Hours = function(city, place, dow) {
   } else {
     return false;
   }
+}
+
+exports.isSameHoursEveryDay = function (place) {
+  if (place.hours) {
+    for (let dow = 0; dow < 7; dow++) {
+      if (place.hours[dow] == null || place.hours[0] == null) {
+        return false;
+      }
+      if (place.hours[dow].join('') != place.hours[0].join('')) {
+        return false;
+      }
+    }
+  }
+  return true;
 }

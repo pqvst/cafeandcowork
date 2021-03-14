@@ -46,6 +46,9 @@ images:
   - seating5.jpg
   - menu.jpg
   - tea.jpg
+review:
+  en: |
+    A popular retro-style cafe near Taipei 101. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. It's ideal for studying or working for a long time since the seating is very comfortable and there is power everywhere. The WiFi is however not the best and can be quite slow at times. Drink selection is decent (tea could be better), and it's very cheap (55 NT$ for a tea).
+  zh-tw: |
+    Taipei101附近頗有名氣的一家復古風格咖啡店。這裡平日早上七點半就開了，很適合早鳥們。座位非常舒適，特別適合久坐工作和讀書，幾乎每一個座位都有插座。WiFi不是最好的，常常會停頓。飲料選擇適中且很便宜，只要55NT$。（茶可以更好）
 ---
-
-A popular retro-style cafe near Taipei 101. They open at 7:30 on weekdays so it's great if you need to get an early start to your day. It's ideal for studying or working for a long time since the seating is very comfortable and there is power everywhere. The WiFi is however not the best and can be quite slow at times. Drink selection is decent (tea could be better), and it's very cheap (55 NT$ for a tea).
