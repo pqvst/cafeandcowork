@@ -32,11 +32,8 @@ block body
         each image of place.images
           img(src=image data-action="zoom")
 
-    if place.review
-      if place.review[locale]
-        .content!= marked(place.review[locale])
-    else if place.content && locale == 'en'
-      .content!= marked(place.content)
+    if place.review[locale]
+      .content!= marked(place.review[locale])
 
     .buttons
       a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps

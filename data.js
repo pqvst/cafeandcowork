@@ -2,16 +2,15 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
-const { getHours, getScore } = require('./data-helpers');
+const { getHours, getScore, getReview } = require('./data-helpers');
 
 function parseFile(filename) {
   const file = fs.readFileSync(filename, 'utf8');
   const split = file.split('---');
   const data = yaml.parse(split[1]);
-  const markdown = split.slice(2).join('---').trim();
-  if (markdown) {
-    data.markdown = markdown;
-    data.content = markdown;
+  const content = split.slice(2).join('---').trim();
+  if (content) {
+    data.content = content;
   }
   return data;
 }
@@ -47,17 +46,10 @@ function getPlaceDescription(i18n, locale, place) {
     text += __({ locale, phrase: ' WiFi available.' });
   }
 
-  let review;
-  if (place.review && place.review[locale]) {
-    review = place.review[locale];
-  } else if (place.markdown && locale == 'en') {
-    review = place.markdown;
+  if (place.review[locale]) {
+    text += ` ${place.review[locale]}`;
   }
-
-  if (review) {
-    text += ` ${review}`;
-  }
-
+  
   return text;
 }
 
@@ -113,6 +105,7 @@ function getPlaces() {
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
           hours: getHours(placeData.hours),
+          review: getReview(placeData),
         });
         if (place.images) {
           place.images = place.images.map(image => `${place.url}${image}`);

@@ -87,6 +87,7 @@ const placeSchema = {
     instagram: { type: ['string', 'null'] },
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
+    content: { type: 'string' },
 
     // legacy data properties
     opens: { type: ['string', 'null'] },
@@ -105,11 +106,7 @@ const placeSchema = {
     cityName: { type: 'string' },
     file: { type: 'string' },
     score: { type: 'number' },
-
-    // content properties
     review: { type: ['object', 'string'] },
-    content: { type: 'string' },
-    markdown: { type: 'string' },
   }
 }
 
