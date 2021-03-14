@@ -109,6 +109,11 @@ header a.icon:hover {
   color: black;
 }
 
+header .language-picker {
+  font-size: 0.4em;
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 700px) {
   header h1 {
     font-size: 2em;
