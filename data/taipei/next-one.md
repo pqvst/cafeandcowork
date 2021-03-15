@@ -39,4 +39,9 @@ facebook: https://www.facebook.com/nextoneTW/
 instagram: https://www.instagram.com/nextone_store/
 telephone: "+886233221333"
 website: 
+images:
+  - entrance.jpg
+  - seating1.jpg
+  - menu.jpg
+  - seating2.jpg
 ---
