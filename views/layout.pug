@@ -16,7 +16,7 @@ html
     //- Social media tags
     meta(property="og:type" content="website")
     if url
-      meta(property="og:url" content=`${site.url}${url}`)
+      meta(property="og:url" content=`${site.url}${prefix}${url}`)
     meta(property="og:title" content=metaTitle)
     meta(property="og:description" content=metaDescription)
     meta(property="og:logo" content=`${site.url}/logo.png`)
@@ -31,12 +31,18 @@ html
     link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
     link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
+
+    if url
+      link(rel="alternate" href=`${site.url}${url}` hreflang="en")
+      link(rel="alternate" href=`${site.url}/zh-tw${url}` hreflang="zh-tw")
+      link(rel="alternate" href=`${site.url}${url}` hreflang="x-default")
     
     script(src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js')
     link(href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet')
 
     link(rel="preconnect" href="https://fonts.gstatic.com")
     link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css")
     link(rel="stylesheet" href=`/zoom.css?v=${v}`)
@@ -50,7 +56,7 @@ html
       script(async defer data-website-id="1f5e12d4-c35b-4890-b41e-81cd4af5ffcc" src="https://umami.pqvst.com/umami.js")
     
     block head
-  body
+  body(class=locale)
     main
       block body
 

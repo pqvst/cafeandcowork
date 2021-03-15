@@ -2,7 +2,19 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const rateLimit = require("express-rate-limit");
-const _ = require('lodash');
+const { I18n } = require('i18n');
+
+const i18n = new I18n({
+  locales: ['en', 'zh-tw'],
+  directory: 'locales',
+  missingKeyFn: function (locale, value) {
+    if (value.startsWith('Country:') || value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
+      return value.split(':').slice(1).join(':').slice(1);
+    } else {
+      return value;
+    }
+  },
+});
 
 const data = require('./data');
 const submit = require('./submit');
@@ -28,13 +40,14 @@ app.locals.site = {
   title: 'Cafe and Cowork',
   summary: 'Find Places to Work From',
   description: 'A curated collection of cafes and coworking spaces around the world. Find the best places with power outlets and fast WiFi to work or study from.',
-  url: 'https://cafeandcowork.com',
+  url: DEBUG ? 'http://localhost:3000' : 'https://cafeandcowork.com',
   github: 'https://github.com/pqvst/cafeandcowork',
   instagram: 'https://instagram.com/cafeandcowork',
 };
 
 app.locals.DEBUG = DEBUG;
 app.locals.v = Date.now();
+app.locals.marked = require('marked');
 
 Object.assign(app.locals, require('./view-helpers'));
 Object.assign(app.locals, data.load());
@@ -43,34 +56,62 @@ function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
-for (const city of app.locals.cities) {
-  app.get(`/${city.id}`, redirectWithTrailingSlash);
-  app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', {
-      title: city.title,
-      description: city.description,
-      url: city.url,
-      city
+app.use(i18n.init);
+
+for (const locale of i18n.getLocales()) {
+  const prefix = locale == 'en' ? '' : `/${locale}`;
+
+  app.use(`${prefix}/`, (req, res, next) => {
+    req.setLocale(locale);
+
+    res.locals.prefix = prefix;
+
+    res.locals.site = Object.assign({}, app.locals.site, {
+      title: res.__(app.locals.site.title),
+      summary: res.__(app.locals.site.summary),
+      description: res.__(app.locals.site.description),
     });
+    
+    next();
   });
-  for (const place of city.places) {
-    app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
-    app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', {
-        title: place.title,
-        description: place.description,
-        url: place.url,
-        image: place.images && place.images.length > 0 ? place.images[0] : null,
-        city,
-        place
+
+  if (prefix) {
+    app.get(`${prefix}`, redirectWithTrailingSlash);
+  }
+  app.get(`${prefix}/`, (req, res) => {
+    res.render('index', { url: '/' });
+  });
+
+  for (const city of app.locals.cities) {    
+    const cityDescription = data.getCityDescription(i18n, locale, city);
+
+    app.get(`${prefix}/${city.id}`, redirectWithTrailingSlash);
+    app.get(`${prefix}/${city.id}/`, (req, res) => {
+      res.render('city', {
+        title: res.__(`City: ${city.name}`),
+        description: cityDescription,
+        url: city.url,
+        city
       });
     });
-  }
-}
+    for (const place of city.places) {
+      const placeDescription = data.getPlaceDescription(i18n, locale, place);
 
-app.get('/', (req, res) => {
-  res.render('index');
-});
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
+        res.render('place', {
+          title: place.name,
+          description: placeDescription,
+          url: place.url,
+          image: place.images && place.images.length > 0 ? place.images[0] : null,
+          city,
+          place
+        });
+      });
+    }
+  }  
+
+}
 
 const submissionLimiter = rateLimit({
   keyGenerator: () => 'all',

@@ -9,36 +9,37 @@ block body
         +item(place, city)
 
   mixin item(place, city)
-    a(href=place.url)
+    a(href=`${prefix}${place.url}`)
       .primary
         span.name= place.name
         span.score(class=getValueColor(place.score))
           span #{formatScore(place.score)}
           span.star ★
       .details
-        if city
-          span #{place.type} in #{place.cityName}
+        if city || !place.area
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${place.cityName}`) })
         else
-          span #{place.type} in #{place.area}
-
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`Area: ${place.area}`) })
+        
   .index
     include header
     .columns
       each city in cities
-        if city.places.length
+        if city.places.length > 5
           .column
             h2
-              a(href=city.url)
-                span= city.name
+              a(href=`${prefix}${city.url}`)
+                span.flag= city.flag
+                span= __(`City: ${city.name}`)
                 span.info
-                  span #{city.places.length} places
+                  span= __('{{count}} places', { count: city.places.length })
                   i.fa.fa-angle-right
             +list(city.places.slice(0, 10))
-            a.more(href=city.url) Explore more
+            a.more(href=`${prefix}${city.url}`)= __('Explore more')
       .column
-        h2 Recently Added
+        h2= __('Recently Added')
         +list(recent, true)
       .column
-        h2 Top Rated
+        h2= __('Top Rated')
         +list(top, true)
       

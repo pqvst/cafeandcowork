@@ -40,6 +40,11 @@ images:
   - menu2.jpg
   - menu3.jpg
   - menu4.jpg
----
+review:
+  en: |
+    Trendy cafe/restaurant, modern interior, dim lighting, and lounge music. It's workable, but might be crowded/noisy during lunch and dinner time. There are two large worktables in the back, counter seating, and more tables near the front. Lots of power outlets, but the WiFi was very slow (at least in the front seating area). Good food, and the portion size was quite good, but a little pricey.
+  zh-tw: |
+    時尚的餐酒館+Cafe的複合式空間，一進門先走過一個優雅的植物區，再到寬敞的座位區。室內光線柔和，搭配放鬆的音樂。這在裡可以工作，不過可能氣氛輕鬆得讓人有點想拖延，而用餐時間則可能會有些擁擠和吵雜；非尖峰時刻也偶有特意來拍照的訪客，使得整體環境顯得有些輕浮，不過大體來說，是整頓得很精緻的一個空間，想靜下來打發時間的人看起來也不少。
 
-Trendy cafe/restaurant, modern interior, dim lighting, and lounge music. It's workable, but might be crowded/noisy during lunch and dinner time. There are two large worktables in the back, counter seating, and more tables near the front. Lots of power outlets, but the WiFi was very slow (at least in the front seating area). Good food, and the portion size was quite good, but a little pricey.
+    後方有兩張大工作桌和幾張吧台座位，前端的座位則是一般用餐型的陳列，距離較近，且WiFi非常慢，不過不論是哪個座位都能輕易找到插座。食物很好吃，份量也很足，有些貴但在這區算是很妥當的價格帶。
+---

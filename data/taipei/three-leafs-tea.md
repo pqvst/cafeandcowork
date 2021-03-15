@@ -36,6 +36,9 @@ images:
   - table.jpg
   - menu.jpg
   - interior.jpg
+review:
+  en: |
+    A combined tea shop and cafe that feels bright and modern. It's a good place for large groups since there are 3 large worktables (as well as some smaller tables). The WiFi is fast, and most of the tables have access to power outlets, but the chairs are not the most comfortable though. The menu is small, but the selection for both food and drinks is still quite good.
+  zh-tw: |
+    [三叶]喫茶與咖啡兼備，裝潢明亮而現代。這裡有三張大工作桌，很適合多人團體一起工作，同時也有幾張小桌給個人使用。WiFi非常快，大部分桌子都有插座，只可惜椅子不算是最好坐的。菜單種類不多，但都很不錯。
 ---
-
-A combined tea shop and cafe that feels bright and modern. It's a good place for large groups since there are 3 large worktables (as well as some smaller tables). The WiFi is fast, and most of the tables have access to power outlets, but the chairs are not the most comfortable though. The menu is small, but the selection for both food and drinks is still quite good.

@@ -1,13 +1,18 @@
 
 mixin attribute(value, expanded)
   span(class=getValueColor(value))
-    if value != Null
-      span= getValueText(value)
+    if value != null
+      if value === true
+        span= __('Yes')
+      else if value === false
+        span= __('No')
+      else
+        span= getStarRating(value)
     else
       a(href=site.github title="Add missing data" target="_blank")
         i.fa.fa-question-circle-o
         if expanded
-          span Add missing data
+          span= __('Add missing data')
   
 mixin score(place)
   span= formatScore(place.score)
@@ -15,17 +20,20 @@ mixin score(place)
 mixin times(city, place, dow)
   if place.hours[dow]
     if isOpen24Hours(city, place, dow)
-      span Open 24 Hours
+      span= __('Open 24 Hours')
     else
       span= formatHours(place.hours[dow])
   else
-    span Closed
+    span= __('Closed')
 
 mixin hours(city, place)
-  div Mon: #[+times(city, place, 1)]
-  div Tue: #[+times(city, place, 2)]
-  div Wed: #[+times(city, place, 3)]
-  div Thu: #[+times(city, place, 4)]
-  div Fri: #[+times(city, place, 5)]
-  div Sat: #[+times(city, place, 6)]
-  div Sun: #[+times(city, place, 0)]
+  if isSameHoursEveryDay(place)
+    +times(city, place, 1)
+  else
+    div #{__('Mon:')} #[+times(city, place, 1)]
+    div #{__('Tue:')} #[+times(city, place, 2)]
+    div #{__('Wed:')} #[+times(city, place, 3)]
+    div #{__('Thu:')} #[+times(city, place, 4)]
+    div #{__('Fri:')} #[+times(city, place, 5)]
+    div #{__('Sat:')} #[+times(city, place, 6)]
+    div #{__('Sun:')} #[+times(city, place, 0)]

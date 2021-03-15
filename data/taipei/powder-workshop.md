@@ -42,6 +42,9 @@ images:
   - seating2.jpg
   - drink.jpg
   - menu.jpg
+review:
+  en: |
+    A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday. Beware, if you speak too loud you may get told off!
+  zh-tw: |
+    一個熱門的工作點，WiFi和充電座自然少不了，Powder Workshop自然光充足，早上氣氛較為悠閒，到了午餐時間則開始有些擁擠。這裡有不少飲料選擇和一些輕食，有兩小時的時間限制，但平日似乎沒這麼嚴格。
 ---
-
-A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday. Beware, if you speak too loud you may get told off!

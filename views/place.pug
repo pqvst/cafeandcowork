@@ -7,141 +7,137 @@ block body
     include header
 
     h2
-      a(href=place.url)
+      a(href=`${prefix}${place.url}`)
         span= place.name
       if place.closed
-        span.closed Permanently Closed
+        span.closed= __('Permanently Closed')
       else if !isOpen24Hours(city, place)
         if isClosedToday(city, place)
-          span.closed(data-nosnippet) Closed Today
+          span.closed(data-nosnippet)= __('Closed Today')
         else if isOpeningSoon(city, place)
-          span.hours-warning(data-nosnippet) Opens at #{getOpeningTime(city, place)}
+          span.hours-warning(data-nosnippet)= __('Opens at {{time}}', { time: getOpeningTime(city, place) })
         else if isClosingSoon(city, place)
-          span.hours-warning(data-nosnippet) Closing Soon (#{getClosingTime(city, place)})
+          span.hours-warning(data-nosnippet)= __('Closing soon ({{time}})', { time: getClosingTime(city, place) })
         else if isClosedNow(city, place)
-          span.closed(data-nosnippet) Closed Now
-      
+          span.closed(data-nosnippet)= __('Closed Now')
+
     .info
       if place.area
-        if place.areaUrl
-          span #{place.type} in #[a(href=place.areaUrl) #{place.area}], #[a.city(href=place.cityUrl)= city.name]
-        else
-          span #{place.type} in #{place.area}, #[a.city(href=place.cityUrl)= city.name]
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(`Area: ${place.area}`), city: __(`City: ${city.name}`) })
       else
-        span #{place.type} in #[a.city(href=place.cityUrl)= city.name]
+        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${city.name}`) })
 
     if place.images
       .images
         each image of place.images
           img(src=image data-action="zoom")
 
-    .content!= place.content
+    if place.review[locale]
+      .content!= marked(place.review[locale])
 
     .buttons
       a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
         i.fa.fa-map
-        span Google Maps
+        span= __('Google Maps')
       if place.facebook
         a.button.facebook(href=place.facebook target="_blank").umami--click--place-button-facebook
           i.fa.fa-facebook
-          span Facebook
+          span= __('Facebook')
       if place.instagram
         a.button.instagram(href=place.instagram target="_blank").umami--click--place-button-instagram
           i.fa.fa-instagram
-          span Instagram
+          span= __('Instagram')
       if place.website
         a.button.website(href=place.website target="_blank").umami--click--place-button-website
           i.fa.fa-external-link
-          span Website
+          span= __('Website')
       if place.telephone
         a.button.telephone(href=`tel:${place.telephone}`).umami--click--place-button-telephone
           i.fa.fa-phone
-          span Call
-      //-a.button(href=`${github}/tree/master/${file}` target="_blank")
-        i.fa.fa-pencil
-        span Edit
+          span= __('Call')
 
     .attributes
       dl
-        dt #[span.icon ⭐️] Overall
+        dt #[span.icon ⭐️] #{__('Overall')}
         dd: +score(place)
-        dt #[span.icon 💻] WiFi
+        dt #[span.icon 💻] #{__('WiFi')}
         dd
           +attribute(place.wifi, true)
           if place.speed
             span.speed (#{place.speed} Mb/s)
-        dt #[span.icon 🔌] Power
+        dt #[span.icon 🔌] #{__('Power')}
         dd: +attribute(place.power, true)
-        dt #[span.icon 🪑] Vacancy
+        dt #[span.icon 🪑] #{__('Vacancy')}
         dd: +attribute(place.vacancy, true)
-        dt #[span.icon 🛋] Comfort
+        dt #[span.icon 🛋] #{__('Comfort')}
         dd: +attribute(place.comfort, true)
-        dt #[span.icon 🗣] Quiet
+        dt #[span.icon 🗣] #{__('Quiet')}
         dd: +attribute(place.quiet, true)
-        dt #[span.icon ☕️] Drinks
+        dt #[span.icon ☕️] #{__('Drinks')}
         dd: +attribute(place.drinks, true)
-        dt #[span.icon 🍔] Food
+        dt #[span.icon 🍔] #{__('Food')}
         dd: +attribute(place.food, true)
-        dt #[span.icon 💰] Price
+        dt #[span.icon 💰] #{__('Price')}
         dd: +attribute(place.price, true)
-        dt #[span.icon 🌄] View
+        dt #[span.icon 🌄] #{__('View')}
         dd: +attribute(place.view, true)
-        dt #[span.icon 🚽] Toilets
+        dt #[span.icon 🚽] #{__('Toilets')}
         dd: +attribute(place.toilets, true)
-        dt #[span.icon 🔊] Music
+        dt #[span.icon 🔊] #{__('Music')}
         dd: +attribute(place.music, true)
-        dt #[span.icon 🚬] Smoking
+        dt #[span.icon 🚬] #{__('Smoking')}
         dd: +attribute(place.smoking, true)
-        dt #[span.icon 🧍‍♂️] Standing Tables
+        dt #[span.icon 🧍‍♂️] #{__('Standing Tables')}
         dd: +attribute(place.standing_tables, true)
-        dt #[span.icon 🌳] Outdoor Seating
+        dt #[span.icon 🌳] #{__('Outdoor Seating')}
         dd: +attribute(place.outdoor_seating, true)
-        dt #[span.icon 💵] Cash Only
+        dt #[span.icon 💵] #{__('Cash Only')}
         dd: +attribute(place.cash_only, true)
-        dt #[span.icon 🐶] Animals
+        dt #[span.icon 🐶] #{__('Animals')}
         dd: +attribute(place.animals, true)
-        dt #[span.icon 🥛] Lactose Free Milk
+        dt #[span.icon 🥛] #{__('Lactose-Free Milk')}
         dd: +attribute(place.lactose_free_milk, true)
         if place.station
-          dt #[span.icon 🚇] Station
+          dt #[span.icon 🚇] #{__('Station')}
           if place.stationUrl
-            dd: a(href=place.stationUrl)= place.station
+            dd: a(href=place.stationUrl)= __(`Station: ${place.station}`)
           else
-            dd= place.station
+            dd= __(`Station: ${place.station}`)
         if place.opens && place.closes
-          dt #[span.icon ⏰] Hours
+          dt #[span.icon ⏰] #{__('Hours')}
           dd #{place.opens} to #{place.closes}
         if place.hours
-          dt #[span.icon ⏰] Hours
+          dt #[span.icon ⏰] #{__('Hours')}
           dd: +hours(city, place)
       dl
-        dt Type
-        dd #{place.type}
-        dt Area
-        if place.areaUrl
-          dd: a(href=place.areaUrl)= place.area
-        else
-          dd= place.area
+        dt= __('Type')
+        dd= __(place.type)
+        if place.area
+          dt= __('Area')
+          if place.areaUrl
+            dd: a(href=place.areaUrl)= __(`Area: ${place.area}`)
+          else
+            dd= __(`Area: ${place.area}`)
         if place.address
-          dt Address
-          dd: a(href=place.google_maps target="_blank").umami--click--place-link-address= place.address
+          dt= __('Address')
+          dd: a(href=place.google_maps target="_blank").umami--click--place-link-address= place.address[locale] || place.address
         if place.facebook
-          dt Facebook
+          dt= __('Facebook')
           dd: a(href=place.facebook target="_blank").umami--click--place-link-facebook= formatUrl(place.facebook)
         if place.instagram
-          dt Instagram
+          dt= __('Instagram')
           dd: a(href=place.instagram target="_blank").umami--click--place-link-instagram= formatUrl(place.instagram)
         if place.website
-          dt Website
+          dt= __('Website')
           dd: a(href=place.website target="_blank").umami--click--place-link-website= formatUrl(place.website)
         if place.telephone
-          dt Telephone
+          dt= __('Telephone')
           dd: a(href=`tel:${place.telephone}` target="_blank").umami--click--place-link-telephone= place.telephone
         if place.updated || place.added
-          dt Updated
+          dt= __('Updated')
           dd #{formatDate(place.updated || place.added)}
         if place.contributors && place.contributors.length > 0
-          dt Contributors
+          dt= __('Contributors')
           dd
             each contributor in place.contributors
               div
