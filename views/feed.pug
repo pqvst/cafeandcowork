@@ -11,7 +11,7 @@ feed(xmlns="http://www.w3.org/2005/Atom")
     entry
       //- required
       id #{site.url}#{item.url}
-      title= item.title
+      title= item.name
       updated= (new Date(item.added)).toISOString()
       //- optional
       published= (new Date(item.added)).toISOString()
