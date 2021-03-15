@@ -10,17 +10,17 @@ address:
   zh-tw: 106台北市大安區泰順街2巷42號
 station: Taipower Building
 hours: 12-21
-wifi: 2
-speed: 10
+wifi: 1
+speed: 1
 power: 4
-vacancy: 4
+vacancy: 3
 comfort: 3
-quiet: 4
+quiet: 3
 food: 
 drinks: 5
 price: 3
 view: 3
-toilets: 
+toilets: 3
 music: true
 smoking: false
 standing_tables: false
