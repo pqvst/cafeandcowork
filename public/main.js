@@ -121,8 +121,7 @@
     // Inspired by: https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
 
     table.querySelectorAll('th').forEach((th, idx) => {
-      const name = th.innerText;
-      if (idx == COL_NAME || idx == COL_AREA || name == COL_OPENS) {
+      if (idx == COL_NAME || idx == COL_AREA || idx == COL_OPENS) {
         th.asc = false;
       } else {
         th.asc = true;
@@ -134,9 +133,8 @@
 
     const getCellValue = (tr, idx, name, asc) => {
       const text = tr.children[idx] ? tr.children[idx].innerText || tr.children[idx].textContent || '' : '';
-      const closed = tr.classList.contains('closed');
       if (idx == COL_OPENS || idx == COL_CLOSES) {
-        if (closed || text == '') {
+        if (text == '') {
           return asc ? Number.MAX_VALUE : Number.MIN_VALUE;
         }
         let number = Number(text.replace(':', ''));
@@ -154,7 +152,15 @@
 
     const comparer = (idx, name, asc) => {
       return (a, b) => {
-        return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
+        const aClosed = a.classList.contains('closed');
+        const bClosed = b.classList.contains('closed');
+        if (aClosed && !bClosed) {
+          return 1;
+        } else if (!aClosed && bClosed) {
+          return -1;
+        } else {
+          return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
+        }
       };
     };
 
