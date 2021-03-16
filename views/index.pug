@@ -29,7 +29,7 @@ block body
           .column
             h2
               a(href=`${prefix}${city.url}`)
-                span.flag= city.flag
+                img.flag(src=`/flags/${city.flag}.png` height="17")
                 span= __(`City: ${city.name}`)
                 span.info
                   span= __('{{count}} places', { count: city.places.length })
