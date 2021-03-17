@@ -6,7 +6,13 @@ block body
   .city
     include header
 
+    input(type="checkbox" id="toggle")
     h2
+      label(for="toggle")
+        span.bars
+          i.fa.fa-angle-down
+        span.times ✕
+    
       - const currentCityName = city.name
       each city in cities
         a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
