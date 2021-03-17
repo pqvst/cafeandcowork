@@ -114,7 +114,14 @@ header a.icon:hover {
 
 header .language-picker {
   font-size: 0.4em;
-  opacity: 0.6;
+}
+
+header .language-picker a {
+  opacity: 0.4;
+} 
+
+header .language-picker a.active {
+  opacity: 1;
 }
 
 @media screen and (max-width: 700px) {
@@ -127,13 +134,16 @@ header .language-picker {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   header h1 {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
   header img {
     height: 35px;
     margin-right: 0;
+  }
+  header a+a {
+    margin-left: 8px;
   }
 }
 
