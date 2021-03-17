@@ -33,5 +33,3 @@ instagram: https://www.instagram.com/_nichinichicafe_/
 telephone: "+886225596669"
 website: http://cafenichinichi.blogspot.com/
 ---
-
-Simple, elegent interior. Soft piano/jazz background music. Only non-caffeine tea on the menu. Only some tables have access to power outlets.
