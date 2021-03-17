@@ -31,6 +31,9 @@ body.zh-tw th, h2 {
 
 .flag {
   margin-right: 7px;
+  height: 17px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
 }
 
 a {
