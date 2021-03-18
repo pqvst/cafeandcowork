@@ -189,6 +189,14 @@ footer .fa {
   margin: 0 !important;
 }
 
+.popup .title {
+  font-weight: bold;
+}
+
+.popup .address a {
+  text-decoration: none;
+}
+
 
 /* ========== Search ========== */
 

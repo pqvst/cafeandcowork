@@ -107,6 +107,10 @@ block body
         filter: `${e.name} ${e.type} ${__(e.type)} ${e.area} ${e.area ? __(`Area: ${e.area}`) : ''} ${e.station} ${e.station ? __(`Station: ${e.station}`) : ''} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
         hours: e.hours,
         closed: e.closed,
+        address: e.address ? e.address[locale] || e.address : null,
+        image: e.images ? e.images[0] : null,
+        hours: getPrettyHours(city, e),
+        google_maps: e.google_maps,
       };
     });
 
