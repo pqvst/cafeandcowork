@@ -32,4 +32,11 @@ facebook: https://www.facebook.com/cafenichinichi
 instagram: https://www.instagram.com/_nichinichicafe_/
 telephone: "+886225596669"
 website: http://cafenichinichi.blogspot.com/
+images:
+  - seating1.jpg
+  - outside.jpg
+  - seating2.jpg
+  - tea.jpg
+  - menu.jpg
+  - sign.jpg
 ---

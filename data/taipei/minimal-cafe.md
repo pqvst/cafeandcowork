@@ -32,4 +32,13 @@ facebook: https://www.facebook.com/%E8%B2%93%E5%AD%A9%E5%9C%A8%E6%A5%B5%E7%B0%A1
 instagram: 
 telephone: "+886223629734"
 website: 
+images:
+  - outside.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
 ---

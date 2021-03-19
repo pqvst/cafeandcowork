@@ -38,4 +38,14 @@ facebook: https://www.facebook.com/liukagreengreengreen
 instagram: https://instagram.com/liukagreengreengreen
 telephone: "+886227032130"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - seating5.jpg
+  - tea.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
 ---
