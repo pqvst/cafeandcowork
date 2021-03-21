@@ -6,7 +6,13 @@ block body
   .city
     include header
 
+    input(type="checkbox" id="toggle")
     h2
+      label(for="toggle")
+        span.bars
+          i.fa.fa-angle-down
+        span.times ✕
+    
       - const currentCityName = city.name
       each city in cities
         a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
@@ -20,7 +26,7 @@ block body
       #map
 
     .search
-      input(type="text" placeholder=__("Search by name, type, or area...") v-model="filter" autofocus)
+      input(id="filter" type="text" placeholder=__("Search by name, type, or area...") v-model="filter" autofocus)
 
     .scroll-wrapper
       table
@@ -101,6 +107,10 @@ block body
         filter: `${e.name} ${e.type} ${__(e.type)} ${e.area} ${e.area ? __(`Area: ${e.area}`) : ''} ${e.station} ${e.station ? __(`Station: ${e.station}`) : ''} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
         hours: e.hours,
         closed: e.closed,
+        address: e.address ? e.address[locale] || e.address : null,
+        image: e.images ? e.images[0] : null,
+        hours: getPrettyHours(city, e),
+        google_maps: e.google_maps,
       };
     });
 
@@ -109,5 +119,5 @@ block body
       coordinates: !{JSON.stringify(city.coordinates)},
       places: !{JSON.stringify(markers)},
       table: document.querySelector('table'),
-      input: document.querySelector('input')
+      input: document.getElementById('filter')
     });

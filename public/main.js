@@ -17,8 +17,14 @@
   
   function makePopup(place) {
     const html = `
-      <div>
-        <b><a target="_blank" href="${place.url}">${place.name} (${place.score.toFixed(1)})</a></b>
+      <div class="popup">
+        <div class="title">
+          <a target="_blank" href="${place.url}">${place.name} (${place.score.toFixed(1)})</a>
+        </div>
+        <div class="address">
+          <a target="_blank" href="${place.google_maps}">${place.address || ''}</a>
+        </div>
+        <div class="hours">${place.hours}</div>
       </div>
     `;
     return new mapboxgl.Popup({ offset: 25 }).setHTML(html);

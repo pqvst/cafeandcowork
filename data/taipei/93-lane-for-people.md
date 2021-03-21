@@ -45,6 +45,11 @@ images:
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
----
+review:
+  en: |
+    This was a perfect work spot on a weekday morning. The counter seats are great, with plenty of power outlets, and the chairs are pretty good (not super comfortable, but not bad either). The piano/lounge background music is perfect for focusing. Large menu with food, drinks, and snacks; although the tea selection was a little small. It was very quiet in the morning but seemed to get busy around lunch time since they also serve food. I'll have to go back and try it in the afternoon as well sometime! More than anything, the service was fantastic and the staff was extremely welcoming!
+  zh-tw: |
+    93巷幾乎是為了遠端工作者設立的好地方，平日早上很適合待，到了中午因為也有供餐的關係而比較熱鬧，我也許會再來體驗一下下午的工作環境。
 
-This was a perfect work spot on a weekday morning. The counter seats are great, with plenty of power outlets, and the chairs are pretty good (not super comfortable, but not bad either). The piano/lounge background music is perfect for focusing. Large menu with food, drinks, and snacks; although the tea selection was a little small. It was very quiet in the morning but seemed to get busy around lunch time since they also serve food. I'll have to go back and try it in the afternoon as well sometime! More than anything, the service was fantastic and the staff was extremely welcoming!
+    吧台桌有很多插座可用，椅子也滿好的，不是特別優秀，卻也不硬得讓人如坐針氈。這裏多半只播放鋼琴輕音樂，不打擾工作的思緒。餐飲特別齊全，有各式食物飲料和餐點，只是茶的選項可能比較少。最後我必須要說，這裡的服務實在太好了，店員非常殷勤，幾乎沒有被忽略的時候。
+---

@@ -113,8 +113,15 @@ header a.icon:hover {
 }
 
 header .language-picker {
-  font-size: 0.4em;
-  opacity: 0.6;
+  font-size: 0.5em;
+}
+
+header .language-picker a {
+  opacity: 0.4;
+} 
+
+header .language-picker a.active {
+  opacity: 1;
 }
 
 @media screen and (max-width: 700px) {
@@ -127,13 +134,16 @@ header .language-picker {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   header h1 {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
   header img {
     height: 35px;
     margin-right: 0;
+  }
+  header a+a {
+    margin-left: 8px;
   }
 }
 
@@ -177,6 +187,14 @@ footer .fa {
 
 .mapboxgl-ctrl-group > button {
   margin: 0 !important;
+}
+
+.popup .title {
+  font-weight: bold;
+}
+
+.popup .address a {
+  text-decoration: none;
 }
 
 
@@ -411,6 +429,8 @@ tr span.closed {
   margin: 0 0 20px 0;
   white-space: nowrap;
   overflow: auto;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .city h2 a {
@@ -435,6 +455,58 @@ tr span.closed {
   margin-left: 20px;
 }
 
+
+.city input[type=checkbox],
+.city .times,
+.city h2 label {
+  display: none;
+}
+
+.city h2 label {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .city h2 a {
+    display: none;
+  }
+  .city h2 a.active {
+    display: block;
+  }
+  .city h2 a:hover {
+    border-bottom: solid 2px black;
+  }
+  .city input:checked + h2 a:hover {
+    border-bottom: none;
+  }
+  .city h2 a+a {
+    margin: 0;
+  }
+  .city h2 label {
+    display: block;
+  }
+  .city input:checked + h2 a {
+    display: block;
+  }
+  .city input:checked + h2 .bars {
+    display: none;
+  }
+  .city input:checked + h2 .times {
+    display: block;
+  }
+  .city input:checked + h2 {
+    border: solid 2px black;
+    border-radius: 4px;
+    padding: 3px 10px;
+  }
+  .city input:checked + h2 a.active {
+    border: none;
+  }
+}
 
 
 /* ========== Place ========== */

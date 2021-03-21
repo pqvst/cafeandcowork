@@ -37,3 +37,14 @@ mixin hours(city, place)
     div #{__('Fri:')} #[+times(city, place, 5)]
     div #{__('Sat:')} #[+times(city, place, 6)]
     div #{__('Sun:')} #[+times(city, place, 0)]
+
+-
+  function getPrettyHours(city, place) {
+    if (isOpen24Hours(city, place)) {
+      return __('Open 24 Hours');
+    } else if (isClosedToday(city, place)) {
+      return __('Closed Today');
+    } else {
+      return `${getOpeningTime(city, place) || 'N/A'} - ${getClosingTime(city, place) || 'N/A'}`;
+    }
+  }
