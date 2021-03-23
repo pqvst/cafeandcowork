@@ -40,3 +40,7 @@ images:
   - menu.jpg
   - sign.jpg
 ---
+
+Recently I've been exploring more of the Zhongshan area in Taipei, and have found many nice cafes to work from around there. Nichi Nichi is definitely a good option if you're looking for a relaxing and quiet place to work in the afternoon, or even late into the night since they stay open until 10pm. The style is minimal and simple, but there are some nice personal touches, like the colorful hanging lamps and decorations on the walls. The soft piano/jazz background music also helps set the mood.
+
+There's good wifi and power outlets - but be sure to arrive early if you need to charge since only some seats have access to power. The menu selection is also quite small, but the options are good. One drawback for me is that the only tea on the menu is non-caffeine, but anyways, the mint tea was very good. Be sure to try the cakes as well, the banana cake was great!

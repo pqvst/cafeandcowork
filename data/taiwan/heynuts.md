@@ -43,3 +43,5 @@ images:
   - menu3.jpg
   - tea.jpg
 ---
+
+While spending some time in Taichung I found this cafe. On a weekday morning, the first floor was quite busy with people having brunch. However, if you go upstairs you'll find a large room, with lots of natural light, suitable for working. There's even a terrace if you feel like working outside. The menu is large, with lots of food and drink options. I'm always happy when I can find a good milk tea without sugar. Overall I like the vibe of this cafe, but there is room for improvements. I wish the seats were more comfortable, there were more power outlets, and better WiFi.
