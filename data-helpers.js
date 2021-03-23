@@ -41,10 +41,12 @@ exports.getHours = function(hours) {
 }
 
 exports.getReview = function(place) {
-  if (place.content) {
-    return { en: place.review };
+  if (place.review) {
+    return place.review;
+  } else if (place.content) {
+    return { en: place.content };
   } else {
-    return place.review || {};
+    return {};
   }
 }
 
