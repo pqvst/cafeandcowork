@@ -18,7 +18,7 @@ hours:
   sun: 11-18
 wifi: 5
 speed: 130
-power: 3
+power: 2
 vacancy: 2
 comfort: 4
 quiet: 4
@@ -49,3 +49,5 @@ images:
   - menu2.jpg
   - menu3.jpg
 ---
+
+I've been seeing many posts about this cafe recently, so I decided to try it myself. It was a little difficult to find since the location on google maps is slightly wrong. Anyways, spend some time walking around the block and you'll eventually find a green door in an alley. (I guess that's part of the fun.) After you walk up a set of stairs you'll reach the cafe. The interior is quite striking, with lots of natural light, plants, and wooden furniture. For working, the large table in the middle is probably the best choice, but unfortunately it is lacking power outlets. At least there is WiFi, and it was very fast! The menu selection is good, with some food and plenty of drinks, but it's a little pricey.
