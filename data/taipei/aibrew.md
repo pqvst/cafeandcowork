@@ -38,6 +38,13 @@ facebook: https://www.facebook.com/%E8%89%BE%E8%90%83%E5%92%96%E5%95%A1-71852106
 instagram: https://www.instagram.com/aibrewco2018/
 telephone: "+886277096065"
 website: 
+images:
+  - seating1.jpg
+  - interior1.jpg
+  - seating2.jpg
+  - interior2.jpg
+  - outside.jpg
+  - sign.jpg
 ---
 
 Small but cozy interior. Friendly staff. Power outlets and decent WiFi. The music was perhaps a little loud and too high tempo for my preference (I found it a little distracting).
