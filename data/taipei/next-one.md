@@ -10,13 +10,13 @@ address:
   zh-tw: 100台北市中正區八德路一段15號
 station: Zhongxiao Xinsheng
 hours: 
-  mon: 10:30-20:30
-  tue: 10:30-20:30
-  wed: 10:30-20:30
-  thu: 10:30-20:30
+  mon: 10:30-21:30
+  tue: 10:30-21:30
+  wed: 10:30-21:30
+  thu: 10:30-21:30
   fri: 10:30-21:30
   sat: 10:30-21:30
-  sun: 10:30-20:30
+  sun: 11:00-20:00
 wifi: 5
 speed: 58
 power: 5
