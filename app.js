@@ -43,6 +43,7 @@ app.locals.site = {
   url: DEBUG ? 'http://localhost:3000' : 'https://cafeandcowork.com',
   github: 'https://github.com/pqvst/cafeandcowork',
   instagram: 'https://instagram.com/cafeandcowork',
+  mailto: 'mailto:hello@cafeandcowork.com',
 };
 
 app.locals.DEBUG = DEBUG;
@@ -80,6 +81,10 @@ for (const locale of i18n.getLocales()) {
   }
   app.get(`${prefix}/`, (req, res) => {
     res.render('index', { url: '/' });
+  });
+
+  app.get(`${prefix}/about/`, (req, res) => {
+    res.render('about', { url: '/about/' });
   });
 
   for (const city of app.locals.cities) {    

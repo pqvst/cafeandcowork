@@ -1,12 +1,11 @@
 header
-  h1
-    a(href=`${prefix}/`)
-      img(src="/coffeecup.png")
-    a.brand(href=`${prefix}/`) Cafe and Cowork
-    .spacer
-    if url
-      .language-picker
-        a(href=`${url}` class={ active: locale == 'en' }) EN
-        a(href=`/zh-tw${url}` class={ active: locale == 'zh-tw' }) 中文
-    a.icon(href="https://www.instagram.com/cafeandcowork/" target="_blank").umami--click--header-instagram
-      i.fa.fa-instagram
+  a(href=`${prefix}/`)
+    img(src="/coffeecup.png")
+  a.brand(href=`${prefix}/`) Cafe and Cowork
+  .spacer
+  if url
+    .language-picker
+      a(href=`${url}` class={ active: locale == 'en' }) EN
+      a(href=`/zh-tw${url}` class={ active: locale == 'zh-tw' }) 中文
+  a.icon(href="https://www.instagram.com/cafeandcowork/" target="_blank").umami--click--header-instagram
+    i.fa.fa-instagram

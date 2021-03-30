@@ -23,6 +23,19 @@ block body
         
   .index
     include header
+    
+    .intro
+      h1= __('Find Places to Work From')
+      
+      p.
+        A curated collection of cafes and coworking spaces around the world. Find the best places 
+        with power outlets and fast WiFi to work or study from. You can also find us on Instagram 
+        as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
+        to us by #[a(href=site.mailto) email]. Explore cities and places below, 
+        we hope you'll find it useful!
+
+      p &mdash; #[a(href="/about/") Philip & Chloe]
+
     .columns
       each city in cities
         if city.places.length > 5

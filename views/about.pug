@@ -1,0 +1,26 @@
+extends layout
+
+block body
+  include mixins
+
+  .about
+    include header
+
+    img(src="/about.jpg")
+
+    h2 About
+
+    h3 Hi! I'm Philip 👋
+
+    p I've been working remote for most of life. During the past couple of years I've spent most of my time traveling around Asia, including Japan, Korea, Hong Kong, and now most recently Taiwan. I've always enjoyed reviewing places on Google Maps, but started maintaining my own collection of "good places to work from" and eventually turned it into this site, Cafe and Cowork.
+    p For me, the most important factors are comfortable seats, a quiet environment, power outlets, and stable wifi. Those are the main things I need to get work done, but of course it's also nice if there is good food and cheap drinks.
+    p On the tech-side, this website is mostly static content. To keep things as simple as possible, there is no database, just a markdown/yaml file for each cafe. The server is built with node.js, using express, and pages are rendered server-side using `pug` (my view engine of choice) with vanilla CSS (no boilerplate).
+    p You can check out my other projects on my #[a(href="https://pqvst.com") website], or find me online on #[a(href="https://github.com/pqvst") GitHub] and #[a(href="https://www.instagram.com/phbergqvist/") Instagram].
+
+    h3 Hi! I'm Chloe 👋
+    
+    p 當我還是譯者的時候，我時常待在咖啡店裡追趕翻譯進度。因為龐大的翻譯量不容許一丁點時間的浪費，我特別在意一家咖啡店離住的地方近不近、有沒有插座以及安靜程度，為了能不踏出店門就能工作滿十多個鐘頭，我也在乎一家店是否供餐。
+    p 我時常是店裡最早到、最晚走的客人，累的時候，會倒數剩餘的未翻頁面、偷偷觀察其他客人都在做些什麼，或者翻翻店裡的雜誌和書抽離一下，似乎從那時起，咖啡店對我來說就常和工作連結在一起。我很感激許多店主的包容，也許不曾有過多深的交談，但他們默默地陪伴著我走過一段艱辛的翻譯時光。
+    p 隔了很久之後的現在，我們因緣際會開啟了Cafe & Cowork的企劃，想為和我們一樣常常苦惱要去哪裡工作的朋友們提供一個方便的查詢管道。Cafe & Cowork對於Cafe的優劣有一些客觀性的指標，最近的我特別關心一家店的採光、座位設計，並且和以往一樣在乎空間是否吵雜。除了這些直接的評價維度之外，我總是不經意的留意起店主們對一家店投注的一些巧思，即使是外觀不起眼的小店也常充滿著個人風格以及對自由工作者、游牧工作著們的關懷。越來越多店家提供優秀的工作環境，不管是採光、背景音樂、插座、WiFi、桌面、或者是對我來說特別重要的餐點，往往都出奇的傑出，甚至超越許多辦公室。我幾乎可以想像一家店主在規畫著空間時，充滿熱情地勾勒出游牧工作者在這裡工作的場景，並且針對大家的需求一一補強，於是對我來說，比起找到最適合自己工作的地方，發現這些別具用心的Cafe並介紹給大家開始變成了一件重要的事。
+    p You can find me online on my #[a(href="https://www.instagram.com/bserendipity_c/") Instagram].
+    
