@@ -42,6 +42,11 @@ images:
   - menu2.jpg
   - menu3.jpg
   - tea.jpg
----
+review:
+  en: |
+    While spending some time in Taichung I found this cafe. On a weekday morning, the first floor was quite busy with people having brunch. However, if you go upstairs you'll find a large room, with lots of natural light, suitable for working. There's even a terrace if you feel like working outside. The menu is large, with lots of food and drink options. I'm always happy when I can find a good milk tea without sugar. Overall I like the vibe of this cafe, but there is room for improvements. I wish the seats were more comfortable, there were more power outlets, and better WiFi.
+  zh-tw: |
+    在台中溜達時，我意外發現了這家Cafe，即使那是個平常日的上午，一樓卻仍然早早滿座，許多人在這裡享用早午餐。上到二樓會發現還有一個很大的空間，採光充足，是個絕佳的工作環境，甚至還有一個很大的天台，可以邊工作邊曬曬太陽。
 
-While spending some time in Taichung I found this cafe. On a weekday morning, the first floor was quite busy with people having brunch. However, if you go upstairs you'll find a large room, with lots of natural light, suitable for working. There's even a terrace if you feel like working outside. The menu is large, with lots of food and drink options. I'm always happy when I can find a good milk tea without sugar. Overall I like the vibe of this cafe, but there is room for improvements. I wish the seats were more comfortable, there were more power outlets, and better WiFi.
+    好堅果咖啡的菜單應有盡有，能在一家Cafe找到品質好的無糖奶茶總是令我雀躍。我很喜歡這裡的氛圍，硬要挑骨頭的話，我希望椅子能夠更加舒適、以及有更多插座和穩定的WiFi。
+---
