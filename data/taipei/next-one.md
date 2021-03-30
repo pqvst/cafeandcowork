@@ -10,13 +10,13 @@ address:
   zh-tw: 100台北市中正區八德路一段15號
 station: Zhongxiao Xinsheng
 hours: 
-  mon: 10:30-21:30
-  tue: 10:30-21:30
-  wed: 10:30-21:30
-  thu: 10:30-21:30
-  fri: 10:30-21:30
-  sat: 10:30-21:30
-  sun: 11:00-20:00
+  mon: 11-20
+  tue: 11-20
+  wed: 11-20
+  thu: 11-20
+  fri: 11-20
+  sat: 11-20
+  sun: 11-20
 wifi: 5
 speed: 58
 power: 5
@@ -45,3 +45,5 @@ images:
   - menu.jpg
   - seating2.jpg
 ---
+
+If you're only looking for a great cafe to work from then this is the place. The menu is basic and the interior is not very special. But, the WiFi is fast, there is power *everywhere*, the seats are comfortable, and it's never crowded. It can get a little noisy when people come in for business meetings, but other than that it's usually pretty quiet. I especially like the seats near the back under the skylight. Tip, the restrooms are located on the 2nd floor.

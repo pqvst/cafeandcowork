@@ -52,3 +52,5 @@ images:
   - menu4.jpg
   - sign.jpg
 ---
+
+This quickly became one of my new favorite cafes. The only downside for me is that it is quite inconvenient for me to get to, otherwise I would definitely come back more often. The interior is very pleasing, which looks like a cafe and bookshop. There are several seats near the front of the shop, and another room in the back. I like the seat by the window though. Perhaps I was lucky, but the day I visited was very quiet, with many people either studying or working. There is a large menu, and I tried the tea cake set which was very nice. The staff was very welcoming and said I could unplug the lamp if I needed power.
