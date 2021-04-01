@@ -6,9 +6,8 @@ block body
   .place
     include header
 
-    h2
-      a(href=`${prefix}${place.url}`)
-        span= place.name
+    h1
+      a(href=`${prefix}${place.url}`)= place.name
       if place.closed
         span.closed= __('Permanently Closed')
       else if !isOpen24Hours(city, place)
@@ -23,9 +22,13 @@ block body
 
     .info
       if place.area
-        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(`Area: ${place.area}`), city: __(`City: ${city.name}`) })
+        a(href=`${prefix}${city.url}`)
+          i.fa.fa-angle-left
+          span= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(`Area: ${place.area}`), city: __(`City: ${city.name}`) })
       else
-        a(href=`${prefix}${city.url}`)= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${city.name}`) })
+        a(href=`${prefix}${city.url}`)
+          i.fa.fa-angle-left
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${city.name}`) })
 
     if place.images
       .images
