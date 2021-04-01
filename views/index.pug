@@ -27,26 +27,23 @@ block body
     .intro
       h1= __('Find Places to Work From')
       
-      p.
-        A curated collection of cafes and coworking spaces around the world. Find the best places 
-        with power outlets and fast WiFi to work or study from. You can also find us on Instagram 
-        as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
-        to us by #[a(href=site.mailto) email]. Explore cities and places below, 
-        we hope you'll find it useful!
+      if locale == 'zh-tw'
+        p.
+          Cafe and Cowork是一個在世界各地紀錄與評比Cafe和共享辦公室的網站。我們在世界各地尋找插座充足、WiFi快速的絕佳工作與讀書場所。
+          你也可以在#[a(href=site.github) GitHub]、或IG #[a(href=site.instagram) @cafeandcowork]上找到我們，或者也歡迎
+          #[a(href=site.mailto) Email]。
+        p.
+          開始探索城市和地點吧! 希望這個網站對大家有用! 
+      else
+        p.
+          A curated collection of cafes and coworking spaces around the world. Find the best places 
+          with power outlets and fast WiFi to work or study from. You can also find us on Instagram 
+          as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
+          to us by #[a(href=site.mailto) email].
+        p.
+          Explore cities and places below, we hope you'll find it useful!
 
-      p.
-        Cafe and Cowork是一個在世界各地紀錄與評比Cafe和共享辦公室的網站。我們在世界各地尋找插座充足、
-        WiFi快速的絕佳工作與讀書場所。 你也可以在GitHub、或IG @Cafeandcowork上找到我們，或者也歡迎Email。
-
-      p 開始探索城市和地點吧! 希望這個網站對大家有用! 
-        
-      //-
-        You can also find us on Instagram 
-        as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
-        to us by #[a(href=site.mailto) email]. Explore cities and places below, 
-        we hope you'll find it useful!
-
-      p &mdash; #[a(href="/about/") Philip & Chloe]
+      p &mdash; #[a(href=`${prefix}/about/`) Philip & Chloe]
 
     .columns
       each city in cities
