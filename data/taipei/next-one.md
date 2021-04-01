@@ -40,10 +40,11 @@ instagram: https://www.instagram.com/nextone_store/
 telephone: "+886233221333"
 website: 
 images:
-  - entrance.jpg
   - seating1.jpg
-  - menu.jpg
+  - seating3.jpg
   - seating2.jpg
+  - menu.jpg
+  - entrance.jpg
 review:
   en: |
     If you're only looking for a great cafe to work from then this is the place. The menu is basic and the interior is not very special. But, the WiFi is fast, there is power *everywhere*, the seats are comfortable, and it's never crowded. It can get a little noisy when people come in for business meetings, but other than that it's usually pretty quiet. I especially like the seats near the back under the skylight. Tip, the restrooms are located on the 2nd floor.
