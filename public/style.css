@@ -71,6 +71,9 @@ h1 {
   h1 {
     font-size: 1.6em;
   }
+  h2 {
+    font-size: 1.4em;
+  }
 }
 
 h1 a {
@@ -158,8 +161,8 @@ header .language-picker a.active {
 }
 
 @media screen and (max-width: 700px) {
-  header h1 {
-    font-size: 2em;
+  header {
+    font-size: 0.9em;
   }
   header img {
     height: 40px;
@@ -168,9 +171,6 @@ header .language-picker a.active {
 }
 
 @media screen and (max-width: 500px) {
-  header h1 {
-    font-size: 1.6em;
-  }
   header img {
     height: 35px;
     margin-right: 0;
@@ -561,13 +561,14 @@ tr span.closed {
   border-radius: 10px;
 }
 
-.about h2 {
+.about h1 {
   padding: 8px 0;
   margin: 10px 0;
   border-bottom: solid 2px black;
 }
 
-.about h3 {
+.about h2 {
+  font-size: 1.3em;
   margin-top: 30px;
   margin-bottom: 0;
   font-weight: 400;
