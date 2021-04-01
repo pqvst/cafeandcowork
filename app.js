@@ -83,6 +83,7 @@ for (const locale of i18n.getLocales()) {
     res.render('index', { url: '/' });
   });
 
+  app.get(`${prefix}/about`, redirectWithTrailingSlash);
   app.get(`${prefix}/about/`, (req, res) => {
     res.render('about', { url: '/about/' });
   });
