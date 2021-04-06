@@ -34,4 +34,4 @@ telephone: "+886223810682"
 website: 
 ---
 
-A small cafe near Bimen station. If you want to stay and work, be sure to go to the second floor, which is bright with lots of natural light. Clean, minimal interior. I especially like the large worktable, and the counter seats overlooking the street. Plenty of coffee, tea, and desserts on offer!
+A small cafe near Bimen station, just beside The North Gate landmark. If you want to stay and work, be sure to go to the second floor, which is bright with lots of natural light. Clean, minimal interior. I especially like the large worktable, and the counter seats overlooking the street. Plenty of coffee, tea, and desserts on offer!
