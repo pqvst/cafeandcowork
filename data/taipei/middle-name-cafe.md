@@ -51,10 +51,12 @@ images:
   - coffee.jpg
   - interior1.jpg
   - interior2.jpg
+review:
+  en: |
+    Definitely one of my favorite cafes near Zhongshan station. It's a great place to work from since it opens early, the WiFi is fast, and there are plenty of power outlets. I like the atmosphere since it feels very bright, airy, and modern, with plenty of natural light. The cafe is quite large, with many seating options available, but I normally choose the large work table (although I wish the chairs were a bit more comfortable). If you arrive in the morning it's usually very quiet and great for focusing on your work. Afternoons might be a little busy though.
+    <hr>
+    Bright, modern cafe near Zhongshan with both counter, bar, and table seats available. Very fast wifi (160 Mb/s) and plenty of power outlets near the seats. The coldbrew coffee is quite strong as well. Came on a Tuesday and although quite full at times, there was always seating available.
+  zh-tw: |
+    MIDDLE NAME這是中山區裡我到過的咖啡店中，我最喜歡的其中一家。主要原因是它開得早，很適合工作時間表比較規律的人，設備也很符合游牧工作的需求：WiFi很快、插座很多，另外這裡的視野非常開闊，大片玻璃帶進豐沛的太陽光，沒有太多的遮蔽使得室內空間也很明亮通風，裝潢更是特別時尚，有很多座位可選擇，我一般習慣坐在大工作桌邊(只希望椅子可以再舒服一點點)。
+    如果你來得早，這裡通常滿安靜，易於專心，下午人會比較多。
 ---
-
-Definitely one of my favorite cafes near Zhongshan station. It's a great place to work from since it opens early, the WiFi is fast, and there are plenty of power outlets. I like the atmosphere since it feels very bright, airy, and modern, with plenty of natural light. The cafe is quite large, with many seating options available, but I normally choose the large work table (although I wish the chairs were a bit more comfortable). If you arrive in the morning it's usually very quiet and great for focusing on your work. Afternoons might be a little busy though.
-
----
-
-Bright, modern cafe near Zhongshan with both counter, bar, and table seats available. Very fast wifi (160 Mb/s) and plenty of power outlets near the seats. The coldbrew coffee is quite strong as well. Came on a Tuesday and although quite full at times, there was always seating available.
