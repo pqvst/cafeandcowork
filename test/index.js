@@ -21,6 +21,7 @@ const citySchema = {
     // generated properties
     url: { type: 'string' },
     places: { type: 'array' },
+    count: { type: 'number' },
   }
 }
 
