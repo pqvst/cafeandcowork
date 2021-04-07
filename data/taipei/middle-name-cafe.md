@@ -53,7 +53,7 @@ images:
   - interior2.jpg
 ---
 
-Definitely one of my favorite cafes near Zhongshan station. It's a great place to work from since it opens early, the WiFi is fast, and there are plenty of power outlets. I like the atmosphere since it feels very bright, airy, and modern, with plenty of natural light. The interior is quite large, with many seating options available, but I normally choose the large work table (although I wish the chairs were a bit more comfortable). If you arrive in the morning it's usually very quiet and great for focusing on your work. Afternoons might be a little busy though.
+Definitely one of my favorite cafes near Zhongshan station. It's a great place to work from since it opens early, the WiFi is fast, and there are plenty of power outlets. I like the atmosphere since it feels very bright, airy, and modern, with plenty of natural light. The cafe is quite large, with many seating options available, but I normally choose the large work table (although I wish the chairs were a bit more comfortable). If you arrive in the morning it's usually very quiet and great for focusing on your work. Afternoons might be a little busy though.
 
 ---
 
