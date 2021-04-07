@@ -1,0 +1,41 @@
+---
+added: 2021-04-07
+name: RUFOUS COFFEE
+type: Cafe
+area: Daan
+google_maps: https://goo.gl/maps/GuH6dvnh6uGyponr6
+coordinates: 25.023475958019628, 121.54355398987802
+address:
+  en: No. 339號, Section 2, Fuxing South Road, Da’an District, Taipei City, 106
+  zh-tw: 106台北市大安區復興南路二段339號
+station: Technology Building
+hours:
+  mon: 13-21:30
+  tue: 13-21:30
+  wed: 13-21:30
+  fri: 13-21:30
+  sat: 13-21:30
+  sun: 13-21:30
+wifi: 2
+speed: 13
+power: 3
+vacancy: 2
+comfort: 3
+quiet: 3
+food: 
+drinks: 3
+price: 3
+view: 3
+toilets: 
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: false
+cash_only: 
+animals: 
+lactose_free_milk: true
+facebook: http://www.facebook.com/RUFOUS-COFFEE-163271817067633
+instagram: https://www.instagram.com/rufous_coffee_1/
+telephone: "+886227366880"
+website: 
+---
