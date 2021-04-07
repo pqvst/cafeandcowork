@@ -2,7 +2,7 @@
 added: YYYY-MM-DD
 name: Wen Shan Roasting 聞山咖啡 臺大店
 type: Cafe
-area: Xinsheng
+area: Daan
 google_maps: https://g.page/wenshanntu?share
 coordinates: 25.020552311424204, 121.53346642666784
 address:
