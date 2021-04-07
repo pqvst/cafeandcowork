@@ -47,6 +47,7 @@ app.locals.site = {
 };
 
 app.locals.DEBUG = DEBUG;
+app.locals.pretty = DEBUG;
 app.locals.v = Date.now();
 app.locals.marked = require('marked');
 
