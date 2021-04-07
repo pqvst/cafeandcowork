@@ -1,5 +1,8 @@
 (function () {
 
+  const UPDATE_TIMEOUT = 150;
+  const DEFAULT_FILTER = 'score: yes';
+
   function colorRamp(value) {
     if (value >= 4) return '#418395';
     if (value >= 3.5) return '#59ae9f';
@@ -64,7 +67,7 @@
   
   let tid;
 
-  function updateMarkers(places, map, markers, filter) {
+  function updateMarkers(places, map, markers, filter = DEFAULT_FILTER) {
     const bounds = new mapboxgl.LngLatBounds;
     let count = 0;
     const arr = Array.from(places).reverse();
@@ -82,17 +85,14 @@
       }
     }
     if (count) {
-      clearTimeout(tid);
-      tid = setTimeout(() => {
-        map.fitBounds(bounds, { padding: 100, linear: true, maxZoom: 17 });
-      }, filter ? 150 : 0);
+      map.fitBounds(bounds, { padding: 100, linear: true, maxZoom: 17 });
     }
   }
 
-  function updateRows(places, filter) {
+  function updateRows(places, rows, filter = DEFAULT_FILTER) {
     for (const place of places) {
       const include = !filter || place.filter.toLowerCase().includes(filter);
-      const tr = document.querySelector(`tr[data-url='${place.url}']`);
+      const tr = rows[place.url];
       tr.style.display = include ? '' : 'none';
     }
   }
@@ -109,12 +109,21 @@
       updateMarkers(places, map, markers);
     });
 
+    const rows = {};
+    for (const tr of document.querySelectorAll(`tr[data-url]`)) {
+      rows[tr.getAttribute('data-url')] = tr;
+    }
+
     makeSortableTable(table, input);
+    updateRows(places, rows);
 
     input.addEventListener('input', function (evt) {
       const filter = evt.target.value.toLowerCase();
-      updateMarkers(places, map, markers, filter);
-      updateRows(places, filter);
+      clearTimeout(tid);
+      tid = setTimeout(() => {
+        updateMarkers(places, map, markers, filter);
+        updateRows(places, rows, filter);
+      }, filter ? UPDATE_TIMEOUT : 0);
     });
   };
 
