@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Ueshima Coffee Bade Shop
 type: Cafe
 area: Songshan

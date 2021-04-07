@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: dawn Surf & Co. Cafe
 type: Cafe
 area: Xinyi

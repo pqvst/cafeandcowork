@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: The Gathering Cafe 齊客咖啡
 type: Cafe
 area: Songshan

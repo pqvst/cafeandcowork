@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: 引路咖啡 PharosCoffee
 type: Cafe
 area: Xinyi

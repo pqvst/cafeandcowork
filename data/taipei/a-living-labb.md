@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: A Living Labb | 生活域所
 type: Cafe
 area: Xinyi

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Angle Cafe'
 type: Cafe
 area: Daan

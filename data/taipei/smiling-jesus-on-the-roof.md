@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Smiling Jesus On The Roof 樓上的嬉皮與笑臉男
 type: Cafe
 area: Daan

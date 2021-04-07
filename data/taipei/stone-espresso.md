@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: STONE espresso bar & coffee roaster
 type: Cafe
 area: Daan

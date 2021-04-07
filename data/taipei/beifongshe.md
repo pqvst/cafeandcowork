@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: BeiFongShe 北風社
 type: Cafe
 area: Datong

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Moonshine Coffee Roasters 私釀咖啡商行 (二店)
 type: Cafe
 area: Daan

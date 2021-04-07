@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: X B-Roll Coffee 嗨咖咖啡
 type: Cafe
 area: Xinyi

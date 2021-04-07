@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Street No 6 街口6號珈啡
 type: Cafe
 area: Wanhua

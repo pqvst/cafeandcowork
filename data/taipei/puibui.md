@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: 杯盃咖啡廳酒吧 PuiBui Cafe & Bar
 type: Cafe
 area: Daan

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Fortunate Coffee 世界幸福咖啡 和平店
 type: Cafe
 area: Daan

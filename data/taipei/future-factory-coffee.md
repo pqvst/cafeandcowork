@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Future Factory Coffee
 type: Cafe
 area: Datong

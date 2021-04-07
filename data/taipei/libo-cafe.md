@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Libo Cafe
 type: Cafe
 area: Zhongshan

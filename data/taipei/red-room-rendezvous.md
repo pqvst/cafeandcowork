@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Red Room Rendezvous 紅房餐酒館
 type: Cafe
 area: Daan

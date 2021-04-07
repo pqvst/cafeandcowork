@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Barista Coffee Shop at National Taiwan University
 type: Cafe
 area: Daan

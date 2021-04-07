@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Wildmii Safari Showroom and Cafe
 type: Cafe
 area: Daan

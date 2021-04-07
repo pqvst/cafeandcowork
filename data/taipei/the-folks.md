@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: The FOLKS
 type: Cafe
 area: Daan

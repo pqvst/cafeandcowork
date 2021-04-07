@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Artalley Cafe
 type: Cafe
 area: Datong

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Barista Coffee
 type: Cafe
 area: Xinyi

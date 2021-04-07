@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Spring Nice Day 春日好日
 type: Cafe
 area: Daan

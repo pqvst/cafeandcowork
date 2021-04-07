@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: C-tea loft 城市草倉
 type: Cafe
 area: Daan

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: AVENUE | work + space
 type: Coworking Space
 area: Daan

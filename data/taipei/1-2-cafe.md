@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: 1/2 Cafe
 type: Cafe
 area: Songshan

@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: OLO Coffee Roasters
 type: Cafe
 area: Datong

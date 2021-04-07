@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Journey Kaffe (Yangguang Store)
 type: Cafe
 area: Neihu

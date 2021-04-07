@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Stoppage Time
 type: Cafe
 area: Daan

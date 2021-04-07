@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Illumination Books 浮光書店
 type: Cafe
 area: Datong

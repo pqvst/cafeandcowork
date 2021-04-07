@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Dong Coffee Bar 東咖啡
 type: Cafe
 area: Xinyi

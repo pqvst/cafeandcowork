@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: 創咖啡 TRUST CAFÉ
 type: Cafe
 area: Zhongshan

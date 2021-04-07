@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Do you have coffee neo cafe
 type: Cafe
 area: Wanhua

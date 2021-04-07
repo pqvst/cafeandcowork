@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: 本然咖啡 Nisarga Cafe
 type: Cafe
 area: Xinyi

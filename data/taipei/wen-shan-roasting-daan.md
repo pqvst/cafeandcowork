@@ -1,5 +1,5 @@
 ---
-added: YYYY-MM-DD
+added: 
 name: Wen Shan Roasting 聞山咖啡 臺大店
 type: Cafe
 area: Daan
