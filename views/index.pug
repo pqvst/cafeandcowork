@@ -54,7 +54,7 @@ block body
                 img.flag(src=`/flags/${city.flag}.png` height="17")
                 span= __(`City: ${city.name}`)
                 span.info
-                  span= __('{{count}} places', { count: city.places.length })
+                  span= __('{{count}} places', { count: city.count })
                   i.fa.fa-angle-right
             +list(city.places.slice(0, 10))
             a.more(href=`${prefix}${city.url}`)= __('Explore more')

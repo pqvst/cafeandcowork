@@ -130,12 +130,16 @@ function getCities(places) {
         url: `/${id}/`,
         coordinates: parseCoordinates(cityData.coordinates),
         places: [],
+        count: 0,
       });
       cities[place.city] = city;
     }
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;
     cities[place.city].places.push(place);
+    if (place.score) {
+      cities[place.city].count++;
+    }
   }
   return _(cities)
     .values()
