@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-04-11
 name: Halfway Coffee
 type: Cafe
 area: Daan
@@ -16,26 +16,37 @@ hours:
   fri: 14-0
   sat: 14-0
   sun: 14-0
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
+wifi: 5
+speed: 88
+power: 4
+vacancy: 2
+comfort: 2
+quiet: 1
+food: 5
+drinks: 4
+price: 4
+view: 4
+toilets: 4
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: true
 cash_only: 
 animals: 
 lactose_free_milk: 
 facebook: 
-instagram: 
-telephone: 
-website: 
+instagram: https://www.instagram.com/halfway_cafe/
+telephone: "+886223625573"
+website: http://halfway-cafe.blogspot.com/
+images:
+  - seating2.jpg
+  - interior1.jpg
+  - entrance.jpg
+  - seating1.jpg
+  - seating3.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - work.jpg
 ---
+
+Cool vibe and interesting interior. The large table is great for getting work done. There's an outdoor area, but unfortunately it's usually full of people smoking. The food and drink selection is good. I can definitely recommend trying the curry. I'm not sure if they have a menu in English. Some downsides, the chairs are not the most comfortable and the music is usually too loud.
