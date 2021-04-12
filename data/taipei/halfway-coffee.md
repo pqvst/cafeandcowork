@@ -32,7 +32,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: 
-animals: 
+animals: true
 lactose_free_milk: 
 facebook: 
 instagram: https://www.instagram.com/halfway_cafe/

@@ -16,17 +16,17 @@ hours:
   fri: 13-21:30
   sat: 13-21:30
   sun: 13-21:30
-wifi: 2
+wifi: 3
 speed: 13
 power: 3
 vacancy: 2
-comfort: 3
-quiet: 3
+comfort: 4
+quiet: 4
 food: 
 drinks: 3
 price: 3
 view: 3
-toilets: 
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -38,4 +38,10 @@ facebook: http://www.facebook.com/RUFOUS-COFFEE-163271817067633
 instagram: https://www.instagram.com/rufous_coffee_1/
 telephone: "+886227366880"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - interior.jpg
+  - menu.jpg
 ---
