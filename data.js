@@ -143,7 +143,7 @@ function getCities(places) {
   }
   return _(cities)
     .values()
-    .orderBy(e => e.places.length, 'desc')
+    .orderBy(e => e.count, 'desc')
     .value();
 }
 
