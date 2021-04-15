@@ -39,9 +39,10 @@ block body
       .content!= marked(place.review[locale])
 
     .buttons
-      a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
-        i.fa.fa-map
-        span= __('Google Maps')
+      if place.google_maps
+        a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
+          i.fa.fa-map
+          span= __('Google Maps')
       if place.facebook
         a.button.facebook(href=place.facebook target="_blank").umami--click--place-button-facebook
           i.fa.fa-facebook
