@@ -61,7 +61,7 @@ const placeSchema = {
     name: { type: 'string' },
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
-    google_maps: { type: 'string' },
+    google_maps: { type: ['string', 'null'] },
     address: { type: ['object', 'string', 'null'] },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
