@@ -10,7 +10,7 @@ station: Dongmen
 hours: 11:30-23
 wifi: 4
 speed: 85
-power: 3
+power: 4
 vacancy: 4
 comfort: 4
 quiet: 4
@@ -25,6 +25,7 @@ standing_tables: false
 outdoor_seating: true
 cash_only: 
 animals: true
+lactose_free_milk: true
 facebook: https://www.facebook.com/515-cafebooks-954340867956641/
 instagram: https://www.instagram.com/515cafebooks/
 telephone: "+886223944606"
