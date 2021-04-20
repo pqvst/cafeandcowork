@@ -1,5 +1,6 @@
 ---
 added: 2020-12-11
+updated: 2021-04-20
 name: 515 Cafe&books
 type: Cafe
 area: Daan
@@ -17,8 +18,8 @@ quiet: 4
 food: 
 drinks: 4
 price: 3
-view: 3
-toilets: 1
+view: 4
+toilets: 2
 music: true
 smoking: false
 standing_tables: false
