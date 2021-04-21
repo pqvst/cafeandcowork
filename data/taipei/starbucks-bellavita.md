@@ -32,11 +32,10 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/starbuckstaiwan
+instagram: https://www.instagram.com/starbuckstw/
 telephone: "+886227233390"
 website: http://www.starbucks.com.tw/
-tips:
-  - No power, no wifi, and work table is awkward to sit at
-  - In the basement of Bellavita (no natural light)
 ---
+
+No power, no wifi, and work table is awkward to sit at. In the basement of Bellavita (no natural light)

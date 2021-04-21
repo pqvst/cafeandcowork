@@ -32,10 +32,10 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/starbuckstaiwan
+instagram: https://www.instagram.com/starbuckstw/
 telephone: "+886223952157"
-website: 
+website: http://www.starbucks.com.tw/
 images:
   - entrance1.jpg
   - entrance2.jpg

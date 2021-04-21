@@ -32,10 +32,10 @@ standing_tables: true
 outdoor_seating: false
 cash_only: false
 animals: 
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/starbuckstaiwan
+instagram: https://www.instagram.com/starbuckstw/
 telephone: 
-website: 
+website: http://www.starbucks.com.tw/
 tips:
   - Not crowded during weekday mornings
   - Some power outlets along the wall seats

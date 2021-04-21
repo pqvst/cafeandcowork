@@ -24,11 +24,10 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: 
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/starbuckstaiwan
+instagram: https://www.instagram.com/starbuckstw/
 telephone: "+886227226292"
 website: http://www.starbucks.com.tw/
-tips:
-  - Take the escalator up outside metro exit 2
-  - Public restrooms are far away
 ---
+
+Take the escalator up outside metro exit 2. No restrooms, public restrooms available in the department store or by the MRT.
