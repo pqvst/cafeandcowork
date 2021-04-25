@@ -52,7 +52,7 @@ images:
   - outside6.jpg
 ---
 
-Another review from my recent trip to Toucheng. This time a castle on top of the mountain! Getting there is a little tricky since there is no public transportation and it's quite far up the mountain. Taxi is probably your best option in that case. Once you get up the mountain there are two cafes, Castle I and Castle II. We decided to start with Castle II since the reviews said it was less busy (and that was definitely true). The interior is very large, lots of setting areas and large windows. It did get a little noisy though, even on a weekday afternoon. Unfortunately the upper floor was closed at this location. Decent WiFi and plugs available near the walls.
+Another review from my recent trip to Toucheng. This time a castle on top of the mountain! Getting there is a little tricky since there is no public transportation and it's quite far up the mountain. Taxi is probably your best option in that case. Once you get up the mountain there are two cafes, Castle I and Castle II. We decided to start with Castle II since the reviews said it was less busy (and that was definitely true). The interior is very large, lots of seating areas and large windows. It did get a little noisy though, even on a weekday afternoon. Unfortunately the upper floor was closed at this location. Decent WiFi and plugs available near the walls.
 
 Before heading down we visited Castle I as well. This location looks nicer, and the upper floors (as well as the rooftop) were all open. There is also a very nice outdoor seating area. But, as the reviews I read said, this location was very busy. Finally after finishing up some work we walked down the mountain to Wai'ao beach, which took about 30 minutes.
 

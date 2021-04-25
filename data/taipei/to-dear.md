@@ -35,7 +35,7 @@ cash_only:
 animals: 
 lactose_free_milk: 
 facebook: https://www.facebook.com/deardeer2012
-instagram: 
+instagram: https://www.instagram.com/deardeercafe/
 telephone: "+886223637768"
 website: 
 images:
@@ -46,6 +46,11 @@ images:
   - entrance.jpg
   - menu.jpg
   - outdoor.jpg
----
+review:
+  en: |
+    A hidden gem near Guting MRT. The easiest way to access the cafe is to walk through the market area near Exit 4. The cafe itself has a very creatively decorated interior. I especially like the small details like the small plants in the tables. There's also a large outdoor seating area and apparently an art gallery as well. The best thing is that it was very quiet and very few people during the entire afternoon on a weekday, great for getting some focused work done. There's WiFi, power outlets, and a large menu with lots of tea. Furthermore the staff was very friendly and welcoming!
+  zh-tw: |
+    小路上藝文空間是古亭站附近的隱藏好店，最容易抵達的方法是穿越四號出口旁的市場，入口非常可愛，就好像秘密花園的通道。
 
-A hidden gem near Guting MRT. The easiest way to access the cafe is to walk through the market area near Exit 4. The cafe itself has a very creatively decorated interior. I especially like the small details like the small plants in the tables. There's also a large outdoor seating area and apparently an art gallery as well. The best thing is that it was very quiet and very few people during the entire afternoon on a weekday, great for getting some focused work done. There's WiFi, power outlets, and a large menu with lots of tea. Furthermore the staff was very friendly and welcoming!
+    這裡有非常嶄新的室內陳設，我特別喜歡讓一株植物穿透桌面的小巧思，除此之外這裡也有很大的戶外空間，和一個藝文展覽區。對我來說最好的是平日下午的氣氛很悠閒，沒有太多人，絕對適合專注。這裡有WiFi、插座、以及很豐富的茶類飲品可選，店員也非常親切熱情！
+---
