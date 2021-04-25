@@ -1,8 +1,18 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const rateLimit = require("express-rate-limit");
+const rateLimit = require('express-rate-limit');
+const Rollbar = require('rollbar');
 const { I18n } = require('i18n');
+
+let rollbar;
+if (process.env.ROLLBAR_ACCESS_TOKEN) {
+  rollbar = new Rollbar({
+    accessToken: process.env.ROLLBAR_ACCESS_TOKEN,
+    captureUncaught: true,
+    captureUnhandledRejections: true
+  });
+}
 
 const i18n = new I18n({
   locales: ['en', 'zh-tw'],
@@ -150,6 +160,10 @@ app.get('/feed.xml', (req, res) => {
 app.use((req, res) => {
   res.status(404).render('error');
 });
+
+if (rollbar) {
+  app.use(rollbar.errorHandler());
+}
 
 app.listen(port);
 

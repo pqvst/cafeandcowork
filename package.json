@@ -29,6 +29,7 @@
     "moment-timezone": "^0.5.33",
     "morgan": "^1.10.0",
     "pug": "^3.0.2",
+    "rollbar": "^2.21.1",
     "yaml": "^1.10.2"
   },
   "nodemonConfig": {
