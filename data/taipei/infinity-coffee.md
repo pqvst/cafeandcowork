@@ -19,7 +19,7 @@ wifi: 5
 speed: 55
 power: 2
 vacancy: 5
-comfort: 4
+comfort: 3
 quiet: 4
 food: 4
 drinks: 4
@@ -32,6 +32,7 @@ standing_tables: true
 outdoor_seating: false
 cash_only: true
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/infinitycoffee0705/
 instagram: https://www.instagram.com/infinity_coffee481/
 telephone: "+886227888500"
