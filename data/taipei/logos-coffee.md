@@ -1,6 +1,6 @@
 ---
 added: 2021-04-26
-name: Lógos Coffee
+name: Logos Coffee
 type: Cafe
 area: Nangang
 google_maps: https://g.page/logos-coffee?share
