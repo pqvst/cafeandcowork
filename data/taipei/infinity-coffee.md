@@ -41,6 +41,7 @@ images:
   - seating1.jpg
   - seating2.jpg
   - food.jpg
+  - outside.jpg
 review:
   en: |
     A large spacious cafe (also art space / rental venue) with several large work tables, counter seats, and sofa area. Large windows with good natural lighting. Good food and decent drink selection. Fast WiFi, but not very many tables have power outlets unfortunately. Pretty empty and quiet on a weekday so definitely a nice place to sit and get some work done at.
