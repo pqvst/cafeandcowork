@@ -38,6 +38,7 @@ images:
   - door.jpg
   - food.jpg
   - entrance.jpg
+  - menu.jpg
 review:
   en: |
     A really nice cafe to work from. Good vibe, cozy interior, and normally very quiet. You can sit outside on the balcony (but smoking is allowed there). The entrance is a little difficult to find (the entrance is on the second floor of the building). Staff is friendly and food/drinks are good. Wifi can be very hit or miss. It can be slow and unstable at times, so it's good to have a backup mobile hot spot. Plenty of power outlets. Be sure to arrive early to get a good seat before it fills up. Cash only!

@@ -43,6 +43,8 @@ tips:
 images:
   - seating1.jpg
   - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
   - menu.jpg
   - tea.jpg
 review:
