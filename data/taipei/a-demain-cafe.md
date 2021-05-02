@@ -51,4 +51,4 @@ images:
   - menu4.jpg
 ---
 
-A great cafe near Kunyang MRT, just a short 10 minute walk from the station. Although this at first might feel more like a restaurant it is definitely workable. I would recommend coming here for brunch or lunch and trying some of the great dishes, then working the rest of the day. The interior feels bright and modern, but it was a little noisy at times (people talking and loud music). I particularly like the counter seats. The WiFi is good and there are lots of power outlets.
+A great cafe near Kunyang MRT, just a short 10 minute walk from the station. Although this at first might feel more like a restaurant it is definitely very workable on a weekday. I would recommend coming here for brunch or lunch and trying some of the great dishes, then working the rest of the day. I particularly like the counter seats by the windows, which looked like a nice spot to sit and work from. The WiFi is good and there are lots of power outlets. The cafe feels bright and modern, but it was a little noisy at times (people talking and slightly too loud music). 
