@@ -16,7 +16,7 @@ You can use this `.md` file template for new places:
 ```
 ---
 contributors:
-	- https://www.instagram.com/CHANGE-ME/ [insert your instagram here]
+  - https://www.instagram.com/CHANGE-ME/ [insert your instagram here]
 added: 2021-04-27
 name: A Demain Cafe
 type: Cafe
