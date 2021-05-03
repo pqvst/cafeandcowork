@@ -41,11 +41,11 @@ instagram: https://www.instagram.com/banana_blue_coffee_roast/
 telephone: "+8860228331858"
 website: http://www.bananabluecoffee.com/
 images: 
-    - first-floor.jpg
-    - high-level.jpg
-    - counter-seating.jpg
-    - main.jpg
-    - standing-desk.jpg
+  - first-floor.jpg
+  - high-level.jpg
+  - counter-seating.jpg
+  - main.jpg
+  - standing-desk.jpg
 ---
 
 Quite busy during weekdays. The 2nd floor is where you'd want work. Nice window counter seating. There are some standing desks available, and a lot of power outlets in the walls. Internet isn't great since there is many people, try to come with your hotspot. 
