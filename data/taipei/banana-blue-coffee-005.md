@@ -11,8 +11,14 @@ address:
   en: No. 182號, Zhongzheng Road, Shilin District, Taipei City, 11145
   zh-tw: 11145台北市士林區中正路182號
 station: Shilin
-opens: "07:30"
-closes: "21:30-22:00"
+hours:
+  mon: 7:30-22
+  tue: 7:30-22
+  wed: 7:30-22
+  thu: 7:30-22
+  fri: 7:30-22
+  sat: 7:30-22
+  sun: 7:30-21:30
 wifi: 2
 speed: 8
 power: 5
