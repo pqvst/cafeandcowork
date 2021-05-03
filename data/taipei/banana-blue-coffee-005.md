@@ -9,7 +9,7 @@ google_maps: https://goo.gl/maps/syomM2KkmcLbJnmz9
 coordinates: 25.0958079973074, 121.5272890991087
 address: No. 182號, Zhongzheng Road, Shilin District, Taipei City, 11145
 station: Shilin
-opens: "07:30-10:00"
+opens: "07:30"
 closes: "21:30-22:00"
 wifi: 2
 speed: 8
