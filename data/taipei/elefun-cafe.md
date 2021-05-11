@@ -30,6 +30,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/ELEFUN-Caf%C3%A9-%E8%89%BE%E6%A5%BD%E5%92%96%E5%95%A1-1739937062991816/
 instagram: https://www.instagram.com/elefuncafe/
 telephone: "+886227322678"

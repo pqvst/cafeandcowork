@@ -19,11 +19,11 @@ power: 5
 vacancy: 4
 comfort: 4
 quiet: 5
-food: 5
+food: 4
 drinks: 5
 price: 3
-view: 4
-toilets: 3
+view: 5
+toilets: 5
 music: true
 smoking: false
 standing_tables: true
