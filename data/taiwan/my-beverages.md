@@ -37,7 +37,7 @@ outdoor_seating: false
 cash_only: true
 animals:
 facebook: https://www.facebook.com/my.beverage/
-instagram: 
+instagram: https://www.instagram.com/mybeverages001/
 telephone: "+886935311949"
 website:
 images: 
