@@ -51,4 +51,4 @@ images:
   - books.jpg
 ---
 
-Amazing cafe for getting work done. Calm atmosphere, quiet music. Power outlets are everywhere. surprisingly confortable wood chairs. Second floor is really bright, surrounded by windows with some comfy sofas. There is a big table.  Cozy and vast selection of coffee and tea. Friendly owner. 
+Amazing cafe for getting work done. Calm atmosphere, quiet music. Power outlets are everywhere. surprisingly comfortable wood chairs. Second floor is really bright, surrounded by windows with some comfy sofas. There is a big table. Cozy and vast selection of coffee and tea. Friendly owner. 
