@@ -44,4 +44,4 @@ images:
   - menu3.jpg
 ---
 
-A popular cafe for working and having meetings. Soft background jazz music.
+A very popular cafe for working and having meetings. There's soft background jazz music. The vibe is good, but the seats are not the most comfortable. Also, it definitely gets busy so it's good to arrive early. Although there are many options for coffee, the tea selection is quite small. Decent WiFi and plenty of power outlets. There's a small outdoor seating area as well.
