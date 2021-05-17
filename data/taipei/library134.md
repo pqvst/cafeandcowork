@@ -37,4 +37,4 @@ images:
   - tea.jpg
 ---
 
-A great workable cafe near Nanjing Fuxing station. The interior is quite unique, with large glass walls and filled with bookshelves. The counter seats on the second floor are good. Lots of power outlets, comfortable seats, and fast WiFi. The drinks selection is good, but a little pricey.
+A great workable cafe near Nanjing Fuxing station. The interior is quite unique, with large glass walls and filled with bookshelves. The counter seats on the second floor are good. Lots of power outlets, comfortable seats, and fast WiFi. The drinks selection is good, but a little pricey. The menu has 2 prices for each item. Scan the QR code with Line at the counter and shows it when you pay to get the cheapest price.
