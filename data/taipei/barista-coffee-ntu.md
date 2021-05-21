@@ -1,6 +1,6 @@
 ---
 added: 
-name: Barista Coffee Shop at National Taiwan University
+name: Barista Coffee National Taiwan University
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/42cJ8hmkiCo4uGxu5
