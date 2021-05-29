@@ -42,6 +42,11 @@ images:
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
----
+review:
+  en: |
+    A very popular cafe for working and having meetings. Nice interior and soft jazz background music, which gives the place a good vibe. There are several seating options, including a small outdoor seating area. Personally I like the bar seats, although it's not very comfortable to sit there for a long time. Decent WiFi and plenty of power outlets. The menu has many options for coffee but unfortunately the tea selection is quite small. One tip is to arrive early to get a good seat, since it can get quite busy even on a weekday.
+  zh-tw: |
+    這是一家很受歡迎的咖啡店，很多人會來工作或開會。Mojo的內裝充滿巧思，室內流瀉著慢板爵士樂，很襯整個空間的氛圍。這裡有很多種座位，包含一處小型戶外空間，一如以往，我喜歡可以享受個人時光的吧台桌，即便椅子沒有那麼舒適。建議提早來佔位置，因為這裡即便在週末也很容易爆滿。
 
-A very popular cafe for working and having meetings. There's soft background jazz music. The vibe is good, but the seats are not the most comfortable. Also, it definitely gets busy so it's good to arrive early. Although there are many options for coffee, the tea selection is quite small. Decent WiFi and plenty of power outlets. There's a small outdoor seating area as well.
+    WiFi 很理想，也有很多插座，菜單上有很多咖啡，比較少的茶。
+---
