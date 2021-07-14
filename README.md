@@ -106,6 +106,7 @@ type|Type of space `Cafe`, `Bar`, `Restaurant`, `Library`, `Lobby`, `Coworking S
 `telephone`|Telephone number
 `website`|Link to website
 `closed`|Permanently closed? `true` or `false`
+`temporarily_closed`|Temporarily closed? `true` or `false`
 
 ## Local Dev Environment
 1. Install [nodejs](https://nodejs.org/en/)

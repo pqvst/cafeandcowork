@@ -10,6 +10,8 @@ block body
       a(href=`${prefix}${place.url}`)= place.name
       if place.closed
         span.closed= __('Permanently Closed')
+      else if place.temporarily_closed
+        span.closed= __('Temporarily Closed')
       else if !isOpen24Hours(city, place)
         if isClosedToday(city, place)
           span.closed(data-nosnippet)= __('Closed Today')

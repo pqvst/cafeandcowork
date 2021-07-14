@@ -126,6 +126,9 @@ exports.isClosedToday = function(city, place) {
 }
 
 exports.isClosedNow = function(city, place) {
+  if (place.temporarily_closed) {
+    return true;
+  }
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   const time = getAdjustedTime(m);
