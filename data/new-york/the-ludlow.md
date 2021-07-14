@@ -1,13 +1,12 @@
 ---
-name: The Ludlow
+name: The Ludlow Hotel
 type: Lobby
 area: Lower East Side
-google_maps: https://goo.gl/maps/KNpvt8vePYpufjhR7
-coordinates: 40.7157866,-73.9960306
-address: 
-station: 
-opens: ""
-closes: ""
+google_maps: https://g.page/LudlowHotelNYC?share
+coordinates: 40.72186326660336, -73.98725402269879
+address: 180 Ludlow St, New York, NY 10002, United States
+station: 2nd Ave
+hours: 11-1
 wifi: 4
 speed: 
 power: 
@@ -23,10 +22,10 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
-cash_only: 
+cash_only: false
 animals: 
-facebook: 
-instagram: 
-telephone: 
-website: 
+facebook: https://www.facebook.com/LudlowHotelNYC/
+instagram: https://www.instagram.com/ludlowhotelnyc/
+telephone: "+12124321818"
+website: http://ludlowhotel.com/
 ---

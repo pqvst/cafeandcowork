@@ -27,4 +27,5 @@ facebook:
 instagram: 
 telephone: "+12126861444"
 website: http://www.birchcoffee.com/
+temporarily_closed: true
 ---

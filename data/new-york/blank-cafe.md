@@ -27,4 +27,5 @@ facebook:
 instagram: 
 telephone: 
 website: http://www.blankbrooklyn.com/
+closed: true
 ---

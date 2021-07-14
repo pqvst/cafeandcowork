@@ -1,11 +1,11 @@
 ---
 name: Butler
 type: Cafe
-area: Williamsburg
-google_maps: https://goo.gl/maps/CZjQxKbjji8UMtmX6
-coordinates: 40.711740976646944, -73.96465952554175
-address: 95 S 5th St, Brooklyn, NY 11249, United States
-station: Marcy Av
+area: Dumbo
+google_maps: https://goo.gl/maps/6KS7zUKWcuEbzxkQ8
+coordinates: 40.70319880978348, -73.99244751598603
+address: 40 Water St, Brooklyn, NY 11201, United States
+station: York St
 hours:
   mon: 7-18
   tue: 7-18

@@ -3,7 +3,7 @@ name: A/D/O
 type: Cafe
 area: Williamsburg
 google_maps: https://goo.gl/maps/24eBZhjuvbeae37j8
-coordinates: 40.7170934,-73.9652764
+coordinates: 40.72450319322181, -73.95489965877908
 address: 29 Norman Ave, Brooklyn, NY 11222, United States
 station: Nassau Avenue
 wifi: 4
@@ -27,4 +27,5 @@ facebook:
 instagram: 
 telephone: 
 website: 
+closed: true
 ---
