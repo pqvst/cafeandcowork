@@ -89,6 +89,7 @@ const placeSchema = {
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
     content: { type: 'string' },
+    temporarily_closed: { type: ['boolean', 'null'] },
 
     // legacy data properties
     opens: { type: ['string', 'null'] },
