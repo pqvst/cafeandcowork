@@ -36,4 +36,7 @@ facebook:
 instagram: 
 telephone: "+17183840152"
 website: http://www.starbucks.com/store/1007809/
+images:
+  - seating1.jpg
+  - seating2.jpg
 ---
