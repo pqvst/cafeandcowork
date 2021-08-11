@@ -47,7 +47,8 @@ block body
 
     .columns
       each city in cities
-        if city.places.length > 5
+        - let places = city.places.filter(e => !e.closed);
+        if places.length > 5
           .column
             h2
               a(href=`${prefix}${city.url}`)
@@ -56,7 +57,7 @@ block body
                 span.info
                   span= __('{{count}} places', { count: city.count })
                   i.fa.fa-angle-right
-            +list(city.places.slice(0, 10))
+            +list(places.slice(0, 10))
             a.more(href=`${prefix}${city.url}`)= __('Explore more')
       .column
         h2= __('Recently Added')
