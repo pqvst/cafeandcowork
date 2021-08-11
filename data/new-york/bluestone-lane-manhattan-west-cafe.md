@@ -23,10 +23,10 @@ comfort: 3
 quiet: 3
 food: 4
 drinks: 4
-price: 
+price: 3
 view: 4
 toilets: 4
-music: 
+music: true
 smoking: false
 standing_tables: true
 outdoor_seating: true
