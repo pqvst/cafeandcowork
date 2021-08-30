@@ -7,11 +7,14 @@ const { I18n } = require('i18n');
 
 let rollbar;
 if (process.env.ROLLBAR_ACCESS_TOKEN) {
+  console.log('Rollbar enabled');
   rollbar = new Rollbar({
     accessToken: process.env.ROLLBAR_ACCESS_TOKEN,
     captureUncaught: true,
     captureUnhandledRejections: true
   });
+} else {
+  console.log('Rollbar disabled');
 }
 
 const i18n = new I18n({
@@ -156,6 +159,12 @@ app.get('/feed.xml', (req, res) => {
   res.type('application/xml');
   res.render('feed', { recent: app.locals.recent, pretty: true });
 });
+
+if (DEBUG) {
+  app.get('/rollbar', (req, res) => {
+    throw new Error('Keep Rollbar Active');
+  });
+}
 
 app.use((req, res) => {
   res.status(404).render('error');
