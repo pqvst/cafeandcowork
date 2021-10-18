@@ -8,12 +8,12 @@ coordinates: 25.07941033987216, 121.54605766859156
 address: No.3, Lane 518, Beian Road, Zhongshan District, Taipei City, Taiwan 10491
 station: Dazhi
 hours:
-  mon: 9-18
-  tue: 9-18
-  wed: 9-18
-  thu: 9-18
-  fri: 9-18
-  sat: 9-16:30
+  mon: 11-17:30
+  wed: 11-17:30
+  thu: 11-17:30
+  fri: 11-17:30
+  sat: 11-17:30
+  sun: 11-17
 wifi: 5
 speed: 100
 power: 5

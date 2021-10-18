@@ -8,12 +8,12 @@ coordinates: 25.053480679501426, 121.52427696842462
 address: No. 6, Alley 7, Lane 13, Section 1, Nanjing East Road, Zhongshan District, Taipei City, Taiwan 10491
 station: Zhongshan
 hours:
-  mon: 12-19
-  tue: 12-19
-  wed: 12-19
-  thu: 12-19
-  fri: 12-19
-  sat: 11-18
+  mon: 12-18:30
+  tue: 12-18:30
+  wed: 12-18:30
+  thu: 12-18:30
+  fri: 12-18:30
+  sat: 11-18:30
 wifi: 3
 speed: 10
 power: 3

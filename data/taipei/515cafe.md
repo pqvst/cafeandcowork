@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-12-11
 updated: 2021-04-20
 name: 515 Cafe&books

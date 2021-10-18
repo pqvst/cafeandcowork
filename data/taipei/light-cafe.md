@@ -9,7 +9,7 @@ google_maps: https://goo.gl/maps/KcNXWAPwabcpMaP27
 coordinates: 25.024450353554005, 121.52683889801709
 address: No. 4, Pucheng Street, Da’an District, Taipei City, Taiwan 106
 station: Guting
-hours: 11-19
+hours: 11-21
 wifi: 3
 speed: 22
 power: 2

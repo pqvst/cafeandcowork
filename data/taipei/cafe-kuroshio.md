@@ -8,12 +8,12 @@ coordinates: 25.027849714330994, 121.53058664638186
 address: No. 9-1, Lane 141, Section 1, Heping East Road, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
 hours:
-  tue: 13-23
-  wed: 13-23
-  thu: 13-23
-  fri: 13-23
-  sat: 13-23
-  sun: 13-23
+  tue: 13-18:30
+  wed: 13-18:30
+  thu: 13-18:30
+  fri: 13-18:30
+  sat: 13-18:30
+  sun: 13-18:30
 wifi: 3
 speed: 30
 power: 2

@@ -10,8 +10,8 @@ address:
   zh-tw: 110台北市信義區虎林街164巷60弄17號
 station: Yongchun
 hours:
+  mon: 13-19
   tue: 13-19
-  wed: 13-19
   thu: 13-19
   fri: 13-19
   sat: 13-19

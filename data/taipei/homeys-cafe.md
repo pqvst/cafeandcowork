@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/bRPrSSe7o3Pu2c9W9
 coordinates: 25.040522, 121.546595
 address: 106, Taiwan, Taipei City, Da’an District, Lane 236, Section 1, Dunhua South Road, 36號騷豆花樓上2樓
 station: Zhongxiao Dunhua
-hours: 12-00
+hours: 12-22
 wifi: 2
 speed: 10
 power: 5

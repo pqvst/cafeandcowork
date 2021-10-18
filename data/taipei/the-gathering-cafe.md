@@ -9,14 +9,7 @@ address:
   en: 105, Taipei City, Songshan District, Lane 8, Jiankang Road, 5號1樓
   zh-tw: 105台北市松山區健康路8巷5號1樓
 station: Taipei Arena
-hours:
-  mon: 10:30-19
-  tue: 10:30-19
-  wed: 10:30-19
-  thu: 10:30-19
-  fri: 10:30-19
-  sat: 10:30-18:30
-  sun: 10:30-18:30
+hours: 10:30-18
 wifi: 
 speed: 
 power: 

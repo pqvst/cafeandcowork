@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Hi5 Cafe
 type: Cafe
 area: Xinyi
@@ -8,7 +9,6 @@ address:
 station: Taipei City Hall
 opens: ""
 closes: ""
-closed: true
 wifi: 2
 speed: 3
 power: 2

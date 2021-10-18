@@ -7,12 +7,11 @@ coordinates: 25.055162, 121.543545
 address: 
 station: Zhongshan Junior High School
 hours:
-  tue: 12-20
-  wed: 12-20
-  thu: 12-20
-  fri: 12-20
-  sat: 12-20
-  sun: 12-17:30
+  tue: 12-19
+  wed: 12-19
+  thu: 12-19
+  fri: 12-19
+  sat: 12-19
 wifi: 
 speed: 
 power: 

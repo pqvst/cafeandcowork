@@ -10,13 +10,13 @@ address:
   zh-tw: 106台北市大安區和平東路二段157號2樓
 station: Technology Building
 hours:
-  mon: 14-0
-  tue: 14-0
-  wed: 14-0
-  thu: 14-0
-  fri: 14-2
-  sat: 10-2
-  sun: 10-0
+  mon: 14-22
+  tue: 14-22
+  wed: 14-22
+  thu: 14-22
+  fri: 14-0
+  sat: 14-0
+  sun: 14-22
 wifi: 
 speed: 
 power: 

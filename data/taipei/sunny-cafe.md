@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-01-18
 name: Sunny Cafe
 type: Cafe

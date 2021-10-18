@@ -2,10 +2,10 @@
 contributors:
   - https://www.instagram.com/huey/
 added: 2021-01-28
-name: Minami Zephyr
+name: Minami Cafe
 type: Cafe
 area: Daan
-google_maps: https://g.page/minamizephyr?share
+google_maps: https://g.page/minami_cafe?share
 coordinates: 25.024235865526965, 121.52789773411295
 address: No. 9號, Lane 68, Shida Road, Da’an District, Taipei City, Taiwan 106
 station: Guting

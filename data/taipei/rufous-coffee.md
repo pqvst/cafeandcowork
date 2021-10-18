@@ -10,12 +10,12 @@ address:
   zh-tw: 106台北市大安區復興南路二段339號
 station: Technology Building
 hours:
-  mon: 13-21:30
-  tue: 13-21:30
-  wed: 13-21:30
-  fri: 13-21:30
-  sat: 13-21:30
-  sun: 13-21:30
+  mon: 12-19:30
+  tue: 12-19:30
+  wed: 12-19:30
+  fri: 12-19:30
+  sat: 12-19:30
+  sun: 12-19:30
 wifi: 3
 speed: 13
 power: 3

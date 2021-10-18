@@ -1,6 +1,6 @@
 ---
 added: 2020-11-04
-name: Powder Workshop
+name: powder workshop
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/6ei1YiU6YmbZgUo3A

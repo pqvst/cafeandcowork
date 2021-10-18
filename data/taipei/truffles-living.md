@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/hmGsUgqQBNQLF6qN9
 coordinates: 25.032627, 121.550854
 address: No. 66號, Wenchang Street, Da’an District, Taipei City, Taiwan 106
 station: Xinyi Anhe
-hours: 11-22
+hours: 11:30-19
 wifi: 1
 speed: 3
 power: 3

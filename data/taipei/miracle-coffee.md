@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/sGFDmFpWeTJPbiJi8
 coordinates: 25.04314045961681, 121.54963142520796
 address: No. 8號, Lane 169, Section 1, Dunhua South Road, Da’an District, Taipei City, Taiwan 106076
 station: Dunhua
-hours: 11-21
+hours: 10-21
 wifi: 2
 speed: 9
 power: 2

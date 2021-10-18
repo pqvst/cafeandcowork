@@ -8,12 +8,12 @@ coordinates: 25.039747665523013, 121.53475756154306
 address: No. 16, Lane 31, Section 3, Ren'ai Road, Da’an District, Taipei City, Taiwan 106
 station: Zhongxiao Xinsheng
 hours:
-  tue: 8-18:30
-  wed: 8-18:30
-  thu: 8-18:30
-  fri: 8-18:30
-  sat: 8-18:30
-  sun: 8-18:30
+  tue: 9-18
+  wed: 9-18
+  thu: 9-18
+  fri: 9-18
+  sat: 9-18
+  sun: 9-18
 wifi: 4
 speed: 40
 power: 4

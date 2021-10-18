@@ -10,7 +10,7 @@ address:
   zh-tw: 114台北市內湖區內湖路一段411巷10號
 station: Xihu
 hours:
-  mon: 8-20
+  mon: 9-20
   tue: 8-20
   wed: 8-20
   thu: 8-20

@@ -13,8 +13,8 @@ hours:
   wed: 12-19
   thu: 12-19
   fri: 12-19
-  sat: 12-21
-  sun: 12-21
+  sat: 11-20
+  sun: 11-20
 wifi: 5
 speed: 350
 power: 3

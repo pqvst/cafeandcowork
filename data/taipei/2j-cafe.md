@@ -6,7 +6,7 @@ google_maps: https://goo.gl/maps/ZGu2RRxXd4194Uru6
 coordinates: 25.030960, 121.538369
 address: No. 9號, Lane 79, Section 2, Jianguo South Road, Da’an District, Taipei City, Taiwan 106
 station: Daan
-hours: 11:30-23
+hours: 11:30-21
 wifi: 3
 speed: 
 power: 4

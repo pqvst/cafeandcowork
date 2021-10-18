@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-11-18
 name: Laoo Coffee Yanji Branch
 type: Cafe

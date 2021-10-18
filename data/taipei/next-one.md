@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-03-13
 name: NEXT ONE
 type: Cafe

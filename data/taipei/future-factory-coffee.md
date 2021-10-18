@@ -9,7 +9,7 @@ address:
   en: No. 18, Lane 31, Minzu West Road, Datong District, Taipei City, 103
   zh-tw: 103台北市大同區民族西路31巷18號
 station: Yuanshan
-hours: 12-21
+hours: 12-20
 wifi: 
 speed: 
 power: 

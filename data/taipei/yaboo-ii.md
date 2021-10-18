@@ -8,13 +8,11 @@ coordinates: 25.03047725238785, 121.52926601496898
 address: 106, Taiwan, Taipei City, Da’an District, Lane 9, Lishui Street, 10-1號一樓
 station: Dongmen
 hours:
-  mon: 12-23
-  tue: 12-23
-  wed: 12-23
-  thu: 12-23
-  fri: 12-23
-  sat: 11-0
-  sun: 11-0
+  mon: 14-22
+  tue: 14-22
+  wed: 14-22
+  sat: 14-22
+  sun: 14-22
 wifi: 3
 speed: 40
 power: 3

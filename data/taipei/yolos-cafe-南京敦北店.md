@@ -8,12 +8,11 @@ coordinates: 25.053713, 121.548092
 address: No. 11號, Alley 7, Lane 120, Dunhua North Road, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
 hours:
-  mon: 8-17
-  tue: 8-17
-  wed: 8-17
-  thu: 8-17
-  fri: 8-17
-  sun: 9-17
+  mon: 8-16
+  tue: 8-16
+  wed: 8-16
+  thu: 8-16
+  fri: 8-16
 wifi: 5
 speed: 50
 power: 5

@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 
 name: 創咖啡 TRUST CAFÉ
 type: Cafe

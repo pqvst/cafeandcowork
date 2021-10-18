@@ -7,14 +7,7 @@ google_maps: https://goo.gl/maps/NHRiPxUNpMpjgKXaA
 coordinates: 25.028361, 121.528964
 address: No. 154, Chaozhou Street, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
-hours:
-  mon: 7:30-18
-  tue: 7:30-18
-  wed: 7:30-18
-  thu: 7:30-18
-  fri: 7:30-18
-  sat: 8-18
-  sun: 8-18
+hours: 8-16
 wifi: 4
 speed: 30
 power: 4

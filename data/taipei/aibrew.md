@@ -15,7 +15,6 @@ hours:
   wed: 9:30-18:30
   thu: 9:30-18:30
   fri: 9:30-18:30
-  sat: 9:30-18:30
 wifi: 3
 speed: 16
 power: 5

@@ -10,9 +10,10 @@ station: Taipei City Hall
 hours:
   mon: 14:03-0
   tue: 14:03-0
-  fri: 14:03-21
-  sat: 14:03-21
-  sun: 14:03-21
+  thu: 14:03-0
+  fri: 14:03-0
+  sat: 14:03-0
+  sun: 14:03-0
 wifi: 5
 speed: 20
 power: 5

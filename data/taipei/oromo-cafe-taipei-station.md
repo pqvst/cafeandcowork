@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/SLURNGrfBpHqCHZo7
 coordinates: 25.044389, 121.516000
 address: No. 26, Nanyang Street, Zhongzheng District, Taipei City, Taiwan 100
 station: Taipei Main
-hours: 9-22
+hours: 10:15-21
 wifi: 2
 speed: 15
 power: 4

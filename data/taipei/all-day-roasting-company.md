@@ -7,7 +7,7 @@ google_maps: https://g.page/alldayroastingcompany?share
 coordinates: 25.056770, 121.560263
 address: 105, Taiwan, Taipei City, Songshan District, Yanshou Street, 329號1樓
 station: Nanjing Sanmin
-hours: 11-22
+hours: 10-19
 wifi: 4
 speed: 
 power: 4

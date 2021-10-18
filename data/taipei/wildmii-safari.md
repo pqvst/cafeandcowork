@@ -10,13 +10,12 @@ address:
   zh-tw: 106台北市大安區溫州街48巷24號
 station: Taipower Building
 hours:
-  mon: 12-21
-  tue: 12-18
-  wed: 12:30-18
-  thu: 12-21
-  fri: 12:30-21
-  sat: 11-21
-  sun: 11-21
+  mon: 12-18
+  wed: 12-18
+  thu: 12-18
+  fri: 12-18
+  sat: 12-18
+  sun: 12-18
 wifi: 
 speed: 
 power: 

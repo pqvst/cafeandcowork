@@ -11,6 +11,7 @@ address:
 station: Xinyi Anhe
 hours:
   mon: 11-18
+  wed: 11-18
   thu: 11-18
   fri: 11-18
   sat: 11-18

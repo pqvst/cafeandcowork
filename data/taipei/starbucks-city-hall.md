@@ -6,7 +6,14 @@ google_maps: https://goo.gl/maps/31aMTTWANbhh87Hz8
 coordinates: 25.040883, 121.564925
 address: 110, Taiwan, Taipei City, Xinyi District, Section 5, Zhongxiao East Road, 8號2樓
 station: Taipei City Hall
-hours: 7:30-22
+hours:
+  mon: 7-21:30
+  tue: 7-21:30
+  wed: 7-21:30
+  thu: 7-21:30
+  fri: 7-22
+  sat: 7-22
+  sun: 7-21:30
 wifi: 1
 speed: 2
 power: 2

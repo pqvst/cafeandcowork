@@ -9,7 +9,7 @@ address:
   en: No. 30, Alley 15, Lane 96, Section 2, Heping East Road, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區和平東路二段96巷15弄30號
 station: Technology Building
-hours: 11-23
+hours: 11-22
 wifi: 
 speed: 
 power: 

@@ -9,7 +9,7 @@ address:
   en: No. 42號, Lane 321, Yangguang Street, Neihu District, Taipei City, 114
   zh-tw: 114台北市內湖區陽光街321巷42號
 station: Wende
-hours: 8-22
+hours: 9-21
 wifi: 
 speed: 
 power: 

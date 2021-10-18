@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 
 name: Artalley Cafe
 type: Cafe

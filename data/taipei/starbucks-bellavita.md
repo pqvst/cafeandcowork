@@ -8,13 +8,13 @@ coordinates: 25.039594, 121.567639
 address: B1, No. 28號, Songren Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei City Hall
 hours:
-  mon: 10:30-22
-  tue: 10:30-22
-  wed: 10:30-22
-  thu: 10:30-22
-  fri: 10:30-22
-  sat: 10:30-22:30
-  sun: 10:30-22
+  mon: 11-21
+  tue: 11-21:30
+  wed: 11-21:30
+  thu: 11-21:30
+  fri: 11-21:30
+  sat: 11-21:30
+  sun: 11-21:30
 wifi: 0
 speed: 
 power: 0

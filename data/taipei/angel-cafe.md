@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/KfaP7quhVbnrzrW99
 coordinates: 25.031071630963304, 121.52943231407617
 address: No. 18, Yongkang Street, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
-hours: 11-22
+hours: 11:30-22
 wifi: 2
 speed: 5
 power: 4

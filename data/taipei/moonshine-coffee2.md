@@ -9,7 +9,7 @@ address:
   en: 106, Taipei City, Da’an District, Lane 265, Section 2, Dunhua South Road, 7號1樓
   zh-tw: 106台北市大安區敦化南路二段265巷7號1樓
 station: Liuzhangli
-hours: 9-20
+hours: 9-18
 wifi: 
 speed: 
 power: 

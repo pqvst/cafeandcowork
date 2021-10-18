@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-12-21
 name: L'apre's midi Café
 type: Cafe

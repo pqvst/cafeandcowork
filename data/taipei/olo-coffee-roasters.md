@@ -10,12 +10,12 @@ address:
   zh-tw: 103台北市大同區南京西路18巷26之2號
 station: Zhongshan
 hours:
-  mon: 12-0
-  tue: 12-0
-  thu: 12-0
-  fri: 12-0
-  sat: 12-0
-  sun: 12-0
+  mon: 12-22
+  tue: 12-22
+  thu: 12-22
+  fri: 12-22
+  sat: 12-22
+  sun: 12-22
 wifi: 
 speed: 
 power: 

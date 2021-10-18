@@ -14,7 +14,7 @@ hours:
   thu: 8:30-20:30
   fri: 8:30-20:30
   sat: 8:30-20:30
-  sun: 8:30-17
+  sun: 8:30-20_30
 wifi: 2
 speed: 5
 power: 0

@@ -3,18 +3,18 @@ added: 2021-01-13
 name: Saturn Landing Turkish Coffee
 type: Cafe
 area: Daan
-google_maps: https://g.page/taipeiturkishcoffee?share
+google_maps: https://g.page/taiwanturkishcafe?share
 coordinates: 25.02883054108021, 121.53080212649664
 address: No. 14-2號, Lane 75, Yongkang Street, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
 hours:
-  mon: 11-20
-  tue: 11-20
-  wed: 11-20
-  thu: 11-20
-  fri: 11-20
-  sat: 11-21
-  sun: 11-21
+  mon: 11-19
+  tue: 11-19
+  wed: 11-19
+  thu: 11-19
+  fri: 11-19
+  sat: 11-19
+  sun: 11-19
 wifi: 4
 speed: 50
 power: 2

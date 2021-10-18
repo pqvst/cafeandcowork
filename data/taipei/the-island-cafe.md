@@ -7,7 +7,13 @@ google_maps: https://goo.gl/maps/J4s1Hxn63BWDTmdL6
 coordinates: 25.048852697012894, 121.52156689010793
 address: No. 1號, Lane 33, Section 1, Zhongshan North Road, Zhongshan District, Taipei City, Taiwan 10491
 station: Taipei Main
-hours: 9-18
+hours:
+  tue: 11-16:30
+  wed: 11-16:30
+  thu: 11-16:30
+  fri: 11-16:30
+  sat: 11-16:30
+  sun: 11-16:30
 wifi: 4
 speed: 42
 power: 4

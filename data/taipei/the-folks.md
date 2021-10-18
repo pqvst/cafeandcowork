@@ -10,12 +10,12 @@ address:
   zh-tw: 106台北市大安區四維路208巷3-1號
 station: Technology Building
 hours:
-  mon: 8-16
-  tue: 8-16
-  wed: 8-16
-  fri: 8-16
-  sat: 8-16
-  sun: 8-16
+  mon: 8-15:30
+  tue: 8-15:30
+  wed: 8-15:30
+  fri: 8-15:30
+  sat: 8-15:30
+  sun: 8-15:30
 wifi: 
 speed: 
 power: 

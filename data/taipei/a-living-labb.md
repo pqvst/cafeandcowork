@@ -14,8 +14,8 @@ hours:
   tue: 10-18
   thu: 10-18
   fri: 10-18
-  sat: 10-21
-  sun: 10-21
+  sat: 10-18
+  sun: 10-18
 wifi: 
 speed: 
 power: 

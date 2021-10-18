@@ -9,7 +9,7 @@ address:
   en: No. 8, Lane 17, Chifeng Street, Datong District, Taipei City, 103
   zh-tw: 103台北市大同區赤峰街17巷8號
 station: Zhongshan
-hours: 11-22
+hours: 13-19
 wifi: 4
 speed: 26
 power: 3

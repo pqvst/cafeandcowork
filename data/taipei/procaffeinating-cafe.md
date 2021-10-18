@@ -10,11 +10,11 @@ address:
   zh-tw: 115台北市南港區經貿二路255巷33號
 station: Nangang Software Park
 hours:
-  mon: 8-18
-  tue: 8-18
-  wed: 8-18
-  thu: 8-18
-  fri: 8-18
+  mon: 9:30-18
+  tue: 9:30-18
+  wed: 9:30-18
+  thu: 9:30-18
+  fri: 9:30-18
   sat: 10-18
   sun: 10-18
 wifi: 4

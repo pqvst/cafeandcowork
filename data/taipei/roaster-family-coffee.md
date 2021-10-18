@@ -1,4 +1,5 @@
 ---
+temporarily_closed: true
 added: 2021-02-02
 name: Roaster Family Coffee
 type: Cafe

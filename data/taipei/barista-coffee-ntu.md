@@ -9,14 +9,7 @@ address:
   en: No. 88, Section 3, Xinsheng South Road, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區新生南路三段88號
 station: Gongguan
-hours:
-  mon: 7:10-22
-  tue: 7:10-22
-  wed: 7:10-22
-  thu: 7:10-22
-  fri: 7:10-22:30
-  sat: 7:10-22:30
-  sun: 7:10-22
+hours: 7-19
 wifi: 
 speed: 
 power: 

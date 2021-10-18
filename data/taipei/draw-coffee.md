@@ -8,13 +8,13 @@ coordinates: 25.03337071208819, 121.52731536145444
 address: No. 15號, Section 2, Jinshan South Road, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
 hours:
-  mon: 7:30-19
-  tue: 7:30-19
-  wed: 7:30-19
-  thu: 7:30-19
-  fri: 7:30-19
-  sat: 9-18
-  sun: 9-18
+  mon: 7:30-16:30
+  tue: 7:30-16:30
+  wed: 7:30-16:30
+  thu: 7:30-16:30
+  fri: 7:30-16:30
+  sat: 9-16
+  sun: 9-16
 wifi: 3
 speed: 20
 power: 4

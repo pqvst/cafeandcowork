@@ -6,14 +6,7 @@ google_maps: https://goo.gl/maps/nbAsMHe9UVQP3kf59
 coordinates: 25.035586, 121.548157
 address: No. 23, Siwei Road, Da’an District, Taipei City, Taiwan 106
 station: Daan, Zhongxiao Fuxing
-hours:
-  mon: 11-20
-  tue: 11-20
-  wed: 11-20
-  thu: 11-20
-  fri: 11-20
-  sat: 10:30-20:30
-  sun: 10:30-20
+hours: 11-19:30
 wifi: 3
 speed: 8
 power: 3

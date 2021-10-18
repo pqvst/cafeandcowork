@@ -9,13 +9,7 @@ address:
   en: 10353, Taipei City, Datong District, Lane 47, Chifeng Street, 18號2樓
   zh-tw: 10353台北市大同區赤峰街47巷18號2樓
 station: Zhongshan
-hours:
-  mon: 13-0
-  tue: 13-0
-  wed: 13-0
-  fri: 13-0
-  sat: 13-0
-  sun: 13-0
+hours: 12-22
 wifi: 
 speed: 
 power: 

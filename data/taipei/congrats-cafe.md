@@ -8,12 +8,12 @@ coordinates: 25.032855, 121.550578
 address: No. 49號, Wenchang Street, Da’an District, Taipei City, Taiwan 10681
 station: Xinyi Anhe
 hours:
-  mon: 8-0
-  tue: 8-0
-  wed: 8-0
-  thu: 8-0
-  fri: 8-0
-  sat: 13-0
+  mon: 8-22
+  tue: 8-22
+  wed: 8-22
+  thu: 8-22
+  fri: 8-22
+  sat: 13-22
   sun: 13-22
 wifi: 5
 speed: 320

@@ -16,7 +16,7 @@ hours:
   tue: 8-22
   wed: 8-22
   thu: 8-22
-  fri: 8-22:30
+  fri: 8-22
   sat: 8-22:30
   sun: 8-22:30
 wifi: 4

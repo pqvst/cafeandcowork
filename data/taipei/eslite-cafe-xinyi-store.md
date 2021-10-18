@@ -7,7 +7,7 @@ google_maps: https://goo.gl/maps/GV8ByxzACipGuAJa8
 coordinates: 25.039519, 121.565419
 address: 11073, Taiwan, Taipei City, Xinyi District, Songgao Road, 11號3F
 station: Taipei City Hall
-hours: 8:30-1
+hours: 9-0
 wifi: 0
 speed: 
 power: 1

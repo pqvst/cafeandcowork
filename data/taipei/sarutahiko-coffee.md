@@ -2,7 +2,7 @@
 contributors:
   - https://www.instagram.com/huey/
 added: 2021-01-15
-name: Sarutahiko Coffee
+name: SARUTAHIKO COFFEE Taipei Eslite Nanxi Shop
 type: Cafe
 area: Zhongshan
 google_maps: https://goo.gl/maps/fB69dtRYjuE1DBeo7

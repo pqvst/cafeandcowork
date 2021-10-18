@@ -1,4 +1,5 @@
 ---
+temporarily_closed: true
 added: 2021-01-22
 name: Stayreal Cafe
 type: Cafe

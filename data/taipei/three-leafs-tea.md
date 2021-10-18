@@ -1,4 +1,5 @@
 ---
+temporarily_closed: true
 added: 2020-12-01
 name: Three Leafs Tea [三叶]
 type: Cafe

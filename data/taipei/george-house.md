@@ -8,12 +8,12 @@ coordinates: 25.028942496024765, 121.53003604520855
 address: No. 3號, Lane 75, Yongkang Street, Da’an District, Taipei City, 106
 station: Dongmen
 hours:
-  tue: 13:30-22
-  wed: 13:30-22
-  thu: 13:30-22
-  fri: 13:30-22
-  sat: 13:30-22
-  sun: 13:30-22
+  tue: 13-21
+  wed: 13-21
+  thu: 13-21
+  fri: 13-21
+  sat: 13-21
+  sun: 13-21
 wifi: 3
 speed: 10
 power: 4

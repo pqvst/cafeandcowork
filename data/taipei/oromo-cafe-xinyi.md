@@ -8,13 +8,13 @@ coordinates: 25.031663, 121.559608
 address: No. 15, Wuxing Street, Xinyi District, Taipei City, Taiwan 110
 station: Taipei 101/World Trade Center
 hours:
-  mon: 7:30-21:30
-  tue: 7:30-21:30
-  wed: 7:30-21:30
-  thu: 7:30-21:30
-  fri: 7:30-21:30
-  sat: 8-21:30
-  sun: 8-21:30
+  mon: 8:30-20:30
+  tue: 8:30-20:30
+  wed: 8:30-20:30
+  thu: 8:30-20:30
+  fri: 8:30-20:30
+  sat: 9:30-20
+  sun: 9:30-20
 wifi: 3
 speed: 4
 power: 5

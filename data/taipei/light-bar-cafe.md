@@ -1,4 +1,5 @@
 ---
+temporarily_closed: true
 added: 2020-12-14
 name: Light Bar Cafe
 type: Cafe

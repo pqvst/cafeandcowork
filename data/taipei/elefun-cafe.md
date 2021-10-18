@@ -8,11 +8,11 @@ coordinates: 25.03105546617822, 121.55878256470282
 address: 110, Taiwan, Taipei City, Xinyi District, 基隆路二段39巷4號
 station: Taipei 101/World Trade Center
 hours:
-  mon: 8-18
-  tue: 8-18
-  wed: 8-18
-  thu: 8-18
-  fri: 8-18
+  mon: 8:30-17
+  tue: 8:30-17
+  wed: 8:30-17
+  thu: 8:30-17
+  fri: 8:30-17
 wifi: 3
 speed: 16
 power: 4

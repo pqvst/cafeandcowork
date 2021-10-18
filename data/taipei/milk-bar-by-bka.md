@@ -9,7 +9,7 @@ coordinates: 25.052553, 121.545712
 address: No. 6-1號, Lane 269, Section 3, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
 hours:
-  mon: 9-21
+  mon: 13-21
   tue: 9-21
   wed: 9-21
   thu: 9-21

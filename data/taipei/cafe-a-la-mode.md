@@ -10,12 +10,12 @@ address:
   zh-tw: 10491台北市中山區中山北路二段26巷11號
 station: Zhongshan
 hours: 
-  tue: 11:30-21
-  wed: 11:30-21
-  thu: 11:30-21
-  fri: 11:30-21
-  sat: 11:30-21
-  sun: 11:30-21
+  tue: 10:30-17
+  wed: 10:30-17
+  thu: 10:30-17
+  fri: 10:30-17
+  sat: 10-17
+  sun: 10-17
 wifi: 3
 speed: 15
 power: 3

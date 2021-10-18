@@ -7,13 +7,13 @@ coordinates: 25.043736, 121.552520
 address: 106, Taiwan, Taipei City, Da’an District, Alley 71, Lane 223, Section 4, Zhongxiao East Road, 6號1樓
 station: Zhongxiao Dunhua
 hours:
-  mon: 13-0
-  tue: 13-0
-  wed: 13-0
-  thu: 13-0
-  fri: 13-1
+  mon: 14-22
+  tue: 14-22
+  wed: 14-22
+  thu: 14-22
+  fri: 12-1
   sat: 12-1
-  sun: 12-0
+  sun: 12-22
 wifi: 3
 speed: 15
 power: 4

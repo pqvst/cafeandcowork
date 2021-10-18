@@ -11,12 +11,12 @@ coordinates: 25.03659315211968, 121.54698643153095
 address: 106, Taiwan, Taipei City, Da’an District, Lane 175, Section 1, Da'an Road, 11號1F
 station: Daan
 hours:
-  tue: 8-18:30
-  wed: 8-18:30
-  thu: 8-18:30
-  fri: 8-18:30
-  sat: 8-17:30
-  sun: 8-17:30
+  tue: 8:30-18
+  wed: 8:30-18
+  thu: 8:30-18
+  fri: 8:30-18
+  sat: 8:30-17
+  sun: 8:30-17
 wifi: 3
 speed: 15
 power: 2

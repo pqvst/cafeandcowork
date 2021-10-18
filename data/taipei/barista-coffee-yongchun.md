@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-03-30
 name: Barista Coffee Yongchun
 type: Cafe

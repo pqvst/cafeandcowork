@@ -9,7 +9,7 @@ address:
   en: No. 126號, Section 1, Zhongxiao West Road, Zhongzheng District, Taipei City, 100
   zh-tw: 100台北市中正區忠孝西路一段126號
 station: Beimen
-hours: 8-22
+hours: 8-20
 wifi: 3
 speed: 10
 power: 3

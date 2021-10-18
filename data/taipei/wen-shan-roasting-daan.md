@@ -9,7 +9,7 @@ address:
   en: No. 11號, Lane 56, Section 3, Xinsheng South Road, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區新生南路三段56巷11號
 station: Taipower Building
-hours: 13-22
+hours: 11-19
 wifi: 
 speed: 
 power: 

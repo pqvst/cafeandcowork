@@ -9,7 +9,7 @@ address:
   en: No. 42號, Lane 2, Taishun Street, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區泰順街2巷42號
 station: Taipower Building
-hours: 12-21
+hours: 14-21
 wifi: 1
 speed: 1
 power: 4

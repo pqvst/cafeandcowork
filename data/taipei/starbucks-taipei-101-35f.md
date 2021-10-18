@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-12-31
 name: Starbucks Taipei 101 (35F)
 type: Cafe
@@ -14,8 +15,7 @@ hours:
   thu: 7:30-21
   fri: 7:30-21
   sat: 9-21
-  sun: 9-21
-closed: true 
+  sun: 9-21 
 wifi: 1
 speed: 2
 power: 1

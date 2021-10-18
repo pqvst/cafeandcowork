@@ -9,7 +9,7 @@ address:
   en: No. 23號, Lane 298, Longjiang Road, Zhongshan District, Taipei City, 10491
   zh-tw: 10491台北市中山區龍江路298巷23號
 station: Zhongshan Junior High School
-hours: 7:30-21
+hours: 9-19:30
 wifi: 
 speed: 
 power: 

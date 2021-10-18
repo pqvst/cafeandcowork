@@ -6,7 +6,7 @@ google_maps: https://goo.gl/maps/YRLDGLHKq21d59R8A
 coordinates: 25.044135, 121.529089
 address: 100, Taiwan, Taipei City, Zhongzheng District, 八德路一段1號中三館一樓
 station: Zhongxiao Xinsheng
-hours: 10-19
+hours: 11-19
 wifi: 3
 speed: 
 power: 3

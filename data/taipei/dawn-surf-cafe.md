@@ -1,6 +1,7 @@
 ---
+temporarily_closed: true
 added: 
-name: dawn Surf & Co. Cafe
+name: Dawn Surf & Co. Cafe
 type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/cZ2KmfMe4sZ2nwZ48

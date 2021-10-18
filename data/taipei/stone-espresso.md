@@ -10,12 +10,12 @@ address:
   zh-tw: 106台北市大安區安和路二段171巷6號
 station: Liuzhangli
 hours:
-  mon: 13-19
-  wed: 13-19
-  thu: 13-19
-  fri: 13-19
-  sat: 13-19
-  sun: 13-19
+  mon: 13-17:30
+  wed: 13-17:30
+  thu: 13-17:30
+  fri: 13-17:30
+  sat: 13-17:30
+  sun: 13-17:30
 wifi: 
 speed: 
 power: 
