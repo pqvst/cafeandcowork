@@ -18,10 +18,10 @@ wifi: 4
 speed: 30
 power: 4
 vacancy: 3
-comfort: 4
+comfort: 3
 quiet: 4
 food: 
-drinks: 3
+drinks: 2
 price: 3
 view: 4
 toilets: 3
@@ -29,8 +29,8 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: true
+animals: false
 facebook: https://www.facebook.com/powderworkshop/
 instagram: https://www.instagram.com/powderworkshop/
 telephone: "+886223435853"
