@@ -38,5 +38,9 @@ images:
   - seating3.jpg
   - seating4.jpg
   - seating5.jpg
+review:
+  en: |
+    A great new Starbucks branch by Houshanpi MRT station. There are two floors, with the second featuring plenty of comfortable seating, a large work table, and even an outdoor balcony. The balcony unfortunately seems to be closed during the winter months though. The second floor is usually very quiet with most people working or studying. Weekdays, especially mornings, aren't too busy. Lots of power outlets and solid WiFi.
+  zh-tw: |
+    星巴克近期在捷運後山埤捷運站拓點了！在二號出口附近，地理位置非常方便，這是一間非常適合工作的分店，有兩層樓，二樓有不少座位、工作桌、甚至還有一個陽台，可惜這個陽台冬天好像會關閉。二樓在假日經常客滿，許多人在這裡讀書工作，通常滿安靜的，平日早上通常滿空的，除此之外這裡也有很好的插座和Wifi。
 ---
-
