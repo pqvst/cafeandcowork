@@ -32,12 +32,12 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
+lactose_free_milk:
+time_limit: true
 facebook: https://www.facebook.com/outofofficecafehome/
 instagram: https://www.instagram.com/outofofficecafehome/
 telephone: "+886227600045"
 website: 
-tips:
-  - Time limit and minimum spend is enforced
 images:
   - entrance1.jpg
   - entrance2.jpg

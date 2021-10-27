@@ -31,6 +31,8 @@ standing_tables: false
 outdoor_seating: true
 cash_only: true
 animals: false
+lactose_free_milk:
+time_limit: true
 facebook: https://www.facebook.com/Hoto-Cafe-874776065900123/
 instagram: 
 telephone: "+886225214334"

@@ -51,6 +51,7 @@ block body
             th= __('Cash Only')
             th= __('Animals')
             th(title=__("Lactose-Free Milk"))= __('LFM')
+            th= __('Time Limit')
             th= __('Area')
             th= __('Opens')
             th= __('Closes')
@@ -83,6 +84,7 @@ block body
               td(data-tip=__("Cash Only")): +attribute(e.cash_only)
               td(data-tip=__("Animals")): +attribute(e.animals)
               td(data-tip=__("Lactose-Free Milk")): +attribute(e.lactose_free_milk)
+              td(data-tip=__("Time Limit")): +attribute(e.time_limit)
               td(data-tip=__("Area"))
                 if e.area
                   if e.areaUrl

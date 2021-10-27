@@ -32,6 +32,8 @@ standing_tables: false
 outdoor_seating: true
 cash_only: 
 animals: 
+lactose_free_milk:
+time_limit: true
 facebook: http://www.facebook.com/elsewherecafe
 instagram: https://www.instagram.com/elsewherecafe/
 telephone: "+886233932018"

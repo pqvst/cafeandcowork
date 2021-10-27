@@ -31,12 +31,12 @@ standing_tables: false
 outdoor_seating: false
 cash_only: true
 animals: false
+lactose_free_milk:
+time_limit: true
 facebook: https://www.facebook.com/powderworkshop/
 instagram: https://www.instagram.com/powderworkshop/
 telephone: "+886223435853"
 website: 
-tips:
-  - Seating time limit is two hours
 images:
   - seating1.jpg
   - seating2.jpg

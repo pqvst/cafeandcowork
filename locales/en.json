@@ -183,6 +183,7 @@
 	"Station: Marcy Av": "Marcy Av",
 	"Station: Maubert - Mutualité": "Maubert - Mutualité",
 	"Station: Meguro": "Meguro",
+	"Station: Metropolitan Av": "Metropolitan Av",
 	"Station: Minquan West Road": "Minquan West Road",
 	"Station: Nagatacho, Akasaka-Mitsuke": "Nagatacho, Akasaka-Mitsuke",
 	"Station: Nagatacho": "Nagatacho",
@@ -194,6 +195,7 @@
 	"Station: Nassau Avenue": "Nassau Avenue",
 	"Station: Nogizaka, Roppongi": "Nogizaka, Roppongi",
 	"Station: North Point": "North Point",
+	"Station: Penn Station": "Penn Station",
 	"Station: Prince Edward": "Prince Edward",
 	"Station: Roppongi": "Roppongi",
 	"Station: Sai Ying Pun": "Sai Ying Pun",
@@ -244,6 +246,7 @@
 	"Telephone": "Telephone",
 	"Temporarily Closed": "Temporarily Closed",
 	"Thu:": "Thu:",
+	"Time Limit": "Time Limit",
 	"Toilets": "Toilets",
 	"Top Rated": "Top Rated",
 	"Tue:": "Tue:",
@@ -255,7 +258,5 @@
 	"Wed:": "Wed:",
 	"Who are we?": "Who are we?",
 	"WiFi": "WiFi",
-	"Yes": "Yes",
-	"Station: Penn Station": "Penn Station",
-	"Station: Metropolitan Av": "Metropolitan Av"
+	"Yes": "Yes"
 }

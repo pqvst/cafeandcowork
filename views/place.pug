@@ -103,6 +103,8 @@ block body
         dd: +attribute(place.animals, true)
         dt #[span.icon 🥛] #{__('Lactose-Free Milk')}
         dd: +attribute(place.lactose_free_milk, true)
+        dt #[span.icon 🚦] #{__('Time Limit')}
+        dd: +attribute(place.time_limit, true)
         if place.station
           dt #[span.icon 🚇] #{__('Station')}
           if place.stationUrl

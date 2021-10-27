@@ -17,7 +17,8 @@ exports.getScore = function(place) {
   if (place.standing_tables) score += 0.1;
   if (place.outdoor_seating) score += 0.1;
   if (place.cash_only) score -= 0.1;
-  return Math.min(score, 5);
+  if (place.time_limit) score -= 0.1;
+  return Math.max(0, Math.min(score, 5));
 }
 
 const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
