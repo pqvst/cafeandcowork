@@ -1,8 +1,33 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const rateLimit = require("express-rate-limit");
-const _ = require('lodash');
+const rateLimit = require('express-rate-limit');
+const Rollbar = require('rollbar');
+const { I18n } = require('i18n');
+
+let rollbar;
+if (process.env.ROLLBAR_ACCESS_TOKEN) {
+  console.log('Rollbar enabled');
+  rollbar = new Rollbar({
+    accessToken: process.env.ROLLBAR_ACCESS_TOKEN,
+    captureUncaught: true,
+    captureUnhandledRejections: true
+  });
+} else {
+  console.log('Rollbar disabled');
+}
+
+const i18n = new I18n({
+  locales: ['en', 'zh-tw'],
+  directory: 'locales',
+  missingKeyFn: function (locale, value) {
+    if (value.startsWith('Country:') || value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
+      return value.split(':').slice(1).join(':').slice(1);
+    } else {
+      return value;
+    }
+  },
+});
 
 const data = require('./data');
 const submit = require('./submit');
@@ -28,13 +53,16 @@ app.locals.site = {
   title: 'Cafe and Cowork',
   summary: 'Find Places to Work From',
   description: 'A curated collection of cafes and coworking spaces around the world. Find the best places with power outlets and fast WiFi to work or study from.',
-  url: 'https://cafeandcowork.com',
+  url: DEBUG ? 'http://localhost:3000' : 'https://cafeandcowork.com',
   github: 'https://github.com/pqvst/cafeandcowork',
   instagram: 'https://instagram.com/cafeandcowork',
+  mailto: 'mailto:hello@cafeandcowork.com',
 };
 
 app.locals.DEBUG = DEBUG;
+app.locals.pretty = DEBUG;
 app.locals.v = Date.now();
+app.locals.marked = require('marked');
 
 Object.assign(app.locals, require('./view-helpers'));
 Object.assign(app.locals, data.load());
@@ -43,34 +71,69 @@ function redirectWithTrailingSlash(req, res) {
   res.redirect(301, req.path + '/' + req.url.slice(req.path.length));
 }
 
-for (const city of app.locals.cities) {
-  app.get(`/${city.id}`, redirectWithTrailingSlash);
-  app.get(`/${city.id}/`, (req, res) => {
-    res.render('city', {
-      title: city.title,
-      description: city.description,
-      url: city.url,
-      city
+app.use(i18n.init);
+
+for (const locale of i18n.getLocales()) {
+  const prefix = locale == 'en' ? '' : `/${locale}`;
+
+  app.use(`${prefix}/`, (req, res, next) => {
+    req.setLocale(locale);
+
+    res.locals.prefix = prefix;
+
+    res.locals.site = Object.assign({}, app.locals.site, {
+      title: res.__(app.locals.site.title),
+      summary: res.__(app.locals.site.summary),
+      description: res.__(app.locals.site.description),
     });
+    
+    next();
   });
-  for (const place of city.places) {
-    const area = app.locals.areas.find(area => area.city == place.city && area.name == place.area);
-    const station = app.locals.stations.find(station => city.id == station.city && station.name == place.station);
-    app.get(`/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
-    app.get(`/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
-      res.render('place', {
-        title: place.title,
-        description: place.description,
-        url: place.url,
-        image: place.images && place.images.length > 0 ? place.images[0] : null,
+
+  if (prefix) {
+    app.get(`${prefix}`, redirectWithTrailingSlash);
+  }
+  app.get(`${prefix}/`, (req, res) => {
+    res.render('index', { url: '/' });
+  });
+
+  app.get(`${prefix}/about`, redirectWithTrailingSlash);
+  app.get(`${prefix}/about/`, (req, res) => {
+    res.render('about', { url: '/about/' });
+  });
+
+  for (const city of app.locals.cities) {    
+    const cityDescription = data.getCityDescription(i18n, locale, city);
+    const area = data.areas.find(area => area.city == place.city && area.name == place.area);
+    const station = data.stations.find(station => city.id == station.city && station.name == place.station);
+
+    app.get(`${prefix}/${city.id}`, redirectWithTrailingSlash);
+    app.get(`${prefix}/${city.id}/`, (req, res) => {
+      res.render('city', {
+        title: res.__(`City: ${city.name}`),
+        description: cityDescription,
+        url: city.url,
         city,
-        place,
         area,
         station,
       });
     });
-  }
-}
+    for (const place of city.places) {
+      const placeDescription = data.getPlaceDescription(i18n, locale, place);
+
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
+      app.get(`${prefix}/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
+        res.render('place', {
+          title: place.name,
+          description: placeDescription,
+          url: place.url,
+          image: place.images && place.images.length > 0 ? place.images[0] : null,
+          city,
+          place
+        });
+      });
+    }
+  }  
 
 for (const area of app.locals.areas) {
   app.get(area.url, (req, res) => {
@@ -89,6 +152,7 @@ for (const station of app.locals.stations) {
 app.get('/', (req, res) => {
   res.render('index');
 });
+}
 
 const submissionLimiter = rateLimit({
   keyGenerator: () => 'all',
@@ -117,9 +181,19 @@ app.get('/feed.xml', (req, res) => {
   res.render('feed', { recent: app.locals.recent, pretty: true });
 });
 
+if (DEBUG) {
+  app.get('/rollbar', (req, res) => {
+    throw new Error('Keep Rollbar Active');
+  });
+}
+
 app.use((req, res) => {
   res.status(404).render('error');
 });
+
+if (rollbar) {
+  app.use(rollbar.errorHandler());
+}
 
 app.listen(port);
 

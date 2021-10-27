@@ -1,5 +1,8 @@
 (function () {
 
+  const UPDATE_TIMEOUT = 150;
+  const DEFAULT_FILTER = 'score: yes';
+
   function colorRamp(value) {
     if (value >= 4) return '#418395';
     if (value >= 3.5) return '#59ae9f';
@@ -17,8 +20,14 @@
   
   function makePopup(place) {
     const html = `
-      <div>
-        <b><a target="_blank" href="${place.url}">${place.name} (${place.score.toFixed(1)})</a></b>
+      <div class="popup">
+        <div class="title">
+          <a target="_blank" href="${place.url}">${place.name} (${place.score.toFixed(1)})</a>
+        </div>
+        <div class="address">
+          <a target="_blank" href="${place.google_maps}">${place.address || ''}</a>
+        </div>
+        <div class="hours">${place.hours}</div>
       </div>
     `;
     return new mapboxgl.Popup({ offset: 25 }).setHTML(html);
@@ -58,31 +67,32 @@
   
   let tid;
 
-  function updateMarkers(places, map, markers, filter) {
+  function updateMarkers(places, map, markers, filter = DEFAULT_FILTER) {
     const bounds = new mapboxgl.LngLatBounds;
     let count = 0;
     const arr = Array.from(places).reverse();
     for (const place of arr) {
-      if (!filter || place.filter.toLowerCase().includes(filter)) {
-        bounds.extend(place.coordinates);
-        markers[place.url].addTo(map);
-        count++;
-      } else {
-        markers[place.url].remove();
+      if (!place.closed) {
+        if (markers[place.url]) {
+          if (!filter || place.filter.toLowerCase().includes(filter)) {
+            bounds.extend(place.coordinates);
+            markers[place.url].addTo(map);
+            count++;
+          } else {
+            markers[place.url].remove();
+          }
+        }
       }
     }
     if (count) {
-      clearTimeout(tid);
-      tid = setTimeout(() => {
-        map.fitBounds(bounds, { padding: 50, linear: true, maxZoom: 17 });
-      }, filter ? 150 : 0);
+      map.fitBounds(bounds, { padding: 100, linear: true, maxZoom: 17 });
     }
   }
 
-  function updateRows(places, filter) {
+  function updateRows(places, rows, filter = DEFAULT_FILTER) {
     for (const place of places) {
       const include = !filter || place.filter.toLowerCase().includes(filter);
-      const tr = document.querySelector(`tr[data-url='${place.url}']`);
+      const tr = rows[place.url];
       tr.style.display = include ? '' : 'none';
     }
   }
@@ -99,21 +109,34 @@
       updateMarkers(places, map, markers);
     });
 
+    const rows = {};
+    for (const tr of document.querySelectorAll(`tr[data-url]`)) {
+      rows[tr.getAttribute('data-url')] = tr;
+    }
+
     makeSortableTable(table, input);
+    updateRows(places, rows);
 
     input.addEventListener('input', function (evt) {
       const filter = evt.target.value.toLowerCase();
-      updateMarkers(places, map, markers, filter);
-      updateRows(places, filter);
+      clearTimeout(tid);
+      tid = setTimeout(() => {
+        updateMarkers(places, map, markers, filter);
+        updateRows(places, rows, filter);
+      }, filter ? UPDATE_TIMEOUT : 0);
     });
   };
+
+  const COL_NAME = 1;
+  const COL_AREA = 19;
+  const COL_OPENS = 20;
+  const COL_CLOSES = 21;
 
   function makeSortableTable(table) {
     // Inspired by: https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
 
-    table.querySelectorAll('th').forEach(th => {
-      const name = th.innerText;
-      if (name == 'Name' || name == 'Area' || name == 'Opens') {
+    table.querySelectorAll('th').forEach((th, idx) => {
+      if (idx == COL_NAME || idx == COL_AREA || idx == COL_OPENS) {
         th.asc = false;
       } else {
         th.asc = true;
@@ -125,8 +148,8 @@
 
     const getCellValue = (tr, idx, name, asc) => {
       const text = tr.children[idx] ? tr.children[idx].innerText || tr.children[idx].textContent || '' : '';
-      if (name == 'Opens' || name == 'Closes') {
-        if (text == 'Closed Today' || text == '') {
+      if (idx == COL_OPENS || idx == COL_CLOSES) {
+        if (text == '') {
           return asc ? Number.MAX_VALUE : Number.MIN_VALUE;
         }
         let number = Number(text.replace(':', ''));
@@ -144,7 +167,15 @@
 
     const comparer = (idx, name, asc) => {
       return (a, b) => {
-        return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
+        const aClosed = a.classList.contains('closed');
+        const bClosed = b.classList.contains('closed');
+        if (aClosed && !bClosed) {
+          return 1;
+        } else if (!aClosed && bClosed) {
+          return -1;
+        } else {
+          return compareValues(getCellValue(asc ? a : b, idx, name, asc), getCellValue(asc ? b : a, idx, name, asc));
+        }
       };
     };
 

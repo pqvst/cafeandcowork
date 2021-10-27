@@ -6,6 +6,7 @@ services:
     environment:
       - VIRTUAL_HOST=cafeandcowork.com
       - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - ROLLBAR_ACCESS_TOKEN=${ROLLBAR_ACCESS_TOKEN}
       - NODE_ENV=production
     volumes:
       - ./images:/usr/src/app/images

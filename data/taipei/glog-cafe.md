@@ -8,12 +8,12 @@ coordinates: 25.039747665523013, 121.53475756154306
 address: No. 16, Lane 31, Section 3, Ren'ai Road, Da’an District, Taipei City, Taiwan 106
 station: Zhongxiao Xinsheng
 hours:
-  tue: 8-18:30
-  wed: 8-18:30
-  thu: 8-18:30
-  fri: 8-18:30
-  sat: 8-18:30
-  sun: 8-18:30
+  tue: 9-18
+  wed: 9-18
+  thu: 9-18
+  fri: 9-18
+  sat: 9-18
+  sun: 9-18
 wifi: 4
 speed: 40
 power: 4
@@ -42,6 +42,11 @@ images:
   - seating3.jpg
   - menu1.jpg
   - menu2.jpg
----
+review:
+  en: |
+    A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary. Still, it's a good option if you need a place in the area!
+  zh-tw: |
+    滿好的一家工作讀書用咖啡廳，非常舒服、安靜，一些位置有插座，也有WiFi，實用風格特別強烈，相較之下這裡配備基本，沒有太多Vibe，飲料選擇也比較普通。不過當然了，這會是臨時需要在附近找家咖啡廳工作時的好選擇！
 
-A decent cafe to study or work from. It's comfortable, quiet, some seats have access to power, and there's WiFi. However, the interior feels a little generic, and the drink selection is quite ordinary. Still, it's a good option if you need a place in the area!
+    （更多咖啡廳資訊，請點選個人頁面的Cafe & Cowork連結）
+---

@@ -1,6 +1,6 @@
 ---
 added: 2020-11-04
-name: Powder Workshop
+name: powder workshop
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/6ei1YiU6YmbZgUo3A
@@ -18,10 +18,10 @@ wifi: 4
 speed: 30
 power: 4
 vacancy: 3
-comfort: 4
+comfort: 3
 quiet: 4
 food: 
-drinks: 3
+drinks: 2
 price: 3
 view: 4
 toilets: 3
@@ -29,19 +29,22 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: true
+animals: false
+lactose_free_milk:
+time_limit: true
 facebook: https://www.facebook.com/powderworkshop/
 instagram: https://www.instagram.com/powderworkshop/
 telephone: "+886223435853"
 website: 
-tips:
-  - Seating time limit is two hours
 images:
   - seating1.jpg
   - seating2.jpg
   - drink.jpg
   - menu.jpg
+review:
+  en: |
+    A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday. Beware, if you speak too loud you may get told off!
+  zh-tw: |
+    一個熱門的工作點，WiFi和充電座自然少不了，Powder Workshop自然光充足，早上氣氛較為悠閒，到了午餐時間則開始有些擁擠。這裡有不少飲料選擇和一些輕食，有兩小時的時間限制，但平日似乎沒這麼嚴格。
 ---
-
-A popular work spot with good WiFi, plenty of power outlets, and good natural light. It was quite empty in the morning but slowly filled around lunch time. Decent drink selection and small food items. There is a two hour time limit, but it didn't seem to be enforced on a weekday. Beware, if you speak too loud you may get told off!

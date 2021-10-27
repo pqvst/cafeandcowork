@@ -8,13 +8,13 @@ coordinates: 25.033266, 121.558136
 address: No. 379號, Section 4, Xinyi Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei 101/World Trade Center
 hours:
-  mon: 7:30-0
-  tue: 7:30-0
-  wed: 7:30-0
-  thu: 7:30-0
-  fri: 7:30-1
-  sat: 7:30-1
-  sun: 7:30-0
+  mon: 7:30-23:30
+  tue: 7:30-23:30
+  wed: 7:30-23:30
+  thu: 7:30-23:30
+  fri: 7:30-23:30
+  sat: 7:30-23:30
+  sun: 7:30-23:30
 wifi: 5
 speed: 65
 power: 1

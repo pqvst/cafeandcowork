@@ -11,12 +11,12 @@ feed(xmlns="http://www.w3.org/2005/Atom")
     entry
       //- required
       id #{site.url}#{item.url}
-      title= item.title
+      title= item.name
       updated= (new Date(item.added)).toISOString()
       //- optional
       published= (new Date(item.added)).toISOString()
-      if item.markdown
-        summary #{item.type} in #{item.area}, #{item.cityName}. #{item.markdown}
+      if item.review.en
+        summary #{item.type} in #{item.area}, #{item.cityName}. #{item.review.en}
       else
         summary #{item.type} in #{item.area}, #{item.cityName}.
       link(rel="alternative" type="text/html" href=`${site.url}${item.url}`)

@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-07-08
 name: NOTCH Front Station
 type: Cafe

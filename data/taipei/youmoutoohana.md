@@ -42,6 +42,13 @@ images:
   - menu4.jpg
   - tea.jpg
   - food.jpg
----
+review:
+  en: |
+    There are many cafes near Yongkang St, and this is another great option. The interior has several different areas, all of which are decorated very thoughtfully. There's even a small covered outdoor seating area. Comfortable seating everywhere (even cushions are provided!). The drinks selection is large, with many good options, and there's some food as well. The beef pie was really quite tasty, but the portion size is a little small. It was very quiet in the morning but got a little busier around lunch time.
+  zh-tw: |
+    永康街周圍有很多咖啡店，這是其中一個優秀的選擇。［羊毛與花］藝術性地把空間區分成不同的角落（房間），每一處都妝點得獨具韻味，甚至有一個小巧有遮蔽的戶外空間，我們可以輕易在各處找到舒適的椅子（也有提供沙發枕！）。
 
-There are many cafes near Yongkang St, and this is another great option. The interior has several different areas, all of which are decorated very thoughtfully. There's even a small covered outdoor seating area. Comfortable seating everywhere (even cushions are provided!). The drinks selection is large, with many good options, and there's some food as well. The beef pie was really quite tasty, but the portion size is a little small. It was very quiet in the morning but got a little busier around lunch time.
+    飲品的種類很多，包含不少好茶品，同時也有些輕食菜單。牛肉派真是好吃，可惜份量稍微少。
+
+    這裡早上通常清閒，過中午開始熱鬧起來。
+---

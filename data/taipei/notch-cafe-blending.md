@@ -8,13 +8,13 @@ coordinates: 25.04533593539151, 121.51332808488371
 address: No. 35號, Section 1, Chongqing South Road, Zhongzheng District, Taipei City, Taiwan 100
 station: Taipei Main
 hours:
-  mon: 7:30-20:30
-  tue: 7:30-20:30
-  wed: 7:30-20:30
-  thu: 7:30-20:30
-  fri: 7:30-20:30
-  sat: 8-20:30
-  sun: 8-20:30
+  mon: 7:30-20
+  tue: 7:30-20
+  wed: 7:30-20
+  thu: 7:30-20
+  fri: 7:30-20
+  sat: 8-20
+  sun: 8-20
 wifi: 3
 speed: 25
 power: 5

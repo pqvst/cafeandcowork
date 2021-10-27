@@ -29,4 +29,5 @@ facebook:
 instagram: 
 telephone: 
 website: 
+closed: true
 ---

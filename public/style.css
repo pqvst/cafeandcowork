@@ -10,18 +10,31 @@ body {
 }
 
 body, input, textarea, select {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: 300;
 }
 
 h1, h2, h3, h4 {
-  font-weight: 600;
+  font-weight: 500;
+}
+
+body.zh-tw .place dt,
+body.zh-tw th,
+body.zh-tw h2 {
+  font-weight: 500;
 }
 
 .wrap {
   padding: 30px;
   min-height: 100%;
+}
+
+.flag {
+  margin-right: 7px;
+  height: 17px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
 }
 
 a {
@@ -47,25 +60,55 @@ main {
   }
 }
 
+h1 {
+  font-size: 1.9em;
+  padding: 8px 0;
+  margin: 0 0 8px 0;
+  border-bottom: solid 2px black;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.6em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+
 
 /* ========== Header ========== */
 
-header h1 {
-  margin-top: 0;
+header {
   font-weight: 300;
-  font-size: 2.3em;
   display: flex;
   align-items: center;
   white-space: nowrap;
+  margin-bottom: 25px;
 }
 
 header a {
   text-decoration: none;
   border-bottom: solid 2px transparent;
+  display: inline-block;
 }
 
 header a:hover {
   text-decoration: none;
+}
+
+header a.brand {
+  margin-right: 5px;
+  font-size: 1.6em;
 }
 
 header a.brand:hover {
@@ -82,8 +125,8 @@ header b {
 }
 
 header img {
-  height: 50px;
-  margin-right: 15px;
+  height: 40px;
+  margin-right: 2px;
   display: block;
 }
 
@@ -92,17 +135,34 @@ header .spacer {
 }
 
 header a.icon {
+  font-size: 1.6em;
   color: rgba(0,0,0,0.5);
   margin-left: 15px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+  display: inline-block;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 header a.icon:hover {
   color: black;
 }
 
+header .language-picker a {
+  opacity: 0.4;
+} 
+
+header .language-picker a.active {
+  opacity: 1;
+}
+
 @media screen and (max-width: 700px) {
-  header h1 {
-    font-size: 2em;
+  header {
+    font-size: 0.9em;
   }
   header img {
     height: 40px;
@@ -110,13 +170,13 @@ header a.icon:hover {
   }
 }
 
-@media screen and (max-width: 400px) {
-  header h1 {
-    font-size: 1.7em;
-  }
+@media screen and (max-width: 500px) {
   header img {
     height: 35px;
     margin-right: 0;
+  }
+  header a+a {
+    margin-left: 8px;
   }
 }
 
@@ -160,6 +220,14 @@ footer .fa {
 
 .mapboxgl-ctrl-group > button {
   margin: 0 !important;
+}
+
+.popup .title {
+  font-weight: bold;
+}
+
+.popup .address a {
+  text-decoration: none;
 }
 
 
@@ -315,6 +383,14 @@ tr span.closed {
 
 /* ========== Index ========== */
 
+.index .intro {
+  margin-bottom: 30px;
+}
+
+.index .intro p {
+  line-height: 1.4;
+}
+
 .index .columns {
   display: flex;
   margin: -20px;
@@ -388,12 +464,28 @@ tr span.closed {
 
 
 
+/* ========== Area ========== */
+
+.area {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.area p {
+  margin-bottom: 5px;
+}
+
+
+
+
 /* ========== City ========== */
 
 .city h2 {
   margin: 0 0 20px 0;
   white-space: nowrap;
   overflow: auto;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .city h2 a {
@@ -418,18 +510,93 @@ tr span.closed {
   margin-left: 20px;
 }
 
+.city input[type=checkbox],
+.city .times,
+.city h2 label {
+  display: none;
+}
 
-/* ========== Area ========== */
+.city h2 label {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
 
-.area {
+@media screen and (max-width: 500px) {
+  .city h2 a {
+    display: none;
+  }
+  .city h2 a.active {
+    display: block;
+  }
+  .city h2 a:hover {
+    border-bottom: solid 2px black;
+  }
+  .city input:checked + h2 a:hover {
+    border-bottom: none;
+  }
+  .city h2 a+a {
+    margin: 0;
+  }
+  .city h2 label {
+    display: block;
+  }
+  .city input:checked + h2 a {
+    display: block;
+  }
+  .city input:checked + h2 .bars {
+    display: none;
+  }
+  .city input:checked + h2 .times {
+    display: block;
+  }
+  .city input:checked + h2 {
+    border-bottom: solid 2px black;
+  }
+  .city input:checked + h2 a.active {
+    border: none;
+  }
+}
+
+
+
+/* ========== About ========== */
+
+.about {
   max-width: 700px;
   margin: 0 auto;
 }
 
-.area p {
-  margin-bottom: 5px;
+.about img.hero {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
+.about h1 {
+  padding: 8px 0;
+  margin: 10px 0;
+  border-bottom: solid 2px black;
+}
+
+.about h2 {
+  font-size: 1.3em;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.about p {
+  line-height: 1.4;
+}
+
+.about hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 30px 0 0 0;
+}
 
 
 /* ========== Place ========== */
@@ -439,28 +606,37 @@ tr span.closed {
   margin: 0 auto;
 }
 
-.place h2 {
-  padding: 8px 0;
-  margin: 0 0 10px 0;
-  border-bottom: solid 2px black;
-}
-
-.place h2 a {
-  text-decoration: none;
-}
-
-.place h3 a {
-  text-decoration: none;
-}
-
 .place .info {
   font-weight: 300;
   color: rgba(0,0,0,0.5);
 }
 
+.place .info .fa-angle-left {
+  margin-right: 5px;
+}
+
+.place .info a {
+  text-decoration: none;
+}
+
+.place .info a:hover {
+  text-decoration: underline;
+}
+
+.place .info span,
+.place .info a {
+  margin-right: 5px;
+}
+
 .place .closed {
   margin-left: 10px;
   color: red;
+  font-weight: 400;
+}
+
+.place .hours-warning {
+  margin-left: 10px;
+  color: #f39c12;
   font-weight: 400;
 }
 
@@ -541,6 +717,9 @@ tr span.closed {
   margin-left: 10px;
 }
 
+.place .author {
+  margin-top: 5px;
+}
 
 
 /* ========== Buttons ========== */

@@ -7,13 +7,13 @@ coordinates: 25.050488, 121.535262
 address: No. 33號, Yitong Street, Zhongshan District, Taipei City, Taiwan 104
 station: Songjiang Nanjing
 hours:
-  mon: 10:30-21
-  tue: 8-21
-  wed: 8-21
-  thu: 8-21
-  fri: 8-21
-  sat: 8-21
-  sun: 8-21
+  mon: 10:30-20
+  tue: 8-20
+  wed: 8-20
+  thu: 8-20
+  fri: 8-20
+  sat: 8-20
+  sun: 8-20
 wifi: 5
 speed: 90
 power: 2
@@ -31,6 +31,7 @@ standing_tables: true
 outdoor_seating: true
 cash_only: 
 animals: 
+lactose_free_milk: true
 facebook: https://www.facebook.com/FikaFikaCafe/
 instagram: https://www.instagram.com/fikafikacafe/
 telephone: "+886225070633"

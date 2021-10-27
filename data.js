@@ -2,17 +2,15 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
-const marked = require('marked');
-const { getHours, getScore } = require('./data-helpers');
+const { getHours, getScore, getReview } = require('./data-helpers');
 
 function parseFile(filename) {
   const file = fs.readFileSync(filename, 'utf8');
   const split = file.split('---');
   const data = yaml.parse(split[1]);
-  const markdown = split.slice(2).join('---').trim();
-  if (markdown) {
-    data.markdown = markdown;
-    data.content = marked(markdown);
+  const content = split.slice(2).join('---').trim();
+  if (content) {
+    data.content = content;
   }
   return data;
 }
@@ -21,34 +19,55 @@ function filterValidFiles(filename) {
   return !filename.startsWith('.');
 }
 
-function getPlaceDescription(place) {
-  const { type, cityName, area, power, wifi, speed, markdown } = place;
+function getPlaceDescription(i18n, locale, place) {
+  const { __ } = i18n;
+  const { power, wifi, speed } = place;
   
+  const type = __({ locale, phrase: place.type });
+  const city = __({ locale, phrase: `City: ${place.cityName}` });
+  const area = place.area ? __({ locale, phrase: `Area: ${place.area }` }) : null;
+
   let text;
   if (area) {
-    text = `${type} in ${area}, ${cityName}.`
+    text = __({ locale, phrase: '{{type}} in {{area}}, {{city}}.' }, { type, area, city })
   } else {
-    text = `${type} in ${cityName}.`
+    text = __({ locale, phrase: '{{type}} in {{area}}.' }, { type, area: city });
   }
+
   if (power && wifi && speed) {
-    text += ` ${speed} Mb/s WiFi and power outlets available.`
+    text += __({ locale, phrase: ' {{speed}} Mb/s WiFi and power outlets available.' }, { speed });
   } else if (power && wifi) {
-    text += ` WiFi and power outlets available.`
+    text += __({ locale, phrase: ' WiFi and power outlets available.' });
   } else if (power) {
-    text += ` Power outlets available.`
+    text += __({ locale, phrase: ' Power outlets available.' });
   } else if (wifi && speed) {
-    text += ` ${speed} Mb/s WiFi available.`
+    text += __({ locale, phrase: ' {{speed}} Mb/s WiFi available.' });
   } else if (wifi) {
-    text += ` WiFi available.`;
-  } 
-  if (markdown) {
-    text += ` ${markdown}`;
+    text += __({ locale, phrase: ' WiFi available.' });
   }
+
+  if (place.review[locale]) {
+    text += ` ${place.review[locale]}`;
+  }
+  
   return text;
 }
 
-function getCityDescription(city) {
-  return `Explore cafes and coworking spaces in ${city.name}, ${city.country}. Find the best places with power outlets and fast WiFi to work or study from.`;
+function getCityDescription(i18n, locale, city) {
+  const { __ } = i18n;
+  const name = __({ locale, phrase: `City: ${city.name}` });
+  const country = __({ locale, phrase: `Country: ${city.country}` });
+  if (name == country) {
+    return __({
+      locale,
+      phrase: 'Explore cafes and coworking spaces in {{name}}. Find the best places with power outlets and fast WiFi to work or study from.',
+    }, { name });
+  } else {
+    return __({
+      locale,
+      phrase: 'Explore cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.',
+    }, { name, country });
+  }
 }
 
 function parseCoordinates(coords) {
@@ -81,12 +100,12 @@ function getPlaces() {
         const place = Object.assign(placeData, {
           id: name,
           url: `/${cityId}/${name}/`,
-          title: placeData.name,
           coordinates: parseCoordinates(placeData.coordinates),
           city: cityId,
           file: `${cityId}/${placeFile}`,
           score: getScore(placeData),
           hours: getHours(placeData.hours),
+          review: getReview(placeData),
         });
         if (place.images) {
           place.images = place.images.map(image => `${place.url}${image}`);
@@ -109,21 +128,22 @@ function getCities(places) {
       const city = Object.assign(cityData, {
         id,
         url: `/${id}/`,
-        title: cityData.name,
         coordinates: parseCoordinates(cityData.coordinates),
         places: [],
+        count: 0,
       });
-      city.description = getCityDescription(city);
       cities[place.city] = city;
     }
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;
-    place.description = getPlaceDescription(place);
     cities[place.city].places.push(place);
+    if (place.score) {
+      cities[place.city].count++;
+    }
   }
   return _(cities)
     .values()
-    .orderBy(e => e.places.length, 'desc')
+    .orderBy(e => e.count, 'desc')
     .value();
 }
 
@@ -212,4 +232,4 @@ function load() {
   return { cities, places, areas, stations, recent, top };
 }
 
-module.exports = { load };
+module.exports = { load, getCityDescription, getPlaceDescription };

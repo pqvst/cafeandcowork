@@ -6,7 +6,14 @@ google_maps: https://goo.gl/maps/31aMTTWANbhh87Hz8
 coordinates: 25.040883, 121.564925
 address: 110, Taiwan, Taipei City, Xinyi District, Section 5, Zhongxiao East Road, 8號2樓
 station: Taipei City Hall
-hours: 7:30-22
+hours:
+  mon: 7-21:30
+  tue: 7-21:30
+  wed: 7-21:30
+  thu: 7-21:30
+  fri: 7-22
+  sat: 7-22
+  sun: 7-21:30
 wifi: 1
 speed: 2
 power: 2
@@ -24,11 +31,10 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: 
-facebook: 
-instagram: 
+facebook: https://www.facebook.com/starbuckstaiwan
+instagram: https://www.instagram.com/starbuckstw/
 telephone: "+886227226292"
 website: http://www.starbucks.com.tw/
-tips:
-  - Take the escalator up outside metro exit 2
-  - Public restrooms are far away
 ---
+
+Take the escalator up outside metro exit 2. No restrooms, public restrooms available in the department store or by the MRT.

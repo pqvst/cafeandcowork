@@ -17,20 +17,21 @@ exports.getScore = function(place) {
   if (place.standing_tables) score += 0.1;
   if (place.outdoor_seating) score += 0.1;
   if (place.cash_only) score -= 0.1;
-  return Math.min(score, 5);
+  if (place.time_limit) score -= 0.1;
+  return Math.max(0, Math.min(score, 5));
 }
 
-const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
 exports.getHours = function(hours) {
   if (hours) {
     const res = [];
     if (typeof hours === 'string') {
-      for (const day of days) {
+      for (const day of DAYS) {
         res.push(getTimes(hours));
       }
     } else {
-      for (const day of days) {
+      for (const day of DAYS) {
         res.push(getTimes(hours[day]));
       }
     }
@@ -40,15 +41,25 @@ exports.getHours = function(hours) {
   }
 }
 
+exports.getReview = function(place) {
+  if (place.review) {
+    return place.review;
+  } else if (place.content) {
+    return { en: place.content };
+  } else {
+    return {};
+  }
+}
+
 function getTimes(span) {
   if (!span) return null;
   const times = span.split('-');
-  return times.map(time => {
+  let [open, close] = times.map((time, i) => {
     let [hour, min] = time.split(':').map(Number);
-    let value = (hour * 100) + (min || 0);
-    if (value < 500) {
-      value += 2400;
-    }
-    return value;
+    return (hour * 100) + (min || 0);
   });
+  if (close < 500) {
+    close += 2400;
+  }
+  return [open, close];
 }

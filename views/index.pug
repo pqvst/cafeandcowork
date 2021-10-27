@@ -9,36 +9,60 @@ block body
         +item(place, city)
 
   mixin item(place, city)
-    a(href=place.url)
+    a(href=`${prefix}${place.url}`)
       .primary
         span.name= place.name
         span.score(class=getValueColor(place.score))
           span #{formatScore(place.score)}
           span.star ★
       .details
-        if city
-          span #{place.type} in #{place.cityName}
+        if city || !place.area
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${place.cityName}`) })
         else
-          span #{place.type} in #{place.area}
-
+          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`Area: ${place.area}`) })
+        
   .index
     include header
+    
+    .intro
+      h1= __('Find Places to Work From')
+      
+      if locale == 'zh-tw'
+        p.
+          Cafe and Cowork是一個在世界各地紀錄與評比Cafe和共享辦公室的網站。我們在世界各地尋找插座充足、WiFi快速的絕佳工作與讀書場所。
+          你也可以在#[a(href=site.github) GitHub]、或IG #[a(href=site.instagram) @cafeandcowork]上找到我們，或者也歡迎
+          #[a(href=site.mailto) Email]。
+        p.
+          開始探索城市和地點吧! 希望這個網站對大家有用! 
+      else
+        p.
+          A curated collection of cafes and coworking spaces around the world. Find the best places 
+          with power outlets and fast WiFi to work or study from. You can also find us on Instagram 
+          as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
+          to us by #[a(href=site.mailto) email].
+        p.
+          Explore cities and places below, we hope you'll find it useful!
+
+      p &mdash; #[a(href=`${prefix}/about/`) Philip & Chloe]
+
     .columns
       each city in cities
-        if city.places.length
+        - let places = city.places.filter(e => !e.closed);
+        if places.length > 5
           .column
             h2
-              a(href=city.url)
-                span= city.name
+              a(href=`${prefix}${city.url}`)
+                img.flag(src=`/flags/${city.flag}.png` height="17")
+                span= __(`City: ${city.name}`)
                 span.info
-                  span #{city.places.length} places
+                  span= __('{{count}} places', { count: city.count })
                   i.fa.fa-angle-right
-            +list(city.places.slice(0, 10))
-            a.more(href=city.url) Explore more
+            +list(places.slice(0, 10))
+            a.more(href=`${prefix}${city.url}`)= __('Explore more')
       .column
-        h2 Recently Added
+        h2= __('Recently Added')
         +list(recent, true)
       .column
-        h2 Top Rated
+        h2= __('Top Rated')
         +list(top, true)
       

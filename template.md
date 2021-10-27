@@ -25,6 +25,7 @@ standing_tables:
 outdoor_seating: 
 cash_only: 
 animals: 
+lactose_free_milk: 
 facebook: 
 instagram: 
 telephone: 

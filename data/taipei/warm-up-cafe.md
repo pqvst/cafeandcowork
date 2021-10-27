@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-01-04
 name: Warm Up Cafe
 type: Cafe

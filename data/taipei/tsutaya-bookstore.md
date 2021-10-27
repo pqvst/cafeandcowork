@@ -12,8 +12,8 @@ hours:
   wed: 11-21:30
   thu: 11-21:30
   fri: 11-22
-  sat: 8:30-22
-  sun: 8:30-21:30
+  sat: 11-22
+  sun: 11-21:30
 wifi: 4
 speed: 50
 power: 5

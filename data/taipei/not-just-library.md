@@ -8,11 +8,12 @@ coordinates: 25.043762, 121.559894
 address: No. 133號, Guangfu South Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei City Hall
 hours:
-  tue: 10-18
-  wed: 10-18
-  thu: 10-18
-  fri: 10-18
-  sat: 10-18
+  tue: 10-17:30
+  wed: 10-17:30
+  thu: 10-17:30
+  fri: 10-17:30
+  sat: 10-17:30
+  sun: 10-17:30
 wifi: 3
 speed: 30
 power: 5

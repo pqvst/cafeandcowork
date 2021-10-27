@@ -1,5 +1,6 @@
 ---
-author: https://www.instagram.com/matthiasrossini/
+contributors:
+  - https://www.instagram.com/matthiasrossini/
 added: 2021-01-13
 name: Fika Fika Cafe A13
 type: Cafe
@@ -33,6 +34,7 @@ standing_tables: true
 outdoor_seating: true
 cash_only: false
 animals: 
+lactose_free_milk: true
 facebook: https://www.facebook.com/FikaFikaCafe/
 instagram: https://www.instagram.com/fikafikacafe/
 telephone: "+886287890633"

@@ -6,7 +6,7 @@ area: Daan
 google_maps: https://goo.gl/maps/Lkk6452furs64nkY6
 coordinates: 25.030426, 121.530585
 address: No. 26, Lane 41, Yongkang Street, Da’an District, Taipei City, Taiwan 106
-station: Daan
+station: Dongmen
 hours:
   mon: 12-0
   tue: 12-0

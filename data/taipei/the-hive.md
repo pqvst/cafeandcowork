@@ -8,11 +8,11 @@ coordinates: 25.042458801286674, 121.51334214526517
 address: No, No. 119, Section 1, Chongqing South Road, Zhongzheng District, Taipei City, Taiwan 100
 station: Ximen
 hours:
-  mon: 8-20
-  tue: 8-20
-  wed: 8-20
-  thu: 8-20
-  fri: 8-20
+  mon: 8-18:30
+  tue: 8-18:30
+  wed: 8-18:30
+  thu: 8-18:30
+  fri: 8-18:30
 wifi: 
 speed: 
 power: 

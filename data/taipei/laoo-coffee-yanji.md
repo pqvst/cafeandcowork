@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-11-18
 name: Laoo Coffee Yanji Branch
 type: Cafe
@@ -41,6 +42,9 @@ images:
   - seating2.jpg
   - menu.jpg
   - tea.jpg
+review:
+  en: |
+    A small coffee shop with plenty of seating options and lots of natural light. It's not really the type of place I'd stay at for a longer period of time, especially since the seats are hard and there are no power outlets. But it has cheap drinks, friendly staff, and good WiFi, so it's definitely a decent option for a short work session if you're in the area.
+  zh-tw: |
+    這是一家不大的咖啡店，內有不同的座位選擇和很好的自然光。雖然因為沒有插座，且椅子比較硬，我沒有盤算在這裡久待，但它有很便宜的飲料、親切的店員和很好的WiFi，我覺得很適合推薦給急需在周邊找個地方工作的人。
 ---
-
-A small coffee shop with plenty of seating options and lots of natural light. It's not really the type of place I'd stay at for a longer period of time, especially since the seats are hard and there are no power outlets. But it has cheap drinks, friendly staff, and good WiFi, so it's definitely a decent option for a short work session if you're in the area.

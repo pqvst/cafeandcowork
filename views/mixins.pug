@@ -1,22 +1,50 @@
 
 mixin attribute(value, expanded)
   span(class=getValueColor(value))
-    if value != Null
-      span= getValueText(value)
+    if value != null
+      if value === true
+        span= __('Yes')
+      else if value === false
+        span= __('No')
+      else
+        span= getStarRating(value)
     else
       a(href=site.github title="Add missing data" target="_blank")
         i.fa.fa-question-circle-o
         if expanded
-          span Add missing data
+          span= __('Add missing data')
   
 mixin score(place)
   span= formatScore(place.score)
 
-mixin hours(hours)
-  div Mon: #{formatHours(hours[0])}
-  div Tue: #{formatHours(hours[1])}
-  div Wed: #{formatHours(hours[2])}
-  div Thu: #{formatHours(hours[3])}
-  div Fri: #{formatHours(hours[4])}
-  div Sat: #{formatHours(hours[5])}
-  div Sun: #{formatHours(hours[6])}
+mixin times(city, place, dow)
+  if place.hours[dow]
+    if isOpen24Hours(city, place, dow)
+      span= __('Open 24 Hours')
+    else
+      span= formatHours(place.hours[dow])
+  else
+    span= __('Closed')
+
+mixin hours(city, place)
+  if isSameHoursEveryDay(place)
+    +times(city, place, 1)
+  else
+    div #{__('Mon:')} #[+times(city, place, 1)]
+    div #{__('Tue:')} #[+times(city, place, 2)]
+    div #{__('Wed:')} #[+times(city, place, 3)]
+    div #{__('Thu:')} #[+times(city, place, 4)]
+    div #{__('Fri:')} #[+times(city, place, 5)]
+    div #{__('Sat:')} #[+times(city, place, 6)]
+    div #{__('Sun:')} #[+times(city, place, 0)]
+
+-
+  function getPrettyHours(city, place) {
+    if (isOpen24Hours(city, place)) {
+      return __('Open 24 Hours');
+    } else if (isClosedToday(city, place)) {
+      return __('Closed Today');
+    } else {
+      return `${getOpeningTime(city, place) || 'N/A'} - ${getClosingTime(city, place) || 'N/A'}`;
+    }
+  }

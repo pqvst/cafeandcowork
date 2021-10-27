@@ -4,3 +4,4 @@ node_modules
 deploy.sh
 .env
 .DS_Store
+package-lock.json

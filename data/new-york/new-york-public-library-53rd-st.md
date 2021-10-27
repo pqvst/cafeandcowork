@@ -1,13 +1,18 @@
 ---
-name: New York Public Library — 53rd St
+name: NYPL - 53rd St
 type: Library
 area: Midtown
 google_maps: https://goo.gl/maps/dCWMyyfwxJaRZw8w8
-coordinates: 40.7606473,-73.9779706
-address: 
-station: 
-opens: ""
-closes: ""
+coordinates: 40.7608090952294, -73.97740158602208
+address: 18 W 53rd St, New York, NY 10019, United States
+station: 5 Avenue-53 St
+hours:
+  mon: 11-17
+  tue: 11-17
+  wed: 11-17
+  thu: 11-17
+  fri: 11-17
+  sat: 11-17
 wifi: 5
 speed: 
 power: 5
@@ -27,6 +32,6 @@ cash_only:
 animals: 
 facebook: 
 instagram: 
-telephone: 
-website: 
+telephone: "+12127148400"
+website: https://www.nypl.org/locations/53rd-street
 ---

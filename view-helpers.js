@@ -8,9 +8,7 @@ exports.formatScore = function (n) {
   return n.toFixed(1);
 }
 
-exports.getValueText = function (value) {
-  if (value === true) return 'Yes';
-  if (value === false) return 'No';
+exports.getStarRating = function (value) {
   return value + ' ★';
 }
 
@@ -61,7 +59,7 @@ function formatTime(time) {
 }
 
 exports.formatHours = function(hours) {
-  if (!hours) return 'Closed';
+  if (!hours) return null;
   return hours.map(formatTime).join(' - ');
 }
 
@@ -73,10 +71,7 @@ exports.formatHours = function(hours) {
 
 // Get current day of week, adjusted for late hours (until 5am)
 function getAdjustedDay(m) {
-  let dow = m.day();
-  if (dow < 0) {
-    dow = 6;
-  }
+  const dow = m.day();
   const hour = m.hour();
   if (hour < 5) {
     return (dow == 0) ? 6 : dow - 1;
@@ -95,6 +90,31 @@ function getAdjustedTime(m) {
   return (hour * 100) + min;
 }
 
+exports.isOpeningSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      return time < place.hours[dow][0];
+    }
+  }
+  return false;
+}
+
+exports.isClosingSoon = function(city, place) {
+  const m = moment.tz(city.timezone);
+  const dow = getAdjustedDay(m);
+  const time = getAdjustedTime(m);
+  if (place.hours) {
+    if (place.hours[dow]) {
+      const closingIn = place.hours[dow][1] - time;
+      return closingIn > 0 && closingIn <= 100;
+    }
+  }
+  return false;
+}
+
 exports.isClosedToday = function(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
@@ -106,12 +126,15 @@ exports.isClosedToday = function(city, place) {
 }
 
 exports.isClosedNow = function(city, place) {
+  if (place.temporarily_closed) {
+    return true;
+  }
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   const time = getAdjustedTime(m);
   if (place.hours) {
     if (place.hours[dow]) {
-      return time < place.hours[dow][0] || time > place.hours[dow][1];
+      return time < place.hours[dow][0] || time >= place.hours[dow][1];
     } else {
       return true;
     }
@@ -134,4 +157,30 @@ exports.getClosingTime = function(city, place) {
   if (place.hours && place.hours[dow]) {
     return formatTime(place.hours[dow][1]);
   }
+}
+
+exports.isOpen24Hours = function(city, place, dow) {
+  const m = moment.tz(city.timezone);
+  if (dow == null) {
+    dow = getAdjustedDay(m);
+  }
+  if (place.hours && place.hours[dow]) {
+    return place.hours[dow][0] == 0 && place.hours[dow][1] == 2400;
+  } else {
+    return false;
+  }
+}
+
+exports.isSameHoursEveryDay = function (place) {
+  if (place.hours) {
+    for (let dow = 0; dow < 7; dow++) {
+      if (place.hours[dow] == null || place.hours[0] == null) {
+        return false;
+      }
+      if (place.hours[dow].join('') != place.hours[0].join('')) {
+        return false;
+      }
+    }
+  }
+  return true;
 }

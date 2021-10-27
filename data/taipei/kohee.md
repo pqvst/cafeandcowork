@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-11-13
 name: Kohee
 type: Cafe

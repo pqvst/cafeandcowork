@@ -7,7 +7,7 @@ const YAML = require('yaml');
 YAML.scalarOptions.null.nullStr = '';
 
 //const strFields = ['name', 'type', 'area', 'google_maps', 'coordinates', 'address', 'station', 'opens', 'closes', 'facebook', 'instagram', 'telephone', 'website'];
-const strFields = ['city', 'name', 'google_maps'];
+const strFields = ['city', 'name', 'google_maps', 'author'];
 const numFields = ['wifi', 'speed', 'power', 'vacancy', 'comfort', 'quiet', 'food', 'drinks', 'price', 'view', 'toilets'];
 const boolFields = ['music', 'smoking', 'standing_tables', 'outdoor_seating', 'cash_only', 'animals'];
 

@@ -7,21 +7,21 @@ const { cities, places } = data.load();
 const citySchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'title', 'description', 'places'],
+  required: ['id', 'name', 'country', 'timezone', 'coordinates', 'url', 'places', 'flag'],
   properties: {
     id: { type: 'string' },
     name: { type: 'string' },
     country: { type: 'string' },
     timezone: { type: 'string' },
+    flag: { type: 'string' },
     
     // processed properties
     coordinates: { type: 'array', items: { type: 'number' } },
 
     // generated properties
     url: { type: 'string' },
-    title: { type: 'string' },
-    description: { type: 'string' },
     places: { type: 'array' },
+    count: { type: 'number' },
   }
 }
 
@@ -55,14 +55,14 @@ const placeSchema = {
   properties: {
 
     // raw data properties
-    author: { type: ['string', 'null'] },
+    contributors: { type: ['array', 'null'], items: { type: 'string' } },
     added: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     updated: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },
     type: { type: 'string', enum: types },
     area: { type: ['string', 'null'] },
-    google_maps: { type: 'string' },
-    address: { type: ['string', 'null'] },
+    google_maps: { type: ['string', 'null'] },
+    address: { type: ['object', 'string', 'null'] },
     station: { type: ['string', 'null'] },
     wifi: { type: ['integer', 'null'], minimum: 0, maximum: 5 },
     speed: { type: ['number', 'null'] },
@@ -81,12 +81,16 @@ const placeSchema = {
     outdoor_seating: { type: ['boolean', 'null'] },
     cash_only: { type: ['boolean', 'null'] },
     animals: { type: ['boolean', 'null'] },
+    lactose_free_milk: { type: ['boolean', 'null'] },
+    time_limit: { type: ['boolean', 'null'] },
     closed: { type: ['boolean', 'null'] },
     tips: { type: 'array', items: { type: 'string' } },
     facebook: { type: ['string', 'null'] },
     instagram: { type: ['string', 'null'] },
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
+    content: { type: 'string' },
+    temporarily_closed: { type: ['boolean', 'null'] },
 
     // legacy data properties
     opens: { type: ['string', 'null'] },
@@ -100,17 +104,12 @@ const placeSchema = {
     // generated properties
     id: { type: 'string' },
     url: { type: 'string' },
-    title: { type: 'string' },
-    description: { type: 'string' },
     city: { type: 'string' },
     cityUrl: { type: 'string' },
     cityName: { type: 'string' },
     file: { type: 'string' },
     score: { type: 'number' },
-
-    // content properties
-    content: { type: 'string' },
-    markdown: { type: 'string' },
+    review: { type: ['object', 'string'] },
   }
 }
 

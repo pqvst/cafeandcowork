@@ -8,13 +8,11 @@ coordinates: 25.03047725238785, 121.52926601496898
 address: 106, Taiwan, Taipei City, Da’an District, Lane 9, Lishui Street, 10-1號一樓
 station: Dongmen
 hours:
-  mon: 12-23
-  tue: 12-23
-  wed: 12-23
-  thu: 12-23
-  fri: 12-23
-  sat: 11-0
-  sun: 11-0
+  mon: 14-22
+  tue: 14-22
+  wed: 14-22
+  sat: 14-22
+  sun: 14-22
 wifi: 3
 speed: 40
 power: 3
@@ -44,8 +42,11 @@ images:
   - menu1.jpg
   - menu2.jpg
   - tea.jpg
+review:
+  en: |
+    There are two YABOO cafes near Yongkang St. This is the second one and the vibe is quite different from the first. The interior is brighter and more relaxing, good for study or work. It was very quiet on a weekday afternoon, with only a couple of people in the cafe. Comfortable chairs, decent WiFi, and some power outlets.
+
+    Note that the back room WiFi and cell reception is very poor, so don't sit there if you need internet.
+  zh-tw: |
+    永康街附近有兩家Yaboo cafe，這家是二號店且景致和一號店不太相同，這裡採光明亮、氣氛輕鬆，平日午後很安靜，很適合讀書工作。有舒適的椅子、良好的WiFi和插座。
 ---
-
-There are two YABOO cafes near Yongkang St. This is the second one and the vibe is quite different from the first. The interior is brighter and more relaxing, good for study or work. It was very quiet on a weekday afternoon, with only a couple of people in the cafe. Comfortable chairs, decent WiFi, and some power outlets.
-
-Note that the back room WiFi and cell reception is very poor, so don't sit there if you need internet.

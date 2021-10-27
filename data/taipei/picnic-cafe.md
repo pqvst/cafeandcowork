@@ -8,13 +8,12 @@ coordinates: 25.020417, 121.533069
 address: No. 75, Wenzhou Street, Da’an District, Taipei City, Taiwan 106
 station: Taipower Building
 hours:
-  mon: 13-23
-  tue: 13-23
-  wed: 13-23
-  thu: 13-23
-  fri: 13-23
-  sat: 12-23
-  sun: 12-23
+  mon: 12-22
+  tue: 12-22
+  thu: 12-22
+  fri: 12-22
+  sat: 12-22
+  sun: 12-22
 wifi: 5
 speed: 50
 power: 4

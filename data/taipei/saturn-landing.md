@@ -3,18 +3,18 @@ added: 2021-01-13
 name: Saturn Landing Turkish Coffee
 type: Cafe
 area: Daan
-google_maps: https://g.page/taipeiturkishcoffee?share
+google_maps: https://g.page/taiwanturkishcafe?share
 coordinates: 25.02883054108021, 121.53080212649664
 address: No. 14-2號, Lane 75, Yongkang Street, Da’an District, Taipei City, Taiwan 106
 station: Dongmen
 hours:
-  mon: 11-20
-  tue: 11-20
-  wed: 11-20
-  thu: 11-20
-  fri: 11-20
-  sat: 11-21
-  sun: 11-21
+  mon: 11-19
+  tue: 11-19
+  wed: 11-19
+  thu: 11-19
+  fri: 11-19
+  sat: 11-19
+  sun: 11-19
 wifi: 4
 speed: 50
 power: 2
@@ -46,6 +46,9 @@ images:
   - menu1.jpg
   - menu2.jpg
   - tea.jpg
+review:
+  en: |
+    A great cafe that specializes in Turkish tea, coffee, and desserts. The interior is nicely decorated and the food/drinks were really good (it's definitely worth visiting to try the food!). However, it is a little pricey compared to other cafes in the area. The WiFi was fast and stable, but I didn't see very many power outlets. At least one of the individual seats near the back entrance has access to power.
+  zh-tw: |
+    一家擅長土耳其茶、咖啡，以及甜點的小店，室內陳設充滿獨特的嬉皮風格，看起來在配色和選材上下了不少功夫。食物飲料都非常棒（覺得值得沖著餐點前來），當然價位在這區域也比較高些。Wifi很快且穩定，不過我沒看到太多插座，不過至少後面邊的一處可以充電。
 ---
-
-A great cafe that specializes in Turkish tea, coffee, and desserts. The interior is nicely decorated and the food/drinks were really good (it's definitely worth visiting to try the food!). However, it is a little pricey compared to other cafes in the area. The WiFi was fast and stable, but I didn't see very many power outlets. At least one of the individual seats near the back entrance has access to power.

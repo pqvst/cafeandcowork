@@ -8,12 +8,11 @@ coordinates: 25.053713, 121.548092
 address: No. 11號, Alley 7, Lane 120, Dunhua North Road, Songshan District, Taipei City, Taiwan 105
 station: Nanjing Fuxing
 hours:
-  mon: 8-17
-  tue: 8-17
-  wed: 8-17
-  thu: 8-17
-  fri: 8-17
-  sun: 9-17
+  mon: 8-16
+  tue: 8-16
+  wed: 8-16
+  thu: 8-16
+  fri: 8-16
 wifi: 5
 speed: 50
 power: 5
@@ -40,6 +39,13 @@ images:
   - seating1.jpg
   - seating2.jpg
   - menu.jpg
----
+review:
+  en: |
+    Probably one of the cheapest cafes I've found in Taipei. A black tea was only 35 NT$. Even so, the interior was nice, clean, modern. Good wifi and power at every seat. It's probably not the type of place I'd sit for an extended period of time, but definitely a great spot to get some work done in the morning. Towards lunch time it got quite busy. They serve breakfast food as well, which seemed very tasty (although I haven't tried it). There is a restroom behind the "secret" door.
+  zh-tw: |
+    這可能是到目前為止在台北為數眾多的Cafe中，我所能找到最便宜的一間了。紅茶只要35元。儘管價格如此實惠，但Yolo展現了漂亮、乾淨，且現代的風格。WiFi良好，每個座位都找得到插座，因此這也許不是一個能待上一整天的地方，但絕對是早上工作的首選，可以在這裡完成一些進度。
 
-Probably one of the cheapest cafes I've found in Taipei. A black tea was only 35 NT$. Even so, the interior was nice, clean, modern. Good wifi and power at every seat. It's probably not the type of place I'd sit for an extended period of time, but definitely a great spot to get some work done in the morning. Towards lunch time it got quite busy. They serve breakfast food as well, which seemed very tasty (although I haven't tried it). There is a restroom behind the "secret" door.
+    中午過後店內開始繁忙起來。它們也供應一些早餐，看起來都很好吃（我還沒試過）。
+
+    廁所藏在秘密的門後。
+---

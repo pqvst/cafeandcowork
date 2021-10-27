@@ -6,10 +6,18 @@ block body
   .city
     include header
 
+    input(type="checkbox" id="toggle")
     h2
+      label(for="toggle")
+        span.bars
+          i.fa.fa-angle-down
+        span.times ✕
+    
       - const currentCityName = city.name
       each city in cities
-        a(class={ active: city.name == currentCityName } href=city.url)= city.name
+        a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
+          img.flag(src=`/flags/${city.flag}.png` height="17")
+          span= __(`City: ${city.name}`)
 
     script.
       document.querySelector('h2 a.active').scrollIntoView();
@@ -18,71 +26,78 @@ block body
       #map
 
     .search
-      input(type="text" placeholder="Search by name, type, or area..." v-model="filter" autofocus)
+      input(id="filter" type="text" placeholder=__("Search by name, type, or area...") v-model="filter" autofocus)
 
     .scroll-wrapper
       table
         thead
           tr
-            th Score
-            th Name
-            th WiFi
-            th Power
-            th Vacancy
-            th Comfort
-            th Quiet
-            th Drinks
-            th Food
-            th Price
-            th View
-            th Toilets
-            th Music
-            th Smoking
-            th(title="Standing Tables") Standing
-            th(title="Outdoor Seating") Outdoor
-            th Cash Only
-            th Animals
-            th Area
-            th Opens
-            th Closes
+            th= __('Score')
+            th= __('Name')
+            th= __('WiFi')
+            th= __('Power')
+            th= __('Vacancy')
+            th= __('Comfort')
+            th= __('Quiet')
+            th= __('Drinks')
+            th= __('Food')
+            th= __('Price')
+            th= __('View')
+            th= __('Toilets')
+            th= __('Music')
+            th= __('Smoking')
+            th(title=__("Standing Tables"))= __('Standing')
+            th(title=__("Outdoor Seating"))= __('Outdoor')
+            th= __('Cash Only')
+            th= __('Animals')
+            th(title=__("Lactose-Free Milk"))= __('LFM')
+            th= __('Time Limit')
+            th= __('Area')
+            th= __('Opens')
+            th= __('Closes')
         tbody
           if city.places.length == 0
             tr
-              td(class="empty" colspan="999") No places found ¯\_(ツ)_/¯
+              td(class="empty" colspan="999")= __('No places found ¯\\_(ツ)_/¯')
           each e in city.places
             - const isClosed = isClosedNow(city, e);
             tr(data-url=e.url class={ closed: isClosed, permanentlyClosed: e.closed })
               td: +score(e)
               td.truncate
-                a(href=e.url title=e.name)= e.name
+                a(href=`${prefix}${e.url}` title=e.name)= e.name
                 if isClosed
-                  span.closed (Closed)
+                  span.closed (#{__('Closed')})
               td(data-tip=e.speed ? `${e.speed} Mb/s` : "WiFi"): +attribute(e.wifi)
-              td(data-tip="Power"): +attribute(e.power)
-              td(data-tip="Vacancy"): +attribute(e.vacancy)
-              td(data-tip="Comfort"): +attribute(e.comfort)
-              td(data-tip="Quiet"): +attribute(e.quiet)
-              td(data-tip="Drinks"): +attribute(e.drinks)
-              td(data-tip="Food"): +attribute(e.food)
-              td(data-tip="Price"): +attribute(e.price)
-              td(data-tip="View"): +attribute(e.view)
-              td(data-tip="Toilets"): +attribute(e.toilets)
-              td(data-tip="Music"): +attribute(e.music)
-              td(data-tip="Smoking"): +attribute(e.smoking)
-              td(data-tip="Standing Tables"): +attribute(e.standing_tables)
-              td(data-tip="Outdoor Seating"): +attribute(e.outdoor_seating)
-              td(data-tip="Cash Only"): +attribute(e.cash_only)
-              td(data-tip="Animals"): +attribute(e.animals)
-              td(data-tip="Area")
-                if e.areaUrl
-                  a(href=e.areaUrl)= e.area
-                else
-                  span= e.area
-              if isClosedToday(city, e)
-                td(colspan=2) Closed Today
+              td(data-tip=__("Power")): +attribute(e.power)
+              td(data-tip=__("Vacancy")): +attribute(e.vacancy)
+              td(data-tip=__("Comfort")): +attribute(e.comfort)
+              td(data-tip=__("Quiet")): +attribute(e.quiet)
+              td(data-tip=__("Drinks")): +attribute(e.drinks)
+              td(data-tip=__("Food")): +attribute(e.food)
+              td(data-tip=__("Price")): +attribute(e.price)
+              td(data-tip=__("View")): +attribute(e.view)
+              td(data-tip=__("Toilets")): +attribute(e.toilets)
+              td(data-tip=__("Music")): +attribute(e.music)
+              td(data-tip=__("Smoking")): +attribute(e.smoking)
+              td(data-tip=__("Standing Tables")): +attribute(e.standing_tables)
+              td(data-tip=__("Outdoor Seating")): +attribute(e.outdoor_seating)
+              td(data-tip=__("Cash Only")): +attribute(e.cash_only)
+              td(data-tip=__("Animals")): +attribute(e.animals)
+              td(data-tip=__("Lactose-Free Milk")): +attribute(e.lactose_free_milk)
+              td(data-tip=__("Time Limit")): +attribute(e.time_limit)
+              td(data-tip=__("Area"))
+                if e.area
+                  if e.areaUrl
+                    a(href=e.areaUrl)= __(`Area: ${e.area}`)
+                  else
+                    span= __(`Area: ${e.area}`)
+              if isOpen24Hours(city, e)
+                td(colspan=2)= __("Open 24 Hours")
+              else if isClosedToday(city, e)
+                td(colspan=2)= __("Closed Today")
               else
-                td(data-tip="Opens")= getOpeningTime(city, e)
-                td(data-tip="Closes")= getClosingTime(city, e)
+                td(data-tip=__("Opens"))= getOpeningTime(city, e)
+                td(data-tip=__("Closes"))= getClosingTime(city, e)
 
   -
     const markers = city.places.map(e => {
@@ -91,8 +106,23 @@ block body
         url: e.url,
         score: e.score,
         coordinates: e.coordinates,
-        filter: `${e.name} ${e.type} ${e.area} ${e.station} ${isClosedNow(city, e) ? 'closed' : 'open'}`,
+        filter: [
+          `name: ${e.name}`,
+          `type: ${e.type}`,
+          __(e.type),
+          `area: ${e.area}`,
+          e.area ? __(`Area: ${e.area}`) : '',
+          `station: ${e.station}`,
+          e.station ? __(`Station: ${e.station}`) : '',
+          isClosedNow(city, e) ? 'closed' : 'open',
+          e.score ? 'score: yes' : 'score: no',
+        ].join(' '),
         hours: e.hours,
+        closed: e.closed,
+        address: e.address ? e.address[locale] || e.address : null,
+        image: e.images ? e.images[0] : null,
+        hours: getPrettyHours(city, e),
+        google_maps: e.google_maps,
       };
     });
 
@@ -101,5 +131,5 @@ block body
       coordinates: !{JSON.stringify(city.coordinates)},
       places: !{JSON.stringify(markers)},
       table: document.querySelector('table'),
-      input: document.querySelector('input')
+      input: document.getElementById('filter')
     });

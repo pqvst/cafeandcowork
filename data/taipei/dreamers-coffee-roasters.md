@@ -1,6 +1,6 @@
 ---
 added: 2020-10-30
-name: Dreamers Coffee Roasters
+name: Dreamers Coffee Roasters Fuxing (復興店)
 type: Cafe
 area: Daan
 google_maps: https://g.page/DreamersCoffeeRoastersFuxing?share
@@ -25,6 +25,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: false
+lactose_free_milk: true
 facebook: https://www.facebook.com/DreamersCoffeeRoasters/
 instagram: https://www.instagram.com/dreamerscoffee_tw/ 
 telephone: "+886227528229"
