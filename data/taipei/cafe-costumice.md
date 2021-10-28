@@ -38,4 +38,6 @@ telephone: "+886227118086"
 website: https://www.costumice.com.tw/
 tips:
   - Gets busy/loud around 15:00 on a weekday
+images:
+  - outdoor.jpg
 ---

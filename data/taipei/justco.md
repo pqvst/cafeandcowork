@@ -28,9 +28,17 @@ smoking: false
 standing_tables: true
 outdoor_seating: false
 cash_only: true
-animals: 
-facebook: 
-instagram: 
+animals: false
+lactose_free_milk:
+time_limit: false
+facebook: https://www.facebook.com/JustCoGlobal/
+instagram: https://www.instagram.com/justcoglobal/
 telephone: "+886266011318"
 website: https://www.justcoglobal.com/tw/locations/dian-shih
+images:
+  - interior.jpg
+  - entrance.jpg
+  - view.jpg
 ---
+
+Nice co-working space. Good wifi, lots of power outlets, many seating areas (including work tables with proper office chairs). Monthly membership gives you access to all JustCo locations. 2 month deposit required, credit card not accepted unfortunately.

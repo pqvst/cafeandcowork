@@ -29,4 +29,8 @@ facebook: https://www.facebook.com/CoppiiLumiiJM/
 instagram: https://www.instagram.com/coppiilumii/
 telephone: "+886227891816"
 website: 
+images:
+  - seating.jpg
 ---
+
+Nice place to sit and work at during a weekday afternoon. It was a little busy when we arrived just after lunch time but we got a table after waiting a little bit. Decent drink selection, and the food seems good (but I didn't try any). Lots of power outlets, good natural light, WiFi is a little slow but stable.

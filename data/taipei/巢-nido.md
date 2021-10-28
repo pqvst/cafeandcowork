@@ -40,9 +40,12 @@ tips:
   - Silent cafe. No talking allowed
   - Power outlets by the wall and under the counter
 images:
-  - seating.jpg
-  - rules.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
   - menu.jpg
+  - rules.jpg
   - tea.jpg
   - interior.jpg
 review:

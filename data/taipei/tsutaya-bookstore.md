@@ -38,4 +38,10 @@ website: http://www.citylink.tw/?p=8998
 tips:
   - Arrive early to get a good seat
   - Louisa coffee inside sells drinks and food
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
 ---
+
+Great place to sit and get some work done. Be sure to arrive early to get a good seat. There's one large work table with pretty good chairs and power outlets. WiFi is decent. There's a Louisa coffee so you can get drinks and snacks. From the MRT follow the signs to HSR and then take the escalator up two floors.

@@ -22,8 +22,8 @@ view: 4
 toilets: 4
 music: true
 smoking: false
-standing_tables: false
-outdoor_seating: true
+standing_tables: true
+outdoor_seating: false
 cash_only: 
 animals: false
 lactose_free_milk: true
