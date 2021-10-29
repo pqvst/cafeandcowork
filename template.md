@@ -26,6 +26,7 @@ outdoor_seating:
 cash_only: 
 animals: 
 lactose_free_milk: 
+time_limit: 
 facebook: 
 instagram: 
 telephone: 

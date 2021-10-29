@@ -11,12 +11,12 @@ hours: 11-19:30
 wifi: 5
 speed: 200
 power: 3
-vacancy: 3
+vacancy: 4
 comfort: 3
-quiet: 3
+quiet: 4
 food: 5
 drinks: 5
-price: 3
+price: 2
 view: 5
 toilets: 5
 music: true

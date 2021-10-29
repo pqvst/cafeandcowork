@@ -22,7 +22,7 @@ toilets: 2
 music: true
 smoking: false
 standing_tables: false
-outdoor_seating: true
+outdoor_seating: false
 cash_only: false
 animals: true
 lactose_free_milk: true
