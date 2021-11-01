@@ -27,7 +27,7 @@ food: 3
 drinks: 3
 price: 5
 view: 5
-toilets: 
+toilets: 2
 music: true
 smoking: false
 standing_tables: false
@@ -48,4 +48,4 @@ images:
   - seating4.jpg
 ---
 
-Slow and unstable (disconnects from time to time).
+Slow and unstable (disconnects from time to time). Large second floor seating area. Restrooms are located on the second floor at the other end of the building (quite far away).
