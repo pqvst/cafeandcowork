@@ -33,16 +33,6 @@ facebook: https://www.facebook.com/coffeewakeuptaiwan/
 instagram: https://www.instagram.com/coffee_wakeup/
 telephone: "+88672156005"
 website: 
-toilets:
-  count: 3
-  male_only: 2
-  female_only: 1
-  mixed: 1
-tables:
-  counter_seats: true
-  large_worktable: true
-  tables: true
-  standing_tables: true
 images:
   - seating1.jpg
   - seating3.jpg
