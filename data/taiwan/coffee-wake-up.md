@@ -1,6 +1,6 @@
 ---
 added: 2021-11-01
-name: Coffee wake up 咖啡覺醒
+name: Coffee wake up 咖啡覺醒 (中山店)
 type: Cafe
 area: Kaohsiung
 google_maps: https://goo.gl/maps/qV28KRspB8ays4qj9
@@ -12,7 +12,7 @@ station: Central Park Station
 hours: 7:30-0
 wifi: 5
 speed: 90
-power: 3
+power: 4
 vacancy: 4
 comfort: 3
 quiet: 2
@@ -20,7 +20,7 @@ food: 5
 drinks: 5
 price: 5
 view: 5
-toilets: 
+toilets: 5
 music: true
 smoking: false
 standing_tables: true
