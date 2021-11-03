@@ -27,14 +27,14 @@ food: 3
 drinks: 2
 price: 5
 view: 4
-toilets: 
+toilets: 2
 music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: 
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: true
 facebook: https://www.facebook.com/enjoycafe2/
 instagram: https://www.instagram.com/bbcallku530/
