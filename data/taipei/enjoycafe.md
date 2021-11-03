@@ -22,10 +22,10 @@ speed: 1
 power: 3
 vacancy: 4
 comfort: 4
-quiet: 4
-food: 
-drinks: 3
-price: 4
+quiet: 2
+food: 3
+drinks: 2
+price: 5
 view: 4
 toilets: 
 music: true
@@ -55,4 +55,4 @@ images:
   - menu3.jpg
 ---
 
-A new cafe that has replaced the previous cafe as the same location (vojago). Nice interior, good for working outside, but very slow wifi unfortunately. Large menu, serving coffee, tea, and sandwiches and other snacks.
+A new cafe that has replaced the previous cafe as the same location (vojago). Nice interior, good for working outside, but very slow wifi unfortunately. Large menu, serving coffee, tea, and sandwiches and other snacks. Very cheap. Street noise can be a little distracting.
