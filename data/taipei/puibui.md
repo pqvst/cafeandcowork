@@ -20,7 +20,7 @@ food: 3
 drinks: 5
 price: 4
 view: 4
-toilets: 
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -41,4 +41,4 @@ images:
   - outside.jpg
 ---
 
-WiFi is a little slow/unstable. Good lunch deal.
+I've known about PuiBui for a long time, but never visited before. It's conveniently located near Daan MRT station. The interior is quite basic, but it still feels comfortable and the environment was quiet, good for working. The drink selection is mostly coffee, but I did find a black tea on the menu. They also serve good lunch options, including thai style curry and sandwiches. The portion size was quite good and the price was decent, especially since you get a discount if you order food and a drink.

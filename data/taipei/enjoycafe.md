@@ -55,4 +55,4 @@ images:
   - menu3.jpg
 ---
 
-A new cafe that has replaced the previous cafe as the same location (vojago). Nice interior, good for working outside, but very slow wifi unfortunately. Large menu, serving coffee, tea, and sandwiches and other snacks. Very cheap. Street noise can be a little distracting.
+"Enjoy cafe" recently took over the same location that "vojago" used to use. You can still see some traces from vojago, including most of the same furniture and the logo on the wall. The interior is still quite nice with lots of seats available inside. It is also good for working outside, although the street noise (loud scooters driving by) can be a little distracting. They have a large menu serving coffee, tea, sandwiches and other snacks. Enjoy cafe is definitely much cheaper than vojago, but the WiFi is much slower unfortunately (only suitable for light surfing).

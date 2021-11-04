@@ -35,12 +35,16 @@ telephone: "+886227112311"
 website: 
 images:
   - seating1.jpg
-  - seating2.jpg
   - outside.jpg
-  - seating3.jpg
+  - seating2.jpg
   - interior1.jpg
+  - seating3.jpg
   - interior2.jpg
   - menu1.jpg
   - menu2.jpg
   - tea.jpg
 ---
+
+I recently discovered this cafe one evening while I had some spare time around Zhongxiao Fuxing. It's only a short walk from the station exit. During the evening on a weekday it was very quiet and there was only one other customer. Upon entering the cafe, the owner's dog will greet you with a friendly bark, although he never left the comfort of the sofa (that seems to be his regular spot!)
+
+The interior feels cozy, comfortable lighting, and good seats. The menu is quite large, with all the usual selection. I ordered earl grey tea, which came in a huge cup. It was good, but since I only had 1 hour to get some work done I wasn't able to finish it unfortunately.

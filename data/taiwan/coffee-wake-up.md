@@ -47,3 +47,9 @@ images:
   - outside.jpg
   - entrance.jpg
 ---
+
+During a trip to Kaohsiung I asked a friend for cafe recommendations. This was the first one he recommended, and it was definitely a great choice. The space is very large, feels modern and bright, with lots of natural light. There are plenty of seating options, and I especially liked the large worktables and the individual counter seats in the back (popular for working or studying).
+
+The menu is quite cheap, and has both food and drink, so it's definitely suitable for a working brunch/lunch. I tried the bacon & peanut butter toast, which was quite good.
+
+The WiFi was fast, there were plenty of power outlets. If I was living in Kaohsiung this would definitely be a regular spot!

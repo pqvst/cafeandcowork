@@ -48,4 +48,4 @@ images:
   - seating4.jpg
 ---
 
-Slow and unstable (disconnects from time to time). Large second floor seating area. Restrooms are located on the second floor at the other end of the building (quite far away).
+While visiting Kaohsiung I tried this Louisa Coffee in the KW2 harbor side warehouse, about a 10 minute walk from the Sizihwan MRT station. From the first floor it doesn't look like much, but if you go upstairs you'll find a huge seating area. The seats facing the water looked nice (although the sun might be too bright in the afternoon). There was some drawbacks though. The WiFi was a little slow and unstable (disconnects from time to time). Also, the restrooms are quite far away, located at the other end of the building, which was a little annoying.
