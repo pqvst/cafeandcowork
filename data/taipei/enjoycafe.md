@@ -53,6 +53,9 @@ images:
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
+review:
+  en: |
+    "Enjoy cafe" recently took over the same location that "vojago" used to use. You can still see some traces from vojago, including most of the same furniture and the logo on the wall. The interior is still quite nice with lots of seats available inside. It is also good for working outside, although the street noise (loud scooters driving by) can be a little distracting. They have a large menu serving coffee, tea, sandwiches and other snacks. Enjoy cafe is definitely much cheaper than vojago, but the WiFi is much slower unfortunately (only suitable for light surfing).
+  zh-tw: |
+    「享咖啡」最近取代了原址上的「Vojago味旅」，在這裡你仍可以看到一些味旅的痕跡，包含幾乎保持原樣的家具和牆上的Logo，裝潢和以前一樣典雅，也有很多座位的選擇，同時也很適合在它的室外空間工作，儘管必須去面對一些街上的噪音(像是飛馳而過的機車聲)。享咖啡有很豐富的Menu，包含茶、咖啡和三明治及其他小點，價格比以前的味旅要來得便宜，只可惜WiFi就比較慢了(只能做一些簡單的網頁瀏覽)。
 ---
-
-"Enjoy cafe" recently took over the same location that "vojago" used to use. You can still see some traces from vojago, including most of the same furniture and the logo on the wall. The interior is still quite nice with lots of seats available inside. It is also good for working outside, although the street noise (loud scooters driving by) can be a little distracting. They have a large menu serving coffee, tea, sandwiches and other snacks. Enjoy cafe is definitely much cheaper than vojago, but the WiFi is much slower unfortunately (only suitable for light surfing).

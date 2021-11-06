@@ -39,6 +39,9 @@ images:
   - seating3.jpg
   - seating4.jpg
   - outside.jpg
+review:
+  en: |
+    I've known about PuiBui for a long time, but never visited before. It's conveniently located near Daan MRT station. The interior is quite basic, but it still feels comfortable and the environment was quiet, good for working. The drink selection is mostly coffee, but I did find a black tea on the menu. They also serve good lunch options, including thai style curry and sandwiches. The portion size was quite good and the price was decent, especially since you get a discount if you order food and a drink.
+  zh-tw: |
+    我聽說過「杯盃」很長一段時間了，卻一直苦無機會。它的地點非常方便，就在大安捷運站附近，室內陳設比較簡單，但視覺上讓人覺得輕鬆舒服，且環境總是很安靜，特別適合工作。這裡主要提供咖啡，不過我還是在Menu上找到了紅茶，同時也有提供咖哩和三明治，價格實惠，點餐加購飲料會有一些折扣。
 ---
-
-I've known about PuiBui for a long time, but never visited before. It's conveniently located near Daan MRT station. The interior is quite basic, but it still feels comfortable and the environment was quiet, good for working. The drink selection is mostly coffee, but I did find a black tea on the menu. They also serve good lunch options, including thai style curry and sandwiches. The portion size was quite good and the price was decent, especially since you get a discount if you order food and a drink.
