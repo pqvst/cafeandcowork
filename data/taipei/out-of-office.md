@@ -21,8 +21,8 @@ power: 5
 vacancy: 5
 comfort: 4
 quiet: 3
-food: 5
-drinks: 5
+food: 2
+drinks: 3
 price: 2
 view: 4
 toilets: 5
@@ -31,7 +31,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
-animals: false
+animals: true
 lactose_free_milk:
 time_limit: true
 facebook: https://www.facebook.com/outofofficecafehome/
