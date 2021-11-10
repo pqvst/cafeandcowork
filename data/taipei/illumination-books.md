@@ -10,26 +10,39 @@ address:
   zh-tw: 10353台北市大同區赤峰街47巷18號2樓
 station: Zhongshan
 hours: 12-22
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
-cash_only: 
-animals: 
-lactose_free_milk: 
-facebook: 
-instagram: 
-telephone: 
+wifi: 5
+speed: 420
+power: 4
+vacancy: 2
+comfort: 5
+quiet: 4
+food: 3
+drinks: 3
+price: 3
+view: 5
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: false
+cash_only: false
+animals: false
+lactose_free_milk: false
+time_limit: false
+facebook: https://www.facebook.com/IlluminationBooks/
+instagram: https://www.instagram.com/illuminationbooks/
+telephone: "+886225507288"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - interior1.jpg
+  - entrance.jpg
+  - interior2.jpg
+  - seating3.jpg
+  - drink.jpg
+  - menu.jpg
+  - wifi.jpg
 ---
+
+Fills up very quickly so make sure you arrive early.

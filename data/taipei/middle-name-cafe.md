@@ -40,6 +40,7 @@ website: https://www.middlenamecoffee.com/
 contributors:
   - https://www.instagram.com/matthiasrossini/
 images:
+  - interior4.jpg
   - seating1.jpg
   - seating2.jpg
   - seating3.jpg
