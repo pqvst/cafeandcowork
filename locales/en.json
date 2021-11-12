@@ -34,6 +34,8 @@
 	"Area: Hyllie": "Hyllie",
 	"Area: Jongno-gu": "Jongno-gu",
 	"Area: Jung-gu": "Jung-gu",
+	"Area: Kaohsiung": "Kaohsiung",
+	"Area: Keelung": "Keelung",
 	"Area: Kinmen": "Kinmen",
 	"Area: Lower East Side": "Lower East Side",
 	"Area: Mapo-gu": "Mapo-gu",
@@ -258,5 +260,8 @@
 	"Wed:": "Wed:",
 	"Who are we?": "Who are we?",
 	"WiFi": "WiFi",
-	"Yes": "Yes"
+	"Yes": "Yes",
+	"Station: Central Park Station": "Central Park Station",
+	"Station: Keelung": "Keelung",
+	"Station: Sizihwan": "Sizihwan"
 }
