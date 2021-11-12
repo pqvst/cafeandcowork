@@ -1,3 +1,3 @@
 ---
-redirect: /taipei/moonshine-coffee-roasters/
+redirect: taipei/moonshine-coffee-roasters
 ---

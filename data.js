@@ -131,8 +131,13 @@ function getCities(places) {
         coordinates: parseCoordinates(cityData.coordinates),
         places: [],
         count: 0,
+        redirects: [],
       });
       cities[place.city] = city;
+    }
+    if (place.redirect) {
+      cities[place.city].redirects.push(place);
+      continue;
     }
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;

@@ -21,6 +21,7 @@ const citySchema = {
     // generated properties
     url: { type: 'string' },
     places: { type: 'array' },
+    redirects: { type: 'array' },
     count: { type: 'number' },
   }
 }
@@ -114,6 +115,9 @@ const placeSchema = {
 }
 
 for (const place of places) {
+  if (place.redirect) {
+    continue;
+  }
   const valid = ajv.validate(placeSchema, place);
   if (!valid) {
     console.log(place.name);
