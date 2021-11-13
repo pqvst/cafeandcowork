@@ -40,6 +40,11 @@ facebook: http://www.facebook.com/Homee-Cafe-%E5%A5%BD%E9%A5%97%E5%92%96%E5%95%A
 instagram: 
 telephone: "+886224275599"
 website: https://www.homeekitchen.com.tw/
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - entrance.jpg
+  - menu.jpg
 ---
 
-Very slow WiFi. Harbor views (if there is no cruise ship parked outside).
+While visiting Keelung I was trying to find a place to get some work done in the morning on a weekday. Most cafes seem to open around lunch time, but this place opened earlier. The cafe is actually located inside the ferry terminal building. I was hoping to have some nice harbor views, but unfortunately it was blocked by the large cruise ship parked just outside. Plenty of seating, comfortable chairs, and power outlets. Unfortunately the WiFi was extremely slow, so you'll need to use a personal hot spot here.
