@@ -46,6 +46,6 @@ images:
   - menu3.jpg
 ---
 
-After struggling a little bit to find a good place to work in Ximen, I eventually came across this small cafe tucked away on the 2nd floor in a small alley. The name is a wordplay on "你有", which means "you have" and is pronounced like "neo". The interior is quite interesting, and I wonder if the wall of sunglasses on the wall is a reference to "neo" from The Matrix, maybe?
+After struggling a little bit to find a good place to work in Ximen, I eventually came across this small cafe tucked away on the 2nd floor in a small alley. The name is a wordplay on "你有", which means "you have" and is pronounced like "neo". The interior is quite interesting, and I wonder if the wall of sunglasses is a reference to "neo" from The Matrix, maybe?
 
-There's a large worktable, several smaller tables, and the counter seats on the balcony seem like a good option when the weather is nice. There is decent WiFi, but only a couple of power outlets by the large table. If it's busy there is a 2 hour time limit, but didn't seem to be an issue during a weekday afternoon. One issue I had was that there would occasionally be quite a strong cigarette smoke smell (maybe coming from the outside or someone smoking on the balcony?)
+There's a large worktable, several smaller tables, and the counter seats on the balcony seem like a good option when the weather is nice. There is decent WiFi, but only a couple of power outlets by the large table. If it's busy there is a 2 hour time limit, but it didn't seem to be an issue during a weekday afternoon. One issue I had was that there would occasionally be quite a strong cigarette smoke smell (maybe coming from the outside or someone smoking on the balcony?)
