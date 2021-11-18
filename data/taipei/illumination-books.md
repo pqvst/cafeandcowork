@@ -17,7 +17,7 @@ vacancy: 2
 comfort: 5
 quiet: 4
 food: 3
-drinks: 3
+drinks: 2
 price: 3
 view: 5
 toilets: 3
