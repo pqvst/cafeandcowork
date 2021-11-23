@@ -2,7 +2,7 @@
 contributors:
   - https://www.instagram.com/huey/
 added: 2021-11-22
-name: Dreamers Coffee Roasters Breeze Fuxing (微風復興店)
+name: Dreamers - Breeze Fuxing (微風復興店)
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/m9VyVBnK1fGbcCxy5

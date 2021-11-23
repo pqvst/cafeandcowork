@@ -1,6 +1,6 @@
 ---
 added: 2021-03-05
-name: Dreamers Coffee Roasters Neihu (內湖店)
+name: Dreamers - Neihu (內湖店)
 type: Cafe
 area: Neihu
 google_maps: https://g.page/DreamersCoffeeRoastersNeihu?share

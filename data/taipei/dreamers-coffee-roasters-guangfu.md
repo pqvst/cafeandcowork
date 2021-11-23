@@ -1,7 +1,7 @@
 ---
 added: 2020-11-18
 updated: 2020-12-08
-name: Dreamers Coffee Roasters Guangfu (光復店)
+name: Dreamers - Guangfu (光復店)
 type: Cafe
 area: Daan
 google_maps: https://g.page/DreamersCoffeeRoastersGuangfu?share

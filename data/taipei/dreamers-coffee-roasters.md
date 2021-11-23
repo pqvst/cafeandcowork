@@ -1,6 +1,6 @@
 ---
 added: 2020-10-30
-name: Dreamers Coffee Roasters Fuxing (復興店)
+name: Dreamers - Fuxing (復興店)
 type: Cafe
 area: Daan
 google_maps: https://g.page/DreamersCoffeeRoastersFuxing?share
