@@ -61,6 +61,7 @@
 	"Area: Songshan": "松山",
 	"Area: Taichung": "台中",
 	"Area: Tainan": "台南",
+	"Area: Tamsui": "淡水",
 	"Area: Toshima": "豐島",
 	"Area: Toucheng": "頭城",
 	"Area: Wanhua": "萬華",
@@ -149,6 +150,7 @@
 	"Station: Beimen": "北門",
 	"Station: Bercy": "Bercy",
 	"Station: Causeway Bay": "Causeway Bay",
+	"Station: Central Park Station": "中央公園",
 	"Station: Central": "Central",
 	"Station: Chiang Kai-Shek Memorial Hall": "中正紀念堂",
 	"Station: Daan, Zhongxiao Fuxing": "大安, 忠孝復興",
@@ -176,6 +178,7 @@
 	"Station: Ikebukuro": "池袋",
 	"Station: Jamsil": "蠶室站",
 	"Station: Jiannan Rd": "劍南路站",
+	"Station: Keelung": "基隆",
 	"Station: Korakuen": "後樂園",
 	"Station: Kunyang": "昆陽",
 	"Station: Lai Chi Kok": "荔枝角",
@@ -211,6 +214,7 @@
 	"Station: Shinjuku-sanchome": "新宿三丁目",
 	"Station: Shinjuku": "新宿",
 	"Station: Shuanglian": "雙連",
+	"Station: Sizihwan": "西子灣",
 	"Station: Songjiang Nanjing": "松江南京",
 	"Station: Songshan": "松山",
 	"Station: Suidobashi": "水道橋",
@@ -259,7 +263,6 @@
 	"Who are we?": "Who are we?",
 	"WiFi": "WiFi",
 	"Yes": "是",
-	"Station: Central Park Station": "Central Park Station",
-	"Station: Keelung": "Keelung",
-	"Station: Sizihwan": "Sizihwan"
+	"Station: Tamsui": "Tamsui",
+	"Station: City Hall": "City Hall"
 }
