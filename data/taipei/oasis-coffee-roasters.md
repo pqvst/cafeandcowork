@@ -2,6 +2,7 @@
 contributors:
   - https://www.instagram.com/huey/
 added: 2021-04-02
+updated: 2021-12-02
 name: Oasis Coffee Roasters
 type: Cafe
 area: Daan
@@ -12,15 +13,15 @@ address:
   zh-tw: 106台北市大安區信義路四段199巷7-3號
 station: Xinyi Anhe
 hours: 9-19
-wifi: 3
-speed: 
+wifi: 5
+speed: 290
 power: 3
 vacancy: 4
-comfort: 4
+comfort: 3
 quiet: 3
 food: 4
 drinks: 4
-price: 3
+price: 2
 view: 4
 toilets: 3
 music: true
@@ -30,8 +31,15 @@ outdoor_seating: false
 cash_only: false
 animals: 
 lactose_free_milk: true
+time_limit: false
 facebook: https://www.facebook.com/Oasis-Coffee-Roasters-1022437631263739/
-instagram: 
+instagram: https://www.instagram.com/oasiscoffeetw/
 telephone: "+886227556769"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - menu.jpg
 ---
+
+A small cafe with several two person tables and two 4 person tables. The menu is quite small, but the black tea was really tasty, but small considering the price. The WiFi was very fast, power outlets. Unfortunately the seats are not particularly comfortable though.
