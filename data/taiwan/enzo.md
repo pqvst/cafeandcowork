@@ -46,8 +46,13 @@ images:
   - menu4.jpg
   - menu5.jpg
   - elevator.png
+review:
+  en: |
+    A great work cafe in Keelung, close to the night market. From the outside this cafe looks very small, but if you take the slightly precarious stairs up to the second floor you'll find a nice seating area with thoughtfully decorations. There's a large worktable and counter seats, great WiFi, plenty of power outlets, and comfortable seats. The space is comfortable, but can be a little noisy if the windows are open since you'll hear scooters driving by outside. There is a 2 hour if it's busy, but on a weekday this was not an issue.
+
+    The order system is quite interesting here! After you place your order downstairs the staff will hand you a buzzer, and they will send your order up to the second floor using the food elevator. When your buzzer beeps, open the elevator door, take out your order, place the buzzer inside the elevator, close the door, and then press the elevator button *once*.
+  zh-tw: |
+    安樓咖啡這是一間位在基隆很靠近夜市的咖啡店，很適合工作。從外面來看這家店會覺得有點小，但爬上一道鐵梯之後就會來到寬敞的二樓，座位的安排很有規劃，這裡有很大的工作桌和吧檯座位，WiFi很好，也有很多插座和舒適的座椅，整個空間給人舒適的感覺。一些大家可能會在一的點：這裡可能會稍微有點噪音因為窗戶是開著的，有時會有機車通過的聲音。在比較繁忙的時候會有兩小時的時間限制但平日我想不太是個問題。
+
+    PS：這裡的點餐方式滿好玩的！在一樓點完餐之後店員會給一個叫號器，就和許多店一樣，但這裡會用送餐電梯把餐點送上二樓，所以叫號器響的時候就可以打開電梯門拿取餐點，再直接把叫號器放進電梯按壓一下的下樓鍵即可。
 ---
-
-A great work cafe in Keelung, close to the night market. From the outside this cafe looks very small, but if you take the slightly precarious stairs up to the second floor you'll find a nice seating area with thoughtfully decorations. There's a large worktable and counter seats, great WiFi, plenty of power outlets, and comfortable seats. The space is comfortable, but can be a little noisy if the windows are open since you'll hear scooters driving by outside. There is a 2 hour if it's busy, but on a weekday this was not an issue.
-
-The order system is quite interesting here! After you place your order downstairs the staff will hand you a buzzer, and they will send your order up to the second floor using the food elevator. When your buzzer beeps, open the elevator door, take out your order, place the buzzer inside the elevator, close the door, and then press the elevator button *once*.
