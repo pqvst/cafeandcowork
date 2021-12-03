@@ -48,7 +48,7 @@ images:
   - elevator.png
 review:
   en: |
-    A great work cafe in Keelung, close to the night market. From the outside this cafe looks very small, but if you take the slightly precarious stairs up to the second floor you'll find a nice seating area with thoughtfully decorations. There's a large worktable and counter seats, great WiFi, plenty of power outlets, and comfortable seats. The space is comfortable, but can be a little noisy if the windows are open since you'll hear scooters driving by outside. There is a 2 hour if it's busy, but on a weekday this was not an issue.
+    A great work cafe in Keelung, close to the night market. From the outside this cafe looks very small, but if you take the slightly precarious stairs up to the second floor you'll find a nice seating area with thoughtful decorations. There's a large worktable and counter seats, great WiFi, plenty of power outlets, and comfortable seats. The space is comfortable, but can be a little noisy if the windows are open since you'll hear scooters driving by outside. There is a 2 hour if it's busy, but on a weekday this was not an issue.
 
     The order system is quite interesting here! After you place your order downstairs the staff will hand you a buzzer, and they will send your order up to the second floor using the food elevator. When your buzzer beeps, open the elevator door, take out your order, place the buzzer inside the elevator, close the door, and then press the elevator button *once*.
   zh-tw: |
