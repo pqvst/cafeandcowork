@@ -40,6 +40,7 @@ images:
   - seating1.jpg
   - seating2.jpg
   - menu.jpg
+  - sign.jpg
 ---
 
 A small cafe with several two person tables and two 4 person tables. The menu is quite small, but the black tea was really tasty, but small considering the price. The WiFi was very fast, power outlets. Unfortunately the seats are not particularly comfortable though.
