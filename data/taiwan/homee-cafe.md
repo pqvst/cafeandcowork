@@ -45,6 +45,12 @@ images:
   - seating2.jpg
   - entrance.jpg
   - menu.jpg
----
+review:
+  en: |
+    While visiting Keelung I was trying to find a place to get some work done in the morning on a weekday. Most cafes seem to open around lunch time, but this place opened earlier. The cafe is actually located inside the ferry terminal building. I was hoping to have some nice harbor views, but unfortunately it was blocked by the large cruise ship parked just outside. Plenty of seating, comfortable chairs, and power outlets. Unfortunately the WiFi was extremely slow, so you'll need to use a personal hot spot here.
+  zh-tw: |
+    zh-tw: |
+    在基隆的時候，我試著去找一個地方可以讓我在平日早上快速完成工作，但是這裡大部分的咖啡店看起來都是午餐時間左右才開，只有「好響咖啡」開得比較早，好響咖啡其實位在基隆港務局裡面，有很多座位和舒適的椅子，也有一些插座，WiFi則是非常慢，所以可能要有心理準備要使用個人的數據分享。
 
-While visiting Keelung I was trying to find a place to get some work done in the morning on a weekday. Most cafes seem to open around lunch time, but this place opened earlier. The cafe is actually located inside the ferry terminal building. I was hoping to have some nice harbor views, but unfortunately it was blocked by the large cruise ship parked just outside. Plenty of seating, comfortable chairs, and power outlets. Unfortunately the WiFi was extremely slow, so you'll need to use a personal hot spot here.
+    當天其實有點期待看到一些港口景觀，可惜的是到訪那天剛好有一艘很大的郵輪停在正前方，很好奇平常的視野是什麼樣子。
+---
