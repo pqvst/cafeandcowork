@@ -8,7 +8,7 @@ coordinates: 25.042393306026067, 121.56905724419138
 address:
   en: No. 7號, Alley 157, Lane 30, Yongji Rd, Xinyi District, Taipei City, 11065
   zh-tw: 11065台北市信義區永吉路30巷157弄7號
-station: City Hall
+station: Taipei City Hall
 hours:
   mon: 9:30-16
   tue: 9:30-16
