@@ -205,6 +205,7 @@
 	"Station: Samseong": "三成站",
 	"Station: Sangsu": "上水站",
 	"Station: Seoulleung": "宣陵站",
+	"Station: Shandao Temple": "善導寺",
 	"Station: Shanwai Bus Station": "鳳雛公園",
 	"Station: Sheung Wan": "上環站",
 	"Station: Shibuya, Harajuku": "涉谷站，原宿",
@@ -225,6 +226,7 @@
 	"Station: Taipei Main": "台北火車站",
 	"Station: Taipower Building": "台電大樓",
 	"Station: Takadanobaba": "高田馬場站",
+	"Station: Tamsui": "淡水",
 	"Station: Technology Building": "科技大樓",
 	"Station: Tokyo": "東京",
 	"Station: Toucheng": "頭城",
@@ -262,7 +264,5 @@
 	"Wed:": "週三:",
 	"Who are we?": "Who are we?",
 	"WiFi": "WiFi",
-	"Yes": "是",
-	"Station: Tamsui": "Tamsui",
-	"Station: City Hall": "City Hall"
+	"Yes": "是"
 }
