@@ -27,7 +27,7 @@ food: 3
 drinks: 4
 price: 3
 view: 5
-toilets: 
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -49,3 +49,5 @@ images:
   - seating4.jpg
   - seating5.jpg
 ---
+
+A great place to work from on a weekday morning since they open early and it wasn't very busy. The upstairs seating area has nice views overlooking the river. If the weather is nice you can sit outside on the first floor, or on the balcony on the second floor. The WiFi is quite slow, but works, and there are some power outlets. It seems like weekend afternoons (and definitely weekends) can get very crowded.
