@@ -18,7 +18,7 @@ block body
         a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
           img.flag(src=`/flags/${city.flag}.png` height="17")
           span= __(`City: ${city.name}`)  
-      a(href="#" onclick="showSubmit()") #[i.fa.fa-plus] Submit
+      a(href="#" onclick="showSubmit()").umami--click--city-submit #[i.fa.fa-plus] Submit
     
 
     script.
