@@ -138,6 +138,9 @@ header a.icon {
   font-size: 1.6em;
   color: rgba(0,0,0,0.5);
   margin-left: 15px;
+}
+
+header a.icon.instagram {
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   color: white;
@@ -146,6 +149,10 @@ header a.icon {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; 
+}
+
+header a.icon.github {
+  color: black;
 }
 
 header a.icon:hover {

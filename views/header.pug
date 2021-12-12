@@ -7,5 +7,7 @@ header
     .language-picker
       a(href=`${url}` class={ active: locale == 'en' }) EN
       a(href=`/zh-tw${url}` class={ active: locale == 'zh-tw' }) 中文
-  a.icon(href="https://www.instagram.com/cafeandcowork/" target="_blank").umami--click--header-instagram
+  a.icon.github(href=site.github target="_blank").umami--click-header-github
+    i.fa.fa-github
+  a.icon.instagram(href=site.instagram target="_blank").umami--click--header-instagram
     i.fa.fa-instagram
