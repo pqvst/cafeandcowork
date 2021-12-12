@@ -16,7 +16,7 @@ speed: 50
 power: 5
 vacancy: 4
 comfort: 5
-quiet: 5
+quiet: 4
 food: 4
 drinks: 4
 price: 3
