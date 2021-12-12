@@ -1,56 +1,52 @@
-const { Octokit } = require('@octokit/rest');
+const got = require('got');
 
-const GITHUB_REPO = 'pqvst/cafeandcowork';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const FORM_ACTION = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScpERMNnPEBsMRnHRtGSgCgaa46fnAXMFYko-P70yBNbm6Gjw/formResponse';
 
-const YAML = require('yaml');
-YAML.scalarOptions.null.nullStr = '';
-
-//const strFields = ['name', 'type', 'area', 'google_maps', 'coordinates', 'address', 'station', 'opens', 'closes', 'facebook', 'instagram', 'telephone', 'website'];
-const strFields = ['city', 'name', 'google_maps', 'author'];
-const numFields = ['wifi', 'speed', 'power', 'vacancy', 'comfort', 'quiet', 'food', 'drinks', 'price', 'view', 'toilets'];
-const boolFields = ['music', 'smoking', 'standing_tables', 'outdoor_seating', 'cash_only', 'animals'];
-
-function parse(body) {
-  const place = {};
-  for (const field of strFields) {
-    place[field] = (body[field] === '') ? null : String(body[field]);
-  }
-  for (const field of numFields) {
-    place[field] = (body[field] === '') ? null : Number(body[field]);
-  }
-  for (const field of boolFields) {
-    place[field] = (body[field] === '') ? null : body[field] === 'true';
-  }
-  place.city = {
-    name: place.city
-  };
-  return place;
-}
-
-function getYaml(body) { 
-  return `
-\`\`\`
-${YAML.stringify(body)}
-\`\`\`
-`;
-}
+const FORM_FIELDS = {
+  email: 'entry.1003095951',
+  author: 'entry.698804565',
+  city: 'entry.1931176596',
+  name: 'entry.588589100',
+  google_maps: 'entry.804212171',
+  wifi: 'entry.1753723752',
+  speed: 'entry.1403885761',
+  power: 'entry.1272057959',
+  vacancy: 'entry.2046648137',
+  comfort: 'entry.1144461527',
+  quiet: 'entry.821816784',
+  food: 'entry.311973800',
+  drinks: 'entry.122974942',
+  price: 'entry.85589928',
+  view: 'entry.97128487',
+  toilets: 'entry.1776684342',
+  music: 'entry.1879119442',
+  smoking: 'entry.495024092',
+  standing_tables: 'entry.58564578',
+  outdoor_seating: 'entry.1029695140',
+  cash_only: 'entry.258421776',
+  animals: 'entry.459598352',
+  lactose_free_milk: 'entry.1038954349',
+  time_limit: 'entry.1235872444',
+  comments: 'entry.1081841747',
+};
 
 async function submit(place) {
-  if (!GITHUB_TOKEN) throw new Error('Missing GITHUB_TOKEN!');
-  const added = (new Date).toISOString().slice(0, 10);
-  const body = Object.assign({ added }, place);
-  body.city = place.city.name;
-  const [owner, repo] = GITHUB_REPO.split('/');
-  const octokit = new Octokit({ auth: GITHUB_TOKEN });
-  const issue = await octokit.issues.create({
-    owner,
-    repo,
-    title: `${body.name}, ${body.city}`,
-    body: getYaml(body),
-    labels: ['pending']
+  const form = {};
+  for (const field in FORM_FIELDS) {
+    const entry = FORM_FIELDS[field];
+    if (place[field]) {
+      form[entry] = place[field];
+    }
+  };
+  const resp = await got(FORM_ACTION, {
+    method: 'post',
+    form,
+    throwHttpErrors: false,
   });
-  return issue.data.html_url;
+  if (resp.statusCode >= 400) {
+    console.log(resp.statusCode);
+    throw new Error('submission failed');
+  }
 }
 
-module.exports = { parse, submit };
+module.exports = { submit };

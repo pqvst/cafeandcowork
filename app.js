@@ -153,13 +153,12 @@ app.get('/submit/', (req, res) => {
 });
 
 app.post('/submit/', submissionLimiter, async (req, res) => {
-  const place = submit.parse(req.body);
   try {
-    const url = await submit.submit(place);
-    res.render('submit', { issue_link: url });
+    await submit.submit(req.body);
+    res.send('ok');
   } catch (err) {
     console.log(err);
-    res.render('submit', Object.assign(place, { error: true }));
+    res.status(400).end();
   }
 });
 

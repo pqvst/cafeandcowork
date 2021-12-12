@@ -726,6 +726,7 @@ a.button {
   font-weight: 400;
   margin: 0 10px 10px 0;
   border: none;
+  cursor: pointer;
 }
 
 button:hover,
@@ -772,35 +773,55 @@ a.button.website {
 /* ========== Submit ========== */
 
 .submit {
-  max-width: 700px;
-  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  position: relative;
 }
 
 .submit h2 {
-  padding: 8px 0;
-  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  margin: 0 0 10px 0;
   border-bottom: solid 2px black;
 }
 
-.submit form {
-  margin-top: 30px;
+.submit .note {
+  font-size: 0.8em;
+  margin-top: 5px;
+  font-style: italic;
 }
 
-.submit .banner {
-  border-radius: 4px;
-  background: #DFF2BF;
-  color: #4F8A10;
-  padding: 10px;
+.submit .submitted {
   text-align: center;
-  margin: 30px 0;
+  display: none;
 }
 
-.submit .banner.failure {
-  background-color: #FFBABA;
-  color: #D8000C;
+.submit .submitted p {
+  margin-top: 10px;
 }
 
+.submit .submitted i.fa {
+  margin-top: 30px;
+  color: green;
+  font-size: 3em;
+}
 
+.submit .submitting {
+  display: block;
+}
+
+.submit .remember-me {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.submit .remember-me label {
+  font-weight: 300;
+}
+
+.submit .remember-me input {
+  margin-right: 6px;
+}
 
 /* ========== Form ========== */
 
@@ -810,36 +831,42 @@ form h3 {
 
 form label {
   display: block;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-form .rows {
-  border: solid 1px #eee;
-  border-radius: 4px;
+form span.required {
+  color: red;
 }
 
 form .row {
   display: flex;
   align-items: center;
-}
-
-form .row + .row {
-  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  padding: 15px 10px;
 }
 
 form .form-label {
-  flex-basis: 40%;
-  padding: 20px;
-  background: #fafafa;
-  border-right: solid 1px #eee;
+  flex-basis: 60%;
+  padding-right: 30px;
 }
 
 form .form-field {
-  padding: 20px;
-  flex-basis: 60%;
+  flex-basis: 40%;
+  text-align: right;
 }
 
-form .form-field select,
+@media screen and (max-width: 500px) {
+  .submit {
+    padding: 20px;
+  }
+  form .row {
+    display: block;
+  }
+  form .form-field {
+    text-align: left;
+  }
+}
+
 form .form-field input,
 form .form-field textarea {
   width: 100%;
@@ -849,13 +876,33 @@ form .form-field textarea {
   padding: 5px 8px;
 }
 
+form .form-field select {
+  background: #eee;
+  border-radius: 4px;
+  border: solid 1px #eee;
+  padding: 4px;
+}
+
 form input.touched,
 form select.touched {
   background: #fff9e3;
 }
 
 form .info {
-  margin-top: 5px;
+  margin-top: 3px;
+  font-size: 0.9em;
+}
+
+form button[disabled] {
+  background: #ccc;
+}
+
+form button i.fa {
+  display: none;
+}
+
+form button[disabled] i.fa {
+  display: inline-block;
 }
 
 
@@ -881,4 +928,61 @@ form .info {
   background: #eee;
   border-radius: 10px;
   padding: 30px;
+}
+
+
+
+/* ========== Modal ========== */
+
+@keyframes Modal {
+  from {
+    opacity: 0;
+    transform: scale(0.8)
+  }
+  to {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 1337;
+  overflow: auto;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  max-width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  animation-name: Modal;
+  animation-duration: .2s;
+  overflow: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
 }

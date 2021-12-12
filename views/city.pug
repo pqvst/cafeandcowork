@@ -17,7 +17,9 @@ block body
       each city in cities
         a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
           img.flag(src=`/flags/${city.flag}.png` height="17")
-          span= __(`City: ${city.name}`)
+          span= __(`City: ${city.name}`)  
+      a(href="#" onclick="showSubmit()") #[i.fa.fa-plus] Submit
+    
 
     script.
       document.querySelector('h2 a.active').scrollIntoView();

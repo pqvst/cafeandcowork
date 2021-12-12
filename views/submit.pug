@@ -1,202 +1,324 @@
-extends layout
+include mixins
 
-block body
-  include mixins
+- var types = ['Cafe', 'Bar', 'Restaurant', 'Lobby', 'Library', 'Coworking Space', 'Public Space', 'Event Space', 'Lounge', 'Booth', 'Bookstore'];
 
-  - var types = ['Cafe', 'Bar', 'Restaurant', 'Lobby', 'Library', 'Coworking Space', 'Public Space', 'Event Space', 'Lounge', 'Booth', 'Bookstore'];
-
-  mixin rate(name, optional)
-    .rating
-      select(name=name)
-        option
-        if optional
-          option(value="0" selected=locals[name]=="0") 0 - Not available
-        option(value="1" selected=locals[name]=="1") 1 - Awful
-        option(value="2" selected=locals[name]=="2") 2 - Poor
-        option(value="3" selected=locals[name]=="3") 3 - Average
-        option(value="4" selected=locals[name]=="4") 4 - Good
-        option(value="5" selected=locals[name]=="5") 5 - Excellent
-  
-  mixin boolean(name)
+mixin rate(name, optional, labels = {})
+  .rating
     select(name=name)
       option
-      option(value="false" selected=locals[name]==false) No
-      option(value="true" selected=locals[name]==true) Yes
+      if optional
+        option(value="0" selected=place&&place[name]=="0") 0 - #{labels['0'] || 'Not available'}
+      option(value="1" selected=place&&place[name]=="1") 1 - #{labels['1'] || 'Awful'}
+      option(value="2" selected=place&&place[name]=="2") 2 - #{labels['2'] || 'Poor'}
+      option(value="3" selected=place&&place[name]=="3") 3 - #{labels['3'] || 'Average'}
+      option(value="4" selected=place&&place[name]=="4") 4 - #{labels['4'] || 'Good'}
+      option(value="5" selected=place&&place[name]=="5") 5 - #{labels['5'] || 'Excellent'}
 
-  .submit
-    include header
+mixin boolean(name)
+  select(name=name)
+    option
+    option(value="Yes" selected=place&&place[name]==true) Yes
+    option(value="No" selected=place&&place[name]==false) No
 
-    if issue_link
-      .banner.success Thank you! You can view your submission #[a(href=issue_link target="_blank") here]
-    if error
-      .banner.failure Hmm, looks like something went wrong...
+mixin submit
+  .modal
+    .modal-background(onclick="hideSubmit()")
+    .modal-content
+      .submit
+        if place
+          h2 Suggest Edits
+        else
+          h2 Submit New Place
+        .modal-close(onclick="hideSubmit()")
+          i.fa.fa-times
 
-    h2 Submit Suggestions
-    p Use the form below or create a #[a(href=`${site.github}/issues` target="_blank") GitHub issue] to submit a new place or suggest changes to an existing place. All submissions will be reviewed before being published. Pending submissions can be viewed on #[a(href=`${site.github}/issues` target="_blank") GitHub].
+        .submitted
+          i.fa.fa-check-circle
+          p Thank you for your submission!
 
-    p
-      em Please try to fill in as much information as possible. If you are unsure about anything then leave it blank. Enter information in English if possible.
-
-    form(method="post")
-      .rows
-        .row
-          .form-label
-            label City
-            .info Which city is this place in?
-          .form-field
-            input(required type="text" name="city" value=city&&city.name)
-
-        .row
-          .form-label
-            label Name
-            .info What is the name of this place? Please provide it in English.
-          .form-field
-            input(required type="text" name="name" value=name)
-
-        .row
-          .form-label
-            label Google Maps Link
-            .info Provide a Google maps link to the place you want to submit.
-          .form-field
-            input(required type="text" name="google_maps" value=google_maps)
-        .row
-          .form-label
-            label WiFi
-            .info Is there WiFi? Is the WiFi fast, reliable, and stable?
-          .form-field
-            +rate("wifi", true)
-
-        .row
-          .form-label
-            label Speed (Mbps)
-            .info Run a #[a(href="https://fast.com" target="_blank") speed test] and enter the download speed.
-          .form-field
-            input(type="text" name="speed" value=speed)
-
-        .row
-          .form-label
-            label Power Outlets
-            .info How many of the seats have access to power outlets?
-          .form-field
-            +rate("power", true)
-
-        .row
-          .form-label
-            label Vacancy
-            .info How easy is it to get a seat? Is it usually empty or always very crowded?
-          .form-field
-            +rate("vacancy")
-
-        .row
-          .form-label
-            label Comfort
-            .info How comfortable is the environment, temperature, seats, etc.
-          .form-field
-            +rate("comfort")
-
-        .row
-          .form-label
-            label Quiet
-            .info How quiet is the space? Is it completely silent or very noisy?
-          .form-field
-            +rate("quiet")
-
-        .row
-          .form-label
-            label Food
-            .info Is food served? If so, how's the selection and quality?
-          .form-field
-            +rate("food", true)
-
-        .row
-          .form-label
-            label Drinks
-            .info Are drinks served? If so, how's the selection and quality?
-          .form-field
-            +rate("drinks", true)
-
-        .row
-          .form-label
-            label Price
-            .info How are the prices? Is it free or good value for money?
-          .form-field
-            +rate("price")
-
-        .row
-          .form-label
-            label View
-            .info How's the ambiance, atmosphere, vibe, view?
-          .form-field
-            +rate("view")
-
-        .row
-          .form-label
-            label Toilets
-            .info Are toilets available? If so, are they clean, near by, enough of them?
-          .form-field
-            +rate("toilets", true)
-
-        .row
-          .form-label
-            label Music
-            .info Is there music playing in the background?
-          .form-field
-            +boolean("music")
-
-        .row
-          .form-label
-            label Smoking
-            .info Are you allowed to smoke in the primary seating area?
-          .form-field
-            +boolean("smoking")
-
-        .row
-          .form-label
-            label Standing Tables
-            .info Are there any tables where you can stand up and work?
-          .form-field
-            +boolean("standing_tables")
-
-        .row
-          .form-label
-            label Outdoor Seating
-            .info Is there any seating outside?
-          .form-field
-            +boolean("outdoor_seating")
-
-        .row
-          .form-label
-            label Cash Only
-            .info Is this place cash only?
-          .form-field
-            +boolean("cash_only")
+        .submitting
           
-        .row
-          .form-label
-            label Animals
-            .info Are there animals in the cafe or are you allowed to bring pets?
-          .form-field
-            +boolean("animals")
+          form(action="/submit/" onsubmit="handleSubmit(event)")
+            .rows
 
-        .row
-          .form-label
-            label Author
-            .info Link to your Instagram, website, or other link that will public
-          .form-field
-            input(type="text" name="author" value=author)
+              if place
+                input(type="hidden" name="city" value=city.name)
+              else
+                .row
+                  .form-label
+                    label City #[span.required *]
+                    .info Which city is this place in?
+                  .form-field
+                    input(required type="text" name="city" value=city&&city.name)
 
-      .buttons
-        button.primary(type="submit") Submit
+              .row
+                .form-label
+                  label Name #[span.required *]
+                  .info What is the name of this place?
+                .form-field
+                  input(required type="text" name="name" value=place&&place.name)
 
-  script.
-    document.querySelectorAll('input, select, textarea').forEach(function (el) {
-      el._initialValue = el.value;
-      el.addEventListener('input', function(ev) {
-        if (el._initialValue != el.value) {
-          el.classList.add('touched');
-        } else {
-          el.classList.remove('touched');
-        }
+              .row
+                .form-label
+                  label Google Maps Link
+                  .info Provide a Google maps link to the place you want to submit.
+                .form-field
+                  input(type="text" name="google_maps" value=place&&place.google_maps)
+              .row
+                .form-label
+                  label 💻 WiFi
+                  .info Is there WiFi? Is the WiFi fast, reliable, and stable?
+                .form-field
+                  +rate("wifi", true)
+
+              .row
+                .form-label
+                  label 📶 Speed (Mbps)
+                  .info Click #[a(href="https://fast.com" target="_blank") here] to run a speed test.
+                .form-field
+                  input(type="text" name="speed" value=place&&place.speed)
+
+              .row
+                .form-label
+                  label 🔌 Power Outlets
+                  .info How many of the seats have access to power outlets?
+                .form-field
+                  +rate("power", true)
+
+              .row
+                .form-label
+                  label 🪑 Vacancy
+                  .info How easy is it to get a seat? Is it usually empty or always very crowded?
+                .form-field
+                  +rate("vacancy")
+
+              .row
+                .form-label
+                  label 🛋 Comfort
+                  .info How comfortable is the environment, temperature, seats, etc.
+                .form-field
+                  +rate("comfort")
+
+              .row
+                .form-label
+                  label 🗣 Quiet
+                  .info How quiet is the space? Is it completely silent or very noisy?
+                .form-field
+                  +rate("quiet")
+
+              .row
+                .form-label
+                  label ☕️ Drinks
+                  .info Are drinks served? If so, how's the selection and quality?
+                .form-field
+                  +rate("drinks", true)
+
+              .row
+                .form-label
+                  label 🍔 Food
+                  .info Is food served? If so, how's the selection and quality?
+                .form-field
+                  +rate("food", true)
+
+              .row
+                .form-label
+                  label 💰 Price
+                  .info How are the prices? Is it free or good value for money?
+                .form-field
+                  +rate("price")
+
+              .row
+                .form-label
+                  label 🌄 View
+                  .info How's the ambiance, atmosphere, vibe, view?
+                .form-field
+                  +rate("view")
+
+              .row
+                .form-label
+                  label 🚽 Toilets
+                  .info Are toilets available? If so, are they clean, near by, enough of them?
+                .form-field
+                  +rate("toilets", true)
+
+              .row
+                .form-label
+                  label 🔊 Music
+                  .info Is there music playing in the background?
+                .form-field
+                  +boolean("music")
+
+              .row
+                .form-label
+                  label 🚬 Smoking
+                  .info Are you allowed to smoke in the primary seating area?
+                .form-field
+                  +boolean("smoking")
+
+              .row
+                .form-label
+                  label 🧍‍♂️ Standing Tables
+                  .info Are there any tables where you can stand up and work?
+                .form-field
+                  +boolean("standing_tables")
+
+              .row
+                .form-label
+                  label 🌳 Outdoor Seating
+                  .info Is there any seating outside?
+                .form-field
+                  +boolean("outdoor_seating")
+
+              .row
+                .form-label
+                  label 💵 Cash Only
+                  .info Is this place cash only?
+                .form-field
+                  +boolean("cash_only")
+                
+              .row
+                .form-label
+                  label 🐶 Animals
+                  .info Are there animals in the cafe or are you allowed to bring pets?
+                .form-field
+                  +boolean("animals")
+
+              .row
+                .form-label
+                  label 🥛 Lactose-Free Milk
+                  .info Are there alternative milk options available (like Oatly)?
+                .form-field
+                  +boolean("lactose_free_milk")
+
+              .row
+                .form-label
+                  label 🚦 Time Limit
+                  .info Is there are time limit?
+                .form-field
+                  +boolean("time_limit")
+
+              .row
+                .form-label
+                  label Your Email (private)
+                  .info If you want to be notified when your suggestion is published.
+                .form-field
+                  input(type="email" name="email")
+
+              .row
+                .form-label
+                  label Attribution (public)
+                  .info A name/nickname/instagram to display under contributors for this place.
+                .form-field
+                  input(type="text" name="author")
+
+              .row
+                .form-label
+                  label Comments
+                  .info Anything else you'd like to mention?
+                .form-field
+                  textarea(name="comments" rows=3)
+
+            .remember-me
+              label
+                input(type="checkbox" id="remember-me")
+                span Remember me for future submissions.
+
+            .buttons
+              button.primary(type="submit") #[i.fa.fa-circle-o-notch.fa-spin] Submit
+              button(onclick="hideSubmit()") Close
+
+            .note.info All submissions will be reviewed before being published.
+      
+    script.
+      document.querySelectorAll('input, select, textarea').forEach(function (el) {
+        el._initialValue = el.value;
+        el.addEventListener('input', function(ev) {
+          if (el._initialValue != el.value) {
+            el.classList.add('touched');
+          } else {
+            el.classList.remove('touched');
+          }
+        });
       });
-    });
 
+      (function () {
+
+        const modal = document.querySelector('.modal');
+        const submittedSection = document.querySelector('.submitted');
+        const submittingSection = document.querySelector('.submitting')
+
+        const submitButton = document.querySelector('form button');
+        const rememberMe = document.getElementById('remember-me');
+        const emailField = document.querySelector('input[name=email');
+        const authorField = document.querySelector('input[name=author');
+
+        const email = localStorage.getItem('submitter.email');
+        const author = localStorage.getItem('submitter.author');
+        if (email || author) {
+          emailField.value = email;
+          authorField.value = author;
+          rememberMe.checked = true;
+        }
+        
+        function handleSubmit(ev) {
+          ev.preventDefault();
+          
+          submitButton.setAttribute('disabled', 'disabled');
+          
+          if (rememberMe.checked) {
+            localStorage.setItem('submitter.email', emailField.value);
+            localStorage.setItem('submitter.author', authorField.value);
+          } else {
+            localStorage.removeItem('submitter.email');
+            localStorage.removeItem('submitter.author');
+          }
+
+          const form = ev.target;
+          fetch(form.action, {
+            method: 'post',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: new URLSearchParams(new FormData(form))
+          }).then(resp => {
+            submitButton.removeAttribute('disabled');
+            if (resp.ok) {
+              showSubmitted();
+            } else {
+              resp.text().then(text => alert(text || 'Unable to submit. Contact hello@cafeandcowork.com for help.'));
+            }
+          });
+
+          form.reset();
+
+          document.querySelectorAll('input, select, textarea').forEach(function (el) {
+            el.classList.remove('touched');
+          });
+
+          return false;
+        }
+
+        function showSubmitted() {
+          submittingSection.style.display = 'none';
+          submittedSection.style.display = 'block';
+        }
+
+        function showSubmitting() {
+          submittedSection.style.display = 'none';
+          submittingSection.style.display = 'block';
+        }
+
+        function hideSubmit() {
+          document.body.style.overflow = 'auto';
+          modal.style.display = 'none';
+        }
+
+        function showSubmit() {
+          showSubmitting();
+          document.body.style.overflow = 'hidden';
+          modal.style.display = 'block';
+        }
+
+        window.handleSubmit = handleSubmit;
+        window.hideSubmit = hideSubmit;
+        window.showSubmit = showSubmit;
+
+      })();
