@@ -1,4 +1,5 @@
 ---
+closed: true
 name: tokyobike
 type: Cafe
 area: Songshan
