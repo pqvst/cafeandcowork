@@ -7,7 +7,7 @@ area: Xinyi
 google_maps: https://g.page/kohakucafetp?share
 coordinates: 25.039114, 121.583368
 address:
-  en: 110, Taiwan, Taipei City, Xinyi District, 中坡里
+  en: 110, Taipei City, Xinyi District, Dadao Rd, 129號1樓
   zh-tw: 110台北市信義區大道路129號1樓
 station: Houshanpi
 hours:
