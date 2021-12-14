@@ -54,7 +54,7 @@ images:
   - signup.jpg
 review:
   en: |
-    A new pay-to-use space that opened in Dec 2021. The space covers 3 floors, with the 2nd floor being the largest. Many seating areas (small and large tables). Drinks are included in the fee, and some small snacks are available for purchase. Sign-up process is super simple and the price is $150/2hr and a maximum of $450/day. Definitely reasonable the occasional visit, but more expensive than a typical coworking space.
+    A new pay-to-use space that opened in Dec 2021. The space covers 3 floors, with the 2nd floor being the largest. Many seating areas (small and large tables). Drinks are included in the fee, and some small snacks are available for purchase. Sign-up process is super simple and the price is $150/2hr and a maximum of $450/day. Definitely reasonable for the occasional visit, but more expensive than a typical coworking space.
 
     The space itself is nicely decorated, feels bright and modern, and quite comfortable. The WiFi is extremely fast and there are plenty of power outlets. The only downside I can see is that the space might get quite noisy if it's full, but so far it was very quiet.
   zh-tw: |
