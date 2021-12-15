@@ -21,5 +21,8 @@ feed(xmlns="http://www.w3.org/2005/Atom")
         summary #{item.type} in #{item.area}, #{item.cityName}.
       link(rel="alternative" type="text/html" href=`${site.url}${item.url}`)
       if item.images && item.images.length > 0
+        image #{site.url}#{item.images[0]}
         content(type="html")
-          img(src=`${site.url}${item.images[0]}`)
+          p
+            img(src=`${site.url}${item.images[0]}`)
+          p= item.review.en
