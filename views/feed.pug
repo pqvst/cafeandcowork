@@ -23,4 +23,8 @@ feed(xmlns="http://www.w3.org/2005/Atom")
       if item.images && item.images.length > 0
         logo #{site.url}#{item.images[0]}
         icon #{site.url}#{item.images[0]}
-        content(type="image/jpg" src=`${site.url}${item.images[0]}`)
+        content(type="html").
+          <![CDATA[
+            <img alt="" src="#{site.url}#{item.images[0]}" />
+          ]]>
+          
