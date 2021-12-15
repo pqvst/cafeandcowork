@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-rate-limit": "^5.3.0",
+    "feed": "^4.2.2",
     "got": "^11.8.2",
     "i18n": "^0.13.3",
     "lodash": "^4.17.21",

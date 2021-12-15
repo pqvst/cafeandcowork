@@ -162,9 +162,37 @@ app.post('/submit/', submissionLimiter, async (req, res) => {
   }
 });
 
+const { Feed }   = require('feed');
+
 app.get('/feed.xml', (req, res) => {
   res.type('application/xml');
-  res.render('feed', { recent: app.locals.recent, pretty: true });
+
+  const site = app.locals.site;
+
+  const feed = new Feed({
+    title: site.title,
+    description: site.description,
+    id: site.url,
+    link: site.url,
+    language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+    image: `${site.url}/share.png`,
+    favicon: `${site.url}/favicon.ico`,
+    updated: new Date,
+  });
+  
+  app.locals.recent.forEach(item => {
+    feed.addItem({
+      title: item.name,
+      id: `${site.url}${item.url}`,
+      link: `${site.url}${item.url}`,
+      description: `${item.type} in ${item.area}, ${item.cityName}. ${item.review.en}`,
+      content: `${item.type} in ${item.area}, ${item.cityName}. ${item.review.en}`,
+      date: new Date(item.updated || item.added),
+      image: item.images ? `${site.url}${item.images[0]}` : null,
+    });
+  });
+  res.send(feed.rss2());
+  //res.render('feed', { recent: app.locals.recent, pretty: true });
 });
 
 if (DEBUG) {
