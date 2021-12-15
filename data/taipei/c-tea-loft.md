@@ -13,14 +13,14 @@ hours: 12-22
 wifi: 4
 speed: 33
 power: 2
-vacancy: 3
-comfort: 4
+vacancy: 4
+comfort: 5
 quiet: 5
 food: 4
 drinks: 5
-price: 3
+price: 4
 view: 4
-toilets: 
+toilets: 3
 music: true
 smoking: false
 standing_tables: false
@@ -33,4 +33,19 @@ facebook: https://www.facebook.com/ctealoft/
 instagram: https://www.instagram.com/ctealoft/
 telephone: "+886223660381"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - entrance.jpg
+  - tea.jpg
+  - outside.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
+  - menu5.jpg
+  - menu6.jpg
+  - menu7.jpg
+  - menu8.jpg
+  - menu9.jpg
 ---
