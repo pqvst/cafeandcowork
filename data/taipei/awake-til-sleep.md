@@ -33,4 +33,10 @@ facebook: https://www.facebook.com/awaketilsleep/
 instagram: https://www.instagram.com/awake_til_sleep_cafe/
 telephone: "+886227117262"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - bahnmi.jpg
+  - outside.jpg
 ---
