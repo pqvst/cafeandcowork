@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const rateLimit = require('express-rate-limit');
 const Rollbar = require('rollbar');
 const { I18n } = require('i18n');
+const { Feed }   = require('feed');
 
 let rollbar;
 if (process.env.ROLLBAR_ACCESS_TOKEN) {
@@ -162,11 +163,10 @@ app.post('/submit/', submissionLimiter, async (req, res) => {
   }
 });
 
-const { Feed }   = require('feed');
-
 app.get('/feed.xml', (req, res) => {
   res.type('application/xml');
 
+  const locale = req.locale;
   const site = app.locals.site;
 
   const feed = new Feed({
@@ -174,19 +174,19 @@ app.get('/feed.xml', (req, res) => {
     description: site.description,
     id: site.url,
     link: site.url,
-    language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+    language: locale,
     image: `${site.url}/share.png`,
-    favicon: `${site.url}/favicon.ico`,
     updated: new Date,
   });
   
   app.locals.recent.forEach(item => {
+    const placeDescription = data.getPlaceDescription(i18n, locale, item);
     feed.addItem({
       title: item.name,
       id: `${site.url}${item.url}`,
       link: `${site.url}${item.url}`,
-      description: `${item.type} in ${item.area}, ${item.cityName}. ${item.review.en}`,
-      content: `${item.type} in ${item.area}, ${item.cityName}. ${item.review.en}`,
+      description: placeDescription,
+      content: placeDescription,
       date: new Date(item.updated || item.added),
       image: item.images ? `${site.url}${item.images[0]}` : null,
     });
