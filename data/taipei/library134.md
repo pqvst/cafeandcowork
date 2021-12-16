@@ -3,7 +3,7 @@ added: 2020-10-26
 updated: 2021-12-12
 name: Library134
 type: Cafe
-area: Songshan
+area: Zhongshan
 google_maps: https://g.page/LIBRARY134?share
 coordinates: 25.053514, 121.541979
 address:
