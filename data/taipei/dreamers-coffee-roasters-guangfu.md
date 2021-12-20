@@ -1,6 +1,6 @@
 ---
 added: 2020-11-18
-updated: 2020-12-08
+updated: 2021-12-20
 name: Dreamers - Guangfu (光復店)
 type: Cafe
 area: Daan
@@ -9,8 +9,8 @@ coordinates: 25.040481, 121.556874
 address: No. 11號, Lane 240, Guangfu South Road, Da’an District, Taipei City, Taiwan 106
 station: Sun Yat-Sen Memorial Hall
 hours: 7-22
-wifi: 4
-speed: 30
+wifi: 5
+speed: 86
 power: 5
 vacancy: 3
 comfort: 4
