@@ -42,4 +42,6 @@ images:
 review:
   en: |
     A fairly new Dreamers location near Dongmen station. If you take the narrow staircase up to the 2nd floor you'll find a large seating area, with a large worktable and many small individual tables. The seats near the large windows have nice views and let in some natural light. On a weekday morning it was fairly quiet and not too busy.
+  zh-tw: |
+    全新的Dreamers咖啡在東門站，從狹窄的樓梯往上走到二樓會來到很寬敞的座位區，依照慣例有很大個工作桌！(附有插座的工作桌幾乎是Dreamers的一大特色了)‵落地窗旁的位置更享有美好的自然光和景色，一個平日早晨通常滿安靜也不太擁擠。
 ---

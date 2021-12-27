@@ -43,6 +43,11 @@ images:
   - menu2.jpg
   - menu3.jpg
   - sign.jpg
----
+review:
+  en: |
+    A spacious cafe along the riverside in Tamsui. The first floor has indoor and outdoor seating, and the 2nd floor has a large terrace with covered and uncovered seats offering great views of the river or to catch the sunset on a clear day. During the afternoon on a weekday it was fairly quiet, but it started to fill up towards the evening time. They have both a large food and drink selection. Note that the upstairs terrace didn't open until 3pm (I'm not sure if that's always the case). Decent WiFi and power outlets. Note that the men's restroom doesn't have any western style toilet. I'm not sure about the women's.
+  zh-tw: |
+    淡水長堤咖啡餐館在淡水河畔上，空間非常寬敞，一樓有室內和室外的位置，二樓也有很大的天台包含有屋頂遮蔽的位置提供很好的淡水河視野，天氣好的時候可以在這裡看夕陽，樓上的天台要到下午才會開放（不是很確定是不是總是如此）
 
-A spacious cafe along the riverside in Tamsui. The first floor has indoor and outdoor seating, and the 2nd floor has a large terrace with covered and uncovered seats offering great views of the river or to catch the sunset on a clear day. During the afternoon on a weekday it was fairly quiet, but it started to fill up towards the evening time. They both a large food and drink selection. Note that the upstairs terrace didn't open until 3pm (I'm not sure if that's always the case). Decent WiFi and power outlets. Note that the men's restroom doesn't have any western style toilet. I'm not sure about the women's.
+    平日下午滿安靜的，但傍晚開始會越來越多人。這裡有非常多種類的餐點和飲料。WiFi不錯也有很多插座。
+---

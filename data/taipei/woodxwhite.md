@@ -42,6 +42,9 @@ images:
   - menu3.jpg
   - menu4.jpg
   - tea.jpg
+review:
+  en: |
+    On a weekend this was a nice cafe to work from. I imagine it would also be a good spot on a weekday. I like that the tea selection is large, although it seems most of the tea is fruit flavored. They also have homemade desserts that all look quite nice. The WiFi is fast, and the seats along the left wall have access to power outlets.
+  zh-tw: |
+    前往的時間是假日，因為假日也很適合工作，所以猜想平日大概氣氛會更悠閒。木白有很多茶可以選，適合茶類愛好者，雖然主要都是果茶調。這裡的本體主要是甜點，店內可以看到後方工作檯正在產出可愛好吃的甜點們。WiFi很快，比較適合工作的位置是靠牆的座位，也有不少插座。
 ---
-
-On a weekend this was a nice cafe to work from. I imagine it would also be a good spot on a weekday. I like that the tea selection is large, although it seems most of the tea is fruit flavored. They also have homemade desserts that all look quite nice. The WiFi is fast, and the seats along the left wall have access to power outlets.

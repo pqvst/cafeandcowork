@@ -41,6 +41,9 @@ images:
   - seating2.jpg
   - menu.jpg
   - sign.jpg
+review:
+  en: |
+    A small cafe with several two person tables and two 4 person tables. The menu is quite small, but the black tea was really tasty, but small considering the price. The WiFi was very fast, power outlets. Unfortunately the seats are not particularly comfortable though.
+  zh-tw: |
+    Oasis是一間小巧的咖啡店，只有幾張兩人座和兩張四人桌，Menu也非常小巧，不過他們的紅茶非常好喝(考量價格，size可能比較小一點)，WiFi非常快，有插座。只可惜座位並不是特別適合久坐。  
 ---
-
-A small cafe with several two person tables and two 4 person tables. The menu is quite small, but the black tea was really tasty, but small considering the price. The WiFi was very fast, power outlets. Unfortunately the seats are not particularly comfortable though.
