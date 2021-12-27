@@ -34,6 +34,7 @@ instagram: https://www.instagram.com/lb__cafe/
 telephone: "+886226222652"
 website: 
 images:
+  - balcony3.jpg
   - seating1.jpg
   - seating2.jpg
   - balcony2.jpg
