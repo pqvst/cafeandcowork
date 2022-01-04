@@ -54,4 +54,4 @@ images:
   - menu3.jpg
 ---
 
-Another great cafe near Nanjing Fuxing station. The interior is quite large and has a nice modern vibe. There are several seating areas, and one large worktable suitable for working with a group of people. Very fast WiFi, power outlets, and decent selection of food and drinks. I can definitely recommend trying the German pork sandwich with Sourdough bread
+Another great cafe near Nanjing Fuxing station. The interior is quite large and has a nice modern vibe. There are several seating areas, and one large worktable suitable for working with a group of people. Very fast WiFi, power outlets, and decent selection of food and drinks. I can definitely recommend trying the German pork sandwich with Sourdough bread.
