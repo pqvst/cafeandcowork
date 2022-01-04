@@ -47,8 +47,13 @@ images:
   - menu.jpg
   - cake.jpg
   - tea.jpg
+review:
+  en: |
+    The specialty at this cafe is the homemade soufflé. The large tables in the back have a 1.5 hour time limit, so it's not really the type of place you'd stay for a long time, and it got quite busy in the afternoon. There is fast WiFi, but no power outlets in the back.
+
+    The two small tables at the front are more suitable for a longer work session since there is power, but the table/chair size might be uncomfortable for some. There is a large coffee selection and the soufflé was nice, but definitely a little pricey.
+  zh-tw: |
+    榖珈琲的特色是手作的舒芙蕾，價位有些偏高不過有附飲品，值得一試。後方的幾張大桌子有一個半小時的時間限制，所以不太算是一個可以待久的地方，平常下午也比較容易客滿，後方沒有插座。不過這裡的優點是Wi-Fi很快，同時交通也很方面。
+
+    前面有兩張小桌可以待比較久，有插座，座位對一些人來說可能稍微狹窄一些。
 ---
-
-The specialty at this cafe is the homemade soufflé. The large tables in the back have a 1.5 hour time limit, so it's not really the type of place you'd stay for a long time, and it got quite busy in the afternoon. There is fast WiFi, but no power outlets in the back.
-
-The two small tables at the front are more suitable for a longer work session since there is power, but the table/chair size might be uncomfortable for some. There is a large coffee selection and the soufflé was nice, but definitely a little pricey.

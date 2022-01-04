@@ -48,6 +48,11 @@ images:
   - seating2.jpg
   - seating4.jpg
   - seating5.jpg
----
+review:
+  en: |
+    A great place to work from on a weekday morning since they open early and it wasn't very busy. The upstairs seating area has nice views overlooking the river. If the weather is nice you can sit outside on the first floor, or on the balcony on the second floor. The WiFi is quite slow, but works, and there are some power outlets. It seems like weekend afternoons (and definitely weekends) can get very crowded.
+  zh-tw: |
+    淡水的星巴克其實對老台北人來說應該不陌生，假日和傍晚總是人滿為患，也很多人散步到這裡會去借廁所(哈)。不過意外的是平日白天其實也很適合工作呢，因為總是開得很早人也不多，氣氛也很悠閒。二樓可以眺望河景，平常天氣好的時候也可以坐在二樓的陽台或一樓的室外座位，非常愜意。
 
-A great place to work from on a weekday morning since they open early and it wasn't very busy. The upstairs seating area has nice views overlooking the river. If the weather is nice you can sit outside on the first floor, or on the balcony on the second floor. The WiFi is quite slow, but works, and there are some power outlets. It seems like weekend afternoons (and definitely weekends) can get very crowded.
+    Wi-Fi算是非常慢，但是堪用，也找得到一些插座。整體來說是個在城市中待得悶了可以選擇繞過來待個一早上的好去處。
+---
