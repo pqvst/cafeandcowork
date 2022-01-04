@@ -34,10 +34,10 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
-lactose_free_milk: 
+lactose_free_milk: false
 time_limit: false
 facebook: https://www.facebook.com/thenormaldunhua/
-instagram: 
+instagram: https://www.instagram.com/bythenormalpeople/
 telephone: "+886227119252"
 website: 
 images:

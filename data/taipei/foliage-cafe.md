@@ -33,7 +33,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: 
 animals: true
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: https://facebook.com/foliagecafe76/
 instagram: https://www.instagram.com/foliage.cafe/
