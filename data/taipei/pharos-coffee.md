@@ -1,6 +1,6 @@
 ---
-added: 
-name: 引路咖啡 PharosCoffee
+added: 2022-01-04
+name: 引路咖啡 Enroute Coffee (PharosCoffee)
 type: Cafe
 area: Xinyi
 google_maps: https://goo.gl/maps/4HbbYFBuk5drzNCA9
@@ -15,26 +15,36 @@ hours:
   fri: 12-18
   sat: 12-18
   sun: 12-18
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
-cash_only: 
+wifi: 4
+speed: 15
+power: 3
+vacancy: 3
+comfort: 4
+quiet: 4
+food: 2
+drinks: 3
+price: 3
+view: 4
+toilets: 3
+music: true
+smoking: false
+standing_tables: false
+outdoor_seating: false
+cash_only: false
 animals: 
 lactose_free_milk: 
-facebook: 
-instagram: 
+time_limit: true
+facebook: https://www.facebook.com/Enroutecoffee/
+instagram: https://www.instagram.com/enroute_coffee/
 telephone: 
-website: 
+website: https://www.enroutecoffee.tw/
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - exterior.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - tea.jpg
 ---
+
+A small speciality coffee shop near Yongchung. The interior feels modern and bright thanks to the large windows. On a weekend afternoon it was fairly quiet, but slowly started to fill up later in the afternoon. It was quiet though, with most people just working or studying. Even though coffee is the main focus here they still serve a very good Taiwanese black tea. Note that there is a 2 hour time limit (if you order another a drink you can stay another 2 hours though).
