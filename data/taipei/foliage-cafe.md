@@ -19,7 +19,7 @@ hours:
 wifi: 3
 speed: 6.3
 power: 2
-vacancy: 5
+vacancy: 3
 comfort: 4
 quiet: 4
 food: 4
@@ -50,3 +50,5 @@ images:
   - menu3.jpg
   - menu4.jpg
 ---
+
+A great cafe/restaurant in Banqiao, just across from the New Taipei City Hall building. The highlight for me was definitely the owner's cute and friendly dog that will come and greet you when you arrive! For working there are comfortable seats, power, and WiFi. The menu is quite large, offering drinks and a large selection of food as well. The afternoon was fairly empty/quiet, but around dinner time it started to fill up (I guess lunch time will also be a little busy).
