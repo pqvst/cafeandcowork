@@ -1,4 +1,5 @@
 ---
+updated: 2022-01-05
 added: 2020-11-09
 name: Truffles Living (舒服生活)
 type: Cafe
@@ -8,14 +9,14 @@ coordinates: 25.032627, 121.550854
 address: No. 66號, Wenchang Street, Da’an District, Taipei City, Taiwan 106
 station: Xinyi Anhe
 hours: 11:30-19
-wifi: 1
-speed: 3
+wifi: 5
+speed: 96
 power: 3
 vacancy: 5
 comfort: 5
 quiet: 4
 food: 4
-drinks: 3
+drinks: 4
 price: 2
 view: 5
 toilets: 5
