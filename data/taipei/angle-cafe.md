@@ -33,6 +33,13 @@ facebook: https://www.facebook.com/AngleCafe
 instagram: https://www.instagram.com/anglecoffeecake/
 telephone: "+886227066672"
 website: 
+images:
+  - cake.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
+  - menu5.jpg
 ---
 
 A great spot for working or studying, quiet, comfortable, and solid WiFi. On a weekend afternoon it was quite full, but very calm and quiet. I can definitely recommend trying the cakes. Good drink selection as well.

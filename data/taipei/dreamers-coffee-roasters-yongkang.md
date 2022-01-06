@@ -37,6 +37,9 @@ images:
   - seating1.jpg
   - seating2.jpg
   - seating3.jpg
+  - seating4.jpg
+  - seating5.jpg
+  - seating6.jpg
   - interior.jpg
   - drink.jpg
 review:
