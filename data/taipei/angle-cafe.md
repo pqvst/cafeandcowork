@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2022-01-03
 name: Angle Cafe'
 type: Cafe
 area: Daan
