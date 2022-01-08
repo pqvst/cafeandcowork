@@ -19,7 +19,7 @@ hours:
   sun: 11-18
 wifi: 1
 speed: 30
-power: 
+power: 2
 vacancy: 2
 comfort: 3
 quiet: 2
@@ -34,8 +34,8 @@ standing_tables: false
 outdoor_seating: false
 cash_only: true
 animals: 
-lactose_free_milk: 
-time_limit: false
+lactose_free_milk: false
+time_limit: true
 facebook: https://www.facebook.com/%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1-%E4%BF%A1%E7%BE%A9%E6%9D%B1%E9%96%80%E5%BA%97-1050753418364230/
 instagram: https://www.instagram.com/mlcafe_brunch/
 telephone: "+886223979661"
@@ -50,4 +50,4 @@ images:
   - menu5.jpg
 ---
 
-Large menu (food and drinks). Quite busy/noisy during lunch time. There's WiFi, but very unstable (keeps cutting out).
+A popular lunch/brunch cafe near Dongmen station. During midday it can be a little busy/noisy. However, the afternoon was definitely quieter and made for a comfortable space to work from. The menu is large, with many food and drink options. There's WiFi, but it was very unstable during my visit. Also note that there is a 2 hour time limit during weekends.

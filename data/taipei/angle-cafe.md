@@ -27,7 +27,7 @@ standing_tables: true
 outdoor_seating: false
 cash_only: true
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/AngleCafe
 instagram: https://www.instagram.com/anglecoffeecake/
@@ -42,4 +42,4 @@ images:
   - menu5.jpg
 ---
 
-A great spot for working or studying, quiet, comfortable, and solid WiFi. On a weekend afternoon it was quite full, but very calm and quiet. I can definitely recommend trying the cakes. Good drink selection as well.
+This cafe has been on my list for a long time after a friend recommended it to me. It's definitely a great place to work. I arrived on a weekday afternoon and it was almost full, only one table available. Even so, it was very quiet since everyone was either working or studying. The interior is quite small, but the space is comfortable and has plenty of natural light. There's a good selection of drinks and cakes, I tried the oolong tea cheesecake, which was very tasty!

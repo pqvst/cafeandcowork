@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-11-04
 name: powder workshop
 type: Cafe

@@ -34,7 +34,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: true
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: true
 facebook: https://www.facebook.com/nowcoffee.taipei/
 instagram: https://www.instagram.com/nowstudio.tw/
@@ -56,4 +56,10 @@ images:
   - menu8.jpg
 ---
 
-Take-out window at the front. Main entrance from the side road. Fills up fast (good to arrive before 1pm on weekdays). Tasty lunch and good drinks menu. Very quiet and comfortable on the 2nd floor.
+The entrance to this cafe is a little hidden since the front only has a take-out window. The cafe entrance is actually from the side road. There are two floors with seating (the 3rd floor is just an event space).
+
+Overall I'd say this cafe is great for having a nice lunch and doing some work or study. I would definitely recommend getting a seat on the second floor, which was very quiet, has plenty of natural light, and comfortable seats.
+
+The menu has many drink options, including some nice Taiwanese tea. For food there are bagels, but the staff asked if I wanted to try the daily special instead, which was korean style chicken and rice. It was really good and filling!
+
+Be sure to arrive early though. After around 1pm on a weekday it starts to fill up quickly. Also note that there is a 3 hour time-limit during weekends and holidays.
