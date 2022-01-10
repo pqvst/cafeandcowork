@@ -2,7 +2,7 @@
 added: 2022-01-04
 name: Twenty Eight Cafe
 type: Cafe
-area: City
+area: Central
 google_maps: https://g.page/TwentyEightCafe?share
 coordinates: 1.3021074574154599, 103.84877937582901
 address: "28 Wilkie Rd, #01-06, Singapore 228051"
