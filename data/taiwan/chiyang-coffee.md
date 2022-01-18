@@ -47,3 +47,4 @@ images:
   - seating4.jpg
   - menu.jpg
 ---
+
