@@ -48,6 +48,11 @@ images:
   - menu3.jpg
   - menu4.jpg
   - menu5.jpg
----
+review:
+  en: |
+    A popular lunch/brunch cafe near Dongmen station. During midday it can be a little busy/noisy. However, the afternoon was definitely quieter and made for a comfortable space to work from. The menu is large, with many food and drink options. There's WiFi, but it was very unstable during my visit. Also note that there is a 2 hour time limit during weekends.
+  zh-tw: |
+    ML Cafe 東門附近很熱門的午餐/早午餐聖地，日中多半很熱鬧，下午則是安靜一點，空間也很舒適，非常適合工作。餐點和飲品的選擇都很豐富，適合待上一段時間不用擔心肚子餓。
 
-A popular lunch/brunch cafe near Dongmen station. During midday it can be a little busy/noisy. However, the afternoon was definitely quieter and made for a comfortable space to work from. The menu is large, with many food and drink options. There's WiFi, but it was very unstable during my visit. Also note that there is a 2 hour time limit during weekends.
+    這裡有WiFi，不過在我前往時WiFi有點不穩定。另外需注意假日有兩小時的時間限制。
+---
