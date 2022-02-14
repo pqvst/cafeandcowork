@@ -1,11 +1,13 @@
 ---
-updated: 2020-11-04
+updated: 2022-02-14
 name: YABOO Cafe
 type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/Lkk6452furs64nkY6
 coordinates: 25.030426, 121.530585
-address: No. 26, Lane 41, Yongkang Street, Da’an District, Taipei City, Taiwan 106
+address:
+  en: No. 26, Lane 41, Yongkang Street, Da’an District, Taipei City, Taiwan 106
+  zh-tw: 106台北市大安區永康街41巷26號
 station: Dongmen
 hours:
   mon: 12-0
@@ -15,15 +17,15 @@ hours:
   fri: 12-0
   sat: 11-0
   sun: 11-0
-wifi: 4
-speed: 
+wifi: 5
+speed: 290
 power: 4
 vacancy: 2
 comfort: 3
 quiet: 4
-food: 
+food: 4
 drinks: 5
-price: 2
+price: 3
 view: 4
 toilets: 3
 music: true
@@ -33,7 +35,18 @@ outdoor_seating: true
 cash_only: 
 animals: 
 facebook: http://www.facebook.com/yaboo.lalala
-instagram: 
+instagram: https://www.instagram.com/yaboo_cafe/
 telephone: "+886223912868"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - outside.jpg
+  - sign.jpg
+  - entrance.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
 ---
