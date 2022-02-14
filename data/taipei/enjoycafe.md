@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-10-27
 name: enjoy cafe 享咖啡永吉店
 type: Cafe
