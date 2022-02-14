@@ -41,9 +41,11 @@ tips:
   - Power outlets by the wall and under the counter
 images:
   - seating1.jpg
+  - seating4.jpg
+  - tea2.jpg
+  - dessert.jpg
   - seating2.jpg
   - seating3.jpg
-  - seating4.jpg
   - menu.jpg
   - rules.jpg
   - tea.jpg
