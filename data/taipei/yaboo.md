@@ -34,6 +34,7 @@ standing_tables: false
 outdoor_seating: true
 cash_only: 
 animals: 
+time_limit: false
 facebook: http://www.facebook.com/yaboo.lalala
 instagram: https://www.instagram.com/yaboo_cafe/
 telephone: "+886223912868"
