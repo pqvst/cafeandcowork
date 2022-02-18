@@ -52,6 +52,9 @@ images:
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
+review:
+  en: |
+    Another great cafe near Nanjing Fuxing station. The interior is quite large and has a nice modern vibe. There are several seating areas, and one large worktable suitable for working with a group of people. Very fast WiFi, power outlets, and decent selection of food and drinks. I can definitely recommend trying the German pork sandwich with Sourdough bread.
+  zh-tw: |
+    The Normal市另一間在南京復興站附近適合工作的咖啡廳，具有所有適合工作的條件：空間很開闊且有很多座位，也有很大的工作桌給多人討論使用。除此之外WiFi也非常快、有插座，餐點的選擇也不錯，很推薦他們的德國酸麵包火腿三明治。
 ---
-
-Another great cafe near Nanjing Fuxing station. The interior is quite large and has a nice modern vibe. There are several seating areas, and one large worktable suitable for working with a group of people. Very fast WiFi, power outlets, and decent selection of food and drinks. I can definitely recommend trying the German pork sandwich with Sourdough bread.

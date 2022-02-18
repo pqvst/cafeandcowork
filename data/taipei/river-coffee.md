@@ -37,11 +37,13 @@ images:
   - seating4.jpg
   - seating2.jpg
   - interior.jpg
-  - seating3.jpg
   - seating1.jpg
+  - seating3.jpg
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg
   - power.jpg
   - entrance.jpg
 ---
+
+I don't go to Neihu very often, but this is definitely a cafe worth visiting. The interior feels quiet and cozy. There's a separate room with a large worktable, good for groups, and there are two cushioned floor seating areas that looked very cozy. The main room has tables and counter seating. Fast WiFi, friendly staff, plenty of power outlets, and cheap drinks.
