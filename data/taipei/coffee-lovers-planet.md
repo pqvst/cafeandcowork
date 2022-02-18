@@ -1,7 +1,7 @@
 ---
 contributors:
   - https://www.instagram.com/huey/
-added: 2022-12-30
+added: 2021-12-30
 name: Coffee Lover's Planet
 type: Cafe
 area: Daan
