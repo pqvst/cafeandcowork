@@ -38,6 +38,7 @@ images:
   - seating3.jpg
   - seating4.jpg
   - tea.jpg
+  - entrance.jpg
   - menu1.jpg
   - menu2.jpg
   - menu3.jpg

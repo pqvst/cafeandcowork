@@ -44,6 +44,11 @@ images:
   - menu3.jpg
   - power.jpg
   - entrance.jpg
----
+review:
+  en: |
+    I don't go to Neihu very often, but this is definitely a cafe worth visiting. The interior feels quiet and cozy. There's a separate room with a large work table good for groups, and there are two cushioned floor seating areas that look very cozy. The main room has tables and counter seating. Fast WiFi, friendly staff, plenty of power outlets, and cheap drinks.
+  zh-tw: |
+    我沒有經常去內湖，不過河流是一家真的非常值得繞過去看看的咖啡店。室內空間非常寧靜平和，裡面有一個獨立的空間擺著一張大工作桌，適合少人數的小團體，另外還有兩個榻榻米的座位區看起來也非常舒服。主要的空間有一般的座位和吧台桌，可以輕易找到自己喜歡的位置
 
-I don't go to Neihu very often, but this is definitely a cafe worth visiting. The interior feels quiet and cozy. There's a separate room with a large worktable, good for groups, and there are two cushioned floor seating areas that looked very cozy. The main room has tables and counter seating. Fast WiFi, friendly staff, plenty of power outlets, and cheap drinks.
+    附帶許多好條件：WiFi很快，員工很親切，插座很多，飲料價格也很實惠。
+---
