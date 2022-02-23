@@ -4,7 +4,7 @@ name: L'après Midi Cafe
 type: Cafe
 area: Zhongshan
 google_maps: https://goo.gl/maps/q6mkAi9mVwFPZASr6
-coordinates: 
+coordinates: 25.053026983962525, 121.52166263930539
 address:
   en: No. 10號, Lane 16, Section 2, Zhongshan N Rd, Zhongshan District, Taipei City, 104
   zh-tw: 104台北市中山區中山北路二段16巷10號
