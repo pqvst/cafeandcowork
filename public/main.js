@@ -74,7 +74,7 @@
     for (const place of arr) {
       if (!place.closed) {
         if (markers[place.url]) {
-          if (!filter || place.filter.toLowerCase().includes(filter)) {
+          if (checkFilter(place, filter)) {
             bounds.extend(place.coordinates);
             markers[place.url].addTo(map);
             count++;
@@ -91,9 +91,21 @@
 
   function updateRows(places, rows, filter = DEFAULT_FILTER) {
     for (const place of places) {
-      const include = !filter || place.filter.toLowerCase().includes(filter);
+      const include = checkFilter(place, filter);
       const tr = rows[place.url];
       tr.style.display = include ? '' : 'none';
+    }
+  }
+
+  function checkFilter(place, filter) {
+    if (!filter) {
+      return true;
+    } else {
+      return place.filter
+        .toLowerCase()
+        .split("'").join('')
+        .split("-").join('')
+        .includes(filter.toLowerCase());
     }
   }
 
