@@ -21,7 +21,7 @@ wifi: 5
 speed: 73
 power: 3
 vacancy: 5
-comfort: 3
+comfort: 4
 quiet: 5
 food: 4
 drinks: 4
