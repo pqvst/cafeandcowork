@@ -1,4 +1,5 @@
 ---
+updated: 2022-02-27
 added: 2021-04-21
 name: To Dear (小路上藝文空間)
 type: Cafe
@@ -16,13 +17,13 @@ hours:
   fri: 11-20
   sat: 11-20
   sun: 11-20
-wifi: 2
-speed: 5.3
+wifi: 5
+speed: 73
 power: 3
 vacancy: 5
 comfort: 3
 quiet: 5
-food: 
+food: 4
 drinks: 4
 price: 3
 view: 5
