@@ -51,6 +51,6 @@ images:
   - menu3.jpg
 ---
 
-I'm always on the look out for good workable cafes near Zhongshan station. Most cafes always seem to be very busy and have a restaurant vibe, rather than a coffee shop. While this place, L'après Midi Cafe, doesn't really look or feel very special, it was at least very quite on a weekday afternoon. There's a decent selection of drinks, fast WiFi, and power outlets (although some of the power outlets were blocked/covered).
+I'm always on the lookout for good workable cafes near Zhongshan station. Most cafes always seem to be very busy and have a restaurant vibe, rather than a coffee shop. While this place, L'après Midi Cafe, doesn't really look or feel very special, it was at least very quite on a weekday afternoon. There's a decent selection of drinks, fast WiFi, and power outlets (although some of the power outlets were blocked/covered).
 
 (There used to be a cafe with the [same name](/taipei/lapresmidi/) in Dongmen. I guess they had two branches before, although the two cafes feel very different.)

@@ -47,4 +47,4 @@ images:
   - menu5.jpg
 ---
 
-Drinks were a little underwhelming (the English Breakfast tea didn't taste fresh), but the tiramisu was very tasty.
+Simple and clean interior, very comfortable for working. There are plenty of seating options, and the chairs are comfortable. The music selection is quite special (mostly ambient music) but it wasn't distracting. (Old reviews on Google Maps say you need to pay to use the power outlets, however this is no longer the case). Drinks were a little underwhelming (the English Breakfast tea didn't taste very fresh), but the tiramisu was very tasty.

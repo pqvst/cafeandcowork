@@ -48,4 +48,6 @@ images:
   - menu7.jpg
 ---
 
-There are 3 small tables that are available without reservation (first come first serve). Usually difficult to get a seat (due to reservations.
+A very unique cafe, and if you're into Taiwanese tea then this is probably one of the better cafes in Taipei. The cafe is located on the second floor of an old building. You'll likely miss the tiny entrance if you aren't paying attention. The cafe space feels large and spacious, filled with old furniture and large wooden beams in the ceiling. It definitely has a special vibe!
+
+Just keep in mind, you'll probably want to make a reservation. There are only 3 small tables right by the entrance that are available without reservation (first come first serve), and most other tables are usually booked. 

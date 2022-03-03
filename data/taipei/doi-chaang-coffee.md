@@ -51,3 +51,7 @@ images:
   - menu3.jpg
   - menu4.jpg
 ---
+
+A hidden gem near Zhongxiao Fuxing. I visited this cafe on a Saturday and I was worried it would be very busy. However, that was not the case, there was only one other group during the whole day. I imagine weekdays are probably quiet as well. The cafe entrance is hidden on the 2nd floor of the building. If the outside door is locked, then you need to press 7202 on the buzzer.
+
+The interior feels spacious and bright, with large windows over looking the street and MRT line. Music was a little loud, but other than that it was a great work environment. The menu selection is all vegan, and all "milk" drinks use almond milk. As a non-coffee drinker the latte tasted quite good to me. Unfortunately the tea selection was quite small.
