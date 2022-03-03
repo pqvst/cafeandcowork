@@ -1,6 +1,6 @@
 ---
 added: 2020-10-19
-updated: 2020-11-17
+updated: 2022-03-03
 name: Milk Bar by BKA
 type: Cafe
 area: Songshan
@@ -16,8 +16,8 @@ hours:
   fri: 9-21
   sat: 10-18
   sun: 10-18
-wifi: 2
-speed: 4
+wifi: 3
+speed: 15
 power: 5
 vacancy: 5
 comfort: 3
@@ -33,6 +33,8 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false 
 animals: true
+time_limit: false
+lactose_free_milk: false
 facebook: https://www.facebook.com/milkbarbybka
 instagram: https://www.instagram.com/milkbarbybka/
 telephone: "+886227133118"
