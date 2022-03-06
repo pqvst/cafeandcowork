@@ -218,6 +218,12 @@ mixin submit
                 .form-field
                   textarea(name="comments" rows=3)
 
+              .row(style="display: none !important")
+                .form-label
+                  label Honeypot
+                .form-field
+                  input(type="text" name="phone" tabindex="-1" autocomplete="false")
+
             .remember-me
               label
                 input(type="checkbox" id="remember-me")

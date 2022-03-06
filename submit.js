@@ -31,6 +31,13 @@ const FORM_FIELDS = {
 };
 
 async function submit(place) {
+  
+  // Check honeypot field to detect spam submissions
+  if (place.phone) {
+    console.log('Spam submission:', place);
+    return;
+  }
+
   const form = {};
   for (const field in FORM_FIELDS) {
     const entry = FORM_FIELDS[field];
