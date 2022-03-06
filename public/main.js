@@ -101,11 +101,14 @@
     if (!filter) {
       return true;
     } else {
+      filter = filter.toLowerCase()
+        .split("'").join('')
+        .split("-").join('');
       return place.filter
         .toLowerCase()
         .split("'").join('')
         .split("-").join('')
-        .includes(filter.toLowerCase());
+        .includes(filter);
     }
   }
 
