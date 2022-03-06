@@ -49,3 +49,5 @@ images:
   - menu8.jpg
   - menu9.jpg
 ---
+
+As soon as I stepped into this cafe I knew it would become a new favorite. The interior is simple but still has a very unique vibe. It was quite busy on a weekday afternoon, but still very quiet, making it a great place to get some work done. Luckily for me there was still some tables left that I could grab. The menu is large, offering desserts and small snacks, however the main highlight is definitely the huge selection of tea. You'll definitely find something interesting to try!
