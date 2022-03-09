@@ -37,7 +37,7 @@ animals: false
 lactose_free_milk: false
 time_limit: false
 facebook: https://www.facebook.com/lapresmidicoffeeshop/
-instagram: 
+instagram: https://www.instagram.com/lapres_midi_cafe/
 telephone: "+886225310189"
 website: 
 images:
