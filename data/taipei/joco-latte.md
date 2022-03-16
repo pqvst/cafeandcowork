@@ -8,7 +8,7 @@ coordinates: 25.057494929365948, 121.54256788884314
 address:
   en: No. 4, Lane 88, Section 3, Minsheng E Rd, Zhongshan District, Taipei City, 10491
   zh-tw: 10491台北市中山區民生東路三段88巷4號
-station: Zhongshan Junior Highschool
+station: Zhongshan Junior High School
 hours:
   tue: 12-21
   wed: 12-21
@@ -39,4 +39,15 @@ facebook: https://www.facebook.com/JocoLatte
 instagram: 
 telephone: "0225018809"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - seating5.jpg
+  - seating6.jpg
+  - seating7.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - sign.jpg
 ---
