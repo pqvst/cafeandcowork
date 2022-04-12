@@ -38,3 +38,7 @@ images:
   - outside.jpg
   - tea.jpg
 ---
+
+A trendy cafe in Gastown. I arrived just before 9 on a weekday and it was already quiet busy. I've noticed that cafes open early and close early, so I guess the cafe-worker crowd follows the same schedule. The cafe actually has two entrances, one from Powell St and one from Alexander St. There's a small seating on one side, and a much larger room on the other side.
+
+The interior feels trendy, but I wouldn't say it was very comfortable. As the place was quite busy it was a little noisy as well. Good for a morning work session, but not really the type of place I'd hang out at for a longer period of time.

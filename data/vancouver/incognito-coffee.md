@@ -45,3 +45,5 @@ images:
   - interior.jpg
   - seating2.jpg
 ---
+
+Another laptop friendly cafe in downtown Vancouver. This cafe is located inside the atrium of the VSO School of Music, there are plenty of signs so it's easy to find. On a weekend morning is was fairly quiet, mostly people coming in to grab a coffee to go. I imagine it might be busier on a weekday when the school is open. Good wifi, restroom available, but few power outlets.

@@ -44,3 +44,5 @@ images:
   - menu.jpg
   - tea.jpg
 ---
+
+I found this cafe while waiting for my laundry to finish at the laundromat just next door (useful if you're visiting Vancouver and have some laundry to do!). Surprisingly the cafe turned out to be quite good for working. There's wifi (albeit a little slow), plenty of power outlets, comfortable seating, and a large menu for both food and drinks. Even though it was fairly busy, it was still quiet, with most people working on their laptops or just relaxing and watching youtube on their phones.
