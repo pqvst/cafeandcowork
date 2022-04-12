@@ -131,7 +131,10 @@ exports.isClosedNow = function(city, place) {
   }
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
-  const time = getAdjustedTime(m);
+  const time = getAdjustedTime(m);  
+  if (exports.isOpen24Hours(city, place, dow)) {
+    return false;
+  }
   if (place.hours) {
     if (place.hours[dow]) {
       return time < place.hours[dow][0] || time >= place.hours[dow][1];
