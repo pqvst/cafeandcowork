@@ -38,4 +38,4 @@ images:
   - tea.jpg
 ---
 
-Located just inside The LINC mall, this cafe is great for getting work done thanks to plenty of power outlets and very fast wifi. There's also a decent selection of drinks, and the food looks pretty good as well. Be sure to check out the 2nd floor as well, since there is more seating available there, as well an outdoor seating area on the first floor. The only downside is that the nearest restrooms our on the 2nd floor inside the mall.
+Located just inside The LINC mall, this cafe is great for getting work done thanks to plenty of power outlets and very fast wifi (the fastest I've come across in Kuala Lumpur). There's also a decent selection of drinks, and the food looks pretty good as well. Be sure to check out the 2nd floor as well, since there is more seating available there, as well an outdoor seating area on the first floor. The only downside is that the nearest restrooms our on the 2nd floor inside the mall.
