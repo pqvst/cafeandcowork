@@ -5,17 +5,16 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "node test",
-    "resize": "node scripts/resize.js",
+    "resize": "shrinkem images --size 1200",
     "links": "linkinator http://localhost:3000 --recurse --skip '^(?!http://localhost)'"
   },
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
     "ajv": "^8.6.2",
-    "glob": "^7.1.7",
     "linkinator": "^2.14.0",
     "nodemon": "^2.0.12",
-    "sharp": "^0.28.3"
+    "shrinkem": "^1.0.1"
   },
   "dependencies": {
     "express": "^4.17.1",
