@@ -37,6 +37,10 @@ facebook: https://www.facebook.com/MEOWLCAFE/
 instagram: https://www.instagram.com/meowlcafe_ss15/
 telephone: "0356111991"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - sign.jpg
 ---
 
 A pleasant cafe located on the 2nd floor of the building across the street from Starbucks. There is a large menu serving food, snacks, desserts, and drinks. The WiFi is very fast and works well, but the inside seating area lacks power outlets. There are some power outlets on the balcony though (which also has AC). THe main downside is that the nearest restrooms are public and are located on the first floor of the building.
