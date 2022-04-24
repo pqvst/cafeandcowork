@@ -7,8 +7,8 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
     - name: Installing
       run: npm install
     - name: Testing
