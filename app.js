@@ -150,7 +150,7 @@ const submissionLimiter = rateLimit({
 
 app.get('/submit', redirectWithTrailingSlash);
 app.get('/submit/', (req, res) => {
-  res.render('submit', { title: 'Submit' });
+  res.redirect('/');
 });
 
 app.post('/submit/', submissionLimiter, async (req, res) => {
