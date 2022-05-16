@@ -49,12 +49,12 @@ images:
   - sign.jpg
 ---
 
-This Cafe is really nice, and just across the street from another cafe called [PuiBui](/taipei/puibui/). There are individual tables by the front and a large worktable in the back. For working I really like the counter seats, which also have easy access to power outlets. The cafe serves tea, coffee, sandwich, dumplings, and desserts.
+This Cafe is really nice, and just across the street from another cafe called [PuiBui](/taipei/puibui/). There are individual tables by the front and a large worktable in the back. For working I really like the counter seats, which also have easy access to power outlets. The cafe serves tea, coffee, sandwiches, dumplings, and desserts.
 
 The yellow sign on the door contains some important rules:
 
 1. Minimum order: 1 drink, outside food and drink are not allowed.
-2. Our tables include many sharp edges. Children under 12 years old not allowed to come in.
+2. Our tables include many sharp edges. Children under 12 years old are not allowed to come in.
 3. We're a small shop without many seats, if you have to leave the shop for a bit, please inform us in advance.
-4. Anyone who doesn't inform us of leaving for short time, will have to spend minimum price again.
-5. It could get quite packed in the weekend. customers won't be served before everyone arrives (before 6pm).
+4. Anyone who doesn't inform us of leaving for a short time, will have to spend the minimum price again.
+5. It could get quite packed on the weekend. customers won't be served before everyone arrives (before 6pm).
