@@ -1,5 +1,6 @@
 ---
 added: 2020-09-21
+updated: 2022-05-16
 name: 巢 nido
 type: Cafe
 area: Xinyi
@@ -8,11 +9,10 @@ coordinates: 25.041229, 121.569166
 address: 110, Taiwan, Taipei City, Xinyi District, Section 5, Zhongxiao East Road, 183號2樓
 station: Taipei City Hall
 hours:
-  mon: 14:03-0
   tue: 14:03-0
+  wed: 14:03-0
   thu: 14:03-0
   fri: 14:03-0
-  sat: 14:03-0
   sun: 14:03-0
 wifi: 5
 speed: 20

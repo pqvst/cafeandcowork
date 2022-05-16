@@ -1,5 +1,5 @@
 ---
-updated: 2020-11-17
+updated: 2022-05-16
 name: Homey's Cafe
 type: Cafe
 area: Daan
@@ -8,12 +8,12 @@ coordinates: 25.040522, 121.546595
 address: 106, Taiwan, Taipei City, Da’an District, Lane 236, Section 1, Dunhua South Road, 36號騷豆花樓上2樓
 station: Zhongxiao Dunhua
 hours: 12-22
-wifi: 2
-speed: 10
+wifi: 5
+speed: 120
 power: 5
 vacancy: 3
 comfort: 4
-quiet: 4
+quiet: 3
 food: 5
 drinks: 4
 price: 3

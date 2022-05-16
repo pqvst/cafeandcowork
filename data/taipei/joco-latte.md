@@ -51,3 +51,5 @@ images:
   - menu2.jpg
   - sign.jpg
 ---
+
+An interesting cafe, which is very workable. The interior somehow reminds me of a classroom, but it was comfortable to work from. Very fast outlets and lots of power outlets. The main thing to be aware of is that the owner's attitude wasn't very welcoming or accommodating. He didn't seem to happy about people changing seats or ordering before everyone arrives. Something to keep in mind if you visit.
