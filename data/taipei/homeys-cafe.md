@@ -34,6 +34,7 @@ tips:
   - Smoking is allowed outside
 images:
   - seating.jpg
+  - seating2.jpg
   - balcony.jpg
   - door.jpg
   - food.jpg
