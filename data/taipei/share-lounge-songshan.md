@@ -64,7 +64,7 @@ A fantastic pay-to-use space with unlimited drinks and snacks. The space is oper
 
 The space itself is very elegant and well designed. The WiFi is extremely fast and there are many different seating areas available, so you can choose what you prefer. The "best" seats seem to be the counter style seats in the back of the space, facing the windows with a nice view. You'll probably want to arrive a little early to grab one of these seats.
 
-So what type of drinks and snacks are included? A lot! The coffee machine has Lousia and illy branded coffee, there is a large selection of caffeine and non-caffeine tea, juice, ice tea, coke and sprite. For snacks, there is a wide selection of nuts, chips, chocolates, and other sweets. There is also bread that you can warm up by yourself. If you want a bigger meal you can also pay for a daily boxed lunch. Packaged soup is also available. Note that the sparkling water has an extra charge, and beer on tap requires the "alcohol inclusive" payment plan (more on that below).
+So what type of drinks and snacks are included? A lot! The coffee machine has Louisa and illy branded coffee, there is a large selection of caffeine and non-caffeine tea, juice, ice tea, coke and sprite. For snacks, there is a wide selection of nuts, chips, chocolates, and other sweets. There is also bread that you can warm up by yourself. If you want a bigger meal you can also pay for a daily boxed lunch. Packaged soup is also available. Note that the sparkling water has an extra charge, and beer on tap requires the "alcohol inclusive" payment plan (more on that below).
 
 The price is also follows:
 - 180 NTD for the first hour
@@ -79,8 +79,10 @@ Also note that the rate is half price before 12:00 (noon) on weekdays (this does
 - 90 NTD for the first hour
 - 45 NTD for each additional 30 minutes
 
-Some other rules to keep in mind:
+Some other things to keep in mind:
 - You can't take out food or drinks
 - You can't bring your own food or drinks
 - Keep the noise level down
 - You can borrow books/magazines
+- Printer is available for a fee
+- Meeting room is available for a fee
