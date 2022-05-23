@@ -18,7 +18,7 @@ hours:
 wifi: 5
 speed: 170
 power: 4
-vacancy: 4
+vacancy: 3
 comfort: 4
 quiet: 4
 food: 5
