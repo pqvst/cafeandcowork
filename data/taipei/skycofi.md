@@ -40,6 +40,10 @@ telephone: "0227193720"
 website: http://www.skycofi.com/
 images:
   - seating1.jpg
+  - seating3.jpeg
+  - snacks.jpeg
+  - view.jpeg
+  - seating4.jpeg
   - seating2.jpg
   - entrance.jpg
   - food.jpg
