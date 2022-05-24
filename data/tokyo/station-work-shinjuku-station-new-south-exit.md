@@ -1,8 +1,9 @@
 ---
-name: STATION WORK Shinjuku Station New South Exit
+updated: 2022-05-24
+name: STATION BOOTH Shinjuku Station New South Exit
 type: Booth
 area: Shinjuku
-google_maps: https://goo.gl/maps/XYJFr8uPpEPDpsKL6
+google_maps: https://goo.gl/maps/zgdmvMZRp6xpGCgH7
 coordinates: 35.6887949,139.700285
 address: JR Shinjuku Station, 3 Chome-３８-1 Shinjuku, Shinjuku City, Tokyo 151-0051, Japan
 station: Shinjuku

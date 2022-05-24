@@ -1,5 +1,6 @@
 ---
-name: Niko and ... TOKYO
+updated: 2022-05-24
+name: niko and ... TOKYO
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Be6fuXtFpxQGJsW27

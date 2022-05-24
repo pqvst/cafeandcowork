@@ -1,4 +1,5 @@
 ---
+updated: 2022-05-24
 name: café 1886 at Bosch
 type: Cafe
 area: Shibuya
@@ -7,11 +8,11 @@ coordinates: 35.657922,139.703672
 address: 3 Chome-6-7 Shibuya, Shibuya City, Tokyo 150-8360, Japan
 station: Shibuya
 hours:
-  mon: 8:30-20
-  tue: 8:30-20
-  wed: 8:30-20
-  thu: 8:30-20
-  fri: 8:30-20
+  mon: 8:30-19
+  tue: 8:30-19
+  wed: 8:30-19
+  thu: 8:30-19
+  fri: 8:30-19
   sat: 11-19
   sun: 11-19
 wifi: 1

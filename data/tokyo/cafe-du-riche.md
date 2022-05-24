@@ -1,19 +1,20 @@
 ---
-name: café du riche
+updated: 2022-05-24
+name: Cafe du Riche
 type: Cafe
 area: Shinjuku
-google_maps: https://goo.gl/maps/F8gJupUBkUcw4GSD9
-coordinates: 35.6894898,139.6958184
+google_maps: https://goo.gl/maps/ojDyEApo3YWBGkTK9
+coordinates: 35.69843171970283, 139.7021231864277
 address: 1 Chome-17-10 Okubo, Shinjuku City, Tokyo 169-0072, Japan
 station: Shin-Okubo, Seibu-Shinjuku, Higashi-Shinjuku
 hours:
-  mon: 11-21:30
-  tue: 11-21:30
-  wed: 11-21:30
-  thu: 11-21:30
-  fri: 11-21:30
-  sat: 11-22:30
-  sun: 11-22:30
+  mon: 11-21
+  tue: 11-21
+  wed: 11-21
+  thu: 11-21
+  fri: 11-21
+  sat: 11-20
+  sun: 11-20
 wifi: 5
 speed: 
 power: 4

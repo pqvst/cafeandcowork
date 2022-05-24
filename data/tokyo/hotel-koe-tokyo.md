@@ -1,4 +1,6 @@
 ---
+updated: 2022-05-24
+closed: true
 name: koe lobby
 type: Cafe
 area: Shibuya

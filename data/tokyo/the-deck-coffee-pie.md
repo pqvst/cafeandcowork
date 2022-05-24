@@ -1,4 +1,5 @@
 ---
+updated: 2022-05-24
 name: The Deck Coffee & Pie
 type: Cafe
 area: Shibuya
@@ -6,14 +7,7 @@ google_maps: https://goo.gl/maps/23Kcq7x5bp1yYrN77
 coordinates: 35.6701253,139.7050667
 address: Japan, 〒151-0051 Tokyo, Shibuya City, Sendagaya, 3 Chome−53−17 原宿グリーンハイツ 1F
 station: Harajuku
-hours:
-  mon: 10-20
-  tue: 10-20
-  wed: 10-20
-  thu: 10-20
-  fri: 10-20
-  sat: 10-19
-  sun: 10-19
+hours: 9-20
 wifi: 3
 speed: 
 power: 1

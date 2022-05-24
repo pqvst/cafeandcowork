@@ -1,4 +1,6 @@
 ---
+updated: 2022-05-24
+closed: true
 name: Marunouchi Reading Style
 type: Cafe
 area: Chiyoda

@@ -1,4 +1,5 @@
 ---
+updated: 2022-05-24
 name: Fuglen Tokyo
 type: Cafe
 area: Shibuya
@@ -7,13 +8,13 @@ coordinates: 35.6666375,139.6902517
 address: 1 Chome-16-11 Tomigaya, Shibuya City, Tokyo 151-0063, Japan
 station: Yoyogi-koen
 hours:
-  mon: 8-22
-  tue: 8-22
-  wed: 8-1
-  thu: 8-1
-  fri: 8-2
-  sat: 9-2
-  sun: 9-0
+  mon: 7-22
+  tue: 7-22
+  wed: 7-22
+  thu: 7-22
+  fri: 7-0
+  sat: 7-0
+  sun: 7-0
 wifi: 4
 speed: 
 power: 3

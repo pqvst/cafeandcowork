@@ -1,12 +1,13 @@
 ---
-name: Living Room Cafe by eplus
+updated: 2022-05-24
+name: LIVING ROOM CAFE＆DINING
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Dz26hDdBFRQDvWGBA
 coordinates: 35.659527,139.696124
 address: Japan, 〒150-0043 Tokyo, Shibuya City, Dogenzaka, 2 Chome−29−5 渋谷プライム 5階
 station: Shibuya
-hours: 11:30-22
+hours: 11-17
 wifi: 4
 speed: 
 power: 3

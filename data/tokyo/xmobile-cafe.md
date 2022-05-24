@@ -1,4 +1,6 @@
 ---
+updated: 2022-05-24
+temporarily_closed: true
 name: X-mobile Cafe
 type: Cafe
 area: Shibuya

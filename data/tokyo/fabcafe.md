@@ -1,4 +1,5 @@
 ---
+updated: 2022-05-24
 name: FabCafe
 type: Cafe
 area: Shibuya
@@ -7,10 +8,10 @@ coordinates: 35.656063,139.6933023
 address: Japan, 〒150-0043 Tokyo, Shibuya City, Dogenzaka, 1 Chome−22−7 道玄坂ピア 1F
 station: Shibuya
 hours:
-  mon: 8:30-20
-  tue: 8:30-20
-  wed: 8:30-14
-  thu: 8:30-20
+  mon: 9-20
+  tue: 9-20
+  wed: 9-20
+  thu: 9-20
   sat: 10-20
   sun: 10-20
 wifi: 5

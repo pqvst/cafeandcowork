@@ -1,5 +1,6 @@
 ---
-name: Tully's Coffee
+updated: 2022-05-24
+name: Tully's Coffee Meguro Station
 type: Cafe
 area: Shinagawa
 google_maps: https://goo.gl/maps/LPnQheavgQCVHi7S6

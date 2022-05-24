@@ -1,4 +1,5 @@
 ---
+temporarily_closed: true
 name: AWS Loft Tokyo
 type: Coworking Space
 area: Shinagawa
