@@ -59,36 +59,36 @@ images:
   - menu.jpg
   - print.jpg
   - rules.jpg
----
+review:
+  en: |
+    A fantastic pay-to-use space with unlimited drinks and snacks. The space is operated by Tsutaya Bookstore, located on the 3rd floor of CITYLINK at Songshan station. You can either pay by the hour or buy a day pass. Prices are definitely higher than a typical coworking space, but considering the quality and selection of snacks and drinks I would still say the price is quite reasonable.
 
-A fantastic pay-to-use space with unlimited drinks and snacks. The space is operated by Tsutaya Bookstore, located on the 3rd floor of CITYLINK at Songshan station. You can either pay by the hour or buy a day pass. Prices are definitely higher than a typical coworking space, but considering the quality and selection of snacks and drinks I would still say the price is quite reasonable.
+    The space itself is very elegant and well designed. The WiFi is extremely fast and there are many different seating areas available, so you can choose what you prefer. The "best" seats seem to be the counter style seats in the back of the space, facing the windows with a nice view. You'll probably want to arrive a little early to grab one of these seats.
 
-The space itself is very elegant and well designed. The WiFi is extremely fast and there are many different seating areas available, so you can choose what you prefer. The "best" seats seem to be the counter style seats in the back of the space, facing the windows with a nice view. You'll probably want to arrive a little early to grab one of these seats.
+    So what type of drinks and snacks are included? A lot! The coffee machine has Louisa and illy branded coffee, there is a large selection of caffeine and non-caffeine tea, juice, ice tea, coke and sprite. For snacks, there is a wide selection of nuts, chips, chocolates, and other sweets. There is also bread that you can warm up by yourself and packaged soup. If you want a bigger meal you can also pay for a daily boxed lunch or order some food from the Louisa coffee shop. Note that the sparkling water has an extra charge, and beer on tap requires the "alcohol inclusive" payment plan (more on that below).
 
-So what type of drinks and snacks are included? A lot! The coffee machine has Louisa and illy branded coffee, there is a large selection of caffeine and non-caffeine tea, juice, ice tea, coke and sprite. For snacks, there is a wide selection of nuts, chips, chocolates, and other sweets. There is also bread that you can warm up by yourself and packaged soup. If you want a bigger meal you can also pay for a daily boxed lunch or order some food from the Louisa coffee shop. Note that the sparkling water has an extra charge, and beer on tap requires the "alcohol inclusive" payment plan (more on that below).
+    The price is also follows:
+    - 180 NTD for the first hour
+    - 90 NTD for each additional 30 minutes
+    - 640 NTD for a day pass (8:30-21:30 = 13 hours = 49 NTD/hour)
 
-The price is also follows:
-- 180 NTD for the first hour
-- 90 NTD for each additional 30 minutes
-- 640 NTD for a day pass (8:30-21:30 = 13 hours = 49 NTD/hour)
+    For the alcohol inclusive plan:
+    - 260 NTD for the first hour
+    - 130 NTD for each additional 30 minutes
 
-For the alcohol inclusive plan:
-- 260 NTD for the first hour
-- 130 NTD for each additional 30 minutes
+    Also note that the rate is half price before 12:00 (noon) on weekdays (this does not apply to the day pass):
+    - 90 NTD for the first hour
+    - 45 NTD for each additional 30 minutes
 
-Also note that the rate is half price before 12:00 (noon) on weekdays (this does not apply to the day pass):
-- 90 NTD for the first hour
-- 45 NTD for each additional 30 minutes
-
-Some other things to keep in mind:
-- You can't take out food or drinks
-- You can't bring your own food or drinks
-- Keep the noise level down
-- You can borrow books/magazines
-- Printer is available for a fee
-- Meeting room is available for a fee
-
-「蔦屋書店共享辦公室」——或說「蔦屋書店共享空間」是一個超優秀的付費使用空間，在2021年啟用。使用者在付費使用的期間中可以自由取用點心吧免費且無限供應的零食和飲料。蔦屋書店共享空間在松山車站的三樓，就在書店內的右側，你可以選擇以小時計費或是選擇全天的方案。如果用計時的方式來計算，這裡的費用平均比一般共享辦公室來得高，但如果從整體空間的氣氛、座位舒適度、服務多樣性、以及免費的點心吧內容來看，我們一致認為蔦屋書店的共享空間是相當物超所值的。
+    Some other things to keep in mind:
+    - You can't take out food or drinks
+    - You can't bring your own food or drinks
+    - Keep the noise level down
+    - You can borrow books/magazines
+    - Printer is available for a fee
+    - Meeting room is available for a fee
+  zh-tw: |
+    「蔦屋書店共享辦公室」——或說「蔦屋書店共享空間」是一個超優秀的付費使用空間，在2021年啟用。使用者在付費使用的期間中可以自由取用點心吧免費且無限供應的零食和飲料。蔦屋書店共享空間在松山車站的三樓，就在書店內的右側，你可以選擇以小時計費或是選擇全天的方案。如果用計時的方式來計算，這裡的費用平均比一般共享辦公室來得高，但如果從整體空間的氣氛、座位舒適度、服務多樣性、以及免費的點心吧內容來看，我們一致認為蔦屋書店的共享空間是相當物超所值的。
 
     這裡的空間設計非常優雅漂亮，是書店的延伸，挑高的空間讓視野非常開闊，不同區域以書架相隔，在這裡工作就像在書店裡一樣，如果剛好架上有書適合在工作時參考，或只是想稍微偷閒閱讀，也都可以把未拆封的書帶入這個空間借閱，這真是非常有趣也合乎空間原始用途的做法。除了這些之外，我還很喜歡這裡的座位間距，因為座位篇排不太擁擠，可以多少稍微降低周圍座位帶來的壓力和干擾。
     
@@ -123,3 +123,4 @@ Some other things to keep in mind:
     - 可以借閱蔦屋書店中未拆封的雜誌和書籍 (大利多！)
     - 事務機可付費使用
     - 會議室可付費使用
+---
