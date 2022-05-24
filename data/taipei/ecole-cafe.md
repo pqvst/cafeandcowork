@@ -1,5 +1,6 @@
 ---
 added: 2020-12-19
+updated: 2022-05-23
 name: Ecole Cafe
 type: Cafe
 area: Daan
@@ -30,13 +31,13 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
 lactose_free_milk: true
 facebook: https://www.facebook.com/ecolecafe.cafetrouve/
 instagram: https://www.instagram.com/ecole_cafe/
 telephone: "+886223222725"
-website: 
+website: https://ecole-cafe.blogspot.com/
 images:
   - outside.jpg
   - seating1.jpg
@@ -45,11 +46,7 @@ images:
   - seating4.jpg
   - seating5.jpg
   - interior.jpg
-  - menu1.jpg
-  - menu2.jpg
-  - menu3.jpg
-  - menu4.jpg
-  - menu5.jpg
+  - menu-new.jpg
   - tea.jpg
   - food.jpg
 review:

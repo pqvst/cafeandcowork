@@ -43,8 +43,9 @@ website: http://tsutaya.com.tw/ShareLounge/
 images:
   - seating1.jpg
   - seating3.jpg
-  - view.jpg
+  - seating4.jpg
   - seating2.jpg
+  - seating5.jpg
   - entrance.jpg
   - sign1.jpg
   - sign2.jpg
