@@ -75,9 +75,9 @@ review:
     - The more you spend, the longer you can stay
     - 2 hours: spend 100 NTD
     - Unlimited time: spend 250 NTD
-  zh-tw: |
-    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich) then the "Minimum Order Plan" is probably best since you will likely spend at least 250 NTD, which lets you stay the whole day. However, if you only want drinks (or plan to bring your own food), then the worker plan is probably best. I would say the conceptive is quite creative and great for catering to different peoples' needs. However, it does feel a little complicated at first. 
 
+    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich) then the "Minimum Order Plan" is probably best since you will likely spend at least 250 NTD, which lets you stay the whole day. However, if you only want drinks (or plan to bring your own food), then the worker plan is probably best. I would say the conceptive is quite creative and great for catering to different peoples' needs. However, it does feel a little complicated at first. 
+  zh-tw: |
     Sky Cofi是一個複合式的共享空間，概念非常新奇，走進這裡你會明顯感受到這是專為遠端和游牧工作者打造的空間，充滿著巧思，不過實際上這裡也提供了咖啡店的功能，根據不同的工作需求可以選擇不同方案 (下面會再說明)，這裡真的名副其實的準備了「everything you need」。因為屬性也包含咖啡店，Sky Cofi提供了非常完整的餐點和咖啡菜單(意味著來這裡不用擔心要去哪裡覓食)，而工作者需要的高速Wifi、好用的插座、不同的座位類型也都在清單上了，就算是已經走遍各種共享空間的我們，也很難再挑剔些什麼，尤其是當Sky Cofi居然還大方讓你帶外食進來吃的時候，真的，已經好到無話可說了。
 
     Sky Cofi的地點也很方便，在南京復興七號出口附近的商業大樓16樓，同個大樓內還包含幾層的 SkyCo 共享辦公室，Sky Cofi 和 SkyCo 有合作關係，未來也可能會推出互惠計畫，讓使用Sky Cofi的人也能借用 SkyCo的部分設施(未定)，唯一美中不足的地方可能是這裡雖然很開闊，但整體空間並不算是非常大，因為在很方便的地點，平日似乎經常性六七成滿，想要坐在窗前的吧檯位需要早點到。而除了總是熱門的窗邊位置外，他們也有一些可以站著工作的高腳桌以及其他的個人坐位。最後再補充一下餐飲的部分，Sky Cofi 在這點上真的很用心，我們點了帕里尼三明治和烤土司，兩項都是真的很美味，價格也非常實惠，對於還滿在意早餐的工作者來說，來Sky Cofi還能節省早上另外覓食的時間，非常棒！
