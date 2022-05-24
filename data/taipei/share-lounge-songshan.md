@@ -1,6 +1,6 @@
 ---
 added: 2022-05-17
-name: Share Lounge
+name: SHARE LOUNGE
 type: Coworking Space
 area: Songshan
 google_maps: https://goo.gl/maps/vJKLWNjcPwCHZ5EfA
@@ -61,7 +61,7 @@ images:
   - rules.jpg
 ---
 
-A fantastic pay-to-use space with unlimited drinks and snacks. The space is operated by Tsutaya Bookstore, located on the 3rd floor of Songshan station. You can either pay by the hour or buy a day pass. Prices are definitely higher than a typical coworking space, but considering the quality and selection of snacks and drinks I would still say the price is quite reasonable.
+A fantastic pay-to-use space with unlimited drinks and snacks. The space is operated by Tsutaya Bookstore, located on the 3rd floor of CITYLINK at Songshan station. You can either pay by the hour or buy a day pass. Prices are definitely higher than a typical coworking space, but considering the quality and selection of snacks and drinks I would still say the price is quite reasonable.
 
 The space itself is very elegant and well designed. The WiFi is extremely fast and there are many different seating areas available, so you can choose what you prefer. The "best" seats seem to be the counter style seats in the back of the space, facing the windows with a nice view. You'll probably want to arrive a little early to grab one of these seats.
 
