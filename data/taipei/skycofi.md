@@ -54,9 +54,9 @@ images:
   - outside.jpg
 review:
   en: |
-    This pay-to-use space offers an interesting concept for remote workers and digital nomads. It is a combination of both a cafe and a coworking space, offering two different types of plans, depending on what you need (more on that later). With plenty of seating choices, a large menu for both food and drink, fast wifi, and power outlets, it pretty much as everything you'd need. Another bonus worth mentioning is that they allow you to bring your own food!
+    This pay-to-use space offers an interesting concept for remote workers and digital nomads. It is a combination of both a cafe and a coworking space, offering two different types of plans, depending on what you need (more on that later). With plenty of seating choices, a large menu for both food and drink, fast wifi, and power outlets, it pretty much has everything you'd need. Another bonus worth mentioning is that they allow you to bring your own food!
 
-    The space is located on the top floor of same building as the SkyCo coworking space (16F). It's quite large, but not huge, so you might want to arrive early to grab one of the popular counter seats facing the windows. There are also standing tables and plenty of small tables. The menu selection is quite impressive, with lots of drinks and food. The panini sandwich and toast were both well made, really tasty, and not too expensive either.
+    The space is located on the top floor of the same building as the SkyCo coworking space (16F). It's quite large, but not huge, so you might want to arrive early to grab one of the popular counter seats facing the windows. There are also standing tables and plenty of small tables. The menu selection is quite impressive, with lots of drinks and food. The panini sandwich and toast were both well made, really tasty, and not too expensive either.
 
     As for payment, you can choose between two different plans, depending on what you prefer:
 
@@ -76,7 +76,7 @@ review:
     - 2 hours: spend 100 NTD
     - Unlimited time: spend 250 NTD
 
-    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich) then the "Minimum Order Plan" is probably best since you will likely spend at least 250 NTD, which lets you stay the whole day. However, if you only want drinks (or plan to bring your own food), then the worker plan is probably best. I would say the conceptive is quite creative and great for catering to different peoples' needs. However, it does feel a little complicated at first. 
+    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich) then the "Minimum Order Plan" is probably best since you will likely spend at least 250 NTD, which lets you stay the whole day. However, if you only want drinks (or plan to bring your own food), then the worker plan is probably best. I would say the concept is quite creative and great for catering to different peoples' needs. However, it does feel a little complicated at first. 
   zh-tw: |
     Sky Cofi是一個複合式的共享空間，概念非常新奇，走進這裡你會明顯感受到這是專為遠端和游牧工作者打造的空間，充滿著巧思，不過實際上這裡也提供了咖啡店的功能，根據不同的工作需求可以選擇不同方案 (下面會再說明)，這裡真的名副其實的準備了「everything you need」。因為屬性也包含咖啡店，Sky Cofi提供了非常完整的餐點和咖啡菜單(意味著來這裡不用擔心要去哪裡覓食)，而工作者需要的高速Wifi、好用的插座、不同的座位類型也都在清單上了，就算是已經走遍各種共享空間的我們，也很難再挑剔些什麼，尤其是當Sky Cofi居然還大方讓你帶外食進來吃的時候，真的，已經好到無話可說了。
 
