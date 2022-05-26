@@ -1,4 +1,5 @@
 ---
+updated: 2022-05-24
 temporarily_closed: true
 name: AWS Loft Tokyo
 type: Coworking Space
