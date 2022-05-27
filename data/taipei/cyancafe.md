@@ -22,8 +22,8 @@ power: 2
 vacancy: 5
 comfort: 5
 quiet: 5
-food: 
-drinks: 3
+food: 4
+drinks: 4
 price: 4
 view: 5
 toilets: 5
@@ -39,5 +39,19 @@ facebook: https://www.facebook.com/cyancafetw/
 instagram: https://www.instagram.com/cyancafetw/
 telephone: "0227623618"
 website: 
+images:
+  - seating1.jpg
+  - seating3.jpg
+  - seating2.jpg
+  - seating4.jpg
+  - seating5.jpg
+  - seating6.jpg
+  - seating7.jpg
+  - rules.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
 ---
 
+A small and quaint cafe near Taipei City Hall. Both the interior and exterior are filled with green plants. The interior feels both modern and a little rustic, giving it quite a nice vibe. Luckily I had the entire cafe to myself on a (very) rainy weekday. Perhaps I was the only one that wanted to go out in the rain to find a cafe that day? The menu is quite large, with plenty of drink options, and although I didn't try any, the food sounded very nice (sweet and savory options available). Good WiFi, but slightly lacking power outlets (there was a power strip by the cupboards in the front seating area though).

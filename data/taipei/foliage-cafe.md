@@ -1,6 +1,7 @@
 ---
+closed: true
 added: 2021-12-27
-name: Foliage cafe
+name: Foliage cafe (Banqiao)
 type: Cafe
 area: Banqiao
 google_maps: https://g.page/foliage-cafe-662?share
