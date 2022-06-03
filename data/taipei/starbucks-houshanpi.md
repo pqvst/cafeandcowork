@@ -10,10 +10,10 @@ station: Houshanpi
 hours: 7:30-21
 wifi: 5
 speed: 85
-power: 4
-vacancy: 4
+power: 3
+vacancy: 3
 comfort: 4
-quiet: 4
+quiet: 3
 food: 3
 drinks: 4
 price: 3
