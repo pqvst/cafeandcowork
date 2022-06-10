@@ -34,7 +34,7 @@ animals:
 time_limit: false
 lactose_free_milk: true
 facebook: https://www.facebook.com/bovencafe/
-instagram: 
+instagram: https://www.instagram.com/mag.boven/
 telephone: "+886227788202"
 website: 
 images:

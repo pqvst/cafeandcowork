@@ -8,8 +8,8 @@ coordinates: 25.03986294813626, 121.57641347856739
 address: No. 73-1, Alley 27, Lane 372, Section 5, Zhongxiao East Road, Xinyi District, Taipei City, Taiwan 110
 station: Yongchun
 hours: 11-19
-wifi: 3
-speed: 30
+wifi: 5
+speed: 70
 power: 5
 vacancy: 4
 comfort: 4
