@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-01-06
 name: ELEFUN café
 type: Cafe

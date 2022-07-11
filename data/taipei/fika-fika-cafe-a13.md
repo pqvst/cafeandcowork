@@ -17,9 +17,9 @@ hours:
   fri: 11-22
   sat: 11-22
   sun: 11-21:30
-wifi: 3
+wifi: 1
 speed: 
-power: 3
+power: 2
 vacancy: 3
 comfort: 2
 quiet: 3
@@ -33,7 +33,8 @@ smoking: false
 standing_tables: true
 outdoor_seating: true
 cash_only: false
-animals: 
+animals: false
+time_limit: false
 lactose_free_milk: true
 facebook: https://www.facebook.com/FikaFikaCafe/
 instagram: https://www.instagram.com/fikafikacafe/
