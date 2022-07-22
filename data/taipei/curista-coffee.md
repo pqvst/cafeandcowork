@@ -10,17 +10,17 @@ address:
   zh-tw: 110台北市信義區忠孝東路四段563號一樓
 station: Taipei City Hall
 hours: 7-22
-wifi: 2
+wifi: 3
 speed: 7
-power: 3
+power: 4
 vacancy: 3
 comfort: 4
 quiet: 4
-food: 
+food: 4
 drinks: 4
 price: 4
 view: 5
-toilets: 3
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -43,3 +43,11 @@ images:
   - sign.jpg
   - outside.jpg
 ---
+
+A newly opened coffee shop near Taipei City Hall station. The space looks very nice, with high ceilings and lots of natural light (it almost has an Apple-store vibe to it).
+
+The bar seats are probably your best option for working and the chairs are comfortable. The back of the cafe has more traditional style seating options. No large worktables though. Plenty of power outlets, but the WiFi could definitely be better, it works but it was quite slow.
+
+The menu isn't huge but has a little bit of everything, including some different types of tea, but unfortunately only one type of Taiwanese tea (the kenyan black tea was quite plain). There are some basic food options, including bagels, croissant, and cakes.
+
+Mornings were definitely less busy, and it's nice to have a good cafe option near Taipei City Hall that opens early in the morning (most other cafes open much later during the day). It got quite busy around lunch time. The space must have very good acoustics though, because it still felt quiet.
