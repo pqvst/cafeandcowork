@@ -1,7 +1,7 @@
 ---
 added: 2021-03-09
 name: StrayBirds 漂鳥 青年旅館
-type: Lobby
+type: Hotel
 area: Taichung
 google_maps: https://goo.gl/maps/DX4gB1StJWvHE9GS8
 coordinates: 24.150728366420463, 120.66067461427126

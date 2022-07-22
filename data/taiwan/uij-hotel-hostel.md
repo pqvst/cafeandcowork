@@ -1,7 +1,7 @@
 ---
 added: 2022-03-06
 name: U.I.J. Hotel & Hostel 友愛街旅館
-type: Lobby
+type: Hotel
 area: Tainan
 google_maps: https://goo.gl/maps/QeJYN4NZgLn7hBC68
 coordinates: 22.990839583786716, 120.19983841362641
