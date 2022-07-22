@@ -46,7 +46,8 @@ const types = [
   'Event Space',
   'Lounge',
   'Booth',
-  'Bookstore'
+  'Bookstore',
+  'Hotel'
 ];
 
 const placeSchema = {
