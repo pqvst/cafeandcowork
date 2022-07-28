@@ -35,3 +35,4 @@ telephone: "0227121660"
 website: 
 ---
 
+On a nice day, if it's not too hot and not too cold, the outside courtyard is a very nice area to sit. The inside area is also nice and definitely workable, especially the larger worktables. It can be a little crowded/noisy on weekdays around lunch time. The prices are high (as would be expected at a 5 star hotel), but the food is really good, and there are plenty of food and drink options to choose from. The cafe WiFi is very fast, but I'm not sure if there are any power outlets unfortunately.

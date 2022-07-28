@@ -37,3 +37,5 @@ images:
   - seating.jpg
   - menu.jpg
 ---
+
+The Lounge at the Eslite Hotel is workable. There are two large work tables and a small cafe where you can order drinks and some small snacks. Be aware that the prices are very steep though (250 for a latte and 230 for a lemon ice tea). Good WiFi and power outlets available. I guess you could technically work here without ordering something by pretending you're staying at the hotel, but that might not be very "ethical".
