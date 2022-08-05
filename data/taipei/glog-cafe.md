@@ -5,7 +5,9 @@ type: Cafe
 area: Daan
 google_maps: https://goo.gl/maps/xjtCjMSjpmAuTH3v8
 coordinates: 25.039747665523013, 121.53475756154306
-address: No. 16, Lane 31, Section 3, Ren'ai Road, Da’an District, Taipei City, Taiwan 106
+address:
+  en: No. 16, Lane 31, Section 3, Ren'ai Road, Da’an District, Taipei City, Taiwan 106
+  zh-tw: 106台北市大安區仁愛路三段31巷16號1樓
 station: Zhongxiao Xinsheng
 hours:
   tue: 9-18
@@ -14,16 +16,16 @@ hours:
   fri: 9-18
   sat: 9-18
   sun: 9-18
-wifi: 4
-speed: 40
+wifi: 5
+speed: 60
 power: 4
 vacancy: 5
 comfort: 4
 quiet: 4
-food: 
-drinks: 3
+food: 4
+drinks: 4
 price: 3
-view: 2
+view: 3
 toilets: 3
 music: true
 smoking: false
