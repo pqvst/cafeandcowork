@@ -8,14 +8,13 @@ coordinates: 25.040958186083714, 121.53126055667195
 address: 100, Taiwan, Taipei City, Zhongzheng District, Lane 27, Linyi Street, 9號1樓
 station: Zhongxiao Xinsheng
 hours: 9-20:30
-wifi: 5
-speed: 89
+wifi: 0
 power: 3
-vacancy: 5 
+vacancy: 2
 comfort: 2
 quiet: 1
-food: 5
-drinks: 5
+food: 3
+drinks: 3
 price: 3
 view: 4
 toilets: 4
