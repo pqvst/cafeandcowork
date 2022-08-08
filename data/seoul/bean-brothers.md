@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-01-17
 name: Bean Brothers
 type: Cafe

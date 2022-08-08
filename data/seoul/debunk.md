@@ -8,13 +8,13 @@ coordinates: 37.547918,126.915080
 address: 30 Seongji 1-gil, Hapjeong-dong, Mapo-gu, Seoul, South Korea
 station: Hapjeong
 hours:
-  mon: 9-22
-  tue: 9-22
-  wed: 9-22
-  thu: 9-22
-  fri: 9-22
-  sat: 11-22
-  sun: 11-21
+  mon: 10-23
+  tue: 10-23
+  wed: 10-23
+  thu: 10-23
+  fri: 10-23
+  sat: 12-23
+  sun: 12-21
 wifi: 5
 speed: 110
 power: 3
@@ -36,4 +36,9 @@ facebook:
 instagram: https://www.instagram.com/debunk.official/
 telephone: "0269305598"
 website: http://debunk.kr/
+images:
+  - sign.jpg
+  - inside.jpg
 ---
+
+A solid place to sit and work at. Wifi is good but only some tables have power outlets. The large table is "reserved" for large groups. Good selection of tea and coffee and some snacks. Friendly staff.

@@ -35,6 +35,9 @@ facebook:
 instagram: 
 telephone: "+8225516456"
 website: http://www.coffeebeankorea.com/main/main.asp
+images:
+  - seating1.jpg
+  - seating2.jpg
 ---
 
-Located inside the Starfield COEX mall (B1) near the escalator to the City Airport Terminal (CALT).
+This cafe is located inside the Starfield COEX mall (B1) near the escalator to the City Airport Terminal (CALT). Usually quiet in the morning, but gets busy around lunch time.

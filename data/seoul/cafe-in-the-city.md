@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-01-16
 name: CAFE IN THE CITY (카페인더시티)
 type: Cafe
@@ -36,4 +37,9 @@ facebook:
 instagram: http://www.instagram.com/cafeinthecity_seoul
 telephone: "+8225556911"
 website: 
+images:
+  - interior.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
 ---

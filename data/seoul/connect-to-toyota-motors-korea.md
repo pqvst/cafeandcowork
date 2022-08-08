@@ -28,4 +28,7 @@ facebook:
 instagram: 
 telephone: 
 website: http://www.connect2.co.kr/
+images:
+  - interior1.jpg
+  - interior2.jpg
 ---

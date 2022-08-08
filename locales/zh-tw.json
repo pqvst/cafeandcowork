@@ -296,5 +296,9 @@
 	"Area: Center": "Center",
 	"Station: Duomo": "Duomo",
 	"Area: Linkou": "林口",
-	"Hotel": "住宿"
+	"Hotel": "住宿",
+	"Area: Gangnam": "Gangnam",
+	"Area: Gangnum-gu": "Gangnum-gu",
+	"Station: Seolleung": "Seolleung",
+	"Station: Myeongdong": "Myeongdong"
 }

@@ -31,8 +31,14 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
+time_limit: false
 facebook: https://www.facebook.com/SeoulStartupHub/?ref=aymt_homepage_panel
 instagram: 
 telephone: "+82221152000"
 website: http://seoulstartuphub.com/
+images:
+  - interior.jpg
+  - lunch.jpg
 ---
+
+A huge coworking space, which is completely free to use! Good opening hours, fast WiFi, and lots of power outlets. It's quiet and comfortable, with plenty of seating areas (with proper desk chairs). There's a convenience store and a cafeteria available inside the building as well, so you can easily grab lunch without having to go somewhere else. Don't forget to try the indoor slide!

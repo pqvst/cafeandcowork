@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Common Lounge
 type: Cafe
 area: Gangnam-gu
@@ -34,4 +35,9 @@ facebook:
 instagram: https://www.instagram.com/commonlounge_/
 telephone: 
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - outside.jpg
+  - coffee.jpg
 ---

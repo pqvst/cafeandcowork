@@ -1,5 +1,5 @@
 ---
-name: Starbucks
+name: Starbucks (Seolleung Exit 10)
 type: Cafe
 area: Gangnam-gu
 google_maps: https://goo.gl/maps/JXqFvxf3XqoBjvDcA

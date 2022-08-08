@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2019-11-30
 name: Tea Collective
 type: Cafe
@@ -35,4 +36,9 @@ facebook:
 instagram: https://www.instagram.com/tea_collective/
 telephone: "+82269188255"
 website: http://www.tea-collective.com/cafe
+images:
+  - food.jpg
+  - entrance.jpg
+  - view.jpg
+  - menu.jpg
 ---

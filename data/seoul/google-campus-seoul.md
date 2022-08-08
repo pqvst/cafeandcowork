@@ -30,8 +30,16 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: false
+lactose_free_milk: false
+time_limit: false
 facebook: 
 instagram: 
 telephone: 
 website: http://www.campus.co/seoul
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - membership.jpg
 ---
+
+A great workspace near Samseong station. Just register online and pickup your badge in the reception. Good hours, fast wifi, comfortable chairs, quiet environment. Popular, but you can always find a free seat. The large work table (best seats imo) usually fills up quite fast. No cafe inside but there are two coffee shops in the building and a Coffee Bean one block away.
