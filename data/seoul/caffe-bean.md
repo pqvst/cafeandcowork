@@ -27,7 +27,7 @@ food: 3
 drinks: 4
 price: 4
 view: 4
-toilets: 
+toilets: 2
 music: true
 smoking: false
 standing_tables: true
@@ -40,4 +40,10 @@ facebook:
 instagram: 
 telephone: "025526232"
 website: 
+images:
+  - seating1.jpg
+  - outside.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - cup.jpg
 ---
