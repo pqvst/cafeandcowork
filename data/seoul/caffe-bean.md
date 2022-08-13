@@ -22,11 +22,11 @@ speed: 420
 power: 4
 vacancy: 4
 comfort: 3
-quiet: 4
+quiet: 3
 food: 3
-drinks: 4
+drinks: 3
 price: 4
-view: 4
+view: 3
 toilets: 2
 music: true
 smoking: false
@@ -42,8 +42,10 @@ telephone: "025526232"
 website: 
 images:
   - seating1.jpg
-  - outside.jpg
   - seating2.jpg
   - seating3.jpg
+  - outside.jpg
   - cup.jpg
 ---
+
+A nice cafe near Seolleung station. The interior is quite spacious with plenty of natural light. Very fast WiFi and lots of power outlets. Usually not too busy, although it fills up a bit around lunch time. The only downside is that the nearest restroom is in the office building two doors down, which is a little inconvenient.

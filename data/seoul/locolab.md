@@ -1,4 +1,5 @@
 ---
+updated: 2022-08-09
 name: Locolab
 type: Cafe
 area: Jongno-gu
@@ -15,29 +16,34 @@ hours:
   sat: 11-21
   sun: 11-21
 wifi: 4
-speed: 70
+speed: 95
 power: 2
-vacancy: 3
-comfort: 3
+vacancy: 4
+comfort: 4
 quiet: 3
 food: 4
 drinks: 4
 price: 3
 view: 3
-toilets: 
+toilets: 2
 music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: false
-animals: 
+animals: false
 facebook: 
+time_limit: false
 instagram: https://www.instagram.com/locolabcoffee/
 telephone: "+82232103258"
 website: https://store.naver.com/restaurants/detail?id=1473374967
 images:
-  - sign.jpg
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - entrance.jpg
   - interior.jpg
+  - sign.jpg
 ---
 
-A really nice cafe to work from on a weekday. Lots of seating on the second floor and drink selection. Some power outlets along the windows by the long work table. Wifi was ok but a bit unstable at times.
+A really nice cafe to work from on a weekday. Lots of seating on the second floor and good drink selection. There are some power outlets, so be sure to check for that before you choose where to sit. I like the large worktable by the large windows, which has plenty of natural light. It can get a little noisy at times, but after lunch on a weekday is usually very quiet. Note that the restroom lock was broken when I visited.
