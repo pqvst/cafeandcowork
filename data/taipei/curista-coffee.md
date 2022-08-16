@@ -28,7 +28,7 @@ outdoor_seating: false
 cash_only: false
 animals: false
 lactose_free_milk: true
-time_limit: false
+time_limit: true
 facebook: https://www.facebook.com/curista.coffee/
 instagram: https://www.instagram.com/curista.coffee/
 telephone: "0227691668"
@@ -44,10 +44,10 @@ images:
   - outside.jpg
 ---
 
-A newly opened coffee shop near Taipei City Hall station. The space looks very nice, with high ceilings and lots of natural light (it almost has an Apple-store vibe to it).
+A newly opened coffee shop (July 2022) near Taipei City Hall station. The space looks very nice, with high ceilings and lots of natural light (it almost has an Apple-store vibe to it).
 
 The bar seats are probably your best option for working and the chairs are comfortable. The back of the cafe has more traditional style seating options. No large worktables though. Plenty of power outlets, but the WiFi could definitely be better, it works but it was quite slow.
 
 The menu isn't huge but has a little bit of everything, including some different types of tea, but unfortunately only one type of Taiwanese tea (the kenyan black tea was quite plain). There are some basic food options, including bagels, croissant, and cakes.
 
-Mornings were definitely less busy, and it's nice to have a good cafe option near Taipei City Hall that opens early in the morning (most other cafes open much later during the day). It got quite busy around lunch time. The space must have very good acoustics though, because it still felt quiet.
+Mornings were definitely less busy, and it's nice to have a good cafe option near Taipei City Hall that opens early in the morning (most other cafes open much later during the day). It got quite busy around lunch time. The space must have very good acoustics though, because it still felt quiet. There is a 2 hours time limit.
