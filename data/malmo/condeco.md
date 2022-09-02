@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Condeco
 type: Cafe
 area: Gustav

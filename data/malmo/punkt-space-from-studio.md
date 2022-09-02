@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Punkt Space (From Studio)
 type: Coworking Space
 area: Möllan

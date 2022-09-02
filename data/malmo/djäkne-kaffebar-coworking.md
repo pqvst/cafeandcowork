@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Djäkne Kaffebar & Coworking
 type: Cafe
 area: 

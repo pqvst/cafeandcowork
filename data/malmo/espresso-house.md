@@ -1,7 +1,7 @@
 ---
 name: Espresso House
 type: Cafe
-area: 
+area: Centralen
 google_maps: https://goo.gl/maps/83wYyae2zMB9TPZ27
 coordinates: 55.6067751,12.9976274
 address: 

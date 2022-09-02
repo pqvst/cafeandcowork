@@ -1,4 +1,5 @@
 ---
+closed: true
 name: House of Ada Coworking
 type: Coworking Space
 area: Hansa
@@ -8,7 +9,6 @@ address:
 station: 
 opens: ""
 closes: ""
-closed: true
 wifi: 5
 speed: 
 power: 5

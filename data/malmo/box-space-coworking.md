@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Box Space Co-working
 type: Coworking Space
 area: Gustav
@@ -8,7 +9,6 @@ address:
 station: 
 opens: ""
 closes: ""
-closed: true
 wifi: 5
 speed: 
 power: 5
