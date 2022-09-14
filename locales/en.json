@@ -314,5 +314,11 @@
 	"Station: Seongsu": "Seongsu",
 	"Station: Seokchon": "Seokchon",
 	"Station: Euljiro 3-ga": "Euljiro 3-ga",
-	"Area: Södertull": "Södertull"
+	"Area: Södertull": "Södertull",
+	"City: Netherlands": "Netherlands",
+	"Country: Netherlands": "Netherlands",
+	"Area: Utrecht": "Utrecht",
+	"Area: Rotterdam": "Rotterdam",
+	"Station: Utrecht": "Utrecht",
+	"Station: Rotterdam": "Rotterdam"
 }
