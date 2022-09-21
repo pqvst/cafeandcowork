@@ -16,7 +16,7 @@ hours:
   sun: 9-16
 wifi: 5
 speed: 76
-power: 
+power: 1
 vacancy: 2
 comfort: 3
 quiet: 2
