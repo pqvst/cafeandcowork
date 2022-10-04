@@ -42,3 +42,5 @@ images:
   - menu1.jpg
   - laptops.jpg
 ---
+
+A bright and spacious cafe not too far from the central station in Utrecht. It's workable, but be aware that this cafe charges €2.5 per hour if you want to use a laptop, and you have to sit in the designated "work" corner. The space is nice, and the staff was very friendly, but I'm not sure it's a good deal, especially since they don't offer any free time even if you order food and drinks. It was very quiet in the early morning, and filled up around lunch time.

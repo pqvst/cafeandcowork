@@ -320,5 +320,9 @@
 	"Area: Utrecht": "Utrecht",
 	"Area: Rotterdam": "Rotterdam",
 	"Station: Utrecht": "Utrecht",
-	"Station: Rotterdam": "Rotterdam"
+	"Station: Rotterdam": "Rotterdam",
+	"Area: The Hague": "The Hague",
+	"Area: Amsterdam": "Amsterdam",
+	"Station: Den Haag": "Den Haag",
+	"Station: Waterloopein": "Waterloopein"
 }
