@@ -17,26 +17,40 @@ hours:
   fri: 7:30-19
   sat: 9-18
   sun: 9:45-18
-wifi: 
-speed: 
-power: 
-vacancy: 
-comfort: 
-quiet: 
-food: 
-drinks: 
-price: 
-view: 
-toilets: 
-music: 
-smoking: 
-standing_tables: 
-outdoor_seating: 
+wifi: 5
+speed: 190
+power: 4
+vacancy: 5
+comfort: 2
+quiet: 3
+food: 3
+drinks: 2
+price: 3
+view: 3
+toilets: 3
+music: true
+smoking: false
+standing_tables: true
+outdoor_seating: false
 cash_only: 
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
+time_limit: false
 facebook: 
-instagram: 
-telephone: 
+instagram: https://www.instagram.com/libocafe/
+telephone: "0225671237"
 website: 
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - order.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
+  - menu5.jpg
+  - menu6.jpg
 ---
+
+A good morning cafe in the Zhongshan area. They open early and it's never crowded. They also have some good hot pressed sandwiches. The large drink selection, although the tea drinks are quite mediocre. Fast WiFi and plenty of power outlets.
