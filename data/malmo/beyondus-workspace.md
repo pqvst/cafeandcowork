@@ -17,7 +17,7 @@ hours:
   sun: 11-16
 wifi: 5
 speed: 130
-power: 3
+power: 4
 vacancy: 5
 comfort: 4
 quiet: 4
@@ -31,7 +31,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
-animals: false
+animals: true
 lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/beyondus.se/

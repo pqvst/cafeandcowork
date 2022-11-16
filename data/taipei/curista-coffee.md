@@ -17,9 +17,9 @@ vacancy: 3
 comfort: 4
 quiet: 4
 food: 4
-drinks: 4
-price: 4
-view: 5
+drinks: 3
+price: 3
+view: 4
 toilets: 4
 music: true
 smoking: false

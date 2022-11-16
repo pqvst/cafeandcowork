@@ -336,5 +336,15 @@
 	"Area: Indre By": "Indre By",
 	"City: Copenhagen": "Copenhagen",
 	"Country: Denmark": "Denmark",
-	"Station: Nørreport": "Nørreport"
+	"Station: Nørreport": "Nørreport",
+	"Area: Sentier": "Sentier",
+	"Area: Les Halles": "Les Halles",
+	"Area: Universitat": "Universitat",
+	"City: London": "London",
+	"Country: United Kingdom": "United Kingdom",
+	"Area: Strand": "Strand",
+	"Station: Temple": "Temple",
+	"Station: Universitat": "Universitat",
+	"Station: Les Halles": "Les Halles",
+	"Station: Sentier": "Sentier"
 }
