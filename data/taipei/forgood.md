@@ -16,13 +16,13 @@ hours:
   fri: 12-21
   sat: 12-21
   sun: 12-21
-wifi: 2
-speed: 5
-power: 2
+wifi: 5
+speed: 400
+power: 3
 vacancy: 3
 comfort: 4
 quiet: 3
-food: 2
+food: 3
 drinks: 5
 price: 3
 view: 4
