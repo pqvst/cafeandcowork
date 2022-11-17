@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/SuzukiRyuichiro
 added: 2022-11-11
 name: Alsur Café & Backdoor Bar
 type: Cafe
