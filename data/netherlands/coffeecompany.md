@@ -1,6 +1,6 @@
 ---
 added: 2022-11-07
-name: coffeecompany
+name: coffeecompany (Vismark, Utrecht)
 type: Cafe
 area: Utrecht
 google_maps: https://goo.gl/maps/6jP3GF2c5L56NVATA
