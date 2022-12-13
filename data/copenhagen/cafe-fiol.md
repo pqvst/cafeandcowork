@@ -49,4 +49,4 @@ images:
   - seating6.jpg
 ---
 
-Copenhagen still is a great city for cafe and coworking. There are plenty of laptop friendly cafes, good for working or studying. I recently found Cafe Fiol, a small cozy cafe just by Nørreport station. It was very quiet on a weekday, plenty of seats, power outlets, and wifi (although a little slow).
+Copenhagen is still a great city for cafe and coworking. There are plenty of laptop friendly cafes, good for working or studying. I recently found Cafe Fiol, a small cozy cafe just by Nørreport station. It was very quiet on a weekday, plenty of seats, power outlets, and wifi (although a little slow).
