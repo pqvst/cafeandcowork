@@ -25,17 +25,28 @@ food:
 drinks: 4
 price: 4
 view: 4
-toilets: 
+toilets: 3
 music: true
 smoking: false
 standing_tables: true
 outdoor_seating: false
 cash_only: false
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook:
 instagram: 
 telephone: 
 website: 
+images:
+  - seating1.jpg
+  - seating5.jpg
+  - entrance.jpg
+  - menu.jpg
+  - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - seating6.jpg
 ---
+
+Copenhagen still is a great city for cafe and coworking. There are plenty of laptop friendly cafes, good for working or studying. I recently found Cafe Fiol, a small cozy cafe just by Nørreport station. It was very quiet on a weekday, plenty of seats, power outlets, and wifi (although a little slow).
