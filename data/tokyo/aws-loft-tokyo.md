@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/benguild
 updated: 2022-05-24
 temporarily_closed: false
 name: AWS Loft Tokyo
