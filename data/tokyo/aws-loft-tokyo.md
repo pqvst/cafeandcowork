@@ -65,4 +65,4 @@ Easily one of the best places to work from in Tokyo. It's free to use, all you n
 
 **Meeting rooms**: There are several meeting rooms that (I think) can be booked for free as well. I haven't really looked into it yet, though.
 
-**Overall**: A really cool space, comfortable work area, good location right by Meguro station. The main drawback is that the space is only open from 10:00-18:00 weekdays, and is closed on weekends. Definitely a good alternative to Lodge, which has become very crowded lately.
+**Overall**: A really cool space, comfortable work area, good location right by Meguro station. The main drawback is that the space is only open from 10:00-18:00 weekdays, and is closed on weekends.
