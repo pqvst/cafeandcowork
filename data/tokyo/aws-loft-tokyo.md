@@ -48,7 +48,7 @@ images:
 Easily one of the best places to work from in Tokyo. It's free to use, all you need is an AWS account to register. Plenty of comfortable seats, fast WiFi, lots of power outlets, and amazing views. There's a small cafe selling drinks and snacks, as well as a vending machine. It can get busy so be sure to arrive early to grab a seat.
 
 **Access**: 
-1. From the street, take the escalator up to the 3rd floor (follow the signs to the office). AWS Loft guests can bypass reception, and proceed straight to the elevators by following the signs for AWS Loft.
+1. From the street, take the escalator up to the 3rd floor, following the signs to the office. AWS Loft guests can bypass reception, and proceed straight to the elevators by then following the signs for AWS Loft.
 2. Tell the guard at the elevators that you're going to AWS Loft, they will let you through the gate without a badge.
 3. In the elevator, proceed to the 17th floor where you will reach a reception area. Entering the space requires ID verfication, such as by scanning a QR code from [your registered account on the mobile website](https://aws-startup-lofts.com), and then presenting a business card or ID/passport to confirm a match.
 5. You will be given a lanyard to wear with your name, which you are expected to return upon your departure.
