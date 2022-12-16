@@ -1,6 +1,6 @@
 ---
 contributors:
-  - https://github.com/erickhun
+  - https://twitter.com/eric_khun
 added: 2022-07-21
 name: CURISTA COFFEE 奎士咖啡
 type: Cafe

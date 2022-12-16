@@ -1,17 +1,19 @@
 ---
+contributors:
+  - https://twitter.com/eric_khun
 added: 2021-11-02
 name: PuiBui Cafe & Bar (杯盃咖啡廳酒吧)
 type: Cafe
 area: Daan
-google_maps: https://g.page/PuiBui-Daan?share
+google_maps: https://g.page/PuiBui-Daan
 coordinates: 25.031829449335053, 121.5445071909741
 address:
   en: No. 48號, Lane 30, Section 4, Xinyi Rd, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區信義路四段30巷48號
 station: Daan
 hours: 11-23
-wifi: 2
-speed: 15
+wifi: 4
+speed: 120
 power: 5
 vacancy: 4
 comfort: 4
