@@ -2,7 +2,7 @@
 contributors:
   - https://github.com/SuzukiRyuichiro
 added: 2022-11-11
-name: Santander Work Cafe
+name: Santander Work Cafe - Passeig de Gràcia
 type: Cafe
 area: Eixample
 google_maps: https://goo.gl/maps/NSqZzxx2Mcv6J68S6
