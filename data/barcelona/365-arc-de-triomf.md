@@ -39,4 +39,6 @@ images:
   - counter.jpg
   - view.jpg
   - working.jpg
+review:
+  en: A cafe with delicious pastries and comfy counter seats. The WiFi was a bit slow, but still usable. I was able to take a call as well without much issues.
 ---
