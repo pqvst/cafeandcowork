@@ -37,6 +37,9 @@ facebook: https://www.facebook.com/Daggercoffee/
 instagram: https://www.instagram.com/daggercoffee/
 telephone: "0618275220"
 website: http://www.daggercoffee.nl/
+images:
+  - outside.jpg
+  - sign.jpg
 ---
 
 A tiny cafe just outside the city center of Utrecht. The cafe really is quite tiny, but has lots of natural light and a cozy feel. The downside is it can be pretty tricky to get a seat. Weekdays mornings are usually completely packed, so not really the type of place to bring your laptop. They have some nice brunch food and there's good fast WiFi.
