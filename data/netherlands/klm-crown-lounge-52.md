@@ -1,7 +1,7 @@
 ---
 added: 2022-12-17
 name: KLM Crown Lounge 52 (non-schengen)
-type: Cafe
+type: Lounge
 area: Schiphol
 google_maps: https://goo.gl/maps/tTTHSnGPRXe6Fkat9
 coordinates: 52.31096154946467, 4.762408930307858
