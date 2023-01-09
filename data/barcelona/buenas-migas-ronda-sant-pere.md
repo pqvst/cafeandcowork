@@ -10,8 +10,8 @@ coordinates: 41.3899221, 2.174751
 address: Ronda de Sant Pere, 27, 08010 Barcelona
 station: Urquinaona
 hours: 8:00-22:00
-wifi: 3
-speed: 50
+wifi: 2
+speed: 30
 power: 2
 vacancy: 4
 comfort: 3
