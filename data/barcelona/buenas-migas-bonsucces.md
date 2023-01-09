@@ -41,5 +41,5 @@ images:
   - work-station.jpg
   - table.jpg
 review:
-  en: This cafe is located in a quite area and has plenty of seats with a quite music in the background. THere are tables for multiple people, but also there are work station type of desk where there are plugs on every seats, so you can stay there for a long time. They have pizzas for really cheap price, so you can definitely spend the entire day there. WiFI was fast and stable, which was a plus.
+  en: This cafe is located in a quite area and has plenty of seats with a quite music in the background. There are tables for multiple people, but also there are work station type of desks with plugs on every seats, so you can stay there for a long time. They have focaccia for really cheap price, so you can definitely spend the entire day there. WiFi was fast and stable, which was a plus.
 ---
