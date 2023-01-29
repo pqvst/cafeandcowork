@@ -1,5 +1,6 @@
 ---
 added: 2022-10-17
+updated: 2023-01-29
 name: VALLEY PARK STAND
 type: Cafe
 area: Shibuya
@@ -33,6 +34,14 @@ facebook:
 instagram: 
 telephone: "0367125442"
 website: https://www.welcome.jp/brands/valley-park-stand
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - entrance.jpg
+  - cup.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
 ---
 
 This cafe is located on the lobby floor of the "sequence" hotel in the new MIYASHITA PARK in Shibuya. The space is large and comfortable for working, with many seats and several large work tables. It was very full in the early afternoon, but started to clear out around 6-7pm. The large worktables have easy access to power outlets, but the WiFi was quite slow.
