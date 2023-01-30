@@ -1,7 +1,7 @@
 ---
 contributors:
   - https://github.com/benguild
-updated: 2022-05-24
+updated: 2023-01-30
 temporarily_closed: false
 name: AWS Loft Tokyo
 type: Coworking Space
@@ -17,7 +17,7 @@ hours:
   thu: 10-18
   fri: 10-18
 wifi: 5
-speed: 
+speed: 110
 power: 5
 vacancy: 5
 comfort: 5
@@ -36,15 +36,18 @@ animals: false
 facebook: 
 instagram: 
 telephone: 
-website: https://awsloft.tokyo/
+website: https://aws-startup-lofts.com/apj/loft/tokyo
 images:
-  - view.jpg
   - seating1.jpg
   - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - seating5.jpg
   - menu.jpg
   - drinks.jpg
   - sign.jpg
   - elevator.jpg
+  - view.jpg
 ---
 
 Easily one of the best places to work from in Tokyo. It's free to use, all you need is an AWS account to register. Plenty of comfortable seats, fast WiFi, lots of power outlets, and amazing views. There's a small cafe selling drinks and snacks, as well as a vending machine. It can get busy so be sure to arrive early to grab a seat.
@@ -52,7 +55,7 @@ Easily one of the best places to work from in Tokyo. It's free to use, all you n
 **Access**: 
 1. From the street, take the escalator up to the 3rd floor, following the signs to the office. AWS Loft guests can bypass reception, and proceed straight to the elevators by then following the signs for AWS Loft.
 2. Tell the guard at the elevators that you're going to AWS Loft, they will let you through the gate without a badge.
-3. In the elevator, proceed to the 17th floor where you will reach a reception area. Entering the space requires ID verfication, such as by scanning a QR code from [your registered account on the mobile website](https://aws-startup-lofts.com), and then presenting a business card or ID/passport to confirm a match.
+3. In the elevator, proceed to the 17th floor where you will reach a reception area. Entering the space requires ID verification, such as by scanning a QR code from [your registered account on the mobile website](https://aws-startup-lofts.com), and then presenting a business card or ID/passport to confirm a match.
 5. You will be given a lanyard to wear with your name, which you are expected to return upon your departure.
 
 **Signup**: You'll need to [register on their website](https://aws-startup-lofts.com) before entering.
