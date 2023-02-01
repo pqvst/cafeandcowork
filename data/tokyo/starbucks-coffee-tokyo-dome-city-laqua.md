@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Tokyo Dome City LaQua
+name: Starbucks Tokyo Dome City LaQua
 type: Cafe
 area: Bunkyo
 google_maps: https://goo.gl/maps/agXBZPrqdQLaPz9W8

@@ -16,7 +16,7 @@ speed: 8
 power: 4
 vacancy: 3
 comfort: 4
-quiet: 3
+quiet: 4
 food: 4
 drinks: 4 
 price: 3
@@ -44,4 +44,8 @@ images:
   - menu3.jpg
 ---
 
-This cafe is located on the lobby floor of the "sequence" hotel in the new MIYASHITA PARK in Shibuya. The space is large and comfortable for working, with many seats and several large work tables. It was very full in the early afternoon, but started to clear out around 6-7pm. The large worktables have easy access to power outlets, but the WiFi was quite slow.
+One of my new favorite spots to work in Shibuya, offering cool vibes and good natural light. The cafe is located in the "sequence" hotel at the new MIYASHITA PARK mall. It's on the 4th floor just next to the hotel reception area.
+
+The space is large and comfortable for working, with many seats and several large work tables. It's a popular spot though, so you'll want to arrive at a good time to make sure you get a good seat. Mornings are definitely the best time. It was very full in the early afternoon, but started to clear out around 6-7pm. The large worktables have easy access to power outlets, and there's WiFi (it works, but definitely a bit slow).
+
+The cafe has a large selection of food/snacks, and a decent selection of drinks (the tea selection is quite small though).

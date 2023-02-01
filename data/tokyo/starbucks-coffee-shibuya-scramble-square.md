@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Shibuya Scramble Square
+name: Starbucks Shibuya Scramble Square
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/9XZFHTBZPEUw48ri9

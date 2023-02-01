@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Shibuya Mark City
+name: Starbucks Shibuya Mark City
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/VkpRUhmkcBCUUYG17

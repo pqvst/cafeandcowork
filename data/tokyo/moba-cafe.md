@@ -52,3 +52,9 @@ images:
   - sign.jpg
   - terrace.jpg
 ---
+
+I recently discovered this new cafe near Gotanda station. Actually, the cafe seems to be a crowdfunded effort after the cafe previously at this location closed during the COVID pandemic. Their concept caters "Remote Workers", specifically those that have trouble joining remote meetings at home.
+
+The cafe features three zones: (1) main indoor area (free) for quiet work, (2) an enclosed indoor area (paid) called the "Online Meeting Space" where you can have calls and join meetings, and (3) an outdoor seating area. I think this concept is quite interesting, although, I didn't see anyone use the meeting space, so I'm not sure how popular it is.
+
+Staff was very friendly and welcoming, there's very fast WiFi, lots of power outlets, comfortable seats, and a decent selection of drinks and some snacks. If you're looking for a quiet comfortable place to get work done, then it's definitely a place worth checking out!

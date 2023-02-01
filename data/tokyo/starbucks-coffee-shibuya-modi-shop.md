@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Shibuya Modi Shop
+name: Starbucks Shibuya Modi Shop
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/SsEnBWwRHwRzRusi7

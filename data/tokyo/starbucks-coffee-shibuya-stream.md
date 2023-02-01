@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE @Shibuya Stream
+name: Starbucks @Shibuya Stream
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/2uKpYHMWBLT5EFhp9

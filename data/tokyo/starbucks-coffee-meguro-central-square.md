@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Meguro Central Square
+name: Starbucks Meguro Central Square
 type: Cafe
 area: Shinagawa
 google_maps: https://goo.gl/maps/EPcnnm64PTSMred17

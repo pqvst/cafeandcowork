@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Shibuya cocoti store
+name: Starbucks Shibuya cocoti store
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/APuxX8sEMCjCaApn7

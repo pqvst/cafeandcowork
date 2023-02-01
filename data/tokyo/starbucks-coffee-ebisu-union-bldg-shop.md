@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Ebisu Union BLDG. Shop
+name: Starbucks Ebisu Union BLDG. Shop
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/yy5GMYCwNb5opg9E7

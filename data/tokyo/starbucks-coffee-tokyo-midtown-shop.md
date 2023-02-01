@@ -1,5 +1,5 @@
 ---
-name: STARBUCKS COFFEE Tokyo Midtown Shop
+name: Starbucks Tokyo Midtown Shop
 type: Cafe
 area: Minato
 google_maps: https://goo.gl/maps/GiVJh5Xa78eVkDEm7

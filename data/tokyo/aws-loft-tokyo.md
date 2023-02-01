@@ -2,7 +2,6 @@
 contributors:
   - https://github.com/benguild
 updated: 2023-01-30
-temporarily_closed: false
 name: AWS Loft Tokyo
 type: Coworking Space
 area: Shinagawa
@@ -66,8 +65,8 @@ Easily one of the best places to work from in Tokyo. It's free to use, all you n
 
 **Wifi**: Good. 100 Mbit down. 150 Mbit up. 6-18ms ping. We'll have to see how it holds up when the co-working space eventually gets more crowded.
 
-**Food/drinks**: There is a cafe inside where you can buy drinks, snacks, and bentos. Prices are reasonable.
+**Food/drinks**: There is a coffee/tea machine (free), soft drinks for purchase, and some snacks for purchase as well.
 
-**Meeting rooms**: There are several meeting rooms that (I think) can be booked for free as well. I haven't really looked into it yet, though.
+**Meeting rooms**: There are several meeting rooms and phone booths that (I think) can be booked for free as well. I haven't really looked into it yet, though.
 
 **Overall**: A really cool space, comfortable work area, good location right by Meguro station. The main drawback is that the space is only open from 10:00-18:00 weekdays, and is closed on weekends.
