@@ -31,7 +31,7 @@ animals: false
 lactose_free_milk: true
 time_limit: true
 facebook: 
-instagram: 
+instagram: https://www.instagram.com/valleyparkstand/
 telephone: "0367125442"
 website: https://www.welcome.jp/brands/valley-park-stand
 images:
