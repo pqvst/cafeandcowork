@@ -1,4 +1,5 @@
 ---
+added: 2023-01-31
 name: Starbucks Takanawa Gateway Station
 type: Cafe
 area: Minato
