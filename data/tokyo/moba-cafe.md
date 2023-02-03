@@ -2,13 +2,13 @@
 added: 2023-01-28
 name: MOBaCAFE モバカフェ
 type: Cafe
-area: Gotanda
+area: Shinagawa
 google_maps: https://goo.gl/maps/YbdyGTKcH1meSWaT6
 coordinates: 35.62559936764828, 139.72595603912768
 address:
   en: 〒141-0022 Tokyo, Shinagawa City, Higashigotanda, 2 Chome−3−2 タイセイビル 1F
   jp: 〒141-0022 東京都品川区東五反田２丁目３−2 タイセイビル 1F
-station: Shinagawa
+station: Gotanda
 hours:
   mon: 8-20
   tue: 8-20
