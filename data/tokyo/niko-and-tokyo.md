@@ -29,4 +29,7 @@ facebook:
 instagram: 
 telephone: "+81357783304"
 website: https://www.nikoand.jp/tokyo/
+images:
+  - seating.jpg
+  - outside.jpg
 ---
