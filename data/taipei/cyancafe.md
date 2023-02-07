@@ -8,7 +8,7 @@ coordinates: 25.042458254487524, 121.56696333865365
 address:
   en: No. 29號, Lane 147, Section 1, Keelung Rd, Xinyi District, Taipei City, 11064
   zh-tw: 11064台北市信義區基隆路一段147巷29號
-station: 
+station: Taipei City Hall
 hours:
   mon: 13-19
   tue: 13-19

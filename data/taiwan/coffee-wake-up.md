@@ -8,7 +8,7 @@ coordinates: 22.621403193633906, 120.30136238928789
 address:
   en: No. 547號, Zhongshan 2nd Rd, Qianjin District, Kaohsiung City, 801
   zh-tw: 801高雄市前金區中山二路547號
-station: Central Park Station
+station: Central Park
 hours: 7:30-0
 wifi: 5
 speed: 90

@@ -10,7 +10,7 @@ coordinates: 25.030457380748498, 121.54371623327265
 address:
   en: No. 65-1號, Section 2, Fuxing South Road, Da’an District, Taipei City, 106
   zh-tw: 106台北市大安區復興南路二段65-1號
-station: 
+station: Daan
 hours: 12:30-21:40
 wifi: 3
 speed: 

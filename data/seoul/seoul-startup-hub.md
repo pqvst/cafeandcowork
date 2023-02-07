@@ -32,7 +32,7 @@ outdoor_seating: false
 cash_only: false
 animals: false
 time_limit: false
-facebook: https://www.facebook.com/SeoulStartupHub/?ref=aymt_homepage_panel
+facebook: https://www.facebook.com/SeoulStartupHub/
 instagram: 
 telephone: "+82221152000"
 website: http://seoulstartuphub.com/
