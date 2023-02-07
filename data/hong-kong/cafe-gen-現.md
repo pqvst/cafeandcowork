@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Cafe Gen 現
 type: Cafe
 area: North Point

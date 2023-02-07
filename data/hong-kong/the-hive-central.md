@@ -1,4 +1,5 @@
 ---
+closed: true
 name: the Hive Central
 type: Coworking Space
 area: Central

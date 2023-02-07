@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Brew Bros Coffee
 type: Cafe
 area: Sheung Wan

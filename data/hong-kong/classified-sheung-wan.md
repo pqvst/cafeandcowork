@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Classified Sheung Wan
 type: Cafe
 area: Sheung Wan

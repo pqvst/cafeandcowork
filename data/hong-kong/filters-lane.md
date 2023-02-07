@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Filters Lane
 type: Cafe
 area: Sheung Wan
