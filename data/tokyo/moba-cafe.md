@@ -44,7 +44,7 @@ images:
   - outside.jpg
   - seating1.jpg
   - seating2.jpg
-  - seating3.jpg
+  - seating4.jpg
   - drink.jpg
   - meeting-space1.jpg
   - meeting-space2.jpg

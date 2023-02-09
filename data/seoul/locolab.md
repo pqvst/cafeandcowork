@@ -43,7 +43,6 @@ images:
   - seating3.jpg
   - entrance.jpg
   - interior.jpg
-  - sign.jpg
 ---
 
 A really nice cafe to work from on a weekday. Lots of seating on the second floor and good drink selection. There are some power outlets, so be sure to check for that before you choose where to sit. I like the large worktable by the large windows, which has plenty of natural light. It can get a little noisy at times, but after lunch on a weekday is usually very quiet. Note that the restroom lock was broken when I visited.

@@ -45,8 +45,6 @@ images:
   - seating2.jpg
   - seating4.jpg
   - seating5.jpg
-  - seating6.jpg
-  - seating7.jpg
   - rules.jpg
   - menu1.jpg
   - menu2.jpg

@@ -45,7 +45,6 @@ images:
   - sec.jpg
   - sec-floor.jpg
   - counter-seating.jpg
-  - standing-desk.jpg
   - small-tables.jpg
   - big-table.jpg
   - books.jpg

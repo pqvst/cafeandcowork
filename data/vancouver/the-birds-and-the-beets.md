@@ -34,9 +34,13 @@ website: http://www.birdsandbeets.ca/
 images:
   - seating1.jpg
   - seating2.jpg
-  - interior.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - order.jpg
   - outside.jpg
+  - sign.jpg
   - tea.jpg
+  - toast.jpg
 ---
 
 A trendy cafe in Gastown. I arrived just before 9 on a weekday and it was already quiet busy. I've noticed that cafes open early and close early, so I guess the cafe-worker crowd follows the same schedule. The cafe actually has two entrances, one from Powell St and one from Alexander St. There's a small seating on one side, and a much larger room on the other side.
