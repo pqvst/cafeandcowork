@@ -46,7 +46,12 @@ html
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css")
     link(rel="stylesheet" href=`/zoom.css?v=${v}`)
+
     link(rel="stylesheet" href=`/style.css?v=${v}`)
+    script(src="https://cdn.tailwindcss.com")
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script async src="https://tally.so/widgets/embed.js"></script>
 
     script(src=`/main.js?${v}`)
 
@@ -57,29 +62,28 @@ html
     block head
   body(class=locale)
     main
-
-      include submit
-      +submit
-      
       block body
 
-    footer
+    div(class="border-t text-center p-4 text-sm flex space-x-4 justify-center flex-wrap")
       a(href=site.url) Copyright &copy; #{(new Date).getFullYear()}
-      a(href=`${prefix}/about`)
+      a(href=`${prefix}/about` class="space-x-1")
         i.fa.fa-user-o
         span About
-      a(href=site.instagram target="_blank").umami--click--footer-link-instagram
+      a(href=site.instagram target="_blank" class="space-x-1").umami--click--footer-link-instagram
         i.fa.fa-instagram
         span cafeandcowork
-      a(href=site.mailto target="_blank").umami--click--footer-link-contact
+      a(href=site.mailto target="_blank" class="space-x-1").umami--click--footer-link-contact
         i.fa.fa-envelope-o
         span Contact
-      a(href="/feed.xml" target="_blank").umami--click--footer-link-feed
+      a(href="/feed.xml" target="_blank" class="space-x-1").umami--click--footer-link-feed
         i.fa.fa-feed
         span Feed
-      a(href=site.github target="_blank").umami--click--footer-link-github
+      a(href=site.github target="_blank" class="space-x-1").umami--click--footer-link-github
         i.fa.fa-github
         span pqvst/cafeandcowork
 
     script(src=`/zoom.js?v=${v}`)
     
+    include submit
+    +submit
+      

@@ -30,13 +30,6 @@ body.zh-tw h2 {
   min-height: 100%;
 }
 
-.flag {
-  margin-right: 7px;
-  height: 17px;
-  border: solid 1px #ccc;
-  box-sizing: border-box;
-}
-
 a {
   color: inherit;
 }
@@ -48,17 +41,6 @@ a:hover {
 .scroll-wrapper {
   overflow-x: auto;
   padding-bottom: 10px;
-}
-
-main {
-  padding: 30px 30px 0 30px;
-  min-height: 100%;
-}
-
-@media screen and (max-width: 500px) {
-  main {
-    padding: 20px 20px 0 20px;
-  }
 }
 
 h1 {
@@ -85,7 +67,22 @@ h1 a:hover {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 8px !important;
+}
 
+.summary > * {
+  display: none;
+}
+
+.summary > p:first-child {
+  display: -webkit-box !important;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
 
 /* ========== Header ========== */
 
@@ -94,7 +91,6 @@ header {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  margin-bottom: 25px;
 }
 
 header a {
@@ -150,6 +146,14 @@ header a.icon.instagram {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; 
+}
+
+.bg-instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 header a.icon.github {
@@ -594,52 +598,9 @@ tr span.closed {
 }
 
 
-/* ========== Place ========== */
+/* ========== Attributes ========== */
 
-.place {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.place .info {
-  font-weight: 300;
-  color: rgba(0,0,0,0.5);
-}
-
-.place .info .fa-angle-left {
-  margin-right: 5px;
-}
-
-.place .info a {
-  text-decoration: none;
-}
-
-.place .info a:hover {
-  text-decoration: underline;
-}
-
-.place .info span,
-.place .info a {
-  margin-right: 5px;
-}
-
-.place .closed {
-  margin-left: 10px;
-  color: red;
-  font-weight: 400;
-}
-
-.place .hours-warning {
-  margin-left: 10px;
-  color: #f39c12;
-  font-weight: 400;
-}
-
-.place .updated {
-  margin-left: 5px;
-}
-
-.place dl {
+.attributes dl {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid #ebebeb;
@@ -649,83 +610,65 @@ tr span.closed {
   overflow: hidden;
 }
 
-.place dt {
+.attributes dt {
   background: #fafafa;
   font-weight: 600;
   width: 40%;
   margin: 0;
   border-right: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  padding: 10px;
+  padding: 8px;
 }
 
-.place dd {
+.attributes dd {
   width: 60%;
   margin: 0;
   border-bottom: 1px solid #ebebeb;
-  padding: 10px;
+  padding: 8px;
 }
 
-.place dl a {
+.attributes dl a {
   text-decoration: none;
 }
 
-.place dl a:hover {
+.attributes dl a:hover {
   text-decoration: underline;
 }
 
-.place dl a i.fa+span {
+.attributes dl a i.fa+span {
   margin-left: 5px;
 }
 
-.place span.icon {
+.attributes span.icon {
   display: inline-block;
   width: 20px;
 }
 
-.place span.speed {
+.attributes span.speed {
   margin-left: 5px;
 }
 
-.place .content {
+
+/* ========== Content ========== */
+
+.content {
   line-height: 1.6;
 }
 
-.place .content strong {
+.content p {
+  margin-bottom: 12px !important;
+}
+
+.content strong {
   font-weight: 600;
-}
-
-.place .images {
-  margin-top: 20px;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.place .images img {
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-  display: inline-block;
-}
-
-.place .images img+img {
-  margin-left: 10px;
-}
-
-.place .author {
-  margin-top: 5px;
 }
 
 
 /* ========== Buttons ========== */
 
-.buttons {
-  margin: 20px 0 0 0;
-}
-
 button,
 a.button {
-  padding: 8px 14px;
+  padding: 6px 12px;
   display: inline-block;
   border-radius: 8px;
   text-decoration: none;
@@ -735,6 +678,13 @@ a.button {
   margin: 0 10px 10px 0;
   border: none;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+button * + *,
+a.button * + * {
+  margin-left: 4px;
 }
 
 button:hover,
@@ -745,10 +695,6 @@ a.button:hover {
 button.primary,
 a.button.primary {
   background: #FAF0DC;
-}
-
-a.button i.fa+span {
-  margin-left: 8px;
 }
 
 a.button.maps {

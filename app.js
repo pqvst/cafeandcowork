@@ -21,12 +21,19 @@ if (process.env.ROLLBAR_ACCESS_TOKEN) {
 const i18n = new I18n({
   locales: ['en', 'zh-tw'],
   directory: 'locales',
+  updateFiles: false,
   missingKeyFn: function (locale, value) {
-    if (value.startsWith('Country:') || value.startsWith('City:') || value.startsWith('Area:') || value.startsWith('Station:')) {
-      return value.split(':').slice(1).join(':').slice(1);
-    } else {
-      return value;
+    const prefixes = ['Country', 'Location', 'City', 'Area', 'Station', 'Type', 'Data', 'Button', 'Title', 'Page'];
+    for (const prefix of prefixes) {
+      if (value.startsWith(prefix + ':')) {
+        if (prefix == 'Station') {
+          return value.split(':').slice(1).join(':').slice(1).split(' / ').slice(1).join(' / ');
+        } else {
+          return value.split(':').slice(1).join(':').slice(1);
+        }
+      }
     }
+    return value;
   },
 });
 
@@ -94,9 +101,39 @@ for (const locale of i18n.getLocales()) {
   if (prefix) {
     app.get(`${prefix}`, redirectWithTrailingSlash);
   }
-  app.get(`${prefix}/`, (req, res) => {
-    res.render('index', { url: '/' });
-  });
+
+  function listHandler(prefix, list) {
+    return (req, res) => {
+      const pages = Math.ceil(list.length / PER_PAGE);
+      const page = req.params.page == null ? 1 : Number(req.params.page);
+      if (isNaN(page) || page <= 0 || page > pages) {
+        throw new Error('Invalid page');
+      }
+      const i = (page - 1) * PER_PAGE;
+      res.render('list', {
+        url: page > 1 ? `/${prefix}/${page}/` : `/${prefix}/`,
+        list: list.slice(i, i + PER_PAGE),
+        nav: { recent: true },
+        page,
+        pages,
+        prev: page > 1 ? `/${prefix}/${page - 1}/` : null,
+        next: page < pages ? `/${prefix}/${page + 1}/` : null,
+      });
+    };
+  }
+
+  const PER_PAGE = 10;
+
+  app.get(`${prefix}/`, listHandler('recent', app.locals.recent));
+  app.get(`${prefix}/recent`, redirectWithTrailingSlash);
+  app.get(`${prefix}/recent/`, listHandler('recent', app.locals.recent));
+  app.get(`${prefix}/recent/:page`, redirectWithTrailingSlash);
+  app.get(`${prefix}/recent/:page/`, listHandler('recent', app.locals.recent));
+  
+  app.get(`${prefix}/top`, redirectWithTrailingSlash);
+  app.get(`${prefix}/top/`, listHandler('top', app.locals.top));
+  app.get(`${prefix}/top/:page`, redirectWithTrailingSlash);
+  app.get(`${prefix}/top/:page/`, listHandler('top', app.locals.top));
 
   app.get(`${prefix}/about`, redirectWithTrailingSlash);
   app.get(`${prefix}/about/`, (req, res) => {

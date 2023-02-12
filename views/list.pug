@@ -1,0 +1,124 @@
+extends page
+
+block page
+
+  include mixins
+
+  mixin item(place)
+    div(class="lg:mt-12")
+      div(class="border-t-2 border-black pt-2")
+        a(href=`${prefix}${place.url}`)
+          span(class="text-xl font-semibold")= place.name
+        span(class="ml-2")
+          span.score(class=getValueColor(place.score))
+            span= formatScore(place.score)
+            span.star ★
+      div(class="mb-3")
+        div(class="flex space-x-1 text-sm text-gray-600")
+          span #{formatDate(place.updated || place.added, locale)}
+          span |
+          a(href=`${prefix}${place.cityUrl}`)= __(`Location: ${place.cityName}`)
+          if place.area
+            span ·
+            span= __(`Area: ${place.area}`)
+          span ·
+          span= __(`Type: ${place.type}`)
+      if place.images
+        div(class="mb-2")
+          div(class="rounded-lg overflow-hidden")
+            a(href=`${prefix}${place.url}`)
+              img(src=place.images[0] class="w-full max-h-80 object-cover hover:scale-105 transition ease-in-out duration-500")
+      if place.review[locale] || place.review.en
+        div.summary!= marked(place.review[locale] || place.review.en)
+
+  div(class="container mx-auto max-w-[700px]")
+
+    if page == 1
+      div(class="mb-8")
+        div(class="text-[2rem] lg:mt-12 leading-none")
+          if isRecent
+            span #{__('Title: Find Places to Work From')} / #[b(class="font-semibold")= __('Title: New')] 
+          if isTop
+            span #{__('Title: Find Places to Work From')} / #[b(class="font-semibold")= __('Title: Best')] 
+        div(class="mt-2")
+          if locale != 'zh-tw'
+            p.
+              A curated collection of cafes and coworking spaces around the world. Find the best places 
+              with power outlets and fast WiFi to work or study from.
+          else
+            p.
+              Cafe and Cowork是一個分享世界各地適合工作的咖啡店及共享辦公室的網站。身為游牧工作者，我們和大家一樣在在乎不限時、插座多、有WiFi、且WiFi夠快的工作和讀書咖啡廳。
+        
+        div(class="flex items-center space-x-2 mt-3")
+          a(href=site.instagram target="_blank" class="rounded-2xl inline-flex items-center space-x-1 h-8 py-1 px-4 hover:no-underline bg-instagram text-white hover:opacity-80")
+            i.fa.fa-instagram
+            span Instagram
+          a(href=site.github target="_blank" class="rounded-2xl inline-flex items-center space-x-1 h-8 py-1 px-4 hover:no-underline bg-black text-white hover:opacity-80")
+            i.fa.fa-github
+            span GitHub
+
+    div(class="space-y-8 sm:space-y-16")
+      each place in list
+        +item(place, {})
+
+    div(class="mt-8 text-sm flex space-x-2 justify-between")
+      div
+        if prev
+          a(href=`${prefix}${prev}` class="flex items-center hover:no-underline hover:opacity-50")
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="160 208 80 128 160 48" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+            span= __('Page: Previous')
+      div #{page}/#{pages}
+      div
+        if next
+          a(href=`${prefix}${next}` class="flex items-center hover:no-underline hover:opacity-50")
+            span= __('Page: Next')
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="96 48 176 128 96 208" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+
+  //-.intro
+    h1= __('Find Places to Work From')
+    
+    if locale == 'zh-tw'
+      p.
+        Cafe and Cowork是一個分享世界各地適合工作的咖啡店及共享辦公室的網站。身為游牧工作者，我們和大家一樣在在乎不限時、插座多、有WiFi、且WiFi夠快的工作和讀書咖啡廳。
+        另外，我們也在乎在咖啡廳工作時其他可能會需要留意的事，例如安靜度、座位舒適度、通常人多不多、營業時間……，希望快速過濾出最適合工作的台北咖啡廳，
+        或者，偶爾想要放慢步調換個環境時，城市外的咖啡廳也是我們的涉獵範圍哦! 
+        <br>
+
+        目前探索的城市包含台北、台灣各地、東京、紐約、首爾、香港、馬爾默(瑞典)。
+
+        你也可以在#[a(href=site.github) GitHub]、或IG #[a(href=site.instagram) @cafeandcowork]上找到我們，或者也歡迎
+        #[a(href=site.mailto) Email]。
+      p.
+        開始探索城市和地點吧! 希望這個網站對大家有用! 
+    else
+      p.
+        A curated collection of cafes and coworking spaces around the world. Find the best places 
+        with power outlets and fast WiFi to work or study from. You can also find us on Instagram 
+        as #[a(href=site.instagram) @cafeandcowork] and on #[a(href=site.github) GitHub], or feel free to reach out 
+        to us by #[a(href=site.mailto) email].
+      p.
+        Explore cities and places below, we hope you'll find it useful!
+
+    p &mdash; #[a(href=`${prefix}/about/`) Philip & Chloe]
+
+  //-.columns
+    each city in cities
+      - let places = city.places.filter(e => !e.closed);
+      if places.length > 5
+        .column
+          h2
+            a(href=`${prefix}${city.url}`)
+              img.flag(src=`/flags/${city.flag}.png` height="17")
+              span= __(`City: ${city.name}`)
+              span.info
+                span= __('{{count}} places', { count: city.count })
+                i.fa.fa-angle-right
+          +list(places.slice(0, 10))
+          a.more(href=`${prefix}${city.url}`)= __('Explore more')
+    .column
+      h2= __('Recently Added')
+      +list(recent, true)
+    .column
+      h2= __('Top Rated')
+      +list(top, true)
+    

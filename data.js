@@ -23,8 +23,8 @@ function getPlaceDescription(i18n, locale, place) {
   const { __ } = i18n;
   const { power, wifi, speed } = place;
   
-  const type = __({ locale, phrase: place.type });
-  const city = __({ locale, phrase: `City: ${place.cityName}` });
+  const type = __({ locale, phrase: `Type: ${place.type}` });
+  const city = __({ locale, phrase: `Location: ${place.cityName}` });
   const area = place.area ? __({ locale, phrase: `Area: ${place.area }` }) : null;
 
   let text;
@@ -221,14 +221,13 @@ function load() {
   const stations = []; //getStations(places);
 
   const recent = _(places)
-    .filter(e => !!e.added)
-    .orderBy('added', 'desc')
-    .take(10)
+    .filter(e => e.added && e.images?.length > 0)
+    .orderBy(e => e.added, 'desc')
     .value();
 
   const top = _(places)
+    .filter(e => !e.closed && e.images?.length > 0)
     .orderBy('score', 'desc')
-    .take(10)
     .value();
 
   const t2 = Date.now();

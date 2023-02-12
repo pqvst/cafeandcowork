@@ -1,158 +1,172 @@
-extends layout
+extends page
 
-block body
+block page
   include mixins
 
-  .place
-    include header
+  div(class="container mx-auto max-w-[700px]")
 
-    h1
-      a(href=`${prefix}${place.url}`)= place.name
+    //- Title
+    div(class="border-b-2 border-black pb-1 mb-1 lg:mt-12")
+      a(href=`${prefix}${place.url}` class="hover:no-underline")
+        span(class="text-2xl font-medium")= place.name
+      span(class="ml-2")
+        span.score(class=getValueColor(place.score))
+          span= formatScore(place.score)
+          span.star ★
+    
+    div(class="text-xl")
       if place.closed
-        span.closed= __('Permanently Closed')
+        span(class="font-medium text-red-500")= __('Data: Permanently Closed')
       else if place.temporarily_closed
-        span.closed= __('Temporarily Closed')
+        span(class="font-medium text-red-500")= __('Data: Temporarily Closed')
       else if !isOpen24Hours(city, place)
         if isClosedToday(city, place)
-          span.closed(data-nosnippet)= __('Closed Today')
+          span(class="font-medium text-red-500" data-nosnippet)= __('Data: Closed Today')
         else if isOpeningSoon(city, place)
-          span.hours-warning(data-nosnippet)= __('Opens at {{time}}', { time: getOpeningTime(city, place) })
+          span(class="font-medium text-orange-500" data-nosnippet)= __('Data: Opens at {{time}}', { time: getOpeningTime(city, place) })
         else if isClosingSoon(city, place)
-          span.hours-warning(data-nosnippet)= __('Closing soon ({{time}})', { time: getClosingTime(city, place) })
+          span(class="font-medium text-orange-500" data-nosnippet)= __('Data: Closing soon ({{time}})', { time: getClosingTime(city, place) })
         else if isClosedNow(city, place)
-          span.closed(data-nosnippet)= __('Closed Now')
+          span(class="font-medium text-red-500" data-nosnippet)= __('Data: Closed Now')
 
-    .info
-      if place.area
-        a(href=`${prefix}${city.url}`)
-          i.fa.fa-angle-left
-          span= __('{{type}} in {{area}}, {{city}}', { type: __(place.type), area: __(`Area: ${place.area}`), city: __(`City: ${city.name}`) })
-      else
-        a(href=`${prefix}${city.url}`)
-          i.fa.fa-angle-left
-          span= __('{{type}} in {{area}}', { type: __(place.type), area: __(`City: ${city.name}`) })
+    //- Details
+    div(class="mb-3")
+      div(class="flex space-x-1 text-sm text-gray-600")
+        span #{formatDate(place.updated || place.added, locale)}
+        span |
+        a(href=`${prefix}${place.cityUrl}`)= __(`Location: ${place.cityName}`)
+        if place.area
+          span ·
+          span= __(`Area: ${place.area}`)
+        span ·
+        span= __(`Type: ${place.type}`)
 
+    //- Images
     if place.images
-      .images
+      div(class="overflow-auto whitespace-nowrap space-x-2 pb-1")
         each image of place.images
-          img(src=image data-action="zoom")
+          img(src=image data-action="zoom" class="inline-block h-[300px] object-cover rounded-lg")
+      
+    if place.review[locale] || place.review.en
+      .content!= marked(place.review[locale] || place.review.en)
 
-    if place.review[locale]
-      .content!= marked(place.review[locale])
-
-    .buttons
+    div(class="my-4")
       if place.google_maps
         a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
-          i.fa.fa-map
-          span= __('Google Maps')
+          i.ph-map-trifold
+          span= __('Data: Google Maps')
       if place.facebook
         a.button.facebook(href=place.facebook target="_blank").umami--click--place-button-facebook
-          i.fa.fa-facebook
-          span= __('Facebook')
+          i.ph-facebook-logo
+          span= __('Data: Facebook')
       if place.instagram
         a.button.instagram(href=place.instagram target="_blank").umami--click--place-button-instagram
-          i.fa.fa-instagram
-          span= __('Instagram')
+          i.ph-instagram-logo
+          span= __('Data: Instagram')
       if place.website
         a.button.website(href=place.website target="_blank").umami--click--place-button-website
-          i.fa.fa-external-link
-          span= __('Website')
+          i.ph-globe-simple
+          span= __('Data: Website')
       if place.telephone
         a.button.telephone(href=`tel:${place.telephone}`).umami--click--place-button-telephone
-          i.fa.fa-phone
-          span= __('Call')
+          i.ph-phone
+          span= __('Button: Call')
       a.button(href="#" onclick="showSubmit()").umami--click--place-button-edit
-        i.fa.fa-pencil
-        span Edit
+        i.ph-pencil
+        span= __('Button: Edit')
 
     .attributes
-      dl
-        dt #[span.icon ⭐️] #{__('Overall')}
+      dl(class="mb-4")
+        dt #[span.icon ⭐️] #{__('Data: Overall')}
         dd: +score(place)
-        dt #[span.icon 💻] #{__('WiFi')}
+        dt #[span.icon 💻] #{__('Data: WiFi')}
         dd
           +attribute(place.wifi, true)
           if place.speed
             span.speed (#{place.speed} Mb/s)
-        dt #[span.icon 🔌] #{__('Power')}
+        dt #[span.icon 🔌] #{__('Data: Power')}
         dd: +attribute(place.power, true)
-        dt #[span.icon 🪑] #{__('Vacancy')}
+        dt #[span.icon 🪑] #{__('Data: Vacancy')}
         dd: +attribute(place.vacancy, true)
-        dt #[span.icon 🛋] #{__('Comfort')}
+        dt #[span.icon 🛋] #{__('Data: Comfort')}
         dd: +attribute(place.comfort, true)
-        dt #[span.icon 🗣] #{__('Quiet')}
+        dt #[span.icon 🗣] #{__('Data: Quiet')}
         dd: +attribute(place.quiet, true)
-        dt #[span.icon ☕️] #{__('Drinks')}
+        dt #[span.icon ☕️] #{__('Data: Drinks')}
         dd: +attribute(place.drinks, true)
-        dt #[span.icon 🍔] #{__('Food')}
+        dt #[span.icon 🍔] #{__('Data: Food')}
         dd: +attribute(place.food, true)
-        dt #[span.icon 💰] #{__('Price')}
+        dt #[span.icon 💰] #{__('Data: Price')}
         dd: +attribute(place.price, true)
-        dt #[span.icon 🌄] #{__('View')}
+        dt #[span.icon 🌄] #{__('Data: View')}
         dd: +attribute(place.view, true)
-        dt #[span.icon 🚽] #{__('Toilets')}
+        dt #[span.icon 🚽] #{__('Data: Toilets')}
         dd: +attribute(place.toilets, true)
-        dt #[span.icon 🔊] #{__('Music')}
+        dt #[span.icon 🔊] #{__('Data: Music')}
         dd: +attribute(place.music, true)
-        dt #[span.icon 🚬] #{__('Smoking')}
+        dt #[span.icon 🚬] #{__('Data: Smoking')}
         dd: +attribute(place.smoking, true)
-        dt #[span.icon 🧍‍♂️] #{__('Standing Tables')}
+        dt #[span.icon 🧍‍♂️] #{__('Data: Standing Tables')}
         dd: +attribute(place.standing_tables, true)
-        dt #[span.icon 🌳] #{__('Outdoor Seating')}
+        dt #[span.icon 🌳] #{__('Data: Outdoor Seating')}
         dd: +attribute(place.outdoor_seating, true)
-        dt #[span.icon 💵] #{__('Cash Only')}
+        dt #[span.icon 💵] #{__('Data: Cash Only')}
         dd: +attribute(place.cash_only, true)
-        dt #[span.icon 🐶] #{__('Animals')}
+        dt #[span.icon 🐶] #{__('Data: Animals')}
         dd: +attribute(place.animals, true)
-        dt #[span.icon 🥛] #{__('Lactose-Free Milk')}
+        dt #[span.icon 🥛] #{__('Data: Lactose-Free Milk')}
         dd: +attribute(place.lactose_free_milk, true)
-        dt #[span.icon 🚦] #{__('Time Limit')}
+        dt #[span.icon 🚦] #{__('Data: Time Limit')}
         dd: +attribute(place.time_limit, true)
         if place.station
-          dt #[span.icon 🚇] #{__('Station')}
+          dt #[span.icon 🚇] #{__('Data: Station')}
           if place.stationUrl
-            dd: a(href=place.stationUrl)= __(`Station: ${place.station}`)
+            dd: a(href=place.stationUrl)= __(`Station: ${place.cityName} / ${place.station}`)
           else
-            dd= __(`Station: ${place.station}`)
+            dd= __(`Station: ${place.cityName} / ${place.station}`)
         if place.opens && place.closes
-          dt #[span.icon ⏰] #{__('Hours')}
+          dt #[span.icon ⏰] #{__('Data: Hours')}
           dd #{place.opens} to #{place.closes}
         if place.hours
-          dt #[span.icon ⏰] #{__('Hours')}
+          dt #[span.icon ⏰] #{__('Data: Hours')}
           dd: +hours(city, place)
-      dl
-        dt= __('Type')
-        dd= __(place.type)
+      
+      dl(class="mb-4")
+        dt= __('Data: Type')
+        dd= __(`Type: ${place.type}`)
         if place.area
-          dt= __('Area')
+          dt= __('Data: Area')
           if place.areaUrl
             dd: a(href=place.areaUrl)= __(`Area: ${place.area}`)
           else
             dd= __(`Area: ${place.area}`)
         if place.address
-          dt= __('Address')
+          dt= __('Data: Address')
           dd: a(href=place.google_maps target="_blank").umami--click--place-link-address= place.address[locale] || place.address
         if place.facebook
-          dt= __('Facebook')
+          dt= __('Data: Facebook')
           dd: a(href=place.facebook target="_blank").umami--click--place-link-facebook= formatUrl(place.facebook)
         if place.instagram
-          dt= __('Instagram')
+          dt= __('Data: Instagram')
           dd: a(href=place.instagram target="_blank").umami--click--place-link-instagram= formatUrl(place.instagram)
         if place.website
-          dt= __('Website')
+          dt= __('Data: Website')
           dd: a(href=place.website target="_blank").umami--click--place-link-website= formatUrl(place.website)
         if place.telephone
-          dt= __('Telephone')
+          dt= __('Data: Telephone')
           dd: a(href=`tel:${place.telephone}` target="_blank").umami--click--place-link-telephone= place.telephone
         if place.updated || place.added
-          dt= __('Updated')
-          dd #{formatDate(place.updated || place.added)}
+          dt= __('Data: Updated')
+          dd #{formatDate(place.updated || place.added, locale)}
         if place.contributors && place.contributors.length > 0
-          dt= __('Contributors')
+          dt= __('Data: Contributors')
           dd
             each contributor in place.contributors
               div
-                a(href=contributor target="_blank").umami--click--place-link-contributor= formatUrl(contributor)
+                if contributor.startsWith('http')
+                  a(href=contributor target="_blank").umami--click--place-link-contributor= formatUrl(contributor)
+                else
+                  span= contributor
 
     .map
       #map

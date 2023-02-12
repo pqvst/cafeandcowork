@@ -37,7 +37,7 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoicHF2c3QiLCJhIjoiY2ptcTBnYnBjMTQ5bzNxbXB3YXk2NTdxMCJ9.siEO29S7-nsJbBiZ_jVhrg';
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/streets-v12',
       center: center,
       zoom: zoom
     });
@@ -85,7 +85,7 @@
       }
     }
     if (count) {
-      map.fitBounds(bounds, { padding: 100, linear: true, maxZoom: 17 });
+      map.fitBounds(bounds, { padding: 50, linear: true, maxZoom: 17 });
     }
   }
 

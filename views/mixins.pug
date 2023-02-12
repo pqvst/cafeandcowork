@@ -3,16 +3,16 @@ mixin attribute(value, expanded)
   span(class=getValueColor(value))
     if value != null
       if value === true
-        span= __('Yes')
+        span= __('Data: Yes')
       else if value === false
-        span= __('No')
+        span= __('Data: No')
       else
         span= getStarRating(value)
     else
-      a(href=site.github title="Add missing data" target="_blank")
+      a(href=site.github title=__('Data: Add missing data') target="_blank")
         i.fa.fa-question-circle-o
         if expanded
-          span= __('Add missing data')
+          span= __('Data: Add missing data')
   
 mixin score(place)
   span= formatScore(place.score)
@@ -20,30 +20,30 @@ mixin score(place)
 mixin times(city, place, dow)
   if place.hours[dow]
     if isOpen24Hours(city, place, dow)
-      span= __('Open 24 Hours')
+      span= __('Data: Open 24 Hours')
     else
       span= formatHours(place.hours[dow])
   else
-    span= __('Closed')
+    span= __('Data: Closed')
 
 mixin hours(city, place)
   if isSameHoursEveryDay(place)
     +times(city, place, 1)
   else
-    div #{__('Mon:')} #[+times(city, place, 1)]
-    div #{__('Tue:')} #[+times(city, place, 2)]
-    div #{__('Wed:')} #[+times(city, place, 3)]
-    div #{__('Thu:')} #[+times(city, place, 4)]
-    div #{__('Fri:')} #[+times(city, place, 5)]
-    div #{__('Sat:')} #[+times(city, place, 6)]
-    div #{__('Sun:')} #[+times(city, place, 0)]
+    div #{__('Data: Mon:')} #[+times(city, place, 1)]
+    div #{__('Data: Tue:')} #[+times(city, place, 2)]
+    div #{__('Data: Wed:')} #[+times(city, place, 3)]
+    div #{__('Data: Thu:')} #[+times(city, place, 4)]
+    div #{__('Data: Fri:')} #[+times(city, place, 5)]
+    div #{__('Data: Sat:')} #[+times(city, place, 6)]
+    div #{__('Data: Sun:')} #[+times(city, place, 0)]
 
 -
   function getPrettyHours(city, place) {
     if (isOpen24Hours(city, place)) {
-      return __('Open 24 Hours');
+      return __('Data: Open 24 Hours');
     } else if (isClosedToday(city, place)) {
-      return __('Closed Today');
+      return __('Data: Closed Today');
     } else {
       return `${getOpeningTime(city, place) || 'N/A'} - ${getClosingTime(city, place) || 'N/A'}`;
     }

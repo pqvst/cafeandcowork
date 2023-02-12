@@ -1,0 +1,80 @@
+extends layout
+
+block body
+  - const currentCityName = city?.name
+  - const isRecent = url.includes('/recent/')
+  - const isTop = url.includes('/top/')
+
+  mixin separator
+    div(class="border-b my-2")
+
+  if DEBUG
+    div(class="fixed space-x-1 text-red-500 text-xs right-1")
+      span(class="hidden sm:inline") sm
+      span(class="hidden md:inline") md
+      span(class="hidden lg:inline") lg
+      span(class="hidden xl:inline") xl
+
+  div(class="lg:flex")
+    div(class="flex-none lg:w-[240px] lg:border-r p-4")
+
+      div(class="sm:flex sm:justify-between lg:block")
+        
+        //- Logo
+        div(class="px-2 mb-4")
+          div(class="flex items-center space-x-2")
+            a(href=`${prefix}/`)
+              img(src="/coffeecup.png" class="h-[40px]")
+            div
+              div
+                a(href=`${prefix}/` class="text-lg") Cafe and Cowork
+              div(class="text-xs space-x-1 text-gray-500")
+                a(href=`${url}` class={ 'text-black': locale == 'en' }) EN
+                a(href=`/zh-tw${url}` class={ 'text-black': locale == 'zh-tw' }) 中文
+
+        //- Mobile View
+        div(class="lg:hidden")
+          div(class="container mx-auto max-w-[700px]")
+            script.
+              function handleNavigate() {
+                const href = document.querySelector('#page option:checked').getAttribute('data-href');
+                if (href == 'suggest') {
+                  showSubmit();
+                } else {
+                  location.href = href;
+                }
+              }
+            select(id="page" class="bg-gray-100 p-2 rounded-lg w-full" onchange="handleNavigate()")
+              option(data-href=`${prefix}/` selected=isRecent)= __("Title: Recently Added")
+              option(data-href=`${prefix}/top/` selected=isTop)= __("Title: Top Rated")
+              option(disabled) ──────────
+              each city in cities
+                option(selected=currentCityName==city.name data-href=`${prefix}${city.url}`) #{__(`Location: ${city.name}`)} (#{city.count})
+
+        //- Desktop View
+        div(class="hidden lg:block")
+          a(href=`${prefix}/` class=`flex items-center rounded-lg p-2 hover:bg-gray-100 hover:no-underline space-x-1 ${isRecent ? 'text-black font-medium' : ''}`)
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="16"></circle><polyline points="128 72 128 128 184 128" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+            span= __("Title: Recently Added")
+          a(href=`${prefix}/top` class=`flex items-center rounded-lg p-2 hover:bg-gray-100 hover:no-underline space-x-1 ${isTop ? 'text-black font-medium' : ''}`)
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M132.4,190.7l50.4,32c6.5,4.1,14.5-2,12.6-9.5l-14.6-57.4a8.7,8.7,0,0,1,2.9-8.8l45.2-37.7c5.9-4.9,2.9-14.8-4.8-15.3l-59-3.8a8.3,8.3,0,0,1-7.3-5.4l-22-55.4a8.3,8.3,0,0,0-15.6,0l-22,55.4a8.3,8.3,0,0,1-7.3,5.4L31.9,94c-7.7.5-10.7,10.4-4.8,15.3L72.3,147a8.7,8.7,0,0,1,2.9,8.8L61.7,209c-2.3,9,7.3,16.3,15,11.4l46.9-29.7A8.2,8.2,0,0,1,132.4,190.7Z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+            span= __("Title: Top Rated")
+          
+          +separator
+
+          each city in cities
+            div
+              a(href=`${prefix}${city.url}` class=`flex items-center rounded-lg p-2 text-gray-600 hover:bg-gray-100 hover:no-underline space-x-2 ${city.name == currentCityName ? 'text-black font-medium' : ''}`)
+                img(src=`/flags/${city.flag}.png` class="w-[26px] h-[17px] border")
+                span= __(`Location: ${city.name}`)
+                span(class="text-gray-300") (#{city.count})
+          +separator
+          div
+            //-https://tally.so#tally-open=wLDAjz
+            a(href="javascript:showSubmit()" class="cursor-pointer flex items-center rounded-lg p-2 text-gray-600 hover:bg-gray-100 hover:no-underline space-x-1").umami--click--city-submit
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
+              span= __('Button: Suggest')
+
+    div(class="grow overflow-hidden")
+      div(class="px-4 pb-16")
+        block page

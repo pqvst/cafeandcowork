@@ -1,7 +1,11 @@
 const moment = require('moment-timezone');
 
-exports.formatDate = function (date) {
-  return moment(date).format('MMM D, YYYY');
+exports.formatDate = function (date, locale) {
+  if (locale == 'zh-tw') {
+    return moment(date).format('YYYY/M/D');
+  } else {
+    return moment(date).format('MMM D, YYYY');
+  }
 }
 
 exports.formatScore = function (n) {
@@ -32,7 +36,8 @@ exports.formatUrl = function(url) {
     .replace('https://', '')
     .replace('http://', '')
     .replace('www.', '')
-    .replace(/\/$/, '');
+    .replace(/\/$/, '')
+    .split('?')[0];
 }
 
 exports.truncate = function(s) {

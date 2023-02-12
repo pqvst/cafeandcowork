@@ -1,62 +1,51 @@
-extends layout
+extends page
 
-block body
+block page
   include mixins
 
-  .city
-    include header
+  div(class="sm:py-4 lg:p-4")
+    div(class="text-2xl mb-2")
+      div(class="flex items-center space-x-2")
+        img(src=`/flags/${city.flag}.png` class="w-[32px] h-[22px] border")
+        if locale != 'zh-tw'
+          div Find Places to Work From in #[b(class="font-semibold")= __(`Location: ${city.name}`)]
+        else
+          div #{__('Title: Find Places to Work From')} / #[b(class="font-semibold")= __(`Location: ${city.name}`)]
+    div(class="rounded-lg overflow-hidden mb-4")
+      #map(class="h-[300px] rounded-lg overflow-hidden")
 
-    input(type="checkbox" id="toggle")
-    h2
-      label(for="toggle")
-        span.bars
-          i.fa.fa-angle-down
-        span.times ✕
-    
-      - const currentCityName = city.name
-      each city in cities
-        a(class={ active: city.name == currentCityName } href=`${prefix}${city.url}`)
-          img.flag(src=`/flags/${city.flag}.png` height="17")
-          span= __(`City: ${city.name}`)  
-      a(href="#" onclick="showSubmit()").umami--click--city-submit #[i.fa.fa-plus] Submit
-    
+    div(class="mb-4")
+      input(id="filter" type="text" placeholder=__("Search by name, type, or area...") v-model="filter"
+        class="w-full py-2 px-3 bg-gray-100 rounded-lg")
 
-    script.
-      document.querySelector('h2 a.active').scrollIntoView();
-
-    .map
-      #map
-
-    .search
-      input(id="filter" type="text" placeholder=__("Search by name, type, or area...") v-model="filter" autofocus)
-
-    .scroll-wrapper
+    .scroll-wrapper(class="max-w-full")
       table
         thead
           tr
-            th= __('Score')
-            th= __('Name')
-            th= __('WiFi')
-            th= __('Power')
-            th= __('Vacancy')
-            th= __('Comfort')
-            th= __('Quiet')
-            th= __('Drinks')
-            th= __('Food')
-            th= __('Price')
-            th= __('View')
-            th= __('Toilets')
-            th= __('Music')
-            th= __('Smoking')
-            th(title=__("Standing Tables"))= __('Standing')
-            th(title=__("Outdoor Seating"))= __('Outdoor')
-            th= __('Cash Only')
-            th= __('Animals')
-            th(title=__("Lactose-Free Milk"))= __('LFM')
-            th= __('Time Limit')
-            th= __('Area')
-            th= __('Opens')
-            th= __('Closes')
+            th= __('Data: Score')
+            th= __('Data: Name')
+            th= __('Data: WiFi')
+            th= __('Data: Power')
+            th= __('Data: Vacancy')
+            th= __('Data: Comfort')
+            th= __('Data: Quiet')
+            th= __('Data: Drinks')
+            th= __('Data: Food')
+            th= __('Data: Price')
+            th= __('Data: View')
+            th= __('Data: Toilets')
+            th= __('Data: Music')
+            th= __('Data: Smoking')
+            th(title=__("Data: Standing Tables"))= __('Data: Standing')
+            th(title=__("Data: Outdoor Seating"))= __('Data: Outdoor')
+            th= __('Data: Cash Only')
+            th= __('Data: Animals')
+            th(title=__("Data: Lactose-Free Milk"))= __('LFM')
+            th= __('Data: Time Limit')
+            th= __('Data: Area')
+            th= __('Data: Opens')
+            th= __('Data: Closes')
+            th= __('Data: Station')
         tbody
           if city.places.length == 0
             tr
@@ -68,38 +57,41 @@ block body
               td.truncate
                 a(href=`${prefix}${e.url}` title=e.name)= e.name
                 if isClosed
-                  span.closed (#{__('Closed')})
-              td(data-tip=e.speed ? `${e.speed} Mb/s` : "WiFi"): +attribute(e.wifi)
-              td(data-tip=__("Power")): +attribute(e.power)
-              td(data-tip=__("Vacancy")): +attribute(e.vacancy)
-              td(data-tip=__("Comfort")): +attribute(e.comfort)
-              td(data-tip=__("Quiet")): +attribute(e.quiet)
-              td(data-tip=__("Drinks")): +attribute(e.drinks)
-              td(data-tip=__("Food")): +attribute(e.food)
-              td(data-tip=__("Price")): +attribute(e.price)
-              td(data-tip=__("View")): +attribute(e.view)
-              td(data-tip=__("Toilets")): +attribute(e.toilets)
-              td(data-tip=__("Music")): +attribute(e.music)
-              td(data-tip=__("Smoking")): +attribute(e.smoking)
-              td(data-tip=__("Standing Tables")): +attribute(e.standing_tables)
-              td(data-tip=__("Outdoor Seating")): +attribute(e.outdoor_seating)
-              td(data-tip=__("Cash Only")): +attribute(e.cash_only)
-              td(data-tip=__("Animals")): +attribute(e.animals)
-              td(data-tip=__("Lactose-Free Milk")): +attribute(e.lactose_free_milk)
-              td(data-tip=__("Time Limit")): +attribute(e.time_limit)
-              td(data-tip=__("Area"))
+                  span.closed (#{__('Data: Closed')})
+              td(data-tip=e.speed ? `${e.speed} Mb/s` : "Data: WiFi"): +attribute(e.wifi)
+              td(data-tip=__("Data: Power")): +attribute(e.power)
+              td(data-tip=__("Data: Vacancy")): +attribute(e.vacancy)
+              td(data-tip=__("Data: Comfort")): +attribute(e.comfort)
+              td(data-tip=__("Data: Quiet")): +attribute(e.quiet)
+              td(data-tip=__("Data: Drinks")): +attribute(e.drinks)
+              td(data-tip=__("Data: Food")): +attribute(e.food)
+              td(data-tip=__("Data: Price")): +attribute(e.price)
+              td(data-tip=__("Data: View")): +attribute(e.view)
+              td(data-tip=__("Data: Toilets")): +attribute(e.toilets)
+              td(data-tip=__("Data: Music")): +attribute(e.music)
+              td(data-tip=__("Data: Smoking")): +attribute(e.smoking)
+              td(data-tip=__("Data: Standing Tables")): +attribute(e.standing_tables)
+              td(data-tip=__("Data: Outdoor Seating")): +attribute(e.outdoor_seating)
+              td(data-tip=__("Data: Cash Only")): +attribute(e.cash_only)
+              td(data-tip=__("Data: Animals")): +attribute(e.animals)
+              td(data-tip=__("Data: Lactose-Free Milk")): +attribute(e.lactose_free_milk)
+              td(data-tip=__("Data: Time Limit")): +attribute(e.time_limit)
+              td(data-tip=__("Data: Area"))
                 if e.area
                   if e.areaUrl
                     a(href=e.areaUrl)= __(`Area: ${e.area}`)
                   else
                     span= __(`Area: ${e.area}`)
               if isOpen24Hours(city, e)
-                td(colspan=2)= __("Open 24 Hours")
+                td(colspan=2)= __("Data: Open 24 Hours")
               else if isClosedToday(city, e)
-                td(colspan=2)= __("Closed Today")
+                td(colspan=2)= __("Data: Closed Today")
               else
-                td(data-tip=__("Opens"))= getOpeningTime(city, e)
-                td(data-tip=__("Closes"))= getClosingTime(city, e)
+                td(data-tip=__("Data: Opens"))= getOpeningTime(city, e)
+                td(data-tip=__("Data: Closes"))= getClosingTime(city, e)
+              td(data-tip=__("Data: Station"))
+                if e.station
+                  span= __(`Station: ${city.name} / ${e.station}`)
 
   -
     const markers = city.places.map(e => {
@@ -115,7 +107,7 @@ block body
           `area: ${e.area}`,
           e.area ? __(`Area: ${e.area}`) : '',
           `station: ${e.station}`,
-          e.station ? __(`Station: ${e.station}`) : '',
+          e.station ? __(`Station: ${city.name} / ${e.station}`) : '',
           isClosedNow(city, e) ? 'closed' : 'open',
           e.score ? 'score: yes' : 'score: no',
         ].join(' '),
