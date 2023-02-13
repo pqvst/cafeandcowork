@@ -47,6 +47,55 @@ images:
   - power.jpg
   - entrance.jpg
   - menu.jpg
+features:
+  WiFi:
+  - Available
+  - Password protected
+  Power outlets:
+  - Available
+  - Most seats
+  Seating arrangement:
+  - Small tables
+  - Counter/bar seats
+  - Standing height tables
+  Seating type:
+  - Chairs
+  - Stools
+  - Cushioned seats
+  - Hard seats
+  - Good back support
+  - No back support
+  Vacancy:
+  - Good for weekends
+  Service Type:
+  - Order at the counter
+  Music:
+  - Present
+  - Noisy or loud music
+  Comfort:
+  - Drafty
+  Lighting:
+  - Good natural light
+  Payment:
+  - Pay when you order
+  Latop friendly:
+  - Laptops allowed
+  Time limit:
+  - No time limit
+  Restrooms:
+  - Single restroom
+  - Mixed gender restroom
+  - Accessible restroom
+  Drinks:
+  - Available
+  - Coffee
+  - Tea (caffeine)
+  - Tea (non-caffeine)
+  Food:
+  - Available
+  - Snacks, pastries, cakes, sweets
+  Indoor smoking:
+  - Not allowed
 ---
 
 During a Saturday morning this cafe was a great place to sit and work for a bit. There are two seating areas, one with tables, and one with counter seats by windows. Plenty of power outlets and very fast WiFi. Tip: be sure to use the *Plaza_GUEST* WiFi network.

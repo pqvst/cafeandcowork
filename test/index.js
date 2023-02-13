@@ -112,6 +112,8 @@ const placeSchema = {
     file: { type: 'string' },
     score: { type: 'number' },
     review: { type: ['object', 'string'] },
+
+    features: { type: ['object', 'string'] },
   }
 }
 
