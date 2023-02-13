@@ -39,10 +39,10 @@ instagram: https://www.instagram.com/bunkhotels/
 telephone: "088 696 9869"
 website: https://www.bunkrestaurants.com/utrecht/
 images:
+- seating4.jpg
 - seating1.jpg
 - seating2.jpg
 - seating3.jpg
-- seating4.jpg
 - entrance.jpg
 - tea.jpg
 - menu1.jpg
