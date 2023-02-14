@@ -185,9 +185,14 @@ const submissionLimiter = rateLimit({
   max: 10, // limit to 10 submissions per 5 minutes
 });
 
+app.get('/suggest', redirectWithTrailingSlash);
+app.get('/suggest/', (req, res) => {
+  res.render('suggest');
+});
+
 app.get('/submit', redirectWithTrailingSlash);
 app.get('/submit/', (req, res) => {
-  res.redirect('/');
+  res.redirect('/suggest/')
 });
 
 app.post('/submit/', submissionLimiter, async (req, res) => {
