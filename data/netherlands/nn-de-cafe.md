@@ -1,6 +1,6 @@
 ---
 added: 2022-09-12
-name: NN DE Cafe
+name: Nationale-Nederlanden Douwe Egberts Café
 type: Cafe
 area: Rotterdam
 google_maps: https://goo.gl/maps/jPnLWLjK6sasEArJA
