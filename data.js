@@ -149,7 +149,7 @@ function getCities(places) {
   }
   return _(cities)
     .values()
-    .orderBy(e => e.count, 'desc')
+    .orderBy(e => e.name)
     .value();
 }
 
