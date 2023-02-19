@@ -140,6 +140,16 @@ for (const locale of i18n.getLocales()) {
     res.render('about', { url: '/about/' });
   });
 
+  app.get(`${prefix}/netherlands`, redirectWithTrailingSlash);
+  app.get(`${prefix}/netherlands/`, (req, res) => {
+    res.redirect(`${prefix}/`);
+  });
+
+  app.get(`${prefix}/taiwan`, redirectWithTrailingSlash);
+  app.get(`${prefix}/taiwan/`, (req, res) => {
+    res.redirect(`${prefix}/`);
+  });
+
   for (const city of app.locals.cities) {    
     const cityDescription = data.getCityDescription(i18n, locale, city);
 
