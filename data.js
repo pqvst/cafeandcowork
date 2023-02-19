@@ -143,7 +143,7 @@ function getCities(places) {
     place.cityUrl = `/${id}/`;
     place.cityName = cityData.name;
     cities[place.city].places.push(place);
-    if (place.score) {
+    if (place.score && !place.closed) {
       cities[place.city].count++;
     }
   }
