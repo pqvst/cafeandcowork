@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-12-13
 name: Gys
 type: Cafe

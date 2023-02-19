@@ -163,6 +163,13 @@ for (const locale of i18n.getLocales()) {
     for (const place of city.places) {
       const placeDescription = data.getPlaceDescription(i18n, locale, place);
 
+      if (place.redirectOldCity) {
+        app.get(`${prefix}/${place.redirectOldCity}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
+        app.get(`${prefix}/${place.redirectOldCity}/${encodeURI(place.id)}/`, (req, res) => {
+          res.redirect(`${prefix}/${city.id}/${encodeURI(place.id)}/`);
+        });
+      }
+
       app.get(`${prefix}/${city.id}/${encodeURI(place.id)}`, redirectWithTrailingSlash);
       app.get(`${prefix}/${city.id}/${encodeURI(place.id)}/`, (req, res) => {
         res.render('place', {

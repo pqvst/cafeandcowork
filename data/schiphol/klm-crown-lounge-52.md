@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-12-17
 name: KLM Crown Lounge 52 (non-schengen)
 type: Lounge

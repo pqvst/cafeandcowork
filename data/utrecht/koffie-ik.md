@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-09-20
 name: Koffie & Ik
 type: Cafe

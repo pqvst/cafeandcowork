@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-10-03
 name: Coffee Fellows
 type: Cafe

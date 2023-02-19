@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-12-05
 name: Seats2meet Utrecht CS
 type: Coworking Space

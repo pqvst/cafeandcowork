@@ -106,6 +106,7 @@ function getPlaces() {
           score: getScore(placeData),
           hours: getHours(placeData.hours),
           review: getReview(placeData),
+          redirectOldCity: placeData['redirect-old-city'],
         });
         if (place.images) {
           place.images = place.images.map(image => `${place.url}${image}`);

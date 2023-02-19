@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-12-04
 name: coffeecompany (De Dijk, Amsterdam)
 type: Cafe

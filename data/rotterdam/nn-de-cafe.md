@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-09-12
 name: Nationale-Nederlanden Douwe Egberts Café
 type: Cafe

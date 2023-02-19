@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2023-01-09
 name: Caffe Almondo
 type: Cafe

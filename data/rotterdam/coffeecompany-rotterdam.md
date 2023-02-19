@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2023-02-15
 name: coffeecompany (Eendrachtsplein, Rotterdam)
 type: Cafe

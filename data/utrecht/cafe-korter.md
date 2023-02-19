@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-11-25
 name: Café Korter
 type: Cafe

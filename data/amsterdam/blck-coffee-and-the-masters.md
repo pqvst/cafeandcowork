@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2023-01-03
 name: BLCK. Coffee and The Masters
 type: Cafe

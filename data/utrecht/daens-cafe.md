@@ -1,4 +1,5 @@
 ---
+redirect-old-city: netherlands
 added: 2022-10-05
 name: Daen's Cafe
 type: Cafe
