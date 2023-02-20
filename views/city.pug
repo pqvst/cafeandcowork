@@ -8,7 +8,10 @@ block page
       div(class="flex items-center space-x-2")
         img(src=`/flags/${city.flag}.png` class="w-[32px] h-[22px] border")
         if locale != 'zh-tw'
-          div Find Places to Work From in #[b(class="font-semibold")= __(`Location: ${city.name}`)]
+          if city.count >= 3
+            div #{city.count} Work-Friendly Places in #[b(class="font-semibold")= __(`Location: ${city.name}`)]
+          else
+            div Work-Friendly Places in #[b(class="font-semibold")= __(`Location: ${city.name}`)]
         else
           div #{__('Title: Find Places to Work From')} / #[b(class="font-semibold")= __(`Location: ${city.name}`)]
     div(class="rounded-lg overflow-hidden mb-4")

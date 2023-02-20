@@ -60,12 +60,12 @@ function getCityDescription(i18n, locale, city) {
   if (name == country) {
     return __({
       locale,
-      phrase: 'Explore cafes and coworking spaces in {{name}}. Find the best places with power outlets and fast WiFi to work or study from.',
+      phrase: 'Explore work-friendly cafes and coworking spaces in {{name}}. Find the best places with power outlets and fast WiFi to work or study from.',
     }, { name });
   } else {
     return __({
       locale,
-      phrase: 'Explore cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.',
+      phrase: 'Explore work-friendly cafes and coworking spaces in {{name}}, {{country}}. Find the best places with power outlets and fast WiFi to work or study from.',
     }, { name, country });
   }
 }
