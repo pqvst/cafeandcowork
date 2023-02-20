@@ -114,6 +114,7 @@ const placeSchema = {
     review: { type: ['object', 'string'] },
 
     features: { type: ['object', 'string'] },
+    redirect_old_city: { type: ['string', 'null'] },
   }
 }
 

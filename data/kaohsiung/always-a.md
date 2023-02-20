@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2022-07-13
 name: "always a+"
 type: Cafe

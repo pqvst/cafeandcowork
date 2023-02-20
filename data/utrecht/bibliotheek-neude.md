@@ -1,5 +1,5 @@
 ---
-redirect-old-city: netherlands
+redirect_old_city: netherlands
 added: 2023-01-06
 name: Bibliotheek Neude
 type: Cafe

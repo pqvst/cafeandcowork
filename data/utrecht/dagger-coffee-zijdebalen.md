@@ -1,5 +1,5 @@
 ---
-redirect-old-city: netherlands
+redirect_old_city: netherlands
 added: 2022-09-14
 name: Dagger Coffee // Zijdebalen
 type: Cafe

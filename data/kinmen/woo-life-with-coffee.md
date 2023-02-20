@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-03-04
 name: Woo Life With Coffee (浯日咖啡)
 type: Cafe

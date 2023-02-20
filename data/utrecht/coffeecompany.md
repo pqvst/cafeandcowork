@@ -1,5 +1,5 @@
 ---
-redirect-old-city: netherlands
+redirect_old_city: netherlands
 added: 2022-11-07
 name: coffeecompany (Vismark, Utrecht)
 type: Cafe

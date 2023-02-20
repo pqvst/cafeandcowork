@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-03-09
 name: Workshop Tea Room & Foods
 type: Cafe

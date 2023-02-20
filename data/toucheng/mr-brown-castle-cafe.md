@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-04-14
 name: Mr Brown Castle Cafe
 type: Cafe

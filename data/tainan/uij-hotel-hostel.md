@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2022-03-06
 name: U.I.J. Hotel & Hostel 友愛街旅館
 type: Hotel

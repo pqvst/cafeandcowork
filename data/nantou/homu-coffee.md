@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2022-05-12
 name: Homu coffee 禾木咖啡
 type: Cafe

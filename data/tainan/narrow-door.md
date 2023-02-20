@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2022-03-07
 name: Narrow Door Cafe 窄門
 type: Cafe

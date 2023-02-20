@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-04-07
 name: Take Fun 拾悅咖啡
 type: Cafe

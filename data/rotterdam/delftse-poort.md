@@ -1,5 +1,5 @@
 ---
-redirect-old-city: netherlands
+redirect_old_city: netherlands
 added: 2023-02-16
 name: Delftse Poort
 type: Public Space

@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-12-26
 name: Chiyang Coffee 季洋莊園咖啡 (成功店)
 type: Cafe

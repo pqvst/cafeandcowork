@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-11-01
 name: Louisa Coffee (KW2 棧二庫門市)
 type: Cafe

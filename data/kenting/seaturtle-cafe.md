@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-12-23
 name: SeaTurtle Cafe 海龜咖啡
 type: Cafe

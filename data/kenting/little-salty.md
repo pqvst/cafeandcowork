@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-12-27
 name: 有點。鹹 (Little Salty)
 type: Cafe

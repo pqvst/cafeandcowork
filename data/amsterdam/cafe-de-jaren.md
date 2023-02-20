@@ -1,5 +1,5 @@
 ---
-redirect-old-city: netherlands
+redirect_old_city: netherlands
 added: 2022-09-23
 name: Café de Jaren
 type: Cafe

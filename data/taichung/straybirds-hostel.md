@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-03-09
 name: StrayBirds 漂鳥 青年旅館
 type: Hotel

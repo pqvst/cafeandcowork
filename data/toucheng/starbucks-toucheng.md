@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-04-14
 name: Starbucks Toucheng
 type: Cafe

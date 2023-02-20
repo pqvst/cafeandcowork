@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-11-01
 name: Coffee wake up 咖啡覺醒 (中山店)
 type: Cafe

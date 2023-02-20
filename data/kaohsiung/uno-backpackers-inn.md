@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2022-07-22
 name: Uno Backpackers Inn 青年旅舍
 type: Hotel

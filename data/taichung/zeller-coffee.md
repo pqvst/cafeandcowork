@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-03-11
 name: Zeller Coffee
 type: Cafe

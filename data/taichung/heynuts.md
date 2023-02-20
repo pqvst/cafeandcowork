@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-03-10
 name: Heynuts 好堅果咖啡
 type: Cafe

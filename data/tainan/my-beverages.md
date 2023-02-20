@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 contributors:
   - https://www.instagram.com/juiced69/
 added: 2021-05-11

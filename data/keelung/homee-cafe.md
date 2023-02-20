@@ -1,5 +1,5 @@
 ---
-redirect-old-city: taiwan
+redirect_old_city: taiwan
 added: 2021-11-10
 name: Homee Cafe 好饗咖啡
 type: Cafe
