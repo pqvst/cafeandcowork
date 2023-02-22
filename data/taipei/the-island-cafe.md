@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-12-30
 name: The Island Cafe
 type: Cafe
