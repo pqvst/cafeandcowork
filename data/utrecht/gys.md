@@ -17,7 +17,7 @@ hours:
   sat: 10-21:30
   sun: 10-21:30
 wifi: 5
-speed: 96
+speed: 56
 power: 3
 vacancy: 4
 comfort: 3
@@ -43,6 +43,7 @@ images:
   - seating1.jpg
   - seating2.jpg
   - food.jpg
+  - food2.jpg
 ---
 
-A great restaurant that's also very workable during lunch and early afternoon on weekdays. On weekdays it's usually pretty quiet so it's a nice place to have some good brunch/lunch while getting some work done. The wifi is very fast and there are some power outlets.
+A great restaurant that's also very workable during lunch and early afternoon on weekdays. On weekdays it's usually pretty quiet so it's a nice place to have some good brunch/lunch while getting some work done. The wifi is very fast and there are some power outlets. The WiFi has problems connecting to non-standard ports.
