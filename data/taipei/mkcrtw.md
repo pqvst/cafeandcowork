@@ -1,5 +1,5 @@
 ---
-added: 2021-04-06
+added: 2023-04-22
 name: MKCR / Mountain Kids Coffee Roaster 山小孩咖啡
 type: Cafe
 area: Zhongzheng
@@ -11,7 +11,7 @@ address:
 station: Beimen
 hours: 8-20
 wifi: 3
-speed: 10
+speed: 17
 power: 3
 vacancy: 4
 comfort: 3
@@ -25,9 +25,10 @@ music: true
 smoking: false
 standing_tables: true
 outdoor_seating: true
-cash_only: 
+cash_only: false
 animals: false
 lactose_free_milk: true
+time_limit: false
 facebook: https://www.facebook.com/mkcrtw/
 instagram:  https://www.instagram.com/mkcrtw/
 telephone: "+886223810682"
@@ -44,7 +45,7 @@ images:
   - menu4.jpg
 review:
   en: |
-    A small cafe near Bimen station, just beside The North Gate landmark. If you want to stay and work, be sure to go to the second floor, which is bright with lots of natural light. Clean, minimal interior. I especially like the large worktable, and the counter seats overlooking the street. Plenty of coffee, tea, and desserts on offer!
+    A small cafe near Beimen station, just beside The North Gate landmark. If you want to stay and work, be sure to go to the second floor, which is bright with lots of natural light. Clean, minimal interior. I especially like the large worktable, and the counter seats overlooking the street. Plenty of coffee, tea, and desserts on offer!
   zh-tw: |
     這是一家在北門附近，很精緻小巧的一家Cafe。二樓比較適合工作，天氣好的時候從整面窄窗透進來的光源會讓人感到幸福，午後一整面白牆刷過的陰影方便提醒人時光飛逝，要趕快收心。我特別喜歡這張工作桌，以及靠窗緣的位置，可以眺望街景。
 

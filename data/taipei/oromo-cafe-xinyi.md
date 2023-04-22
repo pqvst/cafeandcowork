@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2020-12-03
 name: OROMO CAFE (Xinyi)
 type: Cafe
