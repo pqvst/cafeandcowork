@@ -6,7 +6,7 @@ google_maps: https://goo.gl/maps/atKy8wQDm5KNXDuDA
 coordinates: 35.6569688,139.7028353
 address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 3 Chome−21−3 渋谷ストリーム2F
 station: Shibuya
-hours: 7-9  
+hours: 7-21  
 wifi: 5
 speed: 150
 power: 2
