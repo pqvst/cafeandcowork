@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2022-10-16
 name: NewsPicks NewCafe
 type: Cafe
