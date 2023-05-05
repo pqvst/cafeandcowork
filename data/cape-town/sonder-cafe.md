@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/SuzukiRyuichiro
 name: Sonder Cafe
 type: Cafe
 area: Observatory
