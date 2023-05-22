@@ -13,6 +13,23 @@ block page
           span.score(class=getValueColor(place.score))
             span= formatScore(place.score)
             span.star ★
+        div(class="space-x-1")
+          if place.power > 1
+            span.icon 🔌
+          if place.drinks > 1
+            span.icon ☕️
+          if place.food > 1
+            span.icon 🍔
+          if place.toilets > 1
+            span.icon 🚽
+          if place.animals
+            span.icon 🐶
+          if place.outdoor
+            span.icon 🌳
+          if place.wifi > 1
+            span.icon 📶
+            if place.speed
+              span.speed #{place.speed} Mb/s
       div(class="mb-3")
         div(class="flex space-x-1 text-sm text-gray-600")
           span #{formatDate(place.updated || place.added, locale)}
