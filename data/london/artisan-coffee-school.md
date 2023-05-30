@@ -11,13 +11,13 @@ address:
   en: 32 New Broadway, London W5 2XA
 station: Ealing Broadway
 hours:
-  mon: 7:30-17
-  tue: 7:30-17
-  wed: 7:30-17
-  thu: 7:30-17
-  fri: 7:30-17
-  sat: 8-17:30
-  sun: 8:30-17:30
+  mon: 7:30-16
+  tue: 7:30-16
+  wed: 7:30-16
+  thu: 7:30-16
+  fri: 7:30-16
+  sat: 8-16:30
+  sun: 8:30-16:30
 wifi: 3
 speed: 5
 power: 4
