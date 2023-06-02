@@ -76,7 +76,7 @@ Lorem Ipsum you can include a written review/description here. What's good? What
 Name|Description
 --|--
 `name`|What is the name of this place? Please provide it in English.
-type|Type of space `Cafe`, `Bar`, `Restaurant`, `Library`, `Lobby`, `Coworking Space`, `Public Space`, `Event Space`, `Lounge`, `Booth`, ```Bookstore`
+type|Type of space `Cafe`, `Bar`, `Restaurant`, `Library`, `Lobby`, `Coworking Space`, `Public Space`, `Event Space`, `Lounge`, `Booth`, `Bookstore`
 `area`|General area/district/region
 `google_maps`|Provide a Google maps link to the place you want to submit.
 `coordinates`|Coordinates `<lat>,<lng>` (decimal)
