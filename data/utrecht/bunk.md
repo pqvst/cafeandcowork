@@ -52,3 +52,9 @@ images:
 - menu2.jpg
 - menu3.jpg
 ---
+
+This is one of my regular "working lunch" spots. A really cool cafe/restaurant/lobby. The main seating area on the ground floor is a restaurant. For short work sessions you can use a laptop as long as you order food as well (e.g. "working lunch"), and be sure to choose a seat in the back corner. I can definitely recommend the Rendang sandwich for lunch, it is fantastic!
+
+For longer work sessions (or if you just want a beverage) you'll have to sit upstairs. This area is very popular and fills up fast, so be sure to arrive early and grab a seat.
+
+Staff is always super friendly! The WiFi is good, but sometimes it will become very slow.
