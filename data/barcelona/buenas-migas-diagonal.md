@@ -33,6 +33,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: false
+animals: true
 time_limit: false
 website: http://www.buenasmigas.com/bon-pastor
 images:
