@@ -40,6 +40,7 @@ images:
   - coffee.jpg
   - roaster.jpg
   - inside.jpg
+  - focaccia.jpg
   - counter.jpg
   - wifi.jpg
   - outside.jpg
