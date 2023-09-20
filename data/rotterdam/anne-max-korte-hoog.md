@@ -1,7 +1,7 @@
 ---
 added: 2023-09-20
 name: Anne & Max Korte Hoog
-type: cafe
+type: Cafe
 area: Rotterdam
 google_maps: https://maps.app.goo.gl/s8N5kKVY6M14s6fT9
 coordinates: 51.91961379553629, 4.482493574857025
