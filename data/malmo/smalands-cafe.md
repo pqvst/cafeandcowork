@@ -50,7 +50,7 @@ images:
   - operating-time.png
 ---
 
-Smålands Café" is a concept café owned by AB Småland. The entire café is decorated with AB Småland's furniture and products, and everything around is for sale. This creates a very cozy and calm vibe that represents Scandinavian style. You can get lots of home decorating inspiration while getting your work done!
+Smålands Café is a concept café owned by AB Småland. The entire café is decorated with AB Småland's furniture and products, and everything around is for sale. This creates a very cozy and calm vibe that represents Scandinavian style. You can get lots of home decorating inspiration while getting your work done!
 
 The café is comprised of two buildings, and in between them, you will see a green house ceiling that invites lots of natural light. The first room of the café provides some charging options, and the Wi-Fi is pretty decent.
 
