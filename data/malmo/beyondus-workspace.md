@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2022-08-25
 name: Beyond Us Workspace
 type: Cafe
