@@ -1,5 +1,5 @@
 ---
-updated: 2022-05-24
+updated: 2023-10-09
 name: Freeman Cafe
 type: Cafe
 area: Shibuya
@@ -9,7 +9,7 @@ address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 1 Chome−16−14 メ�
 station: Shibuya
 hours: 9-23
 wifi: 3
-speed: 
+speed: 11
 power: 4
 vacancy: 4
 comfort: 4
@@ -23,12 +23,19 @@ music: true
 smoking: true
 standing_tables: false
 outdoor_seating: false
-cash_only: 
-animals: 
+cash_only: false
+animals: false
+time_limit: true
 facebook: 
 instagram: https://www.instagram.com/freemancafe_official/ 
 telephone: "+81357669111"
-website: https://www.create-restaurants.co.jp/shop/index.php?controller=FrontCrShop&action=shop_show&id=577&lang=ja
+website: https://shop.create-restaurants.co.jp/0885/
+images:
+  - seating1.jpg
+  - seating2.jpg
+  - signs.jpg
+  - food.jpg
+  - outside.jpg
 ---
 
-One of my favorite spots (and the first spot I found) in Tokyo. It’s not “perfect” but I still really like it, and the staff is always super friendly. It’s a cool cafe close to Shibuya and Harajuku. Interesting drinks and a nice variety of cooked food. Their tuna rice dish is really good. Pasta and pizza is also good! Available by most seats. Ask for power outlets when you arrive and they’ll help you. It’s “ok”. Speed is fine, but it can be a bit flaky at peak hours. I wouldn’t go here for downloading huge files. There’s a small non-smoking area, but I normally sit in the smoking area, and it usually isn’t a problem (especially earlier during the day).
+A nice cafe/restaurant close to Shibuya and Harajuku. Interesting drinks and a nice variety of cooked food. Their tuna rice dish is really good. Pasta and pizza is also good! Power available by most seats. WiFi speed is fine, but it can be a bit flaky at peak hours. I wouldn’t go here for downloading huge files. There's a smoking section, but during the morning or lunch time I rarely notice smoke smell. Note that there is a time-limit when it's crowded and I guess they won't ask you to leave unless there's a queue to get in.

@@ -1,5 +1,5 @@
 ---
-updated: 2022-05-24
+updated: 2023-10-10
 name: FabCafe
 type: Cafe
 area: Shibuya
@@ -15,7 +15,7 @@ hours:
   sat: 10-20
   sun: 10-20
 wifi: 5
-speed: 
+speed: 490
 power: 5
 vacancy: 5
 comfort: 5
@@ -31,10 +31,17 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
+lactose_free_milk: true
+time_limit: false
 facebook: https://www.facebook.com/fabcafe.global/
 instagram: https://www.instagram.com/fabcafe.global/
 telephone: "+81364169190"
 website: https://fabcafe.com/jp/tokyo/
+images:
+  - seating1.jpg
+  - outside.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
 A really cool place in Shibuya. It started out as a maker space (with 3D printers, laser cutters, and more), and then they added a café as well.

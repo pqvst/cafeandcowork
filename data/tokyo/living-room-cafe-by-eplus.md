@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2022-05-24
 name: LIVING ROOM CAFE＆DINING
 type: Cafe
