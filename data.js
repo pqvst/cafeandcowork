@@ -95,22 +95,27 @@ function getPlaces() {
     const placeFiles = fs.readdirSync(`data/${cityId}/`).filter(filterValidFiles);
     for (const placeFile of placeFiles) {
       if (placeFile != 'index.md') {
-        const placeData = parseFile(`data/${cityId}/${placeFile}`);
-        const name = path.basename(placeFile, '.md');
-        const place = Object.assign(placeData, {
-          id: name,
-          url: `/${cityId}/${name}/`,
-          coordinates: parseCoordinates(placeData.coordinates),
-          city: cityId,
-          file: `${cityId}/${placeFile}`,
-          score: getScore(placeData),
-          hours: getHours(placeData.hours),
-          review: getReview(placeData),
-        });
-        if (place.images) {
-          place.images = place.images.map(image => `${place.url}${image}`);
+        try {
+          const placeData = parseFile(`data/${cityId}/${placeFile}`);
+          const name = path.basename(placeFile, '.md');
+          const place = Object.assign(placeData, {
+            id: name,
+            url: `/${cityId}/${name}/`,
+            coordinates: parseCoordinates(placeData.coordinates),
+            city: cityId,
+            file: `${cityId}/${placeFile}`,
+            score: getScore(placeData),
+            hours: getHours(placeData.hours),
+            review: getReview(placeData),
+          });
+          if (place.images) {
+            place.images = place.images.map(image => `${place.url}${image}`);
+          }
+          places.push(place);
+        } catch (err) {
+          console.log(cityId, placeFile, err.message);
+          throw err;
         }
-        places.push(place);
       }
     }
   }
