@@ -1,5 +1,5 @@
 ---
-added: 2023-10-10
+added: 2023-10-15
 name: Bridge COFFEE & ICECREAM
 type: Cafe
 area: Asakusabashi
@@ -39,15 +39,15 @@ instagram: https://www.instagram.com/cafe.bridge/
 telephone: "+81335273399"
 website: 
 images:
+  - bar.JPG
   - working-table.JPG
   - seating.JPG
-  - bar.JPG
   - front.JPG
   - menu.JPG
 ---
 
-Bridge Coffee locates just a 5-minute walk from Asakusabashi Station. It offers a versatile atmosphere to suit various preferences.
+Bridge Coffee located just a 5-minute walk from Asakusabashi Station. It offers a versatile atmosphere to suit various preferences.
 
-During peak hours and weekend, it attracts a bustling crowd of ice cream and pastry enthusiasts, with items like carrot cake being popular choices. It's a lively spot, perfect for socializing and enjoying sweet treats.On weekday mornings, the café transforms into a quiet and cozy setting. It's an ideal place to catch up on work briefly. With reliable power and decent Wi-Fi, it allows you to sip your coffee while staying productive.
+During peak hours and weekend, it attracts a crowd of ice cream and pastry enthusiasts, with items like carrot cake being popular choices. It's a lively spot, perfect for socializing and enjoying sweet treats. On weekday mornings, the café transforms into a quiet and cozy setting. It's an ideal place to catch up on work briefly. With reliable power and decent Wi-Fi, it allows you to sip your coffee while staying productive.
 
 PS: When it's crowded, you may only stay here only for an hour, but most of time there is no restrictions.
