@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Commune 2nd
 type: Public Space
 area: Minato
@@ -6,7 +7,6 @@ google_maps: https://goo.gl/maps/xP7D6ACv91nn9vqp9
 coordinates: 35.6656371,139.7111321
 address: 3 Chome-13 Minamiaoyama, Minato City, Tokyo 107-0062, Japan
 station: 
-closed: true
 wifi: 0
 speed: 
 power: 0
