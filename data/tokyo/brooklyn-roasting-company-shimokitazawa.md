@@ -14,13 +14,13 @@ power: 5
 vacancy: 3
 comfort: 
 quiet: 3
-food: 
+food: 4
 drinks: 4
 price: 3
 view: 4
-toilets: 
-music: 
-smoking: 
+toilets: 3
+music: true
+smoking: false
 standing_tables: true
 outdoor_seating: true
 cash_only: false
@@ -31,4 +31,7 @@ facebook: https://www.facebook.com/brooklynroastingjapan
 instagram: https://www.instagram.com/brooklynroastingjapan/
 telephone: "0364508681"
 website: http://brooklynroasting.jp/
+images:
+  - outside1.jpg
+  - outside2.jpg
 ---
