@@ -32,6 +32,7 @@ instagram:
 telephone: "0356158026"
 website: https://shop.tullys.co.jp/detail/1003013
 images:
-  - seating.jp
+  - seating.jpg
   - view.jpg
 ---
+

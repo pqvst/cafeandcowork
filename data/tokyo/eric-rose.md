@@ -1,5 +1,5 @@
 ---
-added: 2023-12-05
+added: 2023-12-03
 name: Eric Rose
 type: Cafe
 area: Aoyama
