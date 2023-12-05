@@ -52,26 +52,26 @@ block page
 
     div(class="my-4")
       if place.google_maps
-        a.button.maps(href=place.google_maps target="_blank").umami--click--place-button-google-maps
+        a.button.maps(href=place.google_maps target="_blank")
           i.ph-map-trifold
           span= __('Data: Google Maps')
       if place.facebook
-        a.button.facebook(href=place.facebook target="_blank").umami--click--place-button-facebook
+        a.button.facebook(href=place.facebook target="_blank")
           i.ph-facebook-logo
           span= __('Data: Facebook')
       if place.instagram
-        a.button.instagram(href=place.instagram target="_blank").umami--click--place-button-instagram
+        a.button.instagram(href=place.instagram target="_blank")
           i.ph-instagram-logo
           span= __('Data: Instagram')
       if place.website
-        a.button.website(href=place.website target="_blank").umami--click--place-button-website
+        a.button.website(href=place.website target="_blank")
           i.ph-globe-simple
           span= __('Data: Website')
       if place.telephone
-        a.button.telephone(href=`tel:${place.telephone}`).umami--click--place-button-telephone
+        a.button.telephone(href=`tel:${place.telephone}`)
           i.ph-phone
           span= __('Button: Call')
-      a.button(href="#" onclick="showSubmit()").umami--click--place-button-edit
+      a.button(href=site.github target="_blank")
         i.ph-pencil
         span= __('Button: Edit')
 
@@ -142,19 +142,19 @@ block page
             dd= __(`Area: ${place.area}`)
         if place.address
           dt= __('Data: Address')
-          dd: a(href=place.google_maps target="_blank").umami--click--place-link-address= place.address[locale] || place.address
+          dd: a(href=place.google_maps target="_blank")= place.address[locale] || place.address
         if place.facebook
           dt= __('Data: Facebook')
-          dd: a(href=place.facebook target="_blank").umami--click--place-link-facebook= formatUrl(place.facebook)
+          dd: a(href=place.facebook target="_blank")= formatUrl(place.facebook)
         if place.instagram
           dt= __('Data: Instagram')
-          dd: a(href=place.instagram target="_blank").umami--click--place-link-instagram= formatUrl(place.instagram)
+          dd: a(href=place.instagram target="_blank")= formatUrl(place.instagram)
         if place.website
           dt= __('Data: Website')
-          dd: a(href=place.website target="_blank").umami--click--place-link-website= formatUrl(place.website)
+          dd: a(href=place.website target="_blank")= formatUrl(place.website)
         if place.telephone
           dt= __('Data: Telephone')
-          dd: a(href=`tel:${place.telephone}` target="_blank").umami--click--place-link-telephone= place.telephone
+          dd: a(href=`tel:${place.telephone}` target="_blank")= place.telephone
         if place.updated || place.added
           dt= __('Data: Updated')
           dd #{formatDate(place.updated || place.added, locale)}
@@ -164,7 +164,7 @@ block page
             each contributor in place.contributors
               div
                 if contributor.startsWith('http')
-                  a(href=contributor target="_blank").umami--click--place-link-contributor= formatUrl(contributor)
+                  a(href=contributor target="_blank")= formatUrl(contributor)
                 else
                   span= contributor
 

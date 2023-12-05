@@ -57,7 +57,6 @@ html
 
     if !DEBUG
       script(defer data-domain="cafeandcowork.com" src="https://plausible.io/js/script.js")
-      script(async defer data-website-id="1f5e12d4-c35b-4890-b41e-81cd4af5ffcc" src="https://umami.pqvst.com/umami.js")
     
     block head
   body(class=locale)
@@ -69,16 +68,16 @@ html
       a(href=`${prefix}/about` class="space-x-1")
         i.fa.fa-user-o
         span About
-      a(href=site.instagram target="_blank" class="space-x-1").umami--click--footer-link-instagram
+      a(href=site.instagram target="_blank" class="space-x-1")
         i.fa.fa-instagram
         span cafeandcowork
-      a(href=site.mailto target="_blank" class="space-x-1").umami--click--footer-link-contact
+      a(href=site.mailto target="_blank" class="space-x-1")
         i.fa.fa-envelope-o
         span Contact
-      a(href="/feed.xml" target="_blank" class="space-x-1").umami--click--footer-link-feed
+      a(href="/feed.xml" target="_blank" class="space-x-1")
         i.fa.fa-feed
         span Feed
-      a(href=site.github target="_blank" class="space-x-1").umami--click--footer-link-github
+      a(href=site.github target="_blank" class="space-x-1")
         i.fa.fa-github
         span pqvst/cafeandcowork
 
