@@ -13,6 +13,8 @@ function avg(arr) {
 
 exports.getScore = function(place) {
   let score = avg([place.wifi, place.power, place.vacancy, place.comfort, place.quiet, place.drinks, place.food, place.price, place.view, place.toilets]);
+  if (place.wifi === 0) score -= 0.2;
+  if (place.power === 0) score -= 0.2;
   if (place.smoking) score -= 0.1;
   if (place.standing_tables) score += 0.1;
   if (place.outdoor_seating) score += 0.1;
