@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/richardsimko
 added: 2023-11-29
 name: St Pauls Bageri (Götgatan)
 type: Cafe
@@ -6,7 +8,7 @@ area: Center
 google_maps: https://maps.app.goo.gl/EkYAngNnucNr8SBZA
 coordinates: 59.31652224266127, 18.072121065310075
 address: Götgatan 42, 118 26 Stockholm
-station: Porta Romana
+station: Slussen
 hours:
   mon: 7-19
   tue: 7-19
