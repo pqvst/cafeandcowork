@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/richardsimko
 added: 2023-12-19
 name: Espresso House Rådmansgatan
 type: Cafe
@@ -18,7 +20,7 @@ hours:
 wifi: 2
 speed: 100
 power: 2
-vacancy: 2
+vacancy: 3
 comfort: 2
 quiet: 2
 food: 2

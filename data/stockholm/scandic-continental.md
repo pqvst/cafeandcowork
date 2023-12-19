@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/richardsimko
 added: 2023-12-19
 name: Scandic Continental
 type: Hotel
@@ -20,7 +22,7 @@ view: 1
 toilets: 1
 music: false
 smoking: false
-standing_tables: true
+standing_tables: false
 outdoor_seating: true
 cash_only: false
 animals: true

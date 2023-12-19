@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/richardsimko
 added: 2023-11-29
 name: St Pauls Bageri (Götgatan)
 type: Cafe
