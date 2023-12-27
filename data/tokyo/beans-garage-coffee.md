@@ -1,4 +1,5 @@
 ---
+udpated: 2023-12-08
 added: 2023-07-06
 name: Beans Garage Coffee
 type: Cafe
@@ -10,8 +11,8 @@ address:
   jp: 〒150-0032 東京都渋谷区鶯谷町１７−9
 station: Shibuya
 hours: 9-0
-wifi: 1
-speed: 1
+wifi: 5
+speed: 160
 power: 2
 vacancy: 4
 comfort: 3
@@ -25,7 +26,7 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
-cash_only: 
+cash_only: false
 animals: 
 lactose_free_milk: 
 time_limit: false
@@ -44,4 +45,4 @@ images:
   - menu3.jpg
 ---
 
-A small cafe in between Shibuya and Daikanyama. It's a nice place to grab a morning beverage and get some work done. Breakfast and lunch options are available, but nothing too special. There is WiFi but it was extremely slow (< 1mbps)! One of the large worktables has power outlets.
+A small cafe in between Shibuya and Daikanyama. It's a nice place to grab a morning beverage and get some work done. Breakfast and lunch options are available, but nothing too special. Fast wifi. One of the large worktables has power outlets.
