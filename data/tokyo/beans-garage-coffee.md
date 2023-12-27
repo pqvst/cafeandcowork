@@ -1,5 +1,5 @@
 ---
-udpated: 2023-12-08
+updated: 2023-12-08
 added: 2023-07-06
 name: Beans Garage Coffee
 type: Cafe
