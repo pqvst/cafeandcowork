@@ -41,11 +41,10 @@ website: http://www.annemax.nl/
 images:
   - seating.JPG
   - menu1.JPG
-  - menu-drink1.JPG
+  - menu-drink.JPG
   - menu-drink2.JPG
   - lunch.JPG
   - applepie.JPG
-  
 ---
 
 Anne & Max Korte Hoog is conveniently located near one of the busiest and most popular areas in Rotterdam city center, just a 5-minute walk from Beurs station. Surprisingly, even on bustling weekend afternoons, this café manages to maintain a cozy and tranquil ambiance. They thoughtfully provide extension cords for charging, and the best part is that they allow laptops! The food is delightful, and the service is excellent."
