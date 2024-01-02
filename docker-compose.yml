@@ -9,6 +9,9 @@ services:
       - NODE_ENV=production
     volumes:
       - ./images:/usr/src/app/images
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.cafeandcowork.rule=Host(`cafeandcowork.com`)
     logging:
       options:
         max-file: "10"
@@ -17,5 +20,5 @@ services:
  
 networks:
   default:
-    external:
-      name: router_default
+    name: router_default
+    external: true
