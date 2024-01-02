@@ -11,7 +11,7 @@ function avg(arr) {
   return n == 0 ? 0 : t / n;
 }
 
-exports.getScore = function(place) {
+export function getScore(place) {
   let score = avg([place.wifi, place.power, place.vacancy, place.comfort, place.quiet, place.drinks, place.food, place.price, place.view, place.toilets]);
   if (place.wifi === 0) score -= 0.2;
   if (place.power === 0) score -= 0.2;
@@ -25,7 +25,7 @@ exports.getScore = function(place) {
 
 const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
-exports.getHours = function(hours) {
+export function getHours(hours) {
   if (hours) {
     const res = [];
     if (typeof hours === 'string') {
@@ -43,7 +43,7 @@ exports.getHours = function(hours) {
   }
 }
 
-exports.getReview = function(place) {
+export function getReview(place) {
   if (place.review) {
     return place.review;
   } else if (place.content) {

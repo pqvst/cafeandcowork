@@ -1,5 +1,5 @@
 ---
-name: % Arabica Hong Kong IFC
+name: "% Arabica Hong Kong IFC"
 type: Cafe
 area: Central
 google_maps: https://goo.gl/maps/KpjoX1U1TML97c867

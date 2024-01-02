@@ -1,10 +1,12 @@
-const express = require('express');
-const morgan = require('morgan');
-const bodyParser = require('body-parser');
-const rateLimit = require('express-rate-limit');
-const Rollbar = require('rollbar');
-const { I18n } = require('i18n');
-const { Feed }   = require('feed');
+import express from 'express';
+import morgan from 'morgan';
+import bodyParser from 'body-parser';
+import rateLimit from 'express-rate-limit';
+import Rollbar from 'rollbar';
+import { I18n } from 'i18n';
+import { Feed } from 'feed';
+import { marked } from 'marked';
+import * as viewHelpers from './view-helpers.js';
 
 let rollbar;
 if (process.env.ROLLBAR_ACCESS_TOKEN) {
@@ -37,8 +39,8 @@ const i18n = new I18n({
   },
 });
 
-const data = require('./data');
-const submit = require('./submit');
+import * as data from './data.js';
+import * as submit from './submit.js';
 
 const app = express();
 const port = 3000;
@@ -70,9 +72,9 @@ app.locals.site = {
 app.locals.DEBUG = DEBUG;
 app.locals.pretty = DEBUG;
 app.locals.v = Date.now();
-app.locals.marked = require('marked');
+app.locals.marked = marked;
 
-Object.assign(app.locals, require('./view-helpers'));
+Object.assign(app.locals, viewHelpers);
 Object.assign(app.locals, data.load());
 
 function redirectWithTrailingSlash(req, res) {

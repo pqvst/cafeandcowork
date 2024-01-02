@@ -1,4 +1,4 @@
-const got = require('got');
+import got from 'got';
 
 const FORM_ACTION = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScpERMNnPEBsMRnHRtGSgCgaa46fnAXMFYko-P70yBNbm6Gjw/formResponse';
 
@@ -30,7 +30,7 @@ const FORM_FIELDS = {
   comments: 'entry.1081841747',
 };
 
-async function submit(place) {
+export async function submit(place) {
   
   // Check honeypot field to detect spam submissions
   if (place.phone) {
@@ -55,5 +55,3 @@ async function submit(place) {
     throw new Error('submission failed');
   }
 }
-
-module.exports = { submit };

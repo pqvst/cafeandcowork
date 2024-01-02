@@ -1,8 +1,8 @@
-const _ = require('lodash');
-const fs = require('fs');
-const path = require('path');
-const yaml = require('yaml');
-const { getHours, getScore, getReview } = require('./data-helpers');
+import _ from 'lodash';
+import fs from 'fs';
+import path from 'path';
+import yaml from 'yaml';
+import { getHours, getScore, getReview } from './data-helpers.js';
 
 function parseFile(filename) {
   const file = fs.readFileSync(filename, 'utf8');
@@ -19,7 +19,7 @@ function filterValidFiles(filename) {
   return !filename.startsWith('.');
 }
 
-function getPlaceDescription(i18n, locale, place) {
+export function getPlaceDescription(i18n, locale, place) {
   const { __ } = i18n;
   const { power, wifi, speed } = place;
   
@@ -53,7 +53,7 @@ function getPlaceDescription(i18n, locale, place) {
   return text;
 }
 
-function getCityDescription(i18n, locale, city) {
+export function getCityDescription(i18n, locale, city) {
   const { __ } = i18n;
   const name = __({ locale, phrase: `City: ${city.name}` });
   const country = __({ locale, phrase: `Country: ${city.country}` });
@@ -217,7 +217,7 @@ function getStations(places) {
     .value();
 }
 
-function load() {
+export function load() {
   const t1 = Date.now();
 
   const places = getPlaces();
@@ -240,5 +240,3 @@ function load() {
 
   return { cities, places, areas, stations, recent, top };
 }
-
-module.exports = { load, getCityDescription, getPlaceDescription };

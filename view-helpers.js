@@ -1,6 +1,6 @@
-const moment = require('moment-timezone');
+import moment from 'moment-timezone';
 
-exports.formatDate = function (date, locale) {
+export function formatDate(date, locale) {
   if (locale == 'zh-tw') {
     return moment(date).format('YYYY/M/D');
   } else {
@@ -8,15 +8,15 @@ exports.formatDate = function (date, locale) {
   }
 }
 
-exports.formatScore = function (n) {
+export function formatScore (n) {
   return n.toFixed(1);
 }
 
-exports.getStarRating = function (value) {
+export function getStarRating (value) {
   return value + ' ★';
 }
 
-exports.getValueColor = function (value) {
+export function getValueColor (value) {
   if (value === true) return 'blue';
   if (value === false) return 'orange';
   if (value != null) {
@@ -31,7 +31,7 @@ exports.getValueColor = function (value) {
   return 'grey';
 }
 
-exports.formatUrl = function(url) {
+export function formatUrl(url) {
   return decodeURI(url)
     .replace('https://', '')
     .replace('http://', '')
@@ -40,7 +40,7 @@ exports.formatUrl = function(url) {
     .split('?')[0];
 }
 
-exports.truncate = function(s) {
+export function truncate(s) {
   if (s.length >= 300) {
     let trimmed = s.slice(0, 250);
     trimmed = trimmed.substr(0, Math.min(trimmed.length, trimmed.lastIndexOf(' ')));
@@ -53,7 +53,6 @@ exports.truncate = function(s) {
 // Time/Hours Helpers
 //=====================================================================================
 
-
 function formatTime(time) {
   let hour = Math.floor(time / 100);
   let min = time % 100;
@@ -63,7 +62,7 @@ function formatTime(time) {
   return [hour, min].join(':');
 }
 
-exports.formatHours = function(hours) {
+export function formatHours(hours) {
   if (!hours) return null;
   return hours.map(formatTime).join(' - ');
 }
@@ -95,7 +94,7 @@ function getAdjustedTime(m) {
   return (hour * 100) + min;
 }
 
-exports.isOpeningSoon = function(city, place) {
+export function isOpeningSoon(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   const time = getAdjustedTime(m);
@@ -107,7 +106,7 @@ exports.isOpeningSoon = function(city, place) {
   return false;
 }
 
-exports.isClosingSoon = function(city, place) {
+export function isClosingSoon(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   const time = getAdjustedTime(m);
@@ -120,7 +119,7 @@ exports.isClosingSoon = function(city, place) {
   return false;
 }
 
-exports.isClosedToday = function(city, place) {
+export function isClosedToday(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   if (place.hours) {
@@ -130,14 +129,14 @@ exports.isClosedToday = function(city, place) {
   }
 }
 
-exports.isClosedNow = function(city, place) {
+export function isClosedNow(city, place) {
   if (place.temporarily_closed) {
     return true;
   }
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   const time = getAdjustedTime(m);  
-  if (exports.isOpen24Hours(city, place, dow)) {
+  if (isOpen24Hours(city, place, dow)) {
     return false;
   }
   if (place.hours) {
@@ -151,7 +150,7 @@ exports.isClosedNow = function(city, place) {
   }
 }
 
-exports.getOpeningTime = function(city, place) {
+export function getOpeningTime(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   if (place.hours && place.hours[dow]) {
@@ -159,7 +158,7 @@ exports.getOpeningTime = function(city, place) {
   }
 }
 
-exports.getClosingTime = function(city, place) {
+export function getClosingTime(city, place) {
   const m = moment.tz(city.timezone);
   const dow = getAdjustedDay(m);
   if (place.hours && place.hours[dow]) {
@@ -167,7 +166,7 @@ exports.getClosingTime = function(city, place) {
   }
 }
 
-exports.isOpen24Hours = function(city, place, dow) {
+export function isOpen24Hours(city, place, dow) {
   const m = moment.tz(city.timezone);
   if (dow == null) {
     dow = getAdjustedDay(m);
@@ -179,7 +178,7 @@ exports.isOpen24Hours = function(city, place, dow) {
   }
 }
 
-exports.isSameHoursEveryDay = function (place) {
+export function isSameHoursEveryDay (place) {
   if (place.hours) {
     for (let dow = 0; dow < 7; dow++) {
       if (place.hours[dow] == null || place.hours[0] == null) {

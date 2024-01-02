@@ -1,7 +1,7 @@
-const Ajv = require('ajv').default;
-const ajv = new Ajv();
+import Ajv from 'ajv';
+import * as data from '../data.js';
 
-const data = require('../data');
+const ajv = new Ajv();
 const { cities, places } = data.load();
 
 const citySchema = {
