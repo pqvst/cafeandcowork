@@ -1,5 +1,5 @@
 ---
-added: 2022-01-06
+added: 2024-01-16
 name: NOW coffee 鬧咖啡
 type: Cafe
 area: Zhongzheng
@@ -18,7 +18,7 @@ hours:
   sat: 10-22
   sun: 11-19
 wifi: 5
-speed: 53
+speed: 110
 power: 5
 vacancy: 2
 comfort: 5
@@ -32,7 +32,7 @@ music: true
 smoking: false
 standing_tables: false
 outdoor_seating: false
-cash_only: true
+cash_only: false
 animals: 
 lactose_free_milk: true
 time_limit: true
