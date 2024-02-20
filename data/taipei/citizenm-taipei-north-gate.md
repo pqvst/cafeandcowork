@@ -41,4 +41,4 @@ images:
   - view.jpg
 ---
 
-If you're visiting Taipei then this is a great place to stay if you're looking to get some work done. The hotel lobby bar/cafe is a great place for remote working. I believe the bar/cafe area is open to the public (not just hotel guests) - but it's probably best to arrive after breakfast hours though. Fast WiFi, power outlets, comfortable seating, and nice views!
+If you're visiting Taipei then this is a great place to stay if you're looking to get some work done. The hotel lobby bar/cafe is a great place for remote working. The bar/cafe area is open to the public (not just hotel guests) - but it's probably best to arrive after breakfast hours though. They have a minimum spend of NT$400. Fast WiFi, power outlets, comfortable seating, and nice views!
