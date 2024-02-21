@@ -16,19 +16,19 @@ hours:
   sat: 11-19
   sun: 11-19
 wifi: 1
-speed: 
+speed: 25
 power: 4
 vacancy: 5
 comfort: 4
-quiet: 
-food: 
+quiet:
+food:
 drinks: 4
-price: 
+price:
 view: 2
 toilets: 5
 music: true
 smoking: false
-standing_tables: false
+standing_tables: true
 outdoor_seating: true
 cash_only: false
 animals: false
