@@ -15,7 +15,7 @@ hours:
   fri: 8:30-19
   sat: 11-19
   sun: 11-19
-wifi: 1
+wifi: 2
 speed: 25
 power: 4
 vacancy: 5
