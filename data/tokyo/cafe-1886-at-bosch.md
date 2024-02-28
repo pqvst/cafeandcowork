@@ -15,27 +15,28 @@ hours:
   fri: 8:30-19
   sat: 11-19
   sun: 11-19
-wifi: 1
-speed: 
+wifi: 2
+speed: 25
 power: 4
 vacancy: 5
 comfort: 4
-quiet: 
-food: 
+quiet:
+food:
 drinks: 4
-price: 
+price:
 view: 2
 toilets: 5
 music: true
 smoking: false
-standing_tables: false
+standing_tables: true
 outdoor_seating: true
 cash_only: false
 animals: false
+time_limit: true
 facebook: https://www.facebook.com/cafe1886atBoschJapan
 instagram: https://www.instagram.com/cafe1886_at_bosch/
 telephone: "+81364273207"
 website: http://www.bosch-cafe.jp/index.html
 ---
 
-Nice atmosphere, ok drink selection, comfortable seats, plenty of power outlets. However the wifi is very spotty and slow. If the wifi was better this would be a great place to sit and get some work done.
+Nice atmosphere, ok drink selection, comfortable seats, plenty of power outlets. A 2 hour time limit applies during busy times.
