@@ -39,4 +39,4 @@ images:
   - menu.jpg
 ---
 
-I always struggle to find workable cafes in Shinjuku. This is place is quite decent though. Look for the sign for "Sumika" and take the elevator up to the 4th floor. There are plenty of large work tables, power outlets, and fast WiFi. The place turns into a bar in the evening, so I probably wouldn't want to stay too late for working. It feels a little dark and enclosed, but not a bad spot to sit and get some work done.
+I always struggle to find workable cafes in Shinjuku. This is place is quite decent though. Look for the sign for "Sumika" and take the elevator up to the 4th floor. There are plenty of large work tables, power outlets, and fast WiFi. From 4pm they dim the lights and it turns into a cozy bar. You're still allowed to work and use your laptop in the evening. During the day time it feels a little dark and enclosed due to the lack of windows, but not a bad spot to sit and get some work done.
