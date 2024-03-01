@@ -12,24 +12,23 @@
   "license": "ISC",
   "devDependencies": {
     "ajv": "^8.12.0",
-    "linkinator": "^6.0.3",
-    "nodemon": "^3.0.2",
+    "linkinator": "^6.0.4",
+    "nodemon": "^3.1.0",
     "shrinkem": "^2.1.0"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.3",
     "express-rate-limit": "^7.1.5",
     "feed": "^4.2.2",
-    "got": "^14.0.0",
     "i18n": "^0.15.1",
     "lodash": "^4.17.21",
-    "marked": "^11.1.1",
+    "marked": "^12.0.0",
     "moment": "^2.30.1",
-    "moment-timezone": "^0.5.44",
+    "moment-timezone": "^0.5.45",
     "morgan": "^1.10.0",
     "pug": "^3.0.2",
-    "rollbar": "^2.26.2",
-    "yaml": "^2.3.4"
+    "rollbar": "^2.26.3",
+    "yaml": "^2.4.0"
   },
   "nodemonConfig": {
     "ext": "js,md,json",

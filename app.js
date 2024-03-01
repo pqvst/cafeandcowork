@@ -7,6 +7,7 @@ import { I18n } from 'i18n';
 import { Feed } from 'feed';
 import { marked } from 'marked';
 import * as viewHelpers from './view-helpers.js';
+import * as data from './data.js';
 
 let rollbar;
 if (process.env.ROLLBAR_ACCESS_TOKEN) {
@@ -38,9 +39,6 @@ const i18n = new I18n({
     return value;
   },
 });
-
-import * as data from './data.js';
-import * as submit from './submit.js';
 
 const app = express();
 const port = 3000;
@@ -206,22 +204,12 @@ const submissionLimiter = rateLimit({
 
 app.get('/suggest', redirectWithTrailingSlash);
 app.get('/suggest/', (req, res) => {
-  res.render('suggest');
+  res.redirect('/');
 });
 
 app.get('/submit', redirectWithTrailingSlash);
 app.get('/submit/', (req, res) => {
-  res.redirect('/suggest/')
-});
-
-app.post('/submit/', submissionLimiter, async (req, res) => {
-  try {
-    await submit.submit(req.body);
-    res.send('ok');
-  } catch (err) {
-    console.log(err);
-    res.status(400).end();
-  }
+  res.redirect('/');
 });
 
 app.get('/feed.xml', (req, res) => {
