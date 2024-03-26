@@ -10,6 +10,13 @@ coordinates: 59.33086948646709, 18.06454645793089
 address: Drottninggatan 28, 111 51 Stockholm
 station: Centralstationen
 hours:
+  mon: 11-17
+  tue: 11-17
+  wed: 11-17
+  thu: 11-17
+  fri: 11-17
+  sat: 11-17
+  sun: 11-17
 wifi: 4
 power: 4
 vacancy: 4
