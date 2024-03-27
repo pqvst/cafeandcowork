@@ -3,7 +3,7 @@ contributors:
   - https://github.com/richardsimko
 added: 2024-03-26
 name: Downtown Camper Café
-type: Café
+type: Lobby
 area: Center
 google_maps: https://maps.app.goo.gl/VEQWAsLGiYn6w5on9
 coordinates: 59.33086948646709, 18.06454645793089
