@@ -37,3 +37,5 @@ images:
   - menu1.jpg
   - menu2.jpg
 ---
+
+A nice place to work near Nakameguro. It opens early and closes late. It can get fairly busy/crowded though. A large selection of drinks and snacks.

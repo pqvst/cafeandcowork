@@ -37,8 +37,8 @@ lactose_free_milk: true
 time_limit: false
 website: https://www.scandichotels.se/hotell/sverige/stockholm/downtown-camper-by-scandic/restaurang-bar/downtown-camper-cafe
 images:
-  - cowork.jpg
-  - cafe.jpg
+  - cowork.jpeg
+  - cafe.jpeg
 ---
 
 A café in the lobby of the Downtown Camper hotel. It has a dedicated co-working space with a big table at bar height as well as a few smaller tables and a sofa. The WiFi is decent, drinks are cheap considering the location and the staff is friendly. The co-working space is technically separate from the café which has a no-laptop policy and the café plays some quiet music. They technically close at 17 but they invited everyone to go to the hotel lobby which has additional tables and power outlets available.
