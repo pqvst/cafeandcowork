@@ -3,12 +3,12 @@ contributors:
   - https://github.com/richardsimko
 added: 2024-03-26
 name: Downtown Camper Café
-type: Lobby
+type: Café
 area: Center
 google_maps: https://maps.app.goo.gl/VEQWAsLGiYn6w5on9
 coordinates: 59.33086948646709, 18.06454645793089
 address: Drottninggatan 28, 111 51 Stockholm
-station: Centralstationen
+station: T-Centralen / Central Station
 hours:
   mon: 11-17
   tue: 11-17
@@ -17,7 +17,8 @@ hours:
   fri: 11-17
   sat: 11-17
   sun: 11-17
-wifi: 4
+wifi: 3
+speed: 50
 power: 4
 vacancy: 4
 comfort: 4

@@ -8,7 +8,7 @@ area: Center
 google_maps: https://maps.app.goo.gl/6Pc823Z232unFUF99
 coordinates: 59.331099499572694, 18.05956232026161
 address: Vasagatan 22, 111 20 Stockholm
-station: Centralstationen
+station: T-Centralen / Central Station
 hours:
 wifi: 1
 power: 3
