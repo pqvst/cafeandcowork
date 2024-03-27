@@ -10,6 +10,14 @@ coordinates: 59.331099499572694, 18.05956232026161
 address: Vasagatan 22, 111 20 Stockholm
 station: T-Centralen / Central Station
 hours:
+  mon: 00-24
+  tue: 00-24
+  wed: 00-24
+  thu: 00-24
+  fri: 00-24
+  sat: 00-24
+  sun: 00-24
+hours:
 wifi: 1
 power: 3
 vacancy: 5
