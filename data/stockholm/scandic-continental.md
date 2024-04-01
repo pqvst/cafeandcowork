@@ -17,7 +17,6 @@ hours:
   fri: 00-24
   sat: 00-24
   sun: 00-24
-hours:
 wifi: 1
 power: 3
 vacancy: 5
