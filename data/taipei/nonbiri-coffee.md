@@ -21,14 +21,14 @@ hours:
   sun: 12:00-21:00
 wifi: 5
 speed: 517
-power: 5
-vacancy: 5
+power: 4
+vacancy: 4
 comfort: 5
 quiet: 4
 food: 4
 drinks: 5
 price: 2
-view: 4
+view: 3
 toilets: 5
 music: true
 smoking: false
