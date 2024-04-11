@@ -1,7 +1,7 @@
 ---
 contributors:
   - https://twitter.com/eric_khun
-added: 2024-02-01
+added: 2024-04-11
 name: Nonbiri coffee
 type: Cafe
 area: Songshan District
@@ -53,10 +53,10 @@ images:
   - 10.JPG
 ---
 
-New cafe opened end of 2023. 
+New cafe opened end of 2023. Great choice of music atmosphere ideal for working. Seats are comfortable and good decoration. Power outlets almost everywhere with excellent wifi. 
 
-Tasty lemon cheesecake/chiffon cake. The latte is also great.
+Tasty lemon cheesecake/chiffon cake. The latte is also great. Friendly owner. 
 
-Power outlets almost everywhere with excellent wifi. 
 
-Great choice of music atmosphere ideal for working. Seats are comfortable and good decoration. Friendly owner. 
+
+
