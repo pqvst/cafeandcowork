@@ -163,6 +163,10 @@ for (const locale of i18n.getLocales()) {
       });
     });
 
+    app.get(`${prefix}/api/${city.id}.json`, (req, res) => {
+      res.json(city);
+    });
+
     for (const redirect of city.redirects) {
       app.get(`${prefix}/${city.id}/${encodeURI(redirect.id)}`, redirectWithTrailingSlash);
       app.get(`${prefix}/${city.id}/${encodeURI(redirect.id)}/`, (req, res) => {
