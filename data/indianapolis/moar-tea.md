@@ -37,11 +37,4 @@ animals: false
 lactose_free_milk: true
 facebook: https://www.facebook.com/MoarTeaAndPoke/
 telephone: "+13177371897"
-images:
-  # attribution: Diana Ingemanson (https://maps.google.com/maps/contrib/110480358937726199003)
-  - interior1.jpg
-  # attribution: Diana Ingemanson (https://maps.google.com/maps/contrib/110480358937726199003)
-  - interior2.jpg
-  # attribution: Mark Petrison (https://maps.google.com/maps/contrib/103910667486716882566)
-  - exterior1.jpg
 ---

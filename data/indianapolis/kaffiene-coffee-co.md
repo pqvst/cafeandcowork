@@ -39,11 +39,4 @@ facebook: https://www.facebook.com/kaffeinecoffee707
 instagram: https://www.instagram.com/kaffeinecoffee/
 telephone: "+13177372020"
 website: https://www.kaffeinecoffee.org/
-images:
-  # attribution: Ashesh Goswami (https://maps.google.com/maps/contrib/110902451912622540321)
-  - interior1.jpg
-  # attribution: M A (https://maps.google.com/maps/contrib/104424774216693961908)
-  - interior2.jpg
-  # attribution: Trevor Preddy (https://maps.google.com/maps/contrib/116511704591895891185)
-  - exterior1.jpg
 ---
