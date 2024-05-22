@@ -18,16 +18,16 @@ hours:
   fri: 11:30-23:30
   sat: 11:30-23:30
 wifi: 4
-speed: 44
+speed: 47
 power: 4
-vacancy: 3
+vacancy: 4
 comfort: 4
 quiet: 4
-food: 3
+food: 4
 drinks: 5
 price: 5
 view: 5
-toilets:
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -37,4 +37,8 @@ animals: false
 lactose_free_milk: true
 facebook: https://www.facebook.com/MoarTeaAndPoke/
 telephone: "+13177371897"
+images:
+  - interior1.jpg
+  - interior2.jpg
+  - exterior.jpg
 ---
