@@ -35,7 +35,7 @@ outdoor_seating: true
 cash_only: false
 animals: 
 lactose_free_milk: 
-time_limit: false
+time_limit: true
 facebook: 
 instagram: https://www.instagram.com/mobacafe/
 telephone: "0362770232"
@@ -52,6 +52,8 @@ images:
   - sign.jpg
   - terrace.jpg
 ---
+
+Update: Large work table now has a 90 minute time-limit (per order)
 
 I recently discovered this new cafe near Gotanda station. Actually, the cafe seems to be a crowdfunded effort after the cafe previously at this location closed during the COVID pandemic. Their concept caters "Remote Workers", specifically those that have trouble joining remote meetings at home.
 

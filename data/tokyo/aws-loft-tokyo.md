@@ -1,7 +1,7 @@
 ---
 contributors:
   - https://github.com/benguild
-updated: 2023-01-30
+updated: 2024-05-21
 name: AWS Loft Tokyo
 type: Coworking Space
 area: Shinagawa
