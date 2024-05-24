@@ -2,6 +2,7 @@
 contributors:
   - https://lewx.dev
 added: 2024-05-09
+updated: 2024-05-23
 name: Kaffeine Coffee Co.
 type: Cafe
 area: Mass Ave
@@ -17,17 +18,18 @@ hours:
   thu: 06:00-18
   fri: 06:00-18
   sat: 06:00-18
+time_limit: false
 wifi: 5
 speed: 290
 power: 4
 vacancy: 4
 comfort: 4
-quiet: 3
+quiet: 4
 food: 3
 drinks: 5
 price: 5
 view: 5
-toilets: 3
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
@@ -39,4 +41,11 @@ facebook: https://www.facebook.com/kaffeinecoffee707
 instagram: https://www.instagram.com/kaffeinecoffee/
 telephone: "+13177372020"
 website: https://www.kaffeinecoffee.org/
+images:
+  - interior1.jpg
+  - interior2.jpg
+  - interior3.jpg
+  - exterior.jpg
 ---
+
+Nestled in a quiet industrial area near Mass Ave, this popular coffee shop is a hidden gem. They offer a wide variety of drinks, including their standout Moroccan Coffee and Spanish Latte. While parking can be a pain, the drinks and vibes are worth it. Plus, they have pretty fast Wi-Fi, making it a great spot to get some work done.
