@@ -42,7 +42,6 @@ images:
   - seating3.jpg
   - seating4.jpg
   - seating5.jpg
-  - menu.jpg
   - drinks.jpg
   - sign.jpg
   - elevator.jpg
