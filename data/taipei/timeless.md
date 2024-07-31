@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-12-02
 name: timeless 慕恆
 type: Lounge
