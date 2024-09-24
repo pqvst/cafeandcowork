@@ -40,4 +40,6 @@ images:
   - hours.jpg
   - outside.jpg
   - wifi.jpg
+review:
+  en: This library has plenty of seats and outlets to choose from. There are quite a few people working with their laptops open so seems like a normal thing to do. Wifi is not the fastest but stable. If you go towards the kids area, you might feel more comfortable taking calls since there are kids who are also loud. However, there are signs that says no loud talking on the phone so not the best place when you have a day full of meetings. The out door benches are also available and the wifi speed doesn't drop too much even if you're seated outside. There's a supermarket right next to it so you can go grab some drinks if you need any.
 ---
