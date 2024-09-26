@@ -1,4 +1,5 @@
 ---
+added: 2024-09-24
 name: Customs House Library
 type: Library
 area: Circular Quay
