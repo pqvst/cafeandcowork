@@ -41,6 +41,7 @@ images:
   - students.jpg
   - study-room.jpg
   - tables.jpg
+  - phone-booth.jpg
 review:
   en: This library is right outside of the Chatswood station and the area is full of Asian restaurants and big malls. There are plenty of tables and chairs around but during the day, most of the seats are taken by the local highschool students. There are quite a few kids who are casually chatting but not in a loud manner. There is a glassed corner near the entrance where you would be slightly more comfortable taking calls. Also, if you need 100% privacy and quietness, they have one bookable phone booth. It is free for the library members but it would cost you $2.50 / 30 mins if you are not a member. You can talk to the staff to book a spot.
 contributors:
