@@ -43,4 +43,6 @@ images:
   - front.jpg
 review:
   en: This library is located right in front of the Circular Quay station and wharf, so the access using public transport is great. The reading rooms are full of workers and students but it is a quiet room so if you have to take calls, you have to move to the common space where there are couple of sofas but not desks and tables. The reading room also doesn't have power outlets so you have to bring a mobile battery for longer hours.
+contributors:
+  - https://github.com/SuzukiRyuichiro
 ---

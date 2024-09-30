@@ -44,4 +44,6 @@ images:
   - outside2.jpg
 review:
   en: This library is filled with highschool kids and college students who are studying / nomad workers. The google review says it's not a good library but for sure it is a great spot to get things done :) The desks were available in the morning but quickly fills up in the afternoon. There are plenty of outlets even with direct USB-A and C sockets next to it. The downstairs is a food hall where you can grab some Chinese or other Asian food. The square in front of it is clean and beautiful too.
+contributors:
+  - https://github.com/SuzukiRyuichiro
 ---
