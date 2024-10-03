@@ -40,7 +40,7 @@ telephone:
 website: 
 images:
   - seating1.jpg
-  - seating2.jpg
+  - seating3.jpg
   - outside.jpg
   - cookies.jpg
   - menu1.jpg
