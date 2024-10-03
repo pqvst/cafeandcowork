@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2022-05-24
 name: Mercedes DOWNSTAIRS COFFEE
 type: Cafe

@@ -3,7 +3,7 @@ name: Starbucks Ebisu Union BLDG. Shop
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/yy5GMYCwNb5opg9E7
-coordinates: 35.6465146,139.7076175
+coordinates: 35.64619719785938, 139.70791513374405
 address: Japan, 〒150-0022 Tokyo, Shibuya City, Ebisuminami, 1 Chome−2−10 エビスユニオンビル １F
 station: Ebisu
 hours:

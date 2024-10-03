@@ -3,7 +3,7 @@ name: Nagatacho GRID
 type: Coworking Space
 area: Chiyoda
 google_maps: https://goo.gl/maps/GXyVpZFemXFZdGri8
-coordinates: 35.679827,139.7374163
+coordinates: 35.67983405346202, 139.73958353856364
 address: 2 Chome-5-3 Hirakawachō, Chiyoda City, Tokyo 102-0093, Japan
 station: Nagatacho
 hours: 9-23

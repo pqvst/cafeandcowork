@@ -4,7 +4,7 @@ name: Caffice
 type: Cafe
 area: Shinjuku
 google_maps: https://g.page/Caffice?share
-coordinates: 35.688716,139.7008353
+coordinates: 35.688706425059294, 139.70302367304103
 address: Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 4 Chome−2−23 新四ｃｕｒｕｍｕビル 2F
 station: Shinjuku
 hours: 10-23

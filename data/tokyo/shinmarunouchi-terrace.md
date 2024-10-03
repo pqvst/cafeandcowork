@@ -3,7 +3,7 @@ name: Shin-Marunouchi Garden Terrace
 type: Public Space
 area: Chiyoda
 google_maps: https://goo.gl/maps/FrBFYuxA6edrXAY4A
-coordinates: 35.6798374,139.7643729
+coordinates: 35.68256795020498, 139.76434450692864
 address: Japan, 〒100-6590 Tokyo, Chiyoda City, Marunouchi, 1 Chome−5−1 新丸の内ビルディング7階
 station: Tokyo
 hours: 11-23

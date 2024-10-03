@@ -3,7 +3,7 @@ name: DEAN & DELUCA CAFÉ Shibuya Stream
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/atKy8wQDm5KNXDuDA
-coordinates: 35.6569688,139.7028353
+coordinates: 35.657359814187764, 139.7031446352607
 address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 3 Chome−21−3 渋谷ストリーム2F
 station: Shibuya
 hours: 7-21  

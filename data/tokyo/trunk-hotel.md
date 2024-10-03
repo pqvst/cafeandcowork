@@ -3,7 +3,7 @@ name: TRUNK HOTEL
 type: Lobby
 area: Shibuya
 google_maps: https://goo.gl/maps/vXirRuykPmE2Zpte8
-coordinates: 35.6642386,139.701675
+coordinates: 35.66417140118845, 139.70378534685588
 address: 5 Chome-31 Jingumae, Shibuya City, Tokyo 150-0001, Japan
 station: Shibuya, Harajuku
 hours: 9-23

@@ -1,9 +1,9 @@
 ---
-name: Starbucks @Shibuya Stream
+name: Starbucks Shibuya Stream
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/2uKpYHMWBLT5EFhp9
-coordinates: 35.6571126,139.7027039
+coordinates: 35.65756676950609, 139.7024980954252
 address: 3 Chome-21-3 Shibuya, Shibuya City, Tokyo 150-0002, Japan
 station: Shibuya
 hours: 7-22:30

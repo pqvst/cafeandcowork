@@ -4,7 +4,7 @@ name: Time Out
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/XHHSu2wevePfgPMJ7
-coordinates: 35.6477366,139.7096713
+coordinates: 35.63451453100122, 139.71189205390587
 address: Japan, 〒150-0011 Tokyo, Shibuya City, Higashi, 3 Chome−16−6 リキッドルーム 2F
 station: Ebisu
 hours:

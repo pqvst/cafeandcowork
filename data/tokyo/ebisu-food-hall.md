@@ -4,7 +4,7 @@ name: EBISU FOOD HALL
 type: Cafe
 area: Shibuya
 google_maps: https://g.page/ebisufoodhall?share
-coordinates: 35.646447,139.7061138
+coordinates: 35.64640524128531, 139.708274628175
 address: Japan, 〒150-0022 Tokyo, Shibuya City, Ebisuminami, 1 Chome−1−9 岩徳ビル 1階
 station: Ebisu
 hours: 9-23

@@ -4,7 +4,7 @@ name: Freeman Cafe
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/Hhos4c1nFVopSonu9
-coordinates: 35.6615348,139.7005439
+coordinates: 35.661609464767075, 139.70252270244754
 address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 1 Chome−16−14 メトロプラザ 2Ｆ
 station: Shibuya
 hours: 9-23

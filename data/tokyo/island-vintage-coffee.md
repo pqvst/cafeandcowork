@@ -4,7 +4,7 @@ name: Island Vintage Coffee Omotesando
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/9CWnCjWGDXjK57Re8
-coordinates: 35.6664913,139.7071731
+coordinates: 35.667685485769276, 139.70666920810766
 address: 6 Chome-1-10 Jingumae, 渋谷区 Shibuya City, Tokyo 150-0001, Japan
 station: Harajuku
 hours: 10-19:30

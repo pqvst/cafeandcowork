@@ -3,7 +3,7 @@ name: Starbucks Tokyo Dome City LaQua
 type: Cafe
 area: Bunkyo
 google_maps: https://goo.gl/maps/agXBZPrqdQLaPz9W8
-coordinates: 35.7081505,139.7519667
+coordinates: 35.70689666101586, 139.7524398423878
 address: 削除済み, 1 Chome-1-1 Kasuga, Bunkyo City, Tokyo 112-0003, Japan
 station: Korakuen
 hours: 8-22

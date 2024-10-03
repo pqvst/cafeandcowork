@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2024-02-21
 name: café 1886 at Bosch
 type: Cafe

@@ -3,7 +3,7 @@ name: Starbucks Meguro Central Square
 type: Cafe
 area: Shinagawa
 google_maps: https://goo.gl/maps/EPcnnm64PTSMred17
-coordinates: 35.633888,139.7158331
+coordinates: 35.63338794308709, 139.71691125729544
 address: 3 Chome-1-1 Kamiosaki, Shinagawa City, Tokyo 141-0021, Japan
 station: Meguro
 hours: 7-22

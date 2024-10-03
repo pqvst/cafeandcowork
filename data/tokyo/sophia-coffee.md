@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2024-04-01
 name: Sophia Coffee
 type: Cafe

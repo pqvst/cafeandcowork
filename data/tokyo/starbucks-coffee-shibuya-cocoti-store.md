@@ -3,7 +3,7 @@ name: Starbucks Shibuya cocoti store
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/APuxX8sEMCjCaApn7
-coordinates: 35.6614311,139.6991223
+coordinates: 35.662041312472375, 139.70255753856284
 address: Japan, 〒150-0002 Tokyo, Shibuya City, Shibuya, 1 Chome−23−17 ｃｏｃｏｔｉ 2F
 station: Shibuya
 hours: 7-22:30

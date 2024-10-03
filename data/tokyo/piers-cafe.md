@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2023-11-05
 name: PIER'S CAFE
 type: Cafe

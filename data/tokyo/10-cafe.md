@@ -4,7 +4,7 @@ name: 10° Cafe
 type: Cafe
 area: Toshima
 google_maps: https://maps.app.goo.gl/GaCyKLoieF4yHfYY9
-coordinates: 35.7147514,139.7033088
+coordinates: 35.71474756147704, 139.7054988373416
 address: 3 Chome-12-8 Takada, Toshima City, Tokyo 171-0033, Japan
 station: Takadanobaba
 hours:

@@ -1,9 +1,9 @@
 ---
-name: Starbucks Shibuya Modi Shop
+name: Starbucks Shibuya MODI
 type: Cafe
 area: Shibuya
 google_maps: https://goo.gl/maps/SsEnBWwRHwRzRusi7
-coordinates: 35.6614498,139.6983341
+coordinates: 35.66156465571857, 139.70052407332756
 address: Marui City Shibuya, 4F, 1 Chome-21-3 Jinnan, Shibuya City, Tokyo 150-0041, Japan
 station: Shibuya
 hours: 8-23
