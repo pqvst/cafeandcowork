@@ -23,7 +23,7 @@ comfort: 3
 quiet: 4
 food: 
 drinks: 4
-price: 3
+price: 2
 view: 5
 toilets: 4
 music: true
@@ -44,3 +44,4 @@ images:
   - seating2.jpg
 ---
 
+A good cafe in Roppongi. It's large and spacious with plenty of seats. The table seats have power, but they're usually occupied unless you arrive early. The WiFi is fast and reliable. Drinks and food are quite pricey though. Note that laptops are not allowed after 6pm!
