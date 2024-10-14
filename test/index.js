@@ -47,7 +47,8 @@ const types = [
   'Lounge',
   'Booth',
   'Bookstore',
-  'Hotel'
+  'Hotel',
+  'Pub'
 ];
 
 const placeSchema = {

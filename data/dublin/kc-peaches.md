@@ -3,7 +3,7 @@ contributors:
   - https://github.com/richardsimko
 added: 2024-10-12
 name: KC Peaches Dame Street
-type: Café
+type: Cafe
 area: Center
 google_maps: https://maps.app.goo.gl/wTD9y2qbRiPZ7QnP7
 coordinates: 53.34432930329478, -6.264328573169394
