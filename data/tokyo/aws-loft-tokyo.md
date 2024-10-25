@@ -18,11 +18,11 @@ hours:
 wifi: 5
 speed: 110
 power: 5
-vacancy: 5
+vacancy: 3
 comfort: 5
 quiet: 5
 food: 2
-drinks: 5
+drinks: 2
 price: 5
 view: 5
 toilets: 5
@@ -60,11 +60,11 @@ Easily one of the best places to work from in Tokyo. It's free to use, all you n
 
 **Space**: The space looks really impressive with large windows offering amazing views of the surrounding area. There are different zones for working, relaxing, and meetings. There is also an "ask an AWS expert" corner, which is a fun concept. Lots of power outlets. There is music playing.
 
-**Seating**: There are large shared work tables with soft and hard chairs. The soft chairs are really comfortable actually. There's also counter-style seating along the back wall, and couch-style seating along another wall.
+**Seating**: There are large shared work tables with soft and hard chairs. The soft chairs are really comfortable actually. There's also counter-style seating along the back wall, and couch-style seating along another wall. It can fill up quickly so it is best to arrive early.
 
-**Wifi**: Good. 100 Mbit down. 150 Mbit up. 6-18ms ping. We'll have to see how it holds up when the co-working space eventually gets more crowded.
+**Wifi**: Excellent. 100 Mbit down. 150 Mbit up. 6-18ms ping.
 
-**Food/drinks**: There is a coffee/tea machine (free), soft drinks for purchase, and some snacks for purchase as well.
+**Food/drinks**: There is a coffee/tea machine and soft drinks for purchase, and some snacks for purchase as well. I usually just grab a Starbucks from downstairs instead.
 
 **Meeting rooms**: There are several meeting rooms and phone booths that (I think) can be booked for free as well. I haven't really looked into it yet, though.
 
