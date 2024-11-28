@@ -32,4 +32,4 @@ images:
   - bar.jpg
 ---
 
-A trendy hostel that is designed by the folks who did K5 as well. The cafe lounge space is open to public as well as the guests. There are some food options with coffee. The seats are not strictly for working but the atmosphere and the big window takes lots of sunlight so I like that than Citan where you get close to no sunlight in the cafe. One unfortunate thing is that there's close to no plugs to charge your devices.
+A trendy hostel that is designed by the folks who did K5 as well. The cafe lounge space is open to public as well as the guests. There are some food options with coffee. The seats are not strictly for working but the atmosphere and the big window takes lots of sunlight so I like that than Citan where you get close to no sunlight in the cafe. One unfortunate thing is that there's close to no plugs to charge your devices, other than the one couch seat by the piano.
