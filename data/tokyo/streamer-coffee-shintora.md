@@ -33,7 +33,7 @@ outdoor_seating: true
 cash_only: false
 lactose_free_milk: true
 instagram: https://www.instagram.com/streamer_shintora/
-telephone: 0364528715
+telephone: "0364528715"
 website: http://www.streamer.coffee/
 images:
   - outside.jpg
