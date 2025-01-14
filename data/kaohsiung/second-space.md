@@ -1,6 +1,6 @@
 ---
 redirect_old_city: taiwan
-added: 2025-11-01
+added: 2025-01-11
 name: Second Space Coworking
 type: Coworking Space
 area: Kaohsiung
