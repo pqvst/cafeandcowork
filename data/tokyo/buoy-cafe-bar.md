@@ -16,13 +16,13 @@ wifi: 5
 speed: 150
 power: 4
 vacancy: 5
-comfort: 4
+comfort: 3
 quiet: 5
 food: 
 drinks: 4
 price: 3
-view: 5
-toilets: 
+view: 4
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
