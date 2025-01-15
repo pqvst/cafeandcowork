@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2023-10-05
 name: Kitasando Coffee Shimokitazawa
 type: Cafe
