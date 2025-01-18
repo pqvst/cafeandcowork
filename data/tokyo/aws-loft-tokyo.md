@@ -1,7 +1,7 @@
 ---
 contributors:
   - https://github.com/benguild
-updated: 2024-05-21
+updated: 2025-01-18
 name: AWS Loft Tokyo
 type: Coworking Space
 area: Shinagawa
@@ -13,8 +13,8 @@ hours:
   mon: 10-18
   tue: 10-18
   wed: 10-18
-  thu: 10-18
-  fri: 10-18
+  thu: 10-18 (Closed 2025-02-01 onwards)
+  fri: 10-18 (Closed 2025-02-01 onwards)
 wifi: 5
 speed: 110
 power: 5
