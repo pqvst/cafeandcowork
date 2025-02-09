@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2022-08-08
 name: Caffé Bene (Seolleung)
 type: Cafe
