@@ -27,9 +27,10 @@ outdoor_seating: true
 cash_only: false
 time_limit: false
 images:
-  - inside.jpg
-  - coffee.jpg
   - food.jpg
+  - coffee.jpg
+  - inside.jpg
+  - outside.jpg
 review:
   en: A brunch spot with terrace for couples and singles. WiFi might be slow at some parts of the restaurant.
 ---
