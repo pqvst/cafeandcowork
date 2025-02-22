@@ -28,7 +28,7 @@ cash_only: false
 time_limit: false
 images:
   - entrance.jpg
-  - seats.jpg
+  - inside.jpg
   - wifi.jpg
 review:
   en: A cafe / bar / restaurant in Uluwatu. It is playing heavy music + the road facing towards is a main road that goes through Uluwatu so there's quite a lot of trafic you can hear. There are plug on most of the seats. I just got lots of mosquito bites, which might be my fault but I'll reduce the comfort point for that. It's a typical no-wall establishment so there's not much we can do but I got like 20 bites in an hour 🥺

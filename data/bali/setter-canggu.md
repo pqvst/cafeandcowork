@@ -29,6 +29,7 @@ time_limit: false
 toilets: true
 images:
   - main.jpg
+  - rooftop.jpg
 review:
   en: Setter is a co-working space that offers a day pass for 299k IDR / $18 / ¥2800. Obviously, it is not the cheapest but if you're staying and working in Canggu for a bit, it might worth getting a week pass or something to have a place to be at. They have ok coffee from the coffee machine and there is a roof top area that you could also work in, but that is half outside so could get hot and humid. There is a shower so you can be sweatty but get refreshed.
 ---
