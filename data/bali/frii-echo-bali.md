@@ -3,7 +3,7 @@ contributors:
   - https://github.com/SuzukiRyuichiro
 added: 2025-02-17
 name: Frii Hotel
-type: Hotel Lobby
+type: Lobby
 area: Canggu
 google_maps: https://maps.app.goo.gl/Fqd8zMjC7okw5P6f9
 coordinates: -8.6539724, 115.130350
