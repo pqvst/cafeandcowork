@@ -26,7 +26,7 @@ standing_tables: true
 outdoor_seating: false
 cash_only: false
 time_limit: false
-toilets: true
+toilets: 4
 images:
   - main.jpg
   - rooftop.jpg

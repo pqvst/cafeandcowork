@@ -25,7 +25,7 @@ standing_tables: false
 outdoor_seating: true
 cash_only: false
 time_limit: false
-toilets: true
+toilets: 5
 images:
   - 2nd_floor.jpg
   - wifi.jpg
