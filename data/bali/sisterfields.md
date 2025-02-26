@@ -24,7 +24,7 @@ smoking: true
 standing_tables: false
 outdoor_seating: true
 cash_only: false
-toilets: true
+toilets: 5
 time_limit: false
 images:
   - inside.jpg

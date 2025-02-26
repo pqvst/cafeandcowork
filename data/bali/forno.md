@@ -19,7 +19,7 @@ food: 4
 drinks: 4
 price: 4
 view: 3
-toilets: true
+toilets: 4
 music: true
 smoking: false
 standing_tables: false
