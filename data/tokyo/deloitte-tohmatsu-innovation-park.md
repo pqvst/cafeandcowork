@@ -31,10 +31,10 @@ outdoor_seating: false
 cash_only: false
 time_limit: false
 images:
+  - sofas.jpg
   - cafe.jpg
   - indoor.jpg
   - coffee.jpg
-  - sofas.jpg
 
 contributors:
   - https://github.com/SuzukiRyuichiro
