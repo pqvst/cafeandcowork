@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2021-11-08
 name: Out Of Office
 type: Cafe

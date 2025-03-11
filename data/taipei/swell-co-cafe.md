@@ -1,4 +1,5 @@
 ---
+closed: true
 updated: 2021-10-28
 name: SWELL CO. CAFE
 type: Cafe
