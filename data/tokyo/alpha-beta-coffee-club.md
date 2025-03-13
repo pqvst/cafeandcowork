@@ -1,6 +1,6 @@
 ---
 added: 2025-01-16
-name: Alpha Beta Coffee Club (Jiyugoka)
+name: Alpha Beta Coffee Club
 type: Cafe
 area: Jiyugaoka
 google_maps: https://maps.app.goo.gl/kxLTdpHtusNV2Hws5

@@ -41,6 +41,9 @@ website: https://www.jrff.co.jp/cinnabon/
 images:
   - seating1.jpg
   - seating2.jpg
+  - seating3.jpg
+  - seating4.jpg
+  - drink.jpg
   - menu.jpg
 ---
 
