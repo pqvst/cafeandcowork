@@ -11,7 +11,12 @@
   "author": "pqvst",
   "license": "ISC",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@cypress/webpack-preprocessor": "^6.0.4",
     "ajv": "^8.12.0",
+    "cypress": "^10.11.0",
+    "cypress-grep": "^3.0.4",
     "linkinator": "^6.0.4",
     "nodemon": "^3.1.0",
     "shrinkem": "^2.1.0"
