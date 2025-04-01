@@ -42,4 +42,4 @@ telephone: "+81354283658"
 website: https://www.flavorworks.co.jp/brand/roastedcoffeelaboratory.html
 ---
 
-Popular cafe in Shibuya. It can get pretty crowded, especially on weekends. Easy access to power outlets inside. Fairly large outdoor seating area as well, although try to avoid sitting next to the smoking area. WiFi is pretty slow, service is usually quite slow, and the queue for the restroom can be quite slow as well.
+Popular cafe in Shibuya. It can get pretty crowded, especially on weekends. Easy access to power outlets inside. Fairly large outdoor seating area as well, although try to avoid sitting next to the smoking area. WiFi is pretty slow as the cafe gets busy, service is usually quite slow, and the queue for the restroom can be quite slow as well.
