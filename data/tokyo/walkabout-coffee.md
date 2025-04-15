@@ -35,6 +35,9 @@ lactose_free_milk: true
 time_limit: false
 facebook:
 instagram:
+images:
+  - inside.jpg
+  - desks.jpg
 ---
 
-A very small cafe that originates in Australia. The plugs are available bit out of sight underneath the table but it's on every seat. The lamps on the desk is also very helpful. It's crazy they are open till 10pm on weekdays, and open from 7:30.
+A very small cafe that originates in Australia. Plugs are available althought they are a bit out of sight underneath the table. Desks are well lit with natural light + a soft lamp and lovely to stay around. It's crazy they are open till 10pm on weekdays, and open from 7:30.
