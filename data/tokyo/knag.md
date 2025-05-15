@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2023-11-10
 name: KNAG
 type: Cafe
