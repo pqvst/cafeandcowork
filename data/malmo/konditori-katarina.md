@@ -1,4 +1,6 @@
 ---
+contributors:
+  - https://github.com/richardsimko
 added: 2025-06-04
 name: Konditori Katarina
 type: Cafe

@@ -1,5 +1,7 @@
 ---
 added: 2025-06-03
+contributors:
+  - https://github.com/richardsimko
 name: The Living Room
 type: Cafe
 area: Indre By
