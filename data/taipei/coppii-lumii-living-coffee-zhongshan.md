@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 
 name: Coppii Lumii living coffee 冉冉生活
 type: Cafe

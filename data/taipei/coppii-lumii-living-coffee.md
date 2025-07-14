@@ -2,7 +2,7 @@
 name: Coppii Lumii living coffee
 type: Cafe
 area: Nangang
-google_maps: https://g.page/CoppiiLumiiJM?share
+google_maps: https://maps.app.goo.gl/fcuesHj1j1n8iErS8
 coordinates: 25.060010, 121.614615
 address: No. 196-1號, Jingmao 2nd Road, Nangang District, Taipei City, Taiwan 115
 station: Nangang Expo
