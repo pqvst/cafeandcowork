@@ -2,7 +2,7 @@
 added: 2025-07-15
 name: Anjuna book & art cafe
 type: Cafe
-area: CHD-1 khoroo
+area:
 google_maps: https://maps.app.goo.gl/as6bRn5A112Sv3vg6
 coordinates: 47.9197875,106.9143281
 address: CHD - 1 khoroo, Ulaanbaatar 15160, Mongolia
