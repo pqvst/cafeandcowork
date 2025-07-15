@@ -1,5 +1,5 @@
 ---
-updated: 2023-10-10
+updated: 2025-07-14
 name: FabCafe
 type: Cafe
 area: Shibuya
@@ -26,7 +26,7 @@ outdoor_seating: false
 cash_only: false
 animals: false
 lactose_free_milk: true
-time_limit: false
+time_limit: true
 facebook: https://www.facebook.com/fabcafe.global/
 instagram: https://www.instagram.com/fabcafe.global/
 telephone: "+81364169190"
@@ -39,3 +39,5 @@ images:
 ---
 
 A really cool place in Shibuya. It started out as a maker space (with 3D printers, laser cutters, and more), and then they added a café as well. I haven’t tried the food, but they have some nice drinks. Their ginger ale is awesome (real ginger!). Plenty of power outlets. If you ask for it they’ll help you out with an extension cord, if needed. Good WiFi, never had any issues.
+
+Note that there is a 90 minute time-limit per drink order on weekends!

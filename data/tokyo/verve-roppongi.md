@@ -8,8 +8,8 @@ coordinates: 35.66155259245055, 139.73625698252857
 address: 5 Chome-16-7 Roppongi, Minato City, Tokyo 106-0032
 station: Roppongi
 hours: 7-21
-wifi: 2
-speed: 9
+wifi: 3
+speed: 90
 power: 2
 vacancy: 3
 comfort: 3
@@ -33,6 +33,9 @@ telephone: "0364275403"
 website: https://vervecoffee.jp/
 images:
   - seating.jpg
+  - view.jpg
 ---
 
-A nice, large Verve not too far from Roppongi station. Large outdoor seating area, some seating on the 1st floor, and even more seating on the 2nd floor. I saw some power outlets on the 1st floor (not sure about the 2nd floor). The WiFi "works" but it is quite slow.
+A nice, large Verve not too far from Roppongi station. Large outdoor seating area, some seating on the 1st floor, and even more seating on the 2nd floor. I saw some power outlets on the 1st floor (not sure about the 2nd floor).
+
+The "vervecoffee" WiFi is usually pretty bad. The "TOKYO FREE Wi-Fi" is best (faster and more stable), but it requires registration. Instructions are available here: https://wi-fi.metro.tokyo.lg.jp/en/
