@@ -26,7 +26,7 @@ outdoor_seating: false
 cash_only: false
 animals: 
 lactose_free_milk: 
-time_limit: false
+time_limit: true
 facebook: 
 instagram: 
 telephone: 
@@ -38,4 +38,4 @@ images:
   - outside.jpg
 ---
 
-A small but cozy cafe near Todoroki station. Both weekends, and especially weekdays are pretty quiet. The menu is fairly small, with a selection of coffee and some snacks. There's WiFi, but no power outlets.
+A small but cozy cafe near Todoroki station. Both weekends, and especially weekdays are pretty quiet. The menu is fairly small, with a selection of coffee and some snacks. There's WiFi, but no power outlets. It seems like there is a 90 minute time limit.
