@@ -1,6 +1,6 @@
 ---
 added: 2024-04-26
-name: Streamer Coffee Company Harajuku
+name: STREAMER COFFEE COMPANY (Harajuku)
 type: Cafe
 area: Harajuku
 google_maps: https://maps.app.goo.gl/uoS41ocyhB5xKGtK7

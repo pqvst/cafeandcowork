@@ -1,6 +1,6 @@
 ---
 added: 2024-10-01
-name: STREAMER COFFEE AZABU-JUBAN
+name: STREAMER COFFEE COMPANY (Azabu-Juban)
 type: Cafe
 area: Roppongi
 google_maps: https://maps.app.goo.gl/KTAYComDjXYK8gQy9

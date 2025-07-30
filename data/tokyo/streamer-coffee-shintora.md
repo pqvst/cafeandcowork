@@ -1,6 +1,6 @@
 ---
 added: 2024-11-11
-name: Streamer Coffee Company Shintora
+name: STREAMER COFFEE COMPANY (Shintora)
 type: Cafe
 area: Shimbashi
 google_maps: https://maps.app.goo.gl/VLSWzGJcmsLKbrSs6

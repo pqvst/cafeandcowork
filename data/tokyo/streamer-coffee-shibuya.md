@@ -1,6 +1,6 @@
 ---
 added: 2023-10-10
-name: Streamer Coffee Company Shibuya
+name: STREAMER COFFEE COMPANY (Shibuya)
 type: Cafe
 area: Shibuya
 google_maps: https://maps.app.goo.gl/Tkv5wVKGxr9z776KA

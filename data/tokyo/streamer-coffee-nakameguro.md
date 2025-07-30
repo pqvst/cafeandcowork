@@ -1,6 +1,6 @@
 ---
 added: 2023-02-03
-name: Streamer Coffee Company Nakameguro
+name: STREAMER COFFEE COMPANY (Nakameguro)
 type: Cafe
 area: Meguro
 google_maps: https://goo.gl/maps/3QRaJbChuvx57ynj9
