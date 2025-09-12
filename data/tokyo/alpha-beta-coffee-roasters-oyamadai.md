@@ -40,3 +40,5 @@ images:
   - menu2.jpg
   - snacks.jpg
 ---
+
+Another solid ABC Roasters location. This one located just a short walk from Oyamadai station on the Oimachi line. It was fairly busy on a weekday morning.
