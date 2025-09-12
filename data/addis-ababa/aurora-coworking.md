@@ -8,7 +8,7 @@ area: Addis Ababa
 google_maps: https://maps.app.goo.gl/uh9S7ZrMhLVrxSbW8
 address: XQRF+H7, Dani Plaza, Addis Ababa, Ethiopia
 website: https://auroraaddis.com/
-phone: +251 97 094 5940
+phone: "+251 97 094 5940"
 coordinates: 8.9914008, 38.7636695
 station:
 hours: 09:00-21:00
