@@ -1,5 +1,5 @@
 ---
-added: 2024-10-24
+added: 2025-08-12
 name: ONIBUS COFFEE Nakameguro 3 Chome
 type: Cafe
 area: Nakameguro
@@ -8,14 +8,14 @@ coordinates: 35.6386352563886, 139.69793784599736
 address: 3 Chome-23-16 Nakameguro, Meguro City, Tokyo 153-0061, Japan
 station: Nakameguro
 hours: 9-18
-wifi: 0
-speed: 
+wifi: 3
+speed: 20
 power: 0
 vacancy: 4
 comfort: 3
 quiet: 4
 food: 
-drinks: 2
+drinks: 4
 price: 3
 view: 5
 toilets: 
@@ -25,7 +25,7 @@ standing_tables: true
 outdoor_seating: false
 cash_only: false
 animals: 
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/onibuscoffee
 instagram: https://www.instagram.com/onibuscoffee
@@ -37,4 +37,4 @@ images:
   - outside.jpg
 ---
 
-Nice design, and it is workable if you have your own hot-spot, since there is no WiFi. Also the back downstairs seating area has essentially no docomo reception. I didn't see any power outlets. Menu is coffee only (no tea available).
+Some recent improvements makes this a much more appealing cafe to work from. There is WiFi now (NOWHERE-GUEST network), and the drinks menu is a big bigger now, including tea besides a large selection of coffee drinks.
