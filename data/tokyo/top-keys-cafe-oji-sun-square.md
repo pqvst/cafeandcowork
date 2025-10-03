@@ -38,6 +38,8 @@ facebook: "0359446155"
 instagram: 
 telephone: 
 website: 
+images:
+  - seating.jpg
 ---
 
 Located just across the street from Oji station. Quite a large interior seating space, as well as an outdoor area. No WiFi, but power outlets are available inside.
