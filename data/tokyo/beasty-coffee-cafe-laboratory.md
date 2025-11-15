@@ -33,4 +33,4 @@ website: http://beastycoffee.com/
 
 Nice new coffee shop. The coffee selection seems very good. Unfortunately they didn't have any tea, but the original lemonade was really good. Nice cozy atmosphere, fast WiFi, power outlets, friendly staff. It got quite busy in the afternoon around 2pm. Morning seems quieter.
 
-Weekends have a 90 minute time-limit although it doesn't seem to be strictly enforced.
+Weekends have a 90 minute time-limit although it doesn't seem to be strictly enforced but the note about the rules cover the power outlets to prevent charging.
