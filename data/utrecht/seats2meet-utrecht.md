@@ -1,4 +1,5 @@
 ---
+closed: true
 redirect_old_city: netherlands
 added: 2022-12-05
 name: Seats2meet Utrecht CS
