@@ -3,7 +3,7 @@ contributors:
   - https://www.instagram.com/ciosai
 added: 2025-12-11
 name: Yudong Coffee (Pukyong University)
-type: Study Cafe
+type: Cafe
 area: Nam-gu
 google_maps: https://maps.app.goo.gl/C6A8pwnXfaexJDc77
 coordinates: 35.135766591353025, 129.1039637720781
