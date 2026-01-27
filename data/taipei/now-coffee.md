@@ -1,5 +1,8 @@
 ---
 added: 2024-01-16
+updated: 2026-01-27
+contributors:
+  - https://x.com/mykov20
 name: NOW coffee 鬧咖啡
 type: Cafe
 area: Zhongzheng
@@ -10,12 +13,12 @@ address:
   zh-tw: 100台北市中正區延平南路58號
 station: Ximen
 hours:
-  mon: 10-22
-  tue: 10-22
-  wed: 10-22
-  thu: 10-22
-  fri: 10-22
-  sat: 10-22
+  mon: 10-21:30
+  tue: 10-21:30
+  wed: 10-21:30
+  thu: 10-21:30
+  fri: 10-21:30
+  sat: 10-21:30
   sun: 11-19
 wifi: 5
 speed: 110
@@ -33,13 +36,13 @@ smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
-animals: 
+animals:
 lactose_free_milk: true
 time_limit: true
 facebook: https://www.facebook.com/nowcoffee.taipei/
 instagram: https://www.instagram.com/nowstudio.tw/
 telephone: "+886223613160"
-website: 
+website:
 images:
   - seating1.jpg
   - seating2.jpg
@@ -56,7 +59,7 @@ images:
   - menu8.jpg
 review:
   en: |
-    The entrance to this cafe is a little hidden since the front only has a take-out window. The cafe entrance is actually from the side road. There are two floors with seating (the 3rd floor is just an event space).
+    Go through the side entrance, the front is take-out only (pricing is slightly more expensive for seating). When entering the cafe, pick a table on the first two floors (3rd floor is just an event space) then order at the counter.
 
     Overall I'd say this cafe is great for having a nice lunch and doing some work or study. I would definitely recommend getting a seat on the second floor, which was very quiet, has plenty of natural light, and comfortable seats.
 

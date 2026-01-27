@@ -1,6 +1,9 @@
 ---
+closed: true
+updated: 2026-01-27
 contributors:
   - https://twitter.com/eric_khun
+  - https://x.com/mykov20
 added: 2024-04-11
 name: Nonbiri coffee
 type: Cafe
@@ -39,7 +42,7 @@ lactose_free_milk: true
 facebook: https://www.facebook.com/p/Nonbiri-Coffee-Shop-61550519480588/
 instagram: https://www.instagram.com/nonbiricoffeeshop
 telephone: "+886227169897"
-website: 
+website:
 images:
   - 1.JPG
   - 2.JPG
@@ -53,10 +56,6 @@ images:
   - 10.JPG
 ---
 
-New cafe opened end of 2023. Great choice of music atmosphere ideal for working. Seats are comfortable and good decoration. Power outlets almost everywhere with excellent wifi. 
+New cafe opened end of 2023. Great choice of music atmosphere ideal for working. Seats are comfortable and good decoration. Power outlets almost everywhere with excellent wifi.
 
-Tasty lemon cheesecake/chiffon cake. The latte is also great. Friendly owner. 
-
-
-
-
+Tasty lemon cheesecake/chiffon cake. The latte is also great. Friendly owner.

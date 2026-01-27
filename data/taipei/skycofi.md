@@ -1,5 +1,6 @@
 ---
 added: 2022-05-12
+updated: 2026-01-27
 name: Sky Cofi
 type: Cafe
 area: Songshan
@@ -48,10 +49,13 @@ images:
   - seating2.jpg
   - entrance.jpg
   - food.jpg
-  - menu1.jpg
-  - menu2.jpg
-  - menu3.jpg
-  - menu4.jpg
+  - menu1.jpeg
+  - menu2.jpeg
+  - menu3.jpeg
+  - menu4.jpeg
+  - menu5.jpeg
+  - menu6.jpeg
+  - menu7.jpeg
   - outside.jpg
 review:
   en: |
@@ -61,41 +65,49 @@ review:
 
     As for payment, you can choose between two different plans, depending on what you prefer:
 
-    **Worker Plan:**
+    **CoWorker Plan:**
 
-    - Unlimited "basic" drinks (free of charge)
-    - Unlimited small snacks (free of charge)
-    - Upgrade a "premium" drink for an additional cost
-    - First hour: 100 NTD
-    - Each additional half hour: 50 NTD
-    - Day pass: 390 NTD
-    - (Price is capped at 450 without a day pass)
+    - During the usage period, you can enjoy unlimited coffee, tea, fresh fruits, various nuts and snacks.
+    - You can also bring outside food!
+    - First 120 min: 280 NTD
+    - Each additional 30 min: 65 NTD
+    - Day pass max: 540 NTD
 
-    **Minimum Order Plan:**
+    **Day Pass Bulk Pricing:**
+    - 5 Day Pass: $2,600
+    - 10 Day Pass: $5,100
+    - 20 Day Pass: $10,000
 
-    - The more you spend, the longer you can stay
-    - 2 hours: spend 100 NTD
-    - Unlimited time: spend 250 NTD
+    **Minimum Consumption Plan:**
 
-    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich) then the "Minimum Order Plan" is probably best since you will likely spend at least 250 NTD, which lets you stay the whole day. However, if you only want drinks (or plan to bring your own food), then the worker plan is probably best. I would say the concept is quite creative and great for catering to different peoples' needs. However, it does feel a little complicated at first. 
+    - Order whatever you want and choose the plan that fits your mood
+    - NT$ 145: 2.5 hours
+    - NT$ 290: 5 hours
+    - NT$ 435: Unlimited time
+
+    So which plan is best? Well, it depends. If you're planning to order a drink and food (sandwich), then the "Minimum Consumption Plan" might be best. However, if you're planning to stay all day and want the unlimited snacks, fruits, and drinks (or plan to bring your own food), the "CoWorker Plan" is excellent value. Both options are quite creative and great for catering to different needs.
   zh-tw: |
     Sky Cofi是一個複合式的共享空間，概念非常新奇，走進這裡你會明顯感受到這是專為遠端和游牧工作者打造的空間，充滿著巧思，不過實際上這裡也提供了咖啡店的功能，根據不同的工作需求可以選擇不同方案 (下面會再說明)，這裡真的名副其實的準備了「everything you need」。因為屬性也包含咖啡店，Sky Cofi提供了非常完整的餐點和咖啡菜單(意味著來這裡不用擔心要去哪裡覓食)，而工作者需要的高速Wifi、好用的插座、不同的座位類型也都在清單上了，就算是已經走遍各種共享空間的我們，也很難再挑剔些什麼，尤其是當Sky Cofi居然還大方讓你帶外食進來吃的時候，真的，已經好到無話可說了。
 
     Sky Cofi的地點也很方便，在南京復興六號出口附近的商業大樓16樓，同個大樓內還包含幾層的 SkyCo 共享辦公室，Sky Cofi 和 SkyCo 有合作關係，未來也可能會推出互惠計畫，讓使用Sky Cofi的人也能借用 SkyCo的部分設施(未定)，唯一美中不足的地方可能是這裡雖然很開闊，但整體空間並不算是非常大，因為在很方便的地點，平日似乎經常性六七成滿，想要坐在窗前的吧檯位需要早點到。而除了總是熱門的窗邊位置外，他們也有一些可以站著工作的高腳桌以及其他的個人坐位。最後再補充一下餐飲的部分，Sky Cofi 在這點上真的很用心，我們點了帕里尼三明治和烤土司，兩項都是真的很美味，價格也非常實惠，對於還滿在意早餐的工作者來說，來Sky Cofi還能節省早上另外覓食的時間，非常棒！
 
-    **工作者方案**
-      - 暢飲區無限飲品可續杯(不可外帶，以杯續杯—很認同這個環保概念，和最近去的蔦屋書店使用一次性杯具相比，這個概念除了應該是成本考量，也很環保）
-      - 無限供應的自助零食
-      - 可加價升級飲品
-      - 第一個小時 100 元
-      - 每延長半小時追加 50 元
-      - 當日計時收費上限 450 元
-      - 一日方案：390 元
+    **工作者方案 (CoWorker Plan)**
+      - 使用期間可享無限續杯咖啡、茶飲，並提供新鮮水果、多種堅果及零食自助吧
+      - 歡迎自行攜帶外食！
+      - 前 120 分鐘：280 元
+      - 之後每 30 分鐘：65 元
+      - 當日收費上限：540 元
 
-    **低消方案**
-      - 花得越多，可以待越久
-      - 消費 100 元，可以待兩小時
-      - 消費 250 元，不限時
+    **一日券大宗購買優惠**
+      - 5 張一日券：2,600 元
+      - 10 張一日券：5,100 元
+      - 20 張一日券：10,000 元
+
+    **低消方案 (Minimum Consumption Plan)**
+      - 根據心情與需求自由點購餐飲
+      - 消費 145 元：可待 2.5 小時
+      - 消費 290 元：可待 5 小時
+      - 消費 435 元：不限時
 
       所以哪一個方案最好呢？Well...真的看個人需求，如果你很餓想吃點好東西，想點一杯飲料和三明治或吐司當早餐的話，那「低消方案」可能最適合你，因為這一套餐點滿容易超過250的，這樣就夠待整天了，缺點是沒有自助吧的零食可以拿。但如果你工作時飲料零食不離身又計畫自己帶食物來(或是剛好是個小胃、吃飽了才來)，那工作者方案就是為你量身打造的。
 

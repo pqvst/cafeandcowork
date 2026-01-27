@@ -1,4 +1,8 @@
 ---
+closed: true
+updated: 2026-01-27
+contributors:
+  - https://x.com/mykov20
 added: 2021-12-28
 name: THE NORMAL 敦北店
 type: Cafe
@@ -39,7 +43,7 @@ time_limit: false
 facebook: https://www.facebook.com/thenormaldunhua/
 instagram: https://www.instagram.com/bythenormalpeople/
 telephone: "+886227119252"
-website: 
+website:
 images:
   - seating1.jpg
   - seating2.jpg
