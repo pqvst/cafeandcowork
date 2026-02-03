@@ -54,7 +54,7 @@ You can use this `.md` file template for new places:
 ```yaml
 ---
 contributors:
-  - https://www.instagram.com/CHANGE-ME/
+  - <link to instagram/twitter/threads/website>
 added: 2021-04-27
 name: A Demain Cafe
 type: Cafe
@@ -108,7 +108,7 @@ You can include a written review/description here. What's good? What's bad? How'
 ## Place Attributes
 Name|Description
 --|--
-`contributors`|List of contributor profile URLs
+`contributors`|List of contributor profile URL (instagram, twitter, threads, website, or other link...)
 `closed`|Permanently closed? `true`
 `temporarily_closed`|Temporarily closed? `true`
 `added`|Date added (YY-MM-DD format)
@@ -165,6 +165,12 @@ If the hours are the same every day, you can specify them directly as a single s
 
 ```yaml
 hours: 8-18
+```
+
+For places that are open 24 hours:
+
+```yaml
+hours: 0-24
 ```
 
 Omit a day if the place is closed that day.
