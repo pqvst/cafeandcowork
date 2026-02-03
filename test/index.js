@@ -1,7 +1,7 @@
 import Ajv from 'ajv';
 import * as data from '../data.js';
 
-const ajv = new Ajv();
+const ajv = new Ajv({ allowUnionTypes: true });
 const { cities, places } = data.load();
 
 const citySchema = {
