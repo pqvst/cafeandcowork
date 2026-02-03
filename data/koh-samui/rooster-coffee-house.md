@@ -27,7 +27,7 @@ price: 3
 view: 1
 toilets: 0
 music: true
-smoking: true
+smoking: false
 standing_tables: false
 outdoor_seating: true
 cash_only: true
