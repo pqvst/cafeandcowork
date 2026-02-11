@@ -1,6 +1,6 @@
 ---
 contributors:
-  - https://twitter.com/budududuroiu
+  - https://hachyderm.io/@budududuroiu
 added: 2024-02-01
 name: Always Day One
 type: Cafe
