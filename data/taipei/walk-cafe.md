@@ -1,6 +1,8 @@
 ---
+contributors:
+  - https://hachyderm.io/@budududuroiu
 added: 2022-03-14
-name: Walk Cafe 行路
+name: Walk Cafe 烘豆河狸 (原行路咖啡)
 type: Cafe
 area: Daan
 google_maps: https://g.page/walkcafetw?share
@@ -9,7 +11,13 @@ address:
   en: 106, Taipei City, Da’an District, Lane 104, Section 1, Heping E Rd, 6號1樓
   zh-tw: 106台北市大安區和平東路一段104巷6號1樓
 station: Guting
-hours: 12-0
+hours:
+  tue: 14:00-22:00
+  wed: 14:00-22:00
+  thu: 14:00-22:00
+  fri: 14:00-22:00
+  sat: 16:00-22:00
+  sun: 16:00-22:00
 wifi: 5
 speed: 120
 power: 5
@@ -53,3 +61,5 @@ images:
 ---
 
 A very nice and comfortable cafe to work from. The staff was very friendly and welcoming, great cakes, and good drink selection. It wasn't very busy just around lunch, but it filled up later in the afternoon (presumably a popular cafe with students).
+
+They also seem to provide a great selection of beans and pour overs now.
