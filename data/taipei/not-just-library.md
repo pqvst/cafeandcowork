@@ -3,7 +3,7 @@ added: 2020-08-19
 name: Not Just Library
 type: Library
 area: Xinyi
-google_maps: https://g.page/NotJustLibrary?share
+google_maps: https://maps.app.goo.gl/d7Pfc65EViebkVCu8
 coordinates: 25.043762, 121.559894
 address: No. 133號, Guangfu South Road, Xinyi District, Taipei City, Taiwan 110
 station: Taipei City Hall

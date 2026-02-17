@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-04-27
 name: A Demain Cafe
 type: Cafe

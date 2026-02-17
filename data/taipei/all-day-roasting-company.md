@@ -3,7 +3,7 @@ added: 2020-10-28
 name: All Day Roasting Company
 type: Cafe
 area: Songshan
-google_maps: https://g.page/alldayroastingcompany?share
+google_maps: https://maps.app.goo.gl/2J1po5ckcP4pE5Ab8
 coordinates: 25.056770, 121.560263
 address: 105, Taiwan, Taipei City, Songshan District, Yanshou Street, 329號1樓
 station: Nanjing Sanmin

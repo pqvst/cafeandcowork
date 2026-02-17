@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Burly Coffee
 type: Cafe
 area: Bed Stuy
@@ -35,5 +36,4 @@ facebook:
 instagram: 
 telephone: 
 website: http://burlycoffee.com/ 
-closed: 
 ---

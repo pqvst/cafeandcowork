@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2021-08-24
 name: Snow Wolf
 type: Cafe

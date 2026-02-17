@@ -1,4 +1,5 @@
 ---
+closed: true
 contributors:
   - https://www.instagram.com/huey/
 added: 2021-01-15

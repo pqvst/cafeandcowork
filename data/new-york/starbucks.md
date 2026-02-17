@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Starbucks Reserve
 type: Cafe
 area: Williamsburg

@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Birch Coffee @Flatiron
 type: Cafe
 area: Midtown

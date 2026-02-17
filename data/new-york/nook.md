@@ -35,5 +35,4 @@ facebook:
 instagram: 
 telephone: 
 website: https://www.nookbk.com/ 
-closed: 
 ---

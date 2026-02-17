@@ -1,4 +1,5 @@
 ---
+closed: true
 name: Freehold
 type: Cafe
 area: Williamsburg

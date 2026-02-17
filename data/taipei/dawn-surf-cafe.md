@@ -1,4 +1,5 @@
 ---
+closed: true
 temporarily_closed: true
 added: 
 name: Dawn Surf & Co. Cafe

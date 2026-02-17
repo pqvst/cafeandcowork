@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2023-04-03
 name: Drupa Coffee Roasters
 type: Cafe

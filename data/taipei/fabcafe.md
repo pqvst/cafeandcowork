@@ -1,4 +1,5 @@
 ---
+closed: true
 name: FabCafe
 type: Cafe
 area: Zhongzheng

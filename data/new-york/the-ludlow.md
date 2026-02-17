@@ -1,4 +1,5 @@
 ---
+closed: true
 name: The Ludlow Hotel
 type: Lobby
 area: Lower East Side

@@ -1,4 +1,5 @@
 ---
+closed: true
 contributors:
   - https://twitter.com/eric_khun
 added: 2021-11-02

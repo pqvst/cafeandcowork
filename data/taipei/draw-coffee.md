@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-12-04
 name: Draw Coffee
 type: Cafe

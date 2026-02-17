@@ -5,7 +5,7 @@ added: 2022-03-14
 name: Walk Cafe 烘豆河狸 (原行路咖啡)
 type: Cafe
 area: Daan
-google_maps: https://g.page/walkcafetw?share
+google_maps: https://maps.app.goo.gl/mgd2b9mU6RpGXqWk8
 coordinates: 25.026490954850587, 121.52488395395105
 address:
   en: 106, Taipei City, Da’an District, Lane 104, Section 1, Heping E Rd, 6號1樓

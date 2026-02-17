@@ -5,7 +5,7 @@ contributors:
 name: The Living Room
 type: Cafe
 area: Indre By
-google_maps: https://thelivingroom.dk
+google_maps: https://maps.app.goo.gl/DdT4ZfzGUa856mZv7
 coordinates: 55.67854104981838, 12.569170397847486
 address: Larsbjørnsstræde 17, 1454 København, Denmark
 station: Københavns Hovedbanegård
@@ -36,6 +36,7 @@ cash_only: false
 animals: true
 lactose_free_milk: true
 time_limit: false
+website: https://thelivingroom.dk
 images:
   - entrance.jpeg
   - seating.jpeg
