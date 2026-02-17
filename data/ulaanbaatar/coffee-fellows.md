@@ -3,7 +3,7 @@ added: 2025-07-13
 name: Coffee Fellows Seoul Street
 type: Cafe
 area: Seoul street
-google_maps: https://g.co/kgs/eoSxRKz
+google_maps: https://maps.app.goo.gl/JDgGy8ZjnXViRknS6
 coordinates: 47.9138666,106.906222
 address: SBD - 4 khoroo, Ulaanbaatar
 station:

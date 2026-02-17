@@ -2,7 +2,7 @@
 name: Minc
 type: Coworking Space
 area: Dockan
-google_maps: https://g.page/mincmalmo?share
+google_maps: https://maps.app.goo.gl/a79dfApiFJBvNxkd9
 coordinates: 55.611232,12.994241
 address: 
 station: 

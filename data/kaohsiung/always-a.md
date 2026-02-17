@@ -1,4 +1,5 @@
 ---
+closed: true
 redirect_old_city: taiwan
 added: 2022-07-13
 name: "always a+"

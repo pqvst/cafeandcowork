@@ -1,4 +1,5 @@
 ---
+closed: true
 contributors:
   - https://github.com/SuzukiRyuichiro
 added: 2023-05-05
