@@ -1,4 +1,5 @@
 import Ajv from 'ajv';
+import moment from 'moment-timezone';
 import * as data from '../data.js';
 
 const ajv = new Ajv({ allowUnionTypes: true });
@@ -26,11 +27,17 @@ const citySchema = {
   }
 }
 
+const validTimezones = moment.tz.names();
+
 for (const city of cities) {
   const valid = ajv.validate(citySchema, city);
   if (!valid) {
     console.log(city.name);
     console.log(ajv.errors);
+    process.exit(-1);
+  }
+  if (!validTimezones.includes(city.timezone)) {
+    console.log(`${city.name}: invalid timezone "${city.timezone}"`);
     process.exit(-1);
   }
 }
