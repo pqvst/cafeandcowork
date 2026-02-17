@@ -3,11 +3,19 @@ import fs from 'fs';
 import path from 'path';
 import { load } from '../data.js';
 
-const city = process.argv[2];
+const args = process.argv.slice(2);
+const include = args.filter(a => !a.startsWith('-'));
+const exclude = args.filter(a => a.startsWith('-')).map(a => a.slice(1));
 const { places } = load();
-const toCheck = places.filter(p => p.google_maps && !p.closed && (!city || p.city === city));
+const toCheck = places.filter(p => {
+  if (!p.google_maps || p.closed) return false;
+  if (exclude.includes(p.city)) return false;
+  if (include.length > 0) return include.includes(p.city);
+  return true;
+});
 
-console.log(`Found ${toCheck.length} non-closed cafes to check${city ? ` in ${city}` : ''}.\n`);
+const label = include.length ? ` in ${include.join(', ')}` : exclude.length ? ` excluding ${exclude.join(', ')}` : '';
+console.log(`Found ${toCheck.length} non-closed cafes to check${label}.\n`);
 
 async function checkPlace(browser, url) {
   const page = await browser.newPage();
