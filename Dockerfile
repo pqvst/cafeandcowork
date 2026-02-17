@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:24-slim
 
 ENV NODE_ENV=production
 
@@ -7,8 +7,8 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json .
-COPY yarn.lock .
-RUN yarn install
+COPY package-lock.json .
+RUN npm install
 
 # Bundle app source
 COPY . .
