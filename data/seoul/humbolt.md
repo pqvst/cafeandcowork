@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2022-08-14
 name: Humbolt
 type: Cafe

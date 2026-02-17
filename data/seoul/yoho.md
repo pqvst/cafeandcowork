@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2020-11-19
 name: cafe yoho (카페요호)
 type: Cafe

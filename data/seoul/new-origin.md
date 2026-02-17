@@ -1,4 +1,5 @@
 ---
+closed: true
 name: New Origin (Gwanghwamun)
 type: Cafe
 area: Jongno-gu

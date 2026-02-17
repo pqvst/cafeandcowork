@@ -1,4 +1,5 @@
 ---
+closed: true
 added: 2022-08-11
 name: Grandpa Factory Cafe
 type: Cafe

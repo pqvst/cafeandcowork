@@ -1,4 +1,5 @@
 ---
+closed: true
 name: THE KIND COFFEE
 type: Cafe
 area: Jung-gu
