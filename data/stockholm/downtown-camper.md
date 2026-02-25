@@ -2,7 +2,7 @@
 contributors:
   - https://github.com/richardsimko
 added: 2024-03-26
-name: Downtown Camper Café
+name: Downtown Camper Café & Coworking
 type: Cafe
 area: Center
 google_maps: https://maps.app.goo.gl/VEQWAsLGiYn6w5on9
