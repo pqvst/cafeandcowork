@@ -35,6 +35,8 @@ facebook:
 instagram: https://www.instagram.com/upnd_coffee
 telephone: "+8227799578"
 website:
+images:
+  - cafe.jpeg
 ---
 
 A small cafe on the second floor overlooking a busy shopping street. Surprisingly empty even on a Sunday afternoon. The coffee is OK and there's nothing much to eat beyond a few pastries. The Wifi is however excellent and the place is quite comfortable, so it's a good place to get some work done if you don't mind the music and people chatting.
