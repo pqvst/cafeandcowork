@@ -1,5 +1,7 @@
 ---
 name: #52 Lab
+contributors:
+  - https://github.com/richardsimko
 type: Cafe
 area: Myeong-dong
 google_maps: https://maps.app.goo.gl/6MGz2LVeqoqh61EJ6

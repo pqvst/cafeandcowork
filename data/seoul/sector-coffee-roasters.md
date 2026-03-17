@@ -1,5 +1,7 @@
 ---
 name: Sector Coffee Roasters
+contributors:
+  - https://github.com/richardsimko
 type: Cafe
 area: Jung-gu
 google_maps: https://maps.app.goo.gl/PT7iTJKrPPs6yTNg8

@@ -1,5 +1,7 @@
 ---
 name: upnd Coffee Roasters
+contributors:
+  - https://github.com/richardsimko
 type: Cafe
 area: Myeong-dong
 google_maps: https://maps.app.goo.gl/shBdMb6UmStiy2279
