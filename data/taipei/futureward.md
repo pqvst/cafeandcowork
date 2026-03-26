@@ -1,4 +1,5 @@
 ---
+added: 2020-12-01
 name: FutureWard - Central
 type: Coworking Space
 area: Songshan

@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: The Coffee Bean & Tea Leaf
 type: Cafe
 area: Gangnam-gu

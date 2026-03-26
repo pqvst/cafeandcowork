@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2025-07-14
 name: FabCafe
 type: Cafe

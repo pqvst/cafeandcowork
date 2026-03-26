@@ -1,4 +1,5 @@
 ---
+added: 2020-11-30
 name: around day
 type: Cafe
 area: Seongdong-gu

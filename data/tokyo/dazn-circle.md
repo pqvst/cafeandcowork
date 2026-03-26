@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: DAZN CIRCLE
 type: Event Space
 area: Shibuya

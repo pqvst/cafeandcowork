@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks Shibuya cocoti store
 type: Cafe
 area: Shibuya

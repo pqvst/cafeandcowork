@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2022-05-24
 closed: true
 name: Cafe Mame-Hico Koen-dori shop

@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: STONE Workplace
 type: Coworking Space
 area: Xinyi

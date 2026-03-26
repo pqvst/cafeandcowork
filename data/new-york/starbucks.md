@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 closed: true
 name: Starbucks Reserve
 type: Cafe

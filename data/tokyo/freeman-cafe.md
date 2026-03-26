@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2023-10-09
 name: Freeman Cafe
 type: Cafe

@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks City Hall
 type: Cafe
 area: Xinyi

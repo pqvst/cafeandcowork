@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks Reserve New York Roastery
 type: Cafe
 area: Chelsea

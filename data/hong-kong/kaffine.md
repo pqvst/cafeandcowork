@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Kaffine
 type: Cafe
 area: Sheung Wan

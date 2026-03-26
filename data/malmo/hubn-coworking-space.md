@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: HUBn coworking space
 type: Coworking Space
 area: Dockan

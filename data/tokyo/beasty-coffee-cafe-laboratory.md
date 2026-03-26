@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2025-11-15
 name: Beasty Coffee [cafe laboratory]
 type: Cafe

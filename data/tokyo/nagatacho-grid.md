@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Nagatacho GRID
 type: Coworking Space
 area: Chiyoda

@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 closed: true
 name: Cafe Gen 現
 type: Cafe

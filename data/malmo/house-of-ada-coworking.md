@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 closed: true
 name: House of Ada Coworking
 type: Coworking Space

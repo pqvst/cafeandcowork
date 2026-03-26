@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks (Seolleung Exit 10)
 type: Cafe
 area: Gangnam-gu

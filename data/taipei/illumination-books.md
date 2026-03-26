@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: Illumination Books 浮光書店
 type: Cafe
 area: Datong

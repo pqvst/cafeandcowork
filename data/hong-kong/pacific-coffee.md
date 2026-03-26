@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Pacific Coffee
 type: Cafe
 area: Sheung Wan

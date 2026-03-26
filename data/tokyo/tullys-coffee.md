@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2022-05-24
 name: Tully's Coffee Meguro Station
 type: Cafe

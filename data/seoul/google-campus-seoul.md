@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Google Campus Seoul
 type: Coworking Space
 area: Gangnam-gu

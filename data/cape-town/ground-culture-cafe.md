@@ -1,4 +1,5 @@
 ---
+added: 2023-05-05
 contributors:
   - https://github.com/SuzukiRyuichiro
 name: Ground Culture Cafe

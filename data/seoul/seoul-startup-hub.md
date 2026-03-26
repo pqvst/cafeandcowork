@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Seoul Startup Hub
 type: Coworking Space
 area: Mapo-gu

@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: NYPL - The Rose Main Reading Room
 type: Library
 area: Midtown

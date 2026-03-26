@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Ooosh Coworking Kowloon
 type: Coworking Space
 area: Sha Wan

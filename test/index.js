@@ -61,12 +61,12 @@ const types = [
 const placeSchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['name', 'type', 'area', 'coordinates'],
+  required: ['added', 'name', 'type', 'area', 'coordinates'],
   properties: {
 
     // raw data properties
     contributors: { type: ['array', 'null'], items: { type: 'string' } },
-    added: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
+    added: { type: 'string', pattern: "\\d\\d-\\d\\d-\\d\\d" },
     updated: { type: ['string', 'null'], pattern: "\\d\\d-\\d\\d-\\d\\d" },
     name: { type: 'string' },
     type: { type: 'string', enum: types },

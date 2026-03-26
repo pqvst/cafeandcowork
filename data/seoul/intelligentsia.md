@@ -1,4 +1,5 @@
 ---
+added: 2026-03-26
 name: Intelligentsia Coffee
 contributors:
   - https://github.com/richardsimko

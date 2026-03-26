@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Nuage Café
 type: Coworking Space
 area: Quartier Latin

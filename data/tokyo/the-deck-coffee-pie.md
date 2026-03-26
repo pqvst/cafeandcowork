@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2023-07-07
 name: The Deck Coffee & Pie
 type: Cafe

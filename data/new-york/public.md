@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: PUBLIC
 type: Lobby
 area: Lower East Side

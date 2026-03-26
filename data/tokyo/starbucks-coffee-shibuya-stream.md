@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks Shibuya Stream
 type: Cafe
 area: Shibuya

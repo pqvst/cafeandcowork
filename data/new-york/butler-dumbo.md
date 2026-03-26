@@ -1,4 +1,5 @@
 ---
+added: 2021-07-14
 name: Butler
 type: Cafe
 area: Dumbo

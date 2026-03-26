@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: "% Arabica Hong Kong IFC"
 type: Cafe
 area: Central

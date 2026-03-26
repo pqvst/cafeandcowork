@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2022-05-24
 name: STATION BOOTH Shinjuku Station New South Exit
 type: Booth

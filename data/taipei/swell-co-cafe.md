@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 closed: true
 updated: 2021-10-28
 name: SWELL CO. CAFE

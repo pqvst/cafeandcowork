@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 updated: 2022-02-14
 name: YABOO Cafe
 type: Cafe

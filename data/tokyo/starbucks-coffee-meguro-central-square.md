@@ -1,4 +1,5 @@
 ---
+added: 2020-11-04
 name: Starbucks Meguro Central Square
 type: Cafe
 area: Shinagawa
