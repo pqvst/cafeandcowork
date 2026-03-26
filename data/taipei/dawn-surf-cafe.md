@@ -1,7 +1,7 @@
 ---
 closed: true
 temporarily_closed: true
-added: 
+added: 2021-03-12
 name: Dawn Surf & Co. Cafe
 type: Cafe
 area: Xinyi

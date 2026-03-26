@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: BeiFongShe 北風社
 type: Cafe
 area: Datong

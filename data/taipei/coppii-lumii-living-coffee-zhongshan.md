@@ -1,6 +1,6 @@
 ---
 closed: true
-added: 
+added: 2021-03-12
 name: Coppii Lumii living coffee 冉冉生活
 type: Cafe
 area: Zhongshan

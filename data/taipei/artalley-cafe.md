@@ -1,6 +1,6 @@
 ---
 closed: true
-added: 
+added: 2021-03-12
 name: Artalley Cafe
 type: Cafe
 area: Datong

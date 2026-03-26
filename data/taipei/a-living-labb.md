@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: A Living Labb | 生活域所
 type: Cafe
 area: Xinyi

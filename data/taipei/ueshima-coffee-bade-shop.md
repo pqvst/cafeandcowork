@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: Ueshima Coffee Bade Shop
 type: Cafe
 area: Songshan

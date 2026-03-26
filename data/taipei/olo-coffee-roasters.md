@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: OLO Coffee Roasters
 type: Cafe
 area: Datong

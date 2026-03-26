@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: The FOLKS
 type: Cafe
 area: Daan

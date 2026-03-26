@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: Hours In House 好人好室 x 七二聚場
 type: Cafe
 area: Zhongshan

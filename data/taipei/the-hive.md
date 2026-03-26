@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2020-12-01
 name: the Hive Taipei
 type: Coworking Space
 area: Zhongzheng

@@ -1,6 +1,6 @@
 ---
 closed: true
-added: 
+added: 2021-03-12
 name: 創咖啡 TRUST CAFÉ
 type: Cafe
 area: Zhongshan

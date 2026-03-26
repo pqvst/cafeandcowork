@@ -1,5 +1,5 @@
 ---
-added: 
+added: 2021-03-12
 name: STONE espresso bar & coffee roaster
 type: Cafe
 area: Daan

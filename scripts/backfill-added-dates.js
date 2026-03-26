@@ -19,8 +19,8 @@ for (const city of cityDirs) {
     const filePath = path.join(cityPath, file);
     const content = fs.readFileSync(filePath, 'utf8');
 
-    // Skip if already has added field
-    if (/^added:/m.test(content)) {
+    const hasAdded = /^added: \d/m.test(content);
+    if (hasAdded) {
       skipped++;
       continue;
     }
@@ -45,8 +45,13 @@ for (const city of cityDirs) {
       continue;
     }
 
-    // Insert added: right after the opening ---
-    const newContent = content.replace(/^---\n/, `---\nadded: ${date}\n`);
+    // Replace empty added: or insert after opening ---
+    let newContent;
+    if (/^added:\s*$/m.test(content)) {
+      newContent = content.replace(/^added:\s*$/m, `added: ${date}`);
+    } else {
+      newContent = content.replace(/^---\n/, `---\nadded: ${date}\n`);
+    }
     fs.writeFileSync(filePath, newContent);
     console.log(`${relPath} -> ${date}`);
     updated++;
