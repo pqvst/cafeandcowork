@@ -19,7 +19,7 @@ hours:
   sun: 11-22
 wifi: 5
 speed: 300
-power: 3
+power: 1
 vacancy: 5
 comfort: 3
 quiet: 3
@@ -33,13 +33,13 @@ smoking: false
 standing_tables: true
 outdoor_seating: false
 cash_only: false
-animals: 
-lactose_free_milk: 
+animals:
+lactose_free_milk:
 time_limit: false
 facebook: https://www.instagram.com/cafentee/
 instagram: https://www.facebook.com/cafentee/
 telephone: "0222613323"
-website: 
+website:
 images:
   - seating1.jpg
   - seating4.jpg
@@ -51,4 +51,4 @@ images:
   - menu2.jpg
 ---
 
-A great workable cafe near Myeongdong. It spans three floors, offering lots of seating. Great WiFi and there are power outlets at some seats. The desserts were definitely a highlight here. The cheesecake was one of the best I've had. On a Friday afternoon it was very quiet.
+A great workable cafe near Myeongdong. It spans two floors, offering lots of seating. Great WiFi but there are only a few outlets, all of them in the corners of the second floor. The second floor features proper desk chairs and conference tables, but closes at 14:00 on weekdays. The desserts were definitely a highlight here. The cheesecake was one of the best I've had. On a Friday afternoon it was very quiet.

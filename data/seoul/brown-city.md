@@ -24,9 +24,10 @@ smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
-animals: 
-facebook: 
-instagram: 
+closed: true
+animals:
+facebook:
+instagram:
 telephone: "+8250713142896"
-website: 
+website:
 ---
