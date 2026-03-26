@@ -1,5 +1,5 @@
 ---
-name: #52 Lab
+name: "#52 Lab"
 contributors:
   - https://github.com/richardsimko
 type: Cafe
