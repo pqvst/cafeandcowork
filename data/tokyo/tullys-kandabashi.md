@@ -13,8 +13,6 @@ hours:
   wed: 7-21
   thu: 7-21
   fri: 7-21
-  sat:
-  sun:
 wifi: 4
 speed: 50
 power: 4
@@ -27,7 +25,7 @@ price: 5
 view: 3
 toilets: 4
 music: true
-smoking: false
+smoking: true
 standing_tables: true
 outdoor_seating: true
 cash_only: false
@@ -39,6 +37,6 @@ instagram:
 telephone: 03-5283-8585
 images:
   - seats.jpg
-  - hall.jpg---
+  - hall.jpg
 
-This is another office area tullys with lots of individual seats and outlets. Some sofa seats have the plugs too. not many group seatings available. The counter faicing the window have lots of plugs. The counter can work as a standing table but it's bit too low even for a short king.
+This is another office area tullys with lots of individual seats and outlets. Some sofa seats have the plugs too. not many group seatings available. The counter faicing the window have lots of plugs. The counter can work as a standing table but it's bit too low even for a short king.  There's a smoking room for smokers too 🚬
