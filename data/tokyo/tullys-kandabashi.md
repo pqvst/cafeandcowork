@@ -38,5 +38,6 @@ telephone: 03-5283-8585
 images:
   - seats.jpg
   - hall.jpg
+---
 
 This is another office area tullys with lots of individual seats and outlets. Some sofa seats have the plugs too. not many group seatings available. The counter faicing the window have lots of plugs. The counter can work as a standing table but it's bit too low even for a short king.  There's a smoking room for smokers too 🚬
