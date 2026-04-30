@@ -1,4 +1,5 @@
 ---
+updated: 2026-04-30
 added: 2024-09-22
 name: poool -Espresso&Work-
 type: Cafe
@@ -8,13 +9,13 @@ coordinates: 43.06433798934061, 141.3525957474799
 address: 〒060-0002 Hokkaido, Sapporo, Chuo Ward, Kita 2 Jonishi, 3 Chome−1−1-29 タケサトビル 1F
 station: Sapporo
 hours: 9-22
-wifi: 4
-speed: 40
+wifi: 1
+speed: 1
 power: 5
 vacancy: 5
 comfort: 4
 quiet: 3
-food: 
+food: 3
 drinks: 3
 price: 3
 view: 5
@@ -39,5 +40,7 @@ images:
   - menu.jpg
   - outside.jpg
 ---
+
+Update: My second visit (2026) the WiFi seems to have a lot of issues. Both the "coandco" and "USEN Free WiFi" networks were really slow and unstable. Be sure to have a hotspot.
 
 Probably the best spot in Sapporo to work. The place is huge with a lot of seating, good wifi, and plenty of power outlets. The menu is ok, unfortunately no tea available. Just keep in mind that there is a 3 hour time limit per drink.
