@@ -33,6 +33,7 @@ html
     link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
 
     if url
+      link(rel="canonical" href=`${site.url}${prefix}${url}`)
       link(rel="alternate" href=`${site.url}${url}` hreflang="en")
       link(rel="alternate" href=`${site.url}/zh-tw${url}` hreflang="zh-tw")
       link(rel="alternate" href=`${site.url}${url}` hreflang="x-default")
