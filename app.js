@@ -102,38 +102,47 @@ for (const locale of i18n.getLocales()) {
     app.get(`${prefix}`, redirectWithTrailingSlash);
   }
 
-  function listHandler(prefix, list) {
+  function listHandler(prefix, list, homeUrl) {
+    homeUrl = homeUrl || `/${prefix}/`;
+    const pageUrl = (p) => p === 1 ? homeUrl : `/${prefix}/${p}/`;
     return (req, res) => {
       const pages = Math.ceil(list.length / PER_PAGE);
       const page = req.params.page == null ? 1 : Number(req.params.page);
       if (isNaN(page) || page <= 0 || page > pages) {
         throw new Error('Invalid page');
       }
+      // /list/1/ is a duplicate of the list home — redirect rather than render.
+      if (req.params.page != null && page === 1) {
+        return res.redirect(301, `${res.locals.prefix}${homeUrl}`);
+      }
       const i = (page - 1) * PER_PAGE;
       res.render('list', {
-        url: page > 1 ? `/${prefix}/${page}/` : `/${prefix}/`,
+        url: pageUrl(page),
         list: list.slice(i, i + PER_PAGE),
-        nav: { recent: true },
+        nav: { recent: prefix === 'recent', top: prefix === 'top' },
         page,
         pages,
-        prev: page > 1 ? `/${prefix}/${page - 1}/` : null,
-        next: page < pages ? `/${prefix}/${page + 1}/` : null,
+        prev: page > 1 ? pageUrl(page - 1) : null,
+        next: page < pages ? pageUrl(page + 1) : null,
       });
     };
   }
 
   const PER_PAGE = 10;
 
-  app.get(`${prefix}/`, listHandler('recent', app.locals.recent));
+  // Recent list: page 1 is served at the locale root (/, /zh-tw/), so /recent/ redirects there.
+  const recentHandler = listHandler('recent', app.locals.recent, '/');
+  app.get(`${prefix}/`, recentHandler);
   app.get(`${prefix}/recent`, redirectWithTrailingSlash);
-  app.get(`${prefix}/recent/`, listHandler('recent', app.locals.recent));
+  app.get(`${prefix}/recent/`, (req, res) => res.redirect(301, `${prefix}/`));
   app.get(`${prefix}/recent/:page`, redirectWithTrailingSlash);
-  app.get(`${prefix}/recent/:page/`, listHandler('recent', app.locals.recent));
-  
+  app.get(`${prefix}/recent/:page/`, recentHandler);
+
+  const topHandler = listHandler('top', app.locals.top);
   app.get(`${prefix}/top`, redirectWithTrailingSlash);
-  app.get(`${prefix}/top/`, listHandler('top', app.locals.top));
+  app.get(`${prefix}/top/`, topHandler);
   app.get(`${prefix}/top/:page`, redirectWithTrailingSlash);
-  app.get(`${prefix}/top/:page/`, listHandler('top', app.locals.top));
+  app.get(`${prefix}/top/:page/`, topHandler);
 
   app.get(`${prefix}/about`, redirectWithTrailingSlash);
   app.get(`${prefix}/about/`, (req, res) => {

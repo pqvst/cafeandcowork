@@ -2,7 +2,7 @@ extends layout
 
 block body
   - const currentCityName = city?.name
-  - const isRecent = url.includes('/recent/')
+  - const isRecent = url === '/' || url.includes('/recent/')
   - const isTop = url.includes('/top/')
 
   mixin separator
