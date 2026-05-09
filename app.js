@@ -41,7 +41,7 @@ const i18n = new I18n({
 });
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.set('views', 'views');
 app.set('view engine', 'pug');
