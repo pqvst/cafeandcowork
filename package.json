@@ -37,5 +37,8 @@
       "locales"
     ]
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "25"
+  }
 }
