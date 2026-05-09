@@ -25,6 +25,8 @@ Want to add or update places?
 6. Resize images using `npm run resize`
 7. Submit a pull request
 
+Reviews must be written from a visitor's perspective based on a real visit. Self-promoting submissions from owners, staff, or anyone affiliated with the place, marketing language, or all-perfect ratings without honest critique, will not be accepted.
+
 ## City Template
 Each city needs an `index.md` with the following frontmatter:
 
