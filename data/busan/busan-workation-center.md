@@ -31,7 +31,7 @@ smoking: false
 standing_tables: false
 instagram: https://www.instagram.com/busaness_workation/
 telephone: "+82 051-468-8996"
-website: www.busaness.com/workplace/detail/10
+website: https://www.busaness.com/workplace/detail/10
 images:
   - view1.jpg
   - view2.jpg
