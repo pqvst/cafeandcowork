@@ -9,7 +9,7 @@
     "links": "linkinator http://localhost:3000 --recurse --skip '^(?!http://localhost)'"
   },
   "author": "pqvst",
-  "license": "ISC",
+  "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "ajv": "^8.12.0",
     "linkinator": "^7.5.3",
