@@ -243,6 +243,7 @@ app.get('/feed.xml', (req, res) => {
   
   app.locals.recent.forEach(item => {
     const placeDescription = data.getPlaceDescription(i18n, locale, item);
+    const images = (item.images || []).slice(0, 10);
     feed.addItem({
       title: item.name,
       id: `${site.url}${item.url}`,
@@ -250,7 +251,11 @@ app.get('/feed.xml', (req, res) => {
       description: placeDescription,
       content: placeDescription,
       date: new Date(item.updated || item.added),
-      image: item.images ? `${site.url}${item.images[0]}` : null,
+      image: images.length > 0 ? `${site.url}${images[0]}` : null,
+      extensions: Array.from({ length: 10 }, (_, i) => ({
+        name: `image${i + 1}`,
+        objects: { _text: images[i] ? `${site.url}${images[i]}` : '' },
+      })),
     });
   });
   res.send(feed.rss2());
