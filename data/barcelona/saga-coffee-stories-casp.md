@@ -1,6 +1,6 @@
 ---
 contributors:
-  - https://github.com/kleinyann
+  - https://www.yannklein.dev/
 added: 2026-06-29
 name: Saga Coffee Stories - Casp
 type: Cafe

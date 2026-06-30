@@ -1,6 +1,6 @@
 ---
 contributors:
-  - https://github.com/kleinyann
+  - https://www.yannklein.dev/
 added: 2026-06-29
 name: Laie Llibreria Café
 type: Cafe
