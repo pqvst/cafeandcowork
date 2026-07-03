@@ -40,7 +40,9 @@ telephone:
 website: http://swell-c.com/
 images:
   - seating.jpg
+  - seating2.jpg
   - entrance.jpg
+  - food.jpg
 ---
 
 The new Swell location in Nakameguro. The space is perhaps a bit smaller than the old one, but seating options are more comfortable now. There's still a small outdoor seating area. I'm pretty sure they have more food options now. Fast WiFi and most seats have power outlets.
