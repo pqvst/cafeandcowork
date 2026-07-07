@@ -1,7 +1,6 @@
 ---
-redirect: tokyo/communita-cafe
-added: 2025-03-28
-name: DELI at COMMUNITA
+added: 2026-07-05
+name: Communita Cafe
 type: Cafe
 area: Meguro
 google_maps: https://maps.app.goo.gl/6o1baZTweeFQYMEFA
@@ -25,21 +24,24 @@ drinks: 3
 price: 3
 view: 4
 toilets: 4
-music: 
+music: true
 smoking: false
 standing_tables: true
 outdoor_seating: true
 cash_only: false
-animals: 
+animals: false
 lactose_free_milk: true
 time_limit: false
 facebook: 
-instagram: https://www.instagram.com/deli_at_communita/
+instagram: https://www.instagram.com/communita_cafe/
 telephone: "0368738531"
 website: 
 images:
   - seating1.jpg
   - seating2.jpg
+  - seating3.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
-There's a small cafe at the Impact Hub building. The cafe is open to the public and you don't need a membership. It's a nice, quiet spot to work, but the guest WiFi is extremely slow and the power outlets are blocked. The cafe serves drinks and some small food/snacks. Food is only available between 11:30 and 14:00.
+There's a small cafe at the Impact Hub building. The cafe is open to the public and you don't need a membership. It's a nice, quiet spot to work (unless there's a meetup or event happening), but the guest WiFi is extremely slow and the power outlets are blocked. The cafe serves drinks and some small food/snacks. Food is available during limited hours.
