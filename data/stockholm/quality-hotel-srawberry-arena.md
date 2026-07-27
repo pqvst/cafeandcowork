@@ -6,7 +6,7 @@ name: Quality Hotel Srawberry Arena
 type: Hotel
 area: Solna
 google_maps: https://maps.app.goo.gl/CTZwqZ4j4ij8866HA
-coordinates: 59.34066363323032, 18.059140419373637
+coordinates: 59.372135021807836, 18.003042943586028
 address: Råsta Strandväg 1, 169 79 Solna
 station: Solna
 hours:
