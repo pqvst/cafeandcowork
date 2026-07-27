@@ -2,7 +2,7 @@
 contributors:
   - https://github.com/richardsimko
 added: 2026-07-27
-name: Quality Hotel Srawberry Arena
+name: Quality Hotel Strawberry Arena
 type: Hotel
 area: Solna
 google_maps: https://maps.app.goo.gl/CTZwqZ4j4ij8866HA
