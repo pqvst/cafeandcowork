@@ -1,7 +1,8 @@
 ---
 redirect_old_city: taiwan
 added: 2025-01-11
-name: Second Space Coworking
+updated: 2026-08-12
+name: Second Space - Central Park
 type: Coworking Space
 area: Kaohsiung
 google_maps: https://maps.app.goo.gl/UkrK4NgSybjPVJCG6
@@ -32,8 +33,8 @@ animals: false
 lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/cubeworksx/
-instagram: https://www.instagram.com/cubeworksx/
-telephone: "+886908903080"
+instagram: https://www.instagram.com/secondspace_club/
+threads: https://www.threads.com/@secondspace_club
 website: https://www.secondspace.dev/
 images:
   - 2s_011.jpg
