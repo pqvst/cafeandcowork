@@ -97,6 +97,7 @@ const placeSchema = {
     tips: { type: 'array', items: { type: 'string' } },
     facebook: { type: ['string', 'null'] },
     instagram: { type: ['string', 'null'] },
+    threads: { type: ['string', 'null'] },
     website: { type: ['string', 'null'] },
     telephone: { type: ['string', 'null'] },
     content: { type: 'string' },

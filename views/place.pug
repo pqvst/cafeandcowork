@@ -63,6 +63,10 @@ block page
         a.button.instagram(href=place.instagram target="_blank")
           i.ph-instagram-logo
           span= __('Data: Instagram')
+      if place.threads
+        a.button.threads(href=place.threads target="_blank")
+          i.ph-at
+          span= __('Data: Threads')
       if place.website
         a.button.website(href=place.website target="_blank")
           i.ph-globe-simple
@@ -149,6 +153,9 @@ block page
         if place.instagram
           dt= __('Data: Instagram')
           dd: a(href=place.instagram target="_blank")= formatUrl(place.instagram)
+        if place.threads
+          dt= __('Data: Threads')
+          dd: a(href=place.threads target="_blank")= formatUrl(place.threads)
         if place.website
           dt= __('Data: Website')
           dd: a(href=place.website target="_blank")= formatUrl(place.website)
