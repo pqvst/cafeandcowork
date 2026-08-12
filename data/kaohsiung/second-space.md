@@ -44,11 +44,17 @@ images:
   - 2s_012.jpg
 review:
   en: |
-    It's a 24/7 co-working space right outside Central Park MRT (Exit 3). The operation model is a little bit different from other places as it's fully self service - it has facial recognitional access control so you sign up via app and take a photo of your face to register. They are aiming to become the community space for creators in tech and design industry with workshops, networking events and tech talks. Payments are all online, so Credit Cards, LINE Pay, Google Pay and even Cryptocurrency - no cash though. 
+    It's a 24/7 co-working space right outside Central Park MRT (Exit 3). The operation model is a little bit different from other places as it's fully self service - it has facial recognitional access control, so you register on the website or in the app (iOS and Android) and take a photo of your face to get in. They are aiming to become the community space for creators in tech and design industry with workshops, networking events and tech talks. Payments are all online, so Credit Cards, LINE Pay, Google Pay and even Cryptocurrency - no cash though. 
 
     They do not provide meals (only snacks and drinks) but there is an affordable restaurant 20 meters away. 
 
-    500Mbps Wi-Fi, modern furniture, large mirror walls for brainstorming, beanbags and 24/7 access for NT180/day is a good deal!
+    500Mbps Wi-Fi, modern furniture, large mirror walls for brainstorming, beanbags and 24/7 access for NT$250/day - or NT$1,899/month if you're staying a while - is a good deal!
   zh-tw: |
-    Second Space 是為科技和設計行業的活躍創作者設計的會員俱樂部。 享受一間設備齊全的辦公室，配備質感設施及會議設備，並提供 25 個彈性座位。腦力激盪牆面，24/7 全天候出入空間，確保會員隨時享有便捷且安全的入場體驗。會員資格採獨家邀請制，以維持高素質的專業人士社群。我們的雙語環境歡迎本地及國際成員，促進多樣化和包容的氛圍。特色包括快速寬頻、高品質家具、頭腦風暴牆、咖啡廳以及與其他成員建立聯繫的機會。
+    就在中央公園站 3 號出口旁邊的 24 小時共享空間。經營方式跟一般的地方不太一樣，是全自助式的：先用官網或 App（iOS、Android 都有）註冊，拍一張臉部照片，之後就靠人臉辨識進出。付款全部線上處理，信用卡、LINE Pay、Google Pay 甚至加密貨幣都可以，但不收現金。
+
+    他們想做的是高雄科技和設計圈創作者的社群空間，平常會辦工作坊、交流活動和技術分享。空間是雙語環境，本地和國際的會員都有。
+
+    沒有供餐，只有零食和飲料，不過走路 20 公尺就有一間平價餐廳。
+
+    500Mbps 網路、質感家具、可以拿來腦力激盪的大片鏡面牆、懶骨頭沙發，加上 24 小時自由進出，一日票 NT$250、月票 NT$1,899，算是蠻划算的。
 ---
