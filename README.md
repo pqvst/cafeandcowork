@@ -144,6 +144,7 @@ Name|Description
 `time_limit`|Is there a time limit for staying? `true` or `false`
 `facebook`|Link to Facebook page
 `instagram`|Link to Instagram account
+`threads`|Link to Threads account
 `telephone`|Telephone number (quote it in YAML)
 `website`|Link to website
 `images`|List of image filenames (stored in `images/<city>/<place>/`)

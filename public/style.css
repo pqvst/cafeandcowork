@@ -712,6 +712,11 @@ a.button.instagram {
   color: white;
 }
 
+a.button.threads {
+  background: #000000;
+  color: white;
+}
+
 a.button.telephone {
   background: #9b59b6;
   color: white;
