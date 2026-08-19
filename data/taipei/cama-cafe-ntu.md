@@ -8,13 +8,13 @@ coordinates: 25.0191257,121.5335469
 address: No. 1號, Lane 76, Section 3, Xinsheng S Rd, Daxue Village, Da’an District, Taipei City, Taiwan 106
 station: Gongguan
 hours:
-mon: 7:30-18
-tue: 7:30-18
-wed: 7:30-18
-thu: 7:30-18
-fri: 7:30-18
-sat: 7:30-18
-sun: 7:30-18
+  mon: 7:30-18
+  tue: 7:30-18
+  wed: 7:30-18
+  thu: 7:30-18
+  fri: 7:30-18
+  sat: 7:30-18
+  sun: 7:30-18
 wifi: 4
 speed: 23
 power: 4
