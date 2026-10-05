@@ -26,7 +26,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: 
 cash_only: false
-animals: false
+animals: true
 lactose_free_milk: true
 time_limit: true
 facebook: 
