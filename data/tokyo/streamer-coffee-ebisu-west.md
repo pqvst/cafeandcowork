@@ -1,5 +1,5 @@
 ---
-added: 2026-10-05
+added: 2026-09-29
 name: STREAMER COFFEE COMPANY (Ebisu-West)
 type: Cafe
 area: Ebisu
@@ -9,7 +9,7 @@ address:
   en: 1F Clean Palace, 1 Chome-10-1 Ebisunishi, Shibuya City, Tokyo 150-0021
   ja: 東京都渋谷区恵比寿西1-10-1 クリーンパレス 1F
 station: Ebisu
-hours: 
+hours: 8-15
 wifi: 5
 speed: 140
 power: 4
@@ -18,7 +18,7 @@ comfort: 3
 quiet: 4
 food: 
 drinks: 4
-price: 
+price: 3
 view: 5
 toilets: 4
 music: true
