@@ -25,7 +25,7 @@ comfort: 3
 quiet: 4
 food: 5
 drinks: 5
-price: 
+price: 3
 view: 4
 toilets: 
 music: 
