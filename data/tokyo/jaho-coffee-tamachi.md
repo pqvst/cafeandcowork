@@ -41,8 +41,8 @@ instagram: https://www.instagram.com/jahocoffeejapan/
 telephone: "+81362751955"
 website: https://www.jaho.jp/
 images:
-  - seating.jpg
   - seating2.jpg
+  - seating.jpg
   - bar.jpg
   - coffee.jpg
   - menu1.jpg
