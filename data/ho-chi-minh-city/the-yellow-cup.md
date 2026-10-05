@@ -40,3 +40,5 @@ instagram: https://www.instagram.com/theyellowcupspecialtycoffee/
 telephone: "+84907890268"
 website: 
 ---
+
+Specialty coffee shop with a stylish, modern interior. Cozy and good light. Specialty coffee, so definitely on the pricey side.
