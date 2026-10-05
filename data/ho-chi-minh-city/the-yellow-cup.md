@@ -21,12 +21,12 @@ speed: 150
 power: 
 vacancy: 5
 comfort: 5
-quiet: 
+quiet: 5
 food: 
 drinks: 5
 price: 3
 view: 5
-toilets: 
+toilets: 4
 music: true
 smoking: false
 standing_tables: true

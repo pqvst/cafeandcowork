@@ -34,8 +34,8 @@ instagram: https://www.instagram.com/little_cam_saigon/
 telephone: 
 website: 
 images:
-  - entrance.jpg
   - seating.jpg
+  - entrance.jpg
   - seating2.jpg
 ---
 
