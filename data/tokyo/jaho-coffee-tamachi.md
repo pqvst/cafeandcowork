@@ -23,7 +23,7 @@ power: 4
 vacancy: 4
 comfort: 3
 quiet: 4
-food: 4
+food: 5
 drinks: 4
 price: 
 view: 4
