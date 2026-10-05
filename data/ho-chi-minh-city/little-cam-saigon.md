@@ -10,24 +10,24 @@ address:
   vi: 3/13D Võ Văn Tần, Phường Xuân Hòa, Quận 3, Thành phố Hồ Chí Minh
 station: 
 hours: 7-22
-wifi: 
+wifi: 5
 speed: 
 power: 3
 vacancy: 4
 comfort: 3
-quiet: 
+quiet: 5
 food: 
 drinks: 4
 price: 4
 view: 5
-toilets: 
+toilets: 3
 music: true
 smoking: false
 standing_tables: false
 outdoor_seating: true
-cash_only: 
+cash_only: true
 animals: false
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: 
 instagram: 
