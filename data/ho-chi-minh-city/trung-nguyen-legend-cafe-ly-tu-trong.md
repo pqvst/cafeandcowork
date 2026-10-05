@@ -1,5 +1,5 @@
 ---
-added: 2026-10-05
+added: 2026-09-22
 name: Trung Nguyên Legend Café Lý Tự Trọng
 type: Cafe
 area: District 1
@@ -22,7 +22,7 @@ price: 4
 view: 5
 toilets: 
 music: true
-smoking: 
+smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
