@@ -38,6 +38,7 @@ images:
   - counter.jpg
   - bench.jpg
   - posters.jpg
+  - menu.jpg
 ---
 
 Pre-opened on September 29, 2026, with the grand opening on October 8. Located in the quiet side streets near Ebisu station. Window counter seats and a large table, both suitable for laptop use. Power and fast WiFi. Large menu with dark roast, light roast, and non-coffee drinks.
