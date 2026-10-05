@@ -34,8 +34,8 @@ instagram: https://www.instagram.com/streamercoffeecompany/
 telephone: 
 website: http://streamer.coffee/
 images:
-  - counter.jpg
   - seating.jpg
+  - counter.jpg
   - bench.jpg
   - posters.jpg
 ---
