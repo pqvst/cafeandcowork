@@ -28,14 +28,14 @@ drinks: 5
 price: 3
 view: 4
 toilets: 
-music: 
+music: true
 smoking: false
-standing_tables: 
+standing_tables: true
 outdoor_seating: true
 cash_only: false
-animals: 
-lactose_free_milk: 
-time_limit: 
+animals: false
+lactose_free_milk: true
+time_limit: false
 facebook: 
 instagram: https://www.instagram.com/jahocoffeejapan/
 telephone: "+81362751955"
