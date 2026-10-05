@@ -33,6 +33,11 @@ facebook:
 instagram: 
 telephone: "+815054923535"
 website: 
+images:
+  - seating.jpg
+  - entrance.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
 Premium coffee, so quite pricey. The interior is quite dark with no natural light, but there are quite a few tables. Chairs are on the hard side. WiFi and power are available so it's definitely workable, but it seems like they'll ask you to leave if you stay too long when it's busy. Staff was very friendly and accommodating.
