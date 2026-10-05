@@ -42,6 +42,8 @@ telephone: "+81362751955"
 website: https://www.jaho.jp/
 images:
   - seating.jpg
+  - seating2.jpg
+  - bar.jpg
   - coffee.jpg
   - menu1.jpg
   - menu2.jpg
