@@ -33,6 +33,10 @@ facebook:
 instagram: https://www.instagram.com/little_cam_saigon/
 telephone: 
 website: 
+images:
+  - entrance.jpg
+  - seating.jpg
+  - seating2.jpg
 ---
 
 Small, cozy and cute, down a small quiet alley. Nice drinks and good coffee. WiFi and power are available. The counter seats by the windows are nice to sit at.
