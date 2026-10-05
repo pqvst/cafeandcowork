@@ -11,7 +11,7 @@ address:
 station: 
 hours: 7-22
 wifi: 5
-speed: 
+speed: 50
 power: 3
 vacancy: 4
 comfort: 3
@@ -30,7 +30,7 @@ animals: false
 lactose_free_milk: true
 time_limit: false
 facebook: 
-instagram: 
+instagram: https://www.instagram.com/little_cam_saigon/
 telephone: 
 website: 
 ---
