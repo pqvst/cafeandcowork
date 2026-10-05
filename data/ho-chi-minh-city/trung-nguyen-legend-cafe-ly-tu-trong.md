@@ -27,7 +27,7 @@ standing_tables: false
 outdoor_seating: false
 cash_only: false
 animals: false
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/trungnguyenlegend
 instagram: https://www.instagram.com/trungnguyenlegend/
