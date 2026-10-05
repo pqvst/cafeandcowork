@@ -18,7 +18,7 @@ hours:
   sat: 8-20
   sun: 8-20
 wifi: 2
-speed: 
+speed: 10
 power: 4
 vacancy: 
 comfort: 
