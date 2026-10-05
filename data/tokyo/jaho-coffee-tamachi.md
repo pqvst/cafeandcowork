@@ -40,6 +40,13 @@ facebook:
 instagram: https://www.instagram.com/jahocoffeejapan/
 telephone: "+81362751955"
 website: https://www.jaho.jp/
+images:
+  - seating.jpg
+  - coffee.jpg
+  - menu1.jpg
+  - menu2.jpg
+  - menu3.jpg
+  - menu4.jpg
 ---
 
 Nice vibes with good natural light, and counter seats facing the windows. Power outlets are readily available. The WiFi is on the slow side (under 10 Mbps). Good selection of both drinks and food. Jaho roasts its own beans, and in the evening the place turns into a wine bar.
