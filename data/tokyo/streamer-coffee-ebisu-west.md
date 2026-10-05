@@ -33,6 +33,11 @@ facebook:
 instagram: https://www.instagram.com/streamercoffeecompany/
 telephone: 
 website: http://streamer.coffee/
+images:
+  - counter.jpg
+  - seating.jpg
+  - bench.jpg
+  - posters.jpg
 ---
 
-Newly opened in September 2026. Located in the quiet side streets near Ebisu station. Window counter seats and a large table, both suitable for laptop use. Power and fast WiFi. Large menu with dark roast, light roast, and non-coffee drinks.
+Pre-opened on September 29, 2026, with the grand opening on October 8. Located in the quiet side streets near Ebisu station. Window counter seats and a large table, both suitable for laptop use. Power and fast WiFi. Large menu with dark roast, light roast, and non-coffee drinks.
