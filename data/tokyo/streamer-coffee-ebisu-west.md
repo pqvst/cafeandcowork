@@ -25,7 +25,7 @@ music: true
 smoking: false
 standing_tables: true
 outdoor_seating: false
-cash_only: 
+cash_only: false
 animals: true
 lactose_free_milk: true
 time_limit: false
