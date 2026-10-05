@@ -33,6 +33,12 @@ facebook: https://www.facebook.com/trungnguyenlegend
 instagram: https://www.instagram.com/trungnguyenlegend/
 telephone: "+842838258847"
 website: https://trungnguyenlegend.com/
+images:
+  - window.jpg
+  - view.jpg
+  - seating.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
 Large, modern and stylish cafe over multiple floors. The window-side tables are really nice, overlooking the intersection below. Order on the first floor and the staff will bring it to you. Decent WiFi and power outlets available.
