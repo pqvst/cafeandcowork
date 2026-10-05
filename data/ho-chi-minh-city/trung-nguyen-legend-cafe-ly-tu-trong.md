@@ -20,7 +20,7 @@ food:
 drinks: 4
 price: 4
 view: 5
-toilets: 
+toilets: 3
 music: true
 smoking: false
 standing_tables: false
