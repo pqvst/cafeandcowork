@@ -33,12 +33,16 @@ standing_tables: true
 outdoor_seating: true
 cash_only: false
 animals: false
-lactose_free_milk: 
+lactose_free_milk: true
 time_limit: false
 facebook: https://www.facebook.com/p/The-Yellow-Cup-100040935860170/
 instagram: https://www.instagram.com/theyellowcupspecialtycoffee/
 telephone: "+84907890268"
 website: 
+images:
+  - interior.jpg
+  - menu1.jpg
+  - menu2.jpg
 ---
 
 Specialty coffee shop with a stylish, modern interior. Cozy and good light. Specialty coffee, so definitely on the pricey side.
