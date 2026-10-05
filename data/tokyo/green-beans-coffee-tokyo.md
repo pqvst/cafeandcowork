@@ -1,5 +1,5 @@
 ---
-added: 2026-10-05
+added: 2026-10-04
 name: Green Beans Coffee Tokyo
 type: Cafe
 area: Sendagaya
