@@ -22,7 +22,7 @@ speed: 10
 power: 4
 vacancy: 4
 comfort: 3
-quiet: 
+quiet: 4
 food: 4
 drinks: 4
 price: 
