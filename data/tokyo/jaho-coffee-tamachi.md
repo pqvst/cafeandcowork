@@ -49,4 +49,4 @@ images:
   - menu4.jpg
 ---
 
-Nice vibes with good natural light, and counter seats facing the windows. Power outlets are readily available. The WiFi is on the slow side (under 10 Mbps). Good selection of both drinks and food. Jaho roasts its own beans, and in the evening the place turns into a wine bar.
+Nice vibes with good natural light, and counter seats facing the windows. Power outlets are readily available. The WiFi is on the slow side (under 10 Mbps). Good selection of both drinks and food.
