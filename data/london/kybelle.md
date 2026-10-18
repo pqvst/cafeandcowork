@@ -2,7 +2,8 @@
 contributors:
   - https://github.com/bkase
 added: 2023-05-29
-name: Kybelle - Cafe & Bar
+updated: 2026-10-15
+name: Kybelle Café & Brunch
 type: Cafe
 area: Shoreditch
 google_maps: https://goo.gl/maps/4Mw92R1Z3iAD3MXZ9
@@ -11,11 +12,11 @@ address:
   en: 62 Great Eastern St, London EC2A 3QR
 station: Old Street
 hours:
-  mon: 8-16:30
-  tue: 8-16:30
-  wed: 8-16:30
-  thu: 8-16:30
-  fri: 8-16:30
+  mon: 8-16
+  tue: 8-16
+  wed: 8-16
+  thu: 8-16
+  fri: 8-16
   sat: 9-17
   sun: 9-17
 wifi: 2
@@ -33,7 +34,7 @@ smoking: false
 standing_tables: false
 outdoor_seating: false
 cash_only: false
-instagram: https://www.instagram.com/kybelleshoreditch/
+instagram: https://www.instagram.com/kybellecafe/
 telephone: "+447398854940"
 website: https://www.kybelle.co.uk/
 
