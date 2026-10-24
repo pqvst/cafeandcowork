@@ -39,6 +39,6 @@
   },
   "type": "module",
   "engines": {
-    "node": "25"
+    "node": "26"
   }
 }
