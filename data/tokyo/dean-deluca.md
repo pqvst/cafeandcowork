@@ -1,6 +1,6 @@
 ---
 added: 2024-07-09
-name: Dean & DeLuca
+name: DEAN & DELUCA (Daikanyama Campus)
 type: Cafe
 area: Nakameguro
 google_maps: https://maps.app.goo.gl/D5Q4kEppf1YXcyef7
