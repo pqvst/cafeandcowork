@@ -1,5 +1,6 @@
 ---
 added: 2023-12-06
+updated: 2026-11-17
 name: LATTEST
 type: Cafe
 area: Omotesando
@@ -8,8 +9,8 @@ coordinates: 35.668930230714984, 139.7123697825217
 address: 3 Chome-5-2 Jingumae, Shibuya City, Tokyo 150-0001
 station: Omotesando
 hours: 10-19
-wifi: 4
-speed: 39
+wifi: 5
+speed: 500
 power: 2
 vacancy: 3
 comfort: 2
